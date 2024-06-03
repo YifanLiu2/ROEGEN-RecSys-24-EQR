@@ -1,0 +1,890 @@
+{{pagebanner|Istanbul Banner.jpg}}
+
+{{printDistricts}}
+
+[http://english.istanbul.com/ '''Istanbul'''] ([[Turkish phrasebook|Turkish]]: ''İstanbul'') is [[Turkey]]'s most populous city as well as its cultural and financial hub. Located on both sides of the '''[[Istanbul/Bosphorus|Bosphorus]]''', the narrow strait between the Black Sea and the Marmara Sea, Istanbul bridges [[Asia]] and [[Europe]] both physically and culturally. Istanbul's population is estimated to be between 16 and 19 million people, making it also one of the largest cities in Europe and the world.
+
+==Districts==
+{{Regionlist
+| regionmap=Istanbul_districts_map.png
+| regionmaptext=Istanbul districts
+| regionmapsize=upright=2
+
+| region1name=[[Istanbul/Sultanahmet-Old_City|Sultanahmet-Old City]]
+| region1color=#8b8448
+| region1items=
+| region1description=Essentially the Constantinople of the Roman, Eastern Roman/Byzantine, and much of the Ottoman periods, this is where most of the famous historical sights of Istanbul are located.
+
+| region2name=[[Istanbul/Galata|Galata]]
+| region2color=#ee6cda
+| region2items=
+| region2description=Housing many of the nightlife venues of the city, this district  includes '''Beyoğlu''', '''Istiklal Street''', and '''Taksim Square''' also its own share of sights and accommodation.
+
+| region3name=[[Istanbul/New_City|New City]]
+| region3color=#c189de
+| region3items=
+| region3description=Main business district of the city with many modern shopping malls and districts such as '''Elmadağ''', '''Nişantaşı''', and '''Etiler'''.
+
+| region4name=[[Istanbul/Bosphorus|Bosphorus]]
+| region4color=#cf9383
+| region4items=
+| region4description=European bank of the Bosphorus dotted by numerous palaces, parks, water-front mansions, and bohemian neighbourhoods, such as '''Beşiktaş''' and '''Ortaköy'''.
+
+| region5name=[[Istanbul/Golden_Horn|Golden Horn]]
+| region5color=#8588e1
+| region5items=
+| region5description=Banks of Golden Horn, the estuary that separates the European side into distinctive districts. '''Eyüp''', with an Ottoman ambience, is located here.
+
+| region6name=[[Istanbul/Princes’_Islands|Princes’ Islands]]
+| region6color=#68b867
+| region6items=
+| region6description=An excellent getaway from the city, made up of an archipelago of nine car-free islands—some of them small, some of them big—with splendid wooden mansions, verdant pine gardens and nice views—both of the islands themselves, and also on the way there.
+
+| region7name=[[Istanbul/Asian_Side|Asian Side]]
+| region7color=#b7d486
+| region7items=
+| region7description=Eastern half of Istanbul, with lovely neighborhoods at the Marmara and Bosphorus coasts.
+
+| region8name=[[Istanbul/Western_Suburbs|Western Suburbs]]
+| region8color=#bbb68d
+| region8items=
+| region8description=Western chunk of the European Side.
+}}
+
+==Understand==
+
+===History===
+[[Image:AhmetCamii_Silhouette.JPG|thumb|Sultan Ahmet Mosque at dusk]]
+Expanding the ancient Roman colony of '''Byzantium''' by the order of the Roman Emperor Constantine the Great, the imperial city of '''Constantinople''' was for nearly a thousand years the last remaining outpost of the Roman (later termed Eastern Roman or Byzantine) Empire. It was finally conquered by the Ottoman Sultan Mehmed II on 29 May 1453, an event sometimes used to mark the end of the Middle Ages. It was the nerve centre for military campaigns that were to enlarge the Ottoman Empire dramatically. By the mid 1500s, Istanbul, with a population of almost half a million, was a major cultural, political, and commercial centre. Ottoman rule continued until it was defeated in WWI and Istanbul was occupied by the allies. When the Republic of Turkey was born in 1923 after the War of Independence, Kemal Atatürk moved its capital to the city of Ankara. However, Istanbul has continued to expand dramatically; today its population is approximately 14 million and increases at an estimated 400,000 immigrants per year. Industry has expanded even as tourism has grown.
+
+===Orientation===
+Istanbul is divided in three by the north-south '''Bosphorus Strait''' (Istanbul Bogazi), the dividing line between Europe and Asia, the estuary of the '''Golden Horn''' (''Haliç'') bisecting the western part and the '''Sea of Marmara''' (''Marmara Denizi'') forming a boundary to the south.  Most sights are concentrated in the old city on the peninsula of '''Sultanahmet''', to the west of the Bosphorus between the Horn and the Sea.  Across the Horn to the north are '''Galata''', '''Beyoğlu''' and '''Taksim''', the heart of modern Istanbul, while '''Kadıköy''' is the major district on the comparatively less-visited Anatolian side of the city.  The Black Sea forms the northern boundary of Istanbul.
+
+===Climate===
+{{Climate
+| units = Metric
+| janhigh =   7
+| febhigh =   8
+| marhigh =   10
+| aprhigh =   15
+| mayhigh =   20
+| junhigh =   25
+| julhigh =   27
+| aughigh =   27
+| sephigh =   24
+| octhigh =   19
+| novhigh =   13
+| dechigh =   10
+| janlow =   2
+| feblow =   2
+| marlow =   4
+| aprlow =   8
+| maylow =   12
+| junlow =   16
+| jullow =   18
+| auglow =   18
+| seplow =   16
+| octlow =   12
+| novlow =   8
+| declow =   5
+| janprecip = 98
+| febprecip = 80
+| marprecip = 70
+| aprprecip = 46
+| mayprecip = 36
+| junprecip = 34
+| julprecip = 39
+| augprecip = 48
+| sepprecip = 61
+| octprecip = 97
+| novprecip = 111
+| decprecip = 124
+| description = [https://www.mgm.gov.tr/eng/forecast-cities.aspx?m=ISTANBUL Istanbul - Weather forecast]
+}}
+
+[[Image:Bogaz.jpg|thumb|It can be cloudy, rainy, or even snowy in Istanbul]]
+
+Istanbul has a temperate oceanic climate which is influenced by a continental climate, with hot and humid summers and cold, wet and occasionally snowy winters.
+
+Istanbul has a high annual average rainfall of 844mm (which is more than that of London, Dublin or Brussels, whose negative reputation Istanbul does not suffer), with late autumn and winter being the wettest, and late spring and summer being the driest. Although late spring and summer are relatively dry when compared to the other seasons, rainfall is significant during these seasons, and there is no dry season as a result.
+
+If there is a negative reputation that Istanbul does suffer from, it is the high annual relative humidity, especially during winter and summer with the accompanying wind chill and concrete-island effect during each respective season.
+
+[[File:İstanbul 4228.jpg|thumb|Ortaköy Mosque, along the Bosphorus]]
+Summer is generally hot with averages around 27ºC during the day and 18ºC at night. High relative humidity levels and the ‘concrete-island effect’ only make things worse. Expect temperatures of up to 35° C for the hottest days of the year. Summer is also the driest season, but it does infrequently rain. Showers tend to last for 15-30 minutes with the sun usually reappearing again on the same day. Flash floods are a common occurrence after heavy rainfalls (especially during summer), due to the city's hilly topography and inadequate sewage systems.
+
+Winter is cold and wet, averaging 2ºC at night and 7ºC during the day.  Although rarely below freezing during the day, high relative humidity levels and the wind chill makes it feel bitterly cold and very unpleasant.
+
+Snowfall, which occurs almost annually, is common between the months of December and March, with an annual total snow cover of almost three weeks, but average winter snowfall varies considerably from year to year, and snow cover usually remains only for a few days after each snowfall, even under intense snow conditions. 
+
+Late spring (late May to early June) and early autumn (late September to early October) are very pleasant and therefore the best times to visit the city.  During these periods it is neither cold nor hot, and still sunny, though the nights can be chilly and rain is common.
+
+For visitors an umbrella is recommended during spring, autumn and winter, and during the summer to avoid the sun and occasionally the rain. However, it’s not such a big problem, since streets of Istanbul are suddenly filled by umbrella sellers as soon as it starts raining. Although the umbrellas they provide are a little shoddy, going rate is only TRY5 –about USD3- per umbrella (though you can find much better umbrellas for that price at shops if you look around a bit).
+ 
+Light clothing is recommended during summer and a light jacket and/or light sweater if the summer evenings do become chilly, warm clothing is essential during winter and a mixture of the two during spring and autumn.
+ 
+Also take note that due to its huge size, topography and maritime influences, Istanbul exhibits a multitude of distinct micro-climates.  Thus, different sections of Istanbul can experience different weather conditions at the same time.  For example, at the same moment, it can be heavily raining in Sarıyer in the north, mildly raining in Levent (northern terminus of metro line), while Taksim, the southern terminus of metro line, is having a perfectly sunny day.
+
+==Get in==
+
+===Visa requirements===
+
+If you need a visa to enter Turkey, it can usually be obtained online. Check if this applies to you, and apply in advance, at evisa.gov.tr.  Do not rely upon any other website, even here at Wikitravel, as the rules may change suddenly as the security situation in Turkey evolves. Also some websites charge extra for no additional service. In general EU Schengen and UK passport holders don't need a visa to enter (as of February 2022), for up to 90 days in a 180 day period. North American need a visa costing US$35-50 valid for 90 days, residents of China pay US$ 60 for 30 days, and visa duration and price varies for other nations. Some travelers are not eligible for an evisa and must apply for a conventional visa via their local Turkish Embassy.  However these same travelers (e.g., Indian citizens) who are otherwise ineligible with solely their citizenship may be eligible for an eVisa if they hold a valid visa or residence permit for Schengen, USA, UK or Ireland for a fee of US$43.
+
+Apply at the same time as you book your trip - your 90 (or other) day visa validity will start from your stated arrival day in Turkey. Print it out and keep it with you, as well as a soft copy on your phone. As well as checks when flying, it could be demanded at an internal police check. 
+
+In theory you are permitted to arrive at Ataturk airport without a visa and use the visa office or machine to apply there (Visa on arrival).  However this is only available for certain nationalities.
+
+Warning: If you are ineligible for an e-visa because your passport expires less than 150 days from the date of entrance, your only option may be the "Diğer Harçlar" visa, which can only be obtained upon arrival at the airport. The price is 567.50 TL.
+
+===By plane===
+
+====Istanbul New Airport====
+[https://www.istairport.com/en  Istanbul New Airport] (IATA: IST, ICAO: LTFM)  was opened on 29 October 2018. It became the main international airport in Istanbul, Turkey. After Istanbul Atatürk Airport was closed, all its passenger flights were transferred to Istanbul New Airport. 
+
+The airport is located in the Arnavutköy district, which is on the European side of Istanbul.
+
+Getting into the city from Istanbul New Airport is relatively easy and doable using an Istanbulkart. Go to the Level (-2) of the airport, and on this level there are several large '''Havaist buses''' at numbered gates that depart periodically for the city. On this level you can purchase an Istanbulkart (50 Turkish lira) and top up the card for your journey. Top-up machines accept cash bills only.
+A total of 19 routes (as of July 2019) from IST are served by regular buses for a fare of 12 TL (Arnavutköy nearby IST)...30 TL (Pendik on the Asian site) with most destinations for 16...18 TL. For example, IST to Sultahnamet Square costs 18 TL and the journey is approximately 1-1.5 hours, depending on traffic. Fare from IST to Taksim Square in Aug 2022 is 52TRY (90 mins). Havaist buses use public roads without any allocated lane. Details on prices and other bus destinations are listed on [https://hava.ist/en/new-timetables this page] (use Istanbul Havalimani as the start location).
+
+'''Note''': To go TO the new airport from one of these locations, it is possible to pay with Istanbulkart OR credit card for the trip fare.
+
+One of the fastest ways to get from/to the Istanbul New Airport is booking a private transfer. There are many companies that offer such service.  Transfers are a better option, when you have a night/morning flight, or travel with kids, or in a group. There are several car classes from economy to minibuses for 16 passengers. This service must be booked in advance. Passengers may order some additional services as they need (i.e. child seat). The driver meets you at the airport with a sign with your name.
+
+====Sabiha Gökçen Airport====
+Istanbul also has a second airport, [http://www.sgairport.com/ '''Sabiha Gökçen International Airport'''] ({{IATA|SAW}}), located in the [[Istanbul/Asian Side|Anatolian side]] of the city.  
+
+The cheapest and most convenient way to arrive from Sabiha Gökçen to Kadiköy is my metro M4 or by bus (E10 or E11 lines). Metro and bus arrives to ferry port from where you can get to the European side of Istanbul (from Kadiköy to many ferry stations, including some in the Sultanahmet area). Using Istanbulkart or Akbil (see below), the price is less than TRY8. Be aware that last ferries are between 10 and 11pm, yet the E10 continues throughout the night.
+
+A pricier option is the '''''Havatas'' bus''' connects this airport with Taksim in the city centre for TRY24 and takes about an hour and a half (closer to two or more in heavy traffic). There is also a Havatas service to the ferry pier in Kadıköy, a transportation hub of Asian Side, which costs TRY 10. If you arrive in the middle of the night, you can move to the departure hall after passing customs and rest on very comfortable seats — you will even find coin-operated Japanese massage chairs. Then, at 05:00 the first Havatas bus will take you to town. The Havatas bus schedule is sometimes linked to the arrival/departure times of planes.
+
+Various private operators offer internet bookable shared minibuses to central locations — a good choice when arriving late. A typical price being €90 for 4 people to a hotel in [[Istanbul/Sultanahmet-Old City|Laleli]].  Another private airport transfer company offers €45 for a minivan for 4 people to Old City. A taxi to Sabiha Gökçen airport from Taksim, which lies around 50km from the airport, takes c. 35 minutes at 03:30 with no traffic.  The meter will show c. TRY75, plus there is c. TRY6 in tolls. Note the security screening is ''before'' the check-in counters, so add some extra time to make the cut-off times (45 minutes for international, 30 for domestic).
+
+===By train===
+
+The Marmaray extension is now opened- make sure you check the Turkish railways website at tcdd.gov.tr. as many routes have now changed.
+
+You probably need a visa in advance to enter Turkey by train – see the note on visas in the section on Ataturk airport.
+
+Trains east to Ankara and beyond historically ran from Haydarpasa, Asian side of the Bosporus, but this was closed in 2012. High speed trains (“YHT”) now run from Söğütlüçeşme station with frequent services to [[Eskişehir]] (3 hours) and [[Ankara]] (4½ hours), and a twice daily service to [[Konya]] (5 hours). 
+
+[[Image:Haydarpasa.jpg|thumb|Haydarpasa Station has closed]]
+
+For timings and reservations (strongly recommended) see Turkish railways website at tcdd.gov.tr. For destinations in eastern Turkey, take the YHT to [[Ankara]] and change, but see that page for disruptions to those services. For Adana, travel via Konya. The international trains to Iran, Syria and Iraq are suspended indefinitely. The train to Georgia currently only serves freight but this may change in future.
+
+===By bus===
+
+Most buses and coaches terminate at the colossal Esenler ''Otogar'', about 10 km west of the city center, located on the European side. The station can be easily reached via the Otogar stop on the M1. Companies may also have courtesy minibuses or taxis which will allow you to easily access the center of the city.  
+
+Buses depart/arrive for all regions of Turkey as well as for international destinations including  cities in [[Bulgaria]], [[Greece]], [[Republic of Macedonia]] and [[Romania]]. The terminal is huge and each company has a separate office. The area can be a tourist trap with people wanting to help get you to the right office -- for a fee. It is easiest if you know who you want to travel with when you arrive.
+
+With 168 ticket offices and gates, shops, restaurants, hotel, police station, clinic and mosque, the Büyük Otogar is a town in itself.
+From/To Thessaloniki (Greece): ticket prices are around €45 (one way),€80 with return . From/To Sofia and Varna (Bulgaria): ~30€ (one way). From/To Skopje (Macedonia): ~40€ (one way). Ticket prices may change related to petrol costs but on an average 100 kilometers costs 5€ (Euros). Some bus companies selling online tickets from their individual webpages. Varan, Ulusoy, Pamukkale and KamilKoç are considered as best bus companies in Turkey.
+
+"Harem" is the major hub for the buses on the Anatolian (Asian) side, which can be reached easily from the European side with a Ferryboat.
+
+Turkish bus companies mostly don’t have a toilet inside the bus. Buses stop for rest and needs usually every 4 or 5 hours. Rest duration is 30 minutes.
+
+===By boat===
+[[Image:Bospours.jpg|thumb|Maiden's Tower, located on an islet at the southern entrance of Bosphorus]]
+
+International ferries, carrying tourist groups from outside Turkey stop at Karaköy Port. The port is ideally located close to Sultanahmet and Taksim. Most of them arrive from Odesa, Ukraine. 
+
+Cruise ships often dock close to downtown.  Passengers not on tours will find taxis readily available at the port entrance, and modern streetcars a short walk away.
+
+===By car===
+Traffic in Istanbul can be manic; expect a stressful drive because you will be cut off and honked at constantly. The city currently holds more than 1,500,000 automobiles and there is a strong demand for building of new or alternate highways.
+
+If you've arrived in Istanbul by car, and you're not familiar with the streets, it's better to park your car in a safe place and take public transportation to get around.
+
+The city, lying on two different continents and separated by the Bosphorus, is connected by three bridges as well as a tunnel. The bridge in the south, closer to the Marmara Sea, is called the "Bosphorus Bridge" (although it was renamed as July 15th bridge). The bridge closer to the Black Sea is named "Fatih Sultan Mehmet Bridge" and is longer than the first one. Both are toll bridges, and you must pay a fee to cross.
+
+The Bosphorus Bridge toll stations do not accept cash, and payment must be made using electronic cards, either manually (KGS) or automatically via a transponder mounted on the front of the car (OGS).  The Fatih Sultan Mehmet Bridge does not accept cash either, only KGS or OGS. The minimum amount of credit which can be purchased for a KGS card is 50 Turkish Lyra (October 2012).
+
+On weekdays, drivers should be aware of potentially hour-long traffic jams on the highways leading to both bridges, particularly heading west in the mornings and east in the evenings, since many people live on the Asian side but work on the European side.
+
+There is a great shortage of parking in Istanbul, and existing car parks are quite expensive. You will see many cars parked on the sides of the road. 
+
+Drivers unfamiliar with the city should also be aware that street signs are rare. It is a common thing to pull over and ask for directions, something the natives and taxi drivers do quite often.
+
+==Get around==
+[[Image:Istanbul_Rapid_Transit_Map.png|thumb|Rapid transit map of Istanbul (urban rail and ''metrobüs'' systems)]]
+
+===Public transport===
+
+Istanbul has a good public transport system with lots of new metro, rail and tram lines opening since the Millenium. There are many out-of station transfers that require you to pay another fare, to get where you are going. However, if you put some effort into it, you can avoid taxis and not walk too much. An easy way to cope with the system is to download city-smart applications such as "trafi". Google maps also show updated transport options between two points of travel.
+
+There is an extensive bus system, including city-run and private buses, as well as one high-speed ''Metrobüs'' line; an extensive light rail system including six ''Metro'' (underground) lines, four ''Tramvays'' (aboveground), three ''Fünikülers'' (ascending/descending), two mini-lines called ''Teleferik'', and the ''Marmaray'' (underwater) lines; and the ferries which travel the Bosphorus.
+
+An important supplement to all of this (particularly late at night) is the fleet of private ''dolmuş'' minivans, which follow prescribed routes and wait until they fill up before departing. They range in price from 2-8 lira (paid in cash), depending on how far you're going. They run all night long, unlike most of the public transport lines. So if you find yourself stranded at Taksim at 4 am, a dolmuş is your way home. Look for the yellow minivans, and ask them where they're going ("néreye gidiyórsunuz?").
+
+Each time you use a tram, metro, bus, or boat on the public transport system, you will need to touch a magnetic card known as "Istanbulkart". You can purchase your personal card at one of the yellow vending machines found at all major metro and rail stations. As of 2021, an Istanbulkart costs 10 lira. You can then top up your card at any yellow ticket machine. Note: except for some of the latest ticket machines, only cash is accepted. Most stations have an ATM. Ticket fares across buses, trams, and metros are at a flat rate (i.e. not dependent on how far you go).  Also, be aware that the Istanbul subway system does not offer transfer tickets and as such each new line requires a new fare unless you use Istanbulkart.
+See the dedicated Istanbulkart website for information on all the cards available and discounts.
+
+===Istanbulkart===
+
+Buying an Istanbulkart is a good idea if you are in Istanbul for more than a day or two, and intend to use public transport. Basically it pays itself if you take more than 4 times of bus, metro, ferry etc.   This is a plastic card that looks like a credit card.  It can be used as a ticket on buses, trams, suburban trains, metro, some cross-Bosphorus ferries, and even some public toilets. You touch the Istanbulkart to a reader when you get on the bus or enter the tram/metro platform. You can buy or refill them at designated booths located at any major bus, tram, to metro station, as well as some other places such as newspaper stands close to bus stops. An Istanbulkart provides a flat fare of 2.60TL for the first ride, which is a cheaper option in comparison to tokens used in Metro and speed trams. It is also 3,85TL to the Prince's Islands, 4,15TL to Sabiha Gökçen airport instead of 5TL. Istanbulkart also allows discounts in transfers, 1.85 TL for second trip and 1.40 for third trip etc., within roughly an hour and a half since the last time you used it). Card-issuing machines don't give any change, so anything above the deposit of 10 TL (non-refundable) will be the initial balance of the card. All but the most modern charging booths accept only 5, 10, and 20 lira banknotes.
+
+Once you have bought and loaded the card, your first journey costs 2.60TL (except for Metrobus and Marmaray which cost depends on how many stations you go). Then, any change within approximately 2 hours costs progressively cheaper: the second journey is 1.85TL, the third is 1.40TL etc. (fares accurate as of Apr 2019). 
+The Istanbulkard has been in use since 2015 or earlier, having replaced the older ''Akbil'' metal touch-token.
+
+====By bus====
+
+[[Image:iett.jpg|thumb|Bus and tram, together]] 
+
+<listing name="IETT" url="http://iett.gov.tr/en/index.php"></listing>
+
+There are two types of public buses in Istanbul; those run by the private sector and those run by the city-owned ''İETT''. You can differentiate these two types by their colors. Privately run buses are blue-green with yellow non-electronic destination signs while ''İETT''-run buses come in many flavors including old red-blue ones, newer green ones and red double-deckers. Tickets that can be obtained in kiosks near bus stops for 1.40 TL are valid only on ''İETT'' buses and cash payment only on private buses, although if you get on an ''İETT'' bus the driver will normally accept cash (normally 1.50 TL but this is dependent entirely upon what the driver wishes to charge) and hand you his ''Istanbulkart'' for you to use.
+
+Some bus lines are called "Regional Lines" and their prices vary on how many stations you went like Metrobus and Marmaray. Almost all of these lines go to the furthest places of Istanbul.
+
+Recently installed ''Metrobüs'', long hybrid buses running on their special lanes separated from all other traffic and thus saving lots of time in Istanbul's usually congested roads, connect [[Istanbul/Western Suburbs|western suburb]] of Avcılar with Kadıköy in [[Istanbul/Asian Side|Asian Side]] via [[Istanbul/Western Suburbs|Bakırköy]], Cevizlibağ which is just out of [[Istanbul/Sultanahmet-Old City|old city]] walls near Topkapı Gate, and [[Istanbul/New City|Mecidiyeköy]].
+
+Most bus lines operate between 6 AM and around midnight, usually with a reduced volume of services after 10 PM. Some lines between major centers operate 24 hr, though, as is the ''Metrobüs'', with about an hour intervals. After midnight, buses cost two tickets pp rather than the usual one. Buses and streetcars tend to be very crowded during rush hours, especially on Mondays and Fridays. That can also create opportunities for pickpockets.
+
+'''24 hr Bus Lines''':
+
+*73  Taksim Square-Ataturk International Airport
+*110 Taksim Square-Kadikoy
+*112 Taksim Square-Bostanci
+*25T Taksim Square-Sariyer
+*40  Taksim Square-Sariyer
+*89C Taksim Square-Basaksehir
+*E10 Kadikoy-Sabiha Gokcen International Airport
+*15F Kadikoy-Uskudar
+*130 Kadikoy-Tuzla
+*34A Sogutlucesme(Kadikoy)-Edirnekapi (Metrobus)
+*34  Avcilar-Zincirlikuyu (Metrobus)
+
+As a tourist, you are most likely to use the tram and the metro in the Sultanahmet and Taksim area since there are no bus lines operating in the Sultanahmet area anymore.
+
+====By metro====
+
+Istanbul's first underground system dates back to the 19th century when the funicular subway "Tünel" was constructed to operate from [[Istanbul/Galata|Karaköy to Istiklal Street]] in 1875. The distance traveled was 573 meters. This is a good way to go up the hill from the Beyoğlu side of the Galata Bridge to the famous Istiklal Caddesi pedestrian street.
+
+Starting in the 1990's, a modern and extensive (and often confusing) light rail system has been constructed in all parts of the city. The newest (as of October 2014) addition is the Marmaray undersea tunnel, which crosses below the Bosphorus from the Sultanahmet area to the Anatolian side. Underground lines are called "metro," above ground lines are called "tram," and there are also short, uphill lines called "füniküler," two tiny "teleferik" lines, and the undersea Marmaray. There is also a high-speed bus called Metrobüs, complementary to this whole network.
+
+There are six Metro lines, the first of which has two branches. The most useful to most tourists will be M1A which visits both Atatürk Airport and the Otogar Bus Station, and the M2 which passes near to Sultanahmet and travels to Galata/Taksim and beyond.
+
+All lines are still being extended, but as of April 2019, they include:
+* M1A starts in Yenikapı and ends at Atatürk Airport, traveling via Aksaray, Emniyet-Fatih, Topkapı-Ulubatlı, Bayrampaşa-Maltepe, Sağmalcılar, Kocatepe, Otogar, Terazidere, Davutpaşa-YTÜ, Merter, Zeytinburnu, Bakırköy-İncirli, Bahçelievler, Ataköy-Şirinevler, Yenibosna, DTM İstanbul Fuar Merkezi, and finally Atatürk International Airport (Havalimanı)
+* M1B also starts in Yenikapı and has the same stops as M1A until Otogar. After Otogar, it continues with Esenler, Menderes, Üçyüzlü, Bağcılar Meydan and finally Bağcılar Kirazlı
+* M2 travels between Yenikapı (south of Sultanahmet) and Hacıosman, stopping at Vezneciler, Haliç, Şişhane (near [[Istanbul/Galata|Galata Tower]]), Taksim Square (north end of [[Istanbul/Galata|Beyoğlu]]), Osmanbey, Şişli-Mecidiyeköy, Gayrettepe, Levent, 4 Levent, Sanayi, İTÜ Ayazağa, Atatürk Oto Sanayi, Darüşşafaka, and finally Hacıosman.
+* M3 is the Kirazlı-Olimpiyat-Başakşehir line. This line also has two branches; the part that goes to far western district of Başakşehir, and the part that goes to Ataturk Olympic Stadium which will host 2020 UEFA Champions League final.
+* M4 goes from Kadıköy to Tavşantepe on the [[Istanbul/Asian Side|Anatolian side]], stopping at Ayrılık Çeşmesi, Acıbadem, Ünalan (aka Uzunçayır), Göztepe, Yenisahra, Kozyatağı, Bostancı, Küçükyalı, Maltepe, Huzurevi, Gülsuyu, Esenkent, Hastane-Adliye, Soğanlık, and finally Tavşantepe.
+* M5 will go from Üsküdar to Sultanbeyli when completed. Currently, it goes from Üsküdar to Çekmeköy (April 2019).
+* M6 is a light metro that goes from 4. Levent to Boğaziçi University-Hisarüstü. Passing from Nispetiye and Etiler.
+
+There is also a funicular system connecting Taksim to Kabataş, where you can take ferries across the Bosphorus to the [[Istanbul/Asian Side|Anatolian side]], and also transfer to trams bound for the [[Istanbul/Sultanahmet-Old City|old city]] (see below). Another funicular, called Tünel, connects Şişhane to Karaköy (the eastern side of the Galata Bridge).
+
+Nowadays, most metro stations do ''not'' have a staffed ticket booth, so you will have to obtain your Istanbulkart from the yellow ticket machines.
+
+====By tram====
+* <listing name="Istanbul Metro & Tram" url="https://www.akillisecim.com"></listing>
+A tram (line # '''T1''') connects Bağcılar to Kabataş (connection to the underground funicular to Taksim). The line is serves many popular tourist sites (e.g. in Sultanahmet) and ferries (e.g. Eminönü). An entire trip takes an hour.
+
+There are two tram lines running on the same tracks, the line numbered as 38 in front of tram cars runs along the entire T1 line between Kabataş and Bağcılar, while significantly shorter line #47 runs between Eminönü and Cevizlibağ stations (the latter of which is abbreviated as C.bağ-A.Ö.Y. on the signage of tram cars). However, both lines call at stations that are of most interest to travelers through the [[Istanbul/Sultanahmet-Old City|Old City]]. During morning and evening rush hours every alternate tram runs as #47, while during the rest of the day, most run as #38.
+
+The tram was put in service in 1992 on standard gauge track with modern cars, connecting Sirkeci with Topkapi. The line was extended on one end from Topkapi to Zeytinburnu in March 1994 and, on the other end from Sirkeci to Eminönü in April 1996. On January 30, 2005 it was extended from Sirkeci to Kabataş crossing Golden Horn after 44 years again.  55 vehicles built by ABB run on the line. Daily transport capacity is 155,000 passengers.
+
+Tramway stations are: Bağcılar, Güneştepe, Yavuz Selim, Soğanlı, Akıncılar, Güngören, Merter, Mehmet Akif, Zeytinburnu, Mithatpaşa, Akşemsettin, Seyitnizam, Merkezefendi, Cevizlibağ, Topkapı, Pazartekke, Çapa, Fındıkzade, Haseki, Yusufpaşa, Aksaray, Laleli (Üniversite), Beyazıt (Kapalıçarşı), Çemberlitaş, Sultanahmet, Gülhane, Sirkeci, Eminönü (ferryboats), Karaköy, Tophane, Fındıklı, Kabataş.
+
+Between Taksim and Kabatas, there is a modern underground funicular to connect this tram line to the Taksim metro. The tram is also connected to the southern metro line (for the ''Otogar'' and Ataturk Airport) at Aksaray station, though the metro and tram lines are a short walk from each other.
+
+During morning and evening rush hours (roughly between 7AM-9AM and 5 PM - 7:30 PM respectively), tram cars run jam-packed so if you intend to take it for a couple of stations down the way, don't even bother—walking instead is not only less tiresome than standing in what is essentially more crowded than a sardine can, it's also quicker as you will most likely be able to get in the second or even third tram calling at the station due to the crowd.
+
+There are also four other tram lines linking residential and industrial suburbs in the northwest with the city centre: '''T2''', which is a nostalgic tram between Şişhane and Taksim, "T3" which is also another nostalgic tram line in Kadıköy and '''T4''' (which is more like ''metro-tram'' systems of northwestern Europe, as it lies underground for part of its route), which heads for Sultançiftliği, connecting to the Zeytinburnu and Topkapı stations of the T1 line respectively. However, these lines are of very little, if any, use to the average traveler.
+The very latest and most modern line '''T5''' opened in January 2021 and follows the Golden Horn waterfront on the south side. Initially the tram only runs from Cibali station (near the Atatürk Köprüsü bridge) to Alibeyköy Coach Station. The line is quite scenic along the water front and includes useful links to the TF2 Gondola lift at Eyüp, the Metrobus at Haliç Köprüsü bridge and the new M7 metro line at Alibeyköy. The tram line will soon be extended south and east to connect up to Küçükpazar M2 station on the bridge and Eminönü station for T1 tram.
+
+====By e-scooter====
+You can find [https://www.marti.tech/ Marti] (Turkish for "seagull") e-scooters scattered around central Istanbul. You will need a mobile app and an internet connection to unlock them. The fare is 1,99 TL to start riding + 0,79 TL per minute.
+
+===Information for disabled travellers===
+
+=====Buses=====
+The process of replacing old buses with newer ones accessible for people using a wheelchair is ongoing. Many buses on central lines have a low floor and a built-in ramp (consult the driver to lean the bus down nearer to the ground, to open the ramp, and to assist into the bus, though any of these might unfortunately be impossible during peak hours in interval stops. Think of a sardine-packed bus unloading all of its passengers to lean down). 
+
+By September 2011 LCD screens showing the stop names while approaching to the stop, and voice announcement is made.
+
+=====Trams=====
+Trams are accessible for people using a wheelchair from the station platforms if you can manage to get into the station in the first place. Some of the stations are located in the middle of very wide avenues and the only access to them is via underground passages (tens of stairs) or overpasses (more stairs!). Otherwise, platforms in tram stations are low and equipped with gentle ramps right from the street (or sidewalk) level. Moda Tramvay and Nostaljik Tramvay run older cars which are not wheelchair-accessible.
+
+All stations are announced both on a display and by voice in the trams.
+
+=====Metro=====
+All stations and trains in the northern metro line are accessible for people using a wheelchair. Look around the station entrances for handicapped lifts/elevators. Only some of the stations in the southern metro line are equipped with such elevators (among the stations which have elevators are Aksaray-the main station of the city centre, Otogar-the main bus station, and Havalimanı (Airport) station), but whether there is an elevator or not, if you manage to get into the station (there is a good chance that you can do with a little assistance because the stations in the southern line aren’t located as deep as the stations of the northern line are; only about one floor’s height under the ground), all trains are accessible from the station platforms, though a little assistance more will be helpful for passing over the narrow gap between the train and the platform. You can ask the guys in grey/black uniforms (security guards, they can be seen in the entrances of the station platforms if not elsewhere) for assistance, it’s their duty.
+
+All stations are announced by voice in the metro trains. In northern line it is also announced on a display, but not in the southern line. Instead, you should look at the signs in the stations, which are big and common enough.
+
+===By boat===
+
+[[Image:IstanbulFerry.jpg|thumb|Istanbul liner crossing the Bosphorus]]
+
+Unique Istanbul liners (large conventional ferry boats), sea-buses (high speed catamarans), or mid-sized private ferries travel between the European and Asian sides of the city. The crossing takes about 20 minutes and costs 1.50 TL, and gives great views of the Bosphorus. ''Be aware that sometimes the ferry when arriving at a dock can bounce off the pier accidentally, even on calm days. This can cause people to fall over if they are standing up, so it is advisable to remain seated until the ferry has come to an absolute stop.''
+
+In Istanbul, liners from any given quay generally take only a certain route, and these quays are signposted ‘X Iskelesi’ (“X Landing stage/pier”). For instance, [[Istanbul/Sultanahmet-Old_City|Eminönü]] alone has more than 5 landing stages (including the ones used by other ferries apart from liners), so if you should head for, say, [[Istanbul/Asian_Side|Üsküdar]], you should take the ferry which departs from ‘Üsküdar Iskelesi’. Replace ‘Üsküdar’ with the destination of your choice.
+
+'''Istanbul liners''' [http://ido.com.tr] travel on the following routes:
+
+* Karaköy - Haydarpaşa - Kadıköy
+* Kadıköy - Eminönü   
+* Üsküdar - Eminönü
+* Üsküdar - Karaköy - Eminönü - Eyüp (The Golden Horn Route)
+* Kadıköy - Besiktaş
+* Kabatas - Uskudar - Harem
+* Istinye - Emirgan - Kanlıca - Anadolu Hisarı - Kandilli - Bebek - Arnavutköy - Çengelköy (The Whole Bosphorus Route) 
+* Anadolu Kavağı - Rumeli Kavağı - Sariyer 
+* Eminönü - Kavaklar (Special Bosphorus Tour-Recommended For Tourists)
+* Sirkeci - Adalar - Yalova - Cınarcık (The Princes' Islands Route) 
+
+Furthermore, the '''sea-buses''' (''deniz otobüsü'') follow the same (or more) routes, usually much faster than liners.
+Returning to Yenikapi from Kadikoy by '''sea-bus''' is a fast and convenient way to cross the Bosphorus; at Yenikapi
+there is a railway station with frequent trains to Sirkeci/Eminönü and the Yenikapi fish restaurant area is close by (or one stop on the train).
+
+Four main '''private ferry''' routes for travelling between Asia and Europe sides are:
+
+* Besiktaş - Üsküdar 
+* Kabataş - Üsküdar ''(close to tram and funicular system in Kabataş)''
+* Eminönü - Üsküdar ''(close to tram in Eminönü)''
+* Eminönü - Kadıköy ''(close to tram in Eminönü)''
+
+Very useful are the fast ferryboats (travelling at 55 kilometers) running from several points, such as the Yenikapi - [[Yalova]] one, that allows you (with a connecting bus in Yalova) to be in [[Bursa]] centre in less than three hours. Prices are marginally higher and the gain in time is considerable, though the view is not as nice.
+
+All of the ferries, including private ones, can be paid for using the ''AKBIL'' system or the new Smart RFID Card that is in the process of introduction.
+
+A new metro line extension crossing the Bosphorus in a tunnel is under construction. This will change the ferry provision and is perhaps a good reason to visit Istanbul before it is completed.
+
+===By train===
+Local commuter trains (banliyö treni) have been out of service for years.
+
+===By taxi===
+Taxis are an easy and cheap way to get around. The minimum fare is 10TL. 
+
+As of September 2019, start off rate is 5 TL (€0.8) and then 3.1 TL (€0.5) for each km afterwards for yellow cabs. Turquoise and Black cabs have higher rates. A one-way trip from Taksim Square to Sultanahmet costs approximately 10-15 TL. Tipping is generally unnecessary. Occasionally, drivers will refuse to start the meter and try to negotiate a fixed price (but most drivers will start taximeters at all times). You should avoid these cabs and simply take another one as you will almost certainly end paying too much. To be sure, before getting in, just ask "how much to go to ...?" (most of the drivers understand basic English) since the price they tell then is quite accurate. Tell them then to put the taximeter on. Drivers do normally work with the taximeter, so they will not be surprised at all when you ask them to put it on. The price at the end will be quite close to the one they tell you at the beginning. There is no night rate. 
+
+Taxis that wait near a bus station are usually a tourist trap. They start the meter but charge you 20 TL at least. Emphasise to the driver that you will pay for the meter price before getting in. Do not buy their quick-sell tricks. Always try to stop a taxi that is passing by on the road or find a legitimate taxi stop.
+
+Insist on going to the destination that you want because some drivers are paid  commission for each time they have someone go to a certain site.
+
+Most taxis are yellow but some are turquoise. 
+
+Be careful on what notes you hand them for payment; some drivers pretend that a 50 lira note that was handed was just a 5 lira note. Occasionally taxi drivers may actually also rip notes you give them, and tell you it is no good, in order to make you hand them a 50 lira note. So, make sure the notes are not ripped, and is actually the right one before you hand them over. Also, if you are not familiar with the city the taxi driver may take a detour in order to charge you more.
+
+Traffic can be very bad, it can take an hour for a few km through the old city. You might be better off taking the metro out of the old city and then a taxi from there.
+
+===By Private Transfer===
+Check out the local airport transfer companies (as Uber is not available in Turkey anymore) offering private and cheap airport transfer services from both Sabiha Gokcen Aiport and Istanbul Airport to any local point of Istanbul.
+
+===By shared taxi===
+'''Dolmuş''' (Turkish: "full") is a shared taxi, travelling on a fixed route, which costs more than a city autobus but less than a normal taxi. They can carry up to 8 passengers. They are easy to recognize, because they also have the yellow painting as taxis and carry a ''Dolmus'' sign on its top. They will only start driving when all eight places are filled, which is also where the name derives from.
+
+The main and most important routes for Dolmuses are :
+
+* Taksim - Eminönü (Taksim stop, near the Ataturk Cultural Center, in Taksim square)
+* Taksim - Kadıköy 
+* Taksim - Bostanci
+* Taksim - Aksaray (Taksim stop, Tarlabasi Avenue, close to Taksim square)
+* Kadıköy - Bostanci (Bostanci stop, in front of the Bostanci ferry port)
+* Taksim - Tesvikiye (Taksim stop, in front of Patisserie Gezi, in Taksim square)
+* Beşiktaş - Nisantasi (Beşiktaş stop, in front of the Beşiktaş - Üsküdar ferry port)
+* Kadıköy - Üsküdar (Üsküdar stop, Near the Üsküdar - Beşiktaş and Üsküdar - Kabataş ferry port)
+
+If you want the driver to make a stop, you can say '''İnecek var.'''(EE-neh-djek war!) (Someone's getting out.) or '''Müsait bir yerde.'''(mU-sa-EEt bir yer-deh.) (At a convenient spot.).
+
+==See==
+[[Image:HagiaSofia_Istanbul.jpeg|thumb|Hagia Sofia]]
+[[Image:BlueMosqueIstanbul.jpg|thumb|Sultanahmet a.k.a. Blue Mosque]]
+[[Image:Turkey%2C_istanbul%2C_basilica_cistern.jpg|thumb|Basilica cistern, built by the Romans]]
+
+With its long history at the center of empires, Istanbul offers a wealth of historic and religious places to take in. The bulk of these ancient monuments, dating back to Roman, Byzantine, and Ottoman periods, including the '''Hagia Sophia''', '''Topkapı Palace''', '''Sultanahmet Mosque''' (Blue Mosque), and '''Basilica Cistern''' are located around [[Istanbul/Sultanahmet-Old City|Sultanahmet Square]], while some others are dispersed throughout the peninsula of [[Istanbul/Sultanahmet-Old City|old city]], such as '''Church of St Savior in Chora''' (''Kariye Müzesi''), entire inside of which is covered by mindblowing frescoes and mosaics. An impressive section of mostly intact '''[[Istanbul#Theodosian Walls Walk|Theodosian walls]]''', which mark the full length of western boundary of the peninsula, is right next to this particular church.
+
+North of the peninsula of old city, across the Golden Horn, is [[Istanbul/Galata|Galata]], crowned by the '''Galata Tower'''. '''Istanbul Modern''', with its exhibitions of contemporary Turkish art, is on the nearby waterfront of Karaköy. Another sight of religious significance close by is the '''Galata Whirling Dervish Hall''' of Sufi ''Mevlevi'' order, just north of the Tower. Further north is the '''Istiklal Avenue''', Istanbul's prominent pedestrian street running from near Galata Tower to Taksim Square, the central square of whole city. 
+
+Heading west rather than north from the old city brings you deeper into the banks of the [[Istanbul/Golden Horn|Golden Horn]] estuary. A neighbourhood perhaps well worth a visit here is Eyüp, to visit city’s '''holiest Islamic shrine''' and just to see what '''daily life in Ottoman Istanbul''' was like. On the opposite shores of the Horn, in Sütlüce is the '''Miniaturk''', the first miniature park in the city, with models from around the former Ottoman Empire.
+
+North of Taksim Square is [[Istanbul/New City|New Istanbul]], main business district of the city. If venturing out to this direction, don't forget to check out '''Military Museum''', where Ottoman military music concerts (''Mehter'') are held every afternoon. Most of the '''skyscrapers''' of the city are located in the north of this district, around Levent and Maslak, with a totally different skyline from that of the old city. However southern reaches of the very same district has some fine '''neo-classical''' and '''Art Nouveau buildings''' from the turn of the 20th century, around the neighbourhoods of Osmanbey, Kurtuluş, and Nişantaşı. Just east from here, with a little drop in elevation as you approach the shore, is the banks of [[Istanbul/Bosphorus|Bosphorus]], that is lined by pleasant neighbourhoods full of '''waterfront mansions''' (''yalı'') and a number of waterside '''palaces''' where you can admire what money could buy in times gone by.
+
+Across the Bosphorus to east is [[Istanbul/Asian Side|Asian Side]], centred around the historical districts of Kadıköy and Üsküdar, and perhaps best symbolized by '''Maiden’s Tower''', located at about the halfway between these districts, on an islet just off the shore. Bosphorus and Marmara coasts of this half of the city is characterized by quite '''picturesque neighbourhoods''', overlooked by '''Çamlıca Hill''', one of the highest hills of the city which has a view of much of the rest of the city as well, with a cafe and a pleasant park on its summit.
+
+Southeast of the city, off the southern coast of Asian Side are the [[Istanbul/Princes’ Islands|Princes’ Islands]], an archipelago of nine car-free islands, characterized by stunning '''wooden mansions''' and '''pine groves'''.
+
+===Istanbul Museum Pass Card===
+The [https://muze.gov.tr/urun-detay?CatalogNo=WEB-MSP01-05-008 Museum Pass Istanbul C.C. Purchase] [https://muze.gen.tr/Order Museum Pass Istanbul Cash on Delivery] is a tourist pass designed by Republic of Turkey Ministry of Culture and Tourism [https://www.ktb.gov.tr/] to help Istanbul visitors getting the most out of their holiday. The card's 120 Hour 5 day validity period begins to run from the moment when the card is activated, i.e. used for the first time in museums. The Istanbul Pass includes free admission to over 12 museums, ranging from the big-ticket attractions to lesser-known sights such as Rumeli Fortress Museum. Additionally, the pass offers you discounts on activities, tourist attractions etc.
+
+As of May 2021, the Museum Pass includes admission to the following thirteen museums:  Istanbul Archaeological Museums, Topkapi Palace Museum, Topkapi Palace Harem Museum, Hagia Irene Museum, Museum of Turkish and Islamic Art, Great Palace Mosaics Museum, Galata Tower Museum, Galata Mevlevi Museum, Rumeli Fortress Museum, Turbes Museum, Adam Mickiewicz Museum, Museum of the History of Islamic Science and Technology, and Fethiye (Pammakaristos) Museum.
+
+As of June 2022, two of the twelve museums covered by the museum pass are completely shut for renovations. Others are also partially or substantially closed for renovations that, perhaps, take advantage of the Covid epidemic related lull in visitors. Tourists may find it worth their time to determine which museums are open and calculate whether the museum pass actually saves them money.
+
+===Tulips===
+Long ignored for their bad connotation with the Tulip era of 1700s, a period of ostentation and costly parties conducted by state elite amidst large gardens full of tulips, which was later accused of economic destruction and the eventual dissolution of Ottoman Empire, '''tulips''' have regained much of their former popularity in the last decade and now serve as some sort of symbol of both Istanbul and the whole Turkey. They bloom from late March to early May (best bet is early to mid April) and while they can be seen on many avenues of the city wherever there is enough space for planting at the sides and the central strip of the road, if you are after admiring and/or photographing large patches of tulips with relatively exotic varieties, head to Sultanahmet Park and Gülhane Park in [[Istanbul/Sultanahmet-Old City|Sultanahmet]]; Emirgan Park near the northern [[Istanbul/Bosphorus|Bosphorus]] neighbourhood of Emirgan; or Çamlıca Hill in [[Istanbul/Asian Side|Asian Side]]. There is also a Tulip Festival throughout April organized at Emirgan Park [https://istanbeautiful.com/emirgan-park-istanbul/].
+
+==Do==
+===Free Activities===        
+[[File:Suleymaniye Cultural Info Center-Garden.jpg|thumb|The garden of the Suleymaniye Cultural Info Center in Istanbul]]
+*Visit Suleymaniye Cultural Info Center. This center is an NGO managed by volunteers who also operate inside the Suleymaniye Mosque. They give free information about Islam and the Islamic culture both inside the mosque and in their center. They have an interesting presentation about Islam and mosques. They do this for free and do not accept donations. Their center is a historical Ottoman-style building. The building has an amazing view of the magnificent Suleymaniye Mosque, and it has a small cistern underneath. You can see the cistern and learn about its history from the volunteers. They offer Turkish tea, Turkish coffee, and baklava to the visitors. If you’re hungry, just say so! They offer to have lunch or dinner together in the center. You can enjoy traditional Turkish food made by their talented cook. All volunteers speak English, some even speak other languages like Russian, German, Spanish, and French. They are kind people who are ready to answer just about every question you have about Islam. The center also organizes group visits, but you need to contact them in advance. Here is their website where you can find their contact details: www.crossculturalcenter.org
+
+===Hamams===
+See [[Hamams of Istanbul]] page for more information on Turkish Bath's in İstanbul.
+A visit to a ''hamam'' (Turkish bath) is a popular part of any trip to Istanbul. There is at least one historical ''hamam'' in each neighborhood of Istanbul. Take care in selecting a hamam, as they can vary greatly in cleanliness. 
+ 
+Most places will offer a scrubbing and/or a massage. Just being in the ''Hamam'' (as a sauna), is enough for seeing and experiencing the place, but the scrubbing is a great experience. The massage is not necessarily better than those found in western countries.
+
+[[Istanbul/Sultanahmet-Old_City#Hamams|Sultanahmet]] has many historical hamams. Some are very extravagant and cater mainly to tourists.
+
+An example of a ''hamam'' frequented by locals is the Buyuk Hamam where a full session (massage plus scrub) will cost you TRY35 instead of the €60 of the tourist ones. The experience is true Turkish so don't expect any western standards.
+
+Aziziye Hamam is on the Asian side of Istanbul. It's a very traditional, clean and cheap Hamam.
+
+===Nargile (Hooka/Water Pipe)===
+Once upon a time, the nargile, or Turkish water pipe, was the centre of Istanbul’s social and political life. Today some of the locals still consider it one of life’s great pleasures and is something interesting to try. Most of the places where you can smoke a nargile are in Yeniçeriler Caddesi, near the Kapalı Çarşı (Grand Bazaar). 
+
+Çorlulu Ali Paşa and Koca Sinan Paşa Türbesi are both in secluded internal courts, just around the corner from some tomb yards, while Rumeli Kahvesi is actually inside the cemetery of an old medrese, though it’s not as spooky as you might think. In the south of Sultanahmet, near the sea, is Yeni Marmara (Çayıroğlu Sokak), where you can also sit in the terrace and enjoy the view. In Beyoğlu, at the Ortakahve (Büyükparmakkapı), there’s even the choice of a wide range of flavors.
+
+Another area with few big good looking places is the Rıhtım Caddesi, between Galata bridge and Istanbul Modern Museum.
+
+===Walking tours===
+[[File:Blue Mosque Courtyard Dusk Wikimedia Commons.jpg|thumb|Blue Mosque Courtyard Dusk]]
+Museums and such: Haghia Sophia, then on to the Topkapı museum (these two should take at least three to five hours), preferably along the road in the back of the Haghia Sophia, where there are some nicely restored houses. Then on to the Blue Mosque and the square with the obelisks on it (At Meydani). Along its side is the very good Museum of Islam Art. Descend slightly and find the small Haghia Sophia with its nice garden (it was under restoration, but you probably can get in). Then uphill to the Sokollu Mehmet mosque complex, top notch tiles inside.
+
+Take a tram or walk to Eminönü (where the boats leave for trips to Asia or up the Bosphorus). Visit the New Mosque at the back, then the Egyptian Bazaar next to it, and going further in that direction, locate the Rüstem Pasha mosque with its excellent tiles. It's on a raised platform near an old clothes market, you may have to ask directions. Then take a cab or find a bus to Eyüp mosque complex, a mile or three up the Golden Horn. Visit this Eyüp complex at your leisure (the mosque is not particular, the court is, and the milling of believers, with many boys-to-be-circumcised amongst it; a Friday might be a good day to do this). Then, if you have the stamina, it might be nice to walk back too; maybe all the way (five miles or so), but taking a route along part of the city wall to first the famous Kariye Church with its mosaics, then on to Selimiye Mosque with its great view on the Golden Horn (and a fine mosque by itself), then the Fatih Mosque (passing through some very religious and lively neighbourhoods), then on to the well-restored Sehzade mosque, and next to Süleymaniye (don't forget to enjoy the view from the Golden Horn side). If you have some energy left, you might go on to the University complex, and by then you are very close to the Beyazit mosque. A book market (it’s small) is behind this good, unexceptional (nice courtyard though) mosque. 
+
+Once again go to Eminönü, but this time take the boat (those large ferries) to Üsküdar. You will arrive before a fine mosque in front, another one four hundred meters off to the right, slightly inland behind a traffic roundabout, and a third, very small, at the sea front. See the market stretching inland, walk about and don't forget to walk along the shore, maybe eating a fish meal in one of the bobbing boats along it. This is a good visit for late afternoon, early evening, fleeing the city. You will be joined by thousands of people going home from "town" but the way back will be on a near-empty ferry. The frequency of ferries will go down in the evening, so make sure there is a connection back.
+
+Go to the railway station and find a Sirkeci-Halkali suburban train, and get out at (from memory, Yedikule station). You will be quite close to Yedikule, a nice fortress, and will have fine views of the city walls. The trains leave every 15 minutes or so, the ride is peculiar (the material is bad, but if you are in luck every second stop another salesman will enter and try selling his wares, it’s fun). The ride is takes anywhere from twenty minutes to half an hour. This is not a "must", but it can be great fun.
+
+You will have missed the covered bazaar in all this. That is because you will get there anyhow. If you go to Beyazit and the book market you are almost at two of its many entrances. Try and find the Nuruosmaniye Mosque and its complex at the other side, it’s worth it. And after having explored the covered part, take a relaxing walk downhill, into the general direction of Eminönü, where it is "uncovered bazaar" all the way. Cross the Galata bridge to see some things on the Northern side (for instance take the "tünel" teleferik ride up much of the hill (entrance close to the opposite side of Galata bridge, ask around)), then continue to Taksim. Shops are of the international variety.
+
+====Theodosian walls walk====
+[[Image:Constantinoplewall.jpg|thumb|A restored section of city walls at ''Belgradkapı'' Gate, close to Marmara coast]]
+
+From 408&nbsp;AD the original walls of Constantine were replaced in the reign of Theodosius. These walls then became the critical point of defence of the capital of the Eastern Roman Empire and their Ottoman successors. They are still almost completely intact, marking the western border of [[Istanbul/Sultanahmet-Old City|the peninsula of Old City]], with some sections suffering from somewhat unsightly restoration done in early 1990s. The section around the Topkapı Gate (not to be confused with Topkapı Palace which is located in an altogether different place) can be easily accessed from Pazartekke tram station, which lies about 300 metres east of the walls. Some remoter sections may not be very safe and may require some caution.
+
+A 7km walk along and on these remaining portions of the city wall offers a window into antiquity and puts emphasis on Turkey’s terrible historic monument legacy. Download and print a scholarly historical and technical description of the walls before you visit Istanbul; this will certainly add to the pleasure. From Eminönü, take the Golden Horn ferry to Ayvansaray. This ferry terminal is separate from the Bosphorus terminals adjacent and east of the Galata Bridge. Walk west through the Galata bridge underpass, then through the bus station to a pedestrian laneway which leads to the small terminal building. The fare is TRY1.50. Leave the ferry at Ayvansaray and cross the park to the wall on the other side of the main road. You have a choice of walking up the outer wall or the inner wall but access to the top of the battlements is usually on the inside naturally enough, so go up the small street across the road which then cuts back behind the wall and the towers. Here you can climb up onto this section of un-restored wall on crumbling brick and stone and continue on some hundreds of yards climbing as necessary. This path comes to an obvious end and one can short cut back to the street. Sometimes there are dwellings and commercial enterprises hard up against the wall, sometimes a bus depot, a rubbish dump or often just the road. These walls replaced the earlier walls of Constantine in 408&nbsp;AD after which they went through constant upgrade and repairs to earthquake damage. The different work done over the centuries was all of varying style and quality. Quite surprisingly there are a number of small streets still using the narrow gates. At Hoca Çakır Cd one comes across a restored section of the wall where the heights are accessed by stairs, some along the top of the wall of the steeper variety. This restoration from the 80s is in conflict with the original. The wall is then breached for the main road Fevzi Paşa Cd. Cross this and continue along the street at the back of the wall. Look for foot pads and breaks in the wall which allows access and a good look around. The wall is breached again for Adnan Menderes Blv (unofficially and widely known as ''Vatan Caddesi''). Past here one see here quite clearly the double line of defence with outer moat. The next breach is for Turgut Özal Cd (unofficially and widely known as ''Millet Caddesi'') which hosts the tram line heading back to Sultanahmet for those who have run out of steam. Walking now on the outside of the walls, various breaks in the outer wall allow access via broken stonework or later via modern sets of steps in disrepair. Between the walls is the disquieting evidence of the number of people sleeping rough in Istanbul. Persevere in staying between the walls because soon you will arrive at another impure restoration project at Mevlanakapı Cd gate. Note that entry to the gate towers has been closed at the gate, so entry is only from the walls. From here it is better to proceed on the outside of the walls because market gardens occupy the moat and the city side abuts buildings. These couple of kms will give a further perspective of the ravages of time and earthquake on the walls. Finally you will arrive at the Golden Gate and [[Istanbul/Sultanahmet-Old City#Yedikule Fortress|Yedikule Fortress]] which fronts the Marmara Sea and was Byzantium’s triumphal point of entry. This is in excellent condition not least because the Ottomans upgraded it and then used it right up to the 19th century. There is an entry fee and it boasts a loo. The high walls and towers are all accessible, and one tower still has internal wooden floors. So you have now surveyed the protective land walls which kept Byzantium and the Eastern Roman Empire safe for all those years after the fall of Rome, breached only by the 4th Crusaders and the Ottomans. What of their future? Given that recent restoration work is fairly suspect scholars may think it is better to leave them be. Now return to the city either in the Eminönü Bus (#80) from the village square outside the main gate, just wait there, or walk down Yedikule Istasyonu Cd about 300m to the railway line to Sirkeci, both heading for centres close to Sultanahmet.
+
+===Bosphorus cruise===
+Around the city you will see various tours for private companies offering Bosporus dinner cruises for €30 or more, which feature live performance of Turkish dancing. A cheaper and more mundane option is to take the official Bosporus cruise from the state-run company Sehir Hatlari which offers a three hour cruise for TRY25 (90 minutes each way with a break of several hours at Anadoli Kavagi) or a shorter non-stop 2 hour cruise for TRY10.
+ 
+From the Eminönü terminal immediately east of the Galata Bridge starts the large ferry cruising to Anadolu Kavagi at the northern entrance of Bosporus to the Black Sea via various stops. The fare is TRY25. The departure time is early (there are three daily departures during the high season) and is very popular, so arrive early and queue. The open decks are hugely popular, so unless you have an outside seat expect people to be standing all around you constricting the view. The ferry waits some hours in Anadolu Kavagi so as you alight you are confronted by a numerous restaurants and their spruikers. Firstly take the (very steep) walk to the Yoros Kalesi, a strategic castle overlooking and controlling the entry to the Black Sea. This important fortification with a commanding view has been fought over for many years and was last in use in the 19th century. It has fallen into serious disrepair, but Christian engravings are still visible in the stonework. There are restaurants actually in the castle surrounds and naturally have spectacular views. There is plenty of time left to wander back to the village for lunch. It is late afternoon before arrival back at Eminonu, but a day well spent.
+
+===Football===
+Football is the most popular sport in Turkey, and Turkish fans are known for their passion. Many teams from other parts of Europe consider the atmosphere to be very intimidating when they have to play away matches in Turkey. The most intense rivalries in Turkish football are between Beşiktaş [http://bjk.com.tr], Fenerbahçe [http://fenerbahce.org], and Galatasaray [http://galatasaray.org], and matches between these sides are always played in front of sell-out crowds;  getting tickets requires booking way in advance. As the atmosphere is extremely hostile to the away teams, spectators should avoid wearing away team colours after the match, and avoid any signs of crowd trouble.
+
+== Learn ==
+Many foreigners visiting or living in Istanbul decide to study Turkish formally in a language school. Some of the biggest and most respected Turkish language schools in Istanbul are:
+* '''Easy To Transport''' in Kadıköy [http://www.beykentyapaanaokulu.com].
+* '''ITI Istanbul''' in 4.Levent [http://www.udesign.com.tr/].
+* '''A.B.D''' in 4.Levent [http://amerikadadogum.com].
+* '''EFINST Turkish Center''' in 1.Levent [http://turkishlesson.com/].
+* '''Dilmer''' in Gümüşsuyu [http://dilmer.com/].
+* '''Tömer''', Ankara University affiliated [http://tomer.ankara.edu.tr/english/index.html]. 
+* '''Concept Languages''' in Etiler [http://turkishcourses.com].
+* '''Boğaziçi University''' [http://boun.edu.tr/index_eng.html]. Runs a summer long intensive Turkish language course for all levels. Both Boğaziçi University and Bilgi University [http://bilgi.edu.tr/] have well established '''Study Abroad''' programs in English for foreigners.
+
+===Ottoman Turkish===
+If you already speak Turkish, '''[[:wikipedia:Ottoman_Turkish_language|Ottoman Turkish]]''' may also be interesting to learn. Ottoman Turkish was the courtly form of Turkish spoken during the era of the Ottoman Empire, and is significantly different to the form of Turkish spoken today. Approximately 80% of Ottoman Turkish words were loanwords from other languages, mostly Arabic, Persian and French. After the fall of the Ottoman Empire and the establishment of the Republic of Turkey, language reforms were implemented, including the establishment of the ''Türk Dil Kurumu'' (Turkish Language Association), which is the official regulatory body of the Turkish language. This association, with a philosophy of linguistic purism, decided to cleanse the Turkish language of loanwords and replace them with more Turkic alternatives. As such, only about 14% of modern Turkish words are of foreign origin. 
+
+Ottoman Turkish is the key to learning about Turkey's Ottoman past. With Ottoman Turkish, not only can you read historical archives, but you can also read Ottoman literature and letters dated back to the Ottoman period.
+
+==Work==
+There is always demand for qualified ESOL/EFL teachers in Istanbul. Most teachers work for language schools or private schools. Private schools are notorious for the spoiled, nouveau rich families that send their children there and remember: you, the teacher, are always wrong and the student always right at such establishments. 
+
+While Istanbul may seem charming to a first-time visitor, actually living in a city that has far more people than it was designed to support is simply excruciating after a while, and the turnover rate is exceptionally high. Keep in mind that the market is quite saturated. You will probably find a job, but not a very good one at first. Making contacts is key. Some English teachers work under the table and pay is generally enough to live on. Some university English preparatory schools at institutions such as Sehir, Koc, Sabanci and a few other private schools, provide decent salaries, and about 10 to 50 percent -- if you are frugal -- can be saved. State universities have higher quality, more motivated students, but pay as little as half their private counterparts, albeit with more holiday time. 
+
+Late payment is not uncommon, and there are plenty of horror stories of  bosses cheating their employees.
+
+If you want to live and teach in Turkey, a calmer alternative is to live in a smaller city where you will be in higher demand and the cost of living is lower. However, cultural and entertainment opportunities can be limited, especially for women.
+
+==Buy==
+[[Image:Grand bazaar.jpg|thumb|The Grand Bazaar during Republic Day]]
+[[File:Grand-Bazaar Shop.jpg|thumb|Grand-Bazaar Shop]]
+
+Connecting east and west, the will to control the major trading routes was the reason why Istanbul was founded in the first place, so shopping should definitely not be overlooked in your Istanbul experience.
+
+The currency used in Istanbul is the Turkish Lira (TL) though the Euro and US dollar are also accepted at places frequented by tourists (although certain tourist attractions such as the Hagia Sophia only accept liras). Currency exchanges (döviz bürosu) and banks are plentiful in Istanbul and some offer extremely competitive exchange rates with no commission charged. Some currency exchanges at the Grand Bazaar, towards its center, charge as little as a fraction of a tenth of a percent to exchange US dollars, and a fraction of a percent to exchange euros and other heavily used currencies.  Elsewhere in Istanbul, exchange bureaus can charge as much as 5%.  If you are planning to visit Istanbul, bring hard foreign currency and exchange them after you arrive, preferably at a bank or a currency exchange.  Exchange only what you need as you will find difficulty exchanging your leftover TL back to foreign currency after you leave the country. Alternatively, withdraw money from cashpoints whenever you need cash.
+
+Shops may be closed on Sundays. Most major shopping malls have security checkpoints you usually see in airports and museums prior to entry.
+
+Istanbul's historical bazaars with an oriental ambience, once sitting firmly on the western terminii of the Silk Road and spice routes, all dating back to Ottoman era, are all located in the Istanbul/Sultanahmet-Old City|the peninsula of Old City. However, expect extreme price rises in the Grand Bazaar as it's become a mere tourist attraction.  Just moving by few meters outside of it you can see prices drop quickly. If you plan on shopping a lot, a flight to Gaziantep (which can be quite cheap) may be worth it.
+
+Modern shopping malls (alışveriş merkezi, usually shortened to AVM) can be found all over the city. 
+
+If you are after top quality upmarket garments, then you should head for [Istanbul/New City|Nişantaşı] on the European Side and [Istanbul/Asian Side|Bağdat Street] in Asian Side.
+
+Here are some things that are popular to buy while in the city:
+
+* Turkish Delight, or Lokum (as the locals call it). A good buy since you're in Turkey. It is advisable to buy it fresh rather than in pre-packed boxes and to get a variety of flavours rather than the stereotypical rose-water or lemon flavors available abroad. Pistachio in particular is very good. The best place to buy lokum in Istanbul is from a store. Istiklal Caddesi in particular features a number of stores that sell Turkish sweets by the kilogram including lokum and helvah. There are quite a few shops selling Turkish Delight in the Grand Bazaar, although unless you are very good at haggling better prices can be found elsewhere. Highly recommended for Lokum is the Malatya Pazari stall in the Spice Market. The Turkish delight there was fresh, had great flavors including some offbeat ones and the prices were fair.
+DO NOT BUY the 10 TL Turkish delight boxes (the ones that come sealed sold in any tourist shop or all along Istiklal Avenue). Once you get home and open them, it is a major disappointment. It is much less quantity than the what look like as the size of the box and it tastes horrible. Only buy the ones that you can taste before hand and you see what they are putting inside the box. It will be probably twice the price, but it shall be worthwhile. 
+
+There are two kinds of lokum. The first kind is the ones that are made with sugar and sold in small pieces. As of April 2016, these are about 40 TRY per kg. The second kind is the ones that are made with honey. They usually look like a long stick then cut in to pieces when you buy them. The prices are vary depending on where you buy them. Some people mention that spice market is the best place to buy, but it is also most expensive place to buy, about 95 TRY per kg. Even the oldest lokum shop in Istanbul, Ali Muhiddin Haci Bekir (founded 1777 in Ottoman period), sells for 85 TRY per kg. But no one really goes there any more. Hafiz Mustafa is one of the most popular lokum shops that both locals and tourists go. It has many locations. The price, as of April 2016, is around 85 TRY per kg. I recommend Baklavaci Muhammed Said. It is not as old as the others but it is a family run business, has the best quality, and yet still keeps the cheapest price too. (As of April 2016, 65 TRY per kg).
+
+
+* Turkish Tea (çay, CHAI). The national drink of Turkey, brewed from leaves grown on the steep, verdant mountain slopes of Turkey's eastern Black Sea coast. Traditionally, Turkish tea is brewed samovar-style, with a small pot of very strong tea sitting on a larger vessel of boiling water. Pour a small amount of strong tea into a little tulip-shaped glass and cut it to the desired strength with hot water. Turks usually add sugar cubes (never milk, although you can often get milk if you ask.) Having fresh, hot tea always available everywhere is one of life's splendid little luxuries in Turkey. Elma Çay: apple tea, like hot apple juice (EHL-mah chah-yee) is the flavour of preference, although it's more for tourists; Turks prefer Siyah Çay (black tea).
+
+* Rugs and kilims can be a good buy while in the city. Most rug-specialized stores in the city, though, are aimed at tourist trade, so pick up basics of [[How to haggle|haggling]] to avoid being ripped off at these stores. They are mostly located around Sultanahmet.
+
+* Chalcedony. A semi-precious gemstone named after the nearby town of Chalcedon, and is sold in many of Istanbul's multitude of jewellery shops.
+
+* Off the Beaten Path. Places that offer the best at what they do but are not on any of the traditional tourist paths.
+**ArkeoPera, Yenicarsi Caddesi, 16/A Petek Han, Galatasaray, +90 212 2930378 [http://arkeopera.com]. Best antiquarian bookshop in Turkey, owner knows every Turkish excavation site first hand.
+**Gonul Paksoy, 6/A Atiye Sokak, Tesvikiye, +90 212 2360209. Peerless one-of-a-kind dresses made for royalty from refined, antique Ottoman-era cloth.
+**Iznik Foundation, 7 Oksuz Cocuk Sokak, Kurucesme, +90 212 2873243 [http://iznik.com]. Offers neo-[[Iznik]] pottery after recreating original formulas from original Iznik kilns, which functioned between 1450 and 1650.
+**Sedef Mum, 50 Irmak Caddesi, Dolapdere, +90 212 2535793. Artisans of the time honoured art of candle making, intricately sculpted and aromatic wares make very portable gifts.
+
+==Eat==
+
+For individual restaurant listings, check [[Istanbul#Districts|district]] articles.
+
+When having a look for a restaurant, there will be a lot of restaurants, where the staff will try to make one come inside. There is really a kind of competition between the restaurants to make one come inside. However, the best restaurants are not always the expensive tourist restaurants, but those small Lokantas where many Turks go for food while out and about.
+
+===Snacks===
+[[Image:Istanbul 2007 Pics 144.jpg|thumb|right|Local Doner Restaurant (büfe-buffet)]]
+*"Kokoreç" is composed of wound lamb intestines grilled on a spit ,chopped with herbs and spices and usually served as a sandwich. It is a traditional midnight snack of those who have imbibed among the bustling crowds of bar and streets throughout the city."Mercan Gurme " in Besiktaş probably best in the city.
+* '''Döner'''. Always a good option for having fast and cheap food. The entrance to Istiklal Street contains dozens of small doner restaurants and they serve almost around the clock; though for a better experience (and a better food quality) you may want to wander about in residential neighbourhoods, since anything near a commercial or tourist area can be highly overpriced and greatly reduced in quality.
+
+* '''Balık-Ekmek'''. Balik-Ekmek (literally "fish and bread") is a fish sandwich served in small boats and little buffets in Eminonu. It is also increasingly popular in buffets in [[Istanbul/Asian_Side|Kadıköy]] coast. A regular sandwich consists of one small fried fish, slices of tomatoes and onion. However, the taste is beyond expectations for such a basic menu. The price 6 TL right off the docks at Eminou. Again, it's a local favorite.
+
+* '''Hamsi'''. In Autumn and Winter the Black Sea Anchovy migrate through the Bosphorus, the local fishermen coming out in force to take advantage. All fish restaurants have them on the menu in season. It seems the classic serving is a handful of deep fried fish with raw onion and bread. Eat the fish whole, it's a winner. Look for the small restaurants behind the fish merchants on the Karakoy side of the Galata Bridge, western side. Expect to pay TL8.
+
+* '''Patso'''. Patso is a type of sandwich consisting of hot dog and french fries. It's usually served in small buffets along the Uskudar coast and a sandwich costs 1.50 TL. The cheap price can raise eyebrows but these buffets are open 24/7 and they serve around 1000 sandwiches per day. Even though the profit margin is low, they make a fortune, so they don't lower the quality too much (except hamburgers, don't touch those in Uskudar, but definitely try the spicy hamburgers in Taksim).
+
+* One thing not to be missed is the local '''ice cream''' sold at the street stands, called ''dondurma''. While flavors are relatively standard for the region, the ice cream usually incorporates orchid root extract, which gives it an incredibly chewy and stringy texture, also lending itself to be used for marketing and attracting attention while the sellers do tricks to try to sell the ice cream. Try it!
+
+*'''Kumpir''' is a snack which can easily be a full meal. It is originated from [[Albania]] but is quite unique to Istanbul in its present form. It consists of a baked potato with various fillings such as grated cheese, mayonnaise, ketchup, pickles, sweetcorn, sausage slices, carrots, mushrooms, and Russian salad among others, any of which can optionally be added to or omitted from the mix. While ''kumpir'' can be had at many cafes throughout the city, it is best had from one of the cafes in [[Istanbul/Bosphorus|Ortaköy]], which have a long tradition of preparing ''kumpir'' and offer really filling and tasty ones. About 8 TL each.
+
+* '''Roasted chestnuts'''("kestane Kebap, as locals call it) are sold from carts around the city, and is a very nice snack to have when the weather is cold, as it keeps your hands warm. Quality and flavour is generally good but can vary Between batches, even from the same stand. 5Lr for 100 grams, 10Lr for 200 grams and so on - same prices citywide.
+
+* '''Boiled and roasted corn on the cob''' (known as Süt Misir and Közde Misir in [[Turkish]], respectively) is sold from carts around the city, and is a fantastic snack to walk around. Price varies from cart to cart and area of the city.  2 Lr. 
+ 
+* Don't miss the''' "simit," '''a warm bread sold from carts around the city, and is a fantastic snack to walk around. The texture and taste is a bit like a sesame bagel. 1.75 Lr.  
+
+* Also, be sure to try ''' ''Ayran,'' ''' a local drink based on yoghurt, although sour and much thinner. It isn't always on the menu or displayed, but it's there, so ask for it.  2Lr.  
+
+* '''Freshly squeezed juice and juice blends''' are sold from stands and small shops all around the city, and are a refreshing treat (especially in the warmer months). The combinations range from a simple orange juice to the more rare options like pomengranate or kiwi. Price varies from shop to shop, area of the city and complexity of your order (between 2 and 4 Lr).
+
+==Drink==
+*'''[[Istanbul/Galata|Beyoğlu]]''' is notoriously known for its night life; it's full of cafes and bars with live music. People from all classes and ethnicities can be found here.
+*'''[[Istanbul/New_City|Nişantaşı]]''' is the place for young entrepreneurs and artists, the prices are higher than Taksim.
+*'''[[Istanbul/Asian_Side|Kadıköy]]''' also has a nightlife scene, serving mostly locals of this part of the city. It is usually has more easy-going style of nightlife, usually with local pubs and wine houses and traditional meyhanes. If you are not staying on that side of the city, it may not worth the trouble to make an inter-continental trip just to have a drink, but drop by if you are around and thirsty.
+* '''Nightclubs''' - While there are night clubs [[Istanbul#Districts|all over the city]], two of the hottest clubs of Istanbul are in '''[[Istanbul/Bosphorus|Ortaköy]]'''.
+*'''[[Istanbul/Galata]]''' A local hotspot for those who want to avoid the clubs of Taksim. The steps going down from the Galata Tower are heaving at night so grab some beers/raki from the local shops and an interesting mix of about 90% local to 10% tourist.
+
+==Sleep==
+In general, it's possible to find some kind of accommodation in any [[Istanbul#Districts|district]] of Istanbul. Here's a quick list of the districts where there are the greatest concentrations of lodgings:
+
+*'''[[Istanbul/New_City|Harbiye]]''' is a popular place to stay, as in the main centre of the new city on the European side, and contains a variety of international standard apartments, hotels, and moderate hotels for budget travellers. Nişantaşı and Taksim are 5 minutes from Harbiye so you can stay in Harbiye and benefit from all activities in Nişantaşı and Taksim. 
+
+*'''[[Istanbul/Galata|Taksim]]''' is the main centre of the new city on the European side. Locals and tourists go to Taksim for shopping and entertainment, as well as moderate hotels for budget travellers.  There are also two hostels in this area.
+
+*'''[[Istanbul/Sultanahmet-Old_City|Sultanahmet]]''' the main centre for the old city on the European side. It has a selection of quality, reasonably priced hotels, many with terraces overlooking the Golden Horn, or with views of the Marmara Sea and the Blue Mosque. Most hostel-type accommodation frequented by independent travellers are located in this district, although it is possible to find a few upmarket hotels.
+
+*Quite pricey hotels can be found in '''[[Istanbul/Western Suburbs|western suburbs]]''', especially around the airport, as well as on/overlooking the banks of '''[[Istanbul/Bosphorus|Bosphorus]]'''.
+
+*With the closure of relatively central Ataköy [[Car camping|caravan]] park, the place where you can tow your '''caravan''' nearest to the city is now located in Selimpaşa, a far outer [[Istanbul/Western Suburbs|western suburb]] of the city, though it is still a good 40km away from central parts of the city.
+*<sleep name="Avrasya Hostel" alt="" address="Cankurtaran Mahallesi Seyit Hasan Sokak No:12, Sultanahmet, Istanbul, Turkey" directions="" phone="+902125169380" url="https://www.hostelworld.com/hosteldetails.php/Avrasya-Hostel/Istanbul/86651" checkin="" checkout="" price="from USD 8" lat="" long="">Avrasya Hostel is a family owned hostel in the centre of Sultanahmet. Its central location makes it an ideal place to stay in the city and explore all the prime attractions by foot. They have a nice open terrace where they serve breakfast. </sleep>
+*<sleep name="Manu Startup House" alt="" address="İçerenköy, Ertaç Sk., 34752 Ataşehir/İstanbul" directions="" phone="+90 5326661090" url="https://www.hostelworld.com/st/hostels/p/319503/manu-startup-house/" checkin="" checkout="" price="from USD 13" lat="" long="">Manu Startup House is a one-of-a-kind destination for digital nomads, offering a fantastic atmosphere, capacious and cozy lodging, and a delicious continental breakfast served daily. Quick and easy access to some of the city's most iconic landmarks, Manu Startup House is the perfect place to stay and work while exploring Istanbul.</sleep>
+
+==Contact==
+===Emergency numbers===
+Dial 112 for emergency calls. English-speaking operators are available, but if unsure, ask the operator to direct you to an English-speaking one.
+
+===Telephone codes===
+Istanbul is the only city/province in Turkey which has more than one telephone code: '''212''' for European side, '''216''' for Asian side and Princes’ Islands. When calling from one continent to the other, the usual dialing format used for intercity calls should be used, as if it’s an intercity call: ''0+area code (212 or 216)+7-digit telephone number''. It may appear as an intercity call, but it will be treated as a local call in respect to payment. When making an intercontinental call, if you forget to dial the code, your call will ''not'' be automatically routed to the other continent number, it is likely that you will be connected to the “wrong” number which is in the same continent with you, because much of the number sets are used on both continents (albeit with different codes of course). When dialing a number that is on the continent you are already standing on, only 7-digit number is enough. Don’t forget to dial the code first no matter which continent you are in if you are calling a landline number from a cell phone (even if it’s a number that is in the same continent with you), though.
+
+===SIM Cards===
+Prepaid SIM cards can be bought (for around 30 TL with 5TL usable balance) at Vodafone, Avea or Turkcell kiosks at the airport or in shops around town. At the Airport, the Avea, Vodafone and Turkcell shops are respectively to the left, right and across from the exit. For about 90TLY Avea offers a 250 minute in Turkey, 100 minute to Europe, 1GB of data plan, the other two have similar plans. Ask the salesperson to set it up for you and check by calling his phone and opening up a webpage. For iPhone, it may be necessary to download Turkish script before the phone can be used. They ask to make a copy of your passport.
+
+However, to be able to use your phone you need to get it unlocked for use in Turkey. With a bit of luck the guy in the shop can do it for you, though that may violate the rules of your contract, depending on the country you are from. Having your phone unlocked officially can happen through your operator in your home country.
+
+===Internet===
+Cafés with free wireless internet (wi-fi):
+* Several of the nargile places in Tophane
+* Several cafes in Cihangir, including Kahvedan, Meyva, Komşufırın and Kahve Altı
+* Many cafés and restaurants along Istiklal Caddesi in Beyoglu
+* Both the large American fast food restaurant chains
+* There is one upstairs by the restaurants facing the side of Aya Sofia and behind the entrance to the Basilica in Sultanahmet.
+* Starbucks has quite a few shops around, and (at least) those at the touristic zones, has a free wireless connection. 
+In the recent years, the number of cafes and shopping centers with wi fi Internet access has increased dramatically, most of them still being free. Most internet cafes have high speed ADSL connections, and they are very inexpensive compared to Europe (about 0.50-1.50 Euros per hour).
+* Most hostels and hotels of the Sultanahmet area have wi-fi Internet access in thier lobby, and often in the rooms. They can be overpriced, though.
+
+
+===Wi-Fi===
+'''Hotel'''&mdash; Every hotel has their own Wi-Fi. Some hotels do have trouble with their network setup or the connection due to the historical location however at the least you will have free wi-fi at your hotel. All you have to do is to learn the wifi password to access the internet. 
+
+'''Cafes'''&mdash; Every café, bistro, restaurant share their internet with their guests. Even the small restaurants now have internet access. Stability and speed depend on where you are and what kind of café, bistro or restaurant you are in. Starbucks,  Nero etc. typically have stable wi-fi unless very crowded. If you are in a Starbucks all you have to do is connect your device (SSID should be '''TTNET''' or '''DorukNet''', AND if you are in Nero '''DorukNet''') and fill out some basic information for verification that you have to fill. After that, you are ready to go. And if you are in the other restaurant or cafés you can just ask to your waiter to get SSID and Password and after that you are ready to go. 
+
+'''Public Center and Squares'''&mdash; Municipality of Istanbul recently announced that free public wi-fi will be available in most common city centers and squares.  All you have to do is (when you near of one of these centers of course) register your id via your cell phone and you will get an access password. 
+
+'''Wi-Fi on the Go'''&mdash; You can rent a mobile wifi hotspot during your stay in Turkey. It works based on 3G connection in the whole country, and you can connect up to 10 devices at the same time. These pocket-sized devices can be easily booked online.
+
+While there are plenty of international companies that rent a mobile hotspot, mainly three local companies are operating: 
+
+* '''Alldaywifi [http://alldaywifi.com]''';
+* '''Rent 'n Connect [http://www.aktimkonteyner.com.tr]''';
+
+==Stay safe==
+
+As with most European cities, but especially in crowded areas of [https://www.ranitravel.com/ Istanbul], watch your pockets and travel documents as pickpockets have devised all sorts of strategies to obtain them from you. Do not rely too much on the 'safe' feeling you get from the omnipresence of policemen. [https://www.ranitravel.com/ Taksim Square], [https://www.ranitravel.com/ Sultanahmet Square], Istiklal Avenue, Kadikoy Square etc. are observed by security cameras monitored by police 24/7 non-stop.
+
+Also be wary of men in Taksim who splash water on the backs of your neck. When you turn around, they will try to start a fight with you as another man comes in and robs you. These men tend to carry knives and can be very dangerous.
+
+Istanbul is home to three of the biggest clubs in Turkey and arguably European football: Beşiktaş, Fenerbahçe, and Galatasaray. It is advisable not to wear colours associating yourself with any of the clubs--black and white, blue and yellow, and red and yellow, respectively--particularly on the days of matches between the sides due to the fearsome rivalry they share.
+
+Be respectful of the Turkish flag. Don't put it on places where people sit or stand, don't drag it, don't wrinkle it, don't contaminate it, don't use it as a dress or uniform. Not only will Turks be very offended, furthermore the desecration of the Turkish flag is a punishable offence. The flag is extremely important and well respected in Turkey.
+
+
+===Scams===
+Below are scams that have been reported. They may be discouraging; however, of all these scams, the most common is the overpriced taxis, which also happens to be the most common scam in the world. In other words, use traveller's common sense and caution and you'll be safe. And do not be afraid of the police; if you think you are being scammed or robbed, the police will take the utmost care of you.
+
+====Blue Mosque scam "guides"====
+When walking through the gates of the [https://www.ranitravel.com/ Blue Mosque], beware of smiling, friendly men who offer immediately to be your de-facto guide through the mosque and its surroundings; while they are informative on just about anything relating to the mosque--etiquette, history, Islamic practices--they eventually demand a price for their "services", a quotation that can be as high as 50TL (about 8 Euros or £7). One would be better off booking a private tour online; or not at all, since the mosque is free to all anyway.
+
+For Hagia Sophia it is, however, reasonable, especially if you travel within a group, to use guide's services. Since the audio-guides cost 20 TL p.p. it could be even cheaper with a guide. He will also put you straight to the ticket office so you don't have to wait on a line. Just be careful, when negotiating the price, that he will require 50 TL as a whole, and not per person.
+
+There are also many 'helpful guys' in the area who will let you know that the Blue Mosque is closed, either for prayers or some other reason. While the prayer hall may be closed briefly at such times, the mosque courtyard remains open all day and well into the evening, and you can happily sit there and enjoy the surroundings while you wait for prayers to finish, if indeed they are happening. These guys are really just agents for carpet and art dealers who will happily lead you away from the sights to their shop. Always ignore them. Honest Turkish people will not approach strangers unless they are in evident need of assistance.
+
+====Bar/club scams====
+Be aware of high-drink price [[scams]] in "night-clubs" (located mostly in Aksaray, Beyazit and Taksim areas). These clubs can charge overpriced bills (hundreds or thousands of lira) based on a replica of the original menu or even simply a menu lying upside down on the table.
+
+Be '''especially''' aware of "friendly" young men/groups of young men/male-female couples inviting you to a "good nightclub they know"---this is frequently a prelude to a scam. Scammers often work to earn your trust, striking up a conversation or even taking you to a legitimate restaurant and covering the bill. In another variation, the scammer will talk to you in Turkish, and when you reply in your own language, they will be "surprised" you're not Turkish and offer to repay you for their accident with a beer. Note that some scammers are very, very patient, working for hours to gain your trust before finally taking you to a bar.
+
+The conversations may start very naturally that you may lose your scene of awareness. Scammers may dress very smart and look high educated. They also pretend to be a '''tourist''' like you, not the local with the same interest to discover [https://www.ranitravel.com/ Istanbul] and inviting you too. Believe me, you will be surprised with various ways of stating a conversation with you: '''“Do you have a lighter? Could you help me to take a photo?...''' In the middle of a walking conversation, they may stop in an exchange office to change some Euro to Lira just to make you believe that they are also tourists like you. Normally, the key question to get ‘access’ to you is “Where are you from?”.
+
+In any of these scams, if you refuse to pay the high prices or try to call the police (dial #155), the club managers may resort to physical intimidation. In general, use caution: scams in Taksim are becoming more serious, and organized crime may be involved. 
+
+The following tips will not guarantee protection from bar/club scams, but may help you avoid the most common traps:
+* '''Beware of unsolicited advice or conversation from "locals."''' The best option is to ignore such conversation and move to a more populated/well-lit area, ''no matter how "friendly" the "local" seems''.
+* '''Be aware of friendly “tourists” as well'''. They may be very talent actors/actresses and you only realise this when you receive a very high bill from the bar that you go together with them.
+* '''Beware of bars and clubs where you seem to be the only tourist'''. In addition, any bar that looks like it could be a strip club is likely a scam joint. There is no such thing as a "strip club" in Turkey so any place with an overtly strip-club-like name such as "night club", "revue show", "kiss" "sexy" "angel", "princes" etc, should be avoided at all costs. Pictures or shades of dancing girls, or any sexy female depictions ( red lips, dangling legs etc) are red flags. Do not prefer underground clubs. If you are up for a dancing, choose the places where the entrance is on ground floor. 
+* '''Always ask for the exact price of drinks before ordering'''. Of course, scammers will not be honest, but any hesitation, evasiveness, or ambiguity is a good sign of foul play.
+* '''Remember the location of nearby public areas with lots of people (preferably police)'''. The best place to get away from scammers is in a crowd monitored by law enforcement.
+* '''Carry only minimal cash'''. If the scammer takes your money, you can cut your losses. Some scammers will even escort you to an ATM to obtain more cash; if the ATM is in a public area, it will be easier to get the attention of law enforcement.
+* '''Never indicate where you are staying'''. The last thing you need is for the scammers to follow you to your own bed.
+
+If you are caught by scammers and faced with an impossible bill, keep the following in mind:
+* The safest option is to comply with the scammers while finding a way to get out of the situation.
+* When possible, head to a safe (i.e., public) place and call the police (dial #155).
+* There are many police in Taksim and other public areas, including undercover operatives. Do not be shy about yelling "Polis! Polis!" (Police! Police!). The police will be very willing to assist, and younger police are generally university graduates capable of some English or German.
+* Suggest that you need to visit an ATM; this will give you a chance to leave the club, head to a more public area, and attract the attention of police.
+* In a few situations, tourists have run away when faced with an exorbitant bill. This is risky, due to the physical fitness required as well as possible physical retaliation should the attempt fail. However, those who succeed follow the basic strategy listed above: comply with the scammers until you find an opportunity to get away, and head towards a public area with police.
+
+====Lira/Euro Scams====
+A frequent scam, often in smaller hotels (but it can also happen in a variety of other contexts), is to quote prices in Lira and then later, when payment is due, claim the price was given in Euros. Hotels which reject payment early in a stay and prefer you to "pay when you leave" should raise suspicions. Hotels which operate this scam often  offer excellent service and accommodation at a reasonable price and know most guests will conclude as much and pay without complaint - thus (ironically) this can be a sign of a good hotel.
+
+Another scam is, as you walk across the streets, a guy with his wife and a cute kid would come and abruptly hit on you giving handshakes and exchanging greetings. They will identify your nationality/region somehow and will talk about your region's famous actors/singers and make you feel comfortable. Then they will talk about your currency and ask how much of your currency is worth one dollar or one lira. They will very politely request you to show them your currency notes. The moment you open your wallet, the guy would very gently put his hands on the wallet pretending to just see all the possible denominations. Meanwhile his wife or himself would talk something else to divert your attention and your largest 2 denominations would disappear. This is purely con-art and is very common in Eminonu square, Taksim square and is reported by Asian looking people. 
+
+Another scam is coin-related and happens just as you're walking into the streets.  A Turkish guy holds you and asks where you are from.  If you mention a Euro-country, the guy wants you to change a €50 note from you into two-Euro coins he is showing.  He is holding the coins stack-wise in his hands.  For the trouble, he says he will offer you '30 two-Euro coins, making €60 in total'.  Do not agree with this exchange of money, as the first coin is indeed a two-Euro coin, but (many of) the rest of the coins will probably be 1 Lira coins (looking very similar), but worth only 1/4 of the value of €2.
+
+Many bars in the Taksim area give you counterfeit bills. They are usually well-made and hard to identify as fakes in the dark. One way to verify its authenticity is to check its size against another bill. Another is to hold the bill up to a strong light, face side up, and check for an outline of the same face which is on the bill. The value of the bill (20, 50, etc) should appear next to the outline, light and translucent. If either if these two security features are missing, try to have the bill changed or speak to the police.
+
+====Fake Currency====
+
+Some currency exchanges might give you fake Turkish lira notes. Try to see whether the numbers of the notes are different, although if only one out of many is fake, it will be hard to recognise. Usually newer notes should be looked at with a suspicious eye, especially if the silver part of the note is very reflective and colourful.
+
+One currency exchange in Taksim area on the road to the left of Istiklal street (the one with Ottoman palace hotel and Hafiz Mustafa) has placed 2 fake notes in the middle of real ones. It would be wise to avoid him, (the first currency exchange on the road leading southwards, left of istiklal street).
+
+Also happens at Metro stations, with a helpful person offering to help with the ticket machines (they are slightly complicated!) and then asks for smaller change for his large "fake" note.
+
+====Shoebrush====
+Some people will walk around Taksim (or other tourist-frequented areas) with a shoeshine kit, and the brush will fall off. This is a scam to cause some Western tourist with a conscience to pick it up and return it to the owner, who will then express gratitude and offer to shine your shoes for free. While doing that, he will talk about how he is from another city and how he has a sick child. At the end, the shiner will demand a much higher price for the "free" services provided than is the actual market norm.
+
+Another type of scam is used especially by child shoebrushers. On rainy days they act like they dropped and broke their shoeshine kit and literally paint the floor, then they start to cry and sob. Then, they wait for some emotional people (especially tourists)to help them and/or pay them.
+
+If you actively decide that you would like your shoes shined, then expect to pay not more than 5 lira for both.
+
+====Taxi drivers====
+Taxis are plentiful in Istanbul and inexpensive by Western standards.  They can be picked up at taxi ranks throughout the city or on the streets.  Empty cabs on the streets will honk at pedestrians to see if they would like a ride, or cabs can be hailed by pedestrians by making eye contact with the driver and waving.  Few taxi drivers speak languages other than Turkish, but do a fair job at deciphering mispronounced location names given by foreign riders. It is advisable to have the name of the destination written down and try to have a map beforehand to show the driver, to avoid any misunderstanding and also potential scams.  Though taxis are plentiful, be aware that taxis are harder to find during peak traffic hours and traffic jams and when it is raining and snowing. They are also less frequent during nights, depending on the area and and are hard to find after midnight. 
+
+Try to avoid using taxis for short distances (5-10 minutes of walk) if possible. Some taxi drivers can be annoyed with this, especially if you called the cab from a taxi hub instead of hailing it from the street. If you want taxis for short distances, just hail them from the street, do not go to the taxi hub.
+
+Few taxis have seatbelts, and some drivers may seem to be reckless.  If you wish for the driver to slow down, say "yavash lütfen" (slow please).  Your request may or may not be honoured.
+
+Unfortunately, as in any major city, tourists are more vulnerable to taxi scams than locals.  Be aware that taxi drivers use cars affiliated with a particular hub, and that the name and phone number of the hub, as well as the license plate number, are written on the side of each car.  Noting or photographing this information may be useful if you run into problems.  In general, riding in taxis affiliated with major hotels (Hilton, Marriot, Ritz, etc.) is safe, and it is not necessary to stay in these hotels to use a taxis leaving from their hubs. 
+
+Others may take unnecessarily long routes to increase the amount due (although sometimes alternate routes are also taken to avoid Istanbul traffic, which can be very bad).  Some scams involve the payment transaction; for example, if the rider pays 50 TL when only 20 TL are needed, the driver may quickly switch it with a 5 TL note and insist that the rest of the 20 TL is still due or may switch the real bill for a fake one and insist that different money be given.
+
+Methods to avoid taxi scams:
+
+1. '''SIT IN THE FRONT PASSENGER SEAT'''. Watch the meter. Watch the driver's actions (beeping the horn, pumping the brakes, etc) and note what the taximeter does. Try to avoid putting your luggage in the boot. While it is rare, some drivers will wire parts of their controls to increase the fare upon activation. If you're with your significant other, '''do it anyway'''. Save the cuddling for after the ride. Check if the seal on the taximeter is broken. Use your phone for light. This will make the driver realize that you are cautious. Be very careful when the driver touches the meter or when you can't see the meter. Challenge the driver right away to see if there's any unusual jumps in the price. 
+Note that for women it is better to sit in the back seat (where you can see the meter from the middle), as there are occasionally problems with taxi drivers getting overly friendly, and sitting in the front is a sign that a woman welcomes such behaviour.
+
+2. '''Ask "How much to go to...?" (basic English is understood), before getting in the taxi'''. Price will be quite accurate to the one in the taximeter at the end of the ride. If the price sounds ok for you, get in the cab and tell them to put the Taximeter on. Since 2009, the rate they are applying is same during night and day. Also you can use this useful and up-to-date cab fare estimation tool for Istanbul: [http://taksiyle.com/en/]
+ 
+3. '''Know the route.''' If you have a chance, find a map and demand that the driver take your chosen route to the destination. Often times they will drive the long way or pretend not to know where you're going in order to get more money out of you. If the driver claims not to know the route to a major landmark or gathering place, refuse his services as he is likely lying.
+
+4. '''Choose an elderly driver.''' Elderly taxi drivers are less likely to cheat passengers. Be mindful that some elderly drivers have vision impairment and their driving skills may have been greatly diminished, which can result in an accident.
+
+5. Let taxi driver see money in your hands and show values and take commitment on it. This is 50 Lira. OK? Take this 50 Lira and give 30 Lira back OK?. This guarantees your money value. Otherwise, your 50 Lira can be 5 Lira immediately on his hands. Try to have always 10 Lira or 20 Lira bills in your wallet. This makes money scams in general more difficult. If you realize that the driver tried to use the 50 Lira to 5 Lira trick on you, call the police (#155) immediately and write down the license plate. 
+
+6. Create a big scene if there is a problem. If you are absolutely positive you have been subject to a scam, threaten to or call the police and, if you feel it will help, start yelling. Taxi drivers will only rip off those they think will fall for it; creating a scene draws attention to them and will make it easier to pay the correct rate.
+
+7. Uber works in Turkey, yet slightly more expensive than the taxis, but standard. Also there are otherphone-apps like "itaxi" or "Bi-taxi" by which you may anticipate the fare and call for a taxi.
+
+===Overpricing===
+Watch the menu carefully in street cafes for signs that prices are not discriminatory — if prices are clearly over-inflated, simply leave. A good indication of over inflation is the circulation of two different types of menu — the "foreigner" menu is typically printed on a laminated card with menu prices written in laundry marker/texta, i.e., prices not be printed; in these cases, expect that prices for foreigners will be highly inflated (300% or higher). 
+
+While this is not really a problem in [[Istanbul/Galata|Beyoğlu]] or [[Istanbul/Bosphorus|Ortaköy]], avoiding the open air cafes toward the rear courtyard of the Spice Bazaar ([[Istanbul/Sultanahmet-Old City|Sultanahmet]]) is wise. The area immediately north of the Spice Bazaar is also crawling with touts for these 'infamous' cafes.
+
+You should be careful also when ordering food in some restaurants. For example, in a restaurant called "Konak Kebap", located in Istiklal street, the waiter will take your order in English and then ask about the size of the portions in a confusing mixture of Turkish, Arabic and/or English. In that way, you will very probably ask for larger portions or non-wanted extras that will raise the price of the bill more than 300%. For example, a "medium" kebap has the same price as 4 normal kebaps (the menu only shows the price of the normal portions). Avoiding "Konak kebap" in Istiklal; and Kebap Saray in Taksim Square is wise. You should also be careful in other restaurants near tourist areas, to avoid any surprises.
+
+===Stalking===
+Men intent on stalking foreign women may be present anywhere and everywhere.  Such men may presume that foreigners have a lot of money or liberal values and may approach foreign women in a flirtatious or forward manner looking for sex or for money (either by theft or selling over-priced goods). First rule-of-thumb is to avoid direct eye contact. Also, if you happen to talk to a newly-met Turkish man do not overdo the courtesy-smile. In fact do not smile at all. It may be mistaken for flirting. If you are being harassed, use common sense and go to where other people are; often this is the nearest store.  Creating a public scene will deter many stalkers, and these phrases may be useful in such cases:
+*''İmdat!'' - "Help me!" (eem-daat)
+*''Ayıp!'' - "Rude!" (ah-yeep)
+*''Bırak beni!'' - "Leave me alone!" (bee-rock beh-nee)
+*''Dur!'' - "Stop it!" (duwr)
+*''Gider misin?!'' - "Will you go?!" (ghi-dehr me-sin)
+Or to really ruin him:
+*''Beni takip etme?!'' - "Can you please stop stalking me?!" (beh-nee tah-keep et-meh)
+*''Polisi ariyorum'' - "I am calling the cops!" (police-ee are-ee-your-uhm)
+
+Occasionally try not to use Turkish as the stalker will like it more, just scream and run and find a safer place with crowd and police.
+
+===Tourism Police===
+Istanbul PD has a "Tourism Police" department where travelers may report passport loss and theft or any other criminal activity by which they are victimized. They have an office in [[Istanbul/Sultanahmet-Old_City|Sultanahmet]] and can reportedly speak English, German, French, and Arabic.
+
+* <listing name="Tourism Police" alt="Turizm Polisi" directions="in the yellow wooden building between Hagia Sophia and the entrance of Basilica Cistern, few meters away from each" address="Yerebatan Caddesi 6, Sultanahmet" phone="+90 212 527 45 03" email="" fax="+90 212 512 76 76" url="" hours="" price=""></listing>
+
+==Stay healthy==
+Tap water may not be safe depending on where you drink it. Although the tap water itself is clean, many local water tanks are not maintained properly, and one should try to avoid tap water if possible. Locals widely prefer bottled water and the same applies for the restaurants.  Expect to pay for water in restaurants (around 5TL).
+
+Drink a lot of water if you come in summer and do not expose yourself to the direct sun light for more than 20 minutes, even if there is a nice Bosphorus breeze.
+
+There are street vendors that sell mussels. They are yummy but consume them moderately. They include high dosages of toxic metals. 
+Food and drinks are mostly of international standards. Some Turkish food may affect foreign tourists who may not be accustomed to such ingredients, although most of it is fine.
+
+Use common sense when buying certain foods, particularly from street vendors. Delicacies such as "Firin Sutlac" (a kind of rice pudding) can go bad rapidly on a hot day, as can the mussels occasionally for sale on the streets.
+
+==Cope==
+
+Keep in mind that Istanbul's less-than-scrupulous hotel and restaurant owners are as market savvy as they come—they actually read the popular travel guides to Istanbul and when they get listed or favorably reviewed, they raise prices through the roof and skimp on costs. For mid-range and cheap hotels/restaurants, you may actually have a better time if you '''avoid places listed in your guide.''' Trust your nose.
+
+Istanbul's mosques are beautiful and safe to visit provided you're dressed appropriately and cover what you're supposed to cover, and the locals welcome outsiders.
+===Consulates===
+{| 
+|-
+| style="vertical-align:top;width:50%;" |
+* [[Image:sn-flag.png|20px]] <listing name="Singapore" alt="" directions="" address="Suadiye, Kazım Özalp Sok. No:28 D:8, 34740 Kadıköy/Istanbul - Asia, Turkey" phone="+90 216 302-70-44" email="" fax="" url="" hours="" price=""></listing>
+* [[Image:ar-flag.png|20px]] <listing name="Argentina" alt="" directions="" address="Tepecik Yolu 58, Etiler" phone="+90 212 257-70-50" email="" fax="" url="" hours="" price=""></listing>
+* [[Image:As-flag.png|20px]] <listing name="Australia" alt="" directions="" address="Asker Ocağı Caddesi 15, Elmadağ" phone="+90 212 243-13-33" email="" fax="" url="" hours="" price=""></listing>
+* [[Image:au-flag.png|20px]] <listing name="Austria" alt="" directions="" address="Köybaşı Caddesi 46, Yeniköy" phone="+90 212 363-84-10" email="" fax="" url="http://www.aussenministerium.at/istanbulgk" hours="" price=""></listing>
+* [[Image:Be-flag.png|20px]] <listing name="Belgium" alt="" directions="" address="Sıraselviler Caddesi 39, Taksim" phone="+90 212 243-33-00" email="" fax="" url="http://diplomatie.be/istanbul/" hours="" price=""></listing>
+* [[Image:Br-flag.png|20px]] <listing name="Brazil" alt="" address="Askeroğacı Caddesi, 6 - Süzer Plaza 4th floor - Elmadağ, Şişli" directions="" phone="+90 212 252-00-13" url="http://istambul.itamaraty.gov.br/pt-br/" hours="" price="" lat="" long="" email="cg.istambul@itamaraty.gov.br" fax=""></listing>
+* [[Image:Bu-flag.png|20px]] <listing name="Bulgaria" alt="" directions="" address="Ahmet Adnan Saygun Caddesi 44, Ulus-Levent" phone="+90 212 281-01-15" email="" fax="" url="http://www.mfa.bg/embassies/turkeygc2/setlang/en" hours="" price=""></listing>
+* [[Image:ca-flag.png|20px]] <listing name="Canada" alt="" directions="" address="İstiklal Caddesi 189/5, Beyoğlu" phone="+90 212 251-98-38" email="" fax="" url="http://turkey.gc.ca" hours="" price=""></listing>
+* [[Image:Ch-flag.png|20px]] <listing name="China" alt="" directions="" address="Ahi Çelebi Cd. Çobançeşme Sk. 4, Tarabya" phone="+90 212 299-21-88" email="chinaconsul_ist_tr@mfa.gov.cn" fax="+90 212 299-26-33" url="http://istanbul.china-consulate.org/" hours="" price=""></listing>
+* [[Image:Da-flag.png|20px]] <listing name="Denmark" alt="" directions="" address="Meygede Sokak 2, Bebek" phone="+90 212 359-19-00" email="" fax="" url="http://www.ambankara.um.dk/en" hours="" price=""></listing>
+* [[Image:Eg-flag.png|20px]] <listing name="Egypt" alt="" directions="" address="Cevdet Paşa Caddesi, No. 12, Bebek" phone="+90 212 3242160" email="egypt.consulate.istanbul@hotmail.com" fax="+90 212 3242204: url="http://www.mfa.gov.eg/english/embassies/Egyptian_Consulate_Istanbul/Pages/default.aspx" hours="9:00 AM - 16:00 PM" price=""></listing>
+* [[Image:fi-flag.png|20px]] <listing name="Finland" alt="" directions="" address="Cumhuriyet Caddesi 71, 8th floor, Elmadağ" phone="+90 212 296-95-49" email="" fax="" url="http://www.finland.org.tr/" hours="" price=""></listing>
+* [[Image:fr-flag.png|20px]] <listing name="France" alt="" directions="" address="İstiklal Caddesi 4, Beyoğlu-Taksim" phone="+90 212 334-87-30" email="" fax="" url="http://consulfrance-istanbul.org/" hours="" price=""></listing>
+* [[Image:gm-flag.png|20px]] <listing name="Germany" alt="" address="İnönü Caddesi 10, Gümüşsuyu-Taksim" directions="" phone="+90 212 334-61-00" url="http://istanbul.diplo.de/" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:Gr-flag.png|20px]] <listing name="Greece" alt="" directions="" address="Turnacıbaşı Sokak 22, Beyoğlu" phone="+90 212 393-82-90" email=" grgencon.kon@mfa.gr" fax="+90 212 252-13-65" url="http://www.mfa.gr/turkey/geniko-proxeneio-konstantinoupolis/" hours="" price=""></listing>
+* [[Image:In-flag.png|20px]] <listing name="India" alt="" directions="" address="Cumhuriyet Caddesi 18, Dörtler Apt. 7th floor, Elmadağ" phone="+90 212 296-21-31" email="" fax="" url="http://cgiistanbul.org/" hours="" price=""></listing>
+* [[Image:Ir-flag.png|20px]] <listing name="Iran" alt="" directions="" address="Ankara Caddesi 1, Cağaloğlu" phone="+90 212 513-82-30" email="" fax="" url="" hours="" price=""></listing>
+* [[Image:It-flag.png|20px]] <listing name="Italy" alt="" directions="" address="Tomtom Kaptan Sokak 5, Beyoğlu" phone="+90 212 243-10-24/243-10-25/244-32-59" email="consolatogenerale.istanbul@esteri.it" fax="+90 212-252-58-79" url="http://www.consistanbul.esteri.it/Consolato_Istanbul" hours="9:00-12:00" price=""></listing>
+| style="vertical-align:top;width:50%;" |
+* [[Image:Ja-flag.png|20px]] <listing name="Japan" alt="" directions="" address="Büyükdere Caddesi 209, Tekfen Tower 10th, 4.Levent" phone="+90 212 317-46-00" email="" fax="" url="http://www.istanbul.tr.emb-japan.go.jp/" hours="" price=""></listing>
+* [[Image:ks-flag.png|20px]] <listing name="Republic of Korea" alt="" directions="" address="Piyalepaşa Bulv. 73, Ortadoğu Plaza, 18th floor, Okmeydanı" phone="+90 212 368-83-68" email="" fax="" url="http://tur-istanbul.mofat.go.kr/eng/eu/tur-istanbul/main/index.jsp" hours="" price=""></listing>
+* [[Image:mk-flag.png|20px]] <listing name="North Macedonia" alt="" directions="" address="Inönü Caddesi. Üçler apt. 20/5
+Gumussuyu/Taksim" phone="+90 212 251-22-33" email="istanbul@mfa.gov.mk" fax="+90 212 293-77-65" url="" hours="" price=""></listing>
+* [[Image:Mx-flag.png|20px]] <listing name="Mexico" alt="" directions="" address="Balmumcu Mahallesi, Barbaros Bulvarı, Gamze Apartmanı 76/5, Beşiktaş" phone="+90 212 274-24-64" email="mexicoconsulate@superonline.com" fax="" url="http://www.mexico.org.tr" hours="" price=""></listing>
+* [[Image:Nl-flag.png|20px]] <listing name="Netherlands" alt="" address="İstiklal Caddesi 197, Beyoğlu" directions="" phone="+90 212 393-21-21" url="http://istanbul.nlconsulate.org" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:Nz-flag.png|20px]] <listing name="New Zealand" alt="" directions="" address="İnönü Caddesi 48/3, Taksim" phone="+90 212 244-02-72" email="" fax="" url="http://www.nzembassy.com/turkey" hours="" price=""></listing>
+* [[Image:no-flag.png|20px]] <listing name="Norway" alt="" directions="" address="Bilezik Sokak 4, Fındıklı" phone="+90 212 249-97-53" email="" fax="" url="http://norway.org.tr/" hours="" price=""></listing>
+* [[Image:Pk-flag.png|20px]] <listing name="Pakistan" alt="" directions="" address="Cengiz Topal Cad. Gülşen Sok. No: 5, Beyaz Ev 3. Etiler" phone="+90 212 358-45-06" email="" fax="" url="" hours="" price=""></listing>
+* [[Image:Ro-flag.png|20px]] <listing name="Romania" alt="" directions="" address="Yanarsu Sokak, Narin Sitesi 42, Etiler" phone="+90 212 358-05-15" email="" fax="" url="http://istanbul.mae.ro/" hours="" price=""></listing>
+* [[Image:ru-flag.png|20px]] <listing name="Russia" alt="" directions="" address="İstiklal Caddesi 443, Beyoğlu" phone="+90 212 292-51-01" email="" fax="" url="" hours="" price=""></listing>
+* [[Image:Sp-flag.png|20px]] <listing name="Spain" alt="" directions="" address="Karanfil Aralığı Sokak 16, 1. Levent" phone="+90 212 270-74-10" email="" fax="" url="http://maec.es/subwebs/Consulados/Estambul/es/home/Paginas/home_estambul.aspx" hours="" price=""></listing>
+* [[Image:Rs-flag.png|20px]] <listing name="Serbia" alt="" directions="" address="Geyikli sok. 1. Levent" phone="+90 212 213-52-29" email="konzulat.istanbul@mfa.rs" fax="+90 212 213-54-03" url="http://www.istanbul.mfa.gov.rs/" hours="Monday - Friday: 9:30AM to 1PM" price=""></listing>
+* [[Image:Sw-flag.png|20px]] <listing name="Sweden" alt="" directions="" address="İstiklal Caddesi 247, Beyoğlu" phone="+90 212 334-06-00" email="" fax="" url="http://swedenabroad.com/Start____9208.aspx" hours="" price=""></listing>
+* [[Image:Sz-flag.png|20px]] <listing name="Switzerland" alt="" directions="" address="Büyükdere Caddesi 173, 1.Levent Plaza A-Blok 3rd floor, Levent" phone="+90 212 283-12-82" email="" fax="" url="http://www.eda.admin.ch/eda/en/home/reps/eur/vtur/cgist.html" hours="" price=""></listing>
+* [[Image:sy-flag.png|20px]] <listing name="Syria" alt="" directions="" address="Maçka Caddesi 59/3, Teşvikiye" phone="+90 212 232-67-21" email="" fax="" url="" hours="" price=""></listing>
+* [[Image:uk-flag.png|20px]] <listing name="United Kingdom of Great Britain and Northern Ireland" alt="" address="Meşrutiyet Caddesi 34, Tepebaşı-Beyoğlu" directions="" phone="+90 212 334-64-00" url="" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:us-flag.png|20px]] <listing name="United States of America" alt="" address="İstinye Mahallesi, Kaplıcalar Mevkii No.2, İstinye" directions="" phone="+90 212 335-90-00" url="https://www.babybananatr.com" hours="" price="" lat="" long="" email="" fax=""></listing>
+|}
+
+==Get out==
+*'''Ataturk Airport''' — You can easily connect to Atatürk airport via the Metro (possibly with a tram transfer. However, if your flight is before when the Metro starts working, you can use the Havaş airport shuttle which departs from various points of the city from as early as 04:00. Scheduling information can be found here and clicking on the airport you need: [http://havatas.com Havataş airport shuttle information]. An example would be from Taksim Square, which leaves as early as 04:00, costs 11 TL (January 2015), and takes 40 min.
+
+*'''Sabiha Gökçen Airport''' — Most of the hotels offer private bus transportation, sometimes overpriced (15€ instead of 10). The cheaper option is to take one of the [http://havatas.com Havataş] buses departing every 30 min from taksim square for as low as 14 TL (January 2015). 
+
+*'''Kilyos''' — Located by the Black-sea shore on the European side, Kilyos is a half-hour drive from Taksim under normal circumstances. The village has more than a dozen private and public beaches, some of which require membership to enter. Though there are ways to get to Kilyos with buses and dolmus, the best way is to use a private car, since the journey will take longer than usual during summer. '''Note''', that the sea is rough, and high waves and currents make it difficult and somewhat dangerous to swim for people who are not expert and cautious. Drownings occur every year. For your safety, do not swim outside the limits of the '''designated swimming area''', which are marked by buoys.
+
+*'''[[Istanbul Province#See|Atatürk Arboretum]]''' (living tree museum) is the place for nature lovers. Easily accessible by public buses from various locations in the city, the arboretum near the Black Sea coast in a verdant forest offers gorgeous scenery—which reaches its zenith in autumn as the leaves change to crimson, golden, purple, or anywhere inbetween—and a spectacular view of Bosphorus, which is seen like a turquoise lake from an observation tower, which also serves well as a spot for birdwatching.
+
+[[Image:Yoros_ist.jpg|thumb|Anadolu Kavağı with Yoros Castle to the upper left]]
+
+*'''Anadolu Kavağı''' — While officially the northernmost district of the city, Anadolu Kavağı (also known simply as '''Kavak''') on the Asian bank of Bosporus is in reality a separate town, accessible only by a windy and narrow road through the forest, by infrequent public buses, or by ferries (the best way to go there). Ferries depart from Eminönü (once or twice a day, from the pier named ''Boğaz İskelesi'') and Sariyer (much more frequently), which is the northernmost district on European side (to get to Sariyer, you should take public bus #40 from Taksim). While in Anadolu Kavağı, climb up to the citadel on the hill (follow the signs starting from the square near the quay, it takes about 20 minutes on foot, free admission). The citadel is named '''Yoros''' and it’s unclear who built it, maybe Byzantines or the Genoese perhaps, but it’s pretty obvious that it was built to protect the northern entrance of Bosphorus. The castle offers a perfect view of the entrance of Bosporus and the Black Sea beyond, as if not much has changed since Jason and the Argonauts sailed through here in pursuit of Golden Fleece. When you turn your back to Black Sea on the other hand, you’ll have a distant view of business district of the city, full of skyscrapers. When you’re done in the castle, return back to town centre, and before boarding the ship that will take you back to the city, have a waffle and a hot coffee in one of the cafés near the shore if it’s winter. Recently a number of open-air cafes just across the street from the citadel has been opened as well, overlooking the pleasant wooded vale, the village, and the Bosphorus below. (Note: Citadel and surrounding areas get really crowded at weekends during summer months, which makes falling into mythical dreams a little difficult. Also avoid staying around the castle after the night falls in winter, as scarily large dogs occupy all over the place.)
+
+*'''[[Polonezkoy|Polonezköy]]''' — A village in the Asian side of Istanbul, about 20 km away from central parts of the city. It was founded by Polish settlers in 19th century.
+
+*'''Şile''' — Located by the Black-Sea shore on the Anatolian side, Şile is a 45 minutes drive to Taksim. Though, it will take ca. 1.5-2 hours to get there if you take the bus from Üsküdar. It is a village growing rapidly, famous for its fish and special cotton fabric ''Şile Bezi'' (cloth of Şile). Similar to Kilyos, Şile also has its own private and public beaches. '''Note''', that the sea is rough, and high waves and currents as well as the dangerous sand type of the sea, make it difficult and somewhat dangerous to swim for people who are not expert and cautious. Drownings occur every year. For your safety, do not swim outside the limits of the '''designated swimming area''', which are marked by buoys.
+
+[[Image:agva.turu.sile.jpg|thumb|Coastline near Ağva]]
+
+*'''Ağva''' — Lying to the east of Şile, you can get to [Ağva][http://www.evdeyoklar.net] by bus or car. By car, it will take 20-30' and by bus ca. 1 hour. Ağva is a tourist-attracting, small holiday village. It has less make-up for tourist. You can observe the local life. Although it is less crowded than Kilyos and Şile due their relative proximity to Istanbul, its beach became due to the increase of visitors dirty recently. But if you ask locals, you can find wonderful, hidden beaches (such as "Kilimli"). '''Note''', that the sea is rough, and high waves and currents make it difficult and somewhat dangerous to swim for people who are not expert and cautious. Drownings occur every year. For your safety, do not swim outside the limits of the '''designated swimming area''', which are marked by buoys.
+
+*'''[[Istanbul/Princes’ Islands|The Princes' Islands]]''' — A group of islands off the southern coast of the Asian Side of Istanbul. '''"Büyükada"''', the biggest and most famous of them all, has fairly frequent ferry connections to Eminönü and Kabatas (on the European side) and Bostanci and Kadikoy (on the Asian side) (depending on the time of year - check out the IDO and Mavi Marmara ferry services. Out of season it might be necessary to travel via Bostanci using the Mavi Marmara ferries). At Büyükada you can rent bikes and find some very secluded spots perfect for a picnic, highly recommended for when you're tired of being in a huge city with millions of people. 
+
+*'''[[Marmara Islands]]''' further out in the Sea of Marmara is a less urban alternative to Princes' Islands, and with connections to Asian mainland (to [[Bandirma|Bandırma]] via [[Erdek]]) can be a stopover on the longer route to [[Izmir]].
+
+*'''[[Silivri]]''' — It's a place of choice for people to relax & take a break from their hectic lives. Silivri is a 45 minutes drive to Levent. The best way to commute is to use a private car, since the journey will take longer than usual during summer. The summer is a popular time when people move into their summer homes in Silivri and enjoy beach activities. In fact, many new and spectacular villages have also been built there.
+
+*'''[[Edirne]]''' in the west/northwest is a two-hour car drive or bus ride away (train is also an option but it takes much longer). This beautiful city served as the capital city of Ottoman Empire before the capital was moved to Istanbul, thus is full of history. Visiting this city can be a long day trip if you have a car at your disposal, or if you can get up very early and catch, say, 7 o’clock in the morning bus. It’s better to stay overnight to see all the sights though. If you have one more day to spare, instead of taking the shortest route, you can head to Edirne via the slightly longer '''northern route''' and visit [[Kiyikoy|Kıyıköy]]—ancient ''Medea'', nowadays a fishing village on the Black Sea with some traditional architecture, preserved city walls, and rock-cut St Nicholas Monastery—and [[Vize]] (site of a very well preserved Byzantine cathedral, 20 km west of Kıyıköy) on the way.
+
+*'''[[Bursa]]''' to the south/southeast, about the exact opposite direction of Edirne, can be another long day-trip, possibly combined with a de-tour to [[Iznik|İznik]] on the way. Bursa is another former Ottoman capital with many earlier historical sights, as well as [[Uludağ|Uludağ National Park]] just south of the city.
+
+*'''[[Çanakkale]]''', about three hours away in the southwest, is a pleasant city on the banks of the Straits of Dardanelles, and is the hub for visiting many nearby sites, such as [[Gallipoli]] World War I memorials, ancient [[Troy (Turkey)|Troy]], and charming island of [[Bozcaada]].
+
+*'''[[Sofia]], Bulgaria''', Using a night bus each way could even make this an interesting (if tiring) day trip to the capital of Bulgaria. 
+
+* '''[[Istanbul to New Delhi over land]]''', a.k.a. "'''The Hippie Trail'''" — over land route deep into [[South Asia]].
+
+* '''[[From Istanbul to Cairo|Istanbul to Cairo over land]]''' — over land route deep into [[Middle East]].
+
+===Bus Tickets===
+You can buy bus tickets to other cities at the Varan / Ulusoy offices, one of which is near Taksim square - see [https://maps.google.com/?ll=41.035535,28.987867&spn=0.001871,0.004128&t=m&z=19&iwloc=lyrftr:starred_items:105542156309746044638:,12660135729276709397,41.035536,28.987866 this map]
+
+===Possible hitchhiking spots===
+Istanbul is geographically huge, spanning two continents, so it is hard to hit the road with your thumb up immediately, although not entirely impossible. Here are a few ideas for spots (accessible by public transport) where to raise your thumb up when leaving the city.
+
+*If you intend to '''head west''' (towards Europe) '''by hitchhiking''', take public bus #448 (''Yenibosna Metro-Mimarsinan'') which departs from the bus stops located next to the ‘Yenibosna’ station of southern metro line. #448 takes you to the highway leading to west, to a highway on-ramp out of city, near Mimarsinan town. Don’t get off the bus until it leaves the highway by turning right in the on ramp junction. (fare: TL 1.50/person, though you’ll have to buy multi-use cards (at least 5 uses for TL 7.50), which makes a bad investment assuming that you are leaving the city. You can pay directly to the driver inside the bus the single-use fare, though)
+
+*If you intend to '''head east or south by hitchhiking''', however, it may be best to get to the neighbouring city of [[Izmit]] first. The cheapest train ticket costs 3.75 TL (3.00 TL if you have a valid student ID, this is the rate for ''Doğu Express'', which departs 08:35 every morning) from Istanbul’s Haydarpasa station to Izmit currently. Near the train station in Izmit is a major highway junction, take east for [[Adapazari]]/[[Ankara]]/[[Central Anatolia]]/[[Black Sea Turkey]], south for [[Yalova]]/[[Bursa]]. If you are eager for more southern locations such as [[Antalya]], take eastward road to Adapazari first, then hit the southward road there (which eventually reaches Antalya after hundreds of kilometers). Another option to leave the city is to take the not-so-cheap fast ferries to Yalova, if you don’t object to pay much for public transport.
+
+*There are also public buses from Kadiköy, Istanbul’s main centre on Asia, to Tuzla (#130 and #130A; fare: TL 1.50/person, 7days/24 hours service ), which is the '''east'''ernmost district of the city. If you take one of these buses, get off as soon as the bus leaves the highway (colloquially known as E-5, pronounced “eh besh” in Turkish, 4-lane one-way, you can easily recognize what is this highway and what is not). Where you will get off is as far as you can get on that highway with a public bus, though most of the cars passing there will be too fast to be able to stop right beside you.
+
+{{routebox-1
+| image1=E80.PNG
+| imagesize1=22
+| directionl1=W
+| majorl1=[[Edirne]]
+| minorl1=[[Corlu|Çorlu]] {{lfarrow}} Junction [[Image:E84.PNG|22px]] ([[Marmara Ereğlisi|W]])
+| directionr1=E
+| majorr1=[[Ankara]]
+| minorr1=[[Izmit|İzmit]]}}
+
+
+
+[[de:Istanbul]]
+[[es:Estambul]]
+[[fi:Istanbul]]
+[[fr:Istanbul]]
+[[it:Istanbul]]
+[[ja:イスタンブール]]
+[[nl:Istanbul]]
+[[pl:Stambuł]]
+[[pt:Istambul]]
+[[ru:Стамбул]]
+[[sv:Istanbul]]
+[[wts:Category:Istanbul]]
+
+
+[[WikiPedia:Istanbul]]
+[[World66:asia/middleeast/turkey/istanbul]]
+
+{{isPartOf|Istanbul Province}}
+{{guidecity}}
+{{cityguide}}
+{{title-icons|dotm-icon}}
+
+{{related|Ferries_in_the_Mediterranean}}

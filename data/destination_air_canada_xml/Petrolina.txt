@@ -1,0 +1,32 @@
+'''Petrolina''' is a city in [[Pernambuco]].
+
+==Get in==
+* Aeroporto Senador Nilo Coelho - Petrolina (PNZ)
+Airlines operating flights to Petrolina: GOL [http://www.voegol.com.br], OCEANAIR [http://www.oceanair.com.br/], TAM [http://www.tam.com.br/]    
+==Get around==
+
+==See==
+*<see name="Sunset at Orla" alt="" address="Orla" directions="" phone="" url="" hours="" price="" lat="" long="">See the sunset by the margin of the river.</see>
+
+
+==Do==
+*<do name="Nossa Senhora Rainha dos Anjos Cathedral" alt="" address="" directions="" phone="" url="" hours="" price="" lat="" long="">The neo-gothic style cathedral is a symbol of Petrolina.</do>
+
+
+==Buy==
+
+==Eat==
+*<eat name="Bodódromo" alt="" address="Avenida São Francisco" directions="" phone="" url="" hours="" price="" lat="" long="">Bodódromo is a gastronomic complex, with several restaurants specialized in goat meat, a specialty from the region. It is a must.</eat>
+
+
+==Drink==
+
+==Sleep==
+
+==Contact==
+
+==Get out==
+
+{{IsPartOf|Pernambuco}}
+{{outline}}
+{{cityguide}}

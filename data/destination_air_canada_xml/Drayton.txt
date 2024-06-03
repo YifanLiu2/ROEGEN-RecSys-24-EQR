@@ -1,0 +1,41 @@
+'''Drayton''' [http://www.Draytonnd.com] is a town in [[Pembina County (North Dakota)|Pembina County]], in the northeastern area of [[North Dakota]]. It has a population of about 906 people. Coordinates are latitude 48.57 N, longitude 97.18 W; elevation is 801 feet.
+
+==Understand==
+
+==Get in==
+* '''By car''': I-29 off exit 187. State hwy 66 east to the junction of SH 44.
+
+==Get around==
+
+==See==
+* <see name="Drayton United Methodist Church" alt="" address="203 N Main St" directions="" phone="+1 701 454-3880" email="" fax="" url="" hours="" price="">Listed on the National Register of Historic Places, this church features stunning stained glass windows. Built in 1906.</see>
+
+==Do==
+* '''Fishing''' for catfish. Drayton calls itself the ''Catfish Capital of the World''.
+
+==Buy==
+
+==Eat==
+* <eat name="Andy's Drive-In" alt="" address="702 N Main St" directions="" phone="+1 701 454-6111" email="" fax="" url="" hours="" price=""></eat>
+* <eat name="Cindy's Place" alt="" address="126 S Main St" directions="" phone="+1 701 454-3806" email="" fax="" url="" hours="" price=""></eat>
+
+==Drink==
+
+==Sleep==
+* <sleep name="Motel 66" alt="" address="502 W Hwy 66" directions="" phone="+1 701 454-6464" email="" fax="+1 701 454-6463" url="" checkin="" checkout="" price=""></sleep>
+
+==Get out==
+{{routebox
+| image1=I-29.png
+| imagesize1=22
+| directionl1=N
+| majorl1=[[Winnipeg]]
+| minorl1=[[Pembina]] {{lfarrow}} Jct [[Cavalier|W]] [[Image:ND-5.png|18px]]
+| directionr1=S
+| majorr1=[[Fargo]]
+| minorr1='''[[Grand Forks]]'''
+}}
+
+{{outline}}
+{{isPartOf|Pembina County (North Dakota)}}
+[[WikiPedia:Drayton, North Dakota]]

@@ -1,0 +1,993 @@
+{{pagebanner|Tokyo Banner.jpg}}
+
+{{districts discussion}}
+
+{{printDistricts}}
+
+'''Tōkyō'''[http://www.tcvb.or.jp/en/] (東京) is the capital of [[Japan]]. With over 13 million people within the city limits alone, Tokyo is the core of the most populated urban area in the world, [[Tokyo (prefecture)|Tokyo Metropolis]] (which has a population of over 37 million people). This huge, wealthy, and fascinating metropolis has something for everyone:  be it high-tech visions of the future, or nostalgic glimpses of old Japan.
+
+==Districts== 
+Huge and varied in its geography, with over 2,000km² (770 square miles) to explore, '''[[Tokyo (prefecture)|Tokyo Metropolis]]''' (東京都 ''Tōkyō-to'') spans not just the city, but rugged mountains to the west and subtropical islands to the south.  '''This article concentrates on the 23 central wards (区 ''ku'') near the bay, while the western cities and the islands are covered in a [[Tokyo (prefecture)|separate article]].'''
+
+Central Tokyo is defined by the JR Yamanote Line (see [[#Get around|Get around]]). The center of Tokyo &mdash; the former area reserved for the Shogun and his samurai &mdash; lies within the loop, while the Edo-era downtown (下町 ''shitamachi'') is to the north and east.  Sprawling around in all directions and blending in seamlessly is [[Yokohama]], [[Kawasaki]], and [[Chiba]], outlying cities which have merged together into one sprawling urban jungle.
+
+===Central Tokyo===
+{{Regionlist
+
+| regionmap=Central_Tokyo_map.png
+| regionmaptext=Map of Central Tokyo
+| regionmapsize=upright=1.3 
+
+| region1name=[[Tokyo/Chiyoda|Chiyoda]] 
+| region1color=#69999f 
+| region1items=[[Tokyo/Akihabara|Akihabara]] 
+| region1description=The seat of Japanese power (both political and economic) that includes the '''Imperial Palace''', the Ministries near Kasumigaseki, the Parliament in Nagatacho, the corporate headquarters of Marunouchi, and the electronics mecca of '''Akihabara'''. 
+
+| region2name=[[Tokyo/Chuo|Chuo]]
+| region2color=#7cb985
+| region2items=[[Tokyo/Ginza|Ginza]]
+| region2description=Also includes the famed department stores of the [[Tokyo/Ginza|Ginza]] and the fish markets of Tsukiji.
+
+| region3name=[[Tokyo/Meguro|Meguro]]
+| region3color=#7cb9b3
+| region3items=
+| region3description=A residential area with a few nice parks and museums.
+
+| region4name=[[Tokyo/Minato|Minato]]
+| region4color=#b97cb2
+| region4items=[[Tokyo/Akasaka|Akasaka]], [[Tokyo/Shinbashi|Shinbashi]], [[Tokyo/Roppongi|Roppongi]], [[Tokyo/Odaiba|Odaiba]], [[Tokyo/Shiodome|Shiodome]]
+| region4description=Including the business centers of '''Akasaka''' and '''Shinbashi''', the famed neighboring nightclub district of '''Roppongi''', the port district (at least in name) which includes the artificial island of '''Odaiba''', the skyscrapers of '''Shiodome'''.
+
+| region5name=[[Tokyo/Shibuya|Shibuya]]
+| region5color=#8a84a3
+| region5items=[[Tokyo/Harajuku|Harajuku]], [[Tokyo/Ebisu|Ebisu]]
+| region5description=The fashionable shopping district which also encompasses the teenybopper haven of '''Harajuku''' (also home to the '''Meiji Shrine''') and the cosmopolitan nightlife of '''Ebisu'''.
+
+| region6name=[[Tokyo/Shinagawa|Shinagawa]]
+| region6color=#7c99b8
+| region6items=[[Tokyo/Gotanda|Gotanda]]
+| region6description=A major train hub and business center, including '''Gotanda'''.
+
+| region7name=[[Tokyo/Shinjuku|Shinjuku]]
+| region7color=#7cb99d
+| region7items=
+| region7description=Home to luxury hotels, giant camera stores, futuristic skyscrapers, hundreds of shops and restaurants, and '''Kabukicho''', Tokyo's traditional nightlife and red-light district.
+
+| region8name=[[Tokyo/Toshima|Toshima]]
+| region8color=#8b7cb9
+| region8items=[[Tokyo/Ikebukuro|Ikebukuro]]
+| region8description=Including '''Ikebukuro''', another giant train hub.
+
+}}
+
+===Old Tokyo (''Shitamachi'')===
+{{Regionlist|
+
+| regionmap=Shitamatchi_map.png
+| regionmaptext=Map of Old Tokyo
+| regionmapsize=250px
+
+| region1name=[[Tokyo/Arakawa|Arakawa]]
+| region1color=#a8a57c
+| region1items=
+| region1description=Home to Tokyo's last original tram line.
+ 
+| region2name=[[Tokyo/Bunkyo|Bunkyo]]
+| region2color=#d9e528
+| region2items=
+| region2description=Home to Tokyo Dome and the University of Tokyo.
+
+| region3name=[[Tokyo/Koto|Koto]]
+| region3color=#e3b71b
+| region3items=
+| region3description=Famous for Kameido Tenjin and former woodland in Kiba, but now known for its many new public apartment complexes.
+
+| region4name=[[Tokyo/Sumida|Sumida]]
+| region4color=#dfd89f
+| region4items=[[Tokyo/Ryogoku|Ryogoku]]
+| region4description=Home of the '''Edo-Tokyo Museum''' and Tokyo's main sumo arena (Ryogoku Kokugikan), both in '''Ryogoku'''.
+
+| region5name=[[Tokyo/Taito|Taito]]
+| region5color=#d09440
+| region5items=[[Tokyo/Asakusa|Asakusa]], [[Tokyo/Ueno|Ueno]]
+| region5description=The heart of Old Tokyo featuring the temples of '''Asakusa''' and '''National Museums''' in '''Ueno'''.
+
+}}
+
+===Outer Tokyo===
+{{Regionlist|
+
+regionmap=New_Tokyo_map.png |
+regionmaptext=Map of Tokyo |
+regionmapsize=250px |
+
+region1name=[[Tokyo/East|East]] |
+region1color=#d5dc76 |
+region1items= |
+region1description=Many suburban wards, including '''Adachi''', where one can visit one of Kanto's Three Great Temples: Nishi-arai Daishi, '''Katsushika''', known for the charming Showa-era atmosphere of '''Shibamata''' and '''Edogawa''', a quiet eastern suburb. |
+
+region2name=[[Tokyo/North|North]] |
+region2color=#c75437 |
+region2items= |
+region2description=Includes the suburban wards of '''Kita''', '''Itabashi''' and the quieter northern '''Nerima''', which contains some of the 23 wards' last remaining farmland. |
+
+region3name=[[Tokyo/Nakano|Nakano]] |
+region3color=#c591bf |
+region3items= |
+region3description=Home to the ''otaku'' paradise known as Nakano Broadway. |
+
+region4name=[[Tokyo/Ota|Ota]] |
+region4color=#b99087 |
+region4items= |
+region4description=Half industrial complex, half upscale residential area. |
+
+region5name=[[Tokyo/Setagaya|Setagaya]] |
+region5color=#905a69 |
+region5items= |
+region5description=An upscale residential area that houses the student drinking spot of '''Shimokitazawa''' as well as the newly revitalized shopping centers of '''Futako-Tamagawa'''. |
+
+region6name=[[Tokyo/Suginami|Suginami]] |
+region6color=#d56d76 |
+region6items= |
+region6description=Typical Tokyo suburb stretching along the Chuo Line. 
+}}
+
+==Understand==
+Over 500 years old, the city of Tokyo has come a long way from its modest beginnings as a fishing village named '''Edo''' (江戸). The city only truly began to grow when it became the seat of the Tokugawa shogunate in 1603. While the emperor ruled in name from [[Kyoto]], the true power was concentrated in the hands of the Tokugawa shogun in Edo. After the Meiji restoration in 1868, during which the Tokugawa family lost its influence, the emperor and the imperial family moved here from Kyoto, and the city was re-named to its current name, Tokyo. The metropolitan center of the country, Tokyo is the destination for business, education, modern culture, and government. (That's not to say that rivals such as [[Osaka]] won't dispute those claims.)
+
+===Culture===
+[[File:Shinjuku at Night.jpg|thumb||225px|[[Tokyo/Shinjuku|Shinjuku]] at night]]
+
+Tokyo is huge: it's the best thought of not as a single city, but as a constellation of cities that have grown together.  Tokyo's districts vary wildly by character, from the electronic blare of [[Tokyo/Akihabara|Akihabara]] to the Imperial gardens and shrines of [[Tokyo/Chiyoda|Chiyoda]], from the hyperactive youth culture Mecca of [[Tokyo/Shibuya|Shibuya]] to the pottery shops and temple markets of [[Tokyo/Asakusa|Asakusa]].  If you don't like what you see, hop on the train and head to the next station, and you will find something entirely different.
+
+The sheer size and frenetic pace of Tokyo can intimidate first-time visitors.  Much of the city is a jungle of concrete and wires, with a mass of neon and blaring loudspeakers.  At rush hour, crowds jostle in packed trains, and masses of humanity sweep through enormous and bewilderingly complex stations.  Don't get too hung up on ticking tourist sights off your list: for most visitors, the biggest part of the Tokyo experience is just wandering around at random and absorbing the vibe, poking your head into shops selling weird and wonderful things, sampling restaurants where you can't recognize a single thing on the menu (or on your plate), and finding unexpected oases of calm in the tranquil grounds of a neighborhood Shinto shrine. It's all perfectly safe, and the locals will go to sometimes extraordinary lengths to help you if you just ask.
+
+===Expenses===
+The cost of living in Tokyo is not as astronomical as it once was. Deflation and market pressures have helped to make costs in Tokyo comparable to most other large cities. Visitors from [[San Francisco]], [[Los Angeles]], [[New York City|New York]], and [[London]] will likely not find it any more expensive than back home. Travelers should budget a similar amount of money for their stay in Tokyo as they would for any other great city in [[Europe]], [[North America]] or [[Australia]]. Locals will know the bargains, but experienced cheapskates from anywhere in the world can get by with a little ingenuity.  Tokyo is one of the most popular places to live in Japan.  It is also rated the fifth most expensive city to live in, in the world.  Rent for a single apartment could range from USD500 to USD1,000 a month.  Tokyo is so overwhelmingly crowded that apartments are usually no bigger than 175 square feet (16 square meters).
+
+===Climate===
+[[File:Ueno Park Cherry Blossoms.jpg|thumb|200px|[[Ueno]] park cherry blossoms]]
+Tokyo is classified as lying in the humid subtropical climate zone and has four distinct seasons. Summers are usually hot and humid with a temperature range of about 20-30°C (68-86°F), though it can sometimes climb into the high thirties. Winters are usually cold but not unbearable, with temperatures generally ranging from 0-10°C (32-50°F), though occasional cold spells can send temperatures plummeting below zero at night. Snow is rare, but on those rare occasions (once every few years) when Tokyo is hit by a snowstorm, much of the train network grinds to a halt.  The famous cherry blossoms bloom in March-April and parks, most famously [[Tokyo/Ueno|Ueno]], fill up with blue tarps and sozzled ''salarymen''.
+
+==Get in==
+{{infobox|Luggage delivery|Send your bags into town before you arrive &mdash; Tokyo is crowded. Lugging even a moderately sized suitcase through the subways and upstairs can be difficult, and essentially impossible during morning rush hour. Delivery services (''takuhaibin'' or ''takkyuubin'') deliver luggage dependably and quickly to nearly any address.   You can send almost any shape or size of luggage, even bicycles, from and to the airport. One exception: if you have bottles of alcohol in your luggage, you'll have to carry those yourself even if the airline allowed them in your checked baggage.
+
+At airports and major train stations, look for a sign that says "Baggage Delivery" or something similar. The most common company is ''Yamato'', which has an easy-to-spot black-on-yellow logo of a mother cat carrying her kitten.  Other companies include ''Nittsu'' and ''Sagawa''. '''Japan Post''', the national postal service, also offers luggage delivery called "Yu-Pack". Fees are based upon distance, size, and weight &mdash; expect to pay around ¥1500-2000 within the greater Tokyo area. If you can get it to them before 10 AM or so, it frequently can be delivered to your hotel by that evening. Otherwise, the delivery is performed the following day, in a specified time range.
+
+This works the same way on departure. Most hotels and many convenience stores will take care of the pick-up for you, but you should check delivery times in advance so that your luggage can arrive in time for your flight. '''Most services require that you send your luggage to the airport two days prior to your departure.''' You can pick up your luggage in the airport lobby. This makes getting to the airport a breeze. This service can also be used for intercity travel. Most hotel front desks can set it up, and many convenience stores also act as drop-off points.}}
+In Japan, all roads, rails, shipping lanes, and planes lead to Tokyo.
+
+===By plane===
+Tokyo has two large airports: Narita for international flights, and Haneda for a combination of international and domestic flights.
+
+====Narita Airport====
+{{seealso|Narita}}
+
+Tokyo's main international gateway is '''[[Narita#By plane|Narita Airport]]''' (成田空港) ({{IATA|NRT}}) [http://www.narita-airport.jp/en/], located in the town of [[Narita]] nearly 70km (43&nbsp;mi) northeast of Tokyo and covered in a [[Narita#By plane|separate article]]. As for getting from Narita Airport into Tokyo, there is no one size fits all method &mdash; a lot depends on where you want to end up and how much of a budget you are on. Be aware also that after flying around the globe, you will likely arrive at a brain-dead zombie. A ''brief'' summary of options for getting there and away:
+* '''Easiest''': Limousine bus direct to major hotels, 90~120 minutes (subject to traffic), ¥3100 - Expensive but most convenient
+* '''Fastest''': Skyliner (Keisei Electric Railway) to Nippori and Ueno Stations, under 45 minutes, ¥2400; Narita Express (JR East) to Tokyo Station, Shibuya, Shinjuku, Yokohama, 55 minutes and ¥3070 ( ¥2035 if you purchase a round trip ticket [http://www.jreast.co.jp/e/pass/nex_round.html]) to Tokyo Station. Japan Rail Pass & Tokyo Wide Pass are valid for Narita Express.
+* '''Cheapest''': TYO-NRT Bus to Tokyo Stn. ¥1300, or Keisei Ltd Express/Access Tokkyu trains to Nippori/Ueno, 60-80 minutes, ¥1,000-1,200 (Access Tokkyu trains also serve some subway stations)
+* '''Most expensive''': Taxi to the city, more than ¥30,000; flat-fare cabs approximately ¥17,000-19,000 &mdash; Not recommended.
+<!-- Please don't expand this, update the Narita page instead -->
+
+====Haneda Airport====
+[http://www.tokyo-airport-bldg.co.jp/english/ '''Haneda Airport'''] (羽田空港 {{IATA|HND}})  officially known as ''Tokyo International Airport'', in [[Tokyo/Ota|Ota]] is one of the busiest airports in all Asia despite a majority of flights being domestic. 
+
+Terminal 1 houses the JAL group including Skymark and Skynet, while Terminal 2 is home to ANA and affiliate Air Do.  Haneda operates international flights from 18 cities, with a number of these flights landing and departing during the late evening hours.  Free shuttle buses run every six minutes between 05:00 and midnight, connecting Terminal 3 with both Terminals 1 and 2. 
+
+[[File:Haneda Airport.jpg|thumb|225px|Haneda airport]]
+
+Ways of going between Haneda and Tokyo:
+* '''Monorail.''' The easiest and most scenic way from Haneda to the city is the '''Tokyo Monorail''' [http://www.tokyo-monorail.co.jp/english/index.html] running to [[Tokyo/Hamamatsucho|Hamamatsucho]] for ¥500, from where you can connect to almost anywhere in Tokyo on the JR Yamanote line. The monorail has a station at each of Haneda's three terminals. From Terminal 3, trains reach Hamamatsucho in as little as 14 minutes on the non-stop ''Haneda Express'' (空港快速) services; the domestic terminals are about 5 minutes farther down the line. JR East maintains a Travel Service Center for foreigners in Terminal 3 (06:45 to 20:00 daily) where vouchers can be exchanged for the Japan Rail Pass and JR East Rail Passes. The Tokyo Monorail is '''fully covered''' with either pass.
+* '''The private '''Keikyu''' (京急) Line.''' There are two train stations at Haneda: one for Terminal 3 and one serving both Terminals 1 and 2. Keikyu Line trains run to [[Tokyo/Shinagawa|Shinagawa]] (20-25 min, ¥300,) and [[Yokohama]] (30-35 min via ''Airport Express'' [エアポート急行], ¥370, ). Some Keikyu trains from Haneda continue on to the Toei Asakusa Line, providing one-seat rides to Nihonbashi (35-40 min, ¥500,) and Asakusa (45-50 min, ¥560,). 
+* '''Airport Limousine bus service''' [https://webservice.limousinebus.co.jp/web/en/]. The buses serve all three terminals at Haneda and many destinations. There are direct services to e.g. Tokyo Station and to Shinjuku Station. Tickets can be bought from a machine inside the terminal and cost e.g. ¥1,230 for an adult daytime ticket to Shinjuku station.
+
+JR Passes are ''not'' valid on Keikyu Line trains. If your final destination is somewhere along the '''Tokaido Shinkansen''' (i.e. [[Odawara]], [[Atami]], [[Shizuoka]], [[Nagoya]], [[Kyoto]], [[Osaka]]) then it will be easier to take the Keikyu Line to Shinagawa to pick up the shinkansen, even if you have a Japan Rail Pass. Using the Tokyo Monorail will require you to take an additional train, the Yamanote Line, to either Tokyo Station or Shinagawa.
+
+Limousine Buses do in fact connect Haneda Airport with Narita Airport (90 minutes, ¥3,000). Most ''Airport Rapid Express'' [エアポート快特] trains on the Keikyu Line also run all the way to Narita Airport's terminals; these services are much cheaper than the bus (90 minutes, ¥1740), but buses operate more frequently. Note that the "Airport Terminal 2" station that pops up in some route search engines refers to terminal 2 at '''Narita Airport''', not Haneda.
+
+Normal metered taxis to central Tokyo will cost anywhere from ¥4,000 to ¥10,000, plus a 20% surcharge between 22:00 and 05:00.  An alternative is Anzen Taxi's [http://anzentaxi.co.jp/reserve/haneda_fee.html] fixed fare service for ¥6,000 (¥8,000 at night) to most of central Tokyo, including Shinjuku and Shibuya.
+
+If you arrive on a '''late flight''' or need to catch an '''early flight''', beware that there are no trains between midnight and 05:00 on either the monorail or the Keikyu line.  Some limousine buses do operate after midnight, but such trips incur an additional "night surcharge". For those with an early morning flight from Narita, staying your last overnight at a hotel near the airport would likely be less stressful.
+
+====Ibaraki Airport====
+[http://www.ibaraki-airport.net/ '''Ibaraki Airport'''] (茨城空港 {{IATA|IBR}}) in [[Omitama]], [[Ibaraki]], some 85km north of Tokyo, is an upstart aimed squarely at low-cost carriers. Services are limited to flights from [[Kobe]], [[Seoul]] and [[Shanghai]], but the 1½ hour bus ride to/from Tokyo Station is only ¥500 for flight passengers. (pre-booked)
+
+====Chōfu Airfield====
+'''Chōfu Airfield''' (調布飛行場 ''Chōfu hikōjō'') serves only some turboprop flights to the [[Izu Islands]] south of Tokyo.  The nearest railway station is Nishi-Chōfu on the Keiō Line, a 15-minute walk away.  Alternatively, you can take a bus from [[Chofu]] or [[Mitaka]] stations.
+
+=== By train ===
+[[File:Shibuya Station.jpg|thumb|225px|[[Tokyo/Shibuya|Shibuya]] Station]]
+
+Tokyo is the nerve center of railways in Japan, highspeed ''Shinkansen'' services arrive at '''Tokyo Station''' (東京駅 ''Tōkyō-eki'') which is located in the [[Tokyo/Chiyoda|Chiyoda]] ward. For all trains on the northern route, you can get off at [[Tokyo/Ueno|Ueno]], while trains on the western route call at [[Tokyo/Shinagawa|Shinagawa]]. Most non-Shinkansen services usually stop at [[Tokyo/Shibuya|Shibuya]] and [[Tokyo/Shinjuku|Shinjuku]] stations as well. Ueno and [[Tokyo/Ikebukuro|Ikebukuro]] stations connect you to the northern suburbs and neighboring prefectures.
+
+On the western route there are departures every 10-15 minutes from [[Nagoya]], [[Kyoto]] and [[Osaka]] with two types of Shinkansen trains, ''Nozomi'' is the fastest which stops only at [[Shinagawa]], Shin-Yokohama, [[Nagoya]], [[Kyoto]], and Shin-Osaka, cutting the journey time down to 2 hours 20 minutes, though you can't take this train with a Japan Rail Pass. The slightly slower ''Hikari'' trains add an extra twenty minutes.
+
+The northern route connects with [[Aomori]], [[Fukushima]], [[Sendai]], [[Yamagata]], [[Akita]] and [[Hakodate]], the fastest services are with the ''Hayabusa'' and ''Hayate'' trains.
+
+Although Japan is dominated by fast Shinkansen trains there are still a few sleeper trains left. ''Sunrise Izumo'' (サンライズ出雲) runs daily to Tokyo from [[Izumo]] while ''Sunrise Seto'' (サンライズ瀬戸) connects with [[Takamatsu]], the largest city on the [[Shikoku]] island. For very long distances, however, flying often makes more sense.
+
+===By car or thumb===
+While you can drive into the city, it's really not recommended as the city can be congested, fuel is expensive, signs may be confusing and parking fees are astronomical. 
+
+Hitchhiking into Tokyo is pretty easy, but hitchhiking out is considerably more difficult.  It's definitely possible for determined cheapskates though, see [[Hitchhiking in Japan]] for a detailed list of tested escape routes from the city.
+
+===By bus===
+Highway bus services link Tokyo to other cities, resort areas, and the surrounding prefectures. There are JR and private bus companies. Bus service may be cheaper, but the train is probably more convenient. If you have a JR pass, then you should generally stick with the trains.
+
+Long-distance buses use a number of terminals scattered throughout the city, but the main JR depot is at Tokyo Station's '''Yaesu-minamiguchi''' (八重洲南口) exit, while Keio and some other private companies use the '''Shinjuku Highway Bus Terminal''' (新宿高速バスターミナル), opposite Yodobashi Camera near the West Exit.
+* '''The JR Bus Group'''  A major operator of bus services to and from Tokyo. Seat reservations for JR Buses can be made at JR Bus counters in Tokyo and Shinjuku stations, and in JR train stations at the same "Midori-no-Madoguchi" ticket windows used to reserve seats on trains. The Japan Rail Pass is '''not''' valid on any JR Highway Buses.
+
+* '''Willer Express''' [http://willerexpress.com/en/]. A company that has nightly bus services to and from Tokyo.  Its bus services link many cities in Japan. Online booking is available in English.
+
+* '''Kokusai Kogyo Bus''' [http://5931bus.com/kosoku/ (Japanese Website)]. 
+* '''Keisei Bus''' [http://www.keiseibus.co.jp/ (Japanese Website)]. 
+* '''Keikyu Bus''' [http://www.keikyu-bus.co.jp/ (Japanese Website)]. 
+* '''Keio Bus''' [http://www2.keio-bus.com/ (Japanese Website)]. 
+* '''Kanto Bus''' [http://www.kanto-bus.co.jp/ (Japanese Website)]. 
+* '''Nishi Tokyo Bus''' [https://www.nisitokyobus.co.jp/ (Japanese Website)].
+* '''Odakyu Bus''' [http://www.odakyubus.co.jp/ (Japanese Website)]. 
+* '''Hakone Tozan Bus''' [https://www.hakone-tozanbus.co.jp/english/].
+* '''Seibu Bus''' [https://www.seibubus.co.jp/english_information/ (Japanese Website)]. 
+* '''Tobu Bus''' [http://www.tobu-bus.com/ (Japanese Website)].
+* '''Tohoku Kyuko Bus''' [http://www.tohoku-express.co.jp/ (Japanese Website)].
+
+===By boat===
+One of the great ports of the world, Tokyo also has domestic ferry services to other points in Japan. However, none of the regular international ferries to Japan call in Tokyo.
+
+The main long-distance ferry terminal is '''Ariake Ferry Terminal''' [http://www.ariake-ferry.com/foreign/en/], located on an artificial island adjacent to [[Tokyo/Odaiba|Odaiba]] in Tokyo Bay.  The nearest station is Kokusai-Tenjijo-Seimon on the Yurikamome line, but it's still a bit of a hike.  You can also take a direct bus from Shin-Kiba station on the Metro Yurakucho line. The main services from this terminal are:
+
+*Tokyo-Tomakomai ([[Hokkaido]]): Kawasaki Kinkai Kisen, 03-3528-0718. This ferry has no passenger facilities, so it can only be used if you have a car; fares for a car and driver start at ¥25,820.
+*Tokyo-[[Tokushima]]-[[Kitakyushu]]: Ocean Tokyu Ferry, 03-5148-0109. Tokyo-Kitakyushu passenger fares are ¥14,000 for second class, ¥26,600 for first class.
+
+Ferries to the [[Izu Islands|Izu]] and [[Ogasawara Islands]] leave from '''Takeshiba Terminal''' (竹芝客船ターミナル), adjacent to Takeshiba station on the Yurikamome line.  Cruise liners tend to use the '''Harumi Terminal''' (晴海客船ターミナル), best accessible on bus 都05 (To-05) from Tokyo station Marunouchi South Exit or 東12(Tou-12) from Tokyo station Yaesu exit.  International ferries and cargo ferries that also take passengers can leave from other terminals too, enquire with your shipping company.
+
+==Get around==
+[[Image:Tokyo_Subway.png|thumb|350px|Subway lines with transfer stations labeled.]]
+===By train and subway===
+Tokyo has one of the most extensive mass transit systems in the world. It is clean, safe, and efficient - and confusing. The confusion arises from the fact that several distinct railway systems operate within Tokyo
+* the JR East network
+* the two subway networks
+* various private lines
+There may be more than one way to get to the same place. Different route maps show different systems, not giving details for the other systems.
+
+Sometimes switching between systems involves exiting and entering the fare area, and even changing buildings. Using a Suica, PASMO or other IC card is the most convenient way with fares calculated automatically. Be aware however that it is less expensive (though not always the most efficient) to take the same method of transport all the way through whenever possible. If you switch companies part way through, your ultimate fare could be much higher.
+
+Avoid rush hours if possible (particularly on weekdays 7 AM - 9 AM); trains and platforms get overcrowded very easily and directions, while generally very good and extensive, can be unclear in some cases. Evening rush hours are usually better and much more spread out after 5 PM, though the central business districts can still be jammed.
+
+Announcements and signs are usually bilingual in Japanese and English, though in some areas frequented by tourists, signs in Korean and Chinese can also be seen.
+
+==== Japan Rail lines (JR) ====
+The defining rail line in Tokyo is the JR '''Yamanote Line''' (山手線), prefixed as 'JY', which runs in a loop around central Tokyo; being inside the Yamanote loop is synonymous with being in the core of Tokyo. Almost all inter-regional JR lines and private lines start at a station on the Yamanote.  JR's lines are color-coded, and the Yamanote is green.  The '''JR Chuo''' (中央線, orange) and '''Sobu''' (総武線, yellow) lines run side-by-side, bisecting the Yamanote loop from [[Tokyo/Shinjuku | Shinjuku]] on the west to [[Tokyo (station) | Tokyo]] on the east.  JR's other commuter lines, the Saikyo and Keihin-Tohoku, run off the rim of the Yamanote loop to the north and south.  JR also has other lines such as the Chūō Line, Sobu Line, Joban Line, etc, that allow easier travel from one part of the city to another. JR East has a good English information line, 050-2016-1603 or 03-3423-0111.
+
+==== Metro Lines ====
+Tokyo has an extensive '''subway''' network with frequent trains, and these are primarily useful for getting around within the Yamanote loop.
+* The '''Tokyo Metro''' [https://www.tokyometro.jp/index.html] runs nine lines: Ginza, Marunouchi, Hibiya, Tozai, Chiyoda, Yurakucho, Hanzomon, Namboku, and Fukutoshin lines.
+* '''Toei''' [https://www.kotsu.metro.tokyo.jp/] operates the Asakusa, Mita, Shinjuku, and Oedo lines. 
+
+''While the JR Yamanote Line is not a subway line, due to its importance as a major transportation artery in downtown Tokyo, it is usually featured on subway maps.''
+
+==== Private Lines ====
+A number of '''private commuter lines''' radiate from the Yamanote loop out into the outlying wards and suburbs, and almost all connect directly to subway lines within the loop.
+The private lines are useful for day trips outside the city and are slightly cheaper than JR.
+
+Note that the private lines are '''not''' shown in detail on the Tokyo Metro Subway map.
+* The largely underground  Rinkai Line is operated by Tokyo Waterfront Area Rapid Transit [http://www.twr.co.jp] (web-site only in Japanese) or '''TWR''', which passes through the island of [[Odaiba]].
+* The above-ground, automated, rubber-wheeled and ''very scenic'' '''Yurikamome''' [http://www.yurikamome.co.jp/en/] runs from Shimbashi to Toyosu, crossing the Sumida River in a serpentine loop over the Rainbow Bridge offering great views on the way to the island of [[Odaiba]].
+
+==== Transferring ====
+* Changing from one line to another can involve lengthy walks including many stairs or elevators.
+* Lifts are available but allow for extra detours.
+* Changing between rail systems (e.g. from Metro to private lines) might involve leaving the building and signage can be interrupted.
+* Sometimes tickets have to be re-checked while transferring (looks like an exit barrier, but isn't), sometimes you have to leave the fare-controlled area and re-enter.
+* To avoid pedestrian streams needlessly crossing, walking is sometimes switched to the right - check the markings on the floor and take your cue from the locals.
+
+====Navigating and maps====
+{{infobox|About station numbers|All stations are assigned a number, consisting of a line prefix and a number.
+These numbers are often referred to in announcements and they are ordered, allowing you to more easily track your progress (Note: there are exceptions to the numbering on lines that loop or branch.)
+* The Tokyo Metro line prefixes come from the first letter of the line name, e.g. 'G08' for Shimbashi station on the '''G'''inza line.
+* JR Rail lines carry an additional 'J', e.g. 'JY20' for Shibuya station on the '''J'''apan Rail '''Y'''amanote line
+}}
+If you are using a smartphone you can benefit from a free, official Tokyo Subway Navigation [http://www.tokyometro.jp/en/smartphone/] application available in the app stores. It works offline and has a multilanguage interface, including English. It is very useful for quick route searches, but its lookup seems to be time-optimized and not cost-optimized. Also, it only covers the subway and doesn't cover, for example, Monorail, so it is no use for travel between Haneda airport and the city, or on the private train lines. (Furthermore, if it does not recognize a station name it does nothing, and may seem to be broken.)
+Google Maps, on the other hand, covers all areas of Tokyo.
+
+There are some maps available that can also be downloaded as PDFs for offline use on your mobile device:
+* A complete map of all lines available for the PASMO card [http://www.jreast.co.jp/e/routemaps/pdf/RouteMap_majorrailsub.pdf]. It is the most comprehensive map and gives approximate geographical relations, but sadly no station numbers. (about 3 MB)
+* The Tokyo Metro map [http://www.tokyometro.jp/en/subwaymap/] is a bit confusing as it bears little relation to actual geography, making it harder to find stations on a map. It does give station numbers (for metro lines, not JR lines...) and omits all details on the private lines except transfer points.
+
+Unfortunately, the maps lack some basic geographical references. For example, the Sumida river is not shown and the Yurikamome line really goes in a ring around Odaiba island making it almost quicker to walk between the stations of Odaiba-Kahinkoen and Aomi than go on the train itself.
+
+Also, sometimes stations are not as far apart as they may seem from the schematic lines. Especially during rush hour, it might be more enjoyable to walk between stations than trying to squeeze in for a stop or two.
+
+Best check on a real map.
+
+====Fares====
+[[File:Japan Rail Pass.jpg|thumb|225px|Japan Rail Pass]]
+Most tickets and passes are sold and re-charged from automated vending machines. Almost all vending machines now have an "English" mode. Keep in mind that '''JR trains are free with a [http://www.japanrailpass.net/ Japan Rail Pass] or the relevant [https://www.jreast.co.jp/multi/en/pass/ JR East Passes]'''. 
+
+'''Tip:''' when arriving at an airport, look for tourist information in the arrivals hall where English-speaking staff can help you more easily with selecting the best ticket option for you. 
+
+'''Prepaid IC cards''', while they give negligible savings, are convenient and highly recommended because they allow you to ride trains without having to read the sometimes Japanese-only fare maps to determine your fare, bringing your overall travel times down to nearly what experienced locals can do.
+
+You can check your card balance as you exit the ticket machines, check it on a fare adjustment machine, or at one of the manned offices.
+
+Each person needs their own card while riding, but cards are not tied to an identifiable individual.
+
+There are about 10 different IC cards in Japan, and two brands of IC cards sold in the Tokyo area:
+* '''Suica''' from JR East
+* '''PASMO''', offered by private (non-JR) lines.
+
+Functionally they are completely interchangeable and can be used on just about every subway, train, and bus line in Tokyo (with the noted exception of the Shinkansen and limited express trains unless you register it and a credit card on the JR website or use the [https://smart-ex.jp/top.php Smart-Ex] app - the credit card will be charged, not the IC card) as well as in many other cities across Japan (though not all).
+*You cannot use the IC cards on most highway buses.
+*The fare cards are rechargeable "smart cards": you simply tap your card on the touch pad next to the turnstile as you go in, and do the same when going through to exit.
+*There is an initial ¥500 deposit that you must pay when purchasing a fare card, but up to ¥20,000 in value can be stored on each card. The balance is valid for ten years.
+*Both cards can only be returned for refund in the Tokyo area. Pasmo has no refund charge, but Suica has a ¥220 handling fee.
+*Staff at information counters will assist obvious foreigners if you have any trouble recharging the cards.
+
+The older '''Passnet''' cards are not accepted anymore. If you still own some of these, you can exchange them for a PASMO or Suica card.
+
+'''There are also some special tickets''' that allow unlimited travel, but most are unlikely to be useful to tourists unless you travel all over:
+
+*The '''Tokunai Pass''' (都区内パス) is a one-day pass good for travel on JR lines anywhere in the 23 wards of Tokyo (including the entire Yamanote Line and many stations surrounding it). It costs ¥760, making it economical if you plan to make five or more train hops in one day. A variant is the '''Tokunai Free Kippu''' (都区内フリーきっぷ), which also includes a round-trip into Tokyo from stations in the surrounding prefectures. The '''Monorail And Tokunai Free Kippu''', which is good for two days and includes a round-trip from Haneda Airport to central Tokyo, is also sold for ¥2000.
+*The '''Tokyo Free Kippu''' (東京フリーきっぷ) covers all JR, subway, and city bus lines within the 23 wards. It costs ¥1600 for one day and covers a number of areas that are not served by JR, such as Roppongi and Odaiba.
+
+*The '''Holiday Pass''' (ホリデーパス) covers the entire JR network in the Tokyo metropolitan area, including Chiba, Kanagawa, Saitama, and west Tokyo. It costs ¥2720 for one day, and is only available on weekends, national holidays, and during summer vacation (July 20 through August 31).
+
+*The '''Tokyo Subway Ticket''' provides unlimited travel on consecutive days on all Tokyo Metro lines and Toei Subway lines, which serve most of central Tokyo. It is available as a 24-hour, 48-hour, or 72-hour ticket, which costs ¥800, ¥1200, and ¥1500 respectively. Passes are valid from the time of first use/activation until the same time the next day. It is only available to overseas visitors with foreign passports, and can only be purchased at specific places such as Narita, Haneda, and Yonago airports, and BIC CAMERA and LAOX stores. It does not cover JR lines, including the Yamanote line. An [https://thecupandtheroad.files.wordpress.com/2016/09/tokyo-subway-pass-guide-infographic-1.jpg  Infographic] is available. For those going all over, it is one of the best money-saving passes, and for the 72-hour pass, you just need to average ¥500 in fares each day to break even. The 24-hour pass however is a lot more difficult to justify.
+
+*The '''Tokyo Metro 1-Day Open Ticket''', which costs ¥600, covers the Tokyo Metro network only (not the Toei Subway lines. Can be purchased in advance or from vending machines.
+
+'''If you're paying ''a la carte'',''' subway and train fares are based on distance, ranging from ¥150 to ¥310 for hops within central Tokyo. As a general rule of thumb, Tokyo Metro lines are the cheapest, Toei lines are the most expensive, and JR lines fall somewhere in the middle (but are usually cheaper than Metro for short trips, i.e. no more than 4 stations). Many of the private lines interoperate with the subways, which can occasionally make a single ride seem unreasonably expensive as you are in essence transferring to another line and fare system, even though you're still on the same train.  E.g. changing between the Metro subway line and Tokyu private line amounts to paying the sum of each fare: minimum fare Metro ¥160 + minimum fare Tokyu ¥120 = ¥280.  In addition, several patterns of transfer are listed as "Transfer Discount", and the most famous one is the ¥70 discount, which applies to a transfer between Tokyo Metro and Toei subway lines. When using paper tickets at some transfer stations, you may need to pass through a special transfer gate which is colored orange - pass through the regular blue gate and you won't get your ticket back. At some transfer points (e.g. Asakusa station) you may actually need to transfer on street level as the two stations (Metro Ginza Line and Toei Asakusa Line) are not physically connected and are about one block apart.
+
+It pays to check your route beforehand. The '''Tokyo Transfer Guide''' [http://www.tokyometro.jp/en/ticket/search/] by the Tokyo Metro and Toei subway companies, is an online service that allows you to plan the subway and train travel from point A to point B, based on time, cost, and transfers.  This guide provides information for Tokyo only, and there are other sites that additionally cover the whole country, see the [[Japan#Get_around| Japan]] page.  Some major stations have terminals providing information similar to the Tokyo Transfer Guide.
+
+If you can't figure out how much it is to the destination, you can buy the cheapest ticket and pay the difference at the Fare Adjustment Machine (''norikoshi'') at the end. Most vending machines will let you buy a single ticket that covers a transfer between JR, subway, and private lines, all the way to your destination, but working out how to do this may be a challenge if you are not familiar with the system.  When transferring between systems using paper tickets, use the '''orange transfer gates''' to exit.  Otherwise, you won't get your ticket back.
+
+Using Suica or PASMO cards handles all transfer discounts automatically for you.
+ 
+====Operating times====
+Most train lines in Tokyo run from around 05:00 to 01:00. During peak hours they run about once every three minutes; even during off-peak hours it's less than ten minutes between trains. The only night when regular passenger services run overnight is for the New Year's Holiday on select lines.
+
+Runs on other holidays and weekends actually stop ''slightly earlier'' (check the printed timetables stuck on walls on every platform).
+
+For additional information on train travel in Japan generally, refer to the [[Japan#By_rail|By rail]] section in the [[Japan]] article.
+
+====Facilities====
+*Stations have free public toilets (often ''inside'' the fare-controlled areas).
+*Vending machines for drinks (coins, bills, or Suica/PASMO smart cards).
+*Convenience stores, while inside the station, are often outside the fare-controlled areas
+*Mobile coverage and (satellite-) navigation are excellent, even underground.
+*Wifi is available
+
+===By taxi===
+
+Taxis are very pricey but may be a value for groups of three or more. Also, if you miss your last train, you may not have another choice.
+
+Fares generally start at &yen;410 for the first two kilometers and can add up rapidly. A 20% night surcharge is tacked on from 22:00-05:00. As a rule of thumb, a daytime trip across the city from Tokyo station to Shinjuku station will cost approximately &yen;3000, while a daytime trip from Tokyo station to Haneda Airport costs around &yen;6200. These examples are based on standard routing and traffic conditions, so your actual fare may vary in relation to the estimated fare.
+
+Do not count on your taxi driver speaking English--or knowing more than the best-known locations, though most taxis have GPS "car navi" systems installed.  The best and easiest thing to do is to prepare a map marked with where you want to go and point it out on the map to the taxi driver. If you are staying at a hotel, they will provide a map. If possible, get a business card, or print out the address in Japanese of any specific places you wish to go.  However, because in Japan streets are often unmarked, if the taxi driver does not have GPS he may not be able to do more than take you to the general vicinity of where you want to go. Also, note that taxis can get caught in traffic jams.  Tips are entirely optional.
+
+Taxi rear left passenger doors are operated by the driver and open and close automatically. Don't open or close them yourself.
+
+===By car===
+[[File:Shinjuku Highway Bridge.jpg|thumb|225px|Highway overpasses in [[Tokyo/Shinjuku|Shinjuku]]]]
+Tokyo is a gigantic warren of narrow streets with no names, with sometimes slow-moving traffic and relatively limited and expensive parking. In this city with such an excellent mass transit system, you would need a good reason to want to drive around instead, unless you already have some familiarity with the city and its surroundings.  While renting a car does make sense in Japan in some contexts (e.g. traveling between cities, visiting smaller towns or a rural onsen resort), in general, it is neither convenient nor economical to rent a car to get around metro Tokyo.  Taxis are much more convenient if your budget allows it; walking or public transportation is much less expensive and given the difficulties of navigation and finding parking in popular areas, probably easier too.
+
+If you do decide to plunge in and drive around by car, the main expressway serving Tokyo is the Shuto Expressway, abbreviated to '''Shutoko''' (首都高) [http://www.shutoko.jp/english/]. The C1 Loop Line forms a circle around central Tokyo, similar in fashion to how the Yamanote Line does it by rail. But whereas the Yamanote Line charges &yen;130-250 for a single trip, driving a car onto the Shutoko in Tokyo entitles you to pay either in cash a flat entry fee of '''&yen;900''' every time you enter the system, or, if your car is equipped with the electronic toll system (ETC), a flexible toll between  (&yen;500 and &yen;900) depending on the distance traveled. When driving around, both on Shuto and on the regular streets, try to avoid the rush hour (with traffic moving into the center in the morning, and out towards the suburbs in the evening). Check with the car rental agency whether an English-language navigation system is available, as it will make a huge difference, and you will be able to use your car to outperform public transportation on many occasions.
+
+Driving on the Tokyo Expressway at night can be a pleasant and beautiful experience as you whiz through and around the Tokyo nightlife. When driving at night you should '''exercise caution''' and obey speed limits: '''Street racing''' over the Shutoko at night became popular in the '80s and '90s and still happens today, albeit on a less frequent basis. Street racers often concentrate their driving on the C1 Loop Line and the Bayshore (more popularly known as the Wangan) Line. "Competitors" sometimes hang out at parking and service areas on the Shutoko, especially the large Daikoku Parking Area at the intersection of the Bayshore Line and the K5 Daikoku Line in [[Yokohama]].
+
+===By bus===
+[[File:Shibuya Hachiko Bus.jpg|thumb|225px|Hachiko-themed bus in [[Tokyo/Shibuya|Shibuya]]]]
+The few areas within Tokyo that aren't easily accessible by train are served by various bus companies. Buses operating within 23 wards of Tokyo have a fixed fare regardless of distance (&yen;200 on Toei buses [http://www.kotsu.metro.tokyo.jp/english/bus_op.html] and &yen;210 on other private bus companies), which is paid upon boarding from the front door. The fares are not transferable; however, most buses do accept '''Suica''' or '''PASMO''' fare cards (see above). If you use a "Suica" or "PASMO" card to board a Toei Bus, you will receive a &yen;100 discount on your next Toei Bus ride as long as it is within 90 minutes of the previous ride. The fare can also be paid in hard currency of practically any denomination, which can also be used to charge your electronic fare card if you tell the driver you wish to do so. Compared to the trains, the buses run much less frequently, carry fewer passengers, and are much slower. This makes them amenable to the elderly residents of Tokyo, but rather inconvenient for travelers, who will also have to deal with a lack of information in English and sometimes very well-hidden bus stops.
+
+The bus routes are named by a kanji based on a destination they serve and a number, e.g. "渋64" for the route between Shibuya (渋谷) and Nakano. The routes can be fairly complicated and are often not listed in detail at the bus stops; signs on the buses themselves often list only two or three main stops in addition to the origin and destination. Finding a bus going towards a main terminal like Shibuya or Shinjuku is therefore pretty easy, the other way around may be more difficult. You may find several different stops by different companies within a few meters, all sharing the same name; sometimes those are full-fledged waiting areas, and sometimes only a signpost at a street corner. Inside the bus, the next stop is usually announced several times, sometimes by a taped voice and sometimes by a mumbling driver; recently taped announcements in English are used on some lines, but are still rare. In addition, the stop is displayed on an electronic display, but rarely in Latin writing. Some stops may have similar names, you should make sure you know the exact name of the stop you want to get off at. Drivers are usually very helpful, though aren't typically used to tourists and may be rather busy dealing with fares, passengers, and traffic. Nevertheless, north-south routes are useful on the western side of the city since train lines (Odakyu, Keio, Chuo, and Seibu) tend to run east-west. Google Maps has begun adding bus transit information and is possibly the easiest way of planning a trip by bus.
+
+===By ferry===
+[[File:Fukagawa Ferry Cruise.jpg|thumb|250px|Fukagawa ferry cruise]]
+The Tokyo Cruise Ship Company operates a series of '''Water Bus''' [http://www.suijobus.co.jp/english/ ] ferries along the Sumida River and in Tokyo Bay, connecting [[Tokyo/Asakusa|Asakusa]], [[Tokyo/Hinode|Hinode]], [[Tokyo/Harumi|Harumi]] and [[Tokyo/Odaiba|Odaiba]]. The ferries feature a recorded tour announced in English, as well as Japanese, and a trip on one, makes for a relaxing, leisurely way to see the waterfront areas of Tokyo. Of particular note is the super-futuristic Himiko ferry [http://www.suijobus.co.jp/english/cruise_e/index_asa_line.html ] designed by anime and manga creator Leiji Matsumoto, which runs on the Asakusa-Odaiba Direct Line. You might want to arrive well before the departure time just in case tickets on the Himiko sell out.
+
+===By bicycle===
+Bicycles are very commonly used for local transport, but amenities like bicycle lanes are rare, drivers pay little heed to bikes and traffic can be very heavy on weekdays, so if you use a bicycle, do not be afraid to cycle on the sidewalk (everyone does). Keep in mind, however, that parts of Tokyo are surprisingly hilly, and it's a sweaty job pedaling around in the summer heat. Central Tokyo can still be covered fairly comfortably by bike on the weekends. Tokyo Great Cycling Tour [http://www.tokyocycling.jp] offers a one-day guided tour for biking around major tourist spots in Tokyo, like Marunouchi, Nihonbashi, Tsukiji, Odaiba, Tokyo tower, Imperial palace, and so on.
+
+Renting a bike is possible from some youth hostels, particularly around Asakusa, although it's not common. However, buying a simple single-speed roadster is fairly cheap, and comes complete with a built-in bicycle wheel lock system (this is what most Tokyoites use). An imported multiple-geared bike will be much more expensive so get a good lock, as bike theft is a common threat, although the problem is nowhere near as serious as in other countries.
+
+===By foot===
+In this large city with such an efficient public transportation system, walking to get from point A to point B would seem a bit stupid at first glance. However, as the city is extremely safe even at night, walking in Tokyo can be a very pleasant experience. In some areas, walking can be much shorter than taking the subway and walking the transit (the whole Akasaka/Nagatacho/Roppongi area in the center is for instance very easily covered on foot). If you have the time, Shinjuku to Shibuya via Omotesando takes roughly one hour, Tokyo Station to Shinjuku would be a  half a day walk, and the whole Yamanote line Grand Tour takes a long day.
+
+Be aware that many bicyclists in Tokyo bike on the sidewalks, regardless of whether there is a bike lane on the street or not. This stands in contrast to many other major cities, where biking on the sidewalk is prohibited. Keep your eyes and ears open to bikes on the sidewalk to avoid any potential collision.
+
+==Talk== 
+[[File:Tokyo bilingual signs.jpg|thumb|250px|Sign in Japanese and English]]
+It's possible for English speakers to navigate their way around Tokyo without speaking any Japanese. Signs at subway and train stations include the station names in ''romaji'' (romanized characters), and larger stations often have signs in Chinese and Korean as well. One of the essential words you should know if traveling a long distance is "Shinkansen" which is the bullet train. Though most people studied English in school, proficiency is generally poor, and few Japanese can speak English with ease. In school, the goal is rote memorization and passing tests, not learning to communicate. Some restaurants may have English menus (ask for an "Eigo (eh-go) menu" before you sit down), but having one does not necessarily mean that the staff will speak much English. You can ask for "osusume (oh-sue-sue-meh)" if you'd simply like to eat a recommended menu item. Many restaurants have plastic or wax displays of their foods out front, so if necessary you can just take the waiter or waitress outside and point at what you want. Reading and writing is much better though, and many Japanese can understand a great deal of written English without actually knowing how to speak it. That being said, staff at the main hotels and tourist attractions generally speak an acceptable level of English. 
+
+If you get hopelessly lost, which is very easy in Japan, it is better to find some older school students or young adults and ''write out'' your questions in simple words. Japanese are often glad to help you out if you lose your way. Carrying a business card or paper with your hotel's address on it can be a big help.
+
+While it is possible to get by with only English, it will nevertheless make your trip much smoother if you can learn some basic [[Japanese phrasebook|Japanese]].  It should also be noted that the Japanese are much more willing to speak English if you make some attempt to speak Japanese.  At the very least learn to say common greetings and "which train to...".
+
+Overpronouncing the Y in names like Tokyo makes it difficult for the native Japanese speaker to understand.  It's not silent, but it's not a separate syllable either. Say "Toh-kyo", '''''not''''' "Toh-kee-yo".
+
+==See==
+[[File:Sensoji Temple Asakusa Tokyo.jpg|thumb|225px||Sensoji Temple, [[Tokyo/Asakusa|Asakusa]]]]
+[[File:View from Roppongi HIlls.jpg|thumb|225px|View from [[Roppongi]] hills]]
+[[File:Moon Bridge at Koishikawa Korakuen Gardens.jpg|thumb|225px|Moon Bridge at Koishikawa Korakuen Gardens, [[Tokyo/Bunkyo|Bunkyo]]]]
+
+Tokyo has a vast array of sights, but the first items on the agenda of most visitors are the Sensoji Temple of [[Tokyo/Asakusa|Asakusa]], the shopping and nightlife of [[Tokyo/Shibuya|Shibuya]]), and '''Meiji Shrine''' (明治神宮, in [[Tokyo/Harajuku|Harajuku]]).
+
+Tokyo has many commercial centers for shopping, eating, and simply wandering around for experiencing the modern Japanese urban phenomenon. Each of these areas has unique characteristics, such as dazzling [[Shinjuku]], youthful [[Akihabara]] and upmarket [[Ginza]]. These areas are bustling throughout the day, but they really come into life in the evenings. 
+
+If you're looking for a viewing platform, the '''Tokyo Tower''' is the oldest and offers an impressive view, even if it's rather overpriced at ¥1200 (lower deck only). The highest spot in Tokyo is the 
+'''[http://www.tokyo-skytree.jp/en/ Tokyo Skytree]''' which measures 634 meters (about 2080 feet), and became the tallest structure in Japan and also the 2nd tallest in the world. While the Skytree has the most commanding view, it comes at a price - for the lower deck, ¥2100 weekdays, ¥2300 weekends/holidays, and for adding the upper deck as well, totals ¥3100 weekdays, ¥3400 weekends/holidays. It is debatable if the upper deck is worth the extra cost. Another newer option is '''[https://www.shibuya-scramble-square.com/sky/ Shibuya Sky]''' which has an excellent view 229 meters high over Shibuya Station's famous intersection. The ¥2000 yen (¥1800 online) fee is not cheap though. The best view for free would be the '''Tokyo Metropolitan Government''' building (in effect, Tokyo's City Hall) in [[Tokyo/Shinjuku|Shinjuku]]. Its twin towers have viewing platforms that are absolutely free, and offer a great view over Tokyo and beyond. It has been trumpeted in every tourist guidebook though, so a 30-minute wait for the elevator and having to elbow your way to a window is not unusual. Another option is the '''World Trade Center Building''' (10:00-20:00, or 21:00 in July and August, ¥620) at JR Hamamatsucho Station which, although not as high, offers stunning views of Tokyo Tower and the waterfront due to its excellent location, especially at dusk. Yet another viewing platform in Tokyo is Tokyo City View in '''Roppongi Hills''', [[Tokyo/Roppongi|Roppongi]] -- admission is a steep ¥1800, as well as the rooftop deck for ¥500 more when the weather allows it. It includes admission to the '''Mori Art Museum'''. Another good option, if you don't mind traffic noise and smell, is the '''Rainbow Bridge''' at [[Tokyo/Odaiba|Odaiba]], whose pedestrian walkways are free. The night-time view across Tokyo Bay is impressive but the walkways close at 20:00. Also, on a clear day, the Bunkyo Civic Center (next to the Tokyo Dome) offers an iconic view of Shinjuku against Mt. Fuji (especially great at sunset), also free.
+
+Some of Tokyo's most beautiful sights, owing to its history, are over a dozen traditional Japanese gardens &mdash; many of which are among Japan's finest. A few of them are [https://www.tokyo-park.or.jp/park/format/index030.html Koishikawa Korakuen], [https://www.tokyo-park.or.jp/teien/en/rikugien/ Rikugien], [https://www.tokyo-park.or.jp/teien/en/kiyosumi/index.html Kiyosumi], and [https://www.tokyo-park.or.jp/teien/en/hama-rikyu/ Hama Rikyu]. They are inexpensive to visit and mostly ignored by the tourist mobs, so they give a very relaxing and tranquil side of Tokyo.
+
+The city is dotted with museums, large and small, which center on every possible interest from pens to antique clocks to traditional and modern arts.  Many of the largest museums are clustered around [[Tokyo/Ueno | Ueno]].  At ¥500 to ¥1,000 or more, entrance fees can add up quickly. Some however are free or have free days.
+*<see name="Ghibli Museum" alt="" address="Shimorenjaku, Mitaka" directions="15min walk from Mitaka Stn" phone="" url="http://www.ghibli-museum.jp/en/" hours="10:00–18:00" price="" lat="" long="">For die-hard Anime fans, the Ghibli Museum is a must. For international visitors, tickets need to be purchased before leaving home.</see>
+*Tokyo National Museum, 13-9 Uenokoen, Taito City, Tokyo 110-8712, ph.+81 5055418600, [https://www.tnm.jp/?lang=en].
+
+===Itineraries===
+* [[Classic Tokyo, Modern Tokyo]] &mdash; a one-day tour of the old and the new
+* [[One day in Tokyo]] &mdash; a hectic whirlwind tour of the many faces of the city
+
+==Do==
+[[Image:JP-13 Bunkyo-ward Tokyo-Dome-City-Attractions.jpg|thumb|upright=1.3|Rollercoaster at Tokyo Dome City, [[Tokyo/Bunkyo|Bunkyo]]]]
+*A beautiful weekend afternoon is best spent in [[Tokyo/Harajuku|Yoyogi Park]], where young people from all walks of life gather to socialize, and practice their hobbies (devoid of any fear of public humiliation), join a drum circle, play sports, etc. Afterward, take a stroll down the trendy '''Omote-sandō (表参道)''' shopping street nearby.
+
+*Check out the hip and young crowd at [[Tokyo/Harajuku|Harajuku]]'s '''Takeshita-Dori''' (Takeshita Street) or the more grown-up '''Omotesando'''.
+
+*Eat a '''sushi breakfast''' at the [[Tokyo/Chuo|Tsukiji Fish Market]].
+
+*Enjoy a soak in a local "'''sento'''" or public bath. Or one of the big "super sento" onsen such as '''LaQua''' at the Tokyo Dome ([[Tokyo/Bunkyo|Bunkyo]]) or '''Oedo Onsen Monogatari''' in [[Tokyo/Odaiba|Odaiba]].
+
+*Explore nightlife with a boisterous crowd of thirsty locals and ex-pats on the '''Tokyo Pub Crawl'''[http://www.tokyopubcrawl.com/].
+
+*Go to an amusement park such as [[Tokyo Disney Resort]], which consists of '''Tokyo Disneyland''' and '''Tokyo DisneySea''' which are Asia's most visited and second most visited theme parks respectively, or the more Japanese '''Sanrio Puroland''' (in [[Tokyo/Tama|Tama]]), home to more Hello Kitties than you can imagine.
+
+
+*Have a picnic in a park during the cherry blossom (Sakura). Unfortunately, Sakura only lasts for about a week in Spring. But be warned, parks are usually very crowded during this time.
+
+*In the spring, take a boat ride in [[Tokyo/Kichijoji|Kichijoji]]'s lovely '''Inokashira Park''', and afterward visit the Ghibli Studios Museum (well-known for their amazing movies, like Spirited Away, and Princess Mononoke), but you will need to buy tickets for these in advance at a Lawson convenience store.
+
+*Lose yourself in the dazzling neon jungle outside major train stations in the evenings. [[Tokyo/Shibuya|Shibuya]] and east [[Tokyo/Shinjuku|Shinjuku]] at night can make Times Square or Piccadilly Circus look rural in comparison — it has to be seen to be believed.
+
+*'''Party in the Park''' with local Tokyoites and ex-pats in the park. There is a weekly party at Ueno Park / Yoyogi Park where the '90s and 00's hip-hop music is played. From ¥500 to join the party.
+
+*Take a stroll through the Imperial Palace's East Gardens (open to the public daily at 09:00, except Fridays and Mondays).
+
+*Take a boat ride on the '''Sumida River''' from [[Tokyo/Asakusa|Asakusa]].
+
+*Take the ''Yurikamome'' elevated train across the bay bridge from Shimbashi station to the bayside [[Tokyo/Odaiba|Odaiba]] district, and go on the giant Ferris wheel — the largest in the world until recently.
+
+*Watch a baseball game; the Yomiuri Giants at the Tokyo Dome, or the Tokyo Yakult Swallows at Jingu Stadium. Nearby Chiba hosts the Chiba Lotte Marines, Saitama has the Seibu Lions, and Yokohama has the DeNA BayStars.
+
+*Drive a kart around the city. Several vendors offer guided street legal go-kart tours of the city for tourists. Costumes are usually included and you will be very popular among Tokyo crowds when you drive through. Note that this does require an international driving permit and while Mario Kart-themed, racing and throwing banana peels is not allowed. It's every bit as awesome as it sounds.
+Riding '''[http://skybus.jp/t01.php?lang=en Sky Bus Tokyo]''', an open-top double-decker operated by Hinomaru Limousine (every hour between 10:00 and 18:00), is a good option to take a quick tour around the city center. The 45 minutes bus ride on the "T-01 course" will take you around the Imperial Palace via Ginza and Marunouchi district, showing the highlight of Tokyo's shopping and business center. The fare is ¥1,500 for adults of 12 years old and over, and ¥700 for children between 4 and 11 years old. You can borrow a multi-language voice guide system free of charge upon purchasing a ticket, subject to stock availability. Four other bus courses are offered, including a night trip to Odaiba, but those trips are conducted in Japanese with no foreign language guidance.
+
+===Sumo===
+The Sumo tourney is in May, June, and September. If you can't get tickets, there are same-day unreserved seats for sale at the Sumo hall. These seats are located on the upper level, the last row in the back up against the wall. You can still see fairly well. The seats on the entrance side, where you bought your ticket face the line judge and are on the same side as the TV cameras. These seats go fast. To get one, bring something to mark your seat as taken: a book, a backpack or a sweater; move with speed after you buy your ticket and get to the Sumo hall early. This contributor arrived at 6:40 AM and found 54 people in line and still got a good seat. There is a McDonald's visible from the line and a Family Mart or two at the Joban station next to the hall. The line side is on the opposite side of the hall from the Edo Museum. You may have someone save your place, but after 7:30 AM a man with a loudspeaker shows up and begins handing out numbered passes. You must be in line to get this pass and you must have this pass to buy your ticket. Ticket sales start at 8 AM. You are free to go after you mark your seat but you can only leave the hall and return once. Ok, you've done it, you have staked out your seat. Don't forget where it is. The tournament starts with the very lowest ranked Sumo wrestlers, the good guys show up in the late afternoon. Visit the Sumo museum inside the hall 6. On the outside balcony on the exit gate side in the afternoon you will get a birds-eye view of Sumo fans welcoming their favorite wrestlers. If you leave you will get the back of your hand stamped with invisible UV ink. It washes off, be careful at lunch. If you go outside visit the EDO museum. During the tournament it is open every day, even Mondays when it is normally closed. As you might imagine a ton of people pour out of the hall when the event is over and the ticket machine lines at the stations are very long. Consider buying your return ticket on arrival though this may cost you a place or two in line. Outside of the hall, you are not supposed to disturb the Sumo wrestlers, don't ask them to pose for pictures, etc.
+
+=== Cooking Class ===
+* <do name="Cookly Sushi For Everyone" alt="" address="Nishi-Asakusa 2-17-13-1F, Taito-ku" directions="" lat="" long="" phone="03-6802-8248" tollfree="" email="shop@chagohan.tokyo" fax="" url="https://www.cookly.me/by/chagohan/" hours="" price="¥9272"> Only a short walk from Tawaramachi or Asakusa metro station. This cooking class is suitable for small groups or private classes. The chef explains all the steps thoroughly so, it is perfect for those who interested in the techniques of traditional Japanese cooking.</do>
+
+==Learn==
+[[File:Tea Masters Ceremony.jpg|thumb|200px|Tea masters ceremony at Meiji Shrine]]
+The curious can study traditional culture such as '''tea ceremony''', '''calligraphy''', or '''martial arts''' such as karate, judo, aikido and kendo. There are also many language schools to help you work on your Japanese. Several universities in Tokyo cater to international students at the undergraduate or graduate level.
+
+* '''Kokugakuin University''' (國學院大學　''Kokugakuin Daigaku''), [http://www.kokugakuin.ac.jp/].　A Shinto-affiliated university. The university's research accomplishments in the areas of archaeology of are on display in one of Japan's largest university libraries on the main campus in Shibuya.  
+
+* '''Sophia University''' (上智大学 ''Jōchi Daigaku''), [http://www.sophia.ac.jp]. A prestigious private, Jesuit university is well-known for its foreign language curriculae and large foreign student population. Main campus in [[Tokyo/Chiyoda|Yotsuya]].
+
+* '''University of Tokyo''' (東京大学 ''Tōkyō Daigaku''), [http://www.u-tokyo.ac.jp/index_e.html]. Japan's uncontested number one university, especially strong in law, medicine, and literature. For locals, passing the entrance exams is fiendishly difficult, but exchange students can enter much more easily. Five campuses are scattered around the city, but the main campus is in [[Tokyo/Bunkyo#Learn|Hongo]].
+
+* '''Waseda University''' (早稲田大学 ''Waseda Daigaku'')
+
+==Work==
+[[Teaching English]] (or to a lesser extent, other foreign languages) is still the easiest way to work in Tokyo, but the city also offers more work options than other areas of the country: everything from restaurant work to IT. Certain nationalities are eligible for working holiday visas: for others, work permits can be very hard to come by without a job offer from a Japanese company. Consult your local Japanese consulate/embassy as far in advance as possible.
+
+According to the Ministry of Foreign Affairs of Japan, the working holiday programs in Japan are applied to citizens of Australia, New Zealand, Canada, the Republic of Korea, France, Germany, the United Kingdom, Ireland, Denmark, and Norway, and for residents of Taiwan and Hong Kong. Japan and the country to be chosen as the partner of this program are to give permission to a person who has a working holiday visa to spend a holiday, and also to be engaged in the activity in order to receive the wages for compensating with a required travel fund.
+
+For digital nomads or freelancers who work remotely and are traveling in Japan, it is expensive to rent an apartment with the space for a work desk. Coworking spaces and serviced offices provide a readily accessible option for workspace in Tokyo. For a comprehensive list of available coworking spaces, serviced offices and office spaces in Tokyo, [https://www.gorillaspace.jp/ GorillaSpace Tokyo] provides English-friendly customer service.
+
+==Money==
+*Cash payments are still the norm in Japan, though credit card acceptance is growing as well as through IC cards like Suica or Pasmo.
+*Getting cash is easy at your point of arrival (e.g. the airport), as you are more likely to find English-speaking assistance. There are several banks and ATM machines with menus in English. Rates are fair.
+*Most Japanese banks do not take foreign ATMs or credit cards.
+*'''You should notify your bank before your trip''', or else ''they might suspect fraud when you try to use your card and they will freeze your account''.
+*Japanese post office ATMs are everywhere, but unlike the convenience stores they are ''not open 24/7''.
+
+Regarding the question of your own country or Japan having better exchange rates for cash, the general rule of thumb still holds true &mdash; the country with the smaller of the two economies will almost always give a better rate. Those coming from the United States should '''never''' buy yen in America - the rates are simply ''horrible''. If you are unsure if your own country's rates are better or not, you can see the current actual rates used in Japan right now [https://www.gpa-net.co.jp/en/passenger-service/rate/ here].
+
+Nowadays, it is simply unnecessary to take a wad of cash with you from home, however. You can get yen at a good rate with your ATM card at any Japanese [http://www.sevenbank.co.jp/intlcard/card2.html 7-11], [http://www.jp-bank.japanpost.jp/en/ias/en_ias_index.html post office], and a growing number of [http://www.enetcom.co.jp/intl/en/ Family Marts] and [https://www.lawsonbank.jp/international/en/ Lawson's] convenience stores, not to mention Shinsei Bank, Aeon Bank, Prestia by SMBC, as well as Mitsubishi-UFJ opened its ATMs to UnionPay and Discover card users, while Mitsui-Sumitomo allows the use of UnionPay cards for a ¥75 surcharge regardless of the time of day. (Check if it's a Visa or Mastercard belonging to either the Plus, Maestro, or Cirrus networks). In the airport, if you don't see a 7-11 store, then look for a 7-Bank ATM. The ATM machines all have English menus if you wish. Charges on the Japanese side are reasonable &mdash; ¥110 for withdrawing ¥10,000 yen, and ¥220 for anything more. Any other charges are from your home bank, so having your money in a more consumer-friendly place like a credit union will save you a lot of money. Be aware that money from ATMs is in ¥10,000 note denominations, and you are still subject to the same ATM withdrawal limits as back home. The post office will allow a maximum of ¥50,000 yen withdrawal per transaction, and for 7-11 it is ¥100,000 (assuming your own bank allows it). You can also get money from a Visa, Mastercard, JCB, or American Express credit card, but getting a cash advance off your card would be extremely imprudent - nearly all banks charge extortionate interest rates close to 30% and it starts to accrue the second the money is in your hands. Both 7-11 and the post office have 20,000 branches each across Japan, and they are readily found.
+
+These days, the old horror stories of not being able to use a credit card in Japan are largely obsolete. It is possible to pay a lot of your main expenses these days with credit cards. Large and medium-sized hotels, chain stores, medium to long-distance bus or train tickets, department stores, shops that handle a lot of foreign tourists, as well as many taxis, supermarkets, and even some convenience stores can take them. In fact, '''the ideal way to pay''' whenever possible is with a credit card that has no foreign exchange fees''. These would add up and severely cost you over time. It is still important to have enough cash on you to get you through the day, however. Small retailers are much less likely to allow their use than in most other developed countries. The crime rate is very low, so don't be afraid of carrying around wads of cash as the Japanese do. The average Japanese citizen will carry a month's worth of expenses on them (around ¥40,000 or so). See ''Buy'' under [[Japan#Buy|Japan]] for general caveats regarding electronics and media compatibility.
+
+==Buy==
+[[File:Don Quijote chain store.jpg|thumb|225px|Don Quijote chain store]]
+
+If it is for sale anywhere in the world, you can probably buy it in Tokyo. Tokyo is one of the fashion and cosmetic centers in the Eastern world. Items to look for include electronics, funky fashions, antique furniture, traditional clothing (kimono, yukata, jimbei, jika-tabi) as well as specialty items like Hello Kitty and Pokemon goods, anime and comics and their associated paraphernalia. Tokyo has some of the largest electronic industries in the world, such as Sony, Panasonic, Toshiba, etc.
+
+There are numerous convenience stores throughout Tokyo, which are open around the clock and sell not only food and magazines but also daily necessities such as underwear and toiletries. 
+
+===Opening times===
+*Convenience stores are generally open round the clock.
+*Supermarkets are usually open from between 08:00 to 10:00 until 22:00
+*Drugstores are usually open from between 08:00 to 10:00 and usually close at 21:00
+*Department stores and shopping districts, in general, do not open before 10:00, many start at 11:00 or even 11:30 and close around 21:00.
+Shopping picks up from around midday to late.
+
+===Adult goods===
+Japan is a world leader in various intimate adult products, from stylish "Tenga" devices to various dolls with the replaceable body parts (and whole floors selling the spare "parts" for them), as well as some other bizarre goods. [[Tokyo/Akihabara|Akihabara]] hosts several large, multi-floor adult stores which are clearly marked as such. Prices for the Japan-made goods are generally better than in Europe and US, and the selection is better. If buying toys or lingerie make sure you purchase the "export" version to avoid size issues. 
+
+===Anime and manga===
+[[Tokyo/Akihabara|Akihabara]], Tokyo's Electric Town, is now also the unquestioned center of its ''otaku'' community, and the stores along Chuo-Dori are packed to the rafters with ''anime'' (animation) and ''manga'' (comics).
+Another popular district for all things manga/anime is the [[Tokyo/Nakano|Nakano]] ward and its Broadway Shopping arcade. Check out the mandarake shop for loads of used and rare mangas.
+
+In recent years there has been an "otaku boom" in Akihabara.  A lot of attention, in particular, was paid to the town thanks to the popular Japanese drama "Densha Otoko", a love story about an otaku who saves a woman on a train and their subsequent courtship.
+
+Akihabara was previously known for its many live performances and ''cosplayers'', some of which had drawn negative attention due to extremist performers. These have become increasingly scarce following the ''Akihabara massacre'' in 2008, although girls in various maid costumes can still be seen standing along the streets handing out advertisement fliers to passers-by for ''Maid Cafes''.
+
+===Antiques===
+Serious collectors should head for the '''Antique Mall''' in [[Tokyo/Ginza|Ginza]] or the '''Antique Market''' in [[Tokyo/Omotesando|Omotesando]], which despite the rustic names are collections of small very specialist shops (samurai armor, ''ukiyo-e'' prints, etc) with head-spinning prices.  Mere mortals can venture over to [[Tokyo/Suginami|Nishi-Ogikubo]], where you can pick up scrolls of calligraphy and such for a few thousand yen.
+
+The '''Antique Festival''' (全国古民具骨董祭り) [http://www.kottouichi.jp/heiwajima.htm] is held over the weekend about 5-6 times a year at the Tokyo Ryutsu Center, on the Tokyo Monorail line, and is well worth a visit.
+
+===Books===
+[[File:Book store in Tokyo.jpg|thumb|225px|Book store in [[Tokyo]]]]
+Jinbocho is to used books what Akihabara is to electronics. It's clustered around the Jinbocho subway stop.
+The Blue Parrot is another shop located at Takadanobaba on the Yamanote line, just two stops north of Shinjuku.
+
+===Cameras and electronics===
+Ever since Sony and Nikon became synonymous with high-tech quality, Tokyo has been a favored place for buying electronics and cameras. Though the lines have blurred since the PC revolution, each has its traditional territory and stores: [[Tokyo/Akihabara#Buy | Akihabara]] has the electronics stores, including a large number of duty-free shops specializing in export models, and [[Tokyo/Shinjuku#Buy | Shinjuku]] has the camera stores. Unfortunately, local model electronics are not cheap, but the pre-tax prices for the export models are similar to what you'll pay pre-tax in Europe and are a little higher than U.S. prices. You can sometimes find cheap local models if you avoid big shops and check smaller retailers, and are willing to deal with a Japanese-only interface, manual, and service warranty. It's also surprisingly difficult to find certain things, eg games machines.
+
+===Fashion===
+[[Tokyo/Shibuya|Shibuya]] and neighboring [[Tokyo/Harajuku|Harajuku]] are the best-known shopping areas for funky, youthful clothes and accessories.  Note that, almost without exception, clothes are sized for the petite Japanese frame.
+
+Department stores and exclusive boutiques stock every fashion label imaginable, but for global labels prices in Tokyo are typically higher than elsewhere in the world.  The famous [[Tokyo/Ginza|Ginza]] and [[Tokyo/Ikebukuro|Ikebukuro]]'s giant '''Seibu''' and '''Tobu''' department stores (the largest in the world) are good hunting grounds.  Recently, [[Tokyo/Roppongi|Roppongi Hills]] has emerged as a popular area for high-end shopping, with many major global brands. Other department stores in Tokyo are '''Mitsukoshi''', '''Sogo''', '''Marui''' (OIOI), and '''Takashimaya'''. Mitsukoshi is Japan's biggest department store chain. Its anchor store is in Nihonbashi. '''Marui Men''' store in [[Shinjuku]] has eight floors of high-end fashion for men only.
+
+===Kitchenware===
+The district for this is '''Kappabashi Street''' near [[Tokyo/Asakusa#Buy|Asakusa]], also known as “Kitchen Town.” The street is lined with stores selling all kinds of kitchen wares — this is where the restaurants of Tokyo get their supplies.  It's also a great place to find '''cheap Japanese ceramics''', not to mention plastic food.
+
+===Music===
+[[File:Tower Records in Shibuya.jpg|thumb|225px|Tower Records in [[Shibuya]]]]
+Ochanomizu is to the guitar what Jinbocho is to used books. There, you’ll find what must be the world’s densest collection of guitar shops. Plenty of other musical instruments (though not traditional Japanese ones) are also available.
+
+===Shoes===
+*Women's shoes are easy to find in any shopping place, though sizes over UK 5 / US 7 / Europe 38 are much more difficult.
+*Men's shoes are a bit harder to come by, especially if you are looking for something more modern or higher quality at a good price.
+*Bigger men's sizes above UK 9 / US 10 / Europe 43 may be difficult to come by. The up-market department stores will be your best bet.
+*Trainers are available in all shapes, sizes, and colors.
+
+===Souvenirs===
+For touristy Japanese knick-knacks, the best places to shop are '''Nakamise''' in [[Tokyo/Asakusa|Asakusa]] and the '''Oriental Bazaar''' in [[Tokyo/Omotesando|Omotesando]], which stock all the kitschy things like ''kanji''-emblazoned T-shirts, foreigner-sized kimonos, ninja outfits for kids and ersatz samurai swords that can be surprisingly difficult to find elsewhere.  Both also have a selection of serious antiques for the connoisseur but see also [[#Antiques|Antiques]] above.
+
+===Street markets===
+[[File:Street market in Tokyo.jpg|thumb|225px|Streetmarket in [[Tokyo]]]]
+Bustling open-air bazaars in the Asian style are rare in Tokyo, except for [[Tokyo/Ueno|Ueno]]'s '''Ameyoko''', a legacy of the postwar occupation.  '''Yanaka Ginza''' in the Shitamachi [[Tokyo/Taito|Taito]] district, a very nice example of a neighborhood shopping street, makes for an interesting afternoon browse.
+
+There are often small flea and antique markets in operation on the weekend at major (and minor) shrines in and around Tokyo.
+
+===Tax refund===
+*Foreigners can be exempt from local taxes (saving you around 8 percent, prices are sometimes stated ''excluding'' taxes).
+*Many shops or department stores offer to register your purchases for a refund (look for signs posted in English).
+*Items registered for tax refund might be sealed, limiting their usefulness while in Japan...
+*Refunding will be done at your point of departure (it is a popular service, so plan to spend some extra time)
+*A passport is required at the time of purchase.
+
+==Eat==
+[[Image:JP-13 Tsukishima monja street.jpg|thumb|Red lanterns beckoning customers in [[Tokyo/Chuo|Tsukishima]]]]
+
+The sheer quantity, variety, and quality of food in Tokyo will amaze you. Department stores have food halls, typically in the basement (called ''depachika''), with food that surpasses top delicatessens in other world cities. 
+
+Shopping malls and department stores have a restaurant section, usually on their upper floors. Some basements of train stations have supermarkets with free taste testers. It's a great way to sample some of the strange dishes they have for free. 
+Tokyo has a large number of restaurants, so see the main [[Japan#Eat|Japan]] guide for the types of food you will encounter and some popular chains. Menus with pictures are often posted outside, so you can check the prices. Some shops have famous plastic food in their front windows. Don't hesitate to drag the waiting staff out to the front to point at what you want.  Always carry cash. Many restaurants will not accept credit cards.
+
+Tokyo has literally tens of thousands of restaurants representing more or less every cuisine in the world, but it also offers a few unique local specialties. ''Nigirizushi'' (fish pressed onto rice), known around the world around simply as "sushi," in fact originates from Tokyo.  Another is ''monjayaki'' (もんじゃ焼き), a gooey, cabbage-filled version of ''okonomiyaki'' that uses a very thin batter to achieve a sticky, caramelized consistency. It is originally from the Tsukishima area of [[Tokyo/Chuo|Chuo]] and today there are many restaurants near Asakusa offering monjayaki.
+
+While coffee shops open around 08:00 (sometimes earlier at busy stations), restaurants start from 11:00 and sometimes close at 15:00 or 16:00 till the evening.
+
+Having an early 11:00 o'clock lunch is the easiest way of avoiding queues at popular places and will get you a seat, even if you come in alone.
+
+* '''Hot Pepper''' Available in various editions, by region, around Tokyo, this free magazine offers a guide to local restaurants in Japanese but provides pictures and maps to the restaurants.  Some restaurants even offer coupons.  Most restaurants within this magazine are on the mid-range to high-end scale.
+* '''Tabelog''' is a local restaurant directory that has ratings and reviews for restaurants in Japan. Available in English and Japanese.
+* There are also numerous blogs on the internet devoted to food and eating in Tokyo written by international foodies. These websites can be a good source of reliable information for tourists. Some recommended blogs: '''''Mehreen Amira'''''''[[http://wrapyourlipsaroundthis.com/]];'''Andy Hayler''' [[http://www.andyhayler.com/]]; '''Luxeat''' [[http://www.luxeat.com/]]; '''Miss.Neverfull''' [[http://missneverfull.com/]] ; '''The Pursuit of Food Perfection''' [[http://thepursuitoffoodperfection.wordpress.com/]]; '''Food Sake Tokyo''' [[http://foodsaketokyo.com/]]; '''Kenneth Tiong eats''' [[http://kennethtiongeats.wordpress.com//]].
+
+===Budget===
+[[Image:Tachigui_3012371228_534b1b8a46_o.jpg|thumb|Stand-and-eat (''tachigui'') noodle shop with ticket vending machine]]
+
+Go to a '''convenience store''' (''konbini''), there is one on every second corner. Really, the options may surprise you. You can get rice balls (''onigiri''), bread rolls, salads, prepared foods (like ''nikuman'' and ''oden''), and drinks (both hot and cold) for &yen;100-150, ''bento'' lunch boxes for around &yen;500 and sandwiches for &yen;250-350.  At most convenience stores, microwaves are available to heat up your food for no additional cost. '''Supermarkets''' (''suupaa'') are usually cheaper and offer a wider choice, but are more difficult to find.  (Try Asakusa and the sidestreets of Ueno's Ameyoko market for local--not big chain--supermarkets.) Also, the '''100 yen shop''' (hyaku en), has become very common, and most have a selection of convenient, ready-to-eat, items. There are 100 yen shops near most minor train stations and usually tucked away somewhere within two or three blocks of the big stations. In particular, look for the "99" and "Lawson 100" signs these chains are essentially small grocery stores.
+
+Also, look for ''bentō'' shops like Hokka-Hokka-Tei which sell take-out lunch boxes. They range in quality and cost, but most offer good, basic food at a reasonable price. This is what students and office workers often eat.
+
+[[File:Tokyo Noodle Bar.jpg|thumb|225px|A corner noodle bar]]
+Noodle shops, curry shops, and bakeries are often the best option for people to eat on the cheap. They are everywhere. The '''noodle bars''' on every corner are great for filling up and are very cheap at &yen;200-1000.  You buy your meal ticket from a vending machine at the door with pictures of the dishes and hand it to the serving staff.  The one question you will typically have to answer for the counterman is whether you want '''soba''' (thin brown buckwheat) or '''udon''' (thick white wheat) noodles.  
+Some offer standing room only with a counter to place your bowl, while others have limited counter seating.  During peak times, you need to be quick as others will be waiting.
+
+Fast food is available just about everywhere, including many American chains like McDonald's and KFC. But if you are visiting Japan from overseas, and wish to sample Japanese fast food, why not try MOS Burger, Freshness Burger, Lotteria, or First Kitchen? If you're looking for something more Japanese, try one of the local fast-food giants, '''Matsuya''', '''Yoshinoya''' or '''Ootoya'''. For under ¥500, you can get a giant bowl of meat, rice, and vegetables, sometimes with egg thrown in for good measure.  Drinking water or hot '''ocha''' (Japanese green tea) is usually available at no extra cost.
+
+[[File:Kaitenzushi.jpg|thumb|225px|"Kaitenzushi"]]
+Raw fish enthusiasts are urged to try ''kaitenzushi'' (conveyor belt sushi), where the prices are very reasonable. Prices are depending on the color of the plate, so be sure to check before they start to pile up.
+
+Many of the larger train and subway stations have fast, cheap eateries. Around most stations, there will be ample choices of places to eat, including chain coffee shops (which often serve sandwiches, baked goods, and pasta dishes), yakitori places, and even Italian restaurants.
+
+'''Halal Food'''
+
+Ameyayokocho (Ameyoko Market near Ueno Station) - There is a kebab joint in here, Kafkas Turkish Kebab (Store 39-B). You can get it for 500 yen (around USD4.80). Staff speaks good English. 
+
+Ginza - You can visit "Rasa Malaysia", a Malaysian restaurant serving South-East Asian foods. You can have Chinese Wanton Mee for 800 yen. They are halal. The address is 8th Floor, Ginza Five Star Building, Ginza 5-8-13, Chuo-ku, Tokyo, 104-0061. Tel & Fax: 03-3289-1668 Nearest subway station: Tokyo Metro Ginza station (Exit A3), 1-minute walk. The staff speaks good English.
+
+Nishi Azabu - Yakiniku Restaurant. NK Aoyama Holmes 1F, 2-2-2, Nishiazabu, Minato-ku, Tokyo, 106-0031. They serve halal meat. Staff speak minimal English.
+
+===Mid-range===
+By tradition, the basement of almost any department store, including Mitsukoshi, Matsuzakaya, or Isetan, is devoted to the ''depachika'' (デパ地下), a huge array of small shops selling all kinds of prepared take-out food.  You can assemble a delicious if slightly pricey picnic here &mdash; or, if you're feeling really cheap, just go around eating free samples.  The very largest department stores are Tobu and Seibu in [[Tokyo/Ikebukuro|Ikebukuro]], but [[Tokyo/Shibuya|Shibuya]], [[Tokyo/Ginza|Ginza]] and in fact, any major Tokyo district will have their fair share. [[Tokyo/Shinjuku|Shinjuku]] Station is home to several famous department stores, such as the Keio and Odakyu department stores. Many stores begin discounting their selections at about 19:00 each night.  Look for signs and stickers indicating specific yen values or percentage discounts. You will often see half-price stickers which read 半値 (''hanne''). This discounting is also common at supermarkets located near the smaller stations, although the quality may be a notch or two down from the department stores, it's still perfectly edible.
+
+The ubiquitous ''izakaya'', a cross between a pub and a casual restaurant, invariably serve a good range of Japanese dishes and can be good place to fill up without breaking the bank: in most, an evening of eating and drinking won't cost more than around &yen;3000 per person.  See [[#Drink|Drink]] for details.
+
+===Splurge===
+Tokyo has the world's highest number of Michelin-starred restaurants priced to match, but one splurge is worthwhile even if you're on a limited budget: the '''best sushi''' in town, if not the world, can be found in [[Tokyo/Tsukiji|Tsukiji]], fresh from the famous fish market.  Figure on &yen;3000 for a set meal, which is a bargain compared to how much sushi of similar caliber would cost elsewhere, even in Tokyo. A sushi breakfast in Tsukiji, after exploring the fish market, is a great option for the jet-lagged traveler's first morning in Tokyo. Arrive on or before the first train to avoid waiting up to two hours for a place at the sushi bar.
+
+For upmarket Japanese eats, [[Tokyo/Ginza|Ginza]] is guaranteed to burn a hole in your wallet, with [[Tokyo/Akasaka|Akasaka]] and [[Tokyo/Roppongi|Roppongi Hills]] close behind.  You can limit the damage considerably by eating fixed lunch sets instead of dinner, as this is when restaurants cater to people paying for their own meals instead of using the company expense account.
+
+==Drink==
+[[Image:Propaganda_Inside.JPG|thumb|240px|Propaganda, a bar in [[Tokyo/Roppongi|Roppongi]]]]
+[[File:Kabuki-za theater 2010.jpg|thumb|250px|Kabuki za theater]]
+
+As with everywhere else in Japan, the legal drinking/purchasing age of alcoholic beverages is '''20'''.
+
+The party never stops in Tokyo (at least in the karaoke bars), and you will find good little bars and restaurants everywhere.
+
+The most Japanese way to spend a night out would be at Japanese-style watering holes called ''izakaya'' (居酒屋), which offer food and drink in a convivial, pub-like atmosphere (see [[Japan#Drink|Japan]] for details). Cheaper chain ''izakaya'' like '''Tsubohachi''' (つぼ八) and '''Shirokiya''' (白木屋) usually have picture menus, so ordering is simple, even if you don't know Japanese - but don't be surprised if some places have Japanese only touchscreen ordering systems. There are also some good clubs to checkout in Roppongi with regular and frequent visitors.  
+
+Visiting clubs and western-style night spots can get expensive, with clubs and live houses enforcing weekend cover charges in the ¥2000-5000 bracket (usually including a drink coupon or two). For a splurge on a beverage or two, Western Shinjuku's Park Hyatt Tokyo houses the New York Bar on level 52. Providing stunning views day and night across Tokyo, it was also the setting for the movie ''Lost in Translation''. Cocktails here start around ¥1400 - single malt whiskies are upwards of ¥2000.
+
+If you're new in town, [[Tokyo/Roppongi|Roppongi]] is home to a number of vibrant clubs and establishments which specialize in serving non-Japanese - but it's also overflowing with hostesses and 'patrons' who will occasionally hassle you to visit their gentlemen's clubs, where drinks cost ¥5000 and up. Nonetheless, the party scene thrives in Roppongi, in which case it might be a good idea to check out one of the many independently produced events such as the [[#Do|Tokyo Pub Crawl]]. As an alternative, some Japanese and foreign nationals instead prefer the clubs and bars in [[Tokyo/Shibuya|Shibuya]], trendy [[Tokyo/Ginza|Ginza]], [[Tokyo/Ebisu|Ebisu]], or [[Tokyo/Shinjuku|Shinjuku]]. 
+
+'''Hub''' [http://pub-hub.com/], a chain of British-style pubs, has branches in [[Tokyo/Shinjuku|Shinjuku]], [[Tokyo/Shibuya|Shibuya]], and [[Tokyo/Roppongi|Roppongi]] (as well as near most major stations) and is reasonably priced, but is often used by foreigners and Japanese who want a bit of "action".  Other British/Irish pubs can be found in Roppongi, Shinjuku, and Shibuya.  Expect to pay around ¥1000 a pint, although happy hours can reduce this by a few hundred yen.
+
+In [[Tokyo/Shibuya|Shibuya]], the bar area is behind 109 (not 109-2) and next to Dogenzaka ("Love Hotel Hill") has a large number of clubs.  Unlike those in Roppongi and Shibuya's Gas Panic, these clubs have entrance fees, but clubs without entrance fees often hassle you all night to buy drinks that end up just as expensive and without people who are actually there to enjoy the music. [[Tokyo/Shinjuku|Shinjuku]] is home to Kabukicho, Japan's largest red-light district.  Also in Shinjuku is the gay bar district of Shinjuku-nichome. A little further from the city center are [[Tokyo/Shimokitazawa|Shimokitazawa]], [[Tokyo/Koenji|Koenji]], and [[Tokyo/Nakano|Nakano]], full of good bars, restaurants, and "live houses" offering underground/indie music popular with students and 20/30-somethings.
+
+==Sleep==
+<!-- Please add individual lodgings to district pages, not here -->
+There are thousands of hotels in the Tokyo area, ranging from cheap to very expensive. They are distributed throughout the city, with some of the high and the low prices almost everywhere. Many Western-style hotels, especially those affiliated with American hotel chains, have English-speaking staff. 
+
+===Budget===
+Much of Tokyo's budget accommodation can be found in the [[Tokyo/Taito|Taito]] area, especially between Minami-Senju Station, [[Tokyo/Asakusa|Asakusa]] and [[Tokyo/Ueno|Ueno]].  But if you are not afraid of being a little bit off-center, you may have a look at the surroundings: [[Yokohama]], etc. 
+
+Do note that some of the cheap accommodations in the Taito area (near JR Minami-Senju) may have curfew times around 22:00 to 23:00, so be sure to check that in advance if it bothers you. One hotel that does not have a curfew is Kangaroo Hotel [http://www.kangaroohotel.jp/], with rooms starting at ¥3200. There's also Economy Hotel Hoteiya [http://www.e-conomyhotels.jp/hotels/hoteiya.html], with rooms starting at ¥2500. You can also find a bed in a dormitory at TokyoBackpackers Hotel in Minami-Senju, from ¥2100 a night, with weekly or monthly discounts [http://tokyo-backpackers.com/en/]. A list of economy hotels in Tokyo is [http://www.e-conomyhotels.jp here].
+
+Capsule hotels are generally the cheapest option. They may be reluctant to play host to foreigners as there are quite a few rules of behavior that may be difficult to explain; see the [[Japan#Sleep|Japan]] article for the full scoop.  Most capsule hotels are men-only. In Tokyo, one of, if not the cheapest is [http://www.1980stay.com/ 1980 Stay], which costs as it says, ¥1980+tax. One capsule hotel chain for Japan is [https://ninehours.co.jp/ Nine Hours]. Note that there may only be a curtain between you and somebody else, so they may not suit you if you're a light sleeper. 
+
+Cabin hotels are another option. They work much the same as the capsule hotels, though you can actually stand in them and not feel like you've been entombed. [https://first-cabin.jp/ First Cabin] is one possible chain for this.
+
+24-hour comic book library/internet cafes known as manga kisa, have become common around Tokyo. This is one of the cheapest ways to crash if you miss your last train and need to wait for the early morning transit service to get started. No bed, but you have a comfy chair and a PC and/or DVDs if you can't sleep. Later in the evening, karaoke boxes often offer discounted prices for the whole night, they usually have a couch you can sleep on. Most of these cyber cafes charge &yen;1500–2500 for 8 hours.
+
+One of the cheapest ways to stay can be also a youth hostel, prices starting at ¥1200, e.g. in the [[Tokyo/Shinjuku|Shinjuku]] area.
+
+3Q-House [http://3q-house.hotels-tokyo-jp.com/en/] in Nippori starts at ¥2000 for a 6-bed-dorm. Walk or take bus #8 from Nippori station 3 stops to Shimo-Negishi. The bus stops in front of the guest house, the entrance is to the right of the restaurant Yakitori 燒鸟.
+
+===Mid-range===
+There is a wide range of choices in hotels while at Tokyo, most of the hotels are rated 3 stars or more. Tokyo is among most the other cities when it comes to hotels because their services and hotel locations are the best of the best.
+
+Keep an eye out for what is called a '''business hotel'''. The rooms are usually tiny, but they are conveniently located near stations and rates start from around ¥6000. Staff may speak minimal English, but it's not too hard to figure out. These are the best options for solo travelers.
+
+Tokyo has some self-proclaimed ''ryokan'' (Japanese inns) that cater largely to foreign tourists, mostly concentrated around [[Tokyo/Ueno|Ueno]] and [[Tokyo/Asakusa|Asakusa]].  While not as opulent as the hot spring resort places, they offer a sample of Japanese home life at affordable rates.
+
+Japan's infamous '''love hotels''' can be a reasonable (and interesting) option in Tokyo.  Shibuya's [[Tokyo/Shibuya#Sleep|Dogenzaka]] ("Love Hotel Hill") offers the widest selection in the city. If you're really going to spend the night, be sure to check in for a "stay" rather than a "rest". Be warned that some love hotels (at least around Shinjuku) have a 'No Japanese, no stay' policy, presumably to avoid confusion over billing; most lock you into your room until you pay into a slot by the door to leave.
+
+If you plan to stay more than one week, you can try Weekly-Mansion Tokyo. These are flats you can rent for short periods of time for affordable prices. Rates are around ¥5000 per day for one person or a little more for two people. Sometimes you can find deals for as low as ¥4000 per day (Various promotional deals are available for online reservations). You can also make online reservations in English.
+
+===Splurge===
+You can spend a fortune on accommodation in Tokyo. Most of the high-end international chains are well represented.  Particular concentrations of luxury hotels can be found in western [[Tokyo/Shinjuku|Shinjuku]] (including the Park Hyatt Tokyo, featured in ''Lost in Translation''), around Tokyo station ('''Shangri-La Hotel, Tokyo''',[http://www.shangri-la.com/tokyo/shangrila]. Mandarin Oriental and Four Seasons Marunouchi), and in [[Tokyo/Akasaka|Akasaka]].
+
+Beware of hotels marketing themselves as being located at "Tokyo Bay".  At best, this means you'll be in or near the [[Tokyo/Odaiba|Odaiba]] district, built on reclaimed land half an hour away from the city center; at worst, you'll end up somewhere on the coast of the adjacent prefecture of [[Chiba]], which is handy for visiting [[Tokyo Disneyland]] but inconvenient for touring Tokyo itself.
+
+===Free Wi-fi===
+Some travelers may be surprised at how hard it is to find good wi-fi in Japan, given its "high tech" reputation. Things are improving, but Japan still has a ways to go. These days even the least expensive hotels offer wi-fi, as well as many cafes and stores, and train/bus companies plus the city have their own. But remember with "free", you get what you pay for. There could be tens of thousands of other users online with you, slowing speeds to a crawl. Both the city of Tokyo has a '''[https://www.wifi-tokyo.jp/ list of free wi-fi hotspots]''', and there is '''[https://www.gotokyo.org/en/plan/wifi-connectivity/wifi_hotspotguide.html another list]''' from Tokyo's Convention & Visitor's Bureau. Those who really need fast speeds for extended times should seriously consider getting rental pocket w-fi or a SIM card for Japan.
+
+*'''Starbucks Coffee''' [http://www.starbucks.co.jp/en/] Most (but not all) of the prolific Starbucks Coffee stores now offer Free Wifi service, commonly along with charging stations. Customers will need an internet connection to register for the service in advance, however.
+
+*'''Wired Cafe''' [http://www.cafecompany.co.jp/brands/wired/index.html| (Japanese Website)] A chain of trendy, technology-orientated cafes complete with a full food menu and free WiFi. Usually hard to find a power outlet.
+
+*'''7 SPOT''' [http://webapp.7spot.jp/| (Japanese Website)] Seven-Eleven convenience stores and Denny's restaurants offer Free Wifi service. "7SPOT" to take advantage of member registration (free) can be used for up to 60 minutes per one login is required, you can access up to three times a day. [https://webapp.7spot.jp/internets/members/register_form|  Registration Page(Japanese)]
+
+*'''FreeSpot''' [http://freespot.com/] FreeSpot offering free wireless Internet access. Check out their maps of service areas. Tends to be somewhat unreliable nowadays.
+
+===Paid Wi-fi===
+*'''HOTSPOT''' [http://www.hotspot.ne.jp/en/index.html] NTT Communications WiFi Service. ¥500/24h
+
+===Internet cafe===
+Good connections are available at Internet cafes everywhere. Expect to pay &yen;400-&yen;500 per hour. "Gera Gera" is a popular chain. Paid WiFi service is also taking off in Tokyo with reasonable coverage - at a price. WiFi services are probably not convenient for those just visiting.
+
+If you bring your own computer with a WLAN card, it is possible to find wireless connections in fast food outlets like McDonald's or Mos Burger.  You also have a good chance to find a connection in one of the numerous coffee shops.  Just look for a wireless connection sign in the front window or computers within the shop.  Note that free wireless is not nearly as prevalent in Japan as it is in the West.
+
+===Mobile online services===
+Access to mobile online services greatly simplifies your experience in Tokyo. Mobile coverage and access to navigation systems (such as GPS) are excellent.
+*When arriving at an airport, look for Mobile centers if you want to get a local SIM Card.
+*Staff there will be reasonably fluent in English.
+*SIM Cards available at the airport tend to have better deals for tourists (i.e. plans not available to local residents). For example, it can be very difficult to find an "unlimited" data SIM card once you get into the city.
+*Prepaid cards available to tourists have a maximum life of 30 days, most cover 10 days or thereabouts.
+*Data volume starts at around 1GB, going up to 5GB for a 30-day-card. There are "unlimited" data options available. Most of them are unlimited as long as you don't use more than 3 / 4 GB per day. After 3 / 4 GB per day, they start to throttle speed. 
+*Be aware that some phones from some areas might use different frequencies unavailable in Japan. Mobile phones are available for rent.
+*You will need a wifi connection to register a new SIM card (free but in heavy demand at the airports).
+*Data-only plans are available.
+*Wifi services are widely available but may require registration.
+*Phones tend to drain more quickly than elsewhere, requiring a recharge during the day, especially with satellite navigation activated. Consider bringing a power bank.
+
+==Stay safe==
+
+Tokyo is one of the safest big cities you will ever visit, and Japan, in general, is one of the safest places to visit in the world. Most people, including single female travelers, would not encounter any problems walking along the streets alone at night. Street crime is extremely rare, even late at night, and continues to decrease. However, '''"little crime" does not mean "no crime"''', and common sense should still be applied as anywhere in the world.  Often the biggest risk is travelers taking Japan's apparent lack of crime too close to heart and doing things they would never do back home. 
+The most common crime is sexual harassment on crowded trains; when people are pressed up against each other, hands can wander. However, locals are far more likely to experience this than tourists, as the latter is considered more aggressive and more likely to stick up for themselves, especially if they are Westerners. The best way to deal with any wandering hands is to yell "chikaan" which is a widely publicized Japanese term for sexual harassment, specifically groping on trains. 
+
+Small police stations, or '''Koban''', can be found every few blocks.  If you get lost or need assistance, by all means go to them; it's their job to help you.  They may, however, have difficulties with English, so some knowledge of the Japanese language helps.
+
+Take the usual precautions against pickpockets in crowded areas and on trains. Also be aware that theft is more likely to occur in hangouts and bars popular with travellers and non-residents.
+
+The most real and most immediate potential threat to your safety in Tokyo is likely to be found in the form of '''rip-off bars''' in red lights and nightlife districts such as '''Kabukicho''' and '''Roppongi'''. While even these areas are almost never dangerous to casually walk around in, take note that large numbers of Japanese and African touts prowl the streets after dark looking for marks for their clip joint scams. If you are approached (as a tourist, most likely by an African) do not give in to promises of pretty girls or "happy endings." These men are extortionists and scam artists, charging customers exorbitant bills, often without providing the services promised. Some touts are persistent and may follow you for a few paces, though a firm "No, thank you" or simply ignoring them will usually shake them off in short order. On the open street, touts are annoying but harmless. Once inside their establishment, spiked drinks, threats of violence, beatings, seizure of personal documents and effects and more have all been reported. Just ignore them or say "no" on the street and you will be fine. 
+
+Tokyo is geologically unstable. It is commonly prone to volcanoes, earthquakes and tsunamis. Japan was struck by its biggest earthquake ever which measured 9.0 on the Richter scale, it was the 4th largest earthquake since record-keeping began in 1900. Although the epicenter of the quake was 373 km to the north, 130 km west offshore Sendai, Japan's 6th largest city, the intensity in Tokyo was from 5 to 7 (moderate to very strong) on the merracalli scale, or 5- to 6- on shindo scale, the whole metropolitan area was completely halted. The rapid transit stopped working, people had to spend nights in train stations, offices, shops, etc., fires broke out in many places, and they had long power cuts. Luckily, Tokyo was not affected by the devastating tsunami. In 1923, Tokyo was struck by a Mag-8.3 earthquake, whose epicenter was just 50 km away from the city center. The city was completely destroyed, 143,000 people died and the whole city was put on fire. Tokyo lies near the junction of 3 fault lines and many smaller ones are directly under the city. The area is near an active subduction zone and the elevation is not too high, so it is also prone to tsunamis. To the west is Mt. Fuji, which has not erupted in a long time but can erupt anytime. So if you are in Tokyo, always be ready for earthquakes, tsunamis, and volcanoes. Japan has the world's best earthquake and tsunami warning system, so if anything happens, it will warn you immediately.
+
+Still in a jam? Call '''Tokyo English Life Line''' [http://www.telljp.com/index.php?/en/life_line/], tel. , daily 09:00-23:00.
+
+If you make it as far out as the [[Izu Islands]], note that visitors to [[Miyakejima|Miyakejima Island]] have in the past been required to carry a gas mask, due to volcanic gases. Those in poor health are advised against traveling to the island.
+
+==Cope==
+===Healthcare centres===
+* <listing name="Tokyo Metropolitan Health and Medical Information Center" alt="" directions="" address="" phone="+81 (0)3-5285-8181" email="" fax="" url="http://www.himawari.metro.tokyo.jp/qq/qq13enmnlt.asp" hours="09:00-20:00" price="">Information about medical institutions as well as about the medical and health insurance system in Japan.
+(English/Chinese/Korean/Thai/Spanish)</listing>
+* <listing name="Emergency Translation Services" alt="" directions="" address="" phone="+81 (0)3-5285-8185" email="" fax="" url="" hours="Weekdays:17:00-20:00,Weekends and Holidays:09:00-20:00" price="">Interpretation service through phone is also available for foreign patients visiting a hospital if their treatment is not going to be carried out smoothly because of language difficulty. (for medical purpose. English/Chinese/Korean/Thai/Spanish).</listing>
+
+===Babysitting===
+* <listing name="chezvous" alt="" directions="" address="" phone="" email="" fax="" url="http://www.chezvous.co.jp/english/" hours="" price=""></listing>
+* <listing name="Kinder-Network" alt="" directions="" address="" phone="+81 (0)3-6415-8271" email="info@kinder-network.com" fax="" url="http://www.kinder-network.com/english.html" hours="" price=""></listing>
+* <listing name="Babysitters" alt="" directions="" address="" phone="+81 (0)45-507-1888" email="info@babysitters.jp;" fax="" url="http://www.babysitters.jp/" hours="" price=""></listing>
+
+===Embassies===
+Being the national capital, Tokyo hosts a large number of embassies.  A number of them are located in Minato-ku (the financial district), Shinjuku-ku, Shibuya-ku, & Chiyoda-ku (seat of government) in the central part of town.  Several embassies are also located within the same building at 38 Kowa Building  4-12-24 Nishi-Azabu, Minato-ku. They can be elsewhere too, see below:
+{| 
+|-
+| style="vertical-align:top;width:50%;" |
+<!--A-->
+* [[Image:af-flag.png|20px]] <listing name="Afghanistan" alt="" address="2-2-1 Azabudai Minato-ku" directions="" phone="+81 3 5574-7611" url="http://www.afghanembassyjp.org/en/" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:al-flag.png|20px]] <listing name="Albania" alt="" address="6-4-8 Tsukiji Chuo-ku" directions="" phone="+81 3 3543-6861" url="http://emb-al.jp/" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:ag-flag.png|20px]] <listing name="Algeria" alt="" address="2-10-67 Mita Meguro-ku" directions="" phone="+81 3 3711-2661" url="" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:ao-flag.png|20px]] <listing name="Angola" alt="" address="2-10-24 Daizawa Setagaya-ku" directions="" phone="+81 3 5430-7879" url="" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:ac-flag.png|20px]] <listing name="Antigua & Barbuda" alt="" address="8F 2-19-3 Nishi-Gotanda Shinagawa-ku" directions="" phone="+81 3 3779-1341" url="" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:ar-flag.png|20px]] <listing name="Argentina" alt="" address="2-14-14 Moto-Azabu Minato-ku" directions="" phone="+81 3 5420-7101/5" url="http://www.embargentina.or.jp/" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:am-flag.png|20px]] <listing name="Armenia" alt="" address="1-11-36 Akasaka Minato-ku" directions="" phone="+81 3 6277-7453" url="http://japan.mfa.am/" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:as-flag.png|20px]] <listing name="Australia" alt="" address="2-1-14 Mita Minato-ku" directions="" phone="+81 3 5232-4111" url="http://www.australia.or.jp/" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:au-flag.png|20px]] <listing name="Austria" alt="" address="1-1-20 Moto-Azabu Minato-ku" directions="" phone="+81 3 3451-8281/2" url="http://www.bmeia.gv.at/en/embassy/tokyo.html" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:aj-flag.png|20px]] <listing name="Azerbaijan" alt="" address="1-9-15 Higashigaoka Meguro-ku" directions="" phone="+81 3 5486-4744" url="" hours="" price="" lat="" long="" email="" fax=""></listing>
+<!--B-->
+* [[Image:ba-flag.png|20px]] <listing name="Bahrain" alt="" address="1-11-36 Akasaka Minato-ku" directions="" phone="+81 3 3584-8001" url="" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:bg-flag.png|20px]] <listing name="Bangladesh" alt="" address="4-15-15 Megro Meguro-ku" directions="" phone="+81 3 5704-0216" url="http://www.bdembjp.com/" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:bo-flag.png|20px]] <listing name="Belarus" alt="" address="4-14-12 Shirogane Minato-ku" directions="" phone="+81 3 3448-1623" url="" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:be-flag.png|20px]] <listing name="Belgium" alt="" address="5-4 Nibancho Chiyoda-ku" directions="" phone="+81 3 3262-0191" url="http://www.diplomatie.be/tokyo/" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:bh-flag.png|20px]] <listing name="Belize" alt="" address=" 4-9-7 Nishi-Shinjuku Shinjuku-ku" directions="" phone="+81 3 5365-3407" url="" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:bn-flag.png|20px]] <listing name="Benin" alt="" address="4F 1-2-2 Hirakawa-cho Chiyoda-ku" directions="" phone="+81 3 3556-2562" url="" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:bt-flag.png|20px]] <listing name="Bhutan" alt="" address="3-2 Kanda-nishiki-cho, Chiyoda-ku" directions="" phone="+81 3 3295-9288" url="" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:bl-flag.png|20px]] <listing name="Bolivia" alt="" address="804 4-12-24 Nishi-Azabu Minato-ku" directions="" phone="+81 3 3499-5442" url="" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:bk-flag.png|20px]] <listing name="Bosnia and Herzegovina" alt="" address="5-3-29 Minami-azabu Minato-ku" directions="" phone="+81 3 5422-8231" url="" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:bc-flag.png|20px]] <listing name="Botswana" alt="" address="6F 4-5-10 Shiba Minato-ku" directions="" phone="+81 3 5440-5676" url="http://www.embassy-avenue.jp/bots/index.html" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:br-flag.png|20px]] <listing name="Brazil" alt="" address="2-11-12 Kita-Aoyama Minato-ku" directions="" phone="+81 3 3404-5211" url="http://www.brasemb.or.jp/" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:bx-flag.png|20px]] <listing name="Brunei" alt="" address="6-5-2 Kitashinagawa Shinagawa-ku" directions="" phone="+81 3 3447-7997" url="" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:bu-flag.png|20px]] <listing name="Bulgaria" alt="" address="5-36-3 Yoyogi Shibuya-ku" directions="" phone="+81 3 3465-1021" url="http://www.mfa.bg/en/76/" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:Uv-flag.png|20px]] <listing name="Burkina Faso" alt="" address="Hiroo Glisten Hills 3F 3-1-17 Hiroo Shibuya-ku" directions="" phone="+81 3 3400-7919" url="http://www.embassy-avenue.jp/burkina/index.html" hours="" price="" lat="" long="" email="" fax=""></listing>
+
+<!--C-->
+* [[Image:cb-flag.png|20px]] <listing name="Cambodia" alt="" address="8-6-9 Akasaka Minato-ku" directions="" phone="+81 (0)0-5412-8521/2" url="http://www.cambodianembassy.jp/" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:cm-flag.png|20px]] <listing name="Cameroon" alt="" address="3-27-16 Nozawa Setagaya-ku" directions="" phone="+81 3 5430-4985" url="" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:ca-flag.png|20px]] <listing name="Canada" alt="" address="7-3-38 Akasaka Minato-ku" directions="" phone="+81 3 5412-6200" url="http://www.canadanet.or.jp/english.shtml" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:ct-flag.png|20px]] <listing name="Central African Republic" alt="" address="4-38-9 Nakamachi Setagaya-ku" directions="" phone="+81 3 3702-8808" url="" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:ci-flag.png|20px]] <listing name="Chile" alt="" address="Nihon Seimei Akabanebashi Bldg. 8F 3-1-14 Shiba Minato-ku" directions="" phone="+81 3 3452-7561/2" url="http://www.chile.or.jp/" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:Ch-flag.png|20px]] <listing name="China" alt="" address="3-4-33 Moto-Azabu Minato-ku" directions="" phone="+81 3 3403-3380" url="http://www.china-embassy.or.jp/chn/" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:Co-flag.png|20px]] <listing name="Colombia" alt="" address="3-10-53 Kami-Osaki Shinagawa-ku" directions="" phone="+81 3 3440-6451" url="http://www.colombiaembassy.org/" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:Cg-flag.png|20px]] <listing name="Congo (Democratic Rep)" alt="" address="1-2F 5-8-5 Asakusabashi Taito-ku" directions="" phone="+81 3 5820-1580/1" url="" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:Cs-flag.png|20px]] <listing name="Costa Rica" alt="" address="No.38 Kowa Building 9F 901 4-12-24 Nishi-Azabu Minato-ku" directions="" phone="+81 3 3486-1812" url="" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:Iv-flag.png|20px]] <listing name="Cote D'Ivoire" alt="" address="2-19-12, Uehara, Shibuya-ku" directions="" phone="+81 3 5454-1401/2/3" url="http://www.ahibo.com/ambaci-jp/" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:Hr-flag.png|20px]] <listing name="Croatia" alt="" address="3-3-10 Hiroo Shibuya-ku" directions="" phone="+81 3 5469-3014" url="" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:cu-flag.png|20px]] <listing name="Cuba" alt="" address="1-28-4 Higashi-Azabu Minato-ku" directions="" phone="+81 3 5570-3182" url="http://www.embassy-avenue.jp/cuba/index.html" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:Cy-flag.png|20px]] <listing name="Cyprus" alt="" address="Hibiya Marine Bldg 7F 1-5-1 Yurakucho Chiyoda-ku" directions="" phone="+81 3 3592-0611" url="" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:Ez-flag.png|20px]] <listing name="Czech Republic" alt="" address="2-16-14 Hiroo Shibuya-ku" directions="" phone="+81 3 3400-8122/3/5" url="http://www.embassy-avenue.jp/czech/index.htm" hours="" price="" lat="" long="" email="" fax=""></listing>
+<!--D-->
+* [[Image:Da-flag.png|20px]] <listing name="Denmark" alt="" address="29-6 Sarugaku-cho Shibuya-ku" directions="" phone="+81 3 3496-3001" url="http://www.ambtokyo.um.dk/da" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:Dj-flag.png|20px]] <listing name="Djibouti" alt="" address="5-18-10 Shimo-Meguro Meguro-ku" directions="" phone="+81 3 5704-0682" url="" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:Dr-flag.png|20px]] <listing name="Dominican Republic" alt="" address="No.38 Kowa Bldg 904 4-12-24 Nishi-Azabu Minato-ku" directions="" phone="+81 3 3499-6020" url="" hours="" price="" lat="" long="" email="" fax=""></listing>
+
+| style="vertical-align:top;width:50%;" |
+
+<!--E-->
+* [[Image:Ec-flag.png|20px]] <listing name="Ecuador" alt="" address="38 Kowa Bldg 806 4-12-24 Nishi-Azabu Minato-ku" directions="" phone="+81 3 3499-6020" url="http://www.ecuador-embassy.or.jp/e/index.html" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:Eg-flag.png|20px]] <listing name="Egypt" alt="" address="1-5-4 Aobadai Meguro-ku" directions="" phone="+81 3 3770-8022/3" url="http://www.mfa.gov.eg/english/embassies/Egyptian_Embassy_Japan/Pages/default.aspx" hours="M-F 09:00-17:00" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:Es-flag.png|20px]] <listing name="El Salvador" alt="" address="38 Kowa Bldg 803 4-12-24 Nishi-Azabu Minato-ku" directions="" phone="+81 3 3499-4461" url="" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:Er-flag.png|20px]] <listing name="Eritrea" alt="" address="401 4-7-4 Shirokanedai Minato-ku" directions="" phone="+81 3 5791-1815" url="http://www.embassy-avenue.jp/eritrea/index.html" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:En-flag.png|20px]] <listing name="Estonia" alt="" address="2-6-15 Jingu-mae Shibuya-ku" directions="" phone="+81 3 5412-7281" url="http://www.estemb.or.jp/index.html?lang=4" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:Et-flag.png|20px]] <listing name="Ethiopia" alt="" address="Takanawa Kaisei Bldg. 2F 3-4-1 Takanawa Minato-ku" directions="" phone="+81 3 5420-6860/1" url="http://www.ethiopia-emb.or.jp/e-front/" hours="" price="" lat="" long="" email="" fax=""></listing>
+<!--F-->
+<!--G-->
+<!--H-->
+
+<!--I-->
+* [[Image:Ic-flag.png|20px]] <listing name="Iceland" alt="" address="4-18-26 Takanawa Minato-ku" directions="" phone="+81 3 3447-1944" email="" fax="+81 3 3447-1945" url="http://www.iceland.is/iceland-abroad/jp/" hours="" price=""></listing>
+* [[Image:In-flag.png|20px]] <listing name="India" alt="" address="2-2-11 Kudan-Minami, Chiyoda-ku" directions="" phone="+81 3 3262-2391 to 97" email="embassy@indembassy-tokyo.gov.in" fax="+81 3 3234-4866" url="http://www.indembassy-tokyo.gov.in/" hours="" price=""></listing>
+* [[Image:Id-flag.png|20px]] <listing name="Indonesia" alt="" address="5-2-9 Higashi Gotanda, Shinagawa-ku" directions="" phone="+81 3 3441-4201" email="info@indonesianembassy.jp" fax="+81 3 3447-1697" url="http://www2.indonesianembassy.jp/" hours="" price=""></listing>
+* [[Image:Ei-flag.png|20px]] <listing name="Ireland" alt="" address="2-10-7 Kojimachi Chiyoda-ku" directions="" phone="+81 3 3263-0695" email="" fax="" url="http://www.irishembassy.jp/" hours="" price=""></listing>
+<!--J-->
+<!--K-->
+* [[Image:Ks-flag.png|20px]] <listing name="Korea" alt="" address="4-4-10 Yotsuya, Shinjuku-ku" directions="" phone="+81 3 33452-7611/9" email="" fax="" url="http://jpn-tokyo.mofat.go.kr/" hours="" price=""></listing>
+<!--L-->
+<!--M-->
+* [[Image:My-flag.png|20px]] <listing name="Malaysia" alt="" address="20-16 Nanpeidai-cho, Shibuya-ku" directions="" phone="+81 3 3476 3840" url="http://www.kln.gov.my/web/jpn_tokyo/home/" email="mwtokyo.kln@1govuc.gov.my" fax="+81 3 3476 4971"></listing>
+* [[Image:Mx-flag.png|20px]] <listing name="Mexico" alt="" address="2-15-1 Nagata-cho, Chiyoda-Ku" directions="" phone="+81 3 3581-1131" url="http://embamex.sre.gob.mx/japon/" hours="" price="" lat="" long="" email="" fax="+81 3 3581-4058"></listing>
+<!--N-->
+* [[Image:Nl-flag.png|20px]] <listing name="Netherlands" alt="" address="3-6-3 Shibakoen, Minato-ku" directions="" phone="+81 3 5776-5400" url="http://japan.nlambassade.org/" hours="M-F 09:00-17:30" price="" lat="" long="" email="" fax="+81 3 5776-5535"></listing>
+* [[Image:Nz-flag.png|20px]] <listing name="New Zealand" address="20-40 Kamiyama-cho, Shibuya-ku" phone="+81 (03) 3467-2271" fax="+81 (03) 3467-2278" email="tkyconsec@mfat.govt.nz" url="http://www.nzembassy.com/japan/about-embassy/contact-us"></listing>
+<!--O-->
+<!--P-->
+* [[Image:Pk-flag.png|20px]] <listing name="Pakistan" alt="" directions=" 4-6-17 Minami-Azabu, Minato-ku " adress="" " phone="03 5421-7741" email="pareptokyo@mofa.gov.pk" fax="03-5421-3610"></listing>
+* [[Image:Pm-flag.png|20px]] <listing name="Panama" alt="" directions=" 4-12-24 Nishi Azabu, Minato-ku " adress="" " phone="+81 3 3499-3741" email="panaemb@gol.com" fax="+81 3-5485-3548" url="http://www.embassyofpanamainjapan.org/" hours="" price=""></listing>
+*[[Image:Ph-flag.png|20px]] <listing name="Philippines" alt="" directions="  5-15-5 Roppongi Minato-ku " adress="" " phone="+81 3 5562-1600" email="" fax="+81 3-5562-1603" url="http://tokyo.philembassy.net/" hours="" price=""></listing>
+* [[Image:Pl-flag.png|20px]] <listing name="Poland" alt="" directions="" adress=""2-3-15 Mita, Meguro-ku"" phone="+81 3 5794-7020" email="tokio.amb.sekretariat@msz.gov.pl" fax="+81 3 5794-7024" url="http://www.tokio.polemb.net/" hours="" price=""></listing>
+<!--Q-->
+<!--R-->
+<!--S-->
+* [[Image:Sn-flag.png|20px]] <listing name="Singapore" alt="" directions="" adress=""5-12-3 Roppongi,
+Minato-ku"" phone="+81 (3) 3586-9111/2" email="singemb_tyo@sgmfa.gov.sg" fax="+81 (3) 3582-1085" url="http://www.mfa.gov.sg/content/mfa/overseasmission/tokyo.html" hours="M-F 09:30-12:00, 14:00-17:00" price=""></listing>
+* [[Image:Flag of Serbia (state).png|20px]] <listing name="Serbia" alt="" directions="" adress=""4 Chome-7-24 Kitashinagawa, Shinagawa, Tokyo 140-0001"" phone="+81 3-3447-3571" email="embassy.tokyo@mfa.rs" fax="+81 (3) 3582-1085" url="http://www.mfa.gov.rs/sr/index.php/diplomatsko-konzularna-predstavnistva/diplomatske-misije/ambasade/86--/86-?lang=lat" hours="M-F 09:00- 17:00" price=""></listing>
+* [[Image:Sw-flag.png|20px]] <listing name="Sweden" alt="" directions="" adress=""1-10-3-100 Roppongi, Minato-ku
+"" phone="+81 3 5562 5050" email="ambassaden.tokyo@gov.se" fax="+81 3 5562 9095" url="http://www.swedenabroad.com/sv-SE/Ambassader/Tokyo/" hours="M-F 09.00-12.30, 13.30-17.30" price=""></listing>
+<!--T-->
+* [[Image:Ti-flag.png|20px]] <listing name="Tajikistan" alt="" directions="" address="1-4-43 Nishi-Azabu Minato-ku" phone="+81 3 6804-3660/1" email="" fax="" url="" hours="" price=""></listing>
+* [[Image:Tz-flag.png|20px]] <listing name="Tanzania" alt="" directions="" address="4-21-9 Kamiyoga Setagaya-ku" phone="+81 3 3425-4531" email="" fax="" url="http://www.embassy-avenue.jp/tanz/index.html" hours="" price=""></listing>
+* [[Image:Th-flag.png|20px]] <listing name="Thailand" alt="" directions="" address="2-2-1 Kudan-Minami Chiyoda-ku" phone="+81 3 3222-4101" email="" fax="" url="" hours="" price=""></listing>
+* [[Image:Tr-flag.png|20px]] <listing name="Turkey" alt="" directions="" address="2-33-6 Jingumae, Shibuya-ku" phone="+81 3 6439-5700" email="" fax="" url="" hours="" price=""></listing>
+<!--U-->
+* [[Image:Ug-flag.png|20px]] <listing name="Uganda" alt="" directions="" address="9-23 Hachiyama-cho Shibuya-ku" phone="+81 3 3462-7107" email="" fax="" url="http://www.uganda-embassy.jp/" hours="" price=""></listing>
+* [[Image:Up-flag.png|20px]] <listing name="Ukraine" alt="" directions="" address="3-5-31 Nishi-Azabu Minato-ku" phone="+81 3 5474-9770" email="" fax="" url="http://www.mfa.gov.ua/japan/en/" hours="" price=""></listing>
+* [[Image:Ae-flag.png|20px]] <listing name="United Arab Emirates" alt="" directions="" address="9-10 Nanpeidai-cho Shibuya-ku" phone="+81 3 5489-0804" email="" fax="" url="http://www.uaeembassy.jp/" hours="" price=""></listing>
+* [[Image:Uk-flag.png|20px]] <listing name="United Kingdom" alt="" directions="" address="1 Ichiban-cho, Chiyoda-ku" phone="+81 3 5211-1100" email="" fax="" url="http://ukinjapan.fco.gov.uk/en/" hours="" price=""></listing>
+* [[Image:Us-flag.png|20px]] <listing name="United States" alt="" directions="" address="1-10-5 Akasaka Minato-ku" phone="+81 3 3224-5000" email="" fax="" url="http://tokyo.usembassy.gov/" hours="" price=""></listing>
+* [[Image:Uy-flag.png|20px]] <listing name="Uruguay" alt="" directions="" address="No.38 Kowa Bldg 908 4-12-24 Nishi-Azabu Minato-ku" phone="+81 3 3486-1888" email="" fax="" url="" hours="" price=""></listing>
+* [[Image:Uz-flag.png|20px]] <listing name="Uzbekistan" alt="" directions="" address="5-11-8 Shimomeguro Meguro-ku" phone="+81 3 3224-5000" email="" fax="" url="" hours="" price=""></listing>
+
+<!--V-->
+* [[Image:Ve-flag.png|20px]] <listing name="Venezuela" alt="" directions="" address="No.38 Kowa Bldg 703 4-12-24 Nishi-Azabu Minato-ku" phone="+81 3 3409-1501/4" email="" fax="" url="" hours="" price=""></listing>
+* [[Image:Vm-flag.png|20px]] <listing name="Vietnam" alt="" directions="" address="50-11 Moto-yoyogi-cho Shibuya-ku" phone="+81 3 3760-5625" email="" fax="" url="http://www.mofa.gov.vn/vnemb.jp/" hours="" price=""></listing>
+
+<!--Y-->
+* [[Image:Ym-flag.png|20px]] <listing name="Yemen" alt="" directions="" address="No.38 Kowa Bldg 807 4-12-24 Nishi-Azabu Minato-ku" phone="+81 3 3499-7151/2" email="" fax="" url="" hours="" price=""></listing>
+
+<!--Z-->
+* [[Image:za-flag.png|20px]] <listing name="Zambia" alt="" address="1-10-2 Ebara Shinagawa-ku" directions="" phone="+81 3 3491-0121/2" url="http://www.zambia.or.jp/contacts1.html" hours="" price="" lat="" long="" email="" fax=""></listing>
+* [[Image:zi-flag.png|20px]] <listing name="Zimbabwe" alt="" directions="" address="5-9-10 Sirokanedai Minato-ku" phone="+81 3 3280-0331/2" email="" fax="" url="" hours="" price=""></listing>
+
+|}.... or see http://www.mofa.go.jp/about/emb_cons/protocol/index.html (Ministry of Foreign Affairs website, written in English) for an extended list of countries with embassies in Tokyo.
+
+==Get out==
+From Tokyo, the entire surrounding [[Kanto]] region is your oyster.  Particularly popular destinations nearby include:
+
+* [[Hakone]] &mdash; for hot springs and views of [[Mount Fuji]]
+* [[Kamakura]] &mdash; home to dozens of small temples and one Big Buddha
+* [[Nikko]] &mdash; grandiose shrine and burial site of Shogun Tokugawa Ieyasu
+Also where Edo Wonderland and Tobu World are located.
+* [[Odawara]] &mdash; houses the only Japanese castle in greater Tokyo area
+* [[Tokyo Disney Resort]] &mdash; with '''Tokyo Disneyland''' (just like the ones everywhere else) and '''Tokyo Disney Sea''' (an only-in-Japan theme park which includes some unique rides and some imported rides from Disney parks outside of Japan)
+* [[Yokohama]] &mdash; Japan's second-largest city and a suburb of Tokyo
+
+The Tokyo area also has some less-famous destinations that are easy day trips from central Tokyo:
+* [[Ashikaga]] &mdash; historical hometown of a famous shogun clan
+* [[Hachioji]] &mdash; a refreshing climb up Mt. Takao through a forest to a shrine and beer garden
+* [[Kawasaki]] &mdash; home to the Nihon Minka-En park with 24 ancient farmhouses (more interesting than it sounds), not to mention the annual Festival of the Iron Penis (Kanamara Matsuri)
+* [[Kinugawa]] &mdash; Onsen town in [[Nikko]], home to '''Edo Wonderland Nikko Edomura''', a theme park set in the Edo era with shows and populated by ninja, samurai, geisha, et al., in a beautiful mountain setting  
+* [[Fujino]] &mdash;  a small town popular with locals and foreigners alike interested in the arts. Beautiful scenery and very refreshing after the bustle of Tokyo. 
+
+And don't forget the islands to the south of Tokyo:
+* [[Izu Islands]] &mdash; easily accessible seaside and hot spring getaways
+* [[Ogasawara Islands]] &mdash; 1000 km away from big-city bustle, for whale watching, diving and those who want to get away from it all
+
+{{routebox
+| image1=Joetsu Shinkansen icon.png
+| imagesize1=100
+| directionl1=N
+| majorl1=[[Niigata]]
+| minorl1=[[Saitama|Ōmiya]]
+| directionr1=S
+| majorr1=END
+| minorr1=
+
+| image2=Tohoku Shinkansen icon.png
+| imagesize2=100
+| directionl2=N
+| majorl2=[[Aomori]]
+| minorl2=[[Saitama|Ōmiya]]
+| directionr2=S
+| majorr2=END
+| minorr2=
+
+| image3=Tokaido Shinkansen icon.png
+| imagesize3=100
+| directionl3=W
+| majorl3=[[Osaka]]
+| minorl3=[[Yokohama|Shin-Yokohama]]
+| directionr3=E
+| majorr3=END
+| minorr3=
+
+| image4=Chuo expwy icon.png
+| imagesize4=100
+| directionl4=W
+| majorl4=[[Nagoya]]
+| minorl4=[[Hachioji]]
+| directionr4=E
+| majorr4=END
+| minorr4=
+
+| image5=Higashi-Kanto expwy icon.png
+| imagesize5=100
+| directionl5=W
+| majorl5=END
+| minorl5=
+| directionr5=E
+| majorr5=[[Narita]]
+| minorr5=[[Ichikawa]]
+
+| image6=Joban expwy icon.png
+| imagesize6=100
+| directionl6=N
+| majorl6=[[Iwaki]]
+| minorl6=[[Misato (Saitama)|Misato]]
+| directionr6=S
+| majorr6=END
+| minorr6=
+
+
+| image7=Kan-etsu expwy icon.png
+| imagesize7=100
+| directionl7=N
+| majorl7=[[Nagaoka]]
+| minorl7=[[Tokorozawa]]
+| directionr7=S
+| majorr7=END
+| minorr7=
+
+| image8=Tohoku expwy icon.png
+| imagesize8=100
+| directionl8=N
+| majorl8=[[Aomori]]
+| minorl8=[[Saitama|Urawa]]
+| directionr8=S
+| majorr8=END
+| minorr8=
+
+| image9=Tomei expway icon.png
+| imagesize9=100
+| directionl9=W
+| majorl9=[[Nagoya]]
+| minorl9=[[Kawasaki]]
+| directionr9=E
+| majorr9=END
+| minorr9=
+}}
+
+
+{{outline}}
+{{cityguide}}
+{{IsPartOf|Tokyo (prefecture)}}
+
+[[de:Tokyo]]
+[[eo:Tokio]]
+[[es:Tokio]]
+[[fi:Tokio]]
+[[fr:Tokyo]]
+[[it:Tokyo]]
+[[ja:東京]]
+[[nl:Tokio]]
+[[pl:Tokio]]
+[[pt:Tóquio]]
+[[ro:Tokyo]]
+[[ru:Токио]]
+[[sv:Tokyo]]
+[[zh:東京]]
+
+[[WikiPedia:Tokyo]]
+[[wts:Category:Tokyo (city)]]
+{{title-icons|dotm-icon}}
+{{hasDocent|Paul_Richter}}
