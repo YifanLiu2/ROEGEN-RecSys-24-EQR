@@ -10,18 +10,15 @@ class GPTChatCompletion(LLM):
     GPT Chat Completion using OpenAI API
     """
 
-    def __init__(self, model_name: str = "gpt-3.5-turbo-1106", api_key: str = "API_KEY"):
+    def __init__(self, model_name: str = "gpt-4-turbo", api_key: str = "API_KEY"):
         super().__init__(model_name)
         self.client = OpenAI(api_key=api_key)
 
-    def generate(self, prompt: str, max_tokens: int = 4000, temperature: float = 1.0) -> str | None:
+    def generate(self, message: list[dict], max_tokens: int = 4000, temperature: float = 0.0) -> str | None:
         try:
             response = self.client.chat.completions.create(
                 model=self.model_name,
-                messages=[
-                    {"role": "system", "content": "You are a helpful assistant."},
-                    {"role": "user", "content": prompt},
-                ],
+                messages=message,
                 max_tokens=max_tokens,
                 temperature=temperature,
             )
