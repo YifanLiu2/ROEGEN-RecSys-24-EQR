@@ -4,7 +4,7 @@ import numpy as np
 import tqdm
 
 class denseRetrieval:
-    def run_dense_retreival(percentile, queries, model, index_dir, save=True, output_dir=None, load_if_exists=True, path_suffix=None, query_embeds=None):
+    def run_dense_retrieval(percentile, queries, model, index_dir, save=True, output_dir=None, load_if_exists=True, path_suffix=None, query_embeds=None):
         full_path = os.path.join(output_dir, "query_dense_results_full.pkl")
         path = os.path.join(output_dir, f"query_dense_results_full_{path_suffix}.pkl") if path_suffix else full_path
         score_path = os.path.join(output_dir, f"query_dense_results_full_scores_{path_suffix}.pkl") if path_suffix else os.path.join(output_dir, "query_dense_results_full_scores.pkl")
