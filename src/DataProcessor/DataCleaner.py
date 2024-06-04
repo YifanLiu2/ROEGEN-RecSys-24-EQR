@@ -12,7 +12,7 @@ class DataProcessor:
         os.makedirs(new_dest_dir, exist_ok=True)
         self.new_dest_dir = new_dest_dir
     
-    def clean_text(self, text):
+    def clean_text(self, text: str):
         text = re.sub(r'\{\{[^\}]+\}\}', '', text)  # remove markup
         text = re.sub(r'\[\[[^\|\]]+\|?[^\]]*\]\]', '', text)  # remove all wiki-style links
         text = re.sub(r'\[?\[([^]]+)\]\]?', r'\1', text)  # clean remaining brackets around URLs

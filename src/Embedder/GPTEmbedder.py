@@ -1,27 +1,20 @@
-import os
-import pickle
-
+import argparse
 import numpy as np
-from nltk import sent_tokenize
 from openai import OpenAI
-from tqdm import tqdm
+from src.Embedder.LMEmbedder import LMEmbedder
+from config import API_KEY
 
-from src.Embedder.LLMEmbedder import LLMEmbedder
 
-
-class GPTEmbedder(LLMEmbedder):
+class GPTEmbedder(LMEmbedder):
     """
     Embedder using the GPT-3 model
     """
-    def __init__(self, model_name: str = "text-embedding-3-small", api_key: str = "API_KEY"):
-        super().__init__(model_name)
+    def __init__(self, model_name: str = "text-embedding-3-small", api_key: str = "API_KEY", split_type: str = "section"):
+        super().__init__(model_name=model_name, split_type=split_type)
         self.client = OpenAI(api_key=api_key)
 
-    def encode(self, text: str) -> np.ndarray:
+    def encode(self, text: str | list[str]) -> np.ndarray:
         """
-        Encode the text into embeddings
-        :param text:
-        :return:
         """
         response = self.client.embeddings.create(
             model=self.model_name,
@@ -30,42 +23,22 @@ class GPTEmbedder(LLMEmbedder):
 
         return np.array([s.embedding for s in response.data])
 
-    def create_embeddings(self, data_path: str, index_dir: str):
-        """
-        Create embeddings for all files in the data_path and save them in the index_dir
-        :param data_path:
-        :param index_dir:
-        """
-        # go through all files in the data_path
-        for file in tqdm(os.listdir(data_path)):
-            if file.endswith(".txt"):
+def main():
+    parser = argparse.ArgumentParser(description="Generate embeddings for text files using a GPT model.")
+    parser.add_argument("-d", "--data_path", type=str, required=True, help="Path to the directory containing text files.")
+    parser.add_argument("-o", "--output_dir", type=str, required=True, help="Path where embeddings should be saved.")
+    parser.add_argument("--split_type", type=str, default="section", choices=["sentence", "section"],
+                        help="The type of text splitting to apply before embedding.")
+    parser.add_argument("-m", "--model_name", type=str, default="text-embedding-3-small",
+                        help="The name of the GPT model to use for generating embeddings.")
 
-                file_prefix = file.split(".")[0]
-                index_name = f"{index_dir}/{file_prefix}"
+    args = parser.parse_args()
 
-                if os.path.exists(f"{index_name}_emb.pkl") and os.path.exists(f"{index_name}_sentences.pkl"):
-                    continue
+    embedder = GPTEmbedder(api_key=API_KEY, model_name=args.model_name, split_type=args.split_type)
+    embedder.create_embeddings(args.data_path, args.output_dir)
 
-                with open(os.path.join(data_path, file), "r", encoding='utf-8') as f:
-                    text = f.read()
-                    sentences = sent_tokenize(text)
+if __name__ == "__main__":
+    main()
+    
+    
 
-                    for i in range(len(sentences)):
-                        sent = sentences[i]
-                        if len(sent) > 18000:
-                            sentences[i] = sent[:18000]
-
-                    try:
-                        embeds = self.encode(sentences)
-                        if embeds is None:
-                            print(f"Failed to embed {file_prefix}")
-                            continue
-                        with open(f"{index_name}_emb.pkl", "wb") as f:
-                            pickle.dump(embeds, f)
-                        with open(f"{index_name}_sentences.pkl", "wb") as f:
-                            pickle.dump(sentences, f)
-
-                        del embeds
-                    except Exception as e:
-                        print(f"Failed to embed {file_prefix}: {e}")
-                    del sentences
