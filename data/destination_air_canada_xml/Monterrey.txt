@@ -1,0 +1,413 @@
+{{pagebanner|Monterrey Banner.jpg}}
+
+{{confused|[[Monterey]]}}
+{{printDistricts}}
+
+'''Monterrey''' is the third largest city in [[Mexico]] and the capital of the state of [[Nuevo León]]. It is the commercial, industrial, educational, and transportation hub of northern Mexico, also third in economic importance after  [[Mexico City]] and [[Mexico State]]. Although it is historically an industrial and commercial city (in fact most foreign visitors come for business purposes), tourists will be surprised at the wealth of cultural and entertainment attractions that the city has to offer.
+
+==Understand==
+[[Image:Mty_macroplaza01.JPG|thumb|Monterrey is proud of its industrial heritage.]]
+
+Monterrey traces its modern history to its founding in 1596, when Diego de Montemayor founded the city, together with 12 first families. The story is told by a mural on one of the modern grey concrete and black glass government office towers downtown, just off the Macroplaza. The mural seems odd in its juxtaposition of Spanish conquestadors set next to a modern city of skyscrapers and factories. It does capture the spirit of Monterrey though --- a city that isn't so much a product of its past as it is a product of its future. 
+
+Monterrey is an aggressively modern city, unlike most destinations in Mexico. Although it does have some colonial era sights, and its Barrio Antiguo district preserves a sense of Monterrey as it was in its once "sleepy town" days, the city is very much a product of the industrial age of the late 19th and 20th centuries. 
+
+Today, Monterrey has a culture that values education and business ethics. Often referred to as "an industrial giant", the label is more true in the imagination than it is in reality. Monterrey's big steel and iron works have been shut down for almost two decades, and even the concrete, glass, and brewing industries don't dominate the economy as they once did. Instead, people in Monterrey are today more likely to work in retail, in banking, in telecommunications, or in health care or education. 
+
+The city enjoys one of Mexico's highest standards of living, and the population is more educated and cultured than average. 
+
+Monterrey is also a large city. The central downtown has a population of about a million, but the metropolitan area that includes all of its adjacent suburban municipalities brings its total city population to just under 4 million --- similar in size to the San Francisco Bay Area in the U.S.
+
+While it is true that visitors seeking the traditional flavor of colonial Mexico find little to love about Monterrey, the city has emerged as a leading cultural center: it likes cutting edge contemporary architecture (like the visually stunning Puente Atirantado or Puente Viaducto de la Unidad in San Pedro Garza Garcia, the new circular Tec business school in el Valle, or the physics-defying twin leaning bookends look of that shocking white concrete and black glass building that you see as you drive past the ITESM campus). It's also a youthful city that tends to prefer cutting edge rockeros like Plastilina Mosh or Kinky to the cowboy-hat wearing cumbia groups that built the city's music industry in the '70s and '80s. Monterrey is a city where international cuisine finds a welcoming reception, and where high-speed broadband internet connections are actually becoming more commonplace than in many U.S. communities. Monterrey is a progressive, modern city that likes to learn, likes to work, and likes to live for the weekend.
+
+==Districts==
+{{Regionlist|
+
+regionmap=Monterrey_regions.png |
+regionmaptext=Map of the Monterrey Metropolitan Area |
+
+region1name=[[Monterrey/Zona Rosa|Zona Rosa]] |
+region1color=#ab3333 |
+region1items= |
+region1description=Downtown Monterrey, including the Barrio Antiguo and Macroplaza areas. Home of many of the city's top attractions. Referred to locally as simply "el centro". |
+
+region2name=[[Monterrey/Garden District|Garden District]]  |
+region2color=#26c708  |
+region2items= |
+region2description=West central district with many residential and light commercial neighborhoods. Home to the Obispado neighborhood with great views of the city. |
+
+region3name=[[Monterrey/North Central|North Central]]  |
+region3color=#ff76fb  |
+region3items= |
+region3description=The parts of el centro north of Avenida Ruiz Cortinas, including the areas of Anahuac, Cuahtemoc, and Topo Chico. Location of Cervecería Cuauhtémoc-Moctezuma. |
+
+region4name=[[Monterrey/Northwest|Northwest]]  |
+region4color=#009bff  |
+region4items= |
+region4description=Mitras mountain along with several affluent neighborhoods located on its slopes are in this area. Includes the areas of Cumbres, Lincoln, and Poniente. |
+
+region5name=[[Monterrey/South|South]]  |
+region5color=#1800ff |
+region5items= |
+region5description=Sections of the city to the southeast of downtown, especially Tecnologico, and the Highway 85 (Carreterra Nacional) corridor heading out of the city. This area is located right on the western slope of Cerro De Silla.  |
+
+region6name=[[Apodaca]]  |
+region6color=#c600fc  |
+region6items= |
+region6description=Far northeast areas of the Monterrey metropolitan area. Heavily industrialized and home of Monterrey's two airports. |
+
+region7name=[[Escobedo]]  |
+region7color=#ff00b0  |
+region7items= |
+region7description=Far northern reaches of the metropolitan area.|
+
+region8name=[[Guadalupe]]  |
+region8color=#00ff6d  |
+region8items= |
+region8description=Central municipality south of the Rio Catarina.  Home to theme parks and soccer venues. |
+
+region9name=[[San Nicolás de los Garza]]  |
+region9color=#ffc500  |
+region9items= |
+region9description=A relativley large municipality northeast of downtown Monterrey. Industrial and working class residential neighborhoods.  |
+
+region10name=[[San Pedro Garza Garcia]]  |
+region10color=#9b6e16  |
+region10items= |
+region10description=Southwestern municipality with upscale residential areas and major shopping malls. San Pedro Garza Garcia is a international business hub and home to Monterrey's extremely wealthy. San Pedro offers plenty of great restaurants and nightlife of all sorts. |
+
+region11name=[[Santa Catarina (Mexico)|Santa Catarina]]  |
+region11color=#ff0000  |
+region11items= |
+region11description=Far southwestern municipality with working class residential and light commercial neighborhoods. Gateway to parks and natural areas like La Huasteca. |
+}}
+
+==Get in==
+[[Image:Mty_macroplaza4.JPG|thumb|Faro Comercio is a monument to Monterrey's business culture.]]
+Monterrey is a large city with a wide variety of transportation options. Bus, plane, or personal car are the most practical ways to get to Monterrey.
+
+===By plane=== 
+Monterrey has two airports. All commercial flights use Monterrey International (MTY) -- the city's main airport. Private and cargo carriers use Del Norte Airport. 
+[[Image:Mty_mune1.JPG|thumb|Monterrey's new MUNE museum opened September 2007.]]
+      
+* '''General Mariano Escobedo International Airport''' ({{IATA|MTY}}) ({{ICAO|MMMY}}), Tel: +52 (81)83-45-44-34. Daily international flights to Houston, Dallas, San Antonio, Chicago, Detroit, Atlanta, Las Vegas, Los Angeles, Havana, and Panama City. It has several flights a day to all major Mexican destinations, including Mexico City, Guadalajara, Toluca, Cancun, Merida, Puerto Vallarta, Mazatlan, and Tijuana.  Several low cost airlines fly from Monterrey to different parts of the country, including Volaris and Viva Aerobus. Viva Aerobus operates out of Terminal C. The airport is located about 20 minutes from downtown in the suburban municipality of [[Apodaca]]. The usual taxi fare to go from the airport to the city and vice versa is about US$25. 
+* '''Del Norte Airport''' ({{ICAO|MMAN}}), Tel: +52 (81) 80-30-90-90. Private planes flying to Monterrey can use the smaller Del Norte Airport. Simply put, there is no bureaucracy involved in entering Monterrey through this airport. There are various FBOs that will be glad to assist you with your every need, and the hospitality of every single employee of the airport and the FBOs give you a very warm welcome to Monterrey. The FBOs can get you in contact with a car rental company or can take you to your hotel. This airport is also in [[Apodaca]] but it is a little closer to the city than the Mariano Escobedo Airport.
+ 
+''Ground transportation to/from MTY''
+* If you are in the city, any taxi will take you and the fare will be the same from any point of the city to the airport. In the airport you have to locate a special counter or automated kiosks inside the terminal where you have to pay for the fare to the city.  Once you pay you are given a ticket that has to be shown to the driver in order to be let into a cab. 
+
+* Rental car counters are located inside the terminal building and just outside the domestic arrival area (to your right as you exit customs from the international arrivals door). Rates are no higher than in the U.S., and you can book online through any major car rental company web site. Companies with rental locations on-site at MTY airport include: National, Advantage, Europcar, Thrifty, Alamo, Payless, Hertz, Budget, and Avis.
+
+* There is a shuttle bus going From the airport to the bus station in the city center, 110 Pesos one way (as of february 2022) you can buy your ticket in one of the stand in the airport. once at the bus station you can easily get anywhere by public transit.
+
+* A city bus leaves the airport approx. every 10 minutes to Y Griega for 15 pesos (February 2022), from where you can change to the metro or take a connecting bus. The journey takes 50 minutes. 
+
+''Airlines serving MTY''
+* '''International Service''': American, United, Delta, and Copa. (Frontier and Spirit to begin service June 2022).
+
+* '''Both International and Domestic Service''': Aeromexico, Volaris, Magnicharters, and VivaAerobus.
+
+* '''Domestic Service Only''': Aeromar, TAR.
+
+As of 2021, VivaAerobus is the dominant carrier in Monterrey (most flights to most destinations).
+
+''COVID Tests''
+
+Check current travel requirements before checking in for flights. Remember to allow up to an hour to obtain "quick" results.
+
+The MTY airport offers on-site COVID testing.[https://www.oma.aero/en/passengers/monterrey/services/covid-module-test.htm] Prices are 469MX if you show a boarding pass, 849MX without one. Two COVID modules in the main terminal (A/B) are open 3am-8pm. The COVID module in Terminal C (VivaAerobus) is open 3am-10pm. 
+
+Tests are available ahead of time at several independent labs and pharmacies around town. Several locations of Farmacia del Ahorro offer tests as cheap as 299MX. [https://www.fahorro.com/prueba_antigenos] Laboratorio Dr. Moreira has several locations downtown and in San Pedro [http://labmoreira.com/covid-19.asp]
+
+===By bus=== 
+Monterrey's Central de Autobuses is the hub of bus transportation in the city and is the largest bus station in northern Mexico. The station has bays for more than 100 buses to simultaneously load or unload. It is served by more than a dozen first-class bus lines and dozens more second-class bus lines. Trans-border buses go between Monterrey and cities throughout the United States while long distance buses go from Monterrey to other major Mexican bus hubs and to every notable city in northern Mexico.
+[[Image:Mty_centrautobuses1.JPG|thumb|Monterrey's Central de Autobuses, Metrorrey subway line running overhead.]]
+
+Bus lines operating between Monterrey and Texas and other southern U.S. state destinations include (among others): 
+* Adame
+* Americanos and Amigos [http://www.autobusesamericanos.com.mx/joomla/]
+* El Conejo [http://www.autobuseselconejo.com/]
+* El Expreso [http://www.elexpreso.net/]
+* Autobuses Garcia
+* Tornado [https://www.tornadobus.com/]
+* Turimex Internacional [http://www.gruposenda.com]
+
+First-class and executive-level bus lines operating between Monterrey and other Mexican cities include (among others): 
+* Estrella Blanca (Turistar, Futura, Chihuahenses, more), [http://www.estrellablanca.com.mx/]
+* ETN, [http://www.etn.com.mx/]
+* Grupo Senda (Sendor, Tamaulipas, Coahuilenses, more), [http://www.gruposenda.com.mx/]
+* Olimpia [http://www.olimpia.com.mx/]
+* Omnibus de Mexico, [http://www.odm.com.mx/]
+* Transportes del Norte
+
+Some bus lines also have small company-specific bus stations on the outskirts of the city, for example, Grupo Senda has a stop near the Cintermex, which can be convenient for passengers arriving by way of the McAllen/Reynosa border crossing.
+
+Greyhound Buses from Texas arrive in the Greyhound Terminal in the General Escobedo district. It's an easy walk from the terminal to the end of Metro Line 2 (Sendero Station). This metro station is above ground and easily visible - ride it to the other end General Zaragoza to arrive in Monterrey's Central/Barrio Antiguo area. 
+
+''Location:'' Central de Autobuses is located in the heart of Monterrey on Av. Colon. You can get to the Central de Autobuses using the Metrorrey subway system ''(closest station is Cuauhtémoc)''. The main phone number for the bus station is (81) 8372-9324.
+
+===By car===
+Monterrey is about 200km south of the U.S./Mexico border. The most common border crossings, both in South Texas, used to get to Monterrey are Laredo/Nuevo Laredo and McAllen-Hidalgo/Reynosa. The travel time from either Reynosa or Nuevo Laredo is about two hours.  Many people from Monterrey drive to San Antonio and all points north through Puente Colombia outside of [[Nuevo Laredo]]. The customs and immigration lines are usually much shorter at the Colombia crossing, plus you can eliminate most of the traffic and congestion of Nuevo Laredo. Note: The Colombia border crossing checkpoint is closed from midnight to 8am daily.
+
+To reach Monterrey from the United States, take Interstate 35 south. The highway ends at International Bridge 2 in Laredo. The Aduana office for handling vehicle import paperwork is on the river road in between Bridge 1 and Bridge 2. Mexican auto insurance can also be purchased there. From Nuevo Laredo, take Mexico Highway 85 south and it brings you right into Monterrey.
+
+Guia Roji maps are the best in Mexico, but in an age of cell phone apps, you might be better served by driving with Google Maps than fumbling with the old-style paper maps. You can buy Guia Roji maps online, or they are sold in every Sanborns store in Mexico.
+
+==Get around==
+Taxis and walking are the best choices. Buses are common but hard to use. The subway is good, but has limited coverage.
+
+===Taxis===
+'''Taxis''' are the easiest way to get around Monterrey. Taxis are both affordable and plentiful. Taxis use meters in Monterrey, and to avoid overcharges, insist that the driver use the meter. The fare from downtown to the airport will be about 750 pesos.
+
+===Rideshare===
+
+Many people find rideshare apps to be a more convenient and economical way to travel around a city.  In Monterrey, service is available using '''Uber''', '''Cabify''', and '''Didi'''.  Rideshare services operate throughout the city, but are difficult (or impossible) to use at the Monterrey International Airport (MTY). I've tried twice to use Uber when arriving in MTY, once from the main terminal, and once from Terminal C. In both cases, I gave up trying to get the Uber app to send me a car and ended up going back inside the terminal and using a kiosk to pay for a regular airport taxi. Your mileage may vary (but probably won't).
+
+===Bus===
+
+The buses in Monterrey go through the city numbers 1-199 go in a certain part of the city. Numbers 200-300 go to most part of the city.And 300-502 are minibuses. Also there is a metrobus service in Guadalupe and San Bernabe area. There are three routes in San Bernabe and one in Guadalupe. Careful, many buses will not come to a full stop when letting passengers off. Download the Moovit app to plan your bus journey. Timetables are not realiable, but the routes generally are. 
+
+===Subway===
+[[Image:Metrorrey_Map.png|thumb|right|400px|Map of Monterrey subway system.]]
+The '''Metrorrey subway system''' is clean, modern, and very inexpensive, though the coverage is not extensive. It can be used to go between downtown areas like Macroplaza or Barrio Antiguo and the Central de Autobuses bus station. It also stops near the Cerveceria Cuahtemoc and the Coliseo and is a good choice if you are staying in the suburban municipality of Guadalupe. The useful stops for a tourist include:
+* ''Central'': main bus station, Coliseo
+* ''Cuahtemoc'': transfer point, low-end shopping, brewery tours
+* ''Padre Mier'': shopping near Morelos (Zona Rosa), Holiday Inn Centro
+* ''Zaragoza'': Macroplaza, Barrio Antiguo, Howard Johnson, Fiesta Americana, Santa Rosa Suites
+* ''Parque Fundidora'': Parque Fundidora, Cintermex, Arena Monterrey, Holiday Inn Fundidora
+* ''Santa Ana'': Since the opening of line 3 the preferred stop to visit most of Parque Fundidora and Paseo Santa Lucia
+* ''Universidad'': Universidad Autonoma de Nuevo León, Parque Niños Héroes, Estadio Universitario
+* ''Exposicion'': Near the expo, Domo Care concert hall and the stadium of Rayados, which will be used for the FIFA World Cup 2026.
+
+Most of the metro is above ground and easily visible, however the downtown/central stations such as Padre Mier and General Zaragoza are underground and quite hard to find as they're not signed. Get a map reference for where the station is located, then when you'er there look for perspex arches over stairs that go down from street level (usually positioned on a footpath/sidewalk on an intersection). That will be a station entrance. In 2021 line 3 came in operation, which is basically just and extension of line 2. Vehicles on line 2 will continue as line 3 from Zaragoza and passes Santa Ana (for Parque Fundidaora), Felix U Gomez (connection to line 1) and terminates at Hospital Metropolitano.
+
+===Car===
+[[Image:Mty_downtown1.JPG|thumb|Street near the Macroplaza in downtown Monterrey.]]
+Renting a '''car''' is a possibility, though it can be expensive and navigating the streets can be a bit tricky. As with any major metro area, parking is always an issue, though parking is generally easier in Monterrey than in other cities of similar size. Many downtown hotels offer free parking and free valet parking for their guests. A large public lot under the Macroplaza usually has spaces available.
+
+===Downtown Tourism Transportation===
+In the downtown area, there is a '''tourist trolley''' that does regular circuits around the Macroplaza and Barrio Antiguo areas.
+
+'''Riverboats''' on the Paseo Santa Lucia can be used to go between the Macroplaza area and Parque Fundidora. The boats leave from the waterway below the Museo de Historia Mexicana, near the Palacio del Gobierno. A one-way fare is 100 pesos (February 2022).
+
+==See==
+[[Image:Mty_discmural_downtown.JPG|thumb|Mural depicting the founding of Monterrey.]]
+[[Image:Mty_museohistoria.JPG|thumb|Museo de Historia Mexicana in downtown Monterrey]]
+*'''Cerro de la Silla''' - Monterrey's most famous landmark is the saddle-shaped mountain that dominates the local skyline. The hiking trail to its peak can be hiked in about 2.5 hours each way, with a total elevation change of approximately 4,000 feet / 1,200 meters.  In nice weather a vendor sells drinks, fruit and snacks at the trailhead, which was once the entry ("Entrada Al Teleferico") for the long-defunct cable car.  Provisions are also usually available at the viewing platform ("Terraza Al Teleferico") at the approximate trail midpoint.  The trail ends at a (locked) vehicular gate accessing the telecommunications station, and is paved with a mix of natural rock, set stones and concrete, so hiking boots are not necessary; most people wear sneakers.  Other notable points along the trail include La Virgen, La Cueva and El Cristo.
+* '''Macroplaza''' - In the east of the [[Monterrey/Zona Rosa|Zona Rosa]] is Mexico's largest ''zocalo'', or central plaza, a stretch of green space lined with fountains, statues, gardens, and monuments. Ringing the park are many historical buildings and '''museums''', including the Monterrey Cathedral, Faro de Comercio, the Mexican History Museum, the Monterrey Contemporary Art Museum, and the former palace of the governor. In the southern part of the square, just below subway station Zaragoza, you'll find massage therapists. All therapists have a disabillity (most are blind). A 20 minute back and neck massage costs 100 pesos, while a leg and feet massage costs 150 pesos. 
+* '''Gran Parque Rio La Silla''' - A beautiful park on the river Rio La Silla. Continue your walk outside the park on the river banks and you'll rather feel like your in the countryside, than in the city.
+* '''Faro de Comercio''' - Monterrey's most famous landmark, designed by Luis Barragán and completed in 1984.  Dimensions are 300' x 40' x 12'.
+* '''Catedral Metropolitana de Nuestra Señora de Monterrey''' - Monterrey's Catholic cathedral. Smaller and more austere than most latin American churches, the cathedral's history dates back to 1612 when construction first started. The three naves were completed in 1791 and the single bell tower was completed in 1899. 
+* '''Museo del Palacio, Museo del Noreste (MUNE) and Museo de Historia Mexicana''' - These three museums, located at the north end of the Macroplaza, can all be visited on the same ticket.  Their emphasis is history, with a focus on Monterrey, Nuevo Leon, Coahuila, Tamaulipas and Texas.
+* '''Museo Metropolitano De Monterrey''' - Located west of the Macroplaza, on Zaragoza, next to the Hotel Monterrey. Small museum chronicling the city's history. Housed in a colonial era former courhouse. 
+* '''Museo de Arte Contemporáneo de Monterrey (MARCO)''' - Architectural gem designed by Ricardo Legorreta, opened in 1991, features several salons containing the museum's permanent collection and several salons showcasing the work of contemporary artists. The museum includes an excellent gift shop and a popular restaurant cafe. [https://www.marco.org.mx/]
+*'''Parque Fundidora''' - beautiful public park easily reached by metro (or walking) from the city centre. This park was made on the site of the former steelworks 'Fundidora.' It is free and open daily. Bicycles can also be rented. There is a variety of permanent structures housing museums and public spaces. Frequently hosts concerts and special events. [https://www.parquefundidora.org/]
+*'''Museo del Acero Horno3''' - Located in the former steelworks in the Parque Fundidora, this museum covers the history of the steel industry in Mexico as well as the science behind steel and steel making.
+*'''Salón de la Fama del Béisbol Mexicano''' - The Hall of Fame and museum , opened in 2019, covers the history of professional baseball in Mexico.
+* '''Pabellón Ciudadano''' - Landmark tower housing government offices.  Can be seen from the Salón de la Fama del Béisbol Mexicano.
+* '''Cerro del Obispado (Mirador Obispado – Asta Bandera)''' - Historical site, originally home of the Bishop de Monterrey, with excellent views of the city. Home to a small regional history museum (Museo del Obispado) with a clerical bent. The Obispado can be easily spotted by virtue of its enormous Mexican flag, flying proudly beside it. The neighbourhood over and around the hill (Colonia Obispado) used to be home of the local high-class, therefore by wandering around, you may spot some old mansions and colonial era houses.
+* '''Iglesia La Purísima''' - Interesting modern church completed in the 1940s.
+* '''Puente de la Unidad San Pedro''' - Futuristic cable-stayed bridge set against a dramatic backdrop of nearby mountains.  Can be seen from the Cerro del Obispado.
+* '''Torre Obispado''' - The tallest building in Latin America was designed by Pozas Arquitectos and completed in 2020 to a height of 305.3 meters (1,002 feet).  Can be seen from the Cerro del Obispado.
+* '''Cerveceria Cuahtemoc''', [[Monterrey/North Central|Centro]]. Tours and sample of Carta Blanca, Dos Equis, Bohemia, Sol, or one of the other beers brewed here.  
+* '''Safari Parque Estrella''' - Located about 30 minutes from Monterrey this wildlife safari park features treks through the Serengeti, a petting zoo, and a variety of attractions for the whole family. [http://www.bioparque.com]
+* '''Cascadas Cola de Caballo''' - Take a day trip out to the park and see the waterfalls, just a few miles outside Monterrey.
+* '''Presa de la Boca''' - This is one of the dams that provides the water supply for the city. Located just on the outskirts, this is a popular recreational spot for the local population. Here you will find lots of traditional products, handcrafts, regional cuisine and some other goods. It is recommended for its traditional atmosphere. Also you may hire a service to do horse riding, sailing, karting or biking.
+
+==Do==
+[[Image:Mty_plazatoros1.JPG|thumb|Commencing the bull fight, Plaza Monumental, Monterrey]]
+There's always something fun and interesting happening in Monterrey. It's easy to find events throughout the city, activities to keep you busy, and nightlife to occupy all 24 hours of your schedule. The listings here are major venues of city-wide interest. You may also find smaller venues and parks within any of the city's many neighborhoods.
+===Sports===
+* '''Fuerza Regia''' (basketball) - Professional basketball seems to be taking off in Mexico and the Fuerza Regia play in the massive, ultramodern new Arena Monterrey. [http://www.fuerzaregia.com]
+* '''Sultanes'''(baseball) - Monterrey's AAA-level Mexican League Baseball team is the Sultanes --- one of the best and most enduring teams in Mexico. Kick back in the 40,000 seat Estadio de Beisbol Monterrey on any summer evening, have a couple ice cold Carta Blancas, and cheer when the Sultanes smack in another jonron! [http://www.sultanes.com.mx]
+* '''Rayados''' (football/soccer) - The Rayados (sometimes also called La Pandilla) are one of two professional soccer teams --- both very good --- playing in Monterrey. Games are played in the massive new, state-of-the-art stadium, Estadio BBVA Bancomer, in Guadalupe.  [https://www.rayados.com/home]
+[[Image:Mty_cerveceria5.JPG|thumb|Salon de la Fama Beisbol Profesional Mexicana]]
+* '''Tigres''' (football/soccer) - The Tigres are Monterrey's other first-division professional soccer team, currently playing at the 42,000 seat Estadio Universitario, although a new stadium is under construction on the UANL campus in San Nicolas (slated to open by the 2025 season). The biggest soccer game of the year in Monterrey is the Clasico Regiomontano, pitting the two hometown teams against each other.  [http://www.tigres.com.mx]
+* '''Borregos Salvajes'''  (football/american) - College football with a Mexican accent, the Borregos Salvajes are the team for ITESM (also known as "Tec de Monterrey"). [http://www.borregossalvajes.com/inicio/]
+* '''Autenticos Tigres''' (football/american) - College football with a Mexican accent, the Autenticos Tigres are the team for UANL.
+
+[[Image:MTY_ChipinqueBungee.jpg|thumb|Bungee jumping at the mesa, Parque Ecologico Chipinque, Monterrey]]
+
+===Eco-tourism===
+* '''La Huasteca''' - Dramatic canyons cut through the mountains on the edge of Monterrey with sheer rock cliffs and an impressive display of nature's power. Popular area for trail bike riding, climbing and rapelling, and backcountry hiking. Located in the Santa Catarina area. [https://parquehuasteca.org/]
+* '''Chipinque Ecological Park''' - Chipinque is one of the white-faced mountains towering over Monterrey, this one over the suburban municipalities of San Pedro and Garza Garcia. Drive up to the mesa where you can picnic while your kids enjoy the playground. Go hiking or mountain biking on the rugged trails that go up through the mountains to a fire-spotting station, or onwards toward the reservoir near the outlying town of Santiago. There is a rustic mountain lodge offering affordable family lodging and a restaurant serving traditional Mexican cuisine in a setting with unparalleled views of the city below. [http://www.chipinque.org.mx]
+* '''Parque Nacional Cumbres de Monterrey''' - Mexico's largest national park at more than 177,000 hectares. Very rugged terrain with rocky mountains, deep canyons and narrow gorges running through the Sierra Madre Oriental. [https://www.gob.mx/semarnat/articulos/parque-nacional-cumbres-de-monterrey] The park is recognized by UNESCO as an important biosphere with a rich array of flora and fauna (including mountain lions, wolves, and several species of hawks and other predatory birds). [https://en.unesco.org/biosphere/lac/cumbres-de-monterrey]
+* '''Matacanes''' - Matacanes is a Mecca for the rugged outdoors sportsman, it's a narrow, whitewater river rushing through the Sierra Madres, cascading over waterfalls, and forcing its way with all due haste towards the Gulf of Mexico. People come to Matacanes to hike the verdant green mountain trails, to swim in the cool pools, to rappel down sheer cliff faces, and to see a side of Northern Mexico that few guide books take the time to explore. Gaia Extreme runs 8-10 hour adventure tours into the canyons. Prices start at about US$70 (1400MX). [https://www.gaiaxtreme.com/en/tour/matacanes/]
+* '''El Potrero Chico''' an internationally renowned rock climbing area. It is also great for biking and trail running. 1 hour north the city (90 minutes south of Laredo Texas). [http://potrerochico.org/]
+
+===Concerts===
+*'''Auditorio Pabellon M''' - Popular music (including salsa, reggaeton and other latin genres) dominates the schedule of upcoming events at Pabellon, but you'll sometimes find family entertainment or standup comics here as well. There are plenty of restaurants inside the Pabellon mall, so it's a great place for a "dinner and show" date night. [http://www.auditoriopabellonm.com/]
+*'''Arena Monterrey''' - Besides serving as a sports venue, there are frequent concerts and music festivals at the Arena Monterrey, adjacent to Parque Fundidora. [https://arenamonterrey.com/]
+*'''Teatro de la Cuidad''' - Monterrey's public performing arts venue is the Teatro de la Cuidad, located on the Macroplaza in the heart of the city. Occasional performances of various genres. [https://conarte.org.mx/teatro-de-la-ciudad/]
+
+===Other Activities===
+*'''Paseo de Santa Lucia''' - a lovely, safe, river walk which you can stroll by day or night. Start at Barrio Antiguo and walk to Parque Fundidoras in around 25 minutes. Small tourist boats also sail along here, you can catch a boat one-way and walk back. (The commentary is only in spanish)
+* '''Parque Plaza Sesamo''' - Popular theme park featuring all your favorite Sesame Street characters, from Elmo to Big Bird. There's rides for the kids, shows, and an impressive array of water slides to help you cool off during the hottest summer afternoons. [http://www.parqueplazasesamo.com].
+* '''Lucha Libre''' - If WWE is too tame for you, check out Lucha Libre --- the original professional wrestling. Sundays seem to be the best time to catch some wrestling action. It happens at the Coliseo, across the street from the Central de Autobuses. There are also sometimes lucha libre events at Arena Monterrey near Fundidora.
+* '''Bull Fights''' - Some people find it bloody and barbaric, but it's an authentic slice of Spanish heritage and the bullfights in Monterrey feature top-tier professional matadors. [http://www.monumentallorenzogarza.com/]
+* '''Rio Santa Catarina''' - The dry river bed of the Santa Catarina runs through downtown Monterrey along Avenida Constitucion. The river bed has hosted various activities over the years, though any structures built there will be temporary until the next big storm.
+* '''Casa Tec''' - Monterrey's ITESM is the largest and most highly regarded private university in Latin America. Often considered a privilege for Mexico's affluent young adults, the school aggressively seeks to open its doors to talented minds of all income levels through an amazingly rich scholarship program, funded by periodic raffles of multi-million dollar mansions, fully furnished right down to his-and-her luxury cars in the garage and enough cash to pay all taxes and household maintenance for the first years. Homes for the next raffle are open for public tours and its great fun to stroll through the home, seeing how you could live if only your number came up. The raffle is called Sorteo Tec and the home tours are in San Pedro, in the Valle Oriente part of Monterrey. [http://www.sorteotec.com]
+
+==Buy==
+[[Image:Mty_marco3.JPG|thumb|Inside the MARCO Museum.]]
+The shopping scene in Monterrey is excellent. You'll find many international labels and designer houses in the upper-end malls.  
+
+===Folkart===
+If you are looking for Mexican folkart there are two good places to look. For upscale artesanias, the best place in Monterrey (indeed, one of the best high-end shops in all Mexico) is Carapan (Hidalgo Oriente 305, Monterrey, MX 64000), located within steps of the Sheraton Ambassador hotel. On the popular end of the price (and quality) spectrum are the myriad shops along the Carreterra Nacional near the town of Santiago N.L.
+
+Although Monterrey is not known for any specific types of popular folk art, their regional candies are widely sold throughout the city and make excellent gifts to bring back home. Look for any kind of "leche quemada", especially the deliciously carmelized "Glorias", crusted in chopped pecans.
+
+===Upscale Malls===
+Monterrey has several large, modern malls, with a cluster of them close together in San Pedro. These malls are the same as malls elsewhere in the world. Major malls in Monterrey include:
+* '''Galerias Monterrey'''
+* '''Plaza Fiesta San Agustin'''
+* '''Galerías Valle Oriente'''
+* '''Plaza Cumbres'''
+* '''Plaza Fiesta Anahuac'''
+* '''Paseo San Pedro'''
+* '''Metropolitan Center'''
+* '''Punto Valle'''[https://puntovalle.com/]
+
+===Local Flavor===
+Morelos, also known as the Zona Rosa, is a pedestrian friendly street downtown lined with busy shops, small malls, shopping arcades, and filled with street vendors and musicians. You won't find the mass-market name brand boutiques here, but it's more fun than being in the same kind of mall you can find in any major U.S. city. 
+
+Local character is on display on the Carretera Nacional (Hwy. 85), heading south of the city towards Linares. A 1-mile stretch of highway near the town of Santiago is lined with small open-air shops, restaurants, and marketplaces. You can get great deals on rustic furniture, clothing, household goods, puppies, homemade food products, and just about anything else you can imagine. Parking can be difficult on weekends, but the selection is at its best and the atmosphere is the closest thing you'll find to the big outdoor markets boasted by cities in the rest of the latin world.
+
+==Eat==
+[[Image:Mty_cerveceria3.JPG|thumb|In the beer garden at the Cerveceria Cuahtemoc.]]
+Monterrey is a paradise for spicy food lovers and anyone who loves the smoky flavor of fresh meats grilled over smoldering wood embers will be right at home in any restaurant serving authentic Northern Mexican cuisine. If you get tired of the local cuisine, Monterrey offers plenty of international cuisine such as:Argentinian, Brazilian, Japanese, Chinese and Italian. Also, because of it's close proximity to the United States, almost all American chain restaurants are available. 
+
+===Northern Mexico Cuisine===
+* '''cabrito''' - Whole kid goats are splayed over hot coals and slow roasted for hours. Usually served with hot tortillas, fresh sliced onions, and house salsa. 
+* '''machacado''' - Breakfast in Monterrey often includes machacado con huevo, dried salted beef is shredded into a pan and lightly braised, then eggs are scrambled in --- serve with warm tortillas and salsa.
+* '''atropellado''' - Dry meat with tomato, onion and peppers, really good!
+* '''cafe de olla''' - Rustic-style coffee brewed with a touch of cinnamon. Delicious!
+* '''arracherra''' - What's known as fajitas in some places is arracherra in Monterrey --- grilled marinated skirt steak topped with melted white cheese and served with hot tortillas and caramelized onions.
+* '''leche quemada''' - Nuevo Leon is famous for its succulently sweet caramel candies made from scorched sweetened goat milk. The candies are available in several forms, including small balls dusted with fine granular sugar, rolls, and of course, Glorias --- the queen of leche quemada, with a healthy dollop of chopped pecans to enhance its already nutty sweet flavor
+* '''discada''' - It gets its name because traditionally you make in a used plow disc that's been welded shut. Meat, pork, chicken, sausage, chilaca, onion, beer and bacon with some tortillas. 
+
+===Restaurants===
+Restaurant recommendations are in the individual district articles. Small, family-run neighborhood restaurants, taquerias, and fast food outlets are located in every neighborhood of the city. High-end restaurants and those catering to tourists are mostly in the [[Monterrey/Zona Rosa|Zona Rosa]] area downtown and in [[San Pedro Garza Garcia]].
+
+Some restaurants serving authentic Northern Mexican food include:
+
+* '''La Huasteca'''
+* '''El Regio'''
+* '''El Rey del Cabrito''' 
+* '''Los Cabritos''' 
+* '''La Nacional'''
+
+Cheap eats with local character include:
+
+* '''Dona Tota''' (gorditas --- several locations)
+* '''Taqueria Las Monjitas''' (waitresses still wear habits)
+* '''El Mercado Juarez''' (cheap cabrito)
+
+==Drink==
+[[Image:Mty_barrioantiguo0.JPG|thumb|By day, the Barrio Antiguo has stylish colonial charm, at night, it's a club-hopper's scene.]]
+The clubbing scene in Monterrey is very hot. Monterrey experienced a period of gang violence several years ago, and some past hotspots closed their doors. The Covid pandemic further dampened the nightlife scene, but today, new venues are opening up and people are going out at night. Popular hotspots like the Barrio Antiguo are again relatively safe at night and the club scene in el Valle is expanding beyond the previous limits of Centrito.  Nightclubs range from the typical "dive bar" to the very expensive. Because Monterrey is home to the top colleges in Mexico, thousands of young people from all over Mexico party as early as Wednesday. You will surely find a club that suits your taste. There are 2 major clubbing areas to know about, downtown known as the '''Barrio Antiguo''' and the '''Centrito''', in San Pedro.
+
+* '''Barrio Antiguo''' (Old Town) is probably your best option for any type of nightlife. A wide range of clubs feature different types of music. Good restaurants are located on several streets, though the largest number is along Calle Morelos. Keep an eye out for people handing out "No Cover" passes on the street, as well as flyers advertising events, cover fee, and special offers (example: 2x1 on bottles before 12 a.m., girls 50% off cover fee before 11 p.m.) at the different nightclubs. If you want a young crowd and a lot of techno music, try Karma Club (Padre Meir 866). If you want upscale with DJs playing pop, try Topaz Deluxe (Padre Meir 1248).
+
+* The '''Centrito''' had seen a steady decline in its night scene, until world reknown clubs like Dubai and El Clásico opened in the city. You can find El Clásico in Playa del Carmen near Cancún. Now as you can imagine  Centrito is one of the best bets right now when it comes to clubbing.  If you choose you can still go to the top notch clubs in calzada de San pedro, they are called'''Havana''' which is located in Avenida San Pedro or the '''Privatt'''. 
+
+* A night out is not complete until you finish eating "breakfast" at a local taqueria or hot dog stand. It is very common to find outdoor grills going full-tilt on city streets at 4am. '''Tacos del Julio''' and '''Tacos del Güero''' are two of the most sought-out establishments for this purpose.
+
+* The traffic fine for being caught driving under the influence can reach up to US$2,500 or three days imprisonment. Police roadblocks on Saturday nights are common. It's not worth the risk.
+
+===Beer===
+Monterrey is a famous brewing city and is the home for popular brands like Dos Equis, Tecate, and Bohemia. You can stop by the beer garden in front of the Cerveceria Cuahtemoc brewery anytime during the day for a free glass of beer under the towering oak trees. 
+
+If you like craft beers, you also have plenty of choice. Stop by any location of the Sierra Madre Brewing Company (eight locations throughout the city, each featuring fresh beer and brick-oven pizzas). 
+
+Other craft breweries include:
+* Cerveceria Obelisco 
+* Cerveceria Fausto
+* Cerveceria Principia (taproom in San Pedro)
+* Cervezeria Rrëy (the taproom in San Pedro is named Del Barril)
+* Cerveceria Finisima [https://www.cervezafinisima.com/]
+* Cerveceria Bocanegra
+* Cerveceria Albur [https://albur.mx/] (taproom in Guadalupe)
+
+===Mineral Water===
+Despite it's arid climate, generations of Mexicans have come to Monterrey for the water. Specifically, Topo Chico, the most recognized mineral water in Mexico. It springs from the mountain called Topo Chico in the northern part of Monterrey. The Topo Chico brand was purchased by Coca-Cola, but the familiar yellow labeled bottles are still recognized as a liquid symbol of Monterrey. [https://www.topochico.com/]
+
+==Sleep==
+Monterrey has hundreds of hotels in all price categories. Listings are in the various Districts. Hotels cluster in three areas:  
+
+* '''Downtown''' (includes Macroplaza, Zona Rosa, Fundidora, Barrio Antiguo) El Centro is your best bet if you want a good value on a comfortable room close to museums and most tourist attractions. (See [[Monterrey/Zona Rosa|Zona Rosa]]  district for specific hotel recommendations.)
+
+* '''San Pedro Garza Garcia''' is your best bet if you want new, upscale hotels close to major shopping malls and business centers. (See [[San Pedro Garza Garcia|San Pedro Garza Garcia]] district for specific hotel recommendations.)
+
+* '''Airport''' hotels are good if you're visiting industrial sites in the San Nicolas area, or if you're just waiting between flights. (See [[Apodaca|Apodaca]] district for specific hotel recommendations.)
+
+===Budget lodging===
+Monterrey has a wide variety of options for the backpacker or extreme budget traveler. There are several very cheap hotels clustered within a few blocks of the bus station, though many feature dubious cleanliness. [[Hostels]] are a better option, and there are at least three hostels operating in Monterrey - these offer clean bunks for as cheap as US$10 per night. Several new budget hotels have opened in Monterrey since 2004: these new properties include a CityExpress on the [[Monterrey/South|southern]] side of the city, an Ibis in [[San Pedro Garza Garcia|San Pedro]], and another Ibis at the airport --- rooms can be had at all of these for under US$50 per night.
+
+==Contact==
+High-speed broadband internet is widely available and most hotels provide free wifi. Wifi is also widely available in restaurants and bars, but not in public places. Mexico City has far better public wifi availability than Monterrey. You will not find free, open wifi in public parks, nor even in the MTY airport.
+
+Celular service is available everywhere in the city, though travelers will have mixed experiences with their
+devices working with the networks in Monterrey. Phones on some carriers will just work as soon as you step off the plane, while others won't and may require jumping through some hoops to make the phone work locally. I had a phone with Consumer Cellular that got no cell service in Monterrey, so I was stuck doing Whatsapp calls over the hotel wifi. I now have a Verizon phone with a Mexico roaming plan ($15 extra) and it works everywhere in Monterrey. AT&T phones seem to have the best compatibility with Mexican cell networks and low (or no) extra fees. 
+
+Newspapers in Monterrey include the following:
+* El Norte 
+* El Porvenir 
+* Milenio 
+* El Sol
+* El Regio
+
+==Stay safe==
+The Monterrey area is an important location for cartels, causing it to experience occasional violence including gun battles, kidnappings and robberies as well as an extremely heavy army presence. Sometimes, there are armed robberies on the city's transit systems, so be careful when riding buses. Do not flash valuables or cash around. During the day, Monterrey is rather safe, just be very mindful at night. You can easily find yourself in an area with nobody on the street. Be especially careful if you plan on renting a car and traveling into the mountains and surrounding small towns. Santiago and Cola De Caballo, two popular day trips in the mountains to the south, have been experiencing some safety issues recently.
+
+==Cope==
+
+===Consulates===
+
+* [[Image:ca-flag.png|20px]] <listing name="Canada" address="Ave. Gomez Morin No. 955, Suite 404" directions="" phone="+52 01 81 8378-0240" phoneextra="" email="" fax="" hours="" price="" url="http://www.canadainternational.gc.ca/mexico-mexique/offices-bureaux/mty.aspx?view=d"></listing>
+
+* [[Image:uk-flag.png|20px]] <listing name="United Kingdom" address="Ave. Gomez Morin No. 955, Suite 404" directions="" phone="+52 01 81 8356 5359" phoneextra="" email="uktrademexico@fco.gov.uk" fax="" hours="" price="" url="https://www.gov.uk/world/organisations/department-for-international-trade-mexico"></listing>
+
+* [[Image:gr-flag.png|20px]] <listing name="Greece" address="Grupo CYDSA, S.A. de C.V., Vista Boulevard 405, Col. Linda Vista, Cd Guadalupe, N.L. 67130" directions="" phone="+52 818 336-1403" phoneextra="" email="pgs@uniexcel.com" fax="+52 818 336-1915" hours="" price="" url=""></listing>
+
+* [[Image:us-flag.png|20px]] <listing name="United States" address="Ave Constitución 411 Pte" directions="" phone="+52 01 81 8047-3100" phoneextra="" email="" fax="" hours="" price="" url="http://monterrey.usconsulate.gov/index.html"></listing>
+
+==Get out==
+*Take a trip to see the waterfalls at "Cola de Caballo". Located in Santiago, Nuevo León.  
+*Take a trip to see Villa de Santiago, the Pueblo Magico. There is bus leaving the Central Bus Station in Monterrey every 30minutes. The cost is 37 pesos and the ride takes less than one hour. 
+*Take a trip to Grutas de Garcia (about 40 min away) and see the caves, there is a cable car that takes you to the entrance.  Then you have to pay for a guided tour that lasts for about an hour.
+*Take a day trip to '''Presa de la Boca'''. The shops are magnificent. An elegant lunch can be enjoyed at Las Palomas in the town of Santiago, up on the hill. 
+*Take a safari at the Bioparque Estrella.
+*Pack a picnic lunch and go exploring in La Husteca, Matacanes, Chipinque, or one of the other nearby parks.
+*Saltillo is only an hour bus ride from Monterrey --- it's a fun weekend trip with colonial sites and some fantastic local flavor
+
+{{routebox
+| image1=Carretera federal 85.svg
+| imagesize1=22
+| directionl1=N
+| majorl1=[[Nuevo Laredo]]
+| minorl1=
+| directionr1=S
+| majorr1=[[Cuidad Victoria]]
+| minorr1=
+
+| image2=Mexican Federal Highway 40.png
+| imagesize2=22
+| directionl2=w
+| majorl2=[[Saltillo]]
+| minorl2=
+| directionr2=E
+| majorr2=[[Reynosa]]
+| minorr2=
+}}
+
+
+{{isPartOf|Nuevo_León}}
+
+{{guidecity}}
+
+[[es:Monterrey]]
+[[pl:Monterrey]]
+[[pt:Monterrey]]
+[[WikiPedia:Monterrey]]
+[[World66:northamerica/mexico/monterrey]]

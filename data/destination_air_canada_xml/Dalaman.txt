@@ -1,0 +1,57 @@
+{{pagebanner|Dalaman Banner.jpg}}
+'''Dalaman''' is a town in [[Turkey]], located on its [[Lycia|southwestern coast]]. Situated slightly inland, Dalaman and its airport occupies one of the few plains in this part of the country.
+
+==Understand==
+
+==Get in==
+
+===By air===
+The international '''Dalaman Airport''' ({{IATA|DLM}}, {{ICAO|LTBS}}; [http://www.atmairport.aero/Dalaman_en/index.php]) is situated about 6 km south of Dalaman town center, and is the nearest airport for destinations such as [[Marmaris]], [[Dalyan]], [[Fethiye]], [[Kaş]] and their vicinity. Daily flights connect with [[Istanbul]], while direct flights (both scheduled and charter) to and from major [[Europe]]an cities occur several times weekly. At present there are two passenger terminals — one for international flights and one for domestic — which handle a total of 2.5 million passengers each year. The terminals are 200 meters apart and are connected by walkways. A new, much larger international terminal is built with the old one is employed by domestic flights now. This will presumably reduce the often-lengthy time presently spent waiting in queues.
+
+Beware the captive-market food and drink pricing: 4 euro for a Coke, 3 euro for a small bottle of water, 12 euro for a Big Mac meal (more expensive even than [[Haifa]]), 4 euro for a packet of crisps.
+
+Dalaman Airport is one of the busiest airports in [[Lycia|Western Mediterranean]]/[[Southern Aegean]] regions of Turkey. Various companies based at the airport will be able to provide you with an airport transfer to your destination.
+
+The airport is 6km from the city of Dalaman and it is possible to walk from the bus station to the airport if you are fit.  The walk is flat and takes about 1hour.
+
+Bus from Airport to Dalaman City centre and Dalaman Bus Station runs daily from 07:50 til 19:20 o'clock in. Cost 3,25 Lira (April 2019).
+
+===By car===
+The highway '''D400''', the major road of Mediterranean coast, passes by the town centre about 1 km to east and connects it with destinations south ([[Fethiye]]) and north ([[Marmaris]] and onward to [[Muğla]]). Also you can rent a car at Dalaman airport.
+
+==Get around==
+
+==See==
+* <sleep name="Train Station" alt="a.k.a. Av Köşkü, i.e. Hunting Manor" address="" directions="at the State Farm - Tarım İşletmesi Müdürlüğü; just west of town centre, off the road to the airport" phone="" email="" fax="" url="" checkin="" checkout="" price="">Perhaps the only 100+ year-old station that is yet to welcome a train in the world, this building dating back to 1905 exists here as a result of pure accident. Abbas Hilmi Pasha, then Khedive (viceroy) of [[Egypt]], decided to have a hunting manor built here, where he had newly purchased. He consulted to a French company for plans of his manor, and at the same time for plans of a railway station he intended to have built in [[Alexandria]]. Plans and materials for both buildings were shipped from France at the same time, but there was a mistake—plans and materials for each building were loaded into the wrong ship, and thus train station ended up in Dalaman, while hunting manor made its way to Alexandria. It was decided to let the buildings have built in the opposite location they were intended at first, as it was found out that shipping the materials once again would be too costly. Even a short stretch of rail track, hundreds of kilometres away from the nearest part of rail network, was laid out in front of the building. Today, the elegant building, covered with overgrown ivies all over, serves as the headquarters of surrounding large state farm. Its nicely landscaped large yard, with huge lawns and pretty stately palm trees, is also worth a check.</sleep>
+
+==Do==
+
+==Buy==
+
+==Eat==
+Dalaman Airport "Park Cafe" is situated in the car park and is open as long as the airport is. 
+Sells hot food and cans of cold drink. All at the expected airport prices, but a good place to wait for your bus as the tour companies and the Hamas Bus Company do their pick ups in front of the cafe.
+
+==Drink==
+
+==Sleep==
+
+==Stay safe==
+
+==Get out==
+
+{{routebox-1
+| image1=TR-400.png
+| imagesize1=22
+| directionl1=W
+| majorl1=[[Marmaris]]
+| minorl1=[[Akyaka]]
+| directionr1=E
+| majorr1=[[Antalya]]
+| minorr1=[[Göcek]]}}
+
+[[WikiPedia:Dalaman]]
+
+{{isPartOf|Lycia}}
+{{outline}}
+{{cityguide}}

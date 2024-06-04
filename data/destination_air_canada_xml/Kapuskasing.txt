@@ -1,0 +1,37 @@
+'''Kapuskasing''', or just '''Kap''', is a town in [[Northern Ontario]]. It is mostly a company town; the main industry is an enormous paper mill.
+
+==Get in==
+Kap is on Highway 11, reachable from [[Timmins]] and [[North Bay]] to the East or [[Thunder Bay]] far to the West.
+==Get around==
+
+==See==
+*'''Paper Mill'''
+
+==Do==
+
+==Buy==
+
+==Eat==
+
+==Drink==
+
+==Sleep==
+
+==Get out==
+
+
+{{routebox
+| placename=Nipigon
+
+| image1=TCH_11.png
+| imagesize1=22
+| directionl1=W
+| majorl1=[[Thunder Bay]]
+| minorl1=[[Hearst]]
+| directionr1=E
+| majorr1=[[North Bay]]
+| minorr1=[[Cochrane]]
+}}
+
+{{isPartOf|Northern_Ontario}}
+{{outline}}

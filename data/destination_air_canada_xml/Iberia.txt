@@ -1,0 +1,145 @@
+{{pagebanner|Iberia Banner.jpg}}
+
+The '''Iberian Peninsula''' is the westernmost section of the [[Europe|European]] continent, lying between the Mediterranean Sea and the Atlantic Ocean. It is separated from [[France]] by the snow capped [[Pyrenees]] mountains. There are tiny parts of [[France]] which are part of the Iberian Peninsula (as an example the French Cerdagne).
+
+==Countries==
+
+{{Regionlist|
+
+regionmap=Iberia regions map.png |
+regionmaptext= |
+regionmapsize=400px |
+
+region1name=[[Andorra]] |
+region1color=#dc4141 |
+region1items= |
+region1description= |
+
+region2name=[[Portugal]] |
+region2color=#81b766 |
+region2items= |
+region2description= |
+
+region3name=[[Spain]]  |
+region3color=#5aa9a3  |
+region3items=  |
+region3description=  |
+
+region4name=[[France]] (French Cerdagne)  |
+region4color=#999999  |
+region4items=  |
+region4description=  |
+}}
+
+===Dependencies===
+
+{{Regionlist|
+
+regionmap= |
+regionmaptext= |
+regionmapsize= |
+
+region1name=[[Gibraltar]] |
+region1color=#8c1f81 |
+region1items= |
+region1description= |
+
+}}
+
+==Cities==
+
+* [[Barcelona]]
+* [[Bilbao]]
+* [[Braga]]
+* [[Coimbra]]
+* [[Lisboa]]
+* [[Madrid]]
+* [[Porto]]
+* [[Seville]]
+* [[Valencia]]
+* [[Zaragoza]]
+
+==Other destinations==
+
+* [[Algarve]]
+* [[Azores]]
+* [[Benidorm]]
+* [[Gran Canaria]]
+* [[Ibiza]]
+* [[La Rioja (Spain)|La Rioja]]
+* [[Madeira]]
+* [[Mallorca]]
+* [[Tenerife]]
+
+==Understand==
+
+===History===
+Separated from [[France]] by the Pyrenees mountains, its history has frequently taken a different path from the rest of Europe, giving the region a separate identity.  The [[Basque_phrasebook|Basque]] and Iberians, and later the Celts, settled here millennia ago. Greek and Punic colonies were established in the Mediterranean coast as early as the 9th century BCE. Iberia enters history when the two powerful Mediterranean powers, the Carthaginians (based in [[Cartagena (Spain)| Cartagena]]) and the Romans, expanded into it and fought on Iberian soil from the 3rd century BCE onwards. Many local cities such as [[Sagunto]], near [[Valencia]], and Numancia, near [[Soria]], resisted and suffered complete destruction. Rome defeated Cartage and subjugated the local inhabitants, and by the end of the 1st century BCE, all Iberia was under Roman control. All the indigenous languages (except for the proto-Basque, which subsequently evolved into modern Basque), were substituted by Latin, which later developed into the many languages spoken today in the Iberian Peninsula, such as Catalan, Galego, Portuguese and Spanish.
+
+During the collapse of the Western Roman Empire in the 5th century, Iberia was invaded by Germanic tribes. The most important among them were the Visigoths, who established their capital in [[Toledo]]. The peninsula was then invaded by Islamic Berber and Arabic Moors in the 8th century, which introduced Islam and established their capital in [[Cordoba]] and then [[Granada]]. As Christian rule gradually took back the peninsula from the Moors (expelled in the 15th century), its people then looked outward, seeding the Americas and parts of Africa and Asia with their languages and laws. Last united under Phillip II, in 1640 the Portuguese Restoration War was initiated, and from then on [[Portugal]] and [[Spain]] remained independent political entities.
+
+In 1704, during the War of the Spanish Succession, a combined Anglo-Dutch fleet captured [[Gibraltar]]. The Treaty of Utrecht gave control of Gibraltar to Britain, who has retained control since then. Gibraltar it is now a semi-autonomous British overseas territory.
+
+Although their then-dictatorial governments kept them out of World War II, Spain and Portugal are now full members of the European Union.
+
+==Talk==
+* [[Spanish Phrasebook|Spanish]] - Official language of Spain, with status of co-officiality in some regions with historic languages 
+* [[Portuguese Phrasebook|Portuguese]] - The official language of Portugal
+* [[French Phrasebook|French]] - The official language of France
+* [[Basque phrasebook|Basque]] - Co-official language in Spain unrelated to any other language, spoken in the Spanish and French [[Basque_Country_(Spain)|Basque Country]] and [[Navarre]] in the northern part of the peninsula.
+* [[Catalan phrasebook|Catalan]] - Co-official in Spain and the only official language in Andorra, mainly spoken in [[Andorra]], the [[Balearic Islands]], [[Catalonia]], [[France]] and as Valencian in [[Valencia (region)|Valencia]].
+* [[Galician phrasebook|Galician]] - Co-official language in Spain, mainly spoken in [[Galicia]], closely related to Portuguese
+* '''English''' - Official language of Gibraltar
+
+With the exception of Basque and English, all the languages of the Iberian peninsula are from the Romance family of languages which has its roots in Latin, so if you speak one of those languages, you'll find it fairly easy to pick up the rest.
+
+While most younger people have learnt '''English''' in school, it is not widely spoken or understood outside the small British exclave of [[Gibraltar]], where it is the official language. As elsewhere in the world English proficiency improves the closer you get to major tourists centres, especially in the coastal resort cities along the Mediterranean coast and in [[Barcelona]], where English proficiency is much higher than in the rest of the country. English proficiency is generally better in Portugal than in Spain, as Portuguese in the European context is a minor language, and English-language films and television shows are regularly screened in their original language with subtitles instead of being dubbed into the local language as in Spain.
+
+==Get in==
+
+===By plane===
+The Iberian Peninsula is Europe's main hub to South and Central America, Madrid's ''Barajas airport'' is the most important of the hubs, while ''Portela airport'' in Lisbon is the main gateway to Brazil due to the two countries historic ties. The situation is much the same with the two flag carriers: Spain's Iberia [http://www.iberia.com] has an impressive South/Central America network, and Portugal's TAP [[http://www.flytap.com]] flies to 8 destinations in Brazil and 9 African cities with colonial ties to Portugal. 
+* Madrid-Barajas
+* Barcelona-El Prat
+* Lisbon-Portela
+* Faro
+* Porto
+
+===By train===
+* From France to Madrid and to Lisbon
+
+===By boat===
+* See [[Ferries in the Mediterranean]]
+
+==Get around==
+
+==See==
+
+===Itineraries===
+
+==Do==
+
+==Eat==
+
+==Drink==
+While in Spain, it is almost imperative to try Sangria, seeing as it is a typical favorite. Sangria is wine usually mixed with a collaboration of fruits and some added spices like Cinnamon.
+
+However, although Sangria is popular with tourists it is rare to see Spanish people drinking it.  The locals drink tinto de verano - red wine diluted with lemonade or carbonated water.
+
+==Stay safe==
+
+==Get out==
+
+{{IsPartOf|Europe}}
+
+{{outline}}
+
+{{Continentalsectionguide}}
+
+[[de:Iberische Halbinsel]]
+[[fr:Péninsule ibérique]]
+[[it:Penisola Iberica]]
+[[nl:Iberisch Schiereiland]]
+[[pt:Península Ibérica]]
+
+[[WikiPedia:Iberian Peninsula]]

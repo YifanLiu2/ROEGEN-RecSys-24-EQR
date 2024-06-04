@@ -1,0 +1,69 @@
+'''Daqing''' (大庆; ''Dàqìng'') is a city in [[Heilongjiang]] Province in [[China]].
+
+==Understand==
+Daqing is home to China's largest oil reserves.  The city was founded in 1959 to house oil industry workers and workers in industries, which could see an advantage in being close to the oil supplies.
+
+==Get in==
+
+===By plane===
+
+Daing Saertu Airport offers four domestic routes to [[Beijing]] Capital, [[Shanghai]] Pudong, [[Guangzhou]], and [[Chengdu]], with stops at [[Dalian]], [[Qingdao]], [[Hangzhou]], and [[Xi'an]]. The airport is located 20 kilometers (12 mi) from the city center. Airport shuttle buses connect the airport to the city center, though it is not a popular choice for travelers.  Taxi drivers collaborate to hike up taxi rates from the Daqing airport.  You will have to share a taxi, and will pay far more than meter price.  Unless you have someone to pick you up at the airport, it is far more convenient to fly to Harbin.  There is a shuttle bus directly to and from Harbin airport that runs from the bus station.
+
+===By train===
+Many trains each day from [[Harbin]] and [[Qiqihar]] taking 75 minutes to around 2 hours and cost &yen;21-37.
+
+Daqing West Railway Station (大庆西站）in Ranghulu District and many trains now leave from or arrive at this station instead of the old Daqing Station.
+
+===By bus===
+
+
+==Get around==
+There are many taxis all over Daqing, but if you are unfamiliar with the area, insist on going by the meter rate.  If you know where you are going, however, you may be able to negotiate a deal for long rides.
+
+If you want to get around cheaply, there is an extensive bus network throughout the city, but navigating it might prove difficult for those without an understanding of Mandarin.
+
+==See==
+*'''Iron Man Memorial and Park'''
+
+*'''Daqing TV Tower'''
+
+*'''Times Square'''
+
+*'''Liming Lake'''
+
+==Do==
+*Go-Karting at the '''Oil Field Amusement Park''' (youtian leyuan).
+
+*Renting Roller-skates in one of the city's many parks.
+
+==Buy==
+Amazing deals can be found in Sartu; Daqing's main market place and shopping district.  Turn right after exiting the train station.
+
+Daqing also offers a more upscale (read expensive) shopping experience in its many shopping malls.  The nicest and most popular are New Mart (xinmate) and Wanda plaza (wanda guangcheng).
+
+==Eat==
+One thing Daqing doesn't lack is great food.  From tiny fried rice and dumpling shops, to luxurious hot pot or sushi restaurants, Daqing has enough variety to satisfy most palates.  If what you really crave is Western food, it can be had for reasonable prices at Kingsley's Cafe, the Sheraton, or any of the KFCs or McDonald's fast food places in town.  Bragging rights for best burgers, pizzas, and calzones in town belong to the Orange Bar (get in touch with one of the expats in town to find it).
+
+==Drink==
+* <drink name="Simon's bar" alt="" address="Yinzuo walking street, Ranghulu district" directions="Near the oil field bookshop" phone="" url="" hours="" price="Harbin beer from ¥5" lat="" long="" email="" fax="">Pretty sure this place no longer exists.</drink>
+
+* <drink name="Kingsley's Cafe" alt=" directions="Between the Petroleum University and Li Ming Hu" phone="" email="" fax="" url="" hours="" price="Harbin beer from ¥5">Popular restaurant/bar owned by Daqing's longest-running expat teacher. Features pool, darts, karaoke, ping pong, skeeball.</drink>
+
+==Sleep==
+* <sleep name="Daqing Petroleum Hotel" alt="大庆石油宾馆; Dàqìngshíyóubīnguǎn" address="14 Xiliu St, Ranghulu District (让胡路区西柳接14号; Rànghúlùqū Xīliǔjiē)" directions="" phone="+86 459 5991472" email="Daqingpetrohotel@sina.com.cn" fax="" url="http://www.dqsybg.com/e-contact.htm" checkin="" checkout="" price="Rooms from &yen;580">Four star hotel.  Rooms with internet access, satellite TV, electronic safety box and in-house mini bar.  Meeting rooms, beauty salon, nightclub, bowling, billiards, table tennis, fitness, sauna and massage available. Two restaurants, tea garden and lobby bar.</sleep>
+
+*<sleep name="Daqing Hotel" alt="大庆宾馆; Dàqìngbīnguǎn" address="1(4) Dongfeng Rd, Saertu District (萨尔图区世纪大道东风路1(4)号; Sàěrtúqū Dàdàodōngfēnglù)" directions="" phone="+86 459 6103122" url="" checkin="" checkout="" price="Rooms from &yen;318 incl breakfast" lat="" long="">Four star hotel.  Rooms with free internet.  Business center, travel agency, pool, billiards, table tennis, bowling, tennis, massages and saunas available</sleep>
+
+*<sleep name="Luyangchun Hotel" alt="大庆绿阳春酒店; Dàqìnglǜyángchūnjiǔdiàn" address="Jianshe Bldg, Gaoxin District (高新区建设大厦; Gāoxīnqū Jiànshèdàshà)" directions="" phone="+86 459 4300888" url="" checkin="" checkout="" price="Listed rates for doubles from &yen;368, discounted from &yen;191; breakfast &yen;20" lat="" long="">Rooms with internet access.  Business center, gift shop, beauty salon and ticket office available.  Chinese restaurant, bar, tea house and room service.
+</sleep>
+*<sleep name="Sheraton" alt="" address="2 Jing St, Dongfeng Xincun, Saertu district" directions="" phone="+86 459-6858888" url="http://www.starwoodhotels.com" checkin="" checkout="" price="" lat="" long="">Only international 5 star hotel in Daqing</sleep>
+
+
+==Get out==
+
+
+{{isPartOf|Heilongjiang}}
+{{outline}}
+
+[[wts:Category:Daqing]]
+[[WikiPedia:Daqing]]

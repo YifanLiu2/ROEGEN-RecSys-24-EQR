@@ -1,0 +1,564 @@
+{{pagebanner|Albuquerque Banner.jpg}}
+'''Albuquerque''' [http://www.itsatrip.org] is a large, high desert metropolis near the [[Central New Mexico | center]] of [[New Mexico]].  
+
+Although it is the largest city in the state, Albuquerque is often overshadowed as a tourist destination by [[Santa Fe (New Mexico) | Santa Fe]], 60 mi (97 km) to the north. But Albuquerque has a number of great attractions in its own right, with pleasant scenery, colorful history, and a spectacular hot-air balloon ''fiesta'' in the fall.
+
+==Understand==
+[[Image:ABQ Balloon Fiesta.jpg|thumb|300px|A sky full of balloons at the International Balloon Fiesta]]
+===History===
+Albuquerque was founded in 1706 as a small Spanish settlement on the banks of the Rio Grande and was named for the Duke of Alburquerque (hence Albuquerque's nickname, "The Duke City"). In the 1880s the railroad came to town, and almost overnight a new city grew up around the train tracks a couple of miles away from the original settlement. This "New Town" became the hub of commerce for the state, and the city grew exponentially (eventually the "New Town", which today is Downtown, and the original "Old Town" settlement were joined to become part of the same city). 
+
+In the 1920s the federal government officially recognized a series of highways that ran from [[Chicago]] to [[Los Angeles]] as [[Route 66]], and Albuquerque was one of the towns "The Mother Road" passed through. Starting in the 1950s, Albuquerque grew exponentially given federal investment in the local military bases and a massive influx of visitors and new residents, and for the most part it hasn't slowed down. Today, Albuquerque is still the hub of commerce and transportation in the state. While Santa Fe is the state capital and the principal tourist destination of New Mexico, Albuquerque is the state's only truly urban area, with a city population of over 500,000 and a metropolitan population of nearly a million people. This is where you'll find the headquarters of the state's businesses, the University of New Mexico, and the Albuquerque International Sunport, the only major international airport in the state.
+
+===Climate===
+{{Climate
+| units = Imperial
+| janhigh =   47
+| febhigh =   53
+| marhigh =   61
+| aprhigh =   70
+| mayhigh =   79
+| junhigh =   89
+| julhigh =   92
+| aughigh =   89
+| sephigh =   82
+| octhigh =   71
+| novhigh =   57
+| dechigh =   48
+| janlow =   23
+| feblow =   27
+| marlow =   33
+| aprlow =   41
+| maylow =   50
+| junlow =   59
+| jullow =   64
+| auglow =   63
+| seplow =   56
+| octlow =   44
+| novlow =   31
+| declow =   24
+| janprecip =   0.5
+| febprecip =   0.4
+| marprecip =   0.6
+| aprprecip =   0.5
+| mayprecip =   0.6
+| junprecip =   0.6
+| julprecip =   1.3
+| augprecip =   1.7
+| sepprecip =   1.1
+| octprecip =   1
+| novprecip =   0.6
+| decprecip =   0.5
+| janh2o =
+| febh2o =
+| marh2o =
+| aprh2o =
+| mayh2o =
+| junh2o =
+| julh2o =
+| augh2o =
+| seph2o =
+| octh2o =
+| novh2o =
+| dech2o =
+| description = {{forecastNOAA|Albuquerque|35.08|-106.66}}
+}}
+Albuquerque is in the high desert [35.11N -106.64W (Elev. 4989 ft/1521 m)] and has a generally warm, dry climate. Spring is sunny and windy, although temperatures at night can be chilly.  Summers are very hot (highs average 90-95°F/34°C, and temperatures near 100°F/38°C are not rare) and still mainly dry, but monsoonal conditions develop in July or August and produce furious short-lived thunderstorms. Have rainwear available in the summer, although you won't use it most days. Fall is delightful, with comfortable temperatures and a return to generally dry conditions. Winter can be blustery, with overnight lows below freezing, and on occassion some snow, but subzero temperatures are rare. One winter weather issue for the traveler; snow can be infrequent, but does occur, and local drivers don't deal with it well. If you happen to be in town for a snowstorm, expect road chaos far out of proportion to the amount of snow that falls.
+
+===People===
+Albuquerque is a casual town — expect shorts, a T-shirt, and sandals to be entirely acceptable almost everywhere.  While Albuquerque does have a large non-native population, it is predominantly white, Hispanic, and American Indian.  Albuquerque is also something of a self-deprecating town; long-time natives here may often remark on how backward, dusty, and small it is, which is something that is frequently rebuked with a passion from many newcomers.  However, the wonderful upside of this self-deprecation is that Albuquerque is generally a rather humble city, where people tend to be very friendly.
+
+===Visitor information===
+*'''Albuquerque Convention & Visitors Bureau''', with visitor centers in Old Town at the Plaza Don Luis and in the Albuquerque International Sunport on the Baggage Claim Level, +1 800 284-2282 or ''+1 505'' 842-9918, [http://www.itsatrip.org/].
+
+==Get in==
+
+===By car===
+Two interstate highways pass through: I-40 goes east-west and I-25 goes north-south. Where they meet is a large intersection called "The Big I". Albuquerque's Central Ave. is part of old Route 66.  A minor note of caution: I-25 south of the city is a "safety corridor" in which state law mandates higher fines for traffic violations.  Enforcement is spotty, but take the speed limits seriously anyway.
+
+===By plane===
+Albuquerque's airport, the '''Albuquerque International Sunport''' ({{IATA|ABQ}}) [http://www.cabq.gov/airport/], is the major air hub for all of New Mexico.  Alaska, Allegiant, American, Delta, JetBlue, Southwest, and United serve the Sunport with limited service to their respective major hubs, but it's Southwest Airlines that operates most traffic into ABQ, with direct service to most western cities as well as some of Southwest's hubs in the Midwest and eastern United States.  There is also commuter service to destinations within New Mexico provided by Great Lakes and New Mexico Airlines.
+
+One tip: If you're prone to airsickness, try to get flights into this airport that arrive either before noon or after sundown, particularly during late spring and early summer.  The high elevation, hot sun, and spring winds combine to produce thermals that can make afternoon arrivals an extremely bumpy proposition.  There are no major safety issues (the airport's runways are long, owing to the adjacent Air Force base, with no nearby obstacles to run into), but try telling your stomach that!  The rough ride is less of a problem with outbound flights.  
+
+Incidentally, this airport contains a number of attractive displays of New Mexican arts and crafts, and is a more pleasant place than most airports to kill time while waiting for a flight. It echoes the regional "pueblo" or "Santa Fe style" architecture, with large talavera tiles for flooring, huge hand-hewn wood beams, and adobe style walls. The observation deck on the second floor between the two concourses provides a panoramic view of the runway. Since the nearby Air Force base also uses the runway, this provides an opportunity to observe various military aircraft from time to time, along with the normal passenger traffic. There are relatively few shops (only one short concourse before security, and two short ones after), but two are noteworthy because they are unique: Earth Spirit, essentially a gallery of artisanal clothes, accessories, functional art and crafts, dominated by local artists; and Greetings from New Mexico, which is more oriented towards souvenirs, but of relatively high quality, and still mostly local in origin. (These shops are the first outposts of an interesting Albuquerque-based company, Avila Retail, which is introducing similar, regionally-unique shops in other airports: [http://avilaretail.com].)  The Sunport also has charging stations for electronics and free wireless internet access.  The major car rental companies are nearby, with a shuttle from the airport to the large rental center.  The airport is served by a number of shuttle services as well as local bus #50, located on the lower level at the west end of the shuttle island [http://www.cabq.gov/airport/ground-transportation].
+
+The Double Eagle II airport located on Paseo del Volcan on Albuquerque's west side provides services for smaller, personal aircraft.
+
+===By train===
+Albuquerque is a layover stop along '''Amtrak's''' ''Southwest Chief'' [http://www.amtrak.com/servlet/ContentServer/AM_Route_C/1241245650447/1237405732511] daily train route. The depot is at the Alvarado Transportation Center in downtown, at 320 First St SW (in the same building as the Greyhound depot). The westbound train to Los Angeles is scheduled to arrive at 3:55PM and departs at 4:45PM. The eastbound train to Chicago arrives at 12:12PM and departs at 12:55PM. The station has a small cafeteria.
+
+A commuter rail line, the '''New Mexico Rail Runner Express''' [http://www.nmrailrunner.com], connects Albuquerque to Santa Fe and to the smaller communities north and south along the Rio Grande, including [[Belen]], [[Los Lunas]], and [[Bernalillo]]. There are three stations: the Alvarado Transportation Center in Downtown, one in the South Valley on Rio Bravo Blvd, and one in the North Valley/Los Ranchos area just off of Paseo del Norte. The Downtown station has bus connections to the airport. The Rail Runner runs daily, although service can be limited outside the weekday rush hour periods. Fares are based on how far you ride; a day pass will usually be in the range of $5-9. Tickets can be purchased online [http://www.nmrailrunner.com/tickets_on-line.asp] or from ticket agents on the train.
+
+===By bus===
+Albuquerque has a fine bus depot at the Alvarado Transportation Center in downtown, 320 First St SW, which is served by '''Greyhound''' ''+1 505'' 243-4435, [http://www.greyhound.com] and '''Autobuses Americanos''' [http://www.autobusesamericanos.com.mx/joomla/] which provides bus service to many points in Mexico. The depot has a small cafeteria.
+
+'''Metropolitan Shuttle - Albuquerque Charter bus''', 11141 Georgia Ave., Ste. 218, Wheaton, MD 20902, +1 866 556 3545 , [http://www.metropolitanshuttle.com/albuquerque-charter-bus.php]. Albuquerque Charter buses Services
+
+==Get around==
+[[Image:Albuquerque map.png|thumb|300px|Map of Albuquerque]]
+[[Image:Downtown albuquerque map.png|thumb|300px|Map of Downtown/Old Town Area]]
+[[Image:Albuquerque unm map.PNG|thumb|300px|Map of UNM/Nob Hill Area]]
+
+Albuquerque is a heavily planned city.  In much of the city, the major roads are lined primarily with businesses with residential mazes on the insides. The city is divided into four quadrants, with street addresses taking the form "12345 Main St. (NE/NW/SE/SW)" in which the NE/NW/SE/SW suffix denotes the quadrant of the city containing the address. The railroad tracks, which run parallel to I-25, are the east/west dividing line, and Central Ave. is the north/south dividing line. Thus, the street address 3600 Menaul NE would be north of Central and east of the tracks. This nomenclature, while useful in helping you with maps and directions, has the drawback that you can't tell whether a street runs north-south or east-west simply by looking at the address.
+
+By and large it's difficult to get truly lost in Albuquerque, thanks in large part to the looming presence of the Sandia Mountains to the east. If you can also remember that I-25 runs north-south, I-40 runs east-west, and the Rio Grande runs along the bottom of the valley in the western part of the city, you should be able to make your way around the city without too many problems. Here are some basic terms that will come in handy when asking for directions or looking at a map:
+
+*'''Central Avenue''' is a principal east-west artery, running roughly parallel to I-40 and through '''Downtown''' just west of I-25 and past the '''University of New Mexico''' (UNM for short) just east of I-25.
+*The '''Heights''' are the eastern part of town closest to the Sandia Mountains. You may also hear reference to the '''Foothills''', which are the most extreme eastern part of the city, right at the base of the mountains.
+*'''Nob Hill''' is a quirky business, shopping, and residential area just east of the '''University of New Mexico''', running along Central Avenue. 
+*'''Uptown''' is a business and shopping district located in the Heights at I-40 and Louisiana Blvd.
+*The '''North Valley''' and '''Los Ranchos de Albuquerque''' (technically a separate community from Albuquerque) encompass the area north of I-40 between I-25 and the river.
+*The '''South Valley''' is the area west of I-25 south of downtown.
+*The '''Westside''' is all the suburban neighborhoods on the western side of the river. '''Rio Rancho''', a separate community from Albuquerque, is the metro area's largest suburb and can be considered a northern extension of the Westside.
+
+===By car===
+If you're driving, be prepared for frequent road construction.  The city government web site, [http://www.cabq.gov/construction/traffic-reports], gives information on major construction projects, but there are always minor ones going on.  Several radio stations try to give traffic reports during morning and afternoon rush hours, but the service tends to come and go, and it's best to inquire locally as to which stations are currently offering it.  KKOB-AM, 770 on the dial, seems to be fairly reliable for these reports. The interchange of I-40 and I-25 is commonly called "The Big I", and you will hear it referred to as such in traffic reports. Traffic congestion, while not nearly as horrible as some of the other cities in the Western U.S., can still get bad during the rush hour and on Saturdays. The two interstates and the river crossings usually have the worst congestion.
+
+Many Albuquerqueans seem to consider I-40 and 25, which run through the city, to be their own personal expressways.  The lack of turn signal usage is a running joke for most Albuquerque drivers, so watch for cars changing lanes without warning.  However, Interstate traffic usually flows around the pace of the speed limit.
+
+Keep in mind that driving while talking on your cell phone is illegal in Albuquerque unless you use a hands-free system.
+
+===By bus===
+'''ABQ RIDE''', ''+1 505'' 243-RIDE, [http://www.cabq.gov/transit/], is Albuquerque's public transit system although it's a driving city, and until very recently the city was not trying to make any great strides in its public transit system. So with the exception of Central Ave., public transit here is still for the most part very underdeveloped. Most of ABQ Ride's routes spur out of the Alvarado Transportation Center (in downtown at Central Ave. & First St.), which also serves as Albuquerque's Amtrak station and Greyhound depot. Bus service is reduced during the weekend.
+
+The '''Rapid Ride''' is an express bus service operated by ABQ Ride which runs frequently, utilizing bright red articulated buses. There are three Rapid Ride routes: the '''Route 766 (Red Line)''' and '''Route 777 (Green Line)''' each run very frequently and almost entirely on Central Ave., with the 766 running from Uptown to Unser/Central, while the 777 runs from Tramway/Central to Downtown. The '''Route 790 (Blue Line)''' connects UNM to the Cottonwood Mall area on the Westside, running less frequently than the Red and Green Lines.
+
+Standard fares for all ABQ Ride routes are $1 per ride, with several discounts possible. A day pass is $2.  A day pass is included in the price of a Rail Runner Express day pass, so visitors who ride the train to Albuquerque can also ride the bus for free using their train ticket.
+
+===By bike===
+Albuquerque is fairly bikeable, but it's a sprawling Western city and things are spread out. It's hillier than it looks; Old Town and downtown attractions are several hundred feet lower than things in the heights on the eastern side of the city; plan accordingly. Getting around by bike can be a mixed bag in Albuquerque: street cycling can be risky at times; drivers may not always be aware and most major streets lack bicycle lanes (and even those that do have lanes may require uncomfortably close proximity to fast traffic). On the other hand, Albuquerque has a very proactive cycling community and a splendid paved trail network which is undergoing an expansion phase.
+
+The crown jewel in this network is the '''Paseo del Bosque Trail''', which runs along the east side of the Rio Grande and offers lovely riverside scenery.  Another backbone to the trail network is the '''North Diversion Channel Trail''' which runs from UNM north to Balloon Fiesta Park, and while not nearly as scenic as the Bosque trail (it runs along a concrete drainage channel and past some industry) it offers the occasional grand vista of the city. Another fun ride is the paved trail along '''Tramway Boulevard''' on the eastern edge of the city, which offers excellent views of the city and access to the foothills of the Sandia Mountains. You can find a complete bike map of all the trails, lanes, and recommended routes on the city's bicycling website [http://www.cabq.gov/bike/].
+
+===By horse===
+A principal corridor for equestrian use is the '''Paseo del Bosque Trail'''.  Trailhead parking lots are large and one, at the Los Ranchos open space in the North Valley, has a feed store, Miller's Feed.
+
+==See==
+[[Image:Sandia peak tramway albuquerque.jpg|thumb|The Sandia Peak Tramway rises above Albuquerque]]
+*'''Albuquerque Biological Park''', ''+1 505'' 768-2000, [http://www.cabq.gov/biopark/], which includes the Albuquerque Aquarium, the Rio Grande Botanic Garden, the Rio Grande Zoo, and Tingley Beach (see below under ''Do''). Combo tickets for the Biological Park can be purchased, and include the price of train rides on a small narrow-gauge train running between the Aquarium/Botanical Gardens and the Zoo. The train runs Tu-Su from around 10AM-4PM at 30 min. intervals. 
+* '''Rio Grande Zoo''', 903 Tenth St SW (''just SW of downtown''). 9AM-5PM daily, except major holidays. It may not be as big as your average big city zoo, but this zoo is surprisingly comprehensive for its size, with most of the "popular" species you can expect at any good zoo: polar bears, lions, zebras, tigers, giraffes, elephants, gorillas, etc. And like any good zoo, the animals are in nice, naturalistic exhibits. The highlight exhibit areas are the seals, the polar bears, a large Africa area, the "Catwalk", and a large elephant enclosure. Every day there are scheduled feedings of the seals and the polar bears; during the warmer months more feeding times, activities, and outdoor concerts are scheduled. A small narrow-gauge train runs through the zoo (Tu-Su 10AM-3:30PM at 20 min. intervals), with a conductor pointing out some of the animals and explaining what goes on behind-the-scenes. A separate train line runs to the Aquarium/Botanical Gardens. $12.50 adults, $5.50 seniors, $4 children, under age 3 free (''train rides require separate admission, unless you have a combo ticket'').
+* '''Albuquerque Aquarium / Rio Grande Botanical Garden''', 2601 Central Ave NW (''just east of the Rio Grande''). 9AM-5PM daily, except major holidays. Albuquerque's small but pleasant '''Aquarium''' is focused on saltwater species from the Gulf of Mexico. You'll see jellyfish, seahorses, eels, and plenty of reef fish. The highlight is a huge shark tank with other ocean species like sea turtles and rays. Divers enter the big tank every day from 2-3PM to feed the fish. The '''Botanical Garden''' has plenty of gardens to explore, with an emphasis on desert plants. The highlights are a glass conservatory with plants from desert and Mediterranean climate zones, an indoor butterfly garden that is open in the summer, a Japanese garden, a recreated early 20th century farm with a barnyard petting zoo, a model railroad, and a fantastic children's "Fantasy Garden" with giant pretend vegetables, garden tools and bugs. $12.50 adults, $5.50 seniors, $4 children, under age 3 free (''train rides require separate admission, unless you have a combo ticket'').
+* '''Anderson-Abruzzo Albuquerque International Balloon Museum''', 9201 Balloon Museum Dr NE (''on the grounds of the Balloon Fiesta''), ''+1 505'' 768-6020, [http://www.cabq.gov/balloon/]. Tu-Su 9AM-5PM. Overlooking the balloon launch field is this very interesting museum dedicated to the science and history of ballooning, with exhibits on balloons and other lighter-than-air craft, collections and memorabilia from famous balloonists, and extensive exhibits on ballooning in Albuquerque. $4 adults, $2 seniors, $1 children, age 3 and under free (''less for New Mexico residents, Sundays 9AM-1PM free'').
+* '''Indian Pueblo Cultural Center''', 2401 12th St NW (''just north of I-40''), ''+1 505'' 843-7270, [http://www.indianpueblo.org/]. 9AM-4:30PM daily, closed on major holidays. Operated by the 19 Indian Pueblos of New Mexico, this complex has a small museum with a collection of artifacts of the culture and history of the pueblo people. The center also has an art gallery, a children's area, a restaurant, and a large gift shop. Indian dances are a frequent event. $6 adults, $4 children, under age 5 free.
+* '''National Hispanic Cultural Center''', 1701 4th St SW (''south of downtown''), ''+1 505'' 246-2261, [http://www.nhccnm.org/].  Tu-Su 10AM-5PM, closed major holidays. A large complex of buildings dedicated to Hispanic culture, with a small but very interesting art museum. There is also a library (closed Su), restaurant and gift shop, and frequent special events. $6 adults; discounts for locals, seniors, and military; aged 16 and under free.
+* '''National Museum of Nuclear Science and History,''' 601 Eubank Blvd SE (''at Southern Blvd, near the Kirtland Air Force Base''), ''+1 505'' 245-2137, [http://www.nuclearmuseum.org/]. 9AM-5PM daily except major holidays. A museum devoted to things nuclear, including replicas of the Little Boy and Fat Man bombs dropped in WWII, as well as other weapons, nuclear-capable aircraft and rockets, and displays on arms control and peaceful uses of atomic energy. Surrounding the museum is a large aircraft collection, with planes, rockets, missiles, and even a cannon. $12 adults, $10 seniors/youth, $7 military, age 5 and under free.
+* '''Sandia Peak Tramway''', Off Tramway Blvd on the NE corner of the city, ''+1 505'' 856-7325, [http://www.sandiapeak.com/index.php?page=tramway]. The longest tramway in the world, operating every 20-30 min. from 9AM until evening (no morning rides on off-season Tu), with closures in Apr and Oct for maintenance. Runs from a lower terminus in the northeast heights to the top of 10,400-foot (3169 m) Sandia Peak east of the city, and is one of the longest and most spectacular aerial tramways in the world. The first upward tram departs at 9AM (except Tu in the off season), and service continues until early evening. The 15-min. ride to the top is incredible, bringing you right up to the rocky face of the Sandias. The view of the city from Sandia Peak is tremendous (especially after sunset), and there is a restaurant and a visitor center at the top.  Closed for two weeks in spring and fall for "maintenance," but spring winds are so intense that you really don't want to be on an aerial tram then anyway. $20 round trip for adults, $15 round trip for teens and seniors, and $10 round trip for children (''discounts for riders with reservations for the restaurant at the top and for skiers'').
+* '''Unser Racing Museum''', 1776 Montano Rd NW, ''+1 505'' 341-1776, [http://www.unserracingmuseum.com/]. 10AM-4PM daily. Operated by the local Unser racing family, this museum is dedicated to the racing legacy of the Unsers as well as to the sport of auto racing in general. $7, $4 seniors, $3 children, age 6 and under free.
+
+===Old Town===
+[[Image:Albuquerque oldtown.JPG|thumb|The San Felipe de Neri church, Old Town]]
+
+Located east of Rio Grande Boulevard in between Central Ave. and Mountain Rd. (''west of downtown'').
+
+A nice sightseeing area, Old Town is where the city was founded in 1706 and is a place where centuries of history and modern life merge; 18th century architecture with narrow brick paths is blended with adobe architecture, and there lots of little nooks and crannies, small restaurants, and specialty shops. Old Town has a central plaza with a gazebo which is bordered on the north by the San Felipe de Neri church, the oldest building in Albuquerque. In Christmas time, thousands of ''luminarias'' (paper bags filled with sand and illuminated from within by a lit candle) line the streets. Guided tours of Old Town are available from a private operator [http://www.toursofoldtown.com/] or from the Albuquerque Museum [http://www.cabq.gov/museum/oldtowntour.html].
+
+There are several museums located within easy walking distance of the Old Town plaza. Most of them are on Mountain Rd., just a few blocks northeast of the Plaza.
+
+* '''Albuquerque Museum of Art and History''', 2000 Mountain Rd NW, ''+1 505'' 243-7255, [http://www.albuquerquemuseum.com]. Tu-Su 9AM-5PM except major holidays. Guided walking tours of Old Town start here. Loads of exhibits with Southwest art, artifacts from the history of colonial New Mexico and Albuquerque through the years (with some pretty neat items, like conquistador armor and an antique car), and an outdoor sculpture garden. The Albuquerque Museum also operates the historic home of '''Casa San Ysidro''' [http://www.cabq.gov/museum/history/casatour.html] in nearby [[Corrales]] for tours. $4, $2 seniors, $1 children, under age 3 free (admission free first Wednesday of the month and every Sunday 9AM-1PM).
+* '''American International Rattlesnake Museum''', 202 San Felipe St (''a block south of the Old Town plaza''), ''+1 505'' 242-6569, [http://www.rattlesnakes.com]. M-Sa 10AM-530PM, Su 1PM-5PM. This great little museum's claim to fame is the largest collection of different species of live rattlesnakes in the world. There's lots of snakes (and various other reptiles) and snake-related memorabilia, such as artwork and films, and the gift shop is not to be missed. $5.00, $3.50 children.
+* '''¡Explora! Science Center and Children's Museum''', 1701 Mountain Rd NW, ''+1 505'' 224-8300, [http://www.explora.us]. M-Sa 10AM-6PM, Su noon-6PM except major holidays. A truly splendid science and children's museum, this museum has lots of interactive exhibits teaching science, technology, and art. There are some fantastic exhibits here, like a laminar flow fountain (with water jets you can turn on and off), an experiment bar, a high-wire bike (that will surely test your withstanding of heights), and a robotics lab. $8, $5 seniors, $4 children, under age 1 free.
+[[Image:New mexico museum of natural history and science.jpg|thumb|An ''Albertosaurus'' stands guard at the Natural History Museum entrance]]
+* '''New Mexico Museum of Natural History and Science''', 1801 Mountain Rd NW, ''+1 505'' 841-2800, [http://164.64.119.7/nmmnh/index.html]. 9AM-5PM daily (''closed on major holidays, and non-holiday M in Jan and Sep'').  This splendid museum has well-constructed geological and paleontological displays which illustrate a "journey through time", covering everything from the birth of the planet to the Ice Age. There's plenty of dinosaurs around, from the statues outside the main entrance, to a ''T. rex'' in the atrium, to one massive hall with several complete (and massive) dinosaur skeletons. Additionally, an entire wing of the museum is devoted to astronomical exhibits, and there's also an exhibit about the birth of the personal computer, which happened right here in Albuquerque. A planetarium and a large-screen theater are also in the building. $7, $6 seniors, $4 children, under age 3 free (''separate fee required for planetarium and Dynatheater'').
+* '''Turquoise Museum''', 2107 Central Ave NW (''in the strip mall on the NW corner of Central and Rio Grande''), ''+1 505'' 247-8650, [http://www.turquoisemuseum.com/index.html]. M-F 9:30AM-5PM, Sa 9:30AM-4PM. While the location isn't ideal (located in a strip mall near Old Town, rather than in the historic district itself), this small gift shop/museum has some interesting exhibits about turquoise and its manufacture, history, and mythology. $4, $3 children.
+
+===University of New Mexico===
+Located between Central Ave., Girard Blvd., Lomas Blvd., and University Blvd. (''east of I-25''). [http://www.unm.edu]
+
+The main campus makes a very pleasant diversion, with its Pueblo-Revival adobe buildings and abundant landscaping. There's a duck pond near the center of the campus, giving you a chance to relax on the lawns or feed the birds.
+
+* '''Maxwell Museum of Anthropology''', located on Redondo Dr. just east of University Blvd. between Las Lomas and Dr. M. L. King Jr. Ave. ''+1'' 505 277-4405, [http://www.unm.edu/%7Emaxwell/]. Tu-Sa 10AM-4PM, closed Su M, and major holidays. The anthropology department at UNM has been acclaimed as one of the finest in the nation, and over the years its field schools have amassed an impressive collection of artifacts. The museum has changing exhibits and two permanent exhibits; one showcasing the evolution of humans from primates, and the other focusing on the prehistoric native cultures in the American Southwest, with a reconstruction of an archaeological dig in [[Chaco Culture National Historical Park|Chaco Canyon]]. Free.
+* '''Meteorite and Geology Museums''', located in the Northrop Hall, on the Yale walkway just north of Central Ave., ''+1 505'' 277-4204, [http://epswww.unm.edu/museum.htm]. M-F 9AM-4PM. Two nice little museums (located just down the hall from each other) with minerals, fossils, and meteorites from New Mexico and other places collected by UNM faculty and students. Free.
+* '''University Art Museum''', located in the Center for the Arts building, on the Cornell walkway near the bookstore, just north of Central Ave. ''+1 505'' 277-4001, [http://unmartmuseum.unm.edu/]. Tu-F 9AM-4PM, Sa Su 1PM-4PM. Changing exhibitions of art, with a focus on New Mexico and UNM artists. Free.
+
+===Itineraries===
+*'''[[Breaking Bad Tour]]'''- a grand full day tour that takes you to various important filming locations for the cult TV series, ''Breaking Bad''.
+
+==Do==
+[[Image:Isotopes Park.jpg|thumb|Isotopes Park, home of the Albuquerque Isotopes]]
+{{style}}
+*'''Albuquerque Isotopes''', at the corner of Avenida Cesar Chavez and University Blvd (''south of UNM''), ''+1 505'' 924-2255, [http://www.albuquerquebaseball.com/]. The Isotopes, Triple-A affiliate of the Colorado Rockies, play baseball in a beautiful stadium. Seats in the park are both good and cheap&mdash;$11 can get you a seat behind home plate ($13 if you buy your ticket on gameday). All the concessions and restrooms are located along a big concourse behind the seats which is open to the field, so you don't miss any of the action. For $6 a ticket, you can bring a picnic blanket and find a spot in the grassy "Berm" behind right field that's perfect for kids&mdash;they can enjoy the grass and play on the playground on top of the Berm. Beware of foul balls&mdash;The park is a notorious "launching pad" for hitters that drives pitchers nuts. $6-24.
+* '''Cliff's Amusement Park''', 4800 Osuna Rd NE at San Mateo (''just south of the Osuna-San Mateo/I-25 interchange''), ''+1 505'' 881-9373, [http://www.cliffsamusementpark.com/]. Open weekends Apr-Sep, hours vary by month. This is just about the only amusement park in New Mexico. Fairly small, but with a good amount of rides. Thrill rides (including two roller coasters), family rides, kiddy rides, and a water play area. Ride pass (includes general admission and all rides) is $25 for over 48 in tall, $20 for under 48 in tall, $17.45 for age 2 and under (''Parking is free'').
+*'''New Mexico Lobos''' (UNM sports), Avenida Cesar Chavez / University Blvd (''south of UNM''), ''+1 505'' 925-5626, [http://www.golobos.com/]. The Lobos are ''big''. For a deafening experience in college sports, try to catch a basketball game at "The Pit," the university's semi-underground fieldhouse that has been a house of pain for visiting basketball teams for years. The women's teams have been doing better than the men's in past years, and attract crowds every bit as raucous - when the teams are doing really good, games will sell out. Right across the street is University Stadium, home of the immensely popular Lobos football team. Football tickets $14-27, $8-17 children. Basketball tickets $8-22, $4-8 children (''women's game tickets are cheaper than men's''). UNM students are free, guests of students can get sometimes a discount.
+* '''Open Space Visitor Center''', 6500 Coors Blvd, ''+1 505'' 897-8831, [http://www.cabq.gov/openspace/visitorcenter.html]. Tu-Su 9AM-5PM. The center for the city's open space program, which encompasses land from around the city to preserve for environmental and recreational use. The visitor center has exhibits on the natural and cultural resources of the area, an art gallery, a nature area, and views of the bosque and mountains. Free.
+* '''Outpost Ice Arena''' 9530 Tramway Blvd NE, ''+1 505'' 856-7595, [http://www.outposticearena.com/]. Located near the base of the Sandia Peak Tram. Has four rinks under one roof. A great place to sharpen your figure skating or hockey skills or just skate for fun.
+* '''Petroglyph National Monument''', visitor center at 6001 Unser Blvd NW, ''+1 505'' 899-0205 ext. 331, [http://www.nps.gov/petr/]. On the west side of town, Petroglyph is a unit of the [[United States National Parks]] system, and preserves a significant archaeological site with an impressive number of petroglyphs. Despite their proximity to an urban center and the fact that the monument is of recent origin, the petroglyphs are in good condition with very little vandalism or theft. There are interpretive exhibits and a few short trails.  Day use only; $3 fee (Park Pass applies).
+*'''Rio Grande Valley State Park''', [http://www.cabq.gov/openspace/riograndevalley.html]. A very pleasant state park running along the banks of the Rio Grande through Albuquerque. The park encompasses almost the entirety of the ''bosque'' (cottonwood forest) in the city, which is home to much wildlife, such as geese, roadrunners, beavers, rabbits, squirrels, and numerous other species. Numerous trails criss-cross the park, most notably the Paseo del Bosque paved bike/walk trail which runs the length of the park [http://www.cabq.gov/openspace/paseodelbosquetrail.html]. There are also several picnic areas and wetland areas. Free.
+**'''Rio Grande Nature Center''', 2901 Candelaria Rd NW, ''+1 505'' 344-7240, [http://www.rgnc.org/]. 10AM-5PM daily. The bosque provides a tranquil setting for this small but delightful visitor center, with its nature pond and exhibits on the native wildlife. Nature lovers will particularly enjoy the enclosed views of the pond behind the visitor center. Two short trails head into the bosque from the visitor center. Free, parking $3.
+[[Image:Sandia mountains meadow.jpg|thumb|Hiking in the Sandia Mountains]]
+*The '''Sandia Mountains''' offer outdoors opportunities ranging from straight hiking (the La Luz trail [https://backpackersreview.wordpress.com/trip-reports/la-luz-trail/] is popular, perhaps too much so) on to serious, multi-day rock climbing. Mountain biking is also really popular, and there are great trails in the foothills as well as at the ski area on the other side of the mountains during the summer. If less athletically inclined, ride the tram to the top. At the base of the mountains, near the tramway, is the '''Elena Gallegos Picnic Area''' [http://www.cabq.gov/openspace/elenagallegos.html], which offers magnificent views of the mountains as you enjoy your meal and provides access to some of the trails of the Sandia Mountains. For a map of Sandia Mountain trails, see the Cibola National Forest website [http://www.fs.fed.us/r3/cibola/recreation/sandia_trails/trailsmap.shtml].
+*During the winter, you can ski or snowboard at '''Sandia Peak''', ''+1 505'' 242-9052, [http://www.sandiapeak.com/]. The ski season is typically mid-Dec to mid-Mar, depending on the seasonal amount of snowfall. There are 30 trails with four chairlifts and two surface lifts, and a terrain park. Most of the facilities are at the bottom of the slope (which is accessible by road), including a cafeteria, ski school, the equipment rental shop, and a sports shop. At the top of the hill is access to the Sandia Peak Tramway (see "See" section above) and the High Finance Restaurant (see "Eat" below). The peak can be reached either by taking a 45 min. drive around the mountain to the base lodge or by taking the tramway up to the top of the mountain -- presuming there's enough snow at the top (Skiers get a discount on tramway tickets, but you have to bring your own equipment. There are a few equipment rental places in Albuquerque). $43 adult full-day lift tickets, $32 children full-day lift tickets (''half-day and Beginner Lift Only tickets are also available'').
+*'''Santa Ana Star Center''', just off of Unser in neighboring Rio Rancho, ''+1 505'' 891-7300, [http://www.santaanastarcenter.com/]. 
+* '''Tingley Beach''', Tingley Dr, just S of Central Ave (''just east of the Rio Grande''), [http://www.cabq.gov/biopark/tingley/]. Daily, sunrise to sunset. A facility of the Albuquerque Biological Park. This park, located along the Rio Grande, has fishing ponds for adults and children, a model boating pond, a cafe, and a gift shop where you can buy fishing licenses, fishing gear, or rent a pedal boat for a ride on the central pond. A train station for the Aquarium/Botanical Gardens - Zoo train is located here. Free (''separate fee required for train rides'').
+
+===Performing arts===
+*'''Popejoy Hall''', in the Center for the Arts building on the UNM campus, ''+1 505'' 277-3824, [http://www.popejoypresents.com/]. Hosts a schedule of live performances year-round, including Broadway musicals, live theater, dance and music.
+*'''KiMo Theater''', 423 Central Ave NW, ''+1 505'' 768-3522, [http://www.cabq.gov/kimo]. This historic and beautiful downtown building is a vibrant setting for the local preforming arts community, as well as a venue for some traveling shows. The theater is gorgeous and filled with Pueblo-esque art deco ornamentation.
+*'''Journal Pavilion''', 5601 University Blvd SE, ''+1 505'' 452-5100, [http://www.livenation.com/venue/getVenue/venueId/1958]. Located in south Albuquerque, this is the city's primary concert venue.
+*'''The Cell''', 700 1st St NW, ''+1 505'' 766-9412, [http://www.fusionabq.org/thecell.htm]. Home to the Fusion Theater Company, a local performance group.
+*'''Albuquerque Little Theater''', 224 San Pasquale SW, ''+1 505'' 242-4750, [http://www.albuquerquelittletheatre.org/]. Hosting local performances throughout the year.
+*'''The Box Performance Space''', 100 Gold Ave SW #112, ''+1 505'' 404-1578, [http://www.theboxabq.com/]. Featuring sketch comedy, improv, children's shows, and other works. Home to Cardboard Playhouse Productions and Blackout Theatre Company.
+*'''Aux Dog Theatre''', 3011 Monte Vista Boulevard NE (''in the Nob Hill area just north of Central''), ''+1 505'' 254-7716, [http://www.auxdog.com/]. An intimate performance space that produces innovative plays year round.
+
+===Albuquerque International Balloon Fiesta===
+[[Image:Albuquerque balloon fiesta.JPG|thumb|In the thick of it during a Mass Ascension]]
+[[File:Filling the sky. (8182964304).jpg|thumb|Filling the sky]]
+
+At Balloon Fiesta Park, located north of Alameda Blvd., one mi (1.6 km) west of I-25 (''take either Alameda Blvd or Tramway Blvd exit off I-25''), [http://www.balloonfiesta.com/]. $6, children ages 12 and under free (''parking $10 per car'').
+
+The Fiesta is the world's largest ballooning event, largest annual international event in North America, and one of the most photographed events in the world. A cultural landmark for Albuquerque (and indeed, all of New Mexico), this festival gives you a first-hand look at the world of ballooning. For nine days in October, you may walk out onto a large field where balloonists from around the world set up, inflate, launch, and possibly land their balloons. Mass ascensions of balloons with hundreds of different colors and shapes create an often stunning and magnificent sight. It's one of the most heavily attended festivals in the entire U.S.
+
+Balloons fly best in cooler conditions, so many of the events take place early in the morning. Traffic is pretty bad around the festival; expect a long, long line of cars (you may want to seriously consider taking park-and-ride to beat the traffic). Get your hotel reservations ''far'' in advance, because everyone fills up around this time of year.
+
+The event begins on the first Saturday of October and ends with a farewell mass ascension on the Sunday of the following weekend, with numerous events in-between, such as concerts and balloon races. Here are a few of the highlights of the fiesta:
+* Albuquerque International balloon fiesta a festival where more than 700 balloons lift off in the air at Albuquerque balloon fiesta park. The whole skies are colorfully painted due to the large amount of colorful balloons. Albuquerque International balloon fiesta is the world largest balloons festival since 1972’s held every fall in the first week of October[http://www.albuquerqueballoonfiesta2014.org/albuquerque-international-balloon-fiesta-2014/].
+* Every day there's a '''Dawn Patrol''' at around 6AM, where a few balloons take off before the sun rises. These balloons test the conditions before other balloons take off.
+* On weekend days at about 7AM the '''Mass Ascension''' occurs, which is the lift off of all the balloons participating in the fiesta, usually in two waves. Not to be missed.
+* On weekend evenings (except for the final day of the event) a '''Balloon Glow''' takes place, when the balloons don't lift off the ground, but are illuminated by the light of their propane burners going off.
+* The '''Special Shapes Rodeo''' happens at 7AM on the Thursday and Friday of the event, which is a Mass Ascension for all the "special shape" balloons. There are also Balloon Glows called Glowdeos (a portmanteau of "glow" and "rodeo") for the special shape balloons. The special shapes are the balloons in forms other than the standard balloon shape, and are very popular with kids - expect to see animals, cartoon characters, clowns, and many other colorful creations. Returning favorites include a milk cow, a wagon coach, and a trio of bees.
+
+And if you want to do more than watch the balloons, there are several local companies which provide balloon rides year-round: '''Rainbow Ryders''', ''+1 505'' 823-1111, [http://www.rainbowryders.com/] is the only one which operates directly from Balloon Fiesta Park during the Balloon Fiesta, but there's also '''Above and Beyond Affordable Balloon Rides''', ''+1 505'' 293-0000, [http://www.aboveandbeyondballoonrides.com/], '''Above It All Balloon Rides''', ''+1 505'' 861-3386, '''Aliens Aloft''', ''+1 505'' 864-8871, [http://www.aliensaloft.com/], '''Beautiful Balloons Co.''', ''+1 800'' 367-6625 [http://www.beautifulballoonsco.com/], '''Private Balloon Flights''', ''+1 505'' 550-2677, [http://www.privateballoonflights.com/], and '''Skyspan Adventures''', ''+1 505'' 250-2300, [http://www.skyspanadventures.com/].
+
+===Other annual events===
+Besides the Balloon Fiesta, there are numerous festivals and celebrations on a yearly basis. Here are some of the major ones:
+
+* The '''Native American Gathering of Nations Pow-Wow''' [http://www.gatheringofnations.com/front.htm] is an event bringing Native Americans from across the country together. There are many events, including the powwow, native music, arts, crafts, and food, and Miss Indian World. The event takes place in late April at the UNM Arena ("The Pit").
+* '''Festival Flamenco International de Albuquerque''', [http://ffinm.org/]. One of the most exciting Flamenco gatherings in the country, with artists from around the world. Held annually during the summer, usually in early June, at a number of venues.
+*'''New Mexico Arts & Crafts Fair''' [http://www.nmartsandcraftsfair.org/] takes place in June at the Expo New Mexico fairgrounds and features a great variety of arts and crafts all made locally. Last fair held June 2018.
+* '''New Mexico State Fair''', ''+1 505'' 265-EXPO, [http://www.exponm.com/fair/]. The state fair takes place annually for two weeks in September. Like any state fair, there's lots of competitions, farm animals, rodeos, carnival rides, art, music, food, etc. There are also some interesting exhibits as well, showing off the pride and character of New Mexico, such as the Indian Village, the Villa Hispana, and much more. The state fair is held at Expo New Mexico (''on Louisiana between Central and Lomas, east of UNM and south of Uptown''). $7 adults, $5 seniors/children, children 5 and under free.
+*Around Christmas time, thousands of '''luminarias''' (a paper bag half-filled with sand with a lit candle placed inside) line the streets of Old Town. If you come to the city during this time of year you are also likely to see electric luminarias (a string of lights designed to resemble authentic luminarias) lining the roofs of many buildings in the city. You may also see luminaria displays in some of the city's residential neighborhoods, on the UNM campus, and on many a individual's front yard, but Old Town provides the most accessible and dramatic display.
+*The '''Albuquerque Folk Festival''' takes place every year the first Saturday of June at the Albuquerque Balloon Museum. Free camping is available Friday evening through Sunday afternoon. This is a participatory festival that features performances from national and local musicians, dances, workshops, music jams, storytelling and activities for children of all ages. Attendees are encouraged to bring their own musical instruments to learn, jam and maybe even get up on stage at the festival. For more information, visit http://abqfolkfest.org
+
+==Learn==
+[[Image:Albuquerque UNM in the snow.jpg|right|thumb|UNM during a winter snowfall]]
+* '''University of New Mexico''', [http://www.unm.edu]. Founded in 1889, UNM is the second oldest and largest institution of higher education in the state, with undergraduate and graduate degrees in a wide variety of programs. 
+
+* '''Central New Mexico Community College''' (formerly Technical-Vocational Institute, TVI), [http://www.cnm.edu/]. A two-year college with a few branch campuses. The main campus is on University Blvd. just south of the main UNM campus.
+
+==Work==
+
+Albuquerque's has evolved into a fairly "high-tech" city from the employment point of view. Albuquerque's major employers are mostly military and technology based: '''Kirtland Air Force Base''' and the '''Sandia National Laboratories''' and the '''Air Force Laboratories''' are the region's largest employers. '''Intel Corporation''' has a huge plant just outside the city in neighboring Rio Rancho. These are surrounded by spinoffs, support organizations, etc.  '''UNM''' and the medical industry are also major regional employers as well. 
+
+Recently, the film industry has hit New Mexico (and Albuquerque in particular) in a big way, with new movie studios being built and some big-name films being produced in the area. Keep your eyes open; you may be able to find an interesting job.
+
+Unemployment tends to run below the national average, so jobs are comparatively easy to get.  Being bilingual (English/Spanish) is a plus in the retail workplace, although by no means essential.
+
+==Buy==
+
+Upon first glance, it might seem like your only place to shop are the miles and miles of strip malls that line the major arterials. While that's not ''entirely'' the case, everything is really spread out, with the exception of the concentrated Old Town-Downtown-Nob Hill area along Central Ave. So while you can find just about anything you're looking for, you will probably have to drive a ways to get it.
+
+Here are some good places around town to shop:
+
+*'''Old Town''', at Central & Rio Grande, [http://www.albuquerqueoldtown.com/merchant.htm]. If you're looking for all the "New Mexican" shops, this is probably the next best thing to Santa Fe. Granted, some of it is tacky souvenir stuff, but there are also plenty of quality gift shops with authentic Native American and Southwestern art. You can also find plenty of antiques, art galleries, jewelry, pottery, weavings, clothing stores, and other specialty shops.
+**'''Albuquerque Photographer's Gallery''', 303 Romero St NW, STE N208 (upstairs), ''+1 505'' 244-9195, [http://www.abqphotographersgallery.com/]. A juried photography co-op of award-winning photographers, representing a wide variety of styles and techniques.
+**'''Amapola Gallery''', 205 Romero St NW, ''+1 505'' 242-4311, [http://www.amapolagallery.com/]. Co-op of 40 contemporary artists selling a wide variety of southwestern arts and crafts.
+**'''Andrews Pueblo Pottery & Art Gallery''', 303 Romero St NW, ''+1 505'' 243-0414, [http://www.andrewspp.com/]. A great collection of works from traditional native artists.
+**'''Old Town Emporium''', 204 San Felipe NW, ''+1 505'' 842-8102, [http://www.old-town-emporium.com/]. M-Sa 9AM-8PM, Su 9AM-6PM. A very large gift shop with all the typical tourist kitsch, which certainly has its charm.
+**'''R.C. Gorman/Nizhoni Gallery''', 323 Romero St NW, ''+1 505'' 843-7666. Featuring works by several popular artists, including noted local painter R.C. Gorman.
+**'''Tanner Chaney Gallery''', 323 Romero St NW, ''+1 505'' 247-2242, [http://www.eindianjewelry.com/?site=tc]. M-Sa 10AM-6PM, Su noon-6PM. A long-standing business selling native arts and crafts.
+
+*'''Downtown''', particularly along Central and Gold Aves. (one block S of Central). While downtown has plenty of bars and restaurants, the shopping scene is a bit lacking. However, there are a few interesting places:
+**'''The Man's Hat Shop''', 511 Central Ave NW, ''+1 505'' 247-9605, [http://www.manshatshop.com/]. Tu-F 9:30AM-5:30PM, Sa 9:30AM-5PM. Has a huge selection of Western hats.
+**'''Patrician Design''', 216 Gold Ave SW, ''+1 505'' 242-7646, [http://www.patriciandesign.com/]. M-F 8AM-6PM. A retail boutique with art, jewelery, and some nifty around-the-home accessories.
+**'''Skip Maisel’s''', 510 Central Ave SW, ''+1 505'' 242-6526, [http://www.skip-maisels.com/]. Indian jewelry, arts, and crafts in a lovely building dating back to the heyday of Route 66.
+**'''Sumner & Dene''', 517 Central Ave NW, ''+1 505'' 842-1400, [http://www.sumnerdene.com/]. Fine art, jewelery, and furnishings.
+**'''2 Time Couture''', 600 Central Ave SE (''2 Blocks W of I-25, in the "EDo" neighborhood''), ''+1 505'' 242-3600, [http://www.shop2time.com]. An upscale designer consignment boutique offering top quality clothing, accessories and handbags.
+
+*'''Nob Hill''', along Central from Girard to Carlisle, [http://rt66central.com/]. A trendy district known for its neon reminiscent of the Route 66 days, Nob Hill is easily one of the best places in the city to window shop. The '''Nob Hill Business Center''', at Central & Carlisle, has some great little shops as well as the La Montanita Food Co-Op (''see Grocery stores under "Eat" below'').
+**'''The Herb Store''', 107 Carlisle Blvd SE (''in the Nob Hill Business Center''), ''+1 505'' 255-8878, [http://www.herbstorenm.com/]. M-Sa 10AM-6PM, Su noon-5PM. Stock up on all your herb supplies and herbal remedies here.
+**'''Masks Y Mas''', 3106 Central Ave SE, ''+1 505'' 256-4183, [http://www.masksymas.net/]. An art gallery and store cram packed with Day of the Dead folk art.
+**'''Objects of Desire''', 3225 Central Ave NE, ''+1 505'' 232-3088, [http://www.objectsofdesireabq.com/]. Fine furnishings and accessories.
+**'''Papers''', 114 Amherst Drive SE (''in the Nob Hill Business Center''), ''+1 505'' 254-1434‎. M-Sa 10:30AM-6:30PM, Su 11AM-5PM. Lots of decorative papers, craft supplies, and high-end greeting cards and paper products available.
+
+*'''Uptown''', centered around Indian School & Louisiana. For the more typical suburban mall experience, '''Coronado Mall''' [http://www.coronadocenter.com/html/index3.asp], which is anchored by Macy's, JCPenney, Mervyn's and Sears, will suit your needs. '''ABQ Uptown''' [http://www.abquptown.com/], on the other hand, is an outdoor mall with more high-end retail stores, such as Apple Computer, Talbots, Pottery Barn, and Williams-Sonoma. Most of the major 'Big Box' retailers are also in the general area, in both directions along I-40.
+*'''Cottonwood Mall''', Coors Blvd & Coors Bypass, on the west side of Albuquerque, [http://www.simon.com/mall/default.aspx?ID=214].  A typical indoor mall, the surrounding area contains most typical 'Big Box' retailers.
+
+Here are some specific businesses around town that are worth your time:
+
+*'''Active Imagination''', 11200 Montgomery Blvd NE (''SE corner of the intersection of Montgomery and Juan Tabo''), ''+1 505'' 346-2232, [http://www.aigamestore.com/]. Formerly Wargames West on Central, this store has a long history in Albuquerque. Features cards, board games, role-playing games and a gambit of miniature table-top games. Open boardgame night is Thursday, but you're bound to find people gaming any night of the week.
+*'''Bien Mur Indian Market Center''', 100 Bien Mur Dr NE (''N of Albuquerque at the Sandia Pueblo, off the intersection of Tramway and I-25''), ''+1 505'' 821-5400, [http://www.bienmur.com/]. Owned by the Sandia Pueblo, this huge market has loads of Native American jewelry, pottery, rugs, paintings and folk art. Most of the stuff here comes directly from the artist to the market. 
+*'''Gertrude Zachary''' [http://www.gertrudezachary.com/] is a locally-owned jewelry chain in Albuquerque with plenty of antiques and Southwestern jewelry. There are three locations around the city:
+** Jewelry Showroom, 1501 Lomas NW (''between Old Town and Downtown''), ''+1 505'' 247-4442.
+** Antiques Showroom, 416 Second St SW (''in Downtown''), ''+1 505'' 244-1320.
+** Nob Hill Location, 3300 Central Ave SE, ''+1 505'' 766-4700.
+*'''Jackalope''', 6400 San Mateo Blvd NE (''near the intersection of San Mateo and I-25''), ''+1 505'' 349-0955, [http://www.jackalope.com/location_albuquerque.html]. A local chain of stores (there are also locations in Bernalillo and Santa Fe) that sells folk art, pottery, rugs, and furniture from around the world. There is really a lot of fantastic stuff here, and a lot to browse through.
+*'''Mama's Minerals''', 1100 San Mateo NE (''at the intersection of Lomas and San Mateo''), ''+1 505'' 266-8443, [http://www.mamasminerals.com/]. M-F 9AM-7PM, Sa 10AM-6PM, Su 11AM-5PM. A wonderful store with an extensive collection of minerals, geologic specimens, gems, beads, supplies for the geologist, information about local geology, and more. You could spend a lot of time here.
+*'''Page One Bookstore''', 5850 Eubank Blvd NE #B41, Albuquerque, NM 87111 , ''+1 505'' 294-2026, [http://www.page1book.com/]. M-Sa 9AM-10PM, Su 9AM-8PM. The largest independent bookstore in the city.
+*'''Palms Trading Company''', 1504 Lomas Blvd NW (''West on Lomas from I-25 to 15th Street''), ''+1 505'' 247-8504 [http://www.palmstrading.com], Native American Indian Jewelry, Pottery, Rugs and gifts at wholesale prices to the general public.
+*'''Tall Tales Comics & Novelties''', (closed according to Google 20230416) 1410 Wyoming Blvd NE (''NE corner of the intersection of Wyoming and Constitution''), ''+1 505'' 296-6178, A plethora of comics, cards, board games, role-playing games, miniatures and untold archive of hard-to-find novelties. Excellent site for finding long out-of-print items. Also has gaming tables.
+
+==Eat==
+{{Eatpricerange|$10 or less|$10-20|$20 or more}}
+Dining out in Albuquerque tends to be relatively inexpensive and very casual.  Many places offer outdoor seating.  Iced tea is the beverage of choice.
+
+===New Mexican dining===
+New Mexican cuisine is unique.  Be ready for the question "Red or green?" or in Spanish "¿Rojo o verde?" which refers to the chile based sauce included in or used to smother various menu items.  There are constant arguments as to which is hotter, the ripe and often dried red chile, or the immature green chile; however, spiciness depends much more on the strain of pepper and how the chile is prepared rather than the color, and varies greatly by restaurant, so inquire and experiment.  Many meals will include ''sopapillas'', the characteristic New Mexican fry bread, as a side.  The characteristic desserts are ''flan'', a type of custard, or ''Natillas'', closer in texture to pudding. For vegetarians, a cheese enchilada or chile relleno is usually a safe option; however, beans may contain meat or lard (in traditional refried beans) and rice may be made with chicken broth, so it is best to ask. Vegan options are rare.
+
+====Budget====
+{{style}}
+*'''Acapulco''', 840 San Mateo Blvd SE (''near the Kirtland AFB Truman Gate''), ''+1 505'' 268-9865; 2617 Wyoming Blvd NE, ''+1 505'' 237-8044. Serves excellent New Mexican cuisine from a stand.
+*'''Church Street Cafe''', 2111 Church St NW (''in Old Town behind the church''), ''+1 505'' 247-8522, [http://www.churchstreetcafe.com/]. Th-Sa 8AM-8PM, Su-W 8AM-4PM. A cozy little restaurant with good New Mexican food tucked away down a side alley of Old Town. $6-15.
+*'''Durans Central Pharmacy''', 1815 Central Ave NW, ''+1 505'' 247-4141. An inexpensive lunch counter in the back of a pharmacy serving cheap, hearty New Mexican cuisine. $5-9. No reservations needed.
+*'''Little Anita's''', regional chain, original in Old Town at 2105 Mountain Rd NW, ''+1 505'' 242-3102, [http://www.littleanitas.com]. 7AM-8PM daily. Consistent, great quality food with great service and atmosphere. Check out the one in Corrales on Alameda and Coors-Bypass. $3-7.
+*'''Los Cuates''', 5016-B Lomas NE, '' +1 505'' 268-0974; 4901 Lomas NE, ''+1 505'' 255-5079; 8700 Menaul NE, ''+1 505'' 237-2800, [http://www.loscuatesrestaurants.com/]. 11AM-9PM daily (''4901 Lomas location opens at noon''). 4901 Lomas and Menaul locations are newer facilities and serves milder chile, 5106 Lomas is an authentic diner experience. $4-10.
+*'''Milly's''', 7308 Jefferson St NE, ''+1 505'' 345-9200.  Flavorful but not-too-hot chile. $3-8.
+*'''Ortega's''', 3617 Wyoming Blvd NE (''N of Comanche''), ''+1 505'' 298-0223.  Whole grains, low fat. Accepts Bitcoin.
+*'''Papa Felipe's Mexican Restaurant''', 9800 Menaul Blvd NE, ''+1 505'' 292-8877, [http://www.papafelipes.com/]. 11AM-9PM daily. Home-cooked authentic New Mexican cuisine since 1977. $5-10.
+*'''Perea's''', 5801 Central Ave NE, ''+1 505'' 232-9442. 7AM-2PM daily. May have the hottest green chile in town.
+*'''Sadie's''', 6230 4th St NW, ''+1 505'' 345-5339, [http://www.sadiescocinita.com]. M-Sa 11AM-10PM, Su 11AM-9PM. Consistent quality. Often a long wait. Hot chile. $5-9.
+
+====Mid-range====
+*'''Barelas Coffee House''', 1502 4th St SW, ''+1 505'' 843-7577. 6AM-3PM daily. This place, for those who know how to find it (it ''is'' tucked in a corner) is a local favorite, serving menudo, chile, and a wide range of other both Mexican and New Mexican foods. They are also locally known for their tea, a blend of chamomile teas, always served hot and fresh. Also, as you are about to pay, make sure and check out the candy table right in front of the cash registers, as you might just spot an old favorite such as Sugar Daddys and Nickle Nips! $12+ (varies on party size, and do tip well. If you come back, the servers will literally run for you!)
+*'''Cervantes''', 5801 Gibson Blvd SE, ''+1 505'' 262-2253. Excellent menu, ala carte items, full bar, World Record Margarita. Local favorite.
+*'''El Pinto''', 10500 4th St NW, ''+1 505'' 898-1771. M-Th 11AM-9PM, F Sa 11AM-10PM, Su 10:30AM-9PM (Sunday brunch 10:30AM-2PM). Lovely ambiance and a great menu. Their nachos are fantastic.
+*'''Garduño's of Mexico''', regional chain, original at 8806 4th St NW, ''+1 505'' 898-2772, [http://www.gardunosrestaurants.com]. M-Th 11AM-9PM, F Sa 11AM-10PM, Su 11AM-6PM. Consistent, good quality food with some Mexican and Arizonan influence to go with the New Mexican standards.
+*'''Monroe's''', 1520 Lomas NW, ''+1 505'' 242-1111; 6051 Osuna NE, ''+1 505'' 881-4224, [http://www.monroeschile.com].  Great carne adovada Indian tacos. $4-11.
+
+===Non-New Mexican dining===
+[[Image:Abq doghouse.jpg|right|thumb|The Dog House]]
+Albuquerque has a lively Asian community, so Thai, Chinese, and Vietnamese restaurants are scattered throughout the central and southeast parts of the city.
+
+====Budget====
+*'''Amore Neapolitan Pizzeria''', 1700 Central SW & 3600 Cutler NE (''At Green Jeans by Carlisle and I40''), ''+1 505'' 554-1967, [http://www.amoreabq.com/]. Only true Neapolitan Pizza in New Mexico!!!  
+*'''Asian Grill''', 5303 Gibson Blvd SE (''1mile east of ABQ International Sunport or next of 99 Asian Market or VA Hospital''), ''+1 505'' 265-4702, [http://www.AsianGrillABQ.com/] An International flavor serves excellent Asian & Vietnamese cuisine in ABQ. Also specialized weight trim or anti-diabetic natural tea house.
+*'''Bob's Burgers''', several locations around town. 10:30AM-9PM daily.  A home-grown chain of burger stands with a New Mexican flair.  The ones west of the river are owned by Bob, the ones east of the river by his son-in-law Clifford.  Bob makes some of the hottest green chile sauce in the state; Clifford flat out tries to kill you.  A "chile-head"'s paradise.  Try a foot-long chile-cheese dog with green sauce instead of traditional red.
+*'''The Dog House''', 1216 Central Ave SW (''in between downtown and Old Town''), ''+1 505'' 243-1019. 10AM-10PM daily. An Albuquerque classic - greasy fast food joint, best known for their grilled foot-long hot dogs. Very recognizable place with its dog neon sign. The dining room is ''very'' small, you may want to just eat in your car. Cash only. Featured in serveral Breaking bad episodes.
+*'''Federico's Mexican Food''', 1109 Juan Tabo NE, ''+1 505'' 271-6499; 640 Coors NW, ''+1 505'' 352-2120; 5555 Zuni SE, ''+1 505'' 255-1094, [http://www.federicosmexicanfood.com/]. Open 24 hours. The place is a little bare-bones, but the food is excellent (and shows the difference between "Mexican" and "New Mexican" cuisine), not to mention cheap. Get a ''horchata'' as your drink. $3-6.
+*'''Frontier Restaurant''', 2400 Central Ave SE (''at Central & Cornell''), ''+1 505'' 266-0550, [http://www.frontierrestaurant.com/]. 5AM-1AM daily. One of the most popular restaurants in Albuquerque; a big hangout for the college students at UNM. Good American and New Mexican food, the breakfast burrito here is one of the best in Albuquerque. The atmosphere is casual, and it's a great place to people-watch and witness a good cross-section of the city's population. If you can't make it to the Frontier, you can go to one of the several '''Golden Pride''' chain places around Albuquerque, which is owned by the same family and serves much of the same food. $2-9.
+*'''Grandma's K and I diner''', 2500 Broadway Blvd SE, ''+1 505'' 243-1881. Enjoy some authentic Albuquerque cuisine, restaurant is best known for serving a fry covered, football sized burrito called the Travis.  They can be ordered in  eighths, quarters, halves or whole; consumption of an entire travis is sometimes used as a fraternity hazing.  The breakfast skillet meals are wonderful.
+*'''Lee's Bakery''', 230-C Louisiana Blvd SE, ''+1 505''  232-0085.  Excellent Vietnamese sandwiches. Get the #6, grilled pork on a French style baguette with French-inspired style mayo (aioli), cucumber, cilantro, strips of pickled carrots, and slices of jalapenos. Bakery also carries various Vietnamese desserts, steamed sweet/glutinous rice with mung beans, and Vietnamese steamed pork sausages.
+*'''Pericos''', 109 Yale Blvd SE (''near the intersection of Yale and Central''), ''+1 505'' 247-2503, [http://www.pericosdealbuquerque.com/]. A small Mexican/New Mexican hole-in-the-wall type joint with possibly the most delicious burritos in town. $3-7.
+*'''Pho #1''', 414 San Pedro Dr SE, ''+1 505'' 268-0488.  Pho: Vietnamese noodle soup. Also grilled pork / chicken / beef noodle bowl and rice plates. Great friendly service. Don't miss the Vietnamese cold coffee with condensed milk.
+*'''Que Huong''', 7010 Central Ave SE, ''+1 505'' 262-0575.  Bright, clean Vietnamese restaurant serving a range of Southeast Asian specialties for very good prices. Located along the Rapid Ride/66 Central bus.
+*'''Route 66 Malt Shop''', 3800 Central SE (''two blocks east of Carlisle in Nob Hill''), ''+1 505'' 242-7866, [http://route66maltshop.com/]. M 11AM-8PM, Tu-Th 8AM-8PM, F-Sa 10AM-10PM, Su 8AM-3PM. Exceptional home-made root beer, burgers, floats, etc. $4-8.
+*'''Rudy's Country Store and BBQ''', 2321 Carlisle NE, ''+1 505'' 884-4000; 10136 Coors NW, ''+1 505'' 890-7113, [http://rudysbbq.com/index.html].  10AM-10PM daily. Casual, relaxed, and wonderful self-serve BBQ. Don't miss the beef brisket! $3-6.
+*'''Saggio's Pizza''', 107 Cornell Dr SE (''at Central & Cornell, across the street from the Frontier''), ''+1 505'' 255-5454, [http://www.saggios.com/]. Su-Th 8AM-10PM, F Sa 8AM-11PM. Some of the best pizza in Albuquerque. The atmosphere is wonderful, with statues, murals, plants, and televisions everywhere. There is a sports bar in here, but the place is still very kid-friendly.
+*'''66 Diner''', 1405 Central Ave NE (''between I-25 and University Blvd''), ''+1 505'' 247-1421, [http://www.66diner.com/]. M-F 11AM-11PM, Sa 8AM-11PM, Su 8AM-10PM. A Route 66 themed restaurant serving classic American dishes. Big portions, great atmosphere. $5-9.
+
+====Mid-range====
+*'''Bangkok Cafe''',  5901 Central Ave NE ''+1 505'' 255.5036, [http://www.bangkok-nm.com/Default.aspx]. M-Th 11AM-9PM, F 11AM-9:30PM, Sa noon-9:30PM, Su noon-9PM. Some of the best Thai food in town! The larb (meat salad), chicken and basil, and yellow curry are excellent! Basic divey atmosphere but the food can't be beat. $4-12.
+*'''Cafe Choroni''', 3120 San Mateo Blvd NE, ''+1 505'' 554-3311. M-Sa 8AM-3PM. The only Venezuelan restaurant in town. Great food and paninis. Free Wi-Fi.
+*'''County Line BBQ''', Tramway Blvd at Tramway Rd, ''+1 505'' 856-7477, [http://www.countyline.com/comeseeus.asp].  Spectacular views of the city from the picture windows in the main dining area.  For weekend dining, be prepared to wait a bit.  Good Texas-style BBQ, relaxed atmosphere and large portions for your dollar. $10-20.
+*'''Dion's''', multiple locations, [http://www.dionspizza.com/]. Su-Th, 10:30AM-10PM, F Sa 10:30AM-11PM. Best pizza in Albuquerque?  They also have sandwiches.
+* <eat name="Il Vicino" alt="" address="3403 Central Ave NE" directions="" phone="+1 505 266-7855" email="" fax="" url="http://ilvicino.com/nobhill" hours="Su-Th 11AM-11PM, F-Sa 11AM-midnight" price=""><eat name="" alt="" address="11225 Montgomery Blvd NE" directions="" phone="+1 505 271-0882" email="" fax="" url="http://ilvicino.com/heights" hours="Su-Th 11AM-10PM, F-Sa 11AM-11PM" price=""><eat name="" alt="" address="10701 Corrales Blvd NW" directions="" phone="+1 505 899-7500" email="" fax="" url="http://ilvicino.com/westside" hours="Su-Th 11AM-10PM, F-Sa 11AM-11PM" price="">Fresh gourmet pizza and beer. Some vegetarian selections.</eat>
+*'''India Palace''', 4410 Wyoming NE, ''+1 505'' 271-5009.  Indian. Great Chicken Tiki Masala.
+*'''Flying Star Cafe''', multiple locations, [http://flyingstarcafe.com/]. Su-Th 6AM-10PM, F Sa 6AM-11PM. Wide variety of salads, sandwiches, entrees, New Mexican food, and superb desserts. Rated 'Best Bakery' in Albuquerque. Daily and weekly specials. Free wi-fi. Vast selection of magazines. $3-11. Many vegetarian and vegan selections.
+*'''Ninja Sushi''', 6205 Montgomery Blvd, ''+1 505'' 830-2507. Innovative, "avant garde" sushi and Japanese food. Wide selection of sushi and sashimi.
+*'''Pars Persian Cuisine''', 4320 The 25 Way, Ste 100, ''+1 505'' 345-5156, [http://www.parscuisine.com/]. M-Th 11AM-9PM, F Sa 11AM-10PM, Su 5PM-9PM. Persian. Cushion seating available, bellydancing on weekend nights. Hookah available for rental. Wonderful Persian classics. $4-20.
+*'''Rasoi''', 110 Yale Blvd SE (''just S of Central''), ''+1 505'' 268-5327, [http://www.rasoiabq.com/]. Lunch 11:30AM-2:30PM daily, dinner 5PM-9PM daily. An excellent Indian restaurant with a lovely atmosphere and delicious food. The dishes are referred to by their actual Indian names. You can order from the menu, or you can go for the buffet (all you can eat, around $9). $8-18.
+*'''Slate Street Cafe''', 515 Slate NW, ''+1 505'' 243-2210, [http://www.999dine.com/nm/slatestreetcafe/]. Breakfast/Lunch M-F, 7:30AM–3PM, Brunch Sa, 8AM–2PM, Wine Loft W–Sa 4PM-10PM, Dinner Tu–Th 5PM-9PM, F Sa 5PM-10PM. American. They have a nice wine list and a wine bar loft too.
+*'''Taj Mahal''', 1430 Carlisle Blvd NE, ''+1 505'' 255-1994, [http://www.999dine.com/nm/tajmahal/]. Lunch 11AM-2:30PM, Dinner 5PM-10PM. Indian. $3-15.
+*'''Thai Tip''' 1512 Wyoming NE, ''+1 505'' 323-7447. Thai. Loyal local following, and for good reason. Friendly owners and relaxed atmosphere. Most items on the menu have a vegan or vegetarian selection.
+
+====Splurge====
+* <eat name="Artichoke Cafe" alt="" address="424 Central Ave SE" directions="corner of Central and Edith" phone="+1 505 243-0200" email="" fax="" url="http://www.artichokecafe.com" hours="" price="$9-30">American. Great creamy artichoke soup, the salmon is great. Good ambience.</eat>
+* <eat name="Emilie's French Restaurant" alt="" address="6209 Montgomery Blvd NE" directions="" phone="+1 505 881-8104" email="" fax="" url="" hours="Tu-Sa 11AM-2PM and 5PM-9PM" price="">French.</eat>
+* <eat name="Eurasia Bistro" alt="" address="10701 Montgomery Blvd NE" directions="just west of Juan Tabo" phone="+1 505 299-9898" email="" fax="" url="" hours="" price="">Japanese with European influence. Large portions, excellent sushi and sashimi. The ceviche is not to be missed.</eat>
+* <eat name="High Finance" alt="" address="atop Sandia Peak" directions="" phone="+1 505 243-9742" phoneextra="reservations advised" email="" fax="" url="http://www.sandiapeak.com/index.php?page=high-finance-restaurant" hours="" price="$7-29">American. You pay for the view as well as the food, but it's an interesting experience, especially since the only way there is via the Tramway (listed above under "See"). Lunch and dinner daily.</eat>
+* <eat name="The Rancher's Club" alt="" address="Albuquerque Hilton, 1901 University Blvd NE" directions="" phone="+1 505 889-8071" email="" fax="" url="http://999dine.com/NM/ranchersclubofnm" hours="M 5:30PM-10PM, Tu-Th 11:30AM-2PM and 5:30PM-10PM, F 11:30AM-2PM and 5:30PM-10:30PM, Sa 5:30PM-10:30PM, Su 5:30PM-9PM" price="">The Rancher's Club is a repeat winner of the prestigious DiRoNA Award. The only AAA 4 Diamond Award Winner in Albuquerque. "American" cuisine, serving prime aged beef, seafood and poultry grilled over aromatic woods.</eat>
+* <eat name="Terra American Bistro" alt="" address="1119 Alameda Blvd NE" directions="" phone="+1 505 792-1700" url="http://www.terrabistro.com" hours="Tu-F 11AM-2PM and 5:30PM-close, Sa 5:30PM-close" price="$7-25" lat="" long="" email="" fax="">closed.</eat>
+* <eat name="Tucanos Brazilian Grill" alt="" address="110 Central Ave SW" directions="" phone="+1 505 246-9900" email="" fax="" url="http://www.tucanos.com" hours="" price="$12(lunch)/$20(dinner) per person, all you can eat">Excellent salad bar, and a variety of meats brought to your table.</eat>
+* <eat name="Zinc Wine Bar and Bistro" alt="" address="3009 Central Ave NE" directions="" phone="+1 505 254-9462" phoneextra="reservations advised" email="" fax="" url="http://www.zincabq.com" hours="M-Th 11AM-2:30PM and 5PM-10PM, F 11AM-2:30PM and 5PM-11PM, Sa 5PM-11PM, Su 11AM-2:30PM" price="$8-27">Located in Nob Hill, Zinc is pleasant and well-appointed inside. American cuisine, with a touch of French; excellent appetizers. Don't miss the wine bar and jazz in the basement.</eat>
+
+===Grocery stores===
+* <eat name="La Montanita Natural Foods Co-Op" alt="" address="" directions="" phone="" email="" fax="" url="http://www.lamontanita.coop" hours="" price="">A local community-owned co-op offering organic food with two locations in Albuquerque:</eat>
+:* <eat name="" alt="" address="3500 Central Ave SE" directions="in the Nob Hill Marketplace at Central and Carlisle" phone="+1 505 265-4631" email="" fax="" url="" hours="M-Sa 7AM-10PM, Su 8AM-10PM" price="">Lunch counter with vegan and vegetarian options</eat>
+:* <eat name="" alt="" address="2400 Rio Grande NW" directions="" phone="+1 505 242-8800" email="" fax="" url="" hours="M-Sa 7AM-10PM, Su 8AM-10PM" price=""></eat>
+* <eat name="Pro's Ranch Market" alt="" address="4201 Central Ave NW" directions="at Central and Atrisco, on the W side of the Rio Grande" phone="+1 505 833-1765" email="" fax="" url="http://www.prosranch.com" hours="6AM-11PM daily" price="">A California-based grocery chain geared toward the Hispanic crowd.</eat>
+* <eat name="Sunflower Market" alt="" address="" directions="" phone="" url="http://www.sfmarkets.com" hours="8am-11pm" price="" lat="" long="" email="" fax="">Local organic food store chain with 4 locations in Albuquerque. Good place, even have diet Indian tonic if you like a gin and tonic.</eat>
+:* <eat name="" alt="" address="10701 Corrales Blvd NW # 2" directions="" phone="+1 505 890-7900‎" email="" fax="" url="" hours="7:30AM-10PM daily" price=""></eat>
+:* <eat name="" alt="" address="5112 Lomas Blvd NE" directions="Lomas and San Mateo" phone="+1 505 268-5127‎" email="" fax="" url="" hours="7AM-10PM daily" price=""></eat>
+:* <eat name="" alt="" address="6300 San Mateo Blvd" directions="San Mateo and Academy" phone="+1 505 821-7000‎" email="" fax="" url="" hours="7AM-10PM daily" price=""></eat>
+:* <eat name="" alt="" address="11205 Montgomery Blvd NE" directions="Montgomery and Juan Tabo" phone="+1 505 298-2447" email="" fax="" url="" hours="7AM-10PM daily" price=""></eat>
+* <eat name="Talin Market World Food Fare" alt="" address="88 Louisiana Blvd SE" directions="at the corner of Central and Louisiana" phone="+1 505 268-0206" email="" fax="" url="http://talininc.com" hours="M-Sa 8:30AM-8PM, Su 9AM-7PM" price="">International food marketplace.</eat>
+* <eat name="Trader Joe's" alt="" address="" directions="" phone="" email="" fax="" url="http://www.traderjoes.com" hours="" price="">Two locations in Albuquerque:</eat>
+:* <eat name="" alt="" address="8929 Holly Ave NE" directions="at the intersection of Paseo del Norte and Ventura" phone="+1 505 796-0311" email="" fax="" url="" hours="9AM-9PM daily" price=""></eat>
+:* <eat name="" alt="" address="2200 Uptown Loop NE" directions="next to ABQ Uptown mall" phone="+1 505 883-3662" email="" fax="" url="" hours="9AM-9PM daily" price=""></eat>
+* <eat name="Whole Foods Market" alt="" address="" directions="" phone="" email="" fax="" url="http://www.wholefoodsmarket.com" hours="" price="">Organic food store chain with two locations in Albuquerque:</eat>
+:* <eat name="" alt="" address="5815 Wyoming Blvd NE" directions="at the intersection of Wyoming and Academy" phone="+1 505 856-0474" email="" fax="" url="http://www.wholefoodsmarket.com/stores/albuquerque" hours="7:30AM-9PM daily" price=""></eat>
+:* <eat name="" alt="" address="2103 Carlisle Blvd NE" directions="at the intersection of Carlisle and Indian School" phone="+1 505 260-1366" email="" fax="" url="http://www.wholefoodsmarket.com/stores/indianschoolplaza" hours="7AM-10PM daily" price=""></eat>
+*For your more typical chain groceries, '''Albertsons''' [http://www.albertsons.com] and '''Smith's''' [http://www.smithsfoodanddrug.com] each have several stores in the city.
+
+==Drink==
+====Downtown====
+* <drink name="Anodyne" alt="" address="409 Central Ave NW" directions="" phone="+1 505 244-1820" email="" fax="" url="" hours="" price="">Downtown hipster bar. 100 different icy beers, pool tables galore and a killer jukebox.</drink>
+* <drink name="Burt's Tiki Lounge" alt="" address="313 Gold Ave SW" directions="" phone="+1 505 243-2878" email="" fax="" url="http://www.burtstikilounge.com" hours="M-Sa 8PM-2AM" price="">Eclectic doesn't even begin to describe Burt's. Popular nights: Monday, Geeks Who Drink pub trivia -- $2 drafts; Thursday, $.75 Pabst's Blue Ribbon 'til midnight.</drink>
+* <drink name="Chama River Microbar" alt="" address="106 2nd St SW" directions="" phone="+1 505 842-8329" email="" fax="" url="" hours="" price="">No food (other than bags of potato chips), only really good beer from one of the finer microbreweries in the region. Outstanding featured seasonal beers rotate in and out, house beers include a really tasty IPA.</drink>
+* <drink name="Downtown Distillery" alt="" address="406 Central Ave SW" directions="" phone="+1 505 765-1534" email="" fax="" url="" hours="M-F 11AM-2AM, Sa 5PM-2AM" price="">Long bar downstairs; pool lounge and bar upstairs. Jaeger specials, to say the least.</drink>
+* <drink name="Launchpad" alt="" address="618 Central Ave SW" directions="" phone="+1 505 764-8887" email="" fax="" url="http://www.launchpadrocks.com" hours="" price="">Well established music venue and rock bar.</drink>
+* <drink name="Library Bar & Grill" alt="" address="312 Central Ave SW" directions="" phone="+1 505 242-2992" email="" fax="" url="" hours="" price="">School girl dress bartenders serve bikers by day and club goers by night.</drink>
+* <drink name="Lotus" alt="" address="211 Gold Ave SW" directions="" phone="+1 505 243-0955" email="" fax="" url="http://www.opmabq.com" hours="W-Sa 9PM-2AM" price="">Unique themed nightclub. One of the few 18+ clubs in town. Thursday nights are Goth/Industrial/Electronic all other nights are House/Hip-hop/R&B.</drink>
+* <drink name="Marble Brewery" alt="" address="111 Marble St NW" directions="" phone="+1 505 243-2739" email="" fax="" url="http://www.marblebrewery.com" hours="" price="">Fine local micro brewery located in Albuquerque's industrial heart. Limited food selection, but in a taproom -- that's the point.</drink>
+* <drink name="One Up" alt="" address="301 Central Ave NW" directions="" phone="+1 505 242-1966" email="" fax="" url="http://www.oneupabq.com" hours="M-F 5PM-Close, Sa 9pm-Close price="">Fine dining lounge in Downtown Albuquerque. Business casual or urban contemporary dress.</drink>
+* <drink name="Ibiza" alt="" address="125 Second Street NW" directions="" phone="+1 505 242-9090" email="" fax="" url="http://www.hotelandaluz.com/ibiza/" hours="M-F 11AM-2AM, Sa 5PM-2AM" price="">Rooftop bar and dining with nightly themes.</drink>
+
+====Nob Hill & UNM====
+* <drink name="Copper Lounge" alt="" address="1504 Central Ave SE" directions="" phone="+1 505 242-7490" email="" fax="" url="" hours="" price="">Dark dive bar, but extremely friendly patrons. Best beer special in town -- $2.50 drafts on Wednesday nights.</drink>
+* <drink name="Gecko's Bar & Tapas" alt="" address="3500 Central Ave SE" directions="" phone="+1 505 262-1848" email="" fax="" url="" hours="" price=""><drink name="" alt="" address="5801 Academy Rd NE" directions="" phone="+1 505 821-8291" email="" fax="" url="http://www.geckosbar.com" hours="M-Sa 11:30AM-2AM, Su 11AM-midnight" price="">Great atmosphere and best patios in Albuquerque for people watching. Gecko's tapas are among the best bar food you will ever stumble upon.</drink>
+* <drink name="Imbibe" alt="" address="3103 Central Ave NE" directions="" phone="+1 505 255-4200" email="" fax="" url="" hours="" price="">Cigar bar (although the noisy music is incongruous with relaxing over a cigar) with Vegas styling. Rooftop bar and patio.</drink>
+* <drink name="Kelly's Brewery" alt="" address="3222 Central Ave SE" directions="" phone="+1 505 262-2379" email="" fax="" url="http://www.kellysbrewpub.com" hours="M-Sa 11AM-2AM, Su 11AM-midnight" price="">Wide variety of beers brewed on site. Good food, friendly wait staff (mostly hot young ladies), and an extensive outdoor patio for people watching.</drink>
+* <drink name="Monte Vista Fire Station" alt="" address="3205 Central Ave NE" directions="" phone="+1 505 255-2424" email="" fax="" url="http://www.nmrestaurants.com/MonteVista/MonteVistaRstrnt.html" hours="M-Sa noon-2AM, Su noon-midnight" price="">Housed above the Gruet Steakhouse, Monte Vista Fire Station roosts in a converted Depression Era fire house. Atmosphere lacking; bit empty.</drink>
+* <drink name="Nob Hill Bar & Grill" alt="" address="3128 Central Ave SE" directions="" phone="+1 505 266-6872" email="" fax="" url="http://www.upscalejoint.com" hours="" price="">Urban-chic bar in the heart of the Nob Hill District. Cocktails good, food not bad.</drink>
+* <drink name="O'Niell's Pub" alt="" address="4310 Central Ave SE" directions="" phone="+1 505 255-6782" email="" fax="" url="http://www.oniells.com" hours="M-Sa 11:30AM-2AM Su 11:30AM-midnight" price="">Great food, casual atmosphere, and a fantastic patio facing Old Route 66. Note the unusual spelling.</drink>
+* <drink name="Two Fools Tavern" alt="" address="3211 Central Ave NE" directions="" phone="+1 505 265-7447" email="" fax="" url="http://www.2foolstavern.com" hours="M-Sa 11AM-2AM, Su 11AM-midnight" price="">Irish beers and music abound. $3.75 bottled beer, $5-16 wines, scotches, whiskeys. Good beer and wine.</drink>
+
+====North I-25 Corridor & Heights====
+* <drink name="The Barley Room" alt="" address="5200 Eubank NE" directions="" phone="+1 505 332-0800" email="" fax="" url="http://www.barleyroom.com" hours="" price="">Wide selection of domestic and imported beers. Good food and nice atmosphere. Live music almost every weekend.  Being located in the far Northeast Heights and right next door to a mortgage company, it tends to attract an older, classier crowd.</drink>
+* <drink name="Billy's Long Bar" alt="" address="4800 San Mateo Blvd NE" directions="" phone="+1 505 889-0573" email="" fax="" url="" hours="M-Sa 11AM-2AM, Su noon-midnight" price="">Wide variety of beers on tap.</drink>
+* <drink name="Chama River Brewing Company" alt="" address="4931 Pan American NE" directions="" phone="+1 505 342-1800" email="" fax="" url="http://www.chamariverbrewery.com" hours="" price="">Fantastic local micro brewery which also offers a solid dining experience. $3.75 pint.</drink>
+* <drink name="Horse & Angel Tavern" alt="" address="5809 Juan Tabo Blvd NE" directions="" phone="+1 505 299-0225" email="" fax="" url="" hours="" price="">Very large selection of domestic and imported beers on tap, good food with an excellent human resources department (mostly very attractive UNM girls). Laid back, but not too laid back.</drink>
+* <drink name="Il Vicino Brewery" alt="" address="2381 Aztec" directions="" phone="+1 505 881-2737" url="http://ilvicino.com/brewery/" hours="Su–Th. Noon – 10PM, F & S Noon – Midnight" price="" lat="" long="">Where Il Vicino brews the beers for their restaurants.  Small food selection.</drink>
+* <drink name="La Cumbre" alt="" address="3313 Girard NE" directions="" phone="+1 505 872-0225" url="http://lacumbrebrewing.com" hours="" price="" lat="" long="">A new microbrewery opened by a former brewer from Chama River Brewing Co.</drink>
+* <drink name="Nexus Brewery" alt="" address="4730 Pan American Fwy East, Suite D" directions="" phone="+1 505 242-4100" url="http://www.nexusbrewery.com" hours="Su-W 1PM-10PM, Thr - Sa 1PM - Midnight" price="" lat="" long="">A new microbrewery.</drink>
+* <drink name="The Quarters" alt="" address="801 Yale Blvd SE" directions="" phone="+1 505 843-7505" email="" fax="" url="" hours="" price=""><drink name="" alt="" address="4516 Wyoming Blvd NE" directions="" phone="+1 505 292-7604" email="" fax="" url="" hours="" price=""></drink><drink name="" alt="" address="3700 Ellison Rd NW" directions="" phone="+1 505 897-3341" email="" fax="" url="" hours="M-F 11AM-9PM, Sa noon-9PM" price="">Decent selection of beers on tap.</drink>
+* <drink name="Stone Face Tavern" alt="" address="8201 San Pedro Dr NE" directions="" phone="+1 505 822-8855" email="" fax="" url="" hours="M-Sa 11AM-2AM, Su 11AM-midnight" price="">Blue collar and all the character you could even hope for. Live music, outdoor volleyball, and great beer specials.</drink>
+
+====Westside====
+
+* <drink name="Turtle Mountain Brewing Company" alt="" address="3755 Southern Blvd, Rio Rancho" directions="" phone="+1 505 994-9497" email="" fax="" url="http://www.turtlemountainbrewing.com" hours="M-Th 11AM-9PM, F Sa 11AM-10PM, Su noon-9PM" price="">Fresh beer and greasy pizza. $3.75 bottled beer.</drink>
+
+==Sleep==
+
+{{sleeppricerange|under $75|$75-175|$176 and over}}
+
+Upscale, trendy hotels are located downtown and heading east on Central Avenue towards the University of New Mexico and the Nob Hill neighborhood. If you want a more generic, franchise hotel, then head east on I-40 to "uptown" (in the northeast side of the city, which is at higher elevation than "downtown" close to the river) or north on I-25. Hotels around the airport are generally vanilla-flavored, business-traveler places, but at least are somewhat less expensive than airport hotels in many cities. There are a few nice highrise hotels in the Downtown/Old Town area.
+
+Albuquerque has experienced a massive wave of hotel building, mainly in the "limited service" class.  This apparently is driven in part by the infamous lodging shortages during the Albuquerque Balloon Fiesta in October.  The result is that during other parts of the year, affordable hotels shouldn't be too hard to find.  Even with the growth in the hotel market, lodging can be tight for the Fiesta, so if you're coming then, reserve well in advance -- months rather than days.
+
+===Budget===
+* <sleep name="Crossland Economy Studios" address="5020 Ellison St NE" directions="North I-25 area, near the intersection of Ellison-San Antonio/I-25" phone="+1 505 343-1100" email="AQN@extendedstay.com" fax="+1 505 343-1102" checkin="3PM" checkout="11AM" price="$50-60" url="http://www.crosslandstudios.com/minisite/?hotelID=526">Tiny rooms, but clean and inexpensive.</sleep>
+* <sleep name="Days Inn Midtown Albuquerque" alt="" address="2120 Menaul Blvd NE" directions="near the intersection of I-40 and I-25" phone="+1 505 884-0250" url="http://www.daysinnabq.com/" checkin="3PM" checkout="noon" price="$40-60" lat="" long="" email="" fax="+1 505 883-0594">Shuttle service to and from airport and convention center from 7AM-11PM daily.</sleep>
+* <sleep name="Hiway House Motel" alt="" address="3200 Central Ave SE" directions="Nob Hill" phone="+1 505 268-3971" url="http://www.hiwayhousemotel.com" checkin="" checkout="" price="$40-60" lat="" long="" email="" fax="">What it lacks in appearance and amenities it makes up for with location. Right in the middle of the Nob Hill area, next door to Kelly's Brewery, in walking distance to restaurants, pubs, shops, and UNM.</sleep>
+* <sleep name="Microtel West Albuquerque" address="9910 Avalon Rd NW" directions="western edge of town, near the intersection of I-40 and 98th St" phone="+1 505 836-1686" email="" fax="+1 505 831-2450" checkin="3PM" checkout="noon" price="$60-70" url="http://microtelinn.com/reservations/locationdetail.asp?facid=201">Basic chain motel on the edge of town. Stay if you're just passing through on I-40 or heading out of town the next day, but not if you're going to be exploring Albuquerque.</sleep>
+* <sleep name="Route 66 International Hostel" address="1012 Central Ave SW" directions="between Downtown and Old Town" phone="+1 505 247-1813" email="reservations@rt66hostel.com" checkin="4PM" checkout="10:30AM" price="Dormitories $20, private rooms start at $25" url="http://route66hostel.com/">Only hostel in town - it's a cozy little place with friendly staff and a nice patio. Centrally located, within walking distance of Downtown and fairly close to Old Town.</sleep>
+* <sleep name="Sleep Inn Airport" alt="" address="2300 International Ave SE" directions="off Yale N of the airport" phone="+1 505 244-3325" url="http://www.sleepinn.com/hotel-albuquerque-new_mexico-NM424" checkin="3PM" checkout="11AM" price="$60-70" lat="" long="" email="hotelhelp@choicehotels.com" fax="+1 505 244-3312"> Probably the cheapest of the several cookie-cutter hotels near the Albuquerque airport.</sleep>
+* <sleep name="Suburban Extended Stay" alt="" address="2401 Wellesley Dr" directions="" phone="+1 505 883-8888" url="http://www.suburbanhotels.com/hotel-albuquerque-new_mexico-NM129" checkin="3PM" checkout="noon" price="$60-70" lat="" long="" email="hotelhelp@choicehotels.com" fax="+1 505 883-2830">Located in a business district near the midtown area of Albuquerque, perfect for business travelers.</sleep>
+
+===Mid-range===
+* <sleep name="Adobe Nido Bed and Breakfast" alt="" address="1124 Major Ave NW" directions="off 12th Street south of Candelaria" phone="+1 505 344-1310" url="http://www.adobenido.com/" checkin="3PM" checkout="11AM" price="$119-239" lat="" long="" email="info@adobenido.com" fax="">A comfortable and relaxing Southwest style adobe inn with jetted tubs in all rooms and an outdoor Finnish sauna. Healthy breakfast every morning.</sleep>
+* <sleep name="Albuquerque Marriott" address="2101 Louisiana Blvd NE" directions="in the Uptown area, at Louisiana/I-40" phone="+1 505 881-6800" email="" fax="+1 505 888-2982" checkin="" checkout="" price="$100-200" url="http://www.marriott.com/hotels/travel/abqnm-albuquerque-marriott/">Highrise hotel located in the Uptown shopping area off I-40.</sleep>
+* <sleep name="Albuquerque Marriott Pyramid North" address="5151 San Francisco Road NE" directions="North I-25/Jefferson area" phone="+1 505 821-3333" email="abqmc@jqh.com" fax="+1 505 828-0230" checkin="" checkout="" price="$100-250" url="http://www.albuquerquemarriottnorth.com">Large hotel in "Aztec pyramid" shaped building.</sleep>
+* <sleep name="Best Western Rio Grande Inn" address="1015 Rio Grande Blvd" directions="north of Old Town at the intersection of I-40/Rio Grande" phone="+1 505 843-9500" email="reservations@riograndeinn.com" fax="+1 505 843-9238" checkin="" checkout="" price="$90-120" url="http://www.riograndeinn.com/">Basic chain motel which has the advantage of being right near Old Town.</sleep>
+* <sleep name="Bottger Mansion of Old Town" alt="" address="110 San Felipe St NW" directions="S of the Plaza " phone="+1 505 243-3639" url="http://www.bottger.com/" checkin="3-6PM" checkout="11AM" price="$115-179" lat="" long="" email="info@bottger.com" fax="">This historic house, now a bed-and-breakfast, is shaded by massive 100-yr old trees and is just steps away from the Old Town plaza.</sleep>
+* <sleep name="Courtyard Albuquerque" address="5151 Journal Center Blvd NE" directions="North I-25/Jefferson area" phone="+1 505 823-1919" email="" fax="+1 505 823-1918" checkin="" checkout="" price="$89" url="http://www.marriott.com/hotels/travel/abqcy-courtyard-albuquerque/">Chain motel in the North I-25 area.</sleep>
+*<sleep name="Courtyard Albuquerque Airport" alt="" address="1920 Yale Blvd" directions="" phone="+1 505 843-6600" url="http://www.marriott.com/hotels/travel/abqca-courtyard-albuquerque-airport/" checkin="" checkout="" price="" lat="" long="">Located in the airport area. Well lit work desks and complimentary high-speed internet.</sleep>
+* <sleep name="Doubletree Hotel Albuquerque" address="201 Marquette Ave NW" directions="" phone="+1 505 247-3344" email="" fax="+1 505 247-7025" checkin="3PM" checkout="noon" price="$150-200" url="http://doubletree.hilton.com/en/dt/hotels/index.jhtml;?ctyhocn=ALBSMDT">A luxury downtown highrise hotel with many amenities, not to mention the only place directly connected to the Albuquerque Convention Center.</sleep>
+* <sleep name="Embassy Suites Albuquerque" alt="" address="1000 Woodward Pl NE" directions="just off the intersection of I-25/Lomas near downtown" phone="+1 505 245-7100" url="http://embassysuites.hilton.com/en/es/hotels/index.jhtml;?ctyhocn=ABQEMES" checkin="3PM" checkout="noon" price="$120-170" lat="" long="" email="" fax="+1 505 247-1083">Great hotel overlooking downtown. It is an all-suite hotel!</sleep>
+*<sleep name="Residence Inn Albuquerque" alt="" address="3300 Prospect Avenue NE" directions="" phone="+505-881-2661" url="http://www.marriott.com/hotels/travel/abqri-residence-inn-albuquerque/" checkin="3PM" checkout="12PM" price="" lat="" long="">Located near downtown and Airport. Complimentary breakfast buffet and high-speed internet.</sleep>
+*<sleep name="Fairfield Inn Albuquerque University Area" alt="" address="1760 Menaul Boulevard NE" directions="" phone="+1-505-889-4000" url="http://www.marriott.com/hotels/travel/abqfi-fairfield-inn-albuquerque-university-area/" checkin="3PM" checkout="12PM" price="" lat="" long=""> Located in Midtown Albuquerque, the hotel is near the University of New Mexico</sleep>
+* <sleep name="Sheraton Albuquerque Airport Hotel" alt="Formerly Albuquerque Grand Airport Hotel" address="2910 Yale Blvd SE" directions="" phone="+1 505 843-7000" url="http://www.sheratonalbuquerqueairport.com" checkin="3PM" checkout="noon" price="$150-180" lat="" long="" email="" fax="+1 505 843-6307">The closest hotel to the airport, no more than 2 min. away by shuttle, which runs on the half hour. However, a management transfer has left the hotel in shambles. Poor value for the money spent - give it a miss and go with other nearby airport hotels instead.  Reasonable restaurant (Rojo's Grill) on the premises.</sleep>
+* <sleep name="Hawthorn Suites Albuquerque Airport" address="1511 Gibson Blvd SE" directions="just off I-25 near the airport" phone="+1 505 242-1555" email="" fax="+1 505 242-8801" checkin="3M" checkout="noon"
+price="$80" url="http://hawthorn.com/reservations/locationdetail.asp?facid=2029">Good airport hotel.</sleep>
+* <sleep name="Hilton Garden Inn Albuquerque Uptown" address="6510 Americas Pkwy NE" directions="just off I-40/Louisiana in Uptown area" phone="+1 505 944-0300" checkin="3PM" checkout="11AM" price="$145-165" url="http://hiltongardeninn.hilton.com/en/gi/hotels/index.jhtml;?ctyhocn=ABQUPGI">Highrise hotel located in the Uptown area.</sleep>
+* <sleep name="Hotel Albuquerque at Old Town" alt="" address="800 Rio Grande Blvd NW" directions="just north of Old Town" phone="+1 505 843-6300" url="http://www.hotelabq.com/" checkin="3PM" checkout="12PM" price="$140-$200" lat="" long="" email="" fax="+1 505 842-8426">A hotel near Old Town approaching "splurge" territory. On-site restaurant, business center, outdoor swimming pool & Jacuzzi, fitness center, and elegant event space.</sleep>
+* <sleep name="Hyatt Place Albuquerque Airport" address="1400 Sunport Pl SE" directions="just off I-25 near the airport" phone="+1 505 242-9300" email="gm.albuquerque.airport@amerisuites.com" fax="+1 505 242-0998" checkin="" checkout="" price="$140" url="http://albuquerqueairport.place.hyatt.com/hyatt/hotels/place/index.jsp">Great airport hotel.</sleep>
+* <sleep name="Hyatt Place Albuquerque Uptown" address="6901 Arvada Ave NE" directions="in the Uptown area near Louisiana/I-40" phone="+1 505 872-9000" email="shehnaz.mehta@hyattselect.com" fax="+1 505 872-3829" checkin="" checkout="" price="$140" url="http://albuquerqueuptown.place.hyatt.com/hyatt/hotels/place/index.jsp">Nice chain motel located in the Uptown area, right across the street from the ABQ Uptown mall.</sleep>
+* <sleep name="Hyatt Regency Albuquerque" alt="" address="330 Tijeras Ave NW" directions="" phone="" url="http://www.albuquerque.hyatt.com" checkin="" checkout="" price="$150-180" lat="" long="" email="">Large hotel right in downtown Albuquerque, in the smaller of the two tallest highrises with the pyramid roof.</sleep>
+* <sleep name="Mauger Estate Bed & Breakfast" alt="" address="701 Roma Ave NW" directions="Downtown, corner of 7th and Roma" phone="+1 800-719-9189 (fax: +1 505-842-8835)" url="http://maugerbb.com" checkin="3PM" checkout="11AM" price="$99-205" lat="" long="" email="maugerbb@aol.com">A cozy bed & breakfast near Downtown in a lovely old Victorian house. Pet-friendly.</sleep>
+*<sleep name="Radisson Hotel Albuquerque" alt="" address="2500 Carlisle Blvd NE" directions="at I-40 & Carlise" phone="+1 505 888-3311" url="http://www.radisson.com/albuquerque-hotel-nm-87110/nmabqrd" checkin="4PM" checkout="11AM" price="$130-250" lat="N 35° 6' 25" long="W 106° 36' 21.1">Recently remodeled, great staff, Sleep Number beds, free Wi-Fi and airport transportation. The main attraction here is a 30,000 sq.ft. water park open weekends, holidays and breaks.</sleep>
+*<sleep name="Residence Inn Albuquerque" alt="" address="3300 Prospect Avenue NE" directions="" phone="+505-881-2661" url="http://www.marriott.com/hotels/travel/abqri-residence-inn-albuquerque/" checkin="3PM" checkout="12PM" price="" lat="" long="">Located near downtown and Airport. Complimentary breakfast buffet and high-speed internet.</sleep>
+* <sleep name="Sheraton Albuquerque Airport Hotel" alt="Formerly Albuquerque Grand Airport Hotel" address="2910 Yale Blvd SE" directions="" phone="+1 505 843-7000" url="http://www.sheratonalbuquerqueairport.com" checkin="3PM" checkout="noon" price="$150-180" lat="" long="" email="" fax="+1 505 843-6307">The closest hotel to the airport, no more than 2 min. away by shuttle, which runs on the half hour. However, a management transfer has left the hotel in shambles. Poor value for the money spent - give it a miss and go with other nearby airport hotels instead.  Reasonable restaurant (Rojo's Grill) on the premises.</sleep>
+* <sleep name="Sheraton Albuquerque Uptown" address="2600 Louisiana Blvd NE" directions="at Louisiana and Menaul" phone="+1 505 881-0000" email="" fax="" checkin="3PM" checkout="noon" price="$100-200" url="http://www.starwoodhotels.com/sheraton/property/overview/index.html?propertyID=713&EM=OVERVIEW_WITRAVEL_SI_713_NM"></sleep>
+
+===Splurge===
+* <sleep name="Hotel Andaluz" alt="" address="125 Second Street NW" directions="at Copper" phone="+1 505 242-9090" email="contactus@hotelandaluz.com" fax="" url="http://www.hotelandaluz.com/" checkin="" checkout="" price="$150-$350">Definitely the most chic hotel in the city, the Andaluz is the city's place to see and be seen. One of only two historic hotels to achieve Leed Gold certification, it blends classic Albuquerque architecture with contemporary design. Every feature is a step beyond ordinary, from the Molton Brown bath amenities to the reservable casbahs in the lobby. Dine at MAS Tapas y Vino, one of the highest-rated restaurants in the city, or enjoy the scene at Ibiza!, the hotel's outdoor bar and cabanas. Live music is offered on weekend evenings. http://www.hotelandaluz.com</sleep>
+* <sleep name="Hotel Parq Central" alt="" address="806 Central Avenue SE" directions="just west of I-25" phone="+1 505 242-0040" email="info@hotelparqcentral.com" fax="" url="http://hotelparqcentral.com/" checkin="" checkout="" price="$150-300">A boutique hotel in the downtown area, in a lovely old building with gardens and a rooftop bar with excellent views. The accommodations themselves are wonderful, with high ceilings, large windows, and nice furnishings.</sleep>
+* <sleep name="Los Poblanos Inn" address="4803 Rio Grande Blvd NW" directions="" phone="+1 505 344-9297" email="nfo@lospoblanos.com" fax="+1 505 342-1302" checkin="" checkout="" price="$150-315" url="http:///www.lospoblanos.com">Located in the Village of Los Ranchos de Albuquerque (7 mi/11 km from downtown Albuquerque), the inn and 25 acre grounds are beautiful, set near the Rio Grande bosque with conference and meeting facilities available.</sleep>
+
+==Stay safe==
+
+Albuquerque has an extremely high crime rate compared to nearly all other American cities. It is ranked highest in the nation for auto theft. If you are driving through Albuquerque and need to stop for any reason, it pays to secure your vehicle with an anti-theft device. Don't leave valuables unattended in your vehicle.
+
+Central Avenue is home to some of Albuquerque's main attractions including the new bus based public transit system, but portions of it are dangerous even during daylight hours. The downtown core is relatively safe by daylight, although smaller cross streets such as Copper should be avoided after dark. The downtown core and the Nob Hill/UNM district (between University and Carlisle) are relatively safe even at night, but the section between the train tracks (eastern edge of downtown) to University Blvd. should be avoided at night. Central Avenue gets progressively seedier east of Carlisle, with the area officially known as the "International District" but traditionally known as the "War Zone" stretching along both sides of Central Avenue between San Mateo and Wyoming all the way south to Ridgecrest Blvd, and north to Lomas Blvd. This area is known for a great deal of drug use, prostitution, gang activity, carjacking, and gun violence. The Fairgrounds area near San Pedro at Central can get quite scary by day or night. Consider the bus or a cab through these areas by day, roll up your windows and lock your doors if you simply must drive through them, and avoid them completely after the sun goes down.
+
+Due to its size and mild climate, the streets of Albuquerque are considered home to many people. While not typically a danger, do expect to meet up with beggars and vagrants, particularly around UNM and at nearly every major intersection in town. Be careful while driving because beggars routinely walk into traffic to solicit money.
+
+If you're going to be engaging in outdoor recreation (even as laid-back as watching an Isotopes day game), put on the sun screen.  The elevation of the city is 5000 ft or higher, and there is usually not much cloud cover, so one can get a bad sunburn in surprisingly short order. New Mexico, because of its high altitude, has a higher-than-average lightning risk during thunderstorms.
+
+Be forewarned about New Mexican cuisine; if you're not used to green chile, go easy at first.  Many first-timers have tried to eat the hottest chile they could find, only to discover six hours later  that it was MUCH hotter than they remembered.  Be prepared.
+
+==Contact==
+The area code for the city is '''505'''.
+
+Every branch of the '''Albuquerque/Bernalillo County Library System''' [http://www.cabq.gov/library/] provides free wifi; they also have computers available but these require that you purchase an internet access card for $3. The Downtown Main Library is at 501 Copper NW, ''+1 505'' 768-5141. There are also a number of free Wi-Fi hot spots provided by the city, mainly around Civic Plaza in Downtown, the Sunport, and the Old Town Plaza [http://www.cabq.gov/wifi/#map]. Also, it is free to connect to the guest wifi on the UNM campus.  Generally, there aren't very many wireless cafes in the city, but there is a good concentration around the UNM/Nob Hill area. The local Flying Star Cafe and '''Satellite Coffee''' [http://www.satcoffee.com/] locations offer free wireless internet to customers.
+
+==Cope==
+[[Image:Albuquerque sandiamountains.JPG|thumb|Albuquerque with the ever-present Sandia Mountains as a backdrop]]
+
+* '''Kadampa Meditation Center New Mexico''' [http://www.meditationinnewmexico.org/] offers meditation classes, retreats and special courses to reduce stress and increase inner peace.
+===Newspapers===
+
+* The '''Albuquerque Journal''' [http://www.abqjournal.com/] ($0.50 daily, $1.50 Sundays) is the state's largest newspaper and talks about issues in the metro area, the state, and the world. 
+
+* The '''Alibi''' [http://www.alibi.com/] (free Wednesday mornings) is a free weekly that discusses issues in the metro area and runs some columns, but is more focused on the arts scene and has some great movie and restaurant reviews. They also run a number of "best of..." lists, notably the yearly "Best of Burque" awards. Great event listings.
+
+* The '''Daily Lobo''' [http://www.dailylobo.com/] (free daily) is a daily newspaper (Monday through Fridays in the school year) produced by UNM students.
+
+===Smoking===
+
+New Mexico has a state-wide ban on smoking in places of business.  This includes bars and restaurants.  The only exceptions are casinos and cigar bars.  In addition Albuquerque has banned smoking on all public property except the golf courses.
+
+===Consulates===
+
+* [[Image:mx-flag.png|20px]] <listing name="Mexico" alt="" directions="" address="1610 4th St NW" phone="+1 505 247-2147" email="" fax="+1 505 842-9490" url="http://portal.sre.gob.mx/albuquerque " hours="" price=""></listing>
+
+==Get out==
+[[Image:Salinas abo.jpg|thumb|Abo Ruins, Salinas Pueblo Missions National Monument]]
+
+'''North of Albuquerque:'''
+* '''[[Santa Fe (New Mexico) | Santa Fe]]''', one of the world's great travel destinations, is about 60 mi (97 km) to the north.  The direct route is via I-25, but if you have time and the weather forecast is good, consider taking instead the "Turquoise Trail" (NM SR 14) on the east side of the Sandia Mountains. If you'd rather not drive, you can also take the Rail Runner commuter train straight into the heart of the city.
+* If taking the Turquoise Trail, stop at '''[[Madrid (New Mexico) | Madrid]]''', an artist community located along the way.  There's a small selection of galleries, a glass blower and decent tavern for lunch. Another attraction on the route is the '''Tinker Town Museum''' [http://www.tinkertown.com/], which contains a large collection of wood carvings and Americana.  Its off Hwy 536 on the Turquoise Trail about 20 minutes from Albuquerque.  Its open 1 Apr-1 Nov.
+* '''[[Bernalillo]]''' is 15 mi (24 km) north on I-25 and is connected via the Rail Runner commuter train.  The '''Coronado State Monument''' [http://www.nmmonuments.org/about.php?_instid=CORO] is a popular attraction, as well as the Santa Ana Pueblo's casino and golf course, which are right next to Bernalillo.
+* There are several Native American '''[[New Mexico Pueblos|pueblos]]''' between Albuquerque and Santa Fe just off I-25. Some of them offers attractions and a chance to explore the area. If you have a few hours to kill, consider a detour to Cochiti Pueblo and the '''Kasha-Katuwe Tent Rocks National Monument''' [http://www.blm.gov/nm/st/en/prog/recreation/rio_puerco/kasha_katuwe_tent_rocks.html]. This little known monument, open for day use ($5/vehicle), contains some gorgeous natural scenery and geologic formations, such as a narrow slot canyon you can hike through. To get there, get off at the Santo Domingo Pueblo exit (Exit 259) and follow the signs up SR 22 and onto a gravel road to the monument.
+* The pretty '''[[Jemez Mountains]]''' offer pleasant hiking and fishing in the summer and can be good for skiing and snowshoeing in the winter, although snowpack varies greatly from year to year and may be insufficient for winter sports.  Take I-25 north to Bernalillo, then US 550 to San Ysidro, where NM 4 (502 on some maps) takes off through the astonishing red rock of San Diego Canyon and into the Jemez.
+* '''[[Los Alamos]]''' and '''[[Bandelier National Monument]]''' are also to the north, and about as distant from Albuquerque via the Jemez route as via the Santa Fe route.  
+* Beyond Santa Fe lies the beauty and cultural color of '''[[North Central New Mexico |north central New Mexico]]''' -- [[Taos]], [[Sangre de Cristo Mountains]], etc.
+
+'''South of Albuquerque:'''
+* '''Isleta Pueblo''', off of I-25 just south of the city, is a small Native American village with the St. Augustine Church, a large white mission and one of the oldest in the nation. Take the Isleta Pueblo exit (NM 314) and drive south until you reach the village.
+* '''[[Belen]]''' is located about 30 mi (48 km) south and makes a good day trip.
+* '''[[Mountainair]]''', about a 90-min. drive southeast, is the home of the '''Salinas Pueblo Missions National Monument''', a superb collection of pueblo and Spanish mission ruins.
+* If traveling south during the winter, be sure to stop at the '''Bosque del Apache National Wildlife Refuge''', south of [[Socorro]] and covered in that community's article...and while you are down there, consider visiting the '''Very Large Array''', one of the worlds biggest radio telescope arrays.
+
+{{routebox-2
+| placename=Albuquerque
+
+| image1=I-25.png
+| imagesize1=22
+| directionl1=N
+| majorl1=[[Santa Fe (New Mexico)|Santa Fe]]
+| minorl1=[[Bernalillo]]
+| directionr1=S
+| majorr1=[[Las Cruces]]
+| minorr1=[[Los Lunas]]
+
+| image2=I-40.png
+| imagesize2=22
+| directionl2=W
+| majorl2=[[Gallup]]
+| minorl2=[[Grants]]
+| directionr2=E
+| majorr2=[[Tucumcari]]
+| minorr2=[[Edgewood (New Mexico)|Edgewood]]
+
+| image3=Historic-66.png
+| imagesize3=22
+| directionl3=W
+| majorl3=[[Gallup]]
+| minorl3=[[Grants]]
+| directionr3=E
+| majorr3=[[Tucumcari]]
+| minorr3=[[Edgewood (New Mexico)|Edgewood]]
+}}
+
+{{Starcity}}
+{{title-icons|dotm-icon|star-icon}}
+{{isPartOf|Central_New_Mexico}}
+
+[[fr:Albuquerque]]
+[[it:Albuquerque]]
+[[ja:アルバカーキ]]
+[[ko:앨버커키]]
+[[nl:Albuquerque]]
+[[Wikipedia:Albuquerque, New Mexico]]
+[[World66:northamerica/unitedstates/newmexico/albuquerque]]
