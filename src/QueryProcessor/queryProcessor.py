@@ -28,7 +28,7 @@ class queryProcessor:
         self.output_dir = output_dir
     
 
-    def process_query(self):
+    def process_query(self) -> list[Query]:
         """
         """
         results = []
@@ -60,6 +60,8 @@ class queryProcessor:
         output_path = os.path.join(self.output_dir, "processed_query.json")
         with open(output_path, "w") as f:
             f.write(json_string)
+        
+        return self.query_list
 
     def _extract_constraints(self, query: Query) -> list[str]:
         """

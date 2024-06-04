@@ -40,3 +40,12 @@ class Query:
 
     def add_constraint(self, constraint: Constraint):
         self.constraints.append(constraint)
+
+    def get_descriptions(self) -> list[list[str]]:
+        descriptions = []
+        for c in self.constraints:
+            if isinstance(c, SpecificConstraint): # a specific constraint only have one description
+                descriptions.append([c.description])
+            else: # a general constraint have three description
+                descriptions.append(c.expansion)
+        return descriptions
