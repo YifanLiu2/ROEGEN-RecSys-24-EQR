@@ -1,16 +1,16 @@
 [
     {
-        "query": "I'm a huge Harry Potter fan. Where are some cities known for Harry Potter film?",
+        "query": "Can you recommend cities with Disney attractions for my next vacation?",
         "constraints": [
             {
-                "description": "The cities should be known for Harry Potter film locations.",
+                "description": "The cities should have Disney attractions.",
                 "specificity": true,
                 "verifiability": true
             }
         ]
     },
     {
-        "query": "As a solo traveler, which cities are known for being safe and welcoming for people traveling alone?",
+        "query": "which cities are known for being safe and welcoming for people traveling alone?",
         "constraints": [
             {
                 "description": "The cities should be known for being safe.",
@@ -48,14 +48,39 @@
                 "verifiability": false,
                 "expansions": [
                     "The cities should be budget-friendly.",
-                    "The cities should be affordable.",
-                    "The cities should offer cost-effective options."
+                    "The cities should be cost-effective.",
+                    "The cities should offer affordable living options."
                 ]
             }
         ]
     },
     {
-        "query": "Seeking cities in tropical region suitable for a family vacation with kids. Any suggestions?",
+        "query": "What cities in Europe host cultural festivals during the summer months that I shouldn't miss?",
+        "constraints": [
+            {
+                "description": "The cities should be in Europe.",
+                "specificity": true,
+                "verifiability": true
+            },
+            {
+                "description": "The cities should host cultural festivals.",
+                "specificity": false,
+                "verifiability": true,
+                "expansions": [
+                    "The cities should host cultural festivals.",
+                    "The cities should organize cultural events.",
+                    "The cities should hold celebrations of cultural heritage."
+                ]
+            },
+            {
+                "description": "The festivals should occur during the summer months.",
+                "specificity": true,
+                "verifiability": true
+            }
+        ]
+    },
+    {
+        "query": "Seeking cities in tropical region suitable for a family vacation with kids.",
         "constraints": [
             {
                 "description": "The cities should be in a tropical region.",
@@ -70,31 +95,6 @@
                     "The cities should be suitable for a family vacation with kids.",
                     "The cities should be family-friendly and accommodating for children.",
                     "The cities should offer amenities and attractions suitable for kids."
-                ]
-            }
-        ]
-    },
-    {
-        "query": "What cities host cultural festivals during the summer months that I shouldn't miss?",
-        "constraints": [
-            {
-                "description": "The cities should host cultural festivals.",
-                "specificity": false,
-                "verifiability": true,
-                "expansions": [
-                    "The cities should host cultural festivals.",
-                    "The cities should organize cultural events.",
-                    "The cities should hold celebrations of cultural heritage."
-                ]
-            },
-            {
-                "description": "The cities should have events during the summer months.",
-                "specificity": false,
-                "verifiability": true,
-                "expansions": [
-                    "The cities should have events during the summer months.",
-                    "The cities should host summer events.",
-                    "The cities should offer activities in the summer months."
                 ]
             }
         ]
