@@ -7,18 +7,18 @@ from src.Embedder.GPTEmbedder import *
 from src.Embedder.STEmbedder import *
 from src.Query.query import *
 
-class AbstractDenseRetriever(abc.ABC):
+class AbstractRetriever(abc.ABC):
     """
     Abstract base dense retriever class.
     """
-    def __init__(self, model: LMEmbedder, query_path: str, embedding_dir: str, output_path: str, percentile: float = 10):
+    def __init__(self, model: LMEmbedder, query_path: str, dense_embedding_dir: str, output_path: str, percentile: float = 10):
         self.model = model
         self.query_path = query_path
         
         # check embedding dir
-        if not os.path.exists(embedding_dir):
-            raise ValueError(f"Invalid directory path for destination embeddings: {embedding_dir}")
-        self.embedding_dir = embedding_dir
+        if not os.path.exists(dense_embedding_dir):
+            raise ValueError(f"Invalid directory path for destination embeddings: {dense_embedding_dir}")
+        self.dense_embedding_dir = dense_embedding_dir
 
         # check output path
         output_dir = os.path.dirname(output_path)
@@ -43,25 +43,25 @@ class AbstractDenseRetriever(abc.ABC):
     def load_dest_embeddings(self) -> tuple[dict[str, list[str]], dict[str, np.ndarray]]:
         """
         Loads destination text chunks and associated embeddings from the specified directory.
-        :return: tuple(dict[str, list[str]], dict[str, np.ndarray]), a tuple containing dictionaries for destination chunks and embeddings.
+        :return: tuple(dict[str, list[str]], dict[str, np.ndarray], dict[str, np.ndarray] | None), a tuple containing dictionaries for destination chunks and embeddings.
         """
         dests_chunks = dict()
         dests_embs = dict()
-        pkls = sorted([f for f in os.listdir(self.embedding_dir)])
+        pkls = sorted([f for f in os.listdir(self.dense_embedding_dir)])
         for i in range(0, len(pkls)):
             # if the file's name ends with chunks.pkl, then it is a chunks file
             if pkls[i].endswith("chunks.pkl"):
                 city_name = pkls[i].split("_")[0]
-                dests_chunks[city_name] = pickle.load(open(f"{self.embedding_dir}/{pkls[i]}", "rb"))
+                dests_chunks[city_name] = pickle.load(open(f"{self.dense_embedding_dir}/{pkls[i]}", "rb"))
             # if the file's name ends with emb.pkl, then it is an embeddings file
             elif pkls[i].endswith("emb.pkl"):
                 city_name = pkls[i].split("_")[0]
-                dests_embs[city_name] = pickle.load(open(f"{self.embedding_dir}/{pkls[i]}", "rb"))
-        
+                dests_embs[city_name] = pickle.load(open(f"{self.dense_embedding_dir}/{pkls[i]}", "rb"))
+
         return dests_chunks, dests_embs
 
     @abc.abstractmethod
-    def dense_retrieval(self, queries: list, dests_emb: dict[str, np.ndarray], dests_chunks: dict[str, list[str]], percentile: float) -> dict:
+    def retrieval(self, queries: list, dests_emb: dict[str, np.ndarray], dests_chunks: dict[str, list[str]], percentile: float) -> dict:
         """
         Abstract method to be implemented for dense retrieval.
 
@@ -73,23 +73,23 @@ class AbstractDenseRetriever(abc.ABC):
         """
         pass
         
-    def run_dense_retrieval(self) -> None:
+    def run_retrieval(self) -> None:
         """
-        Loads necessary data and runs the dense retrieval process, then saves the results to the specified output path.
+        Loads necessary data and runs the dense / dense + sparse retrieval process, then saves the results to the specified output path.
         """
         # load data
         queries = self.load_queries() # list[str]
         dests_chunks, dests_embs = self.load_dest_embeddings()
 
         # run dense retrieval
-        dense_results = self.dense_retrieval(queries=queries, dests_emb=dests_embs, dests_chunks=dests_chunks, percentile=self.percentile)
+        final_results = self.retrieval(queries=queries, dests_emb=dests_embs, dests_chunks=dests_chunks, percentile=self.percentile)
         
         # save results
         with open(self.output_path, "w") as file:
-            json.dump(dense_results, file)
+            json.dump(final_results, file)
 
 
-class DenseRetriever(AbstractDenseRetriever):
+class DenseRetriever(AbstractRetriever):
     """
     Concrete DenseRetriever class.
     """
@@ -99,7 +99,7 @@ class DenseRetriever(AbstractDenseRetriever):
             raise ValueError(f"Invalid query path: '{query_path}'. Must be a txt file.")
         super().__init__(model, query_path, embedding_dir, output_path, percentile)
     
-    def dense_retrieval(self, queries: list[str], dests_emb: dict[str, np.ndarray], dests_chunks: dict[str, list[str]], percentile: float) -> dict[str, dict[str, tuple[float, list[str]]]]:
+    def retrieval(self, queries: list[str], dests_emb: dict[str, np.ndarray], dests_chunks: dict[str, list[str]], percentile: float) -> dict[str, dict[str, tuple[float, list[str]]]]:
         """
         Perform dense retrieval for each query.
 
@@ -136,14 +136,14 @@ class DenseRetriever(AbstractDenseRetriever):
                 dense_results[d][dest_name] = (avg_score, top_chunks)
         return dense_results
 
-class DenseRetrieverQE(AbstractDenseRetriever):
+class DenseRetrieverQE(AbstractRetriever):
     """
     Extended the DenseRetriever to support query expansion.
     """
     def __init__(self, model: LMEmbedder, query_path: str, embedding_dir: str, output_path: str, percentile: float = 10):
         super().__init__(model, query_path, embedding_dir, output_path, percentile)
 
-    def dense_retrieval(self, queries: list[Query], dests_emb: dict[str, np.ndarray], dests_chunks: dict[str, list[str]], percentile: float) -> dict[str, dict[str, tuple[float, dict[str, list[str]]]]]:
+    def retrieval(self, queries: list[Query], dests_emb: dict[str, np.ndarray], dests_chunks: dict[str, list[str]], percentile: float) -> dict[str, dict[str, tuple[float, dict[str, list[str]]]]]:
         """
         Processes each query with its subqueries (or constraints) and associated weights for a weighted dense retrieval.
 

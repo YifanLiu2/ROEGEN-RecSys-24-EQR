@@ -25,7 +25,7 @@ class SpecificConstraint(Constraint):
     """
     Represents a specific constraint with proper noun.
     """
-    def __init__(self, description, is_verifiable):
+    def __init__(self, description, is_verifiable,):
         super().__init__(description, is_verifiable)
     
     def get_query(self) -> list[str]:
@@ -73,6 +73,10 @@ class Query(ABC):
     @abstractmethod
     def get_description_weights(self) -> list[float]:
         pass
+
+    @abstractmethod
+    def get_specific_constraints(self) -> list[str]:
+        pass
     
 class QueryQE(Query):
     """
@@ -105,6 +109,14 @@ class QueryQE(Query):
         :return: List of equal weights for each description.
         """
         return [1 for _ in self.expansions]
+    
+    def get_specific_constraints(self) -> list[str]:
+        """
+        Retrieves all specific constraints from the query.
+        
+        :return: Empty list since query expansion does not contain specific constraints.
+        """
+        return []
 
 class QueryCE(Query):
     """
@@ -142,7 +154,19 @@ class QueryCE(Query):
         """
         weights = []
         for c in self.constraints:
-            ds = c.get_query()
-            w = [1 / len(ds) for _ in ds]
+            if isinstance(c, SpecificConstraint):
+                w = [0.5]
+            else:
+                ds = c.get_query()
+                w = [1 / len(ds) for _ in ds]
             weights.extend(w)
         return weights
+    
+    def get_specific_constraints(self) -> list[str]:
+        """
+        Retrieves all specific constraints from the query.
+        
+        :return: List of specific constraints.
+        """
+        return [c.description for c in self.constraints if isinstance(c, SpecificConstraint)]
+        
