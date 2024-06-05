@@ -2,6 +2,9 @@ import os, re
 from tqdm import tqdm
 
 class DataProcessor:
+    """
+    DataProcessor class to clean and process text data files.
+    """
     def __init__(self, raw_dest_dir: str, new_dest_dir: str = "data/clean_destination_air_canada_xml"):
         # check if raw file dir exist
         if not os.path.exists(raw_dest_dir):
@@ -13,6 +16,12 @@ class DataProcessor:
         self.new_dest_dir = new_dest_dir
     
     def clean_text(self, text: str):
+        """
+        Cleans text by removing various unwanted formatting.
+
+        :param text: String containing the raw text to be cleaned.
+        :return: A string with the cleaned text.
+        """
         text = re.sub(r'\{\{[^\}]+\}\}', '', text)  # remove markup
         text = re.sub(r'\[\[[^\|\]]+\|?[^\]]*\]\]', '', text)  # remove all wiki-style links
         text = re.sub(r'\[?\[([^]]+)\]\]?', r'\1', text)  # clean remaining brackets around URLs
@@ -29,6 +38,9 @@ class DataProcessor:
         return text.strip()
 
     def process_files(self):
+        """
+        Processes all text files in the raw directory, cleaning each and saving the results in a new directory.
+        """
         # only keep txt file
         files = [f for f in os.listdir(self.raw_dest_dir) if f.endswith('.txt')]
         for filename in tqdm(files, desc="Cleaning Text Files"):

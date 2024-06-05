@@ -10,12 +10,12 @@ class queryProcessor:
     """
     Query Processor class
     """
-    def __init__(self, query: Query | list[Query], llm: LLM, output_dir: str = "output"):
+    def __init__(self, query: QueryCE | list[QueryCE], llm: LLM, output_dir: str = "output"):
         """
         Initialize the query processor
         :param query:
         """
-        if isinstance(query, Query):
+        if isinstance(query, QueryCE):
             self.query_list = [query]
         else:
             self.query_list = query
@@ -28,7 +28,7 @@ class queryProcessor:
         self.output_dir = output_dir
     
 
-    def process_query(self) -> list[Query]:
+    def process_query(self) -> list[QueryCE]:
         """
         """
         results = []
@@ -53,6 +53,8 @@ class queryProcessor:
                     self._expand_constraint(constraint=c)
                     query_result["constraints"].append({"description": c.description, "specificity": False, "verifiability": c.verifiable(), "expansions": c.expansion})
                 
+                # add constraints
+                query.add_constraint(c)
             results.append(query_result)
 
         # store results
@@ -63,7 +65,7 @@ class queryProcessor:
         
         return self.query_list
 
-    def _extract_constraints(self, query: Query) -> list[str]:
+    def _extract_constraints(self, query: QueryCE) -> list[str]:
         """
         """
         # actual prompt
