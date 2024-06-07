@@ -1,8 +1,5 @@
 class Evaluator:
-    def __init__(self, k: int, relevance, dr_results, query_mapper = None):
+    def __init__(self, json_path, ground_truths: dict, k : int = None):
         self.k = k
-        self.relevance = relevance
-        self.dr_results = dr_results
-        self.query_mapper = query_mapper
-
-    
+        self.json_path = json_path
+        self.ground_truths = ground_truths
