@@ -42,16 +42,16 @@ import matplotlib.pyplot as plt
 plt.hist(number_of_chunks, bins=range(min(number_of_chunks), max(number_of_chunks) + 1), edgecolor='black')
 
 # Add labels and title
-plt.xlabel('Value')
+plt.xlabel('Number of Chunks per city')
 plt.ylabel('Frequency')
 plt.title('Histogram')
 
 # Show plot
 plt.show()
-plt.hist(chunk_lengths, bins=range(min(chunk_lengths), max(number_of_chunks)+1), edgecolor='black')
+plt.hist(chunk_lengths, bins=range(min(chunk_lengths), 25), edgecolor='black')
 
 # Add labels and title
-plt.xlabel('Value')
+plt.xlabel('Length of Chunks in Dataset')
 plt.ylabel('Frequency')
 plt.title('Histogram')
 

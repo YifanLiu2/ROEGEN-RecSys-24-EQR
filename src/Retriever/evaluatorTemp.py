@@ -2,7 +2,7 @@
 import json
 
 # Step 1: Read JSON file and convert to Python object
-with open('output/dense_results_with_qe_v2_top3.json', 'r') as json_file:
+with open('output/dense_results_total_ela_top3_Tropical_family.json', 'r') as json_file:
     data = json.load(json_file)
 
 # Verify the loaded data
