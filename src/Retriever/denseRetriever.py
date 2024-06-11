@@ -5,7 +5,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 from src.Embedder.GPTEmbedder import *
 from src.Embedder.STEmbedder import *
-from src.Query.query import *
+from src.Entity.query import *
 
 class AbstractRetriever(abc.ABC):
     """
