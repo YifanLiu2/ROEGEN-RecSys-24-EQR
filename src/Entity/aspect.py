@@ -1,4 +1,4 @@
-from abc import ABC, abstractmethod
+from abc import ABC
 
 class Aspect(ABC):
     """
@@ -8,15 +8,6 @@ class Aspect(ABC):
     """
     def __init__(self, description: str):
         self.description = description
-
-class Preference(Aspect):
-    """
-    A class represents a soft preference in a user query.
-
-    :param description (str): Initial description of the preference.
-    """
-    def __init__(self, description: str):
-        super().__init__(description)
         self.new_description = description
     
     def set_new_description(self, new_description: str):
@@ -28,6 +19,15 @@ class Preference(Aspect):
     def get_new_description(self) -> str:
         return self.new_description
 
+class Preference(Aspect):
+    """
+    A class represents a soft preference in a user query.
+
+    :param description (str): Initial description of the preference.
+    """
+    def __init__(self, description: str):
+        super().__init__(description)
+        
 
 class Constraint(Aspect):
     """
@@ -35,3 +35,4 @@ class Constraint(Aspect):
     """
     def __init__(self, description: str):
         super().__init__(description)
+        

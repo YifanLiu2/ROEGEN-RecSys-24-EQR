@@ -1,4 +1,4 @@
-from aspect import *
+from .aspect import *
 
 class Query:
     """
@@ -9,10 +9,16 @@ class Query:
     :param preferences (list[Preference]): A list of user preferences.
     :param constraints (list[Constraint]): A list of conditions that the query must satisfy.
     """
-    def __init__(self, description: str, preferences: list[Preference], constraints: list[Constraint]):
+    def __init__(self, description: str, preferences: list[Preference] = [], constraints: list[Constraint] = []):
         self.description = description
         self.preferences = preferences
         self.constraints = constraints
+    
+    def get_description(self) -> str:
+        """
+        Return the description of the query.
+        """
+        return self.description
     
     def get_preferences(self) -> list[Preference]:
         """
