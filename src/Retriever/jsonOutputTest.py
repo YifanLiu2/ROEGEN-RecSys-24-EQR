@@ -3,7 +3,7 @@ import json
 
 # Step 1: Read JSON file and convert to Python object
 
-def outputlist_of_queries(path : str):
+def outputlist_of_queries(path : str, k:int):
     with open(path, 'r') as json_file:
         data = json.load(json_file)
 
@@ -27,7 +27,7 @@ def outputlist_of_queries(path : str):
 
     for question, citydict in master.items():
         print(question) 
-        for j in range(20):
+        for j in range(k):
             # print(list(citydict.items())[j])
             print(list(citydict.items())[j][0])
 
