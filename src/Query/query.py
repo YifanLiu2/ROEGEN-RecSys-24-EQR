@@ -6,6 +6,7 @@ class Constraint(ABC):
     """
     def __init__(self, description, is_verifiable):
         self.description = description
+        self.definition = None
         self.is_verifiable = is_verifiable
 
     def verifiable(self) -> bool:
@@ -15,6 +16,14 @@ class Constraint(ABC):
         :return: Boolean indicating verifiability.
         """
         return self.is_verifiable
+    
+    def define(self, definition: str):
+        """
+        Adds a definition to the constraint.
+        
+        :param definition: String definition to be added.
+        """
+        self.definition = definition
 
     @abstractmethod
     def get_query(self):
@@ -140,10 +149,7 @@ class QueryCE(Query):
         
         :return: List of constraint descriptions.
         """
-        descriptions = []
-        for c in self.constraints:
-            ds = c.get_query()
-            descriptions.extend(ds)
+        descriptions = [c.definition for c in self.constraints]
         return descriptions
     
     def get_description_weights(self) -> list[float]:
@@ -152,15 +158,16 @@ class QueryCE(Query):
         
         :return: List of weights for descriptions.
         """
-        weights = []
-        for c in self.constraints:
-            if isinstance(c, SpecificConstraint):
-                w = [0.5]
-            else:
-                ds = c.get_query()
-                w = [1 / len(ds) for _ in ds]
-            weights.extend(w)
-        return weights
+        # weights = []
+        # for c in self.constraints:
+        #     if isinstance(c, SpecificConstraint):
+        #         w = [0.5]
+        #     else:
+        #         ds = c.get_query()
+        #         w = [1 / len(ds) for _ in ds]
+        #     weights.extend(w)
+        # return weights
+        return [1 for _ in self.constraints]
     
     def get_specific_constraints(self) -> list[str]:
         """

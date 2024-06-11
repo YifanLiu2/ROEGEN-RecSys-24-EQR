@@ -86,7 +86,7 @@ class AbstractRetriever(abc.ABC):
         
         # save results
         with open(self.output_path, "w") as file:
-            json.dump(final_results, file)
+            json.dump(final_results, file, indent=4)
 
 
 class DenseRetriever(AbstractRetriever):
@@ -121,11 +121,15 @@ class DenseRetriever(AbstractRetriever):
             # for each destination, calculate similarity score
             for dest_name, dest_emb in dests_emb.items(): # shape [chunk_size, emb_size]
                 score = cosine_similarity(dest_emb, description_emb).flatten() # shape [chunk_size]
-                threshold = np.percentile(score, percentile) # determine the threshold
+                # threshold = np.percentile(score, percentile) # determine the threshold
                 
                 # extract top idx and top score
-                top_idx = np.where(score >= threshold)[0]
-                top_score = score[score >= threshold]
+                # top_idx = np.where(score >= threshold)[0]
+                # top_score = score[score >= threshold]
+
+                # top_score is the top 3 score
+                top_idx = np.argsort(score)[-3:]
+                top_score = score[top_idx]
                 avg_score = np.sum(top_score) / top_score.shape[0] # a scalar score
 
                 # retrieve top chunks
@@ -175,11 +179,15 @@ class DenseRetrieverQE(AbstractRetriever):
                 for d, w in zip(descriptions, weights):
                     description_emb = self.model.encode(d) # shape [1, emb_size]
                     score = cosine_similarity(dest_emb, description_emb).flatten() # shape [chunk_size]
-                    threshold = np.percentile(score, percentile) # determine the threshold
+                    # threshold = np.percentile(score, percentile) # determine the threshold
                     
                     # extract top idx and top score
-                    top_idx = np.where(score >= threshold)[0]
-                    top_score = score[score >= threshold]
+                    # top_idx = np.where(score >= threshold)[0]
+                    # top_score = score[score >= threshold]
+
+                    # top_score is the top 3 score
+                    top_idx = np.argsort(score)[-3:]
+                    top_score = score[top_idx]
                     avg_score = np.sum(top_score) / top_score.shape[0] # a scalar score
 
                     # retrieve top chunks
@@ -194,3 +202,53 @@ class DenseRetrieverQE(AbstractRetriever):
                 dense_results[q.description][dest_name] = (dest_score, sub_dense_results)
 
         return dense_results
+    
+class DenseRetrieverElaboration(AbstractRetriever):
+    """
+    Extended the DenseRetriever to support query elaboration.
+    """
+
+    def __init__(self, model: LMEmbedder, query_path: str, embedding_dir: str, output_path: str, percentile: float = 10):
+        super().__init__(model, query_path, embedding_dir, output_path, percentile)
+
+    def retrieval(self, queries: list[Query], dests_emb: dict[str, np.ndarray], dests_chunks: dict[str, list[str]], percentile: float) -> dict[str, dict[str, tuple[float, dict[str, list[str]]]]]:
+
+        dense_results = dict()
+        
+        # for each query
+        for q in queries:
+            print("-----------------------------")
+            print(f"Process query: {q.description}")
+            dense_results[q.description] = dict()
+            constraints = q.constraints
+            descriptions = constraints.get_descriptions()
+            weights = q.get_description_weights()
+            assert len(descriptions) == len(weights) # one to one map between description and weight
+
+            # for each destination
+            for dest_name, dest_emb in tqdm(dests_emb.items(), desc="Processing destinations"):
+                dest_score = 0
+                sub_dense_results = dict()  # results for subquery
+                # for each subquery (description)
+                for d, w in zip(descriptions, weights):
+                    description_emb = self.model.encode(d)
+                    score = cosine_similarity(dest_emb, description_emb).flatten()
+
+                    # top_score is the top 3 score
+                    top_idx = np.argsort(score)[-3:]
+                    top_score = score[top_idx]
+                    avg_score = np.sum(top_score) / top_score.shape[0]
+
+                    chunks = np.array(dests_chunks[dest_name])
+                    top_chunks = chunks[top_idx].tolist()
+
+                    # store subquery results
+                    sub_dense_results[d] = top_chunks
+                    dest_score += avg_score * w
+                    
+                # store dest results
+                dense_results[q.description][dest_name] = (dest_score, sub_dense_results)
+
+        return dense_results
+                                                                                                                                               
+                                                                                                                                               

@@ -64,6 +64,29 @@ class queryProcessor:
             f.write(json_string)
         
         return self.query_list
+    
+    def process_query_v2(self) -> list[QueryCE]:
+        """
+        """
+        # Extract constraints
+        for query in tqdm(self.query_list, desc="Processing queries", unit="query"):
+            
+            # extract constraints
+            constraints = self._extract_constraints(query=query)
+            for c_string in constraints:
+                # classify
+                is_specific = self._is_specific(c_string)
+                is_verifiable = self._is_verifiable(c_string)
+
+                # init constraint
+                if is_specific:
+                    c = SpecificConstraint(description=c_string, is_verifiable=is_verifiable)
+                else:
+                    c = GeneralConstraint(description=c_string, is_verifiable=is_verifiable)
+                # add constraints
+                c = self._define_constraints(constraint=c)
+                query.add_constraint(c)
+        return self.query_list
 
     def _extract_constraints(self, query: QueryCE) -> list[str]:
         """
@@ -72,7 +95,7 @@ class queryProcessor:
         prompt = """
         Given the following query, generate a list of constraints specified in the query, in JSON format: {{"answer": []}}. 
         Each constraint should be in its minimal form and should not be further splittable.
-        Each constraint should begin with 'The cities should'. 
+        Each constraint should begin with 'a place'. 
 
         Query: {query}
         """
@@ -84,9 +107,9 @@ class queryProcessor:
         message = [
             {"role": "system", "content": "You are a helpful assistant."},
             {"role": "user", "content": prompt.format(query="Recommendation for cities with swimming spots near Orlando, Florida, for a refreshing day out?")},
-            {"role": "assistant", "content": answer.format(answer=json.dumps(["The cities should have swimming spots.", "The cities should be near Orlando, Florida."]))},
+            {"role": "assistant", "content": answer.format(answer=json.dumps(["a place has swimming spots.", "a place near Orlando, Florida."]))},
             {"role": "user", "content": prompt.format(query="Recommend me cities with historical sites and museums to explore during my travels?")},
-            {"role": "assistant", "content": answer.format(answer=json.dumps(["The cities should have historical sites.", "The cities should have museums."]))},
+            {"role": "assistant", "content": answer.format(answer=json.dumps(["a place has historical sites.", "a place has museums."]))},
             {"role": "user", "content": prompt.format(query=query.description)},
         ]
 
@@ -96,6 +119,45 @@ class queryProcessor:
             start, end = response.find("{"), response.rfind("}") + 1
             constraint_list = json.loads(response[start:end])["answer"]
             return constraint_list
+
+        except json.JSONDecodeError as e:
+            print(f"Failed to parse JSON from response")
+            print("GPT response: ", response)
+            raise e
+
+        except Exception as e:
+            print(f"Failed to extract constraints")
+            print("GPT response: ", response)
+            raise e
+        
+    def _define_constraints(self, constraint: Constraint) -> Constraint:
+        """
+        """
+        prompt = """
+        You are a travel expert, please give a specific definition on this constraint, in JSON format: {{"answer": []}}.
+
+        Constraint: {constraint}
+        """
+
+        # define answer format
+        answer = ANSWER_FORMAT
+
+        message = [
+            {"role": "system", "content": "You are a helpful assistant."},
+            {"role": "user", "content": prompt.format(constraint="a place be affordable.")},
+            {"role": "assistant", "content": answer.format(answer=json.dumps("An affordable place is typically defined as a location where the cost of living or the price of specific services and commodities (like housing, food, and transportation) is relatively low compared to the average income or budget constraints of an individual or family. In more concrete terms, a place might be considered affordable if housing costs do not exceed 30 percents of a household's income, which is a common benchmark used by economists and urban planners to gauge housing affordability. This concept can extend to other expenses, suggesting that an affordable place has a cost of living index lower than the national average, making it financially manageable for residents with average or below-average incomes."))},
+            {"role": "user", "content": prompt.format(constraint="a place with Disney")},
+            {"role": "assistant", "content": answer.format(constraint=json.dumps("When considering cities for a vacation that feature Disney attractions, it's beneficial to explore a variety of options worldwide that offer unique Disney experiences. This exploration could include well-known destinations like Orlando and Anaheim, which are famous for their expansive Disney theme parks, such as Waltl Disney World and Disneyland. Additionally, international locations such as Paris, Tokyo, Hong Kong, and Shanghai also host Disney resorts, each providing distinctive attractions and cultural twists on the classic Disney formula. Understanding the specific attractions, seasonal events, and accommodation options available at each location can significantly influence the decision-making process, ensuring a magical and well-suited vacation for families, Disney enthusiasts, or anyone looking to immerse themselves in the enchanting world of Disney."))},
+            {"role": "user", "content": prompt.format(answer=constraint.description)},
+        ]
+
+        response = self.llm.generate(message)
+
+        try:
+            start, end = response.find("{"), response.rfind("}") + 1
+            definition_str = json.loads(response[start:end])["answer"]
+            constraint.define(definition_str)
+            return constraint
 
         except json.JSONDecodeError as e:
             print(f"Failed to parse JSON from response")
@@ -123,11 +185,11 @@ class queryProcessor:
 
         message = [
             {"role": "system", "content": "You are a helpful assistant."},
-            {"role": "user", "content": prompt.format(constraint="The cities should have the Disney Resort")},
+            {"role": "user", "content": prompt.format(constraint="a place have the Disney Resort")},
             {"role": "assistant", "content": answer.format(answer="true")},
-            {"role": "user", "content": prompt.format(constraint="The cities should have a museum")},
+            {"role": "user", "content": prompt.format(constraint="a place have a museum")},
             {"role": "assistant", "content": answer.format(answer="false")},
-            {"role": "user", "content": prompt.format(constraint="The cities should be budget-friendly")},
+            {"role": "user", "content": prompt.format(constraint="a place be budget-friendly")},
             {"role": "assistant", "content": answer.format(answer="true")},
             {"role": "user", "content": prompt.format(constraint=constraint)},
         ]
@@ -163,11 +225,11 @@ class queryProcessor:
 
         message = [
             {"role": "system", "content": "You are a helpful assistant."},
-            {"role": "user", "content": prompt.format(constraint="The cities should be near New York")},
+            {"role": "user", "content": prompt.format(constraint="a place be near New York")},
             {"role": "assistant", "content": answer.format(answer="true")},
-            {"role": "user", "content": prompt.format(constraint="The cities should have a museum")},
+            {"role": "user", "content": prompt.format(constraint="a place have a museum")},
             {"role": "assistant", "content": answer.format(answer="true")},
-            {"role": "user", "content": prompt.format(constraint="The cities should be budget-friendly")},
+            {"role": "user", "content": prompt.format(constraint="a place be budget-friendly")},
             {"role": "assistant", "content": answer.format(answer="false")},
             {"role": "user", "content": prompt.format(constraint=constraint)},
         ]
