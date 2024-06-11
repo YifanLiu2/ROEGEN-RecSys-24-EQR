@@ -220,7 +220,8 @@ class DenseRetrieverElaboration(AbstractRetriever):
             print("-----------------------------")
             print(f"Process query: {q.description}")
             dense_results[q.description] = dict()
-            descriptions = q.get_descriptions()
+            constraints = q.constraints
+            descriptions = constraints.get_descriptions()
             weights = q.get_description_weights()
             assert len(descriptions) == len(weights) # one to one map between description and weight
 
