@@ -10,7 +10,6 @@ queries = [QueryCE(description=query_string) for query_string in query_string_li
 # process query
 gpt = GPTChatCompletion(api_key=API_KEY)
 query_processor = queryProcessor(query=queries, llm=gpt)
-q_list = query_processor.process_query()
-
+q_list = query_processor.process_query_v2()
 with open("output/processed_query.pkl", "wb") as file:
     pickle.dump(q_list, file)

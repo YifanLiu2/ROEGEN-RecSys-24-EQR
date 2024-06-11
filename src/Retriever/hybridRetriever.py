@@ -58,11 +58,15 @@ class HybridRetriever(AbstractRetriever):
                 for d, w in zip(descriptions, weights):
                     description_emb = self.model.encode(d) # shape [1, emb_size]
                     score = cosine_similarity(dest_emb, description_emb).flatten() # shape [chunk_size]
-                    threshold = np.percentile(score, percentile) # determine the threshold
+                    # threshold = np.percentile(score, percentile) # determine the threshold
                     
                     # extract top idx and top score
-                    top_idx = np.where(score >= threshold)[0]
-                    top_score = score[score >= threshold]
+                    # top_idx = np.where(score >= threshold)[0]
+                    # top_score = score[score >= threshold]
+
+                    # top_score is the top 3 score
+                    top_idx = np.argsort(score)[-3:]
+                    top_score = score[top_idx]
                     avg_score = np.sum(top_score) / top_score.shape[0] # a scalar score
 
                     # retrieve top chunks
@@ -92,12 +96,19 @@ class HybridRetriever(AbstractRetriever):
                     specific_constraint_emb = all_emb[0].reshape(1, -1)
                     dest_sparse_emb = all_emb[1:]
                     score = cosine_similarity(dest_sparse_emb, specific_constraint_emb).flatten()
-                    threshold = np.percentile(score, percentile)
-                    top_idx = np.where(score >= threshold)[0]
-                    top_score = score[score >= threshold]
+                    # threshold = np.percentile(score, percentile)
+                    # top_idx = np.where(score >= threshold)[0]
+                    # top_score = score[score >= threshold]
+                    
+                    # top_score is the top 3 score
+                    top_idx = np.argsort(score)[-3:]
+                    top_score = score[top_idx]
                     avg_score = np.sum(top_score) / top_score.shape[0]
-                    chunks = np.array(dest_chunks)
-                    top_chunks = chunks[top_idx].tolist()
+
+                    # chunks = np.array(dest_chunks)
+                    # top_chunks = chunks[top_idx].tolist()
+
+                    top_chunks = [dest_chunks[i] for i in top_idx]
         
                     # compute sparse retrieval results
                     sparse_score = avg_score * 0.5
