@@ -61,7 +61,7 @@ class AbstractRetriever(abc.ABC):
         return dests_chunks, dests_embs
 
     @abc.abstractmethod
-    def retrieval(self, queries: list, dests_emb: dict[str, np.ndarray], dests_chunks: dict[str, list[str]], percentile: float) -> dict:
+    def retrieval_for_dest(self, queries: list, dests_emb: dict[str, np.ndarray], dests_chunks: dict[str, list[str]], percentile: float) -> dict:
         """
         Abstract method to be implemented for dense retrieval.
 
@@ -72,21 +72,63 @@ class AbstractRetriever(abc.ABC):
         :return: dict, the structured results of retrieval formatted by queries and destinations.
         """
         pass
-        
-    def run_retrieval(self) -> None:
+
+    def run_retrieval(self):
         """
-        Loads necessary data and runs the dense / dense + sparse retrieval process, then saves the results to the specified output path.
+        Loads necessary data and runs the dense retrieval process, then saves the results to the specified output path.
         """
-        # load data
-        queries = self.load_queries() # list[str]
+        queries = self.load_queries()
         dests_chunks, dests_embs = self.load_dest_embeddings()
 
-        # run dense retrieval
-        final_results = self.retrieval(queries=queries, dests_emb=dests_embs, dests_chunks=dests_chunks, percentile=self.percentile)
-        
-        # save results
+        results = dict()
+        for query in queries:
+            query_results = self.retrieval_for_query(query, dests_embs, dests_chunks)
+            if isinstance(query, Query):
+                query = query.get_description()
+
+            results[query] = query_results
+
         with open(self.output_path, "w") as file:
-            json.dump(final_results, file, indent=4)
+            json.dump(results, file, indent=4)
+
+    
+    def fusion(self, dest_results: dict[str, tuple[float, list[str]]]) -> tuple[float, dict[str, list[str]]]:
+        """
+        Fusion method to combine results from multiple aspects of a destination.
+
+        :param dest_results: dict[str, tuple[float, list[str]]], results from each destination.
+        :return: dict[str, tuple[float, list[str]]], fused results from all destinations.
+        """
+        # return format: (dest_score, {"aspect": top_chunk})
+        fused_results = tuple()
+        dest_score = 0
+        top_chunks = dict()
+        for aspect, (score, chunks) in dest_results.items():
+            dest_score += score
+            top_chunks[aspect] = chunks
+        # count the average score
+        dest_score /= len(dest_results)
+        fused_results = (dest_score, top_chunks)
+        return fused_results
+        
+
+    def retrieval_for_query(self, query: Query, dests_embs: dict[str, np.ndarray], dests_chunks: dict[str, list[str]]) -> dict[str, tuple[float, dict[str, list[str]]]]: 
+        """
+        Loads necessary data and runs the dense retrieval process, then saves the results to the specified output path.
+        """
+        # return format: {dest: (dest_score, {"aspect": top_chunk})}
+
+        query_results = dict()
+
+        # retrieve results for each destination
+        for dest_name, dest_emb in tqdm(dests_embs.items(), desc="Processing destinations"):
+            aspects = query.get_all_aspects()
+            dest_result = self.retrieval_for_dest(aspects, dest_emb, dests_chunks[dest_name], self.percentile)
+            # fuse results from multiple aspects
+            dest_result = self.fusion(dest_result)
+            query_results[dest_name] = dest_result
+
+        return query_results 
 
 
 class DenseRetriever(AbstractRetriever):
@@ -94,12 +136,10 @@ class DenseRetriever(AbstractRetriever):
     Concrete DenseRetriever class.
     """
     def __init__(self, model: LMEmbedder, query_path: str, embedding_dir: str, output_path: str, percentile: float = 10):
-        # check query path
-        if not query_path.endswith(".txt"):
-            raise ValueError(f"Invalid query path: '{query_path}'. Must be a txt file.")
         super().__init__(model, query_path, embedding_dir, output_path, percentile)
     
-    def retrieval(self, queries: list[str], dests_emb: dict[str, np.ndarray], dests_chunks: dict[str, list[str]], percentile: float) -> dict[str, dict[str, tuple[float, list[str]]]]:
+
+    def retrieval_for_dest(self, aspects: list[Aspect], dest_emb: np.ndarray, dest_chunks: list[str], percentile: float) -> dict[str, tuple[float, list[str]]]:
         """
         Perform dense retrieval for each query.
 
@@ -109,146 +149,27 @@ class DenseRetriever(AbstractRetriever):
         :param percentile: float, percentile to determine the similarity threshold for filtering results.
         :return: dict[str, dict[str, tuple[float, list[str]]]], structured results with scores and top matching chunks.
         """
-        # return format: {"query": {"dest": (dest_score, top_chunk)}}
-        descriptions = queries
-        dense_results = dict()
-        # for each query
-        for d in descriptions:
-            print("-----------------------------")
-            print(f"Process query: {d}")
-            description_emb = self.model.encode(d) # shape [1, emb_size]
-            dense_results[d] = dict()
-            # for each destination, calculate similarity score
-            for dest_name, dest_emb in dests_emb.items(): # shape [chunk_size, emb_size]
-                score = cosine_similarity(dest_emb, description_emb).flatten() # shape [chunk_size]
-                # threshold = np.percentile(score, percentile) # determine the threshold
-                
-                # extract top idx and top score
-                # top_idx = np.where(score >= threshold)[0]
-                # top_score = score[score >= threshold]
+        # return format: {"aspect": (score, top_chunk)}
+        dest_result = dict()
+        for a in aspects:
+            a_text = a.get_new_description()
+            description_emb = self.model.encode(a_text) # shape [1, emb_size]
+            score = cosine_similarity(dest_emb, description_emb).flatten() # shape [chunk_size]
+            # threshold = np.percentile(score, percentile) # determine the threshold
 
-                # top_score is the top 3 score
-                top_idx = np.argsort(score)[-3:]
-                top_score = score[top_idx]
-                avg_score = np.sum(top_score) / top_score.shape[0] # a scalar score
+            # extract top idx and top score with threshold
+            # top_idx = np.where(score >= threshold)[0]
+            # top_score = score[score >= threshold]
 
-                # retrieve top chunks
-                chunks = np.array(dests_chunks[dest_name]) # [chunk_size]
-                top_chunks = chunks[top_idx].tolist()
-    
-                # store results
-                dense_results[d][dest_name] = (avg_score, top_chunks)
-        return dense_results
+            # extract top 3 idx and top 3 score
+            top_idx = np.argsort(score)[-3:]
+            top_score = score[top_idx]
+            avg_score = np.sum(top_score) / top_score.shape[0] # a scalar score
 
-class DenseRetrieverQE(AbstractRetriever):
-    """
-    Extended the DenseRetriever to support query expansion.
-    """
-    def __init__(self, model: LMEmbedder, query_path: str, embedding_dir: str, output_path: str, percentile: float = 10):
-        super().__init__(model, query_path, embedding_dir, output_path, percentile)
+            # retrieve top chunks
+            chunks = np.array(dest_chunks) # [chunk_size]
+            top_chunks = chunks[top_idx].tolist()
 
-    def retrieval(self, queries: list[Query], dests_emb: dict[str, np.ndarray], dests_chunks: dict[str, list[str]], percentile: float) -> dict[str, dict[str, tuple[float, dict[str, list[str]]]]]:
-        """
-        Processes each query with its subqueries (or constraints) and associated weights for a weighted dense retrieval.
-
-        :param queries: list[Query], queries with potential expansions.
-        :param dests_emb: dict[str, np.ndarray], dictionary of destination names to their embeddings.
-        :param dests_chunks: dict[str, list[str]], dictionary of destination names to lists of associated text chunks.
-        :param percentile: float, percentile to determine the similarity threshold for filtering results.
-        :return: dict, detailed retrieval results with scores and relevant chunks for each subquery.
-        """
-        # return format: {"query": {"dest": (dest_score, {"subquery": top_chunk})}}
-
-        dense_results = dict()
-        
-        # for each query
-        for q in queries:
-            print("-----------------------------")
-            print(f"Process query: {q.description}")
-            dense_results[q.description] = dict()
-            descriptions = q.get_descriptions()
-            weights = q.get_description_weights()
-            assert len(descriptions) == len(weights) # one to one map between description and weight
-
-            # for each destination
-            for dest_name, dest_emb in tqdm(dests_emb.items(), desc="Processing destinations"): # shape [chunk_size, emb_size]
-                # assume aggregate method is sum
-                dest_score = 0
-                sub_dense_results = dict()  # results for subquery
-                # for each subquery
-                for d, w in zip(descriptions, weights):
-                    description_emb = self.model.encode(d) # shape [1, emb_size]
-                    score = cosine_similarity(dest_emb, description_emb).flatten() # shape [chunk_size]
-                    # threshold = np.percentile(score, percentile) # determine the threshold
-                    
-                    # extract top idx and top score
-                    # top_idx = np.where(score >= threshold)[0]
-                    # top_score = score[score >= threshold]
-
-                    # top_score is the top 3 score
-                    top_idx = np.argsort(score)[-3:]
-                    top_score = score[top_idx]
-                    avg_score = np.sum(top_score) / top_score.shape[0] # a scalar score
-
-                    # retrieve top chunks
-                    chunks = np.array(dests_chunks[dest_name]) # [chunk_size]
-                    top_chunks = chunks[top_idx].tolist()
-        
-                    # store subquery results
-                    sub_dense_results[d] = top_chunks
-                    dest_score += avg_score * w # avg score weighted by w
-            
-                # store dest results
-                dense_results[q.description][dest_name] = (dest_score, sub_dense_results)
-
-        return dense_results
-    
-class DenseRetrieverElaboration(AbstractRetriever):
-    """
-    Extended the DenseRetriever to support query elaboration.
-    """
-
-    def __init__(self, model: LMEmbedder, query_path: str, embedding_dir: str, output_path: str, percentile: float = 10):
-        super().__init__(model, query_path, embedding_dir, output_path, percentile)
-
-    def retrieval(self, queries: list[Query], dests_emb: dict[str, np.ndarray], dests_chunks: dict[str, list[str]], percentile: float) -> dict[str, dict[str, tuple[float, dict[str, list[str]]]]]:
-
-        dense_results = dict()
-        
-        # for each query
-        for q in queries:
-            print("-----------------------------")
-            print(f"Process query: {q.description}")
-            dense_results[q.description] = dict()
-            constraints = q.constraints
-            descriptions = constraints.get_descriptions()
-            weights = q.get_description_weights()
-            assert len(descriptions) == len(weights) # one to one map between description and weight
-
-            # for each destination
-            for dest_name, dest_emb in tqdm(dests_emb.items(), desc="Processing destinations"):
-                dest_score = 0
-                sub_dense_results = dict()  # results for subquery
-                # for each subquery (description)
-                for d, w in zip(descriptions, weights):
-                    description_emb = self.model.encode(d)
-                    score = cosine_similarity(dest_emb, description_emb).flatten()
-
-                    # top_score is the top 3 score
-                    top_idx = np.argsort(score)[-3:]
-                    top_score = score[top_idx]
-                    avg_score = np.sum(top_score) / top_score.shape[0]
-
-                    chunks = np.array(dests_chunks[dest_name])
-                    top_chunks = chunks[top_idx].tolist()
-
-                    # store subquery results
-                    sub_dense_results[d] = top_chunks
-                    dest_score += avg_score * w
-                    
-                # store dest results
-                dense_results[q.description][dest_name] = (dest_score, sub_dense_results)
-
-        return dense_results
-                                                                                                                                               
-                                                                                                                                               
+            # store results
+            dest_result[a_text] = (avg_score, top_chunks)
+        return dest_result

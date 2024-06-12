@@ -2,7 +2,7 @@ from abc import ABC
 
 class Aspect(ABC):
     """
-    An abstract base class representing an aspect of a user query, characterized by a description.
+    An base class representing an aspect of a user query, characterized by a description.
 
     :param description (str): A textual description of the aspect.
     """
@@ -18,6 +18,16 @@ class Aspect(ABC):
 
     def get_new_description(self) -> str:
         return self.new_description
+    
+class Hybrid(Aspect):
+    """
+    A class representing a hybrid aspect of a user query, characterized by a description and a type.
+
+    :param description (str): A textual description of the aspect.
+    """
+    def __init__(self, description: str):
+        super().__init__(description)
+        
 
 class Preference(Aspect):
     """
@@ -32,6 +42,8 @@ class Preference(Aspect):
 class Constraint(Aspect):
     """
     A class Represents a hard constraint in a user query.
+
+    :param description (str): Initial description of the preference.
     """
     def __init__(self, description: str):
         super().__init__(description)
