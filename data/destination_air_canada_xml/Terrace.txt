@@ -1,0 +1,48 @@
+'''Terrace''' [http://www.visitterrace.com/] is a city in the [[North and Central Coast]] of [[British Columbia]], [[Canada]].  The largest city in the region, it has a population of about 11,000, a significant portion of which is the Kitselas people, who have lived in the area for thousands of years.
+
+==Get in==
+===By plane===
+There are several flights that run to and from Terrace.  Central Mountain Air runs 5 flights weekly to Smithers, and six to Prince George, and Air Canada and Hawkair offer twice daily service to Vancouver. (Hawkair only has only one flight on Saturday.)
+
+===By car===
+Terrace sits at the intersection of the Yellowhead Highway (Highway 16) and Highway 37.  The city is two hours east of Prince Rupert, an hour and a half north of Kitimat, and eight hours west of Prince George.  As this is northern mountains, driving in this area is not recommended in the winter if you are not familiar with travel in such conditions.
+
+===By train===
+Terrace is a station on the Jasper-Prince Rupert VIA Rail line, and arrives eastbound WFSu 10:20am, and westbound MThSa 6:00pm, leaving five minutes later.  There is an overnight stop in Prince George for those coming from or going to Jasper.
+
+===By bus===
+Greyhound offers service towards Prince Rupert, Kitimat and Prince George.
+
+==Get around==
+Terrace is small enough to walk around downtown, and there are seven bus routes in town[http://www.busonline.ca/regions/ter/] including a connector to Kitimat and the airport.
+
+==See==
+* '''The Kermodei Bear''': This all white relative of a black bear is the town mascot of Terrace. It is not an albino, but one with a recessive gene inherited from both parents. Sacred to the Native people of the area, sightings are exceedingly rare, and few locals have seen one.
+
+==Do==
+* '''Fish''': There are many lodges, guides, and tour companies to help you catch steelhead, salmon and trout, and the Skeena is well known for its good fishing.
+* '''Skiing''': Terrace is a top destination for skiing. [https://mymountaincoop.ca/ Shames Mountain] is located 35kms west of Terrace and is well regarded for it's deep snowpack and quality skiing. [https://www.neheliskiing.com/ Northern Escape Heli Skiing] is known for deep powder heli skiing and heli boarding in the Skeena Mountains, near Terrace.
+
+==Buy==
+* <buy name="House of Sim-oi-Ghets" alt="House of Chiefs" address="PO Box 544" directions="Located 3 miles West of Terrace, BC on Highway 16 West" phone="+1 250 638-1629" email="kitsumkalum@citywest.ca" fax="+1 250 635-6110" url="http://www.kitsumkalum.bc.ca/hos.html" hours="M-Sa 9:00am-5:00pm Su 11:00am-5:00pm Closed statutory holidays, open until 6:00pm in summer" price=""></buy>
+
+==Eat==
+* <eat name="Don Diego's" alt="" address="3212 Kalum Street" directions="" phone="+1 250 635-2307" email="" fax="" url="" hours="" price=""></eat>
+
+==Drink==
+* <drink name="Spirit Nightclub" alt="" address="4620 Lakelse Avenue" directions="located on the west side of the Coast Inn of the West" phone="+1 250 638-8141" email="" fax="+1 250 638-8999" url="http://www.coasthotels.com/hotels/canada/bc/terrace/coast_innwest/dining" hours="Th-Sa 10:00pm-2:00am" price=""></drink>
+
+==Sleep==
+* <sleep name="The Lodge at Skeena Landing" alt="" address="4055 Motz" directions="" phone="+1 250 638-0444" email="" fax="" url="http://www.thelodgeatskeenalanding.com/" checkin="" checkout="" price=""></sleep>
+
+==Contact==
+
+==Get out==
+Continue on to the coast and [[Prince Rupert]].
+
+{{IsPartOf|North and Central Coast}}
+{{outline}}
+{{cityguide}}
+
+[[wts:Category:Terrace]]
+[[WikiPedia:Terrace, British Columbia]]

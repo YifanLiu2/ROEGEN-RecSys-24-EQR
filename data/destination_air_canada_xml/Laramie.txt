@@ -1,0 +1,97 @@
+'''Laramie''' [http://www.laramie.org/] is a city in [[Southeast Wyoming]]. It is home to the '''University of Wyoming''' [http://www.uwyo.edu/].  
+
+==Understand==
+Laramie is located at very high altitude (7,200+ ft) and due to this has considerably milder summers and more fierce winters than other US cities of comparable latitude in the upper Midwest.  This also means that the climate around Laramie is very dry most of the year so travelers here should take care to drink lots of fluid and not over exert themselves immediately upon arrival to mitigate potential altitude sickness risks.
+
+* <listing name="Albany County Tourism Board Convention and Visitor Bureau" alt="" directions="" address="210 Custer" phone="+1 800 445-5303 (toll free)" email="frontdesk@bresnan.net" fax="" url="http://laramie-tourism.org/" hours="" price=""></listing>
+
+==Get in==
+===By Car===
+The primary access to Laramie is along US Interstate 80, the main east west corridor in the state.  Because of the altitude and northern location, it is important to be aware of road conditions and road closures along all roads but especially I-80 as its closure can strand you.  Road conditions are available on the internet at several sources including this one: [http://www.wyoroad.info/highway/webcameras/webcameras.html]
+
+In the summer months the town is also easily accessible on a smaller road (US 287) that comes up from Fort Collins, Colorado.
+
+===By Plane===
+* <listing name="Laramie Regional Airport" alt="LAR" directions="" address="" phone="" email="" fax="" url="http://www.laramieairport.com/" hours="SU-F: 5:30AM-9PM, Sa: 6AM-9PM" price="">Daily commercial flights to [[Denver]].  LAR is also a general aviation airport with rentable hangar space, aviation and jet fuel, and two courtesy cars.</listing>
+
+Laramie is also accessible from '''Denver International Airport''' [http://www.flydenver.com/]. From Denver, take Interstate 25 north to Cheyenne, where it intersects Interstate 80.
+===By Bus===
+* <listing name="Greyhound" alt="" directions="Jones Auto Service" address="375 W Lyon St." phone="+1 307 742-5188" email="" fax="" url="" hours="M-F: 9AM-4PM; Sa: 9AM-11AM; Su and Holidays: Closed" price=""></listing>
+
+==Get around==
+===Taxi===
+* <listing name="Snowy Range Taxi, LLC (Formerly Here and There Shuttle, LLC)" phone="+1 307 343-2323" email="management@snowyrangetaxi.com" Website: url="http://www.snowyrangetaxi.com" price=""></listing>
+
+===Car rental===
+* <listing name="Hertz" alt="" directions="" address="555 General Brees Rd" phone="+1 307 745-0500" email="" fax="" url="" hours="M-W 7AM-5:30PM,7PM-8PM; Th 7AM-5:30PM, F 7AM-5PM, Sa 9AM-12 noon, Su 3:30PM-5PM, 7PM-8PM" price="">Flights will be met after hours with 24 hours advance notice.  After hours return is available in Hertz lot via drop-box.</listing>
+* <listing name="Enterprise" alt="" directions="" address="2208 E. Grand Ave" phone="+1 307 721-9876" email="" fax="" url="" hours="M-F: 7:30AM-5PM; Sat: 8:30-12 noon; Su: Closed" price=""></listing>
+
+==See==
+* <see name="Wyoming Territorial Prison State Historic Site" alt="" address="975 Snowy Range Road" directions="" phone="+1 307 745-6161" email="" fax="" url="http://wyoparks.state.wy.us/Sites/TerritorialPrison/index.asp" hours="Daily: 9AM-6PM, call for winter hours" price="Adults: $5.00, 12-17: $2.50, 11 and under: Free">This prison, now a state historic site, opened in the late 19th century held some of the regions most hardened criminals.</see>
+
+
+==Do==
+* <listing name="Snowy Range Scenic Byway" alt="" directions="" address="" phone="" email="" fax="" url="http://www.byways.org/explore/byways/2054/" hours="" price="">A  nationally designated scenic byway, Snowy Range Road is a 29 mile (46 km) drive from Laramie to Saratoga via Snowy Range Pass. There is fishing, picnicing, and hiking opportunities along the road, including a half-day hike to the top of 12,013 ft (3,661 m) Medicine Bow Peak.  The pass is closed in winter.</listing>
+*<do name="Laramie Country Club" alt="" address="489 Wyoming Hwy 230" directions="" phone="307-745-8490" url="http://www.laramiecountryclub.com" hours="" price="" lat="" long="">9-hole golf course located a mile outside of Laramie on Highway 230. Best rates in town and many available tee times. Fully stocked pro-shop and bar, carts for rent, driving range. Also available for tournaments. </do>
+
+==Buy==
+
+==Eat==
+*<eat name="Fox Run Steakhouse " alt="" address="489 HWY 230" directions="" phone="307-745-4161" url="http://www.foxrunlaramie.com" hours="" price="" lat="" long="">Exceptional steaks, variety of non-beef entrees including lamb and buffalo, full bar, extensive drink and wine list. Great prices. Online menu. Available for parties. Open Tuesday - Saturday 5:00pm - 9:00pm. </eat>
+
+==Drink==
+
+==Sleep==
+
+* <sleep name="1st Inn Gold" alt="" address="421 Boswell" directions="Jct. 287 & I-80" phone="+1 307 742-3721" email="" fax="+1 307 742-5473" url="http://www.1stinns.com/laramie.htm" checkin="" checkout="" price="">King, Queen & Double Rooms (Smoking & Non Smoking).  Free Continental breakfast, parking, and local calls.  Cable TV with HBO. Outdoor Pool, Indoor Hot Tub.</sleep>
+* <sleep name="Albany Lodge" alt="" address="1148 Highway 11" directions="" phone="+1 307 745-5782" email="info@albanylodge.com" fax="+1 307 745-8738" url="http://www.albanylodge.com/" checkin="" checkout="" price="$85-315">Rooms, suites, and cabins. Restaurant on site.  ATV and snowmobile rentals.</sleep>
+* <sleep name="Baymont Inn and Suites" alt="" ="1655 Centennial Drive" phone="+1 307 742-6665" email="" fax="+1 307 742-9193" url="http://www.baymontinns.com/Baymont/control/Booking/check_avail?brandCode=MQ,DI,HJ,KG,RA,SE,TL,BU&searchWithinMiles=25&areaType=1&destination=laramie&stateName=Wyoming&state=WY&countryName=United%20States&country=US&checkInDate=03/05&numberAdults=1&numberRooms=1&checkOutDate=03/06&numberChildren=0&rateName=Best%20Avail&rate=000&variant=&id=30489&propBrandId=BU&force_nostay=false checkin="2PM" checkout="11AM" price=""></sleep>
+* <sleep name="Best Value Inn" alt="" address="I-80/Snowy Range Rd." directions="" phone="+1 307 721-8860" email="" fax="" url="" checkin="" checkout="" price=""></sleep>
+* <sleep name="Comfort Inn" alt="" address="3420 Grand Ave" directions="" phone="+1 307 721-8856" email="" fax="+1 307 721-5166" url="http://www.comfortinn.com/ires/en-US/html/HotelInfo?hotel=WY408&sid=zfbWg.rnlNmgMn$g.6&sarea=22363&sname=Laramie&sstate=WY&scountry=US&sradius=40.23&slat=41.3112&slon=-105.5925&schain=A&exp=&scity=Laramie&sort=&type=&map=y&nroom=1&nadult1=1&nchild1=0&nadult2=1&nchild2=0&nadult3=1&nchild3=0&nadult4=1&nchild4=0&nadult5=1&nchild5=0" checkin="3PM" checkout="11AM" price="">Fitness center, indoor heated pool and hot tub.  Free continental breakfast, local calls, weekday newspaper, and coffee.</sleep>
+* <sleep name="Days Inn" alt="" address="1368 McCue Street" directions="" phone="+1 866 644-5685" email="patelman22@wynhg.com" fax="+1 307 742-8934" url="http://www.dilaramie.com/" checkin="" checkout="" price="">Guestrooms and suitesg with microwaves, cable television, and free high–speed wireless Internet access. Indoor pool, activity desk, fitness equipment, and business center. Free Continental Breakfast. Pet allowed in Smoking Rooms for additional fee.</sleep>
+* <sleep name="Econo Lodge" alt="" address="1370 McCue St" directions="" phone="+1 307 745-8900" email="" fax="+1 307 745-5806" url="http://www.econolodge.com/ires/en-US/html/HotelInfo?hotel=WY410&sid=zfbWg.rnlNmgMn$g.6&sarea=22363&sname=Laramie&sstate=WY&scountry=US&sradius=40.23&slat=41.3112&slon=-105.5925&schain=A&exp=&scity=Laramie&sort=&type=&map=y&nroom=1&nadult1=1&nchild1=0&nadult2=1&nchild2=0&nadult3=1&nchild3=0&nadult4=1&nchild4=0&nadult5=1&nchild5=0" checkin="2PM" checkout="11AM" price=""> Indoor heated pool and game room. Free continental breakfast and wireless high-speed Internet access.</sleep>
+* <sleep name="Gas Lite Motel" alt="" address="960 N. 3rd" directions="" phone="+1 800 942-6610" email="" fax="" url="" checkin="" checkout="" price="">Indoor pool. Continental breakfast. Pets allowed.</sleep>
+* <sleep name="Hampton Inn" alt="" address="3715 E. Grand Ave" directions="" phone="+1 307 742-0125" email="" fax="+1 307 742-0126" url="http://hamptoninn.hilton.com/en/hp/hotels/index.jhtml;jsessionid=CQ5YGCAKM5L5GCSGBJNMVCQ?ctyhocn=LARWYHX" checkin="3PM" checkout="11AM" price=""></sleep>
+* <sleep name="Holiday Inn" alt="" address="204 S 30th St" directions="" phone="+1 307 721-9000" email="" fax="+1 307 721-9015" url="http://www.ichotelsgroup.com/h/d/hi/1/en/hotel/LAREG/welcome" checkin="3PM" checkout="12 noon" price="">Opened in 2007, this hotel caters to the higher-end and business traveller with king, double queen, and suites.  All rooms have a 32" (81 cm) flat screen TV with AM/FM Clock Radio and MP3 docking station, microwave, and fridge.  The hotel also has a business center, indoor pool and whirlpool, fitness center, and wireless and hard wired internet.</sleep>
+* <sleep name="Howard Johnson" alt="" address="1555 Snowy Range Road" directions="" phone="+1 307 742-8371" email="" fax="+1 307 742-0884" url="http://www.hojo.com/HowardJohnson/control/Booking/check_avail?brandCode=HJ,MQ,DI,KG,RA,SE,TL,BU&searchWithinMiles=25&areaType=1&destination=laramie&stateName=Wyoming&state=WY&countryName=United%20States&country=US&checkInDate=03/05&numberAdults=1&numberRooms=1&checkOutDate=03/06&numberChildren=0&rateName=Best%20Avail&rate=000&variant=&id=14109&propBrandId=HJ&force_nostay=false" checkin="3PM" checkout="12 noon" price=""></sleep>
+
+==Get out==
+
+[[Cheyenne]] is less than an hour away from Laramie.
+
+[[Denver]] is a two and a half hour drive south of Laramie. 
+
+{{routebox
+| image1=I-80.png
+| imagesize1=22
+| directionl1=W
+| majorl1=[[Rock Springs]]
+| minorl1=[[Rawlins]]
+| directionr1=E
+| majorr1=[[North Platte]]
+| minorr1=[[Cheyenne]]
+
+| image2=US-30.png
+| imagesize2=22
+| directionl2=W
+| majorl2=[[Rawlins]]
+| minorl2=[[Medicine Bow]]
+| directionr2=E
+| majorr2=[[North Platte]]
+| minorr2=[[Cheyenne]]
+
+| image3=US-287.png
+| imagesize3=22
+| directionl3=W
+| majorl3=[[Rawlins]]
+| minorl3=[[Medicine Bow]]
+| directionr3=S
+| majorr3=[[Denver]]
+| minorr3=[[Fort Collins]]
+}}
+
+{{outline}}
+{{isPartOf|Southeast Wyoming}}
+
+[[WikiPedia:Laramie, Wyoming]]
+[[Dmoz:/North_America/United_States/Wyoming/Localities/L/Laramie/]]

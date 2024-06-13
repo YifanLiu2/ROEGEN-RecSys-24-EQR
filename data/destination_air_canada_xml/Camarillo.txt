@@ -1,0 +1,54 @@
+'''Camarillo''' is a city located in [[Ventura County]], California.
+
+==Get in==
+Camarillo is served by more and more frequent [http://www.amtrak.com/home Amtrak] and [http://www.metrolinktrains.com/ Metrolink] Commuter Rail service from San Diego, Orange County, Los Angeles and the San Fernando Valley to the south and San Luis Obispo to the north. The station is located at the intersection of Lewis Road and Ventura Road at one end of Old Town. The  From here, you are not far from many eateries, a wonderful Saturday morning farmer's market and the famous Camarillo Premium Outlets. Several destinations, including the train station and the Camarillo Premium Outlets, are served by [http://www.goventura.org/?q=travel-ventura VISTA inter-city bus routes]. Most people, however, will chose to drive and that is very easy, given that Camarillo is right on the US 101 Freeway.  Camarillo Airport (CMA/KCMA) is a major general aviation hub.
+
+==Get around==
+Camarillo has the CAT (Camarillo Area Transit) bus service. The fixed routes are limited, but they have a dail-a-ride service that will pick you up and take you anywhere in the city for $2. That said, a car, or bicycle, are the only practical ways to get around.  Walking Camarillo's wide boulevards is nice if you want to experience the city that was rated number 2 in the world for weather, the clean air and numerous parks, but you won't get very far in the spread-out city.
+
+==See==
+*'''Old Town''', just west of the 101 highway. It is a small and somewhat quaint street with small shops and restaurants.
+
+==Do==
+
+==Buy==
+* '''Camarillo Premium Outlets''', off 101 near the airport, [http://www.premiumoutlets.com/camarillo]. Store offering everything from designer clothing to home furnishings, the outdoor complex is an very busy on weekends and traditional holiday shopping days (opens 12AM-11:59PM on "Black Friday").  
+
+==Eat==
+*'''Chuy's''' The Camarillo branch of this Arizona-based chain is rather popular with locals as well as car buffs who come to the weekly gathering of hotrods.  The Cal-Mex influenced food and full bar keep people coming back all the time
+
+*'''Wok N' South''' This new addition is capitalizing on the growing popularity of Mongolian BBQ.  Open for lunch and dinner, this place lets patrons pick from a variety of healthy cuts of meat, vegetables and excellent sauces.  Dinner is all you can eat.
+
+*<eat name="Soup Plantation" alt="" address="375 W Ventura Blvd" directions="" phone="(805) 389-3500" url="http://www.souplantation.com/" hours="" price="$12" lat="" long="">This soup and salad bar is a popular community favorite</eat>
+
+==Drink==
+
+Camarillo is generally a suburban bedroom community and what bar scene there is is generally dominated by locals.  Chuy's Restaurant is probably your best bet with The Clubhouse also an option.  Don't even bother with the lone nightclub in Camarillo which has gone through multiple name changes and is still unpopular with anyone over 22.
+
+==Sleep==
+
+* <sleep name="Best Western Camarillo Inn" alt="" address="295 E Daily Drive" directions="" phone="+1 805 987-4991" url="http://book.bestwestern.com/bestwestern/productInfo.do?propertyCode=05378" checkin="" checkout="" price="" lat="" long="" email="" fax="+1 805 388-3679">l.a.</sleep>
+* <sleep name="Courtyard Camarillo" alt="" address="4994 Verdugo Way" directions="" phone="+1 805 388-1020" url="http://www.marriott.com/hotels/travel/oxrch-courtyard-camarillo/" checkin="" checkout="" price="$149-$179" lat="" long="" email="" fax="+1 805 987-6274">Minutes from Camarillo Premium Outlets & Channel Islands Harbor, plus Highway 101 hotel location provides easy access to Los Angeles, Oxnard, Ventura and Santa Barbra. Free on-site parking.</sleep>
+*<sleep name="Days Inn Camarillo - Ventura County" alt="" address="165 Daily Dr." directions="" phone="805-482-0761" url="http://www.daysinncalifornia.com/html/days-inn-camarillo.asp" checkin="" checkout="" price="" lat="" long=""></sleep>
+*<sleep name="Hampton Inn and Suites Camarillo" address="50 W. Daily Drive" directions="Located an hour northwest of Los Angeles." phone="805-389-9898" fax="805-389-9899" email="" url="http://www.hamptoninn.com/en/hp/hotels/index.jhtml;jsessionid=CJQ4GMLDTKYYACSGBJBM22Q?moreDesc=true&ctyhocn=OXNHSHX" price=""></sleep>
+* <sleep name="Holiday Inn Express Hotel & Suites" alt="" address="4444 Central Avenue" directions="" phone="+1 805 485-3999" email="" fax="" url="http://www.ichotelsgroup.com/h/d/ex/1/en/hd/camca" price=""></sleep>
+* <sleep name="Motel 6" alt="" address="1641 East Daily Drive" directions="" phone="+1 805 388-3467" email="" fax="+1 805 388-8037" url="http://www.motel6.com/reservations/motel_detail.asp?MotelId=0051" price=""></sleep>
+*<sleep name="Residence Inn Camarillo" alt="Mariott" address="2912 Petit Street" directions="" phone="1-805-388-7997" url="http://www.marriott.com/hotels/travel/oxrcr-residence-inn-camarillo/" checkin="" checkout="" price="" lat="" long="">A extended-stay hotel with complimentary hot breakfast buffet served every morning. Social evening hours allow guests to socialize amongst each other.</sleep>
+*<sleep name="Camarillo Executive Inn & Suites" alt="" address="1405 Del Norte Road" directions="" phone="8059837171" url="www.camarillosuites.com" checkin="" checkout="" price="$59-$169" lat="" long=""></sleep>
+
+
+==Get out==
+
+{{routebox
+| image1=US_101.png
+| imagesize1=22
+| directionl1=N
+| majorl1=[[Santa Barbara]]
+| minorl1=[[Oxnard]]
+| directionr1=S
+| majorr1=[[Los Angeles]]
+| minorr1=[[Newbury Park]]
+}}
+
+{{outline}}
+{{isPartOf|Ventura_County}}

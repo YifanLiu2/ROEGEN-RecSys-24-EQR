@@ -1,0 +1,39 @@
+{{pagebanner|Smithers Banner.jpg}}
+
+
+With a population of 5,800 residents, the alpine town of '''Smithers''' is the perfect base for exploring the surrounding wilderness.
+
+==Get in==
+
+The town is 68 km (42 mi) east of [[Hazelton]], on Hwy 16, and 370 km (229 mi) west of [[Prince George]].
+
+==Get around==
+
+==See==
+
+==Do==
+
+* <do name="Hudson Bay Mountain" alt="" address="" directions="" phone="" url="" hours="" price="" lat="" long="" tags="skiing,horses,hiking">First-class ski slopes. In summer, there is horseback riding and hiking, including hikes to Twin Falls and the glacier (the "Glacier Gulch" trail[http://bcnorth.ca/pages/TrlGlacier.asp]).</do>
+* <do name="Crater Lake" tags="hiking">A good hike passing through beautiful scenery, with views of the Telkwa Mountains.</do>
+* <do name="Smithers Golf and Country Club" tags="golf" address="Scotia St" phone="+1-250-847-5950"></do>
+* <do name="Riverside Golf Course and RV Park" tags="golf" address="575 Hwy 16 E" phone="+1-250-847-3229"></do>
+
+==Buy==
+
+==Eat==
+
+==Drink==
+
+==Sleep==
+
+<!-- Hi. Please read http://wikitravel.org/en/Wikitravel:External_links before putting your link back in here. -->
+
+==Get out==
+
+{{outline}}
+{{IsPartOf|Northern British Columbia}}
+
+{{Geo|54.782|-127.167}}
+
+[[wts:Category:Smithers]]
+[[WikiPedia:Smithers, British Columbia]]

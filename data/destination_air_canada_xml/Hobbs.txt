@@ -1,0 +1,52 @@
+'''Hobbs''' [http://www.hobbschamber.org] is a city in [[Southeast New Mexico]].
+
+==Get in==
+
+==Get around==
+
+==See==
+
+==Do==
+
+==Buy==
+
+==Eat==
+
+*<eat name="Pacific Rim" alt="" address="1309 W Joe Harvey Blvd" directions="" phone="575 392-0030" url="" hours="" price="" lat="" long="">The creme de la crema of Hobbs. Pan Asian Fusion cuisine.   Somewhat pricey</eat>
+
+==Drink==
+
+==Sleep==
+
+*'''Comfort Suites''', 2708 West Scenic Drive, ''+1'' 575-492-1000, [http://www.comfortsuites.com/hotel-hobbs-new_mexico-NM145]. Free continental breakfast with fresh waffles, free wifi, indoor heated pool, and exercise room.
+*<sleep name="Country Inn & Suites" alt="" address="5220 Lovington Hwy" directions="" phone="575-391-0282" url="www.countryinss.com/hobbsnm" checkin="1:00 PM" checkout="12:00 PM" price="" lat="" long="">One Hobbs, NM newest hotels.  Free Hot breakfast, Free wired & wireless internet with 24/7 tech support, Indoor Pool & Spa, Fitness room, 32 inch lcd in all rooms with full cable & HBO</sleep>
+
+
+==Get out==
+
+{{routebox-2
+
+| image1=US-62.png
+| imagesize1=22
+| directionl1=W
+| majorl1=[[Carlsbad Caverns National Park|Carlsbad Caverns NP]]
+| minorl1=[[Carlsbad (New Mexico)|Carlsbad]]
+| directionr1=E
+| majorr1=[[Childress]]
+| minorr1=[[Brownfield]]
+
+| image2=US_180.png
+| imagesize2=22
+| directionl2=W
+| majorl2=[[Carlsbad Caverns National Park|Carlsbad Caverns NP]]
+| minorl2=[[Carlsbad (New Mexico)|Carlsbad]]
+| directionr2=E
+| majorr2=[[Fort Worth]]
+| minorr2=[[Lamesa]]
+
+}}
+
+{{IsPartOf|Southeast_New_Mexico}}
+{{outline}}
+
+[[Wikipedia:Hobbs, New Mexico]]

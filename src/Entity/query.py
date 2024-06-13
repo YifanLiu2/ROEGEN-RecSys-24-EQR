@@ -9,11 +9,11 @@ class Query:
     :param preferences (list[Preference]): A list of user preferences.
     :param constraints (list[Constraint]): A list of conditions that the query must satisfy.
     """
-    def __init__(self, description: str, preferences: list[Preference] = [], constraints: list[Constraint] = [], hybrids: list[Hybrid] = []):
+    def __init__(self, description: str, preferences=None, constraints=None, hybrids=None):
         self.description = description
-        self.preferences = preferences
-        self.constraints = constraints
-        self.hybrids = hybrids
+        self.preferences = preferences if preferences is not None else []
+        self.constraints = constraints if constraints is not None else []
+        self.hybrids = hybrids if hybrids is not None else []
 
     def get_all_aspects(self) -> list[Aspect]:
         """

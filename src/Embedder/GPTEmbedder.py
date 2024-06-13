@@ -1,5 +1,5 @@
 import argparse
-import numpy as np
+import torch
 from openai import OpenAI
 from src.Embedder.LMEmbedder import LMEmbedder
 from config import API_KEY
@@ -13,7 +13,7 @@ class GPTEmbedder(LMEmbedder):
         super().__init__(model_name=model_name, split_type=split_type)
         self.client = OpenAI(api_key=api_key)
 
-    def encode(self, text: str | list[str]) -> np.ndarray:
+    def encode(self, text: str | list[str]) -> torch.Tensor:
         """
         """
         response = self.client.embeddings.create(
@@ -21,7 +21,7 @@ class GPTEmbedder(LMEmbedder):
             input=[text] if isinstance(text, str) else text,
         )
 
-        return np.array([s.embedding for s in response.data])
+        return torch.Tensor([s.embedding for s in response.data])
 
 def main():
     parser = argparse.ArgumentParser(description="Generate embeddings for text files using a GPT model.")

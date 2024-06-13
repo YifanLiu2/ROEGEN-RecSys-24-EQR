@@ -1,5 +1,5 @@
 import argparse
-import numpy as np
+import torch
 from sentence_transformers import SentenceTransformer
 from src.Embedder.LMEmbedder import LMEmbedder
 
@@ -11,7 +11,7 @@ class STEmbedder(LMEmbedder):
         super().__init__(model_name=model_name, split_type=split_type)
         self.model = SentenceTransformer(model_name)
 
-    def encode(self, text: str | list[str]) -> np.ndarray:
+    def encode(self, text: str | list[str]) -> torch.Tensor:
         """
         Encode the text into embeddings
         :param text:

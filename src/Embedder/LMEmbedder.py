@@ -1,6 +1,5 @@
 import abc, os, pickle
-
-import numpy as np
+import torch
 from tqdm import tqdm
 from nltk import sent_tokenize
 
@@ -18,7 +17,7 @@ class LMEmbedder(abc.ABC):
         self.split_type = split_type
 
     @abc.abstractmethod
-    def encode(self, text: str | list[str]) -> np.ndarray:
+    def encode(self, text: str | list[str]) -> torch.Tensor:
         """
         Encode the text into embeddings
         :param text:

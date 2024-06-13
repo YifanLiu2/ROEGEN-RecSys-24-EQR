@@ -1,0 +1,62 @@
+'''Muenster''' is a city in the [[Cross Timbers]] region of [[Texas]]. Founded in 1889 by German Catholics, the town today is proud of its German heritage, with most of its residents being descendants of those original settlers.
+
+==Get in==
+Muenster is on '''US 82''' about 10 miles west of [[Gainesville (Texas)|Gainesville]] and 15 miles east of [[Nocona]].
+
+==Get around==
+
+==See==
+* '''Muenster Museum''',  420 N. Main St., +1 940 759-2227.
+* '''Town clock tower''' - Muenster has one of only a few ''glockenspiels'' in the US. The German-style clock tower has animated wooden figurines that dance when the clock strikes.
+
+==Do==
+*[http://www.germanfest.net/ '''Germanfest''']. German culture and beer festival held annually on the last full weekend of April.
+
+==Buy==
+* '''Muenster Antique Mall''', 405 E Division St, ☎ +1 940 759-5033.
+
+==Eat==
+* '''Center Restaurant''', 603 E Division St, ☎ +1 940 759-2910.
+* '''Kountry Korners''', 622 W Division St, ☎ +1 940 759-2546.
+
+==Drink==
+* '''Doc's Bar & Grill''', 113 N Main St, ☎ +1 940 759-2031.
+
+==Sleep==
+* '''A-Ok Motel''', 700 E Division St, ☎ +1 940 759-2268.
+
+==Get out==
+{{routebox-1
+| image1=US-82.png
+| imagesize1=22
+| directionl1=W
+| majorl1=[[Wichita Falls]]
+| minorl1=[[Nocona]]
+| directionr1=E
+| majorr1=[[Sherman (Texas)|Sherman]]
+| minorr1=[[Gainesville (Texas)|Gainesville]]
+}}
+
+{{IsPartOf|Cross_Timbers}}
+{{outline}}
+{{cityguide}}
+<!--[[ca:{{subst:PAGENAME}}]]-->
+<!--[[de:{{subst:PAGENAME}}]]-->
+<!--[[eo:{{subst:PAGENAME}}]]-->
+<!--[[es:{{subst:PAGENAME}}]]-->
+<!--[[fr:{{subst:PAGENAME}}]]-->
+<!--[[fi:{{subst:PAGENAME}}]]-->
+<!--[[he:{{subst:PAGENAME}}]]-->
+<!--[[hi:{{subst:PAGENAME}}]]-->
+<!--[[hu:{{subst:PAGENAME}}]]-->
+<!--[[it:{{subst:PAGENAME}}]]-->
+<!--[[ja:{{subst:PAGENAME}}]]-->
+<!--[[nl:{{subst:PAGENAME}}]]-->
+<!--[[pl:{{subst:PAGENAME}}]]-->
+<!--[[pt:{{subst:PAGENAME}}]]-->
+<!--[[ro:{{subst:PAGENAME}}]]-->
+<!--[[ru:{{subst:PAGENAME}}]]-->
+<!--[[sv:{{subst:PAGENAME}}]]-->
+<!--[[zh:{{subst:PAGENAME}}]]-->
+<!--[[Wikipedia:{{subst:PAGENAME}}]]-->
+<!--[[Dmoz:{{subst:PAGENAME}}]]-->

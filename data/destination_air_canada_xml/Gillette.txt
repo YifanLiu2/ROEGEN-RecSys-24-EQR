@@ -1,0 +1,63 @@
+'''Gillette''' is a city in [[Northeast Wyoming]] and located halfway between [[Sundance]] and [[Sheridan]] on I-90, it is rapidly growing due to the recent upsurge in oil and gas drilling.
+
+==Get in==
+
+==Get around==
+
+==See==
+
+==Do==
+
+==Eat==
+*<buy name="The Prime Rib Restaurant and Wine Cellar" alt="Restaurants In Gillette" address="1205 S Douglas Hwy" directions="" phone="307-682-2944" url="http://www.primeribgillette.com/" hours="11:00am - 10:00pm" price="" lat="" long="">Prime Rib restaurant offers the top quality services in different dishes like sea food, steaks and prime rib with list of delicious deserts at Gillette Wyoming.</buy>
+
+==Buy==
+
+==Drink==
+*<drink name="Sundance Lounge" alt="" address="1020 East Hwy 14-16" directions="From I-90 take exit 128, go west ½ mile.  " phone="307-682-5111" url="" hours="" price="" lat="" long=""></drink>
+
+==Sleep==
+* <sleep name="Best Western Tower West Lodge" alt="" address="109 N US Highway 14-16" directions="" phone="+1 307 686-2210" email="" fax="+1 307 682-5105" url="http://book.bestwestern.com/bestwestern/productInfo.do?propertyCode=51054" price=""></sleep>
+
+* <sleep name="Holiday Inn Express Hotel & Suites" alt="" address="1908 Cliff Davis Dr" directions="" phone="+1 307 686-9576" email="" fax="" url="http://www.ichotelsgroup.com/h/d/ex/1/en/hd/gccwy" price=""></sleep>
+
+* <sleep name="Motel 6" alt="" address="2105 Rodgers Drive" directions="" phone="+1 307 686-8600" email="" fax="+1 307 682-1938" url="http://www.motel6.com/reservations/motel_detail.asp?MotelId=4098" price=""></sleep>
+
+*<sleep name="National 9 INN" alt="" address="1020 East Hwy 14-16" directions="From I-90 take exit 128, go west ½ mile" phone="307-682-5111" url="http://www.national9gillette.com" checkin="3PM" checkout="11AM" price="$49.59, kids 12 and under free, pets $7 pet" lat="" long="">Amenities include large cable TV, daily newspaper, guest business center, room service, 24 hour coffee bar, outdoor heated pool (seasonal), high speed internet, in-room microwave and refrigerator.  Restaurant, lounge.</sleep>
+
+==Get out==
+
+{{routebox
+| image1=I-90.png
+| imagesize1=22
+| directionl1=W
+| majorl1=[[Billings]]
+| minorl1=[[Buffalo (Wyoming)|Buffalo]]
+| directionr1=E
+| majorr1=[[Rapid City]]
+| minorr1=[[Moorcroft]]
+
+| image2=US-14.png
+| imagesize2=22
+| directionl2=W
+| majorl2=[[Yellowstone National Park|Yellowstone N.P.]]
+| minorl2=[[Sheridan]]
+| directionr2=E
+| majorr2=[[Rapid City]]
+| minorr2=[[Moorcroft]]
+
+| image3=US-16.png
+| imagesize3=22
+| directionl3=W
+| majorl3=[[Yellowstone National Park|Yellowstone N.P.]]
+| minorl3=[[Buffalo (Wyoming)|Buffalo]]
+| directionr3=E
+| majorr3=[[Rapid City]]
+| minorr3=[[Moorcroft]]
+}}
+
+{{outline}}
+{{isPartOf|Northeast Wyoming}}
+
+[[WikiPedia:Gillette, Wyoming]]
+[[Dmoz:/North_America/United_States/Wyoming/Localities/G/Gillette/]]

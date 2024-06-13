@@ -1,0 +1,949 @@
+{{pagebanner|Cairo Banner.jpg}}
+
+
+
+'''Cairo''' (&#1555;&#1604;&#1602;&#1575;&#1607;&#1585;&#1577; ''al-Q&#x101;hirah'') is the capital of [[Egypt]] and, with a total population in excess of 16 million people, one of the largest cities in both [[Africa]] and the [[Middle East]] (the regions which it conveniently straddles). It is also the 19th largest city in the world, and among the world's most densely populated cities. 
+
+On the Nile river, Cairo is famous for its own history, preserved in the fabulous medieval [[Cairo/Islamic Cairo|Islamic city]] and Coptic sites in [[Cairo/Old Cairo|Old Cairo]]. The [[Cairo/Midan Tahrir|Egyptian Museum]] in the centre of town is a must see, with its countless Acient Egyptian artefacts, as is shopping at the Khan al-Khalili bazaar. No trip to Cairo would be complete, for example, without a visit to the [[Cairo/Giza|Giza Pyramids]], and to the nearby [[Saqqara|Saqqara Pyramid Complex]], where visitors will see Egypt's first step pyramid built by the architect Imhotep for the third dynasty Pharaoh, Djoser.
+
+Though firmly attached to the past, Cairo is also home to a vibrant modern society. The [[Cairo/Midan Tahrir|Midan Tahrir]] area situated in downtown [[Cairo|Cairo]] area, built in the 19th century under the rule of Khedive Ismail, has strived to be a "Paris on the Nile". There also are a number of more modern suburbs including [[Cairo/Ma'adi|Ma'adi]] and [[Cairo/Heliopolis|Heliopolis]], while Zamalek is a quiet area on [[Cairo/Gezira|Gezira Island]], with upmarket shopping. Cairo is best in the fall or spring, when the weather isn't so hot. A felucca ride on the Nile is a good way to escape from the busy city, as is a visit to Al-Azhar Park.
+
+Since the revolution in 2011, the tourists have fled Cairo to a large extent. This has created an opportunity for unique experiences of Cairo's and Egypt's cultural treasures without the crowds. Finding yourself alone inside a pyramid is now a real possibility. Prices are also lower.
+
+==Districts==
+Cairo is '''vast'''; with more than 17 million people, it's the largest city in Africa and the Middle East. The central core consists of the following districts:
+
+{{Regionlist|
+regionmap=Cairomap.png |
+regiontext=Districts by colour, subdivisions outlined & labelled |
+regionmapsize=400px|
+
+region1name=[[Cairo/Midan Tahrir|Midan Tahrir]] |
+region1color=#FF70DD|
+region1items=|
+region1description=Midan El Tahrir is the very centre of the modern city: big hotels, transport nexus and the Egyptian Museum, with downtown extending through Midan Talaat Harb up to Midan Ataba. Midan Tahrir (literally, "Liberation Square") is famous for the massive 2011 protests that ousted president Mubarak. Massive political rallies still occur on this square.|
+
+region2name=[[Cairo/Downtown]] |
+region2color=#FF70DD|
+region2items=|
+region2description= |
+
+region3name=[[Cairo/Midan Ramses|Midan Ramses]] |
+region3color=#0071FE |
+region3items= |
+region3description=Contains Cairo's main railway station and a burgeoning retail and accommodation zone. |
+
+region4name=[[Cairo/Garden City|Garden City]]|
+region4color=#FF5500|
+region4items= |
+region4description=A suburb close to the city centre and the Corniche el-Nil, a good option for central accommodation. |
+
+region5name=[[Cairo/Islamic Cairo|Islamic Cairo]]|
+region5color=#FFD380|
+region5items= |
+region5description=The centre of historic Cairo, located east of downtown; contains the Citadel, Mohamed Ali Mosque, Khan el Khalili (the main bazaar or ''souq''), historic mosques and medieval architecture, as well as some of Cairo's turkish baths or [[Hammams]]. |
+
+region6name=[[Cairo/Old Cairo|Old Cairo]]|
+region6color=#D6C29D|
+region6items= |
+region6description=Located south of downtown, includes Coptic Cairo, Fustat (Cairo's historical kernel) and Rhoda Island. |
+
+region7name=[[Cairo/Dokki and Mohandiseen|Dokki and Mohandeseen]]|
+region7color=#7AB6F5|
+region7items= |
+region7description=Located on the west bank of the Nile, with upmarket restaurants, shopping, and accommodation. |
+
+region8name=[[Cairo/Gezira|Gezira and Zamalek]] |
+region8color=#E7E600|
+region8items=|
+region8description=Upmarket suburb on the Gezira island in the Nile, with hotels, the Cairo Tower, the Opera House, as well as some nice shopping, restaurants, cafes, and accommodation. Also, is where the Gezira Sporting Club is located. |
+
+region9name=[[Cairo/Giza|Giza]]|
+region9color=#F57B7A|
+region9items= |
+region9description=Giza district is a sprawling western district of the city overlooking the Nile where the Giza Zoo is located as well as a few other attractions. Giza Governorate contains the Haram district where the Giza Pyramids are located. The Governorates of Cairo and Giza have more or less merged into the same city of Greater Cairo, although originally they were two different cities. The term Giza commonly refers to the district of Giza which is within Cairo, not the actual location of the pyramids! |
+
+region10name=[[Cairo/Heliopolis|Heliopolis and Nasr City]]|
+region10color=#78D67E|
+region10items= |
+region10description=The two of them are actually completely distinct areas. Heliopolis is an older district where well-to-do Egyptians and higher class people live, built by a Belgian architect. Nasr City is newer, and contains City Stars, Cairo's biggest and most modern shopping mall, and retail social complex. The airport is actually located a bit further east of this area out in the desert near Masaken Sheraton |
+
+region11name=[[Cairo/Ma'adi|Ma'adi]]|
+region11color=#B4D79D|
+region11items= |
+region11description=A more quiet residential suburb catering to many foreign expatriates, located southeast of Cairo, where upper-class Egyptians live. |
+}}
+
+<!--PRINT
+[[Image:Cairomap.png|thumb|print=inline|470px|Map of Cairo]]
+Cairo is vast: with more than 17 million people, it's the largest city in Africa and the Middle East. The downtown core consists of the following districts:
+
+* Downtown (Midan Tahrir, Downtown) - Midan Tahrir is the very centre of the modern city: big hotels, transport nexus and the Egyptian Museum, with downtown extending through Midan Talaat Harb up to Midan Ataba.
+
+* Midan Ramses - Cairo's main railway station and a burgeoning retail and accommodation zone.
+
+* Garden City - An upmarket "garden suburb" close to the city centre and the Corniche el-Nil.
+
+* Islamic Cairo - The centre of historic Cairo, located east of downtown; the Citadel, Khan el Khalili (the main Cairo souq / market), historic mosques and medieval architecture.
+
+* Old Cairo - Located south of downtown, includes Coptic Cairo and Fustat (Cairo's historical kernel).
+
+* Dokki and Mohandeseen - Located on the west bank of the Nile, with upscale restaurants and shopping.
+
+* Gezira and Zamalek - Upmarket suburbs on an island in the Nile, with hotels and the Cairo Tower.
+
+* Giza - A sprawling western district of the city and the site of the Pyramids.
+
+* Heliopolis and Nasr City - An upmarket residential and retail area close to the Airport.
+
+* Ma'adi - A suburb catering to many foreign ex-patriates, accessed by the Ring Road.
+PRINT-->
+
+==Understand==
+[[File:Cairo evening view from the Tower of Cairo Egypt.jpg|thumb|Evening view from the Tower of Cairo]]
+Situated along the Nile, Cairo has ancient origins, located in the vicinity of the Pharaonic city of [[Memphis (Egypt)|Memphis]]. The city started to take its present form in 641 AD, when the Arab general Amr Ibn Al-Ase conquered Egypt for Islam and founded a new capital called '''Misr Al-Fustat''', "the City of the Tents", due to the legend of Al-Ase finding, on the day he was leaving to conquer [[Alexandria|Alexandria]], two doves nesting in his tent. Not wanting to disturb them, he left the tent, which became the site of the new city in what is now [[Cairo/Old Cairo|Old Cairo]]. The Tunisian Fatimid dynasty captured the city in 969 A.D and founded a new city, '''Al-Qahira''' ("The Victorious") just north of Al-Fustat. ''Al-Qahira'' gave the city its English name, Cairo, but the locals still call it ''Ma&#351;r'' (&#1605;&#1589;&#1585;), the Egyptian dialectal version of Amr's ''Mi&#351;r''. Confusingly, this also the Arabic name of the entire country of Egypt.
+
+===Climate===
+
+{{Climate
+| units = Metric
+| janhigh =   18
+| febhigh =   21
+| marhigh =   24
+| aprhigh =   28
+| mayhigh =   33
+| junhigh =   35
+| julhigh =   36
+| aughigh =   35
+| sephigh =   32
+| octhigh =   30
+| novhigh =   26
+| dechigh =   20
+| janlow =   8
+| feblow =   9
+| marlow =   11
+| aprlow =   14
+| maylow =   17
+| junlow =   20
+| jullow =   21
+| auglow =   22
+| seplow =   20
+| octlow =   18
+| novlow =   14
+| declow =   10
+| janprecip =  5
+| febprecip =  4
+| marprecip =  4
+| aprprecip =  1
+| mayprecip =  1
+| junprecip =  0
+| julprecip =  0
+| augprecip =  0
+| sepprecip =  0
+| octprecip =  1
+| novprecip =  4
+| decprecip =  6
+| description = Source: BBC Weather Centre, World Meteorological Organization
+}}
+===Climate===
+Cairo has a hot desert climate like most of Egypt's interior. The best time to visit the city is from November to March when days are pleasantly warm and nights are relatively cool. A warm jacket should be brought as temperatures can fall below 10°C (50°F) after sunset and in rare cases, below 5°C (42°F). The record low is 1.2°C (34.2°F). Snow or any type of frozen precipitation is virtually unknown in Cairo. The last occurence was on 13th December 2013 when graupel fell in the easternmost suburbs of the city for the first time in 112 years. The city starts to warm fast in April and by mid-May daytime highs are usually above 30°C (86°F) and they surpass 35°C (95°F) by the time June arrives. Even nights are usually above 20°C (68°F). The mercury does sometimes surpass 40°C (104°F) and the record high is 48°C (118°F). The weather remains hot well into October but by November it starts to cool down.
+
+===Orientation===
+Today's Greater Cairo is a city with at least 17 million inhabitants, where skyscrapers and fast food restaurants nestle up to world heritage monuments. Originally, Cairo was the designated name of the city on the eastern bank of the Nile, and this is where you'll find both the modern [[Cairo/Downtown|Downtown]], built under influence of French architecture, today the centre of commerce and popular life, as well as historical [[Cairo/Islamic Cairo|Islamic]] and [[Cairo/Old Cairo|Coptic]] sights.
+
+Outside the core on the eastern bank, you'll find the modern, more affluent suburbs of [[Cairo/Heliopolis|Heliopolis]] and [[Cairo/Nasr City|Nasr City]] near the airport, and [[Cairo/Ma'adi|Ma'adi]] to the south. In the middle of the Nile is the island of [[Cairo/Gezira|Gezira and Zamalek]], more Western and tranquil than the rest of the city. On the western bank is lots of modern concrete and business, but also the great [[Cairo/Giza|Giza]] pyramids and, further to the south, [[Memphis (Egypt)|Memphis]] and [[Saqqara]]. The city might seem like a lot to handle, but give it a try, and you will find that it has a lot to offer for any traveller.
+
+===Respect===
+
+====Greeting people====
+When you approach any individual or a group of people for the first time, the best thing to say is the local variation of the Islamic form of greeting "Es-Salāmu-`Alēku" which literally means "Peace be upon you". This is the most common form of saying "hello" to anybody. It creates a friendliness between you and people you don't know, builds rapport, and helps build respect! It is also considered polite to say this if you approach someone, instead of just asking them for something or speaking to them directly. 
+
+Other forms of greeting include "SàbâH el-xēr" ("good morning"), "masā' el-xēr" ("good evening"), or the more casual "izayak" addressing a male, or "izayik" addressing a female, which means "hello" or "how are you?". 
+
+When leaving, you can say the same "Es Salamu Aleykom", or simply "Maa Salama", literally: "with safety" or "with wellness" which is used to mean to say "goodbye". More educated Egyptians will say "bye-bye" derived from the English "goodbye" or "buh-bye" when leaving others. 
+
+However, be careful not to be too friendly or too smiley, especially if you're a female speaking to an Egyptian male, as they might mistake you for trying to befriend them or asking for them to flirt or hit on you. Even in a male-to-male conversation, being too friendly might give the other person the chance to try to take advantage of you some way or another.
+
+====Meeting Etiquette==== 
+
+Greeting in Egypt are mostly based on both the class and religion of the person.
+
+Handshakes are the more customary greeting among acquaintances. When a more close relationship is formed, it is more common to kiss on one cheek then the other while shaking hands. (mostly men)
+
+With males, it is proper to do a slight bow upon talking to a female
+
+It is best to follow the lead of the person you are meeting. For no confusions to happen.
+
+====Tone of voice====
+Most Egyptians tend to have a loud voice when they speak, which is common to some other countries in the region. They are not shouting, and you will know the difference.
+
+====Expressing your opinion====
+Egypt is a predominantly Muslim country, so say nothing that might be perceived as an insult to Islam or the Egyptian culture. The same applies to any mention of the Middle East as a whole. Your best option is to not discuss religion or politics from a Western point of view at all as this could lead to a series of unfortunate events.
+
+====Dress code====
+Women and men should wear modest clothing. It is considered disrespectful to the mainly conservative Muslim inhabitants to see visitors walking around wearing clothing which reveal thighs, shoulders, bare backs or cleavage, except at beaches and hotels. Men should also not walk about bare chested or wearing very short shorts outside of hotels or beach resorts. 
+
+People do generally tend to dress more liberally at beach resorts, nightclubs, social outings, weddings, or when engaging in any sport, but there are no places to practice nudism or naturism as being nude in public.
+
+====Mosque etiquette====
+Do not enter a mosque with any form of shoes, sandals, slippers, boots, etc. on., as this is very disrespectful. Always take them off before entering as they carry the dirt from the street, and the mosque (a place of prayer) should be clean. However, you can keep socks on.
+
+'''Etiquette in the Presence of Prayer:'''
+
+Also, avoid walking in front of persons in prayer. The reason is because when people kneel, they kneel to God. If you stand in front of someone while they are praying or kneeling, it is as if they are kneeling to you or worshipping you, a complete taboo and against the basic foundations of Islam. Otherwise, it is quite acceptable for visitors or Christian Egyptians to carry on as normal in the streets or shops that operate during prayer times.
+
+====Public display of affection====
+Like most other countries in the Muslim world, the Middle East, and even some non-Muslim conservative countries, affection should not be displayed in public. Egyptians are conservative and doing things like making out with your girlfriend/boyfriend in public is considered offensive, rude, or disrespectful. A public hug is less offensive, especially if greeting a spouse or family member you haven't seen in a while.
+
+You will notice male-to-male kissing on the cheeks when Egyptian men meet their friends, family, or someone they know well. Some Egyptian men like to walk next to their male friend with their arms attached together like a loop inside another loop.
+
+====Gay/lesbian====
+Egypt is a Muslim and conservative country. Any display of homosexuality is considered strange, weird, disrespectful and may lead on most occasions to hostile reactions. Depending on the situation and the place and time, it could be anything from weird looks to physical abuse. Therefore, gays and lesbians should be discreet while in Egypt.
+
+Sometimes, men walk in the streets holding hands, and sometimes they even kiss when they meet, and unlike the west, this does not have any sexual meanings. It is a sign of a platonic friendship, so do not think it a sign that they are homosexual.
+
+The gay scene in Egypt is not open and free like in the West. Homosexuals have been arrested by the police and detained and even tortured in Cairo in the past for engaging in homosexual activity. Human rights groups have condemned such actions and the Egyptian government has been under pressure from different sources including the USA to stop this degrading treatment of homosexuals. The most famous arrests were in 2001 on a boat called the Queen Boat located on the Nile River in Zamalek district. Further arrests have occurred since then, but the exact situation of homosexuals in the last few years is uncertain.
+
+There are no official "gay" places for cruising or meeting other people.
+
+==Get in==
+{{Moreinfo|visa requirements|Egypt}}
+
+===By plane===
+[http://www.cairo-airport.com/ '''Cairo International Airport'''] ({{IATA|CAI}}) is the second biggest airport in Africa with more than 16 million passengers a year. It's well served by [http://www.egyptair.com/ Egyptair] the national carrier and its Star Alliance partners (Singapore Airlines [http://www.singaporeair.com/], Lufthansa [http://www.lufthansa.com/], Swiss [http://www.swiss.com]], Austrian, , Sky Team (Air France [http://www.airfrance.fr/], KLM [http://www.klm.com], Alitalia), Oneworld (British Airways [http://www.ba.com/]), Gulf Carriers (Emirates [http://www.flyemirates.com], Etihad [http://www.etihad.com]) as well as budget carriers TUI-fly [http://www.tuifly.com/] and Jet-Air-Fly [http://www.jetairfly.com/]. <br>If you are planning a trip to Cairo whilst you are on holidays at the seaside, [http://www.nileair.com/ Nile Air] and [http://www.egyptair.com/ Egyptair] offer connections between Cairo and Hurghada or Sharm el Sheik.
+
+====Arrival====
+You'll be asked to fill the arrival form on the plane. You'll need this form at the customs.
+
+After getting off the flight, you'll need to buy a visa. There are several bank counters for this and money exchange. A single-entry visa costs USD 25, a multiple-entry one USD 30. You can pay by card, USD or EGP, of which USD in cash is your best. EGP they first exchange to USD. Some cards they won't accept, and when they do, they'll charge you as a USD cash advance, so your bank will probably charge you extra. You get a stamp to stick into your passport to any blank page. You can also leave this to them, but then they'll do it in a rather ugly way. You can also exchange some money at these banks. You won't get the best rates, but if you arrive late, there will be no other open exchange services after the customs.
+
+Immigration is very quick (1 minute) once you have the form and visa. Then there's baggage collection and one more slow checkpoint to get out.
+
+ATMs for all major cards are available in the arrival halls. In the bag collection area, there is only 1 ATM, and it didn't work for us. Also, some of the ATMs in the arrival halls won't work with foreign cards.
+
+At the airport, near the luggage collection, there are many touts who will come up to you and ask you questions saying they are "government" employees and are there to help tourists. This is a scam.
+
+The airport offers “Exclusive Services” that pick you up at the gate, do all immigration procedures for you and pick up your luggage while you wait in a comfortable arrival lounge for USD50, not including the visa fees. It can be pre-booked via ☎ +202 16708 [http://www.cairo-airport.com/services_exclusive_servicese.asp]
+
+Visitors are allowed to buy duty-free articles on arrival. If you are visiting European or American friends, they are always keen to get your passports to get more booze and cigarettes than the excepted quantity at customs. At the airport, the additional quantity is 4 bottles of alcohol.  At the checkout, a customs official will check your passport and give approval for the purchase. You can be accompanied by the person picking you up.
+
+The airport has three terminals, the latest of which was opened in 2009. Egypt-Air and all Star Alliance members now operate all flights to and from the new Terminal 3. Most other airlines arrive at Terminal 1. Terminal 2 is now linked with Terminal 3 via an air bridge like one integrated terminal 2017. A '''free shuttle bus''' runs between the two terminals and the bus station every 30 minutes, 24 hours a day. Taxi drivers trying to lure you at the airport will try to tell you otherwise regarding the shuttle bus, but if you go outside the terminal, you will find the free shuttle bus. At Terminal 3 it is located at the arrival level at the end of the bus lane (turn right after the exit). At Terminal 1 the Shuttle Bus stops are at Hall 3 in front of the AirMall and at Hall 1 at the curbside. Unfortunately, the bus stops are not marked. Sometimes you have to change buses at the bus station due to the driver's coffee break. 
+
+More recently (as of June 2012), you can also use the new APM (automated people mover) which is free, clean and fast. Note, however, that stations are not located inside the terminals. If you are at terminal 3, you have to leave it through the front door and turn right. Walk to the end of the building and turn right again. Then you might need to ascend or descend a ramp, depending on the level you are at (departure or arrival). At the end of the ramp you turn left and you'll get to the station some 50m ahead, on your left. Signs are not clear at this point, but the APM is working and is very convenient to transit between terminals. At terminal 1 you need to leave through the main exit and turn left to get to the station.
+
+As of June 2023, all 3 terminala are connected via APM. Below is the way to go from 1 terminal to the others via APM.
+From T1 to T2/T3. After the arrival hall exit, try to locate the sign for Le Méridien hotel. Location at google map, [https://goo.gl/maps/PnyHpK4N3z4xfEXB7.  The entrance to the APM is located about 30m from the exit. APM is at 2nd floor. You need to take escalate or elevator. APM arrive every 10min. T2/T3 are the last station after Car Park station and CAI. The APM stop at Terminal 2. To go to T2 departure, just take a elevator down and you are inside the T2 building. To go to T3, you need to exit the T2 building at door 5. T3 is located next to T2. Exit door 5 and turn left, you will see a cafe on your left, T3 is the big building in front of you. You need to walk a short distance on the street to reach there. T3 Departure hall is at upper level. You need to use the small ramp at the side of the buiding to go up if the security guard doesn't allow you to enter to the arrival hall. 
+From T3, when you exit the arrival hall, you are at the ground floor, turn right and you will see a smaller building, that T2. Walk about 50m to reach T2 and enter the building via door 5. Ask the guard where to take the APM, it entrace is in the T2 building. As of June 2023, there is a short cut that connect T2 and T3, but only for airport staff and the door for passenger is locked.
+ 
+
+The airport is on the north-eastern outskirts of the city at [[Cairo/Heliopolis|Heliopolis]]. If you want to spend the night at the airport, there are currently three hotels available:
+
+*<sleep name="Le Méridien Cairo Airport" alt="" address="" directions="Terminal 3" phone="+20 2 2268 5103" url="www.lemeridiencairoairport.com" checkin="" checkout="" price="" lat="" long="" email="info.cairoairport@lemeridien.com" fax="+20 2 2265 9700"></sleep>
+
+*<sleep name="Novotel Cairo Airport" alt="" address="" directions="" phone="" url="http://www.novotel.com/gb/hotel-0502-novotel-cairo-airport/" checkin="" checkout="" price="" lat="" long="" email="H0502@accor.com" fax=""></sleep>
+
+*<sleep name="Le Passage" alt="" address="" directions="" phone="" url="http://lepassage-cairo.com/" checkin="" checkout="" price="" lat="" long="" email="cairo@jaz.travel" fax="">was Iberotel</sleep>
+
+There are other lodging options in nearby Heliopolis.
+
+=====Public transport=====
+Getting to downtown Cairo used to be a pain, but now there's quite a nice bus system to take you downtown.
+
+Once you get out to the arrival hall, you'll be flooded with taxi drivers. Ignore them at will. Take the free shuttle bus. It's a big, white/blue bus that leaves about 50 meters from the terminal exit. If you can't find it, ask the airport staff or policemen. The shuttle bus is free and takes you to the nearest bus station.
+From the bus station, you have many options, one of them is bus 381. It costs 10 EGP and takes you downtown ([[Cairo/Midan Tahrir|Midan Tahrir]], Zamalek, etc.). Google Maps works fine for trip planning on this particular bus line (and all metro lines). There are other nice buses (numbers 111, 356, 27), but only use the notorious (non-A.C) green buses if you're feeling adventurous. In some cases, the bus destination and/or number will be in Arabic. If this is the case, be prepared to ask a driver or passengers if the bus stops at your destination. Buses run every 30 min, take 60-90 min and cost LE 5. At least on the non-A.C bus, you may be charged an additional LE 2 if you bring aboard large or bulky items.
+
+To get from downtown to the airport, board an A.C bus at the bus terminal just north of the Egyptian Museum (under the highway bridge). Finally, there are also direct express buses from the airport to [[Alexandria]] every 30-60 min. However, the buses operate only during daylight hours (4 AM to 7:30 PM).
+
+=====Taxis, Careem and Uber=====
+With the introduction of Uber and Careem transportation in Cairo became much less of a problem. The cars are very clean and most of the drivers are very professional. The cost of the trip in either service is often lower than the white taxi fare, but this depends on the traffic. It is easy to order Uber or Careem at the airport. The driver will contact you once they arrive at your terminal. Uber costs around 100 EGP (May 2018) from airport to downtown (Tahrir Square); an Uber ride from airport to Zamalek costs around 250 EGP (Nov 2023). The location for Uber pickup is quite confusing, so make sure you follow the directions to find the designated pick up parking lot.
+
+The old taxis are still available too. Since the revolution white meter taxis are available at the Terminals. The fee is EGP5.00 plus EGP 3.00/km. Waiting time or when driving with a speed less than 7km/h costs EGP0.25/min. Do insist on using the meter. Do not accept a fixed price as they tend to be double the fare by meter. Report taxi drivers who refuse to use the meter to Airport Security or Tourist Police. Refuse to pay the "ticket" (EGP5 airport parking fee) for the driver. If you are going to downtown Cairo, you may be able to share a taxi with other tourists or backpackers. Another option is to use transportation arranged by your hotel or hostel, though this service is often not complimentary. Average trip between Cairo Airport and downtown should not cost more than 50-60 EGP (6-8 USD or about 5 EUR). Trip from Cairo Airport to Giza, or the Pyramids area goes for about 100-110 EGP(10-13 USD or about 10 EUR)  
+
+The most convenient way, however expensive, is by one of the numerous "limousine services". Pick-Up points are in front of the terminals (curb side). The prices are fixed depending on the destination and the car category. Category A are luxury limousines (Mercedes-Benz E-Class), Category B are Micro Busses for up to 7 passengers and Category C are midsized cars (e.g. Mitsubishi Lancer). Since 2010, London Taxis are available from Sixt as a new Category D.
+
+Current Price List (2011)
+
+{| class="prettytable"
+ |- style="background:#cccccc;"
+ ! Destinations in Cairo
+ ! A (Luxury)
+ ! B (Micro Bus)
+ ! C (Midsize)
+ ! D (London Cab)
+
+ |- 
+ | Airport (Terminals, Hotels)
+ | EGP 65 
+ | EGP 45 
+ | EGP 45 
+ | EGP 50
+
+ |- style="background:#EEEEEE"
+ | [[Cairo/Heliopolis|Heliopolis]]
+ | EGP 110
+ | EGP 70 
+ | EGP 60 
+ | EGP 85 
+
+ |-
+ | [[Cairo/Heliopolis|Nasr City]]
+ | EGP 110
+ | EGP 70
+ | EGP 65 
+ | EGP 85
+
+ |- style="background:#EEEEEE"
+ | Gisr El Suez, Roxy
+ | EGP 120
+ | EGP 85
+ | EGP 65 
+ | EGP 95
+
+ |-
+ | [[Cairo/Downtown|City Centre]]
+ | EGP 155
+ | EGP 100
+ | EGP 80 
+ | EGP 125
+
+ |- style="background:#EEEEEE"
+ | [[Cairo/Dokki_and_Mohandiseen|Mohandesin]], [[Cairo/Zamalek|Zamalek]], [[Cairo/Dokki_and_Mohandiseen|Dokki]]
+ | EGP 165
+ | EGP 110
+ | EGP 90 
+ | EGP 135
+
+ |-
+ | [[Giza]], [[Cairo/Ma%27adi|Maadi]], Makatam
+ | EGP 200
+ | EGP 120
+ | EGP 100 
+ | EGP 155
+
+ |- style="background:#EEEEEE"
+ | [[New Cairo]]
+ | EGP 200
+ | EGP 120
+ | EGP 110 
+ | EGP 100
+
+ |-
+ | Helwan, [[Saqqara|Sakkara]]
+ | EGP 260
+ | EGP 180
+ | EGP 150 
+ | EGP 210
+
+ |- style="background:#EEEEEE"
+ | [[6th of October City]]
+ | EGP 350
+ | EGP 190
+ | EGP 160 
+ | EGP 290
+
+ |- 
+ | Sādāt City
+ | EGP 470
+ | EGP 240
+ | EGP 230 
+ | EGP 375
+ |}
+
+Micro Buses and London taxis, Uber and Careem can be pre-booked:
+
+* <listing name="Micro Bus" alt="Cairo Airport Shuttle Bus" address="" directions="" phone="+202 19970" email="reservation@cairoshuttlebus.com" fax="" url="http://www.cairoshuttlebus.com" hours="24h" price=""></listing>
+
+* <listing name="London Taxi" alt="Sixt" address="" directions="" phone="+202 19670" email="info@sixt.com.eg" fax="+202 463 010 00" url="http://eg.sixt.com" hours="24h" price=""></listing>
+
+====Departure====
+
+When returning to the airport for departure be sure of which terminal you are departing from (1 or 3) and allow plenty of time (2-3 hours to be safe) to get to the airport, as the roads can be very congested. The new airport road connects the airport with the intersection of the Ring Road and Suez Road and has no traffic jams. If you depart on Friday morning or mid-day, the trip to the airport will be quick, as roads are deserted while people go to the mosque for Friday prayers.
+
+If you only have light luggage an alternative to avoid the traffic is to get the Metro to Al Ahram in Heliopolis at the end of line 3, and get a taxi to the airport, which should take 20 minutes and cost about 25LE.  However this is not recommended if you have a large suitcase, the Metro is usually very crowded and the interchange between Lines 1 and 3 at Attaba Station is a gauntlet of stairs and escalators.
+
+Egyptair and all Star Alliance airlines (Lufthansa Group, Singapore Airlines, LOT etc.) are leaving from Terminal 3. Saudi Arabian Airlines leaves from Terminal 1 Hall 2. All other airlines (Sky Team, Oneworld, Emirates, Etihad, etc.) leave from Terminal 1 Hall 1.
+
+Upon arriving, you need to pass through a security checkpoint before you can get to the ticket counter/check-in area. You must bring a printout with you of your itinerary or ticket to show the security staff to pass through the checkpoint. You will pass through a second security checkpoint just before boarding your aircraft. Allow plenty of time for getting through the security checkpoints and checking in, as lines can be long. Note that there is no baggage room at the airport.
+
+You can avoid the queues by using the Exclusive Service, which will do all the check-in and emigration formalities for you while you wait in a comfortable lounge and then lets you jump the lines at the first security check and passport control. It can be pre-booked ☎ +202 16708 [http://www.cairo-airport.com/services_exclusive_servicese.asp].
+
+Both terminals offer a good variety of duty free shops and restaurants (payment in US dollars). In Terminal 1 are some Egyptair duty-free shops opposite the gates. More shops and designer outlets are on the first floor. The lounges, a pub, Mcdonald's and Coffee Shops such as Starbucks are on the second floor. Terminal 3 has a central market place and food court. The shops in the concourses are limited. Gates in both terminals open maximum one hour prior to departure. Observe the flight data displays for delays as seating in front of the gates is very limited.
+
+===By train===
+
+Cairo's main railway station - Ramses Station (''Mahattat Ramses'') - is on [[Cairo/Midan Ramses|Midan Ramses]], which is also the location of the Martyrs Metro Station. Trains run to Cairo from most other regions and cities within [[Egypt]]. Trains in Egypt rarely run on schedule and are almost always at least 15 min late, if not later. Train service is available from Ramses Station to Alexandria, Luxor, and Aswan. Service to Luxor and Aswan is also available at the Giza Railway Station. Visitors wishing to connect with trains to Luxor , Aswan , and the rest of upper Egypt should take the Metro from [[Cairo/Midan Ramses|Midan Ramses]] Mubarak Metro Station, on line one to Giza Metro-Train Station which should take approximately twenty minutes.
+
+Trains also depart to the canal cities, but buses are much faster.
+
+{{infobox|Learn Eastern Arabic numerals|Eastern Arabic numerals, instead of Arabic-Hindu numerals as used in the west, are used to indicate train numbers, departure times, seat numbers, and other key information. You may need to ask for help. The ticket agent or other friendly person might write the departure time in Arabic-Hindu numerals for you, though you may still need help finding your train car and seat. You can also use this chart below of Eastern Arabic numerals in the top table below to guide you.
+[[Image:Arabicnumerals.png|center|350px]]
+}}
+It is best to purchase tickets in advance to be assured of a seat. It is also important for travellers to ensure with the ticket office that the train is not a local train used by Egyptians to visit all of the small destinations south wards in the Nile Valley , but only the major cities. For comfort visitors should also preferably insist on a first class seat but nothing less than a second class . Online ticket purchases are now available from [http://enr.gov.eg here], learn more about the system from [http://www.seat61.com/Egypt.htm Seat 61] - see the "how to buy tickets" section. Note that tickets bought online are entirely in English, which can make it a bit tricky to match your train to the Arabic information on the departure board - allow plenty of time! Especially in the summer months, trains running between Cairo and Alexandria sell out, so advance purchase is advised. Sometimes it is possible to buy train tickets in the morning, for a train later the same day, or if it is not busy, you might get on the next train. There are multiple windows for different classes and destinations, so check that you are in the correct line.
+
+There is no longer a left luggage facility.
+
+[[Alexandria]] is served by a large number of departures through the day. Among the best trains are El-Espani (Spanish) which has a morning service from Cairo at 9AM. El-Espani and Turbine (Turbo) are the best services, going non-stop to Alexandria and taking 2 hours and 40 min. The next best service is Al-Fransawi (French), which stops at the major Delta cities on the road. The Express (French) and Turbo trains to Alexandria have first and second class, all air conditioned. Refreshments are available for purchase on the train. First class is recommended, but second class is also reasonably comfortable.
+
+Trains heading to Luxor, Aswan, and other Upper Egypt destinations also depart from the rail station in Giza. The Sleeping Trains (Abela Egypt) [http://www.sleepingtrains.com/] leave Cairo 8PM and arriving in Luxor 5.05AM and Aswan 8.15AM. There also is a 9:10PM departure from Cairo. Check the website for more departures, including one three days a week from Alexandria. It's relatively expensive at 60 USD for a bed in a double-person cabin one way. Tickets are bought at the office to your left as you enter the train station from the Metro and taxi station. The tickets are payable in US dollars, euros, or British pounds only. There are no exchange offices at the train station itself. It is also possible to make reservations in advance, by calling or faxing your request to Abela, and then pay for and pick up your tickets at the station. Since these trains are designated for tourists, you will stay in special cars guarded by armed plainclothes policemen.
+
+Going to Upper Egypt, the alternative to the expensive sleeper (or flying) is the ordinary trains. One of these departs at 00.30 to Luxor and Aswan and is supposed to take 10 hours to Luxor and 13 hours to Aswan. There is also a night train leaving Ramses Station at 21:00 with both first and second class carriages. First class costs approximately 110 Egyptian pounds and has 3 large, business class style seats per row and air conditioning. There is plenty of leg room and the seats recline for a good sleep. However, the lights are on all night and you'll probably be woken several times for ticket checks.
+
+Allow plenty of time to find your platform. There is very limited English signage and you'll need to rely on station staff to point you to the correct platform. It is advisable to check with several people as you may be given contradictory information.
+
+Ramsis Station, ☎ +202 25753555
+
+===By bus===
+
+{{seealso|Cairo to Jerusalem by bus}}
+
+Buses arrive to Cairo from virtually all over the country. The two main destinations are Midan Ramsis and Cairo Gateway, formerly known as Turgoman, but vehicles also sometimes stop at other destinations, notably Abbasiya. From Midan Ramses and Cairo Gateway it's a quick 10 LE taxi cab ride to downtown, 17-20 LE to Zamalek. Cairo Gateway is a new, modern indoor station located approximately 500m from the Orabi Metro Station, within the new Cairo Gateway Plaza.
+
+'''Destinations:'''
+
+* [[Port Said]], [[Ismailiya]], and [[Suez]] - hourly services from Cairo Gateway (2 hrs; 20-30 LE) 
+
+* [[Sharm el-Sheikh]] - East Delta buses take approximately 8 hrs (80 LE) while Super-jet buses take 6 hrs. Some East Delta services continue to [[Dahab]]. When taking the bus to Sharm, keep your bus ticket and passport handy, as you will pass through a number of checkpoints, which require passengers to present identification and ticket. A cheaper option to get to Sharm by bus is to take a bus, a train, or a minibus to [[Suez]] (10LE) and from the main bus station there, take the 11AM or the 13:20 bus to Sharm for only 31 LE.
+
+* [[Taba]] and [[Nuweiba]] - Buses leave Cairo Gateway four times daily (06.00 hrs, 09.30 hrs 22.00 hrs and 23.00 hrs) with prices 70 LE for the morning buses and 80LE for the overnight ones. It takes around 6 hrs to get to Nuweiba. 
+
+* [[Siwa]] - Direct buses leave Cairo Gateway Sunday and Wednesday nights at 7:45PM (60 LE)
+
+Uncomfortable, but cheap, micro-buses leave from Cairo to a large number of destinations. The main garages are Midan Ramsis (For Alexandria, 22LE, and to the delta valley) and Al-Marg metro station (for the north-east and Sinai). They are faster and might as such be an option for shorter trips, but have a terrible toll of accidents. There are also other places these buses leave from depending on your destination, ask locals. Be aware that at least for the Sinai, foreigners are prohibited to use the micro-bus system.
+
+Super-jet bus to [[Alexandria|Alexandria]], Hurghada and Sinai, ☎ +202 2266-0212.
+
+East Delta bus to [[Sharm El-Sheikh]] , Arish and Rafah, ☎ +202 2576-2293.
+
+===By car===
+
+Driving in Cairo is not recommended or necessary. The traffic is, at the least, overwhelming for the common traveler. Recently, many automated traffic lights have been introduced in almost all the districts of Cairo. Traffic violation tickets are strictly adhered to in the daytime and double parking penalty can reach up to 1000 EGP. Sometimes police officers are directing traffic at busy intersections. In downtown Cairo, drivers will sometimes bump other cars that are blocking their way. Also, do not be upset if your side-view mirror gets hit. At night, many drivers do not use headlights, so use extra caution or avoid driving at night. In Egypt, vehicles travel on the right side of the road. Instead of making a left turn, you will often need to make a U-turn and backtrack, or you can make three right turns. 
+
+Parking houses or official parking spots used to be rare. Now with the mega parking lot of Tahrir Square the issue has been largely solved in Downtown area.The four-level garage, which is located in front of the Egyptian Museum, was officially opened in January, 2015. In addition to street valets who can help watching your car shall you decide to park in the street, there is the Rakna (literally means parking) application. Rakna is the Uber of valet parking. it's a valet-on-demand service. 
+They currently operate in Downtown and Zamalik. Downtown is the area with the most public garages such as Tahrir, Omar Makram, Bostan, Abdul Moneim Riad, and Ramses Hilton. 
+
+To get to Alexandria, The North Coast, The Delta and The Western Desert drivers should take the Cairo - Alexandria Desert Road from The Mewhwar Road- 26th July corridor from Down Town Cairo.
+
+To get to Beni Sueif, Fayoum, Assyut, Luxor, and Aswan, drivers from Downtown should take the The Sixth Of October-Fayoum exit at the Remaya Roundabout beside The Giza Pyramids at Le Meridian Hotel,to the Fayoum turn off at the Fayoum - Sixth Of October junction, 6 KM from Remaya Roundabout.
+
+To get to Suez, Port Said, and Ismailia, drivers from Downtown should take the Ring Road to the Suez Road junction for Suez, and The Ismailia junction off the Ring Road for Ismailia and Port Said.
+
+To get to Hurghada, and Ain Sukhna, drivers from Downtown, should take the Ring Road to the New Ain Sukhna Toll Road at Kattamaya.
+
+To get to [[Sharm el-Sheikh|Sharm el-Sheikh]], [[Dahab]], Nuweiba, Ras Sidr, Al-Arish, and Rafah on the Sinai Peninsula, drivers from Downtown, should take the Ring Road to the Suez Road junction at the J.W. Marriot Hotel, through the Ahmed Hamdy Tunnel, on to the Sinai Peninsula.
+
+==Get around==
+
+You will find that it's useful to have several maps handy if you are looking to get around Cairo on your own. Spellings of street and place names can vary from map to map and from map to actual location, and not every street will appear on every map.
+
+===By metro===
+[[File:Cairo Metro Map.png|thumb|Cairo Metro Map]]
+
+Cairo is home to Africa's first and most expansive metro system. While Cairo's metro system fully functioning is modern and sleek, there are three lines that cover most of the main districts of Cairo. They are a major boon in the areas they cover – fares have increased as of summer 2018 but remain a bargain for travelers. Metro prices are 3 LE for the first 9 stations, 5 LE for 10-16 stations, and 7 LE for more than 16 stations. The tiered pricing is confusing for foreigners and a financial burden for Egyptians. It is advisable to determine the fare you will be required to pay before you approach the ticket counter by using the newly installed signage that explains the tiered pricing. Visitors attempting to use the metro in Cairo should try not to be put off when they go to a ticket window to purchase a ticket. Egyptians do not queue, so be prepared to politely but assertively, navigate your way through the crowd to the ticket window. It is recommended that if you hope to ride the metro multiple times during the day, or within a few days of each other, that you simply purchase multiple tickets to avoid standing in "line" on your return or future trips. You can easily recognize a station by the iconic red M letter sign. [[File:2012-634884823877347907-734.jpg|thumb|Metro Sign in Cairo]]
+
+The key interchanges are '''Martyrs''' (formerly Mubarak), at [[Cairo/Midan Ramses|Midan Ramses]], and '''Sadat''', below [[Cairo/Midan Tahrir|Midan Tahrir]]. 
+
+Line 1 (Red) is the oldest line of the Cairo Metro, with its first 29-kilometre (18 mi) segment having opened in 1987.The line is 44.3-kilometre (27.5 mi) long and serves 35 stations. This line carries trains with 3 units (9 train cars),which have a headway of 3:30 to 4 minutes, and a maximum speed of 80 km/h (50 mph).The line can carry 60,000 passengers per hour in each direction.
+
+Line 2 (Orange) is the second line of the Cairo Metro. The line is 21.6-kilometre (13.4 mi) long of which 13 kilometres (8 mi) is in tunnels. It serves 20 stations, of which 12 are underground. It is mostly in bored tunnel, with two exceptions: a short section at the northern end approaching Shubra El Kheima which is elevated, and a section just south of this by cut-and-cover. Line 2 uses the third rail electrification system instead of the overhead line used in the first line. The communication extension for line 2 was provided by Alcatel in 2005.
+
+Line 3 (Green) presently operates from Attaba to Ahram (Heliopolis), with construction under way for the remaining line to the northwest of Greater Cairo. Eventually it will link Cairo International Airport all the way to Cairo University and Imbaba. The line will cross under the two branches of the River Nile, as does Line 2. The total length of the line will be approximately 50 kilometres (31 mi), most of which in bored tunnel, and will be implemented in four phases.
+
+The Cairo Metro has stations in Dokki and Maadi, among other places. The Metro is also a hassle-free way to get to [[Cairo/Giza|Giza]] to see the Pyramids, although you'll need to complete the trip taking a bus all the way (change to bus for "Al-Haram" at the Giza train station). Plans have been made to add new lines to include Mohandiseen and Zamalek, as well as the airport; however, little progress seems to be made on this.
+
+Note that there are two cars of each train reserved for women, which are located in the middle section of the train. The metro stops running at approximately midnight and starts up again around 6AM. There are no timetables, but departures are very frequent. The metro is better to use if you wish to avoid traffic jam. It is secure, costs one pound per trip and has a clear European navigation system.
+
+[[Image:Cairo metro.jpg|thumb]]
+
+===By taxi===
+'''Uber and Careem:''' Uber and Careem work very well in Cairo if you have a smartphone with an internet connection. (Vodafone has good coverage.) No hassles with negotiating over prices or with being overcharged. They have drivers who nearly always speak some English, and even if they don't, they already know from Uber where you need to go. Both companies, Uber and Careem, accept credit card payment and cash payment. It's a great solution to the hit-and-miss quality of Cairo's regular taxis.
+
+'''Solid-White Taxis:''' These are modern sedans equipped with meters that are usually used, AC, and run on natural gas. Most tourists will pay less using these taxis than they'll be able to negotiate with their non-metered brethren. They can be hailed from the street, and are common enough to be used perhaps exclusively (given a little patience) by any traveler. Compared to the black and white taxis, all tourists will find them more comfortable, and most - less expensive. Note that at times of heavy traffic drivers will be reluctant to use the meter for short journeys.  The white taxi replaced the iconic black and white taxi that no longer exists in Cairo. 
+
+'''Old, black and white taxis:''' They are often old and without seat belts, maybe with a driver who smokes in the car. And as a tourist, you're likely to end up with a higher price than with Uber on a similar trip. Insist on using the meter. The base price is 5.00 LE, then it's 3.00 LE/km.
+
+Ordinary Egyptians do not state prices beforehand. Instead, the correct sum is paid through the window after leaving. Some drivers might protest as they expect tourists to pay more than standard. You can use the "walk away" technique. As long the driver does not leave the car, you are all right. If this happens, consult someone nearby. As a tourist, you might prefer to state a price beforehand, which may prevent ripoffs, but will require you to quote above local prices. Try to avoid those loitering outside 5-star hotels and restaurants to minimize this. Using a big hotel as your destination may also inflate the price. Always choose the taxi, and never let the taxi choose you and always insist that the taxi driver uses the price meter. 
+
+They also usually expect more money (2 or 3 LE) when taking more people. Negotiating price before the trip is better, but if you decide not to do it, be ready to jump ship and/or bargain hard if the cabbie brings up the fare once you're in the car. They rarely accept more than 4 people in a taxi. Also, add 5-7 LE driving late at night.
+
+Beware of paying a fare with a large bill (50LE, 100LE, 200LE) – it is likely the driver will claim not having any change, and may try to switch the note, claiming you only gave him 10LE.
+
+'''In General:''' Never continue traveling in any vehicle which you deem to be unsafe or the driver to be driving recklessly, especially in the dark on unlit roads, or in single track highways where overtaking is dangerous. If you feel unsafe simply tell the driver to slow down if he does not do this immediately ask him to stop and simply get out and walk away.
+
+===By bus===
+
+The large red, white and blue public buses cover the entire city and are much cheaper, but are usually crowded. However, there are the similar air-conditioned buses that charge 2 L.E. for the trip and prohibit standing on the bus. They can be found in the main squares in Cairo. Also found in main squares are the smaller mini-buses that are usually orange and white or red, white and blue. Because of problems with sexual harassment women travellers are advised only to take the small micro-buses and buses which prohibit standing.
+
+Apart from the main bus stations, buses can be hailed from street-level. Buses are seldom marked with destination, instead passengers shout out (or use a number of sign-language like hand codes) their destinations and if the bus goes this place it will stop. On micro-buses, the fare starts at 50 piastres and goes up to 1 LE. Travellers unfamiliar with Cairo can ask bus drivers or passengers to let them know where their stop is. Simply politely blurt out the name of your destination to the bus driver or a friendly looking passenger and they will take care of you. 
+
+''' Late night bus riders ''': take note, bus frequency, length of route, and in some cases, fees can vary during the late evening hours onward. In some cases, a route may terminate, without notice, short of your destination. When this takes place, locals reply upon private citizens hoping to make some additional money, to get them to their final destination. As always, use caution, if you should choose to accept private transportation. One final note on late night bus transportation, since many mini- buses will not depart until the bus is nearly full, you should be prepared for a lengthy period of time, while the driver waits for enough people to board.
+
+There are a number of major bus stations (mawqaf موقف, pl. mawaqif مواقف) throughout the city. One of the largest is conveniently located behind the Egyptian Museum in Midan Tahrir. Note that there are actually two stations - the main bus station for the city buses, and the micro-bus station behind it. Travellers who want to visit the Pyramids, for example, can catch a seat in a micro-bus for approximately 2 pounds. Visitors wishing to go to the pyramids and see a bus or micro-bus driver shouting Haram, should always before boarding make a pyramid triangle with your hands to ensure that the driver is driving to the actual pyramids themselves, and not just to the district of Haram, which although is fairly close to the pyramids, can terminate a fair distance from the pyramid entrance. 
+
+There are also bus stations in Midan Ramses, under the overpass. Buses run from Ramses to Heliopolis, City Stars Mall and other destinations not covered by the Tahrir bus station.
+
+===Access information===
+
+Access in Cairo is patchy. Anyone with moderate to serious mobility issues should expect to spend a lot of time in taxis.
+
+Wheelchair users, beware as many buildings have step-only access. Pavements are variable, even around the popular tourist attractions. There is often an incredibly steep drop from the curbs and where there are ramps they are better suited to pushchairs than wheelchairs. Expect potholes, gulleys, poorly cordoned-off building works and street works, and cars parked across the pavement, where there is a pavement at all.
+
+The white stick is recognised and help is often offered. The help that is offered can be a little misguided at times but it's usually well intentioned.
+
+Although more expensive by far, it is probably best to arrange taxis for major trips (such as visiting the pyramids) via your hotel. Picking up a taxi on the street can be hit and miss. Do not expect to be dropped off at the exact spot that you asked for; you will often be taken to somewhere nearby. Always fix a price before you get into a taxi.
+
+Concessions on tickets cannot be taken for granted.  For example, the Egyptian Museum offers a 50% concession for disabled patrons (and students) whereas the Cairo Tower doesn't offer concessions at all.
+
+A visit to the pyramids is a must. How one does it is either through one of the many stables around the site who will charge anywhere between 350LE and 650LE for a horse/camel ride around the site , or taking a taxi to the Sphynx entrance and attempting to walk. It is important to note that the site is amazingly up and down. A good level of mobility would be required to attempt it by foot. If you opt for a horse/camel ride, make sure that you haggle hard. (28/07/12 - July is the quiet season, it was possible to get a 2 hour camel ride for 100LE each ... albeit when with someone who knew the owner of the stables)
+
+If you are visually impaired or in any other way disabled it may be possible to gain permission to touch the pyramids. The outside of the pyramids are usually off limits to tourists and surrounded by a cordon. To arrange permission to touch a pyramid, approach one of the many tourist police dotted around the site. (Since the revolution with decreased tourism it is a lot easier to do things like climb on the pyramids, go inside the Sphinx fence or inside the pyramids - for a charge!)
+
+==See==
+A selected list of Cairo highlights:
+
+* <see name="Abdeen Palace" alt="" address="" directions="" phone="" url="" hours="" price="" lat="" long="">About 1km from the Midan El-Tahrir a five minutes walk, home of the last king of Egypt the exiled king Farouk.</see>
+
+*'''Al-Azhar Mosque'''. One of the pillars of Islamic thought and home to the world's oldest university.
+
+* <see name="Al-Azhar Park" alt="" address="" directions="" phone="" url="http://www.azharpark.com/" hours="" price="" lat="" long="">A recently opened landscaped gardens overlooking the Citadel </see>
+
+*'''Cairo Tower''' 185m (610 ft) high on [[Cairo/Gezira|Gezira Island]] offers a 360° view of Cairo, along with the Giza Pyramids off in the distance to the west.
+
+*'''Citadel and Mosque of Mohamed Ali Pasha''', in [[Cairo/Islamic Cairo|Islamic Cairo]]. A grand castle built by Salah Al-Din. Also, parts of the water pipes (Majra Al-Oyouon) are still there, these pipes are used to carry the water from the Nile River to the citadel. Mohamed Ali is considered to be the founder of modern Egypt, and the ancestor of the last King of Egypt, King Farouk.
+
+*'''Coptic Museum''', in [[Cairo/Old Cairo|Coptic Cairo]].
+
+[[Image:The egyptian museum.jpg|upright=1.3|thumb|Entrance to the Egyptian Museum]]
+*'''Egyptian Museum'''[https://egymonuments.gov.eg/en/museums/egyptian-museum ] (''250m north of Tahrir square'') ☎ +20 2 2579-6948 Located in the [[Cairo/Midan Tahrir|Midan Tahrir]] area and officially named  The Museum of Egyptian Antiquities but known to all as the Egyptian Museum, it hosts the world's premier collection of ancient Egyptian artifacts. Entrance is 200 EGP and they only accept cash. Cheaper for students (including international).
+
+* <see name="Ibn Tulun" alt="مسجد أحمد بن طولون" address="" directions="Close to Sayida Zeinab" phone="" email="" fax="" url="" hours="" price="">Arguably the oldest mosque in Cairo, built between 868-884.</see>
+
+*<see name="Khan El Khalily" alt="" address="" directions="" phone="" url="" hours="" price="" lat="" long="">Cairo's souk area where visitors will find many merchants selling perfume, spices, Gold, Egyptian hand craft.</see>
+
+*<see name="Pharaonic Village" alt="" address="" directions="" phone="" url="" hours="" price="EGP100-150" lat="" long="">About twenty minutes drive from the center is a village representing and showcasing Egypt. It starts with a boat ride that shows the ancient Gods and rulers followed by live demonstrations of how Egyptians lived and worked. Besides this (included in the basic EGP110 ticket) there are various museums showcasing the pyramids, mummification, Islamic history (not very accurate), Egyptian history, rulers of the past century, and modern Egypt. The cost of the basic boat tour ticket along with 8 museums is EGP150 (Dec 2012), but the cost with 4 museums with the village and a yacht tour of the Nile (not so special) is EGP145 (Dec 2012). Additionally, each museum can be individually seen by paying EGP5. Overall this place is a good summary of Egypt (though nothing inside is real).</see>
+
+[[Image:All_Gizah_Pyramids.jpg|thumb|The [[Cairo/Giza|Great Pyramids of Giza]]]]
+*'''[[Cairo/Giza|Pyramids of Giza and the Sphinx]]'''. The only remaining monument of the Seven Wonders of the Ancient World, it is the country's most famous tourist attraction.
+
+*<see name="Saint Samaan The Tanner Monastery" lat="30.030543" long="31.2765053" url="http://www.samaanchurch.com/en/">  In Zabbaleen (garbage people) Area.   (District of Manshiet Nasser) below Mokkatam Hills, not far away from the Citadel (not within reasonable walking distance).  Coptic Christian churches and halls were built inside large caves and beneath excavated cliff faces.  As public transport does not enter this area, arranging for a hired car or finding a tour (if there is one actually running) are the only realistic ways of reaching the monastery.  The Zabbaleen are not used to interacting with tourists; taking photographs of them, especially while at work, could result in a misunderstanding.</see>
+
+==Do==
+
+===Coffee &amp; shisha===
+
+In Egypt there's a coffee shop on every corner, sometimes you could even find them in the middle of the road. They're all similar but different in many ways. Mostly men sitting smoking shishas(water-pipes), Playing backgammon, cards, drinking tea, and reading newspapers. These coffee shops are called Ahwas. Some are huge and fancy, and some are just plastic chairs and tables in the middle of the road. They are often very cheap and relaxing. Have a coffee, mint tea or Cola at El Fishawy's coffee shop in Khan El-Khalili. Smoke a '''''shisha''''' water pipe and watch the world go by. Great cheap entertainment.
+
+===Felucca===
+
+Ride a '''felucca''' along the Nile River. A great way to relax and enjoy a night under the stars in Cairo. Feluccas are available across from the Four Seasons Hotel in Garden City. To charter your own, negotiate a fair price of no more than 20 to 30 LE for about a half hour for the boat, or 50 LE for an hour, no matter how many people are on it. Pay ''after'' your ride, or you may get much less than you bargained for. Public boats with loud Arabic music and a giggling crowd are also available for LE 2 for 1/2 hour.
+
+===Parks===
+
+Cairo has a shortage of parks, but a few of them exist. 
+
+*The most famous is the Giza Zoo located in the Giza district of Cairo, right in front of the entrance to the Four Seasons Hotel in Giza. This is actually one of the oldest zoos in the world (it was built approximately 100 years ago).
+''Note:Like most zoos in the undeveloped countries animals are suffering there. cages are small and animal condition is bad. a giraffe is said to have killed itself this year (2014). lions trapped in small cages move like crazy around their tiny cage with their starving body. elephant is tied with a chain and left in the sun. etc''
+
+*Hadiqat Al Orman, traslated (Al Orman Gardens). This is a fairly large park in the giza district, close to the Giza zoo, and it can be entered by paying a daily ticket at the gate. It contains a variety of trees and flowers and is a nice place to escape the noise and traffic of the city. However, it may be very crowded with locals especially on weekends and public holidays like the Eid, etc.
+
+*Hadiqat Al Azbakiya, translated (Al Azbakieya Gardens). Another nice park to enjoy the greenery and scenery of trees and gardens, while remaining inside the city. It is located in the Azbakiya area of Cairo, and the best option is to take a taxi.
+
+*Genenet El Asmak, another park located in Zamalek. It is a nice park, which also includes several large caves containing water aquariums, where you can see different species of fish and underwater life through glass windows. Like other parks, a very cheap ticket enables you to enter and enjoy the day there. Genene El Asmak means Garden of the Fish in English.
+
+*Merryland, in Arabic (Genenet El Merryland), located in Heliopolis district near Roxy Cinema. Again, another park with trees and gardens and nice scenery, but in the last 5 years ago, a number of restaurants and cafes have also opened up inside the park, which means it is now a place where people can eat, drink, and enjoy the park all together.
+
+*El Hadiqa El Dawliya, in English this means (The International Garden), located in Nasr City district. It is one of the more recently opened parks, built when Nasr City district was built. Again, it is another park, with sections containing different copies of famous buildings from around the world. (The copies are much smaller of course and are like small statues that you can view (ie. The Eiffel Tower of Paris, The Great Wall of China, The Windmills of Holland, etc.) Interesting to see.
+
+*Al-Azhar Park near Heliopolis, is probably the newest and most recent park to open in Cairo, also with restaurants and entertainment available. It has a good vantage point of Islamic Cairo and the city skyline.
+
+You can also take a stroll along the Corniche el-Nil, and there is a river promenade on Gezira Island.
+
+*'''Desert Park'''. Wadi Digla Protected Area is a 60 square kilometer environmentally protected park near Ma'adi, that offers opportunity for taking a trek, jogging, rock climbing, and cycling. Wadi Degla is also a good spot for bird watching, and viewing the various reptile species, plants, and deer that reside there. You can take a cab from Ma'adi to the entrance at Wadi Delga. Cab drivers in Ma'adi should know where to go.
+
+===Recreation===
+
+Other options for relaxation include visiting the '''Giza Zoo''' and the '''Cairo Botanical Gardens''', or watching horse racing at the [[Cairo/Gezira|Gezira Club]] in Zamalek, or, when you need a break from city life, try a round of golf on the famous '''Mena House Golf Course''' overlooking the [[Cairo/Giza|Pyramids]], or '''The Hilton Pyramids Hotel''' tournament Golf Course and nearby Sixth Of October City , Ten minutes drive from '''Giza Pyramids'''.
+
+Or if the family, and especially children are fed up looking at monuments and museums, a ten minute trip from the Giza Pyramids by micro-bus, taxi, or car, will take you to two of the biggest and best theme parks in Cairo, '''Dream-park''', and '''Magic land''', both in nearby Sixth Of October City.
+
+'''Magic land''' is also part of '''The Media Production City''' complex, including '''The Mövenpick Hotel''', where visitors can take a tour of the Egyptian TV and drama sets, and studios which house many of the Egyptian and other Arabic TV stations.
+
+===Shopping===
+
+Citystars is Egypt's premier shopping mall and is quite comparable to a foreign mall. It offers most international brands and most international food chains. It offers a cinema and amusement park. McDonald's, TGI Fridays, Fuddruckers, Ruby Tuesday, and more are all here.
+
+===Horseback riding===
+
+Go horseback riding in the desert from one of the Nazlet El-Samaan stables such as FB Stables (contact Karim +20 (0)106 507 0288 or visit the website : [http://www.fbstablesgiza.co.uk/] ) in Giza. Ride in the shadow of the Great Pyramids or further afield to Saqqara or Abu Sir or camp out over night with a barbecue and fire. Popular with expats who keep their horses at livery, FB Stables is also great for a 'tourist' type ride to view the Pyramids from the desert. Longer rides to Saqqara and Abu Seer can be arranged in advance, as can sunrise, sunset and full moon rides. Other than the horses and good company, one of the best things about FB is their amazing rooftop terrace (with bbq) with unrivaled views over the Pyramids - a great place to relax with a drink whilst watching the Sound and Light show.
+
+===Music and culture===
+
+* '''Sufi Dancing''' - The Al Tanura Troupe offers performances every Saturday,Monday and Wednesday night at 7PM at the Al-Ghouri Mausoleum.  Doors open at 6:00PM.  Price is 30LE for foreigners and 2LE for Egyptians. This picturesque place is situated nearby the [https://trendyegypttours.com/khan-el-khalili-bazaar/'''[[Khan El Khalili Souk]] '''], on a narrow street between the Al Azhar and Al Ghouri mosques.
+
+* '''The Culture Wheel''' (الساقية Al-Saqia), [http://www.culturewheel.com]. The largest independent cultural centre in Cairo, offers concerts almost every night. 
+
+* '''The Garden Theater''' in Al-Azhar Park [http://www.azharpark.com/] offers a range of musical performances. The venue is also a great place for an evening stroll.
+
+* '''Cairo Opera House''' [http://cairoopera.org/] 
+
+* '''Egyptian Centre for Culture &amp; Art (MAKAN) [http://www.egyptmusic.org/] Egyptian Traditional music.
+
+* <see name="The Townhouse Gallery of Contemporary Art" alt="" address="Hussein El Me'mar Pasha street" directions="" phone="(+202) 2 576 80 86" url="http://www.thetownhousegallery.com/" hours="Daily 10AM-2PM, 6PM-9PM, F 6PM-9PM, Closed Th" price="" lat="" long="" email="info@thetownhousegallery.com" fax=""></see>
+
+* <do name="Cairo Jazz Club" alt="" address="197, 26th July Street, Agouza, Giza" directions="From Zamalek, just before Sphinx Square" phone="(+202) 2 3345 9939" url="http://www.cairojazzclub.com" hours="Daily 5PM- 3AM" price="" lat="" long="" email="" fax="">Live entertainment from local and international musicians, a great food and beverage menu (happy hour from 7-9PM) and a relaxed atmosphere. 7 nights a week.</do>
+
+===Other Pyramids===
+Accessible from Cairo are a number of other pyramids beyond the Great Pyramids of Giza. Consider visiting the [[Pyramid of Meidum]] (~100km south of Cairo) and the complexes at [[Dahshur]] (Red Pyramid, Bent Pyramid & Black Pyramid) and [[Saqqara]] (Imhotep Museum and Egypt's oldest pyramid, the Step Pyramid). Hiring a driver and car for the day should cost the equivelant of around $30 and you should specify that Meidum is to be included as it is not often visited. 
+
+The [[Pyramid of Meidum]] is a collapsed pyramid which displays the inner structure amidst an impressive slope of sand. A real contrast from Giza in its quiet remoteness and freedom from touts, one can explore both the exterior and interior of the site with only the company of an armed policeman. Open until 4pm, entry to the sight, including the interior of the pyramid costs a mere 20 L.E. A day trip encompassing all these sights is a real highlight on an Egyptian trip.
+
+==Learn==
+* '''Fair Trade Language Exchange  '''(FTLE),[https://www.facebook.com/FairTradeLanguageExchange]in downtown offers a free language exchange in where you can meet Egyptians and language seekers , it's a weekly event organized by Magdy Goda every sunday 01201013555
+
+* '''The International Language Institute''' (ILI), [http://www.arabicegypt.com] in Mohandesin offers courses in Modern Standard Arabic and Egyptian dialect up to an intermediate-advanced level in an international student environment. Teachers are professional and prices relatively low.
+
+* '''Kalimat Language and Cultural Centre''', 22, Mohamed Mahmoud Shaaban St., Mohandessin, Giza, (202) 761 8136 / 337 5814, [http://www.kalimategypt.com]. This is a great language school with a lot of friendly teachers and students from around the world.
+
+* '''Ahlan World''', 1, Bab el Nasr Street, Gamaleya Islamic Cairo, Cairo – Egypt, +20 100 4209123 / +20 2 27862847, [https://www.ahlan-world.org/arabic-schools/cairo-egypt]. This language school offers Modern Standard Arabic and they have highly qualified teachers.
+
+==Work==
+
+According to a recent survey by the Egyptian government in May 2011, there are at least 3 million expat foreignors working in Egypt. This is strange considering that Egypt is a developing country, with a high rate of local unemployment and suppressive economic conditions, especially after the 25th of January 2011 revolution, which has seriously affected the economy. However, there are no strict labor requirements like other developed countries that receive immmigrants such as the EU, Canada, or the USA. Even so, the law is not very often applied as employers easily play around the law to hire their needs from foreignors. That being said, it really depends on the kind of job and field you are applying for. Average salary in Cairo is about 8500 EGP(1100 USD) per month.   
+ 
+'''Factory Work/Industrial Labor'''
+There are many thousands of people from South East Asia, China, and the Far East working low-paying jobs in factories and similar places. They're hired because they're cheaper than hiring locals. 
+Some well-to-do families also like to hire foreign workers to work in their houses as cleaners, houskeepers etc. The majority come from poorer African countries or places like the Phillipines and Indonesia. 
+
+====Teaching/education====
+
+If you come from the West however, the situation may be very different depending on your qualification. The most demanded are those who come from native English speaking countries (i.e. the UK, USA, Canada, Australia, etc). The most demanded jobs for these people are English teachers at schools and some university professors. There are many foreign schools in Cairo and some other big cities that prefer to hire native English speakers as part of their school staff. The reason obviously being that the ability to teach English with a native accent and more importantly their foreign qualifications. Other opportunities may arise in similar institutions if your native language is French, less if it's German, and even less if it is some other European language.
+
+====Tourism/hotel industry====
+
+The tourism industry in general may be willing to hire foreigners from European backgrounds to work in countless diving centres and small business around the Red Sea area in Dahab, Hurghada, and Sharm El Sheikh, where many tourists come from Europe to take diving courses in their native langue (German, Dutch, French, Italian, Russian, English, Polish) and other languages being the most popular.
+
+====Call centres/customer service reps====
+
+Recently, there has also been a huge demand for anyone who speaks fluent English with a clear native or neutral accent to work in most of the country's internationally based call centres located in and around Cairo. During the past 10 years, Egypt has become a major player in the telecommunications and call centres industry in the the Middle East. Many companies including Vodafone, Teleperformance, and other large local call centres are in constant need of English language speakers to work in their call centres, as there aren't that many Egyptians capable of speaking English fluently and clearly enough to serve these companies' offshore accounts. Examples include Vodafone UK, Vodafone Australia, and Vodafone New Zealand, which are currently being outsourced by the call centre of Vodafone Egypt, which basically hires anyone to work as a call centre agent, who speaks fluent English regardless of their nationality. Even if English is not your mother language, the only requirement is the ability to communicate in the language and work shifts. Pay is not bad considering the much lower living expenses in Egypt compared to the West. Salaries for these positions may range from 3,500 LE to 5,500 LE (1 USD=7.15LE) per month and many companies offer free transportation, medical insurance, social insurance, and other benefits like a mobile allowance.
+
+====Job and employement resources====
+
+The American International School in Cairo (AIS), (2 locations in 6th of October City Sheikh Zayed) and Fifth Settlement (EL Tagamoa El Khames ) the 2 being on the Western and Eastern corners of the city. 
+
+CAC (Cairo American College) in Maadi, with a long history of American curriculum and American/Foreign staff, and foreign students.
+
+The American University in Cairo
+
+Canadian International College
+
+German University in Cairo (GUC)
+
+For Call Centre jobs, mainly customer service representatives/agents serving offshore companies in Europe and North America, (outsourced by the call centres in Cairo) try:
+
+Vodafone Egypt (located in Smart Village on the Cairo/Alexandria Desert Road) (the Call Centre is located in 6th of October 6th Horizon Building in the 4th Industrial Area.
+
+Teleperformance Egypt (another multinational company, originally French located in 50+ countries worldwide) and based in downtown Cairo. Go to teleperformance.com and choose Egypt to get the full contact and address details. Here again, you can work in either French or English accounts with a salary package around 8,000 LE per month, plus medical and social insurance.
+
+Xceed Contact Centre, a local contact centre with a good reputation located in Smart Village, with English, French, Hebrew, and many languages
+
+Raya Contact Centre, in 6th of October
+
+Wasla Contact Centre
+
+Egyptian Contact Centre Operator (ECCO), in Imtedad Ramsis, near Heliopolis and Nasr City
+
+C3 The Call Centre Company
+
+Stream Call Centre, in 6th of October, with English and French
+
+You can find all address details and websites of these companies if you search them on google or on the internet in general. Most of them are in constant demand of fluent English speakers regardless of your nationaltiy because of the booming telecommunications and call centre industry in the Egyptian economy. Many of them outsource other companies originally based in Europe and the West.
+
+For other kinds of jobs, the best option is to have a technical background or previous managing experience in a multinational company and get transferred to the local branch of the company in Egypt.
+
+Other opportunities include teaching English as a free-lance instructor, but it may take a while before you are able to gather enough students to make a good living. Current rates range from 50 LE to 100 LE per hour/lesson in private lessons. Many people in Egypt want to learn English or improve it as it is always demanded in the Egyptian market.
+
+If you have professional qualifications there are many possibilities for work in Cairo. Try any of the local employment or job websites:
+
+Career Mideast (www.careermideast.com), one of the oldest job websites in the country, serving the entire Middle East Region, even other countries
+
+Bayt (www.bayt.com) you will find jobs in the entire Middle East including Egypt in all sectors
+
+The American Chamber of Commerce Website (they have a comprehensive database of all kinds of jobs in all sectors and industries (www.amcham.org.eg)
+
+Wazayef Masr (it can be easily found on google search)
+
+There are several job fairs/employment fairs that take place every few months in Cairo. Most of them are free to attend by anyone looking for a job. They usually are advertised in English adverts in the Arabic newspapers such as Al Ahram Newspaper. The ads are easy to spot as they are large picture advertisments and written in English, even though the newspaper is in Arabic. They normally take place in well-known places like large five star hotels or the City Stars shopping complex. Examples include Job Master Job Fair, Wazayef Masr Job Fair, and the American Chamber of Commerce Job Fair. You can meet lots of different employers, with mostly multinational companies based in Cairo and other local well-known Egyptian companies. Most recruitment teams at the fairs speak fluent English. You must bring your cv/resume as most employers expect you to apply for a job on the same day, then you will be called for an interivew a few days/weeks later if they have a suitable vacancy. Take at least 20-30 copies, one for each employer and dress semi-formally or formally.
+
+Another option is any of the foreign embassies located in Cairo.
+
+You can also try the English weeklies al-Ahram and al-Waseet for job vacancies. Otherwise, if you have some connections, you can always network with people that you know, and sometimes it may lead to landing a job somewhere.
+
+Please note that Egyptian work conditions may be very different from Western ones. It is more of a friendly casual environment, but everybody is still treated with respect. Working hours are normally 9-5 pm, and the weekend is Friday and Saturday (Friday substituted for Sunday because it is the day that Muslims go to pray at the mosque). Annual leave is normally 21 days, and most national holidays are days off as well.
+
+==Buy==
+[[Image:Talaat harb at night by tinou bao.jpg|thumb|Midan Talaat Harb]]
+
+'''ATMs''', are conveniently located in various places throughout [[Cairo/Downtown|downtown]]. A more secure option are the ATMs in the five star hotels. There also are numerous places that handle currency exchange, or you can try any major bank such as HSBC or Commercial International Bank for currency exchanges or redeeming travellers cheques. There also are a number of Citibank [http://www.citibankegypt.com/] branches in Cairo.
+
+Foreign currencies can also be exchanged for Egyptian pound in all the Egyptian banks like Banque Misr [http://www.banquemisr.com/sites/engbm/Pages/default.aspx/] , National Bank of Egypt [http://www.nbe.com.eg/en/exchangerate.aspx?x=1&lang=en/], Banque De Caire [http://www.bdc.com.eg/html/main.htm/], Arab African Bank [http://www.aaib.com//] , The United Bank [http://www.theubeg.com/wps/portal/enub], or the large branches of Bureau De Change. 
+
+Be aware that many merchants will try to scam you out of as much as they possibly can. A particularly common trick are the papyrus museums. They come in many different flavours, but they often call themselves galleries, museums or workshops. You will be given a brief talk or demonstration on how papyrus is made, and warned against cheaper shops that make their papyrus from banana leaf (though no matter where you go, no one has a sample to show you, questioning the legitimacy of this "warning"). The prices will be in the hundreds, and you will be offered what appears to be an excellent discount. If you look around, however, you will see most of what they offer is worth 1-5 LE at the most. Tour guides, taxi drivers and hotel staff are all in on this, and will often get a 50% commission if they lead an unwitting tourist into this trap.
+
+* The '''Khan El-Khalili''' bazaar is a giant souq in [[Cairo/Islamic Cairo|Islamic Cairo]]. The merchants here are ravenous and skilled, so don't fall for the hard sell and be prepared to [[haggle]]. This is a great place to buy rustic glassware and perfume bottles. Be choosy.  This is a must see and fun place to walk around.  Keep your haggling in good spirits - remember that most of the shopkeepers are good and well educated middle class families.  Despite being a part of the tourist economy, they are friendly, funny, and genuine as traditional of Egyptian culture.  Don't be afraid to strike up a conversation with a shopkeeper who certainly want to sell you their items, but are also good people struggling to feed their families since the downturn in tourism post 2011 revolution (expect quite a bit of commentary about their hatred for President Morsi and the current administration who, rightly or wrongly, has taken the blame for the current loss of tourism and economy).
+
+* '''[[Cairo/Gezira|Zamalek]]''' has a number of small, but high-end shops, along with shops selling crafts, jewelry and other items. '''Fair Trade Cairo''' in [[Cairo/Gezira|Zamalek]] is a great shop selling high quality crafts made by local artisans. Nefertari, also in Zamalek, has wonderful organic cotton linens, skin care products, and the like. There is also Nomad, that has a small, charming second floor showroom in Zamalek, as well as Nagada, and Khan Misr Taloun. 
+Diwan, in Zamalek, is a very nice primarily English-language bookstore.
+
+* '''Midan Talaat Harb''' and surrounding streets, including Talaat Harb Street, are home to countless shops, selling everything from shoes and books to sweets.
+
+* The '''Midan Ataba''' area in [[Cairo/Downtown|Downtown]] Cairo is home to large bookseller markets, where you can find inexpensive books, as well as electronics and clothing markets.
+
+==Eat==
+{{eatpricerange|Under LE 50|LE 50-150|Over LE 150-300}}
+
+Cairo has an enormous number of restaurants, catering to most needs. Ironically though, one may want to avoid any restaurants listed in popular guidebooks.  Egyptian restaurants have a habit of after being listed, cooking up a special English menu with vastly inflated prices.  That said, cheap food can be found everywhere in street restaurants and snack stalls. The top notch restaurants are often, but not always, found in hotels and Nile boats. The borders between restaurants and cafes are not crystal-clear in the Egyptian capital. In many places it is perfectly acceptable to just have a drink or ''sheesha''. Medium and high-range outlets might have a minimum charge. Cheaper restaurants will normally not serve alcohol as well as some more expensive outlets. Recently, food tourism has started becoming more trendy and you can also go to a food tour to experience authentic Egyptian food in a short window of time. 
+
+In general, [[Cairo/Downtown|downtown]] is good for budget eating, while for higher quality eating you should head to [[Cairo/Zamalek|Zamalek]], [[Cairo/Dokki and Mohandiseen|Mohandiseen]] or any of the other more affluent parts of town.
+
+===Egyptian and middle eastern food===
+
+[[Image:Fatir.jpg|thumb|right|Fatir is a pastry, shown here with honey. It can be eaten as a meal or snack, with sweet ingredients like jam or honey, or salty toppings like cheese, meat, and vegetables which make it more like a pizza.]]
+Traditional Egyptian staples are available almost everywhere. In stalls and street restaurants you will find traditional dishes like ''fuul'' (bean paste), ''taa'miya'' (falafel), ''muzagga'' (the Egyptian version of the Greek ''moussaka''), ''kushari'' (rice, macaroni, lentils, chick peas, tomato sauce with red pepper oil [ very spicy ] and garlic/vinegar sauce are offered on the side), ''fetyeer'' (pancakes with different fillings) and ''shawarma'' (a recent import from Lebanon and Syria &mdash; pieces of roasted meat usually wrapped in bread). Cheaper places will only serve up vegetables and maybe beef hot dogs or corned beef. Eggs, fried potatoes and salads are also usually available. Hygiene varies wildly and the best advice is to go for the most visited places. Avoid empty restaurants as the food will be less fresh. 
+
+Especially downtown, you can find many good '''Kushari / Koshary''' (vegetarian) shops. Its a mix of rice, lentil, pasta served with tomato paste with vineger and spicy sauce on side. Do try the Koshary dish at '''Abou Tarek''', they claim to have no other branches other than at Champollion Rd, Marouf, Qasr an Nile, Cairo. The dishes sell at small, medium, large at EGP 20, 25, 30 respectively and extra potion of friend onion can be ordered for EGP 5 (Aug 2018). Avoid ‘Kushari Tahrir’ as it’s heavy on the pasta and stingy on the tomato sauce, and the chili sauce is essentially oil, and the cashier is dishonest and gives wrong change!! 
+
+Pastries and ice-cream at '''El-Abd''', 25 Talaat Harb, Bab Al Louq, Qasr an Nile, Cairo near the Abou Tarek Koshary is quite good with its baked items and desserts. The ice-cream outside sells at EGP 10 for two scoops in standard flavours.
+
+Delicious and cheap fuul , falafel, and shawarema sandwiches can be bought at the many outlets of popular '''GAD''' fast food chain dotted around Cairo. The average price for a tub of takeaway kushary is between 5 to 7 Egyptian pounds, fuul falafel sandwiches is between 2 to 4 Egyptian pounds, and shawerma sandwiches are between 15 and 20 Egyptian pounds.
+
+In the medium and upper price range your choice of traditional Egyptian food will be more limited. Although the situation is improving, traditionally Egyptian gastronomical experiences are still mostly restricted to private homes. Quality chain restaurants like '''Felfela''' (several outlets), '''Abou El Sid'''[http://www.abouelsid.com/] (Zamalek, Maadi and Dokki), and '''Abou Shakra''' [http://www.aboushakra.com/] offer authentic Egyptian food.
+
+Otherwise Arabic and oriental restaurants tend to mix styles or completely go for more Lebanese-style eating, considered more stylish by rich Cairenes. The good side of this is that Cairo is blessed with many quality Lebanese outfits, from chains like '''Dar Al-Qamar''' to stylish restaurant establishments. Additionally, Turkish food and restaurants catering to Gulf visitors can be found.
+
+===Western and asian food===
+
+Cairo has a growing number of Western '''fast food''' outlets available - these are, incidentally, some of the best places to see young Cairenes relaxing together, as fast food restaurants are apparently considered amongst the hippest places to hang out. '''McDonalds'''[http://www.mcdonaldsegypt.com/], '''Hardees'''[http://www.americana-group.net/Default.aspx?id=1620], '''Pizza Hut''' [http://www.americana-group.net/Default.aspx?id=1620], and '''KFC''' [http://www.americana-group.net/Default.aspx?id=1620] are spread about the city, but they are relatively more expensive. Most of these also offer free wireless internet.
+
+'''The Tahrir Table''' 11 Tahrir square next to KFC. Owned by a swedish lady, meals from locally inspired food to international dishes. View of Tahrir square in the second floor. Beer and wine served. (Currently closed and seeking new location)
+
+'''Mo'men chain''' [http://www.momen-restaurant.com/?action=mission], '''Cook Door''' [http://www.cookdoor.com.eg/] the Egyptian equivalent of Mcdonald's has similar menu with similar prices and free wireless internet.
+
+Lighter meals like sandwiches and salads as well as pastries can be found in western-style bakeries and cafes. Popular chains like '''Cilantro''', '''Beanos''', '''Costa''', and '''The Marriott Bakery''' as well as individual outlets all offer more or less similar dishes. Most of these places also offer free wireless internet. 
+
+There is also a cute '''TGI Friday's''' [http://www.tgifridays.com/home/welcome.aspx] on the Nile banks at the entrance of Maadi, serving beer but no wine. Gezira also has its very own Chili's. For burgers, you can also try '''Fuddrucker's''' [www.fuddruckers.com/] (Maadi and Mohandesseen) or '''Lucille's''' [www.lucillesrestaurants.com/] in Ma'adi (54 Road n° 9) which is owned by an American woman. '''Maison Thomas''' has several branches throughout Cairo, including Mohandiseen, Zamalek, and Maadi, and serves some of the best pizza in Cairo. There is an Italian place called the '''Mint''' in Mohandesseen 30 Gezirt Al Arab ST. open 9AM till 1.30 AM, which boasts a very stylish interior, however it's alcohol free. If you prefer more stylish international dining, Cairo offers a wide variety: Italian, Chinese and Japanese outlets in addition to the ambiguous ''continental'' cooking abound, especially in areas like Zamalek, Mohandseen and Dokki. '''Rossini''' fish restaurant 66 Omar Ibn El Khatab ST +202 2291-8282 , '''Cedars''' 42 Gezerit Al Arab Mohandeseen +202 3345-0088, this Lebanese restaurant is a favorite with Mohandesseen's ladies who can order grills and salads in a specious outdoor terrace.
+
+===Hygiene and diet issues===
+
+For health reasons it is advisable not to drink tap water or eat unpeeled fresh fruits and vegetables -- at least for the first few days of the visit. There are few solely vegetarian options, '''L'aubergine''' in Zamalek is a good restaurant for vegetarian food. Otherwise, Egyptian cuisine is dominated by vegetable courses, but be aware of "hidden" meat in stock, sauces and the like. One should also be cautious about sushis( slushees?) or ice creams sold outside of main hotels. Also, if served eggs, one should be cautious to ensure that they are fully cooked (sunny side up eggs may allow certain organisms to be transmitted).
+
+===Self-catering===
+
+The '''Metro''' chain and '''Alfa Market''' dotted around [[Cairo]] are convenient supermarkets. They often stock Western brands. Otherwise vegetables and fruit are plentiful and cheap. Bakeries such as '''The Bakery''' chain sell western-style bread and pastries. Organic food from the local ISIS brand is available at the supermarkets Metro and Carrefour and the '''Sekem''' Shop in Ahmed Sabri Street (شارع احمد صبر), [[Cairo/Zamalek|Zamalek]].
+
+By far the cheapest and most satisfying option, buying from Souks and outdoor markets makes for a crash course in Arabic and haggling, not to mention that the produce is often superb! Bread can be found on nearly every corner and comes in two types - whole wheat ''aysh baladi'' and white flour ''aysh shami''. Both are baked fresh daily and delivered by thousands of kids on bicycles to every corner of the city. Every neighborhood has a few streets dedicated to produce and other goods. Always wash fruit thoroughly before eating. Eating a fresh Roma tomato in the heat of Summer straight from a market seller after being washed is a delight, hard to match. The fruits and vegetables in Egypt may not conform to EU or US standards of size, but their taste is far superior.
+
+Small bakeries (''furne'') sell every kind of baked good imaginable - ranging from Italian style bread sticks with nigella and sesame seeds to croissants, donuts and anything with dates in it. Fresh goods from these bakeries offers a nice alternative to the standard Egyptian breakfast of beans, beans, and beans, as well as the fact that this bread is very cheap.
+
+==Drink==
+[[Image:el_Fishawy.jpg|thumb|Coffee & shisha at el-Fishawy]]
+
+Cairo has a wide range of drinking options from the very traditional to fashionable and modern. At the other end of the scale, almost any street in Cairo has a traditional coffee house, ´ahwa, a traditionally male institution of social life tracing many hundreds of years back in history. Besides that you'll find everything from fruit stalls to patisseriés and bakeries and modern cafés whipping up all varieties of modern European coffee. In addition to the traditional Turkish coffee and ''shai'' tea, virtuall everywhere you'll find drinks like hibiscus tea ''kerkedeeh'', served warm or cold depending on season, ''sahleb'', a milk-based drink usually served in winter,  ''fakhfakhenna'' (a kind of fruit salad), sugarcane juice, mango and tamarind juice, ''Tamr hindi''.
+
+===Traditional coffee houses===
+
+Cairo remains one of the best cities in the world to sample the traditional coffee house culture of the region. They are called ''maqhâ'' in Standard Arabic, but in the local dialect this is turned into ''´ahwa''. The Turkish coffee remains an invariable ingredient in any Cairene coffee house, and water pipe (''sheesha'') and tea is even more popular. While considered "old fashioned" for a time, these places are again turning fashionable among younger crowds and even smoking a water-pipe is no longer a male-only pastime. Places vary from just a small affair--plastic chairs and tables put out on the street--to more elaborate cafes especially in upscale and tourist areas. 
+
+{{infobox|A social institution|When coffee was introduced to the Arab and Islamic world in the 1600s the Islamic clergy attempted to outlaw it. However people's cravings soon convinced the sheikhs against this, although even today the most pious followers of Islam would still avoid visiting an ´ahwa. For most Egyptian men however, it is an important social institution, usually near one's home and the local mosque or church. It is the place to chat, pick up the latest news, read the paper, watch a TV show or a soccer match, or simply people watch while puffing a waterpipe '''sheesha'''. Some say there are more than 20,000 coffee houses in Cairo. Today Downtown and Islamic Cairo are the best places to visit for a sampling of this essential part of Cairene life.}}
+
+For many, the ''sheesha'' or water pipe, is the main attraction of any visit to a Cairene coffee house. It is usually available in at least two varieties, ''mu´assal'', pure tobacco, and ''tofâh'', apple-flavored. Other fruit varieties are sometimes available. Coffee houses range from the more elaborately decorated to a simple counter and some plastic chairs and tables spread out in the street. Foreigners are invariably made welcome, although women might feel uncomfortable visiting coffee houses in traditional, poor areas of the city. However, in downtown and the tourist areas of Islamic Cairo single or women-only groups should not expect anything more than the ordinary hassle.
+
+Turkish coffee (''´ahwe turki'') is served either sweet (''helwa''), medium sweet (''masbout''), with little sugar (''sukr khafeef'') or no sugar (''sâda''). Sweet means very sweet. Tea (''shai'') is served either as traditional loose tea (''kûshari'', not to be confused with the Cairo macaroni-rice stample ''kushari''), known as dust tea in English, or in a tea bag. Most coffee shops usually offer fresh mint leaves to put in your tea, upon request. A range of soft drinks are usually available. Most typically you will find hibiscus tea (''karkadee''), served warm in the winter season and cold during the warmer parts of the year.
+
+===Fruit juice stalls===
+
+During the hot Cairo summer, fruit juice stalls selling fresh juice (and occasionally fruit salads and other soft drinks) are a delight not to be missed. Basically these places sell fresh-pressed juice of whatever is in season. Typical choices include orange (''bortoqâl''), lemon (''limon''), mango (''manga'') and strawberry (''farawla''), guava (''gawafa''), pomegranate (''Rummān''). Prices and quality depend on season and availability. These places are spread out around the city and available at almost all the places tourists typically visit and in all local residential districts. Traditional coffee houses or fruit juice stalls might sell all or some of these drinks.
+
+''' A health reminder''' Use extra care if you choose to consume beverages from fruit stalls. In general, food handling procedures are not up to Western food sanitation standards. It should also be noted that some vendors mix their fruit juices with less-than-perfect tap-water.
+
+===Modern cafes and pastry shops===
+
+Modern cafes and patisseries are spread out around the city. Typically they serve light food like sandwiches and salad in addition to espresso-based coffees and pastries. Many of these places are chains, like Cilantro, Beanos, Cinnabon, Orangette, The Bakery and Coffee Roastery. Most of these places, including all the chains mentioned above, offer wireless internet connection as well. International chains such as Costa Coffee and Starbucks are also widely available throughout Cairo.
+
+===Nightlife===
+
+For the capital of a majority Muslim country, Cairo is relatively liberal when it comes to the consumption of alcohol. A wide range of bars and dance clubs is available, basically in every major hotel, and some are open 24/7. If you would like to explore the less fancy drinking places in Cairo, [[Cairo/Downtown|Downtown]] is definitely the place to go. Upscale nightspots are found in and around the Zamalek area
+
+==Sleep==
+Cairo has a tremendous range of accommodation, from low-rent budget hotels [[Cairo/Downtown|downtown]] to five-star palaces along the Nile. See individual [[Cairo#Districts|district articles]] for hotel listings.
+
+==Contact==
+
+===Mail===
+
+The '''main post office''' [http://www.egyptpost.org/en/index.asp] of Cairo is on Midan Ataba (open 7AM - 7PM Sa - Th, 7AM - 12 noon Fr and holidays). The ''poste restante'' office is to be found along the side street to the right of the main entrance to the post office and through the last door (open 8AM - 6PM Sat - Th, 10AM - 12 noon Fr and holidays) - mail will be held for 3 weeks.
+
+Egypt-Post livery is green and yellow.
+
+There are two kind of mail boxes for international and domestic use. They are typically found on the street in pairs, colored green and yellow. It is said that your mail will be delivered no matter which one you use.
+Always use the register mail facility to post anything valuable or important. It takes longer but each step of the journey is recorded, as many letters do not arrive at their destinations when using regular mail service.
+
+===Internet===
+
+The Internet is rapidly growing in Cairo as in many other Egyptian and Middle Eastern cities. There is now a profusion of established internet cafés and venues, with many more opening for business each month. An hour in a downtown net cafe will set you back 5-8LE. A growing number of cafés including Cilantro and Beanos provide wifi for free, and if all else fails, you can always drop into a McDonalds and try their network. Luxury hotels often provide WiFi at a premium. Also, mobile providers offer relatively high speed internet access via a USB dongle. For example, a Mobinil or a Vodafone USB dongle and sim card will cost you 99LE with 50LE of credit. 
+
+If you have access to a traditional telephone line in Cairo, then you will be able to access the internet through dial-up connection for 12.50  LE per hour by dialing 0777 XXXX numbers.
+
+As of December 2014, access to Israel Government websites appears to be blocked.
+
+===Mobile phones===
+Using your home phone will usually carry very high roaming fees. Consider buying an Egyptian SIM card instead.
+
+The 2 main carriers in Egypt are Orange [http://www.Orange.com/] and Vodafone Egypt [http://www.vodafone.com.eg/en/Home/index.htm], with UAE's Etisalat [http://etisalat.com.eg/portal/page?_pageid=42,1&_dad=portal&_schema=PORTAL&siteAlias=etisalat&sitePath=Etisalat_Portal_En] a growing 3rd player in the Egyptian market.
+
+Orange [http://www.Orange.com/] and Vodafone [http://www.vodafone.com.eg/en/Home/index.htm] offer the best coverage. Etisalat seems to be cheapest for international calls, but they are expensive in all cases, so you better call home via VoIP (Messenger, Skype, Viber, WhatsApp, etc.)
+
+If you fly into Cairo, you can buy Vodafone, Orange or Etisalat SIM cards at the bag collection area, and also outside – but there it's usually more crowded. As of mid-2019, Vodafone has two tourist packs for 30 days: 1. 10 GB internet + 200 minutes calls for 250 EGP, 2. 30 GB + 500min for 500 EGP. Once your balance is depleted, you can buy more data/calls. They have a great 4G and H+ connection at the airport and in the city. You'll need your passport for the purchase, and you can pay by card. Make sure your SIM card is activated and you have an internet connection. The whole purchase should take about 5 minutes. There have been numerous cases where the Vodafone tourist packages sold at the airport simply do not work after an hour.
+
+Note: Ignore all the people who tell you that they have better or cheaper options, or offer to drive you to to a friend for a "good deal".
+
+You can find mobile dealerships in every section of Cairo (frankly, you can't avoid them), and getting set up is fairly easy. SIM cards for any of the 3 providers go for about 5-20 LE (about $1-5 US). You will need to bring your identification (its recommended to bring a copy of your ID, as you may not want someone walking off with your passport in a shady shop to make a copy). If you don't have an unlocked phone, many shops will sell cheap older models (usually Nokia phones) as secondhand phones. But beware, make sure that the phone is fully functional before purchasing it, and buying a used one is at your own risk (as a good percentage of these tend to be stolen ones).
+
+When purchasing a sim card, try to purchase it from the company itself. You can often find sim cards in the market but they are often stolen resulting in you having to go to the company and get it sorted out in any case.
+
+===Tourist Information===
+The Egyptian Tourist Authority http://www.touregypt.net has offices in ''Cairo City Cente''r, 5 Adly Street, phone: 3913454, ''Pyramids'', Pyramids Street, phine: 3838823, fax: 3838823, ''Rameses Railway Station'', phone: 5790767, ''Giza Railway Station'', phone: 5702233, ''El Manial'', Manial Palace, phone: 5315587, ''Airport'', phone: 2654760, fax: 4157475, ''New Airport'', phone: 2652223, fax: 4164195 and ''Cairo International, Airport''' phone: 2914255 ext.2223.
+
+==Stay safe==
+
+You can walk around the main streets anytime you feel like roaming. It is fairly safe and you will always find lots of people around smiling and offering to help. Women alone can expect to be the target of an excessive amount of catcalling or worse. Beware of continued harassment. You should bear in mind that around the more touristy locations there is an abundance of 'helpful' people, but be careful who you go with and under no circumstance let anyone push or guide you anywhere that you do not want to go! If you get lost look for the security and police officers. Many speak some English, and most know their local area very well as well as the tourist spots.
+Crossing streets is another major challenge in Cairo. Traffic lights, which only exist in a few locations, are routinely disregarded. In downtown Cairo, police officers may be controlling traffic at key intersections at busy times. Crossing the street is like playing the video game "Frogger", hurrying across the street one lane at a time, when there is a small break in traffic. One way to cross a street that proved to be effective is to place yourself next to an Egyptian who wants to cross the street and follow.
+Also, when riding in a taxi, the driver may go quite fast and drive erratically. If at any time you feel unsafe simply tell the driver to stop and get out.
+===Emergency services===
+
+* <listing name="Police" alt="" address="" directions="" phone="122" url="" hours="" price="" lat="" long="" email="" fax="">, Please note that 911 switch you automatically to 122, You might hear a message in Arabic to inform you that call will be recorded, To continue press 1. </listing>
+
+* <listing name="Ambulance" alt="" directions="" address="" phone="123" email="" fax="" url="" hours="" price=""></listing>
+
+* <listing name="Fire" alt="" directions="" address="" phone="180" email="" fax="" url="" hours="" price=""></listing>
+
+==Stay healthy==
+
+===Upset Stomach===
+
+As elsewhere in Egypt, be careful with what you eat. Raw leafy vegetables, egg-based dressings like mayonnaise and minced meat are particularly risky. Avoid cold salads and puddings from buffets even in the 5* hotels just to be on the safe side.Opinions on tap water vary, but most visitors choose to stick to the bottled stuff. Large bottles of water can be purchased for 6-7 LE. Avoid ice in drinks, and only eat fruit with a skin you can wash or peel.
+You may find that tummy medications you bring from home simply don't work.
+All visitors would do well to buy from any pharmacy Egyptian brand drugs. The best and most common being Entocid and Antinal. Diarrhea and vomiting can almost always be stopped by taking 2 of these tablets with a glass of water in a few hours.
+If symptoms persist, it is wise to consult a doctor as dehydration in Summer can come on quickly.
+
+'''Smog''' can reach extreme levels, especially in late summer and fall before the rains. This, coupled with the summer heat, can make spending time outdoors in the summer quite unpleasant.
+
+===Mosquitos===
+
+Mosquitos are in some parts of Egypt so you might face them. They are active from dusk till dawn, and then find a dark sheltered place to sleep during the heat of the day. They love humidity and wet environments where they breed. They also love leafy green gardens, and hedging. Sitting around lakes, pools, or in a garden at night can be suicide.
+Only the female bites, and one female in a bedroom can cause much discomfort by morning, so it is always wise to kill any before sleeping. A fly swatter is best as they move due to air pressure, swatting with a newspaper will not work. Mosquito repellent sprays are of little value either.
+
+Most hotels will have smoke sprays at dusk to quieten them down but they will revive and attack later.
+
+The best defense is to kill any in hotel rooms. Wear long sleeves and long trousers when out at night. When outside, sit in a breeze or in front of a fan as they do not like moving air. The mosquito tablets and burners merely make them sleepy, they do not kill them. It is better to spend a few minutes going round the hotel room killing any you see than suffer days of itching and painful bites.
+
+According to the US CDC, malaria there were no cases of malaria in Egypt since 1998, but there was an outbreak in 2014 within a village near Aswan, which was attributed to being brought in by infected Sudanese migrants.[http://www.cdc.gov/malaria/new_info/2014/malariaegypt.htm]
+
+===Hospitals===
+
+For medical care, hotels usually have a house doctor on call. Any major operations are best performed outside Egypt, but the following hospitals are generally considered the best in Cairo:
+
+* <listing name="Cleopatra Hospital" alt="" address="Heliopolis" directions="" phone="2414-3931" url="http://www.cleopatrahospital.com" hours="" price="" lat="" long="" email="" fax=""></listing>
+
+* <listing name="Dar El Fouad Hospital" alt="" address="6th of October City" directions="" phone="3835-6030" url="http://www.daralfouad.org/" hours="" price="" lat="" long="" email="" fax=""></listing>
+
+Backpackers will see doctors' offices dotted all around Cairo on board signs. They are speciality specific. Just look for one and then inquire. Note most surgeries open after 5PM and run late till sometimes midnight.A consultation fee will give you a consultation and one follow up appointment.
+
+Travellers can also visit private hospitals like '''El Salam''', '''Dar Al Fouad''','''6th October University Hospital''', '''Ain Shams University Hospital''','''Kasr El-Eney''' during the day. Each has an outpatient clinic with various specialists on duty. Usually no appointment is necessary and you will be seen depending on how early you arrive. The fee for the outpatient clinic of '''6th October University Hospital''' for a consultation and follow up is 40le.
+
+===Vaccinations===
+No vaccinations are required for visiting Egypt but if you are using Cairo as a starting point for other countries in Africa you may need some, in particular '''yellow fever''' for which some countries may require you to provide a certificate of vaccination before entry.
+
+There is a large medical centre in Giza called '''Vacsera'''. This is sometimes recommended as a place to get vaccinations. However, they are no longer accredited to provide yellow fever vaccinations and certificates and will refuse any requests from foreigners.
+
+The Quarantine Centre at Cairo airport will provide yellow fever vaccinations and the appropriate certificate. Price is 150.50LE. They presumably provide other vaccinations as well but this is unconfirmed.
+
+To get there take bus 1036 from Ramses bus station (2LE, 1 hour) to the airport and then the shuttle from the airport bus terminal (free, 5 minutes) to Terminal 1. Enter Departure Hall 2 and walk right to the far end of the hall. Follow signs saying ''Quarantine''. Ask at the desk about vaccinations. You will need your passport and the payment.
+
+There may be other places in Cairo and at the airport but the above is verified as of November 2016.
+
+==Cope==
+
+===Embassies===
+*[[Image: Flag_of_Italy.svg|20px]] <listing name="Italy" alt="" directions="Metro: El-Sayeda Zeinab." address="15 Abdel Rahman Fahmy Street, Garden City" phone="+20 (0)2 27943194 - 27943195 - 27940658 - 27730109/110" email="ambasciata.cairo@esteri.it " fax="+20 (0)2 27940657" url="https://ambilcairo.esteri.it/ambasciata_ilcairo/it" hours="08:30-15:30 Sun-Thu (Dom-Gio)" price=""></listing>. 
+
+*[[Image: Flag_of_Singapore.svg|20px]] <listing name="Singapore" alt="" directions="" address="40 Adnan Omar Sedky Street" phone="+20 2 37490468" email="singemb_cai@sgmfa.gov.sg " fax="+20-2-3337 4744" url="" hours="" price=""></listing>
+
+*[[Image: Flag_of_Bangladesh.svg|20px]] <listing name="Bangladesh" alt="" directions="" address="18 Hayeet El Tadrees Street, P. O. Box 12311, Giza, Cairo" phone="+20 2 3748 1796/58" email="bdoot.cairo@gmail.com" fax="+20 2 3748 1782" url="https://ambilcairo.esteri.it/ambasciata_ilcairo/it/" hours="08:30-15:30 Sun-Thu. Fri & Sat closed" price=""></listing>
+ 
+* [[Image:ca-flag.png|20px]] <listing name="Canada" alt="" address="" directions="" phone="" url="http://www.canadainternational.gc.ca/egypt-egypte/splash.aspx" hours="" price="" lat="" long=""></listing>
+
+* [[Image:ch-flag.png|20px]] <listing name="China" alt="" address="14 Bahgat Aly St, Zamalek" directions="" phone="+202 7361219" fax="+20 2 735-9459" email="webmaster_eg@mfa.gov.cn" url="http://eg.china-embassy.org/eng/" hours="" price="" lat="" long=""></listing>
+
+* [[Image:de-flag.png|20px]] <listing name="Germany" alt="" address="2, Berlin St, Zamalek" directions="Corner of Hassan Sabri St" phone="+202 2 728-2000" url="http://www.kairo.diplo.de/Vertretung/kairo/de/Startseite.html" hours="" price="" lat="30° 03'18.30° N" long="31° 13'08.84° E"></listing>
+
+* [[Image:gr-flag.png|20px]] <listing name="Greece" alt="" address="18 Aisha El Taymouria St, Garden City" directions="" phone="+20 2 2795-1074, +20227955915 email="gremb.cai@mfa.gr" fax="+20227963903" url="http://www.hellas.org.eg/index.html" hours="08:30-16:00" price="" lat="" long=""></listing>
+
+* [[Image:mk-flag.png|20px]] <listing name="Macedonia" alt="" address="Rd Al Nahda 41, 3/402, Maadi" directions="" phone="+20 2 2517-2100" url="http://www.missions.gov.mk/cairo" fax="+20 2 2517-2122" hours="" price="" lat="" long=""></listing>
+
+*[[Image:no-flag.png|20px]] <listing name="Norway" url="http://www.norway-egypt.org/Embassy/" />
+
+*[[Image:rp-flag.png|20px]]<listing name="Philippines" alt="" directions="" address="Road 200, Villa 28 Degla, Maadi" phone="+20 2 2521-3062/3064/3065" email="cairo.pe@dfa.gov.ph, cairope@tedata.net.eg, cairo.pe@dfa.gov.ph" fax="+20 2 2521-3048" url="http://www.dfa.gov.ph" hours="" price=""></listing>
+
+* [[Image:sa-flag.png|20px]] <listing name="Saudi Arabia" url="http://portal.mofa.gov.sa/detail.asp?InServiceID=201&intemplatekey=MainPage" phone="+20 2 761-4308, +20 2 743-082" email="egemb@mofa.gov.sa" hours="08:00-15:00" fax="+202 7493495" address="<!--شارع أحمد نسيم(2)-الجيزة-أمام مديرية أمن الجيزة (needs translation)--></listing>
+
+* [[Image:uk-flag.png|20px]] <listing name="United Kingdom of Great Britain and Northern Ireland" url="http://ukinegypt.fco.gov.uk/en/"></listing>
+
+* [[Image:us-flag.png|20px]] <listing name="United States of America" alt="" address="5 Tawfik Diab St, Garden City" directions="" phone="+20 2 2797" email="" fax="+20-2 2797 3200" url="http://egypt.usembassy.gov/" hours=""></listing>
+
+* [[Image:ve-flag.png|20px]] <listing name="Venezuela" alt="" address="No. 43, Road 18, El Nahda Sq, Maadi" directions="" phone="+20 2 2981-2141" email="embvenez@tedata.net.eg, eov@idsc.net.eg" fax="+20 2 2380-9291" url="http://www.embavenezegypt.com" hours=""></listing>
+
+* [[Image:Flag_of_Serbia_(state).png|20px]] <listing name="Serbia" alt="" directions="" address="33, Al Mansour Mohamed St, Zamalek" phone="+20 2 2735-4061" email="" fax="+20 2 2735-3913" url="" hours="" price=""></listing>
+
+* Embassy of the Federative Republic of Brazil in the Arab Republic of Egypt. 2005C Corniche El Nil - North Tower - 18th Floor - Cairo Tel: + (202) 24 61 9837 - Fax: + (202) 24 61 9838
+
+==Get out==
+*[[Alexandria]] is a possible day-trip. Enjoy a day visiting the library, a museum, fortress or the beach and return to Cairo after a good fish meal and maybe a drink. A first-class train ticket will cost about 52LE and 35LE for second class each way and takes about two and a half hours (timetable from Egyptian Rail is available here, http://www.egyptrail.gov.eg/docs/online/online.html).
+
+*[[Port Said]] is a possible day-trip. Enjoy a day visiting the Old Lighthouse of Port Said, museums, old magnificent buildings or the beach, shopping in the markets of this city which is considered a free trade zone and return to Cairo after a good fish meal and maybe a drink. you can get here by train or by bus which cost 20LE - 30LE.
+
+*[[Ain al-Sukhna]] is the closest Red Sea resort to Cairo and easily reached on a day trip. This place is growing rapidly to become ''the'' getaway for Cairo's moneyed elite. To get here, hire a taxi for the day for about 200-300 LE.
+ 
+*[[Fayyoum]] is another popular place for Egyptians to picnic. While the city offers little in itself, '''the Qaroon''' lake and '''Wadi Al-Rayyan''' both offer scenic spots for relaxing and the area also contains some of the first pyramids in history. Get there by bus and then get a taxi to drive you around for the day at approximately LE 100 or get a taxi from Cairo at LE 200-300. It's possible to stay overnight at the scenic Tunis village for 30 LE. 
+
+*The pyramids of [[Saqqara]], [[Memphis (Egypt)|Memphis]] and possibly [[Dahshur]] all offer an easy day trip out of Cairo. Expect to pay at least LE 150-200 for a private taxi. 
+
+*The collapsed pyramid of Meidum (29°23'16"N , 31°09'23.8") is probably the least visited pyramid in Egypt and can be visited by hiring a car for the day in Cairo. Blue Cabs (mohamed.samir@thebluecab.com) provide a car for this trip for the day (with Dashur, Saqqara etc) for 650EGP and it is highly reccomended. Entrance for the Meidum pyramid is 20EGP and as of 01/17 visitors are able to enter both the pyramid and the Mastaba tomb nearby. Being the only tourist, escorted around the sight by 3 armed guards is also an experience in itself.
+
+*[[Helwan]] the Japanese Gardens in Helwan 20 min drive from Downtown or by ''' The Metro''' is a perfect place to spend an afternoon picnic away from the city.
+
+* Desert safari to [[Bahariyya]] or [[Siwa]] is also possible.
+
+{{Related|Cairo_to_Jerusalem_by_bus}}
+{{Related|UNESCO_World_Heritage_List}}
+
+[[WikiPedia:Cairo]]
+[[World66:africa/egypt/cairo]]
+
+{{IsPartOf|Lower Egypt}}
+{{usablecity}}
+{{cityguide}}
+
+[[ar:القاهرة]]
+[[de:Kairo]]
+[[eo:Kairo]]
+[[es:El Cairo]]
+[[fi:Kairo]]
+[[fr:Le Caire]]
+[[hi:कैरो]]
+[[ja:カイロ]]
+[[nl:Cairo]]
+[[pl:Kair]]
+[[pt:Cairo]]
+[[ro:Cairo]]
+[[ru:Каир]]
+[[sv:Kairo]]
+[[wtp:Cairo]]

@@ -28,17 +28,21 @@ class queryProcessor:
         """
         Process the queries
         """
-        result_queries = []
+        # fetch aspect processing function
+        aspect_processing_func = None
+        if self.mode_name == "reformulate":
+            aspect_processing_func = self._reformulate_aspect
+        elif self.mode_name == "expand":
+            aspect_processing_func = self._expand_aspect
+        elif self.mode_name == "elaborate":
+            aspect_processing_func = self._elaborate_aspect
 
+        result_queries = []
         for query in tqdm(self.query_list, desc="Processing queries", unit="query"):
             curr_query = Query(description=query)
 
             # extract preferences and constraints
             preferences, constraints, hybrids = self._extract_aspects(query=query)
-            print(query)
-            print(preferences)
-            print(hybrids)
-            print(constraints)
 
             # preferences
             for p in preferences:
@@ -54,16 +58,7 @@ class queryProcessor:
             for h in hybrids:
                 hybrid = Hybrid(description=h)
                 curr_query.add_hybrid(hybrid)
-            
-            # fetch aspect processing function
-            aspect_processing_func = None
-            if self.mode_name == "reformulate":
-                aspect_processing_func = self._reformulate_aspect
-            elif self.mode_name == "expand":
-                aspect_processing_func = self._expand_aspect
-            elif self.mode_name == "elaborate":
-                aspect_processing_func = self._elaborate_aspect
-            
+
             if aspect_processing_func is not None:
                 for aspect in curr_query.get_all_aspects():
                     new_desc = aspect_processing_func(query_aspect=aspect.description)
@@ -109,10 +104,10 @@ class queryProcessor:
                 ]
             }
             query_data.append(query_info)
-            json_path = os.path.join(self.output_dir, f"processed_query_{self.mode_name}.json")
 
-            with open(json_path, 'w') as f:
-                json.dump(query_data, f, indent=4)
+        json_path = os.path.join(self.output_dir, f"processed_query_{self.mode_name}.json")
+        with open(json_path, 'w') as f:
+            json.dump(query_data, f, indent=4)
         
     def _extract_aspects(self, query: str) -> tuple[list[str], list[str], list[str]]:
         """
