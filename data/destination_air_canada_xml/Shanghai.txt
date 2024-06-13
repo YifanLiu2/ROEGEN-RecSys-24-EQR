@@ -1,0 +1,832 @@
+{{pagebanner|Shanghai banner.jpg}}
+{{printDistricts}}
+{{quickbar
+|location=Shanghai in China (+all claims hatched).svg
+|flag=
+|capital=
+|government=Chinese Municipality 
+|currency=Chinese Renminbi (¥) (CNY) 
+|area=6,340.5 km<sup>2</sup>
+|population=24,150,000(2013 est)
+|language='''Official''': Mandarin; '''De facto''': Shanghainese
+|religion=n/a
+|electricity=220V/50Hz (US/European plug for 2-pin, Australian plug for 3-pin)
+|timezone=UTC +8
+}}
+'''Shanghai''' (上海 ''Shànghǎi'') , with a population of more than 23 million (with over 9 million migrants), is the largest and traditionally the most developed metropolis in Mainland China.
+
+Shanghai was the largest and most prosperous city in the Far East during the 1930s. In the past 20 years it has again become an attractive city for tourists from all over the world.  The world once again had its eyes on the city when it hosted the 2010 World Expo, recording the greatest number of visitors in the event's history.
+
+==Districts==
+Shanghai is split in two by the '''Huangpu River''' (黄浦江 ''Huángpǔ Jiāng'').  The most basic division of the area is '''Puxi''' (浦西 ''Pǔxī'') West of the river, versus '''Pudong''' (浦东 ''Pǔdōng''), East of the river. Both terms can be used in a general sense for everything on their side of the river, but are often used in a much narrower sense where '''Puxi''' is the older (since the 19th century) central part of the city and '''Pudong''' the mass of new high-rise development across the river since the 1980s.
+
+===Inner districts of Puxi===
+{{Regionlist
+
+| regionmap=ShanghaiInner.png |
+| regionmapsize=350px |
+| regionmaptext=Shanghai inner districts. | 
+
+| region1name=[[Shanghai/Bund|The Bund]] (外滩 ''Wàitān'')
+| region1color=#b455a8
+| region1items=
+| region1description=The colonial riverside of old Shanghai has dozens of historical buildings lining the Huangpu River, which once housed numerous foreign banks and trading houses. The riverfront walkway has recently undergone a major reconstruction and reopened to the public in March 2010.
+
+| region2name=[[Shanghai/Changning|Changning]] (长宁区; Chángníngqū)
+| region2color=#b69eb3
+| region2items=
+| region2description=Hongqiao International Airport sits here in addition to the Shanghai Zoo. Changning is a very large, residential district but in recent years has seen more commercial and entertainment hubs develop, especially the area around Zhongshan Park.
+
+| region3name=[[Shanghai/French Concession|French Concession]] 
+| region3color=#db813a
+| region3items=Luwan, Xuhui
+| region3description=Leafy district once known as the ''Paris of the East'', includes the refurbished ''shikumen'' houses of '''Xintiandi''' and Shanghai Stadium, one of Shanghai's most rich and vibrant neighborhoods. The Xujiahui shopping district is home to five large shopping malls.
+
+| region4name=[[Shanghai/Hongkou|Hongkou]] (虹口区; Hóngkǒuqū)
+| region4color=#c1e25c
+| region4items=
+| region4description=Home of Lu Xun Park as well as a football stadium, once home to Shanghai's substantial Jewish population in the first half of the 20th century.
+
+| region5name=[[Shanghai/Huangpu|Huangpu]] excluding the Old City (黄浦区; Huángpǔqū)
+| region5color=#4ed084
+| region5items=
+| region5description=The traditional hub of Shanghai, home to People's Square, People's Park, the Shanghai Museum, Shanghai Urban Planning Exhibition Hall, City Hall, and the city's largest metro station, underneath a large underground shopping mall.  Adjacent to People's Square is the East Nanjing Road pedestrian mall.
+
+| region6name=[[Shanghai/Jingan District|Jing'an District]] (静安区; Jìngānqū)
+| region6color=#acc2a6
+| region6items=
+| region6description=Home to Jing'an Temple, this area has been continuously inhabited since the 3rd century AD.  The commercial district of West Nanjing Road extends from the middle of Jing'an to People's Square.
+
+| region7name=[[Shanghai/Old City|Old City]] (南市; Nanshi)
+| region7color=#c8aa92
+| region7items=
+| region7description=Home of Yu Garden, the City God Temple and Huxingting Tea House, this is the historic Chinese area of the city, where much of the old wooden architecture of ancient Shanghai is still preserved.
+
+| region8name=[[Shanghai/Putuo|Putuo]] (普陀区; Pǔtuóqū)
+| region8color=#6973cb
+| region8items=
+| region8description=
+
+| region9name=[[Shanghai/Yangpu|Yangpu]] (杨浦区; Yángpǔqū)
+| region9color=#c9bd79
+| region9items=
+| region9description=Where Fudan University and Tongji University are located. Also contains the excellent and spacious Gongqing Forest Park. For shoppers, Wujiaochang (五角场) is situated here.
+
+| region10name=[[Shanghai/Zhabei|Zhabei]] (闸北区; Zháběiqū)
+| region10color=#e7ef5d
+| region10items=
+| region10description=Zhabei is an older district of Shanghai and the location of the Shanghai Railway Station.  There is a large park, Daning-Lingshi, north of the station, as well as the Shanghai Circus.
+
+}}
+
+===Pudong and outer districts===
+{{Regionlist
+
+| regionmap=ShanghaiOuter.jpg |
+| regionmapsize=350px |
+| regionmaptext=Shanghai outer districts | 
+
+| region1name=[[Shanghai/Chongming|Chongming]] (崇明县; Chóngmíngxiàn)
+| region1color=#c3bea3
+| region1items=
+| region1description=
+
+| region2name=[[Shanghai/Pudong|Pudong]] (浦东 or 浦东新区; Pǔ​dōng​ or Pǔ​dōng​xīn​qū​)
+| region2color=#acc2a6
+| region2items=
+| region2description=The skyscraper-laden financial and commercial district on the east bank of the river with museums and shopping throughout, and a traveler's likely first district to experience considering Pudong International Airport rests in the district.
+
+| region3name=[[Shanghai/Western Suburbs|Western Suburbs]]
+| region3color=#c1e25c
+| region3items=Baoshan, Jiading, Qingpu, Northern Songjiang, Western Minhang
+| region3description=
+
+| region4name=[[Shanghai/Zhujiajiao|Zhujiajiao]] (朱家角)
+| region4color=#c1e25c
+| region4items=
+| region4description= A traditional water town and popular getaway
+
+| region5name=[[Shanghai/Southern Suburbs|Southern Suburbs]] 
+| region5color=#db813a
+| region5items=Jinshan, Fengxian, Southern Songjiang, Eastern Minhang
+| region5description=
+
+}}
+
+==Understand==
+Shanghai is a fascinating mix of East and West. It has historic ''shikumen'' (石库门）houses that blend the styles of Chinese houses with European design flair, and it has one of the richest collections of Art Deco buildings in the world. As there were so many concessions (designated districts) to Western powers during the turn of the 20th century, in many places the city has a cosmopolitan feel. There is everything from classic Parisian style, to Tudor style buildings that give an English flair and 1930s buildings reminiscent of New York or Chicago.
+
+There is a saying that goes, "Shanghai is heaven for the rich, hell for the poor," People from all over China flock to Shanghai &mdash; everyone from farmers seeking jobs in manual labor to university graduates seeking to start a career or wanting to live in a cool up-tempo city. Even well-off people, though, complain that buying a home is becoming impossible; prices have skyrocketed in the last few years.
+
+Most of Shanghai's 6,340.5 square kilometers (2,448.1&nbsp;sq&nbsp;mi) of the land area is billiard table flat, with an average elevation above means sea level of just 4m (13&nbsp;ft). The dozens of new skyscrapers that have been built in recent years have had to be built with deep concrete piles to stop them from sinking into the soft ground of this flat alluvial plain.
+
+===Economy===
+Shanghai is one of the main industrial hubs of China, playing a key role in China’s heavy industries. A large number of industrial zones are the backbones of Shanghai's secondary industry.
+
+===History===
+While Shanghai has been around as a village since the Song Dynasty,  a thousand years or so ago, it only rose to prominence after China lost the First Opium War in 1842. Shanghai was one of five cities which were opened to trade as [[List_of_Chinese_provinces_and_regions#Treaty_ports_and_concessions|treaty Ports]]. Shanghai grew amazingly after that; until then nearby cities like [[Hangzhou]], [[Suzhou]], and [[Nanjing]] had been far more important, but today Shanghai is definitely the focus of the region.
+
+Eight nations &mdash; Germany, France, Italy, Russia, Austria-Hungary, Japan, the United States, and the United Kingdom &mdash; were granted concessions in Shanghai, areas that they controlled and where Chinese law did not apply. Most of these were jointly administered as the "International Settlement", but the French ran theirs separately. In all of them, the population was mainly Chinese, of course, but the legal system was foreign and the police included many Sikhs and French gendarmes. They were located North of the Chinese city. Today all these areas are considered parts of downtown Shanghai.
+
+[[Image:Shanghai1907.jpg|thumb|350px|Shanghai in 1907]]
+
+History has shaped Shanghai's cityscape significantly. British-style buildings can still be seen on The Bund, while French-style buildings are still to be found in the former French Concession. The old racetrack in the British area has given way to what is now People's Park, with a major subway interchange underneath. Other subway stops include the railway station at the edge of what was once the American area, and Lao Xi Men and Xiao Nan Men, Old West Gate and Small South Gate respectively, named for two of the gates of the old Chinese walled city. The wall is long gone, but that area still has quite a few  traditional Chinese-style buildings and Yuyuan Gardens. 
+
+Shanghai reached its zenith in 1920's-1930's and was at that time the most prosperous city in East Asia. Despite this prosperity, much of the streets of Shanghai were ruled by the triads during that period, with the triads often battling for control over parts of Shanghai. That period has been greatly romanticized in many modern films and television serials, one of the most famous being ''The Bund'', which was produced by Hong Kong's TVB in 1980. Shanghai also became the main centre of Chinese entertainment during that period, with many films and songs produced in Shanghai.
+
+Shanghai was occupied by the Japanese in 1937 after a bitter battle lasting several months. After the war, the concessions were not re-imposed on China; trade did resume, but not at pre-war levels. After the Communist victory in the civil war in 1949, many of the people involved in the entertainment industry and many business people fled to Hong Kong and Taiwan. Shanghai's days of glory were &mdash; temporarily as it turned out &mdash; over.
+
+In the beginning of the 1990s, the Shanghai government launched a series of new strategies to attract foreign investment. The biggest move was to open up Pudong, once a rural area of Shanghai but now a business metropolis countries the world over may envy. The strategies for growth have been extremely successful and now Pudong is home to many financial institutions &mdash; which used to be established across the Huangpu river in The Bund &mdash; housed in numerous skyscrapers including the World Financial Center, 3rd tallest in the world.
+
+Today, Shanghai's goal is to develop into a world-class financial and economic centre of China and Asia. In achieving this goal, Shanghai faces competition from Hong Kong, which has the advantage of a stronger legal system and greater banking and service expertise. However, Shanghai has stronger links to the Chinese interior and to the central government in addition to a stronger manufacturing and technology base. Since the return of Hong Kong to China, Shanghai has increased its role in finance, banking, and as a major destination for corporate headquarters, fueling demand for a highly educated and cosmopolitan workforce.
+
+Shanghai is one of the least polluted major cities in China, although the degree of pollution might be more severe when using international comparisons.  For this reason, coupled with a lesser degree of focus placed on national politics, visitors will find a much different experience than visiting Beijing.
+
+===Climate===
+{{Climate
+| units = Metric
+| janhigh =    8
+| febhigh =    9
+| marhigh =   13
+| aprhigh =   19
+| mayhigh =   24
+| junhigh =   28
+| julhigh =   32
+| aughigh =   31
+| sephigh =   27
+| octhigh =   23
+| novhigh =   17
+| dechigh =   11
+| janlow =    1
+| feblow =    2
+| marlow =    6
+| aprlow =   11
+| maylow =   16
+| junlow =   21
+| jullow =   25
+| auglow =   25
+| seplow =   21
+| octlow =   15
+| novlow =    9
+| declow =    3
+| janprecip =  51
+| febprecip =  57
+| marprecip =  99
+| aprprecip =  89
+| mayprecip = 102
+| junprecip = 170
+| julprecip = 156
+| augprecip = 158
+| sepprecip = 137
+| octprecip =  63
+| novprecip =  46
+| decprecip =  37
+| description = Humidity is high year-round and can exacerbate temperature extremes
+}}
+
+Shanghai's latitude relative to the equator is about the same as New Orleans, Brisbane, or Cairo; the climate is classified as humid subtropical. Summer temperatures at noontime often hit 35&ndash;36°C (95&ndash;97°F) with very high humidity, which means that you will perspire a lot and should take lots of changes of clothing. Freak thunderstorms also occur relatively often during the summer, so an umbrella should be brought (or bought after arrival) just in case. There is some risk of typhoons in their July-September season, but they are not common.
+
+In contrast, during winter, temperatures rarely rise above 10°C (50°F) during the day, and often fall below 0°C (32°F) at night. Snowfall is rare, but transportation networks can sometimes be disrupted in the event of a sudden snowstorm. Despite the fact that winter temperatures in Shanghai are not particularly low, the wind chill factor combined with the high humidity can actually make it feel less comfortable than some much colder places which experience frequent snowfalls.
+
+In between, spring can feature lengthy periods of cloudy, often rainy, weather, while Autumn is generally mild to warm and sunny.
+
+==Get in==
+Shanghai is one of China's main travel hubs and getting in from pretty much anywhere is easy.
+
+===By plane===
+Shanghai has two main airports [http://www.shanghaiairport.com/en/index.jsp], with '''Pudong''' the main international gateway and '''Hongqiao''' serving mostly domestic flights, so be sure to check which one your flight is leaving from.  Transfer between the two takes about 1 hour by taxi. There are also direct shuttle buses.
+
+You can get between the two airports in nearer two hours by Metro (subway). Both airports are on line two, the main East-West line through downtown Shanghai, but at opposite ends of it. You can reduce the time by taking the Maglev train (described in the next section) part of the way. A traveler making that transfer with a few hours to spare and a desire to get a quick look at Shanghai (and not too much luggage) might get off at Nanjing Road East and walk a few blocks to [[Shanghai/Bund|the Bund]]. 
+
+Both airports also have direct bus service to major nearby cities such as [[Hangzhou]], [[Suzhou]] and [[Nanjing]], though the new [[High-speed rail in China|fast trains]] may be preferable, especially from Hongqiao Airport which has Hongqiao Railway Station quite nearby (one subway stop or a fairly long walk).
+
+Domestic airplane tickets are best booked in advance at one of the many travel agencies or online, but can also be bought at the airport on the day of departure.  Fares are generally cheap, but vary depending on the season; figure on &yen;400-1200 for Beijing-Shanghai. The low-cost airline Spring Airlines is based out of Shanghai with routes to most major Chinese tourist destinations, and frequently offers large discounts for tickets booked through its official website.  When backpacking, it may often be cheaper to book a flight along a big traffic line (Shanghai-Beijing, Shanghai-Guangzhou, Shanghai-Shenzhen, etc.) and travel the rest by bus or train.
+
+The city of [[Hangzhou]], about a one-hour high-speed train ride away, should also be considered if having a difficult time finding tickets to Pudong or Hongqiao. KLM offers direct flights from [[Amsterdam]] to Hangzhou at discount prices from time to time. Also if coming in from South East Asia, since Air Asia has a cheap flight from [[Kuala Lumpur]] to Hangzhou. See [[Discount airlines in Asia]]. 
+
+====Pudong International Airport====
+[[Image:Transrapid_Maglev2.JPG|thumb|240px|Shanghai Maglev Train at Longyang Station]]
+
+'''Pudong''' (浦东机场, {{IATA|PVG}}, [http://www.shanghaiairport.com/en/index.jsp]) is Shanghai's main international airport, 40 km (25 mi) to the east of the city. Arrivals are on the first floor, departures on the third, and the airport has all the features you would expect of to find in the major hubs around the world. There are two gigantic terminals (T1 and T2). A free shuttle bus service connects the two in case walking a few minutes (or using the conveyor belts) is too cumbersome.
+*'''Terminal 1''' Air France, China Airlines, China Eastern, China Express, Gulf Airlines, Hainan Airlines, Japan Airlines, Juneyao Airlines, Korean Airlines, Mandarin Airlines, KLM Royal Dutch Airlines, Shenzhen Airlines, Sichuan Airlines, Spring Airlines, Tianjin Airlines
+
+*'''Terminal 2''' Aeroflot, Aeromexico, Air Asia, Air Canada, Air China, Air India, Air Macau, Air New Zealand, All Nippon Airways, American Airlines, Asiana, British Airways, Cathay Pacific Airways, China Southern Airlines, Cebu Pacific, Delta Airlines, Dragonair, Emirates, EVA Air, Finnair, Garuda Indonesia, Hong Kong Express, Lufthansa, Malaysia Airlines, Qantas, Qatar Airways, SAS Scandinavian Airlines, Shandong Airlines, Shanghai Airlines, Singapore Airlines, Swiss International, Thai Airways, TransAsia Airways, Turkish Airlines, United Airlines, Virgin Atlantic  
+
+'''People's Square by Maglev'''
+
+Depending on your final destination, it may be quickest to use the Maglev train (7.5 minutes to Longyang Rd station, then 20 minutes to People's Square by Metro). Riding the Maglev may be quite a memorable experience if fast trains are of interest. Using magnetic levitation technology, it does not touch the tracks and traverses 30.5 km (19 mi) in as quick as seven minutes, while hitting a maximum speed of 431 km/h (267 mph).  During non-peak hours, the train goes to 301 km/h (189 mph). It currently operates from 06:45 to 21:30 daily and costs ¥50 one way (¥40 if you have a flight ticket) or ¥80 for a round-trip ticket (good for up to seven days from the date of purchase). You can also opt to pay double for "VIP Class", which gets you a soft drink, a slightly larger leather chair, and bragging rights, but not much of a really different environment. Trains depart every 15-30 minutes depending on the time of day. The Maglev ticket offices take credit cards, including foreign ones like Visa. 
+
+The Maglev has only one stop, Longyang Road Metro Station (龙阳路地铁站) on Metro Lines 2 and 7, still a ways from People's Square but a good stopping point if Pudong is your final destination. The journey usually requires a combination of walking, public transport or a taxi.  You will need the ticket to get out of the station. The Maglev and airport station are not well marked on the city subway/rail map so if in doubt ask so you exit at the right station to make your connection from Maglev to the normal subway line.
+
+The Maglev station is between Terminals 1 and 2 along the second-floor walkway that connects them. Note that between the baggage claim and the Maglev station, people may tell you the Maglev is "broken" or "shut down because of weather" but they may just be trying to get you into their taxi.  Pay them no attention, upon arriving at the station you will see the trains are running.
+
+From Longyang Rd as you exit, the escalator on your right goes down to the Metro Station (Line 2) and another escalator on the opposite end to your left will take you to the taxi queue. A taxi to Puxi city center will cost you another ¥30-50, while a ride to Pudong's Lujiazui should only be about ¥20-25. Taxi drivers seldom speak any English so have your destination in writing (or use an airport attendant's how-to) and fair estimate before agreeing on a driver. Estimates are also posted near the exit doors on the first floors near the pick-up area and bus station area. It is not advisable to use a driver outside the queue unless there are two of you and someone speaks good Shanghainese (Wu Chinese) or standard Mandarin. Use caution and double-check the charges as some drivers may try to scam you, but not many. It is against local law to pick up other passengers not affiliated with your party so reject this if attempted by the driver.
+
+If your destination is conveniently located on a subway stop (People's Square, Jing'an Temple) and your baggage is light, it would be cheaper and maybe even faster to hop onto Line 2 located just parallel to the Maglev station. You will need to go down the escalators on the opposite side of the taxi queue. Subway fare ranges from ¥2-7 all across the city.
+
+
+'''People's Square by Metro'''
+'''Line 2''' was extended eastward to the Pudong Airport in 2010. Operating hours are 06:30-21:00 and a train change is required at Guanglan Rd (you basically have to leave the train and switch to the opposite side). Line 2 ventures westward through People's Square (about 1 hr) to Hongqiao Airport (2 hr, ¥8).
+
+'''People's Square by bus'''
+
+Services take up to 90min (typically only this long if going to the west side of Shanghai and during peak times), cost ¥15-30 and run 24 hours. If arriving during busy commute times, consider taking the Metro to avoid congestion on the road. 
+
+
+'''People's Square by taxi'''
+
+The most convenient but also most expensive way to get to central Shanghai is by taxi, expect ¥160 or even more and about an hour to get to the centre of the city (People's Square). The rate increases by around 35% during night time, so expect to pay even more after 23:00 and before 05:00. There are taxi queues just outside both Terminals 1 and 2 on the first floor. 
+
+''You may be approached by a driver on your way to the queue. These drivers tend to be untrustworthy and will either take you to your destination via a longer route, or they have "adjusted" their meters. You can try agreeing on a price beforehand but it's better to use the formal queue just outside the airport.''
+
+One oddity about Shanghai is that despite its huge number of expressways and elevated roads, there is no expressway that provides a direct connection running south or southeast from the city centre towards Pudong International Airport.  While it is theoretically possible to drive from the Pudong airport to the Bund without exiting the expressway system, doing so would require a long detour to cross the Huangpu River either to the southwest or north of the city.  Thus, the taxi or bus driver will have to exit the expressway and drive through several traffic lights before entering another expressway such as the Inner Ring Elevated Road.
+
+====Shanghai Hongqiao International Airport====
+Shanghai's older airport [http://en.shairport.com/hongqiaoair.html '''Hongqiao'''] (虹桥机场 {{IATA|SHA}}) offers domestic flights and few international flights of city shuttle services to [[Tokyo]]-Haneda, [[Seoul]]-Gimpo, [[Hong Kong]], [[Macau]] and [[Taipei]]-Songshan. With a complete remodeling, however, "old" is not a way one would ever describe the sleek building. Now Hongqiao Airport is a part of the world's largest '''Hongqiao Transportation Hub''', which is consists of an airport, bus terminal, railway station, maglev station (not yet ready), metro station, and taxi stands. There are many Chinese/English/Japanese/Korean signs inside, the mazy Hongqiao Transportation Hub is still too big and complicated for a foreigner, so don't hesitate to ask the staff and make sure to reserve enough time to transfer any transportation.
+
+'''Terminals''':
+
+The airport is composed of two terminals, T1 and T2. T2 is new and besides the Hongqiao Railway Station, the small and old T1 is 2km east to T2 and under reconstruction now. The airline operating locations are as follows:
+
+*'''T1 & T2''': Air China (CA), China Eastern Airlines(MU), Shanghai Airlines (FM) operate both at T1 and T2
+
+*'''Terminal 1''': Spring Airlines (9C), All Nippon Airways (NH), Japan Airlines (JL), Asiana Airlines (OZ), Korean Airlines (KE), China Eastern Airlines (MU), Shanghai Airlines (FM), Air China (CA), Eva Air (BR), China Airlines (CI), Trans Asia Airways (GE), Dragonair (KA), Hong Kong Airlines (HX), Air Macau (NX).
+
+*'''Terminal 2''': China Eastern Airlines (MU), Shanghai Airlines (FM), Air China (CA), China Southern Airlines (MF), Xiamen Airlines (CZ), Shenzhen Airlines (ZH), Shandong Airlines (SC), Hainan Airlines (HU), Tianjin Airlines (GS), Sichuan Airlines (3U), Juneyao Airlines (HO), China United Airlines (KN), Hebei Airlines (NS), Tibet Airlines (TV).
+
+The two terminals are linked by terminal shuttle bus (free, 20-min ride, 06:00~22:30, leaves every 30 minutes) or Metro Line 10 (¥3, 3 minutes, T1->T2: 06:18~22:58, T2->T1: 05:56~23:01, interval: every 5~15min). Be sure to determine from which terminal your flight departs before you go to the airport as the English signs are confusing, taxi drivers may not be able to help you, and the shuttle between the terminals leaves on a half-hourly schedule with another twenty-minute drive. If you miss your flight at T1 and need a flight out of Pudong, you will have to take a shuttle or metro to T2, then navigate that labyrinthine terminal to find the shuttle to Pudong, costing you another ¥30.
+
+'''Bus''':
+
+Although Hongqiao airport has fewer airport shuttle bus lines than Pudong, more public local bus lines are linked to Hongqiao. Please see more details on http://en.shairport.com/2012-11/12/content_15972083.htm
+
+* '''Public Local Bus'''
+**  No. 806: The buses operate between 06:00-23:00 from Hongqiao airport T1 (Park area P2) to the Lupu Bridge at intervals of 5-15min, stopping at Shanghai Zoo, Gubei (Japanese residential area), Xujiahui (the southwest commercial center), Dapuqiao (commercial center of former Luwan district), etc. ¥2~5 depending on the distance.
+**  No. 807: The buses operate between 05:30-23:00 from Hongqiao airport T1 (Park area P2) to the Qingjian New Village in Putuo District, stopping at Shanghai Zoo, etc. ¥2.
+**  No. 1207: The buses operate between 06:00-20:00 from KongGangQi Road (400m south to T1 arrival hall) to Shanghai Zoo. ¥1.
+**  No. 941: The buses operate between 05:30-23:00 from Hongqiao Traffic Hub East Center (near T2) to Shanghai Railway Station, stopping at Shanghai Zoo, Gubei, Zhongshan Park, etc. ¥2-6.
+**  No. 316 (late night): The buses operate 23:00-5:00 from Hongqiao Traffic Hub East Center (near T2) to The Bund near East Yan’an Rd, ¥2.
+
+* '''Airport Shuttle Bus 
+**  Airport Line 1: The buses run between 06:00-23:00 from Hongqiao Traffic Hub East Center (near T2) to Pudong Airport. 1 hour, ¥30.
+**  Hongqiao Airport T2 Night Bus (虹桥机场T2夜宵巴士): The buses run from 22:30 until 45min after the last flight arrival every day at intervals of 10~30min. It starts from Hongqiao Traffic Hub East Center (near T2), stops at Jing'an Temple (Mid Yanan Rd. & Huashan Rd.) with fare ¥10, People Square (East Yanan Rd.& Middle Zhejiang Rd.) with fare ¥10 and Lujiazui (South Pudong Rd. of Pudong Ave.) with ¥16.
+
+'''Metro''': 
+
+Hongqiao Airport is served by Metro Lines 2 and 10, Line 2 only serves Terminal 2 and Line 10 serves both T1 and T2. Line 2 goes all the way to Pudong Airport (but have to change train at Guanglan Road station). Metro operates 05:35-22:50 (service to and from Pudong Airport has limited hours).
+* Line 2: Only serves T2, operates 05:35~22:50 to go downtown and 06:05~23:38 to go Hongqiao Railway station with 3~12min interval. From 2015, there are two-night trains going downtown from T2 at 23:06 and 23:32, only stops at station Songhong Road, Zhongshan Park, Jing'an Temple, People Square, Century Avenue, and Longyang Road. And please note that going to Pudong International Airport must change train at Guanglan Road station, and the train from Guanglan Road to Pudong International Airport only operates 6:00~22:00, this means that if you want to go to Pudong airport from Hongqiao Airport by Metro, you must take the metro at Hongqiao Airport T2 no later than 21:00. 
+* Line 10: Serves both T2 and T1, operates 05:56~23:01 to go downtown and 06:18~22:58 to go T2 and Hongqiao Railway station with 5~15min intervals.
+
+'''Taxi''': 
+
+A taxi can manage the 12 km (8 mi) trip to the city centre in 20~30 minutes on a good day but allow an extra 30 minutes for the taxi queue, especially when arriving after 19:00. The taxi fare from Hongqiao Airport to People's Square in the city center is approximately ¥60 and it takes about half an hour. A taxi from Hongqiao Airport to Xujiahui runs ¥40-50 and takes 20 minutes.
+
+Taxi at Hongqiao Airport, pick-up point:
+* Exit of the Arrival Hall, T1
+* Southside of Gate 4, Arrival Hall, T2
+Special Notes: Not easy to get a taxi in peak hours.
+
+'''Railway''': 
+
+Shanghai '''Hongqiao Railway Station'''(虹桥火车站), the high-speed train station of Shanghai locates 500 m west to Hongqiao Airport T2, the Transportation Hub East Center connects between T2 and the railway station. You can walk on the ground floor (1F) through the east center to the railway station from T2 (or take Metro line 2 or 10 by only one stop and fare ¥3). Walking from T1 is impossible, so take Metro line 10 for two stops and ¥3.
+
+The high-speed trains leave from 06:00 until 22:30 everyday to most almost all the important cities in China: Beijing, Guangzhou, Shenzhen, Chongqing, Tianjin, Dalian, Shenyang, Harbin, Shjiazhuang, Jinan, Qingdao, Taiyuan, Zhengzhou, Xi'an, Lanzhou, Chengdhu, Guiyang, Wuhan, Changsha, Nanning, Xiamen, Fuzhou, Nanchang, Hefei, Nanjing, Suzhou, Wuxi, Hangzhou, Ningbo, Wenzhou, etc. Train schedules and online booking are available on China Railway office website "12306" (Chinese-language only).
+
+'''Long Distance Bus''' : 
+
+Only 50 m west of the railway station, there's '''Shanghai Hongqiao Bus Terminal'''(虹桥客运站). Buses leave for many cities in Anhui, Jiangsu and Zhejiang Province, such as Hangzhou, Nanjing, Ningbo, Suzhou, Wuxi, Zhangjiagang, and more.
+
+===By train===
+Shanghai has a few major train stations including:
+
+* '''Shanghai Railway Station''' (上海站). Shanghai's oldest, located in Zhabei district, on the intersection of Metro Lines 1, 3 and 4. Some high-speed trains and trains to [[Hong Kong]] terminate here.
+
+* '''Shanghai Hongqiao Railway Station''' (上海虹桥站), is massive in size and located in the same building complex with Hongqiao Airport. The connecting Metro stop shares the same name, Hongqiao Railway Station, and is one stop beyond the Hongqiao airport stop on Metro Lines 2 and 10. High-speed trains to [[Beijing]], [[Changsha]], [[Changzhou]], [[Danyang]], [[Fuzhou]], [[Hangzhou]], [[Hefei]], [[Jiaxing]], [[Jinan]], [[Kunshan]], [[Nanchang]], [[Nanjing]], [[Ningbo]], [[Qingdao]], [[Suzhou]], [[Tianjin]], [[Wenzhou]], [[Wuhan]], [[Wuxi]], [[Xiamen]], [[Zhengzhou]], [[Zhenjiang]], [[Zhuzhou]] and other smaller stations use this station.
+
+* '''Shanghai South Railway Station''' (上海南站). Provides service towards the south except high-speed trains and services to Hong Kong. On Metro Lines 1 and 3.
+
+* '''Shanghai West Railway Station''' (上海西站) /  '''Nanxiang North Railway Station''' (南翔北站) /  '''Anting North Railway Station''' (安亭北站): Some high-speed train to Nanjing direction stop at these smaller stations. In addition, there are a few trains to and from Shanghai Station for connections to other trains.
+
+Self-serve automated ticket booths are prevalent and would likely be the easiest mode of purchasing tickets and checking train schedules for those without an ability to utilize Chinese as the devices have an English mode. (NOTE: All tickets purchased MUST have a real name and ID number attached to them, and the automated machines do NOT read anything but Chinese ID.) Tickets are also conveniently booked in advance at one of the many travel service agencies, and as a note, tickets originating from other stations within the city can be purchased from a given station except for Hong Kong tickets (Shanghai West is an exception; the ticket office there can only process purchases for same-day departures from that station). There are queues with English speaking staff, although this is not likely outside of Shanghai so it's best to buy a return ticket at the same time (not only because English won't be as easy to find outside of the city, but also seats may be sold out if attempting to purchase at a later date). It is advisable to prepare a paper with your destination displayed in Chinese characters if needed or should an itinerary need adjustment. The main ticket office now handles all ticket sales, including tickets to Hong Kong (which can only be bought at the English-speaking counter or the dedicated counter at Shanghai and Shanghai South stations with no sales possible from the machines; in addition, unlike tickets to other parts of China, tickets to Hong Kong start selling 60 days in advance so book early; the Hong Kong-Shanghai segment sells out quickly). 
+
+Now tickets of all high-speed trains (prefix "D" or "G"） and normal trains prefix "T" or "Z" can be bought online at [http://www](dot)12306(dot)cn. But a English support is still lacked. After purchasing tickets online, passengers who do not have a Chinese ID card still have to get the ticket at the ticket office before departure.
+
+* '''Beijing''' (北京)- Beginning in 2011, an all-new express line service to Beijing started, with the quickest travel time option ringing in at 4 hours and 48 minutes. Additionally, there are a number of night sleep bullet trains running daily. These trains have D-prefix codes, take just over 10 hours from Shanghai to Beijing. Fare is around ¥730 for a soft sleeper lower berth or ¥655 for upper berth, very clean and the four-person cabins are quite comfortable. Two-person rooms are also available on some of these trains, the price is about ¥1,470 for a lower berth or ¥1,300 for a upper. Two-person rooms on D trains do not have private baths. In the same new train, normal second-class seat are available for around ¥327. For a regular normal sleeper in a standard train, which takes 13 hours from Shanghai to Beijing, expect to pay ¥306 to ¥327 for a hard sleeper or around ¥478 to ¥499 for a soft one. Two-person sleeper is available on one of the T-series trains, with private bath and a sofa, price is ¥881 for upper berth or ¥921 for a lower. But tickets for these cheaper normal sleepers are usually very tight.
+
+*'''Hong Kong''' (香港)- The T99/T100 train to and from [[Hong Kong]] runs every other day (alternating between Shanghai->Hong Kong and Hong Kong->Shanghai) from Shanghai Railway Station (T99 leaves here at 18:20, T100 arrives here at 10:00), arriving at Hung Hom station in Kowloon(T99 arrives here around 13:00, T100 leaves here at 15:15). If traveling alone, expect to pay ¥800 each way for the soft sleeper, but discounts are given for group purchases (¥364 each way per person in a soft sleeper if purchased in a group of 4, for instance). Unless you are on a very tight budget, try to get the 'Deluxe Soft Sleeper' which has compartments of 2 beds and a private mainland-style mains socket (but with the introduction of new train cars, the regular soft sleeper also has a private mains socket for each room as well as one in the corridor of each car). Spaces are limited, so book well in advance. Keep in mind that you will still have to go through Customs and thus need a new visa for reentry into mainland China (unless you have a multiple-entry visa). However, going through Customs at the train station is much quicker than Customs at the airport. Ticket pricing depends on a number of factors, including a number of people booking at once; two extremes are a hard sleeper for a single traveler costing ¥700+ each way and a soft sleeper being only ¥364 per person each way if buying four tickets (filling one compartment) at once. 
+
+*'''Lhasa''' (拉萨) - Train to and from [[Lhasa]], [[Tibet]] runs every day from Shanghai Railway Station. It takes just below 50 hours to arrive in Lhasa. A hard seat costs ¥406 and a hard sleeper priced around ¥900, soft sleeper around ¥1,300. Oxygen is available for each passenger in the Golmud–Lhasa section. A Tibet travel permit is required for non-Chinese citizens.
+
+The new fast (200km/h plus) [[CRH]] trains go south from Shanghai southwest to Nanchang, Changsha, or north to Beijing, Zhengzhou, [[Qingdao]]. These are very comfortable and convenient. Train route codes are with D in this instance. Higher speed trains (300km/h plus) to Nanjing and Hangzhou have G prefix train code.
+
+===By car===
+In recent years many highways have been built, linking Shanghai to other cities in the region, including [[Nanjing]], [[Suzhou]], [[Hangzhou]], [[Ningbo]], etc. It only takes 50 minutes to reach Shanghai from Hangzhou, or 2.5 hours from Ningbo, via the 36km long Hangzhou Bay Bridge, world's longest sea-crossing bridge.
+
+===By bus===
+There are several long-distance bus stations in Shanghai. You should try to get the tickets as early as possible.
+* Beiqu Long-distance Passenger Station - 80 Gongxing Lu
+* Hengfeng Road Bus Station, Shanghai Jiao Yun Express Bus Terminal Ltd. (上海交运高速客运站有限公司恒丰路客运站候车厅) 258 Hengfeng Lu (恒丰路258号边门) - 
+* Shanghai Long-Distance Bus Terminal (上海长途汽车客运总站) - Zhabei District Road No. 1666 (闸北区中兴路1666号). This is one of the largest and is just west of the main railway station. It serves most destinations in Jiangsu and Zhejiang provinces as well as some more remote cities, such as Beijing and Guangzhou. From Shanghai Railway Station (North) subway station (Lines 3 & 4) take exit No. 4. You'll come out at the edge of a municipal bus transfer point. Head left (west) and walk along the front of the North Square train station. Cross the bus/taxi road, walk around to the front of the building, and you'll see it.
+* Zhongshan Beilu Long-distance Passenger Transport Station 1015 Zhongshan Bei Lu
+* Xujiahui Passenger Station 211 Hongqiao Lu
+* Pudong Tangqiao Long-distance Passenger Station 3842 Pudong Nan Lu
+
+===By boat===
+There are ferry services from [[Kobe]] and [[Osaka]] ([[Japan]]) weekly and [[Hong Kong]].
+
+*<listing name="Shanghai Ferry Company" alt="" address="" directions="" phone="" url="http://www.shanghai-ferry.co.jp/english/" hours="" price="¥1,300-6,500" lat="" long="" email="pax@shanghai-ferry.co.jp" fax="">Once a week service from Shanghai to Osaka and vice versa. Takes two nights.</listing>
+* The Japan-China International Ferry Company has similar service as the Shanghai Ferry Company but alternates each week with Osaka and Kobe as the Japanese departure/arrival city.
+
+==Get around==
+If you intend to stay in Shanghai for more than a few days the Shanghai Jiaotong Card [http://www.sptcc.com/] (上海公共交通卡) is a must. You can load the card with money and use it in buses, the metro, Maglev and even taxis, saving the hassle of buying tickets at each metro station and keeping change for buses and taxis. You can get these cards at any metro/subway station, as well as some convenience stores like Alldays and KeDi Marts. These come in regular, mini, and "strap" size (the latter being made for hanging on mobile phones), with various limited editions available for each. Only regular-sized cards can be loaded at machines (with a few exceptions, mainly at line 6/8 stations which have a special type of recharge machine made to take all sizes of cards) and only in multiples of ¥50 or ¥100 (this applies to the big blue machines- certain smaller machines mostly located in line 8 stations will accept any bills the service counter will as well as most sizes of SPTC). Most likely you will need to go to the service counter to recharge if you have an irregularly-shaped card or you want to recharge in multiples of ¥10 or ¥20.
+
+Also, this card allows you to transfer lines at Yishan Rd, Shanghai Train Station, and Hongkou Football Stadium stations, as well as discounts for bus<->bus and metro<->bus transfer (the fare is discounted ¥1 each time you transfer).
+
+===By Metro===
+
+The fast-growing Shanghai Metro [http://service.shmetro.com/en/] network has 14 lines with another 4 under construction (and expansions to existing lines), with nearly all lines operating underground (Line 3, 5 operates above ground). The Metro is fast, cheap, air conditioned and fairly user-friendly with most signs and station arrival announcements bilingual in Mandarin and English, but the trains can get packed during rush hour. Fares range from ¥3-9 depending on distance. 
+
+Transfers between the metro lines can require a long walk, like 300 m in some stations. You can transfer between lines freely with a single ticket, but except at Shanghai Railway Station between lines 3/4 and 1;  West Nanjing Road between lines 2, 12 and 13; Longhua Road between 11 and 12, where a One-day Pass/Three-day Pass/Shanghai Public Transportation Card is required for transfer. Be careful, certain stations exist on two different lines with the same name but are located in different places (Pudian Road- lines 4 and 6; no internal exchange tunnel between the two stations, people have go to either Century Ave or Lancun Lu to transfer between these lines).
+
+Move quickly if you want to nab an empty seat. Be mindful of pickpockets who may use this rush to their advantage.
+
+'''Major usable lines for tourist''' : 
+* Line 1 : First and busiest metro line in Shanghai. Connects Shanghai Railway Station, People's Square, South Huangpi Road and South Shanxi Road (popular shopping along Huaihai Road), Xujiahui (plentiful shopping), and South Railway Station.
+
+* Line 2 : The second busiest line, connecting many landmarks and popular places: Hongqiao Railway Station, Hongqiao Airport (Terminal 2 only), Jing'an Temple (a high-end commercial area in Jing'an District), People's Square,  East Nanjing Road (the most famous pedestrian shopping street in China, also near the Bund), Lujiazui (east of the Huangpu river and home to skyscrapers with observation decks), Century Park (biggest municipal park in the city), Longyang Road (Meglev train terminus from Pudong Airport) and Pudong International Airport. (Taking Line 2 to Pudong Airport requires a train carriage change at Guanglan Road or Tangzhen station, depending on time of day).
+
+* Line 3 & 4: These two lines share many stations on the elevated road. Line 3 connects Shanghai Railway Station, South Railway Station, Zhongshan Park, Hongkou Football Stadium. Line 4 route is a circle and connects Shanghai Railway Station, Century Avenue, Shanghai Stadium and Zhongshan Park. 
+
+* Line 9: Popular stops include South Shanghai Railway Station, Dapuqiao (nearest station to Tianzifang, a popular shopping and dining area), Xiaonanmen (dining and shopping along the Huangpu River, and near river boat cruise docks and the Bund).
+
+* Line 10: It also connects many Shanghai attractions: Hongqiao Railway Station, Hongqiao Airport, Shanghai Zoo, Jiaotong University, Xintiandi (a refurbished Shikumen block, full of bars/shops/restaurants in 1920s Shanghai style buildings), Yu Garden (a nearly 500-year-old traditional Chinese garden), East Nanjing Road (most famous pedestrian shopping street in China, you can get off here to go the Bund also), Tiantong Road (Qipu Road market, full of cheap clothing and textiles). 
+
+* Line 13: Connects Shanghai Natural History Museum, West Nanjing Road, Xintiandi, Expo Museum and Expo Avenue.
+
+'''Ticketing''' : 
+There are different types of metro tickets available for passengers. 
+
+* Single Ticket : It's a thin IC card, costs ¥3~9 depending on distance, can be purchased at the ticket offices or automatic ticket vending machines. Automatic ticket vending machines take ¥1 or ¥0.5 coins and notes and have instructions in English. Most big stations have staff selling tickets at ticket offices, but on the newly-completed or less busy stations, ticket purchasing is done by machine (in both Chinese and English) with staff there only to assist in adding credit to cards or if something goes wrong. 
+
+* One-day Pass: ¥18, entitled to unlimited transportation times in all metro lines (except maglev) during operating time within 24 hours after first use. Passengers are able to purchase it at all stations in Shanghai Metro.
+
+* Three-day Pass: ¥45, entitled to unlimited transportation times in all metro lines (except maglev) during operating time within 72 hours after first use. Passengers are able to purchase it at all stations in Shanghai Metro. 
+
+* Maglev & Metro Pass : ¥55 for a one-way ticket and ¥85 for around-trip ticket. Able to take once (one-way) or twice (around-trip) ordinary seats in Shanghai Maglev within the period of validity, and unlimited times transportation in all metro lines during operating time within 24 hours after first use. Only available to purchase at Meglev train stations of Pudong Airport and Longyang Road, Metro stations of Xinzhuang, Shanghai South Railway Station, Xujiahui, South Shaanxi Road, Shanghai Railway Station, Hongqiao Railway Station, Hongqiao Airport Terminal 2 , Zhongshan Park, Jiangsu Road, Jing'an Temple, People's Square, East Nanjing Road, Lujiazui, Century Avenue, Longyang Road, Zhenping Road, South Xizang Road, West Gaoke Road, Yaohua Road, Jiangsu Road, Jinshajiang Road.
+
+* Shanghai Public Transportation Card (上海公共交通卡): A hard IC card for people to take all the public transportation vehicles in Shanghai including bus (city bus, airport bus, long distance bus), ferry, Maglev, metro and taxi. Passenger must pay ¥20 for deposit and recharge the card in multiples of ¥10. The card can be used for one time by overdraft taking any bus, ferry or metro. The overdraft should be less than ¥8. There are different sizes of the cards, but only ordinary cards can be returned. If your ordinary Shanghai Public Transportation Card is complete and clean, it can be recalled and the deposit can be refunded to you. The balance on the card can be immediately returned if it is less than ¥10. If the balance on your card is between ¥10 and ¥2,000, invoice should be taken to ask for the return of money; however, a 5% handling fee will be charged. Some metro stations have special offices for the returning of Shanghai Public Transportation Cards daily 09:00-19:00. These stations include:
+** Line 1 - Gongkang Road, Shanghai Railway Station, Hengshan Road, Xujiahui, Xinzhuang;
+** Line 2 - Zhongshan Park, Jingan Temple, Lujiazui, Century Avenue, Longyang Road, Guanglan Road, Songhong Road, Loushanguan Road, Haitiansan Road;
+** Line 3 - Chaoyang Road;
+** Line 4 - Dalian Road, Century Avenue;
+** Line 5 - Xinzhuang;
+** Line 6 - Century Avenue;
+** Line 8 - People Square;
+** Line 9 - Century Avenue;
+** Line 10 - Hongqiao Airport T2, Hongqiao Railway Station.
+
+From Jan 2015, passengers are able to recharge and return the Public Transportation Card on an automatic machine (CVM) on 40 metro stations.
+
+To enter the boarding area, put the ticket card on the inductor of the ticket checking machine. To exit,  if you use a single ticket, insert it into the ticket checking machine at the exit gate, if it's a one-day/three-day/Maglev & Metro Pass or Public Transportation Card, do not insert the card but just swipe on the inductor like while you entering.
+
+===By bus ===
+The bus system is cheaper and much more extensive than the Metro, and some routes even operate past the closing time of the Metro (route numbers beginning with 3 are the night buses that run past 11PM). It is however slower in general, and all route information at bus stops is in Chinese, but here [http://msittig.wubi.org/bus/] is a handy list of bus routes and stops in English. Once inside the bus, there are English announcements. Most buses do not require any conversation with a driver and/or conductor, while others depend on you knowing your destination and the conductor charging you accordingly. For the latter, pay the conductor directly and you'll get a paper ticket (and change, if any). The former bus types do not have a conductor but instead a driver only; there is a fixed price for the route, usually ¥2 and the buses are air-conditioned (¥1.5 on increasingly rare routes running on old buses without; check the bus itself as some routes have a mix of air-conditioned and non-air-conditioned buses). Prepare exact change beforehand and drop it into the container next to the driver. It's best to have exact fare or go to a convenience store if needing change, otherwise you may depend on stating your situation to the driver or other passengers. If you change buses with an SPTC you will get a ¥1 discount on your second bus fare (and all subsequent transfers; there is a 90-minute window to do this on so if you're not spending too much time at the destination your transfer discount will apply to the start of your return journey too).
+
+===By taxi ===
+Taxi ("出租车" chūzūchē or ''choo-tzoo-chuh'') is a good choice for transportation in the city, especially during off-peak hours. It is affordable (typically starting at ¥14 for the first 3 km (larger cabs start at ¥16 and rural area taxis at ¥12) ¥2.4/km up to 10 km, and ¥3.5/km after; when wheels aren't rolling, time is also tracked and billed but first 5 min. are free; a ¥1 fuel surcharge is also applied) and saves you time, but try to get your destination in Chinese characters or available on a map as communication can be an issue. Flagfall starts at ¥18 after 23:00. As Shanghai is a huge city, try to get the nearest intersection to your destination as well since even addresses in Chinese are often useless. Most drivers do not speak English or any other foreign languages, so be sure to have the address of your destination written in Chinese to show the taxi driver but should you forget, there is a phone number displayed in the back of the taxi (you'll need a mobile phone for this). Dial the number and tell the agent where you want to go (English is the only foreign language offered currently). The agent will then, on your behalf, explain where you wish to go. The agent will even find out the address of bars and other spots for you if applicable and this service has very good remarks. (If without a mobile phone, try to get a business card of your destination or of something nearby.)
+
+Driver are genuinely clueless and occasionally out to take you for a ride. Drivers at night may try to avoid using their meter and negotiate a higher fee (150 vs 30 yuan). If they do, go to the closest hotel an request them call you a taxi as the drivers typically will follow the rules and use the meter. It's also the law to provide a receipt for the rider but if your fare seems out of line, be sure to obtain one as it's necessary to receive any compensation. If you feel you have been cheated or mistreated by the driver, you (or a Chinese-speaking friend) can use the information on the printed receipt to raise a complaint to the taxi company about that particular driver. The driver will be required to pay 3x the fare if ordered by the taxi company so normally they're very good about taking the appropriate route. The printed receipt is also useful to contact the driver in case you have forgotten something in the taxi and need to get it back.
+
+If you come across a row of parked taxis and have a choice of which one to get in to, you may wish to check the driver's taxi ID card that is posted next to or near the meter on the dash in front of the front passenger seat. The higher the number, the newer the driver, thus the likelihood that your driver will not know where he or she is going. Taxi driver ID numbers between 10XXXX and 12XXXX are likely to be the most experienced drivers (just make sure to match the picture on the ID card with that of the driver).  A number of 27XXXX to 29XXXX is probably going to get you lost somewhere.  Another way is to check the number of stars the driver has. These are displayed below the driver's photograph on the dashboard in front of the passenger seat. The amount of stars indicates the length of time the driver has been in the taxi business and the level of positive feedback received from customers, and range from zero stars to five. Drivers with one star or more should know all major locations in Shanghai, and those with three stars should be able to recognize even lesser-known addresses. Remember that it takes time to build up these stars, and so don't panic if you find yourself with a driver who doesn't have any - just have them assure you that they know where they are going and you should be fine.
+
+If you need to cross from one side of the Huangpu River to the other by taxi, especially from Pudong (浦东) to Puxi (浦西), you may want to make sure your driver will make the trip, and knows where he or she is going. Some drivers only know their side of the town and will be as lost as you are once they leave their side of town. Taxis are notoriously difficult to get on rainy days and during peak traffic hours, so plan your journeys accordingly. As the crossings between Pudong (浦东) and Puxi (浦西) are often jammed with traffic, taking a taxi may be a more expensive and less time-efficient alternative to using the Metro to cross. It may be better to take the Metro between both sides, and then catch a taxi on the side that your final destination is on.
+
+Taxi liveries in Shanghai are strictly controlled and indicate the company the taxi belongs to. Turquoise taxis operated by ''Dazhong'' (大众), the largest group, are often judged the best of the bunch. Another good taxi company, ''Qiangsheng'' (强生), uses golden taxis. The other large companies include ''Jinjiang'' (锦江), which uses white taxis and ''Bashi'' (巴士), which uses light green taxis. Watch out for dark red/maroon taxis, since this is the 'default' hue of small taxi companies and includes more than its fair share of bad apples. Also private owned taxis (You can recognize them easily as they have an 'X' in their number plate and may not be the standard Volkswagen Santana used by most taxi companies) are among them. The dark red/maroon taxis will also go "off the meter" at times and charge rates 4x-5x the normal rate - especially around the tourist areas of the Yuyuan Gardens. Bright red taxis and blue taxis, on the other hand, are unionized and quite OK, furthermore there are more 3-star and above taxi drivers working for these companies. The bright orange taxis cover suburban areas only and are not allowed within the "city" area, but their meters start at ¥12 and count at ¥2.4/km no matter how long the journey so they're somewhat cheaper if you're not trying to get downtown (rule of thumb- if you're trying to go somewhere within the Outer Ring highway, don't get one, but if your journey ends just within it you may be able to find a driver willing to bend the rules).
+
+Always try to avoid using ¥100-bills to pay for short rides. Taxi drivers are not keen on giving away their change, and it is not uncommon to get counterfeit smaller notes for change. Taxis are very hard to come by during peak hours and when it's raining so be prepared to wait for a while or walk to a busy pick-up location. Foreign visitors might be surprised at the "lack" of courtesy or lines while waiting for a taxi, so don't be afraid to "jump in" and get one--it's first come, first serve.  There are some taxi stops where attendants maintain a well-ordered line; this may be the fastest way to get a taxi in a busy part of town, but there are not very many of them, so expect to walk ways to get to one.
+
+===By sightseeing bus ===
+There are several different companies offering sightseeing buses with various routes and packages covering the main sights such as the Shanghai Zoo, Oriental Pearl Tower, and Baoyang Road Harbor. Most of the sightseeing buses leave from the Shanghai Stadium's east bus station.
+
+===On foot===
+Shanghai is a good city for walking, especially in the older parts of the city such as The Bund, but be aware this city is incredibly dynamic and pavements can be obstructed or unpleasant to walk through when near construction areas. If there is a subway entry at a busy street, the station can usually be used as a pedestrian underpass to another subway exit across the way.
+
+As with all of China, the right-of-way is effectively proportional to weight: vehicles trump motorbikes, which trump pedestrians. Motorbikes and bicycles rarely use headlights and can come from any direction. They are the main users of curb-cuts for sidewalks, so don't stand at these. Avoid unpredictable movements while walking and crossing streets: the drivers see you and predict your future location from your speed. Also, distances are huge, so you will need to use other means of transportation at some point.
+
+===By ferry===
+A useful ferry runs between the Bund (from a ferry pier a few blocks south of Nanjing Road next to the KFC restaurant) and Lujiazui financial district in Pudong (the terminal is about 10 minutes south of the Pearl TV Tower and Lujiazui metro station) and is the cheapest way of crossing the river at ¥2 per person. The ferry is air-conditioned and allows foot-passengers only (bikes are not allowed except for folding models). Buy a token from the ticket kiosk and then insert it into the turnstile to enter the waiting room - the boats run every 10 minutes and take just over 5 minutes to cross the river. This is a great (and much cheaper) alternative to using the Bund Sightseeing Tunnel. However, the ferry stations are not directly connected to the public transport so you need to walk a bit.
+
+===By bicycle===
+[[Image:Shanghai bicycle.JPG|thumb||Cyclist pedaling past cars stopped by impromptu maintenance]]
+For locals, bicycles are slowly being eclipsed by electric scooters but they still remain an easy means of transportation for visitors who may be hesitant to communicate with drivers or board crowded mass transit--or simply to soak up some sunshine. Go to Baoshan Metro station and get a vintage bicycle for approx ¥300; they are also easily found for sale on the street around Suzhou Creek or in the residential part of the old town.
+
+Bicycles and mopeds are not allowed on many major roads (signs designate this), as well as in the tunnels and on the bridges between Pudong and Puxi (the only way to cross is by ferry).
+
+
+Beware of the driving habits of locals: the biggest vehicles have priority and a red light does not mean you are safe to cross the street. Bicycle theft is very common. Even locked bicycles are regularly stolen. If buying a better than average bicycle, buy a good lock and lock it to something like a post. Helmets are optional.
+
+===By car===
+Driving is definitely not recommended in Shanghai for a variety of reasons, even for those with driving experience in the country. Not only do you have to cope with a very complex road system and seemingly perpetual traffic jams, but also Chinese driving habits and ongoing construction. In addition, parking spaces are rare and almost impossible to find. Bicycles, scooters, and pedestrians are also all over the place--a city with a real metropolitan feel. It is also not unheard of for cyclists, motorcyclists, or pedestrians to suddenly dash in front of a car without any warning. In short, do not drive if you can help it and make use of Shanghai's excellent public transportation network instead.
+See also [[Driving_in_China]].
+
+===By scooter/E-bike===
+Whilst motorcycle rental is practically non-existent, for long-term visitors e-bikes and scooters are a cheap, fast, practical way of getting around. E-bikes don't require a driving license and are cheaper, but only have a short battery range (about 50 km) and a low top speed, and are a frequent target of thieves. A cheap e-bike can be picked up from any major supermarket - expect to pay around ¥1500-2500 for a new model. Small shops also sell converted e-bikes (motor scooters converted to run on electricity) which are more expensive but are faster, more comfortable and have longer battery ranges. 50cc motorcycles require registration but doesn't require a drivers license, whilst anything bigger will require a driving license. Motorcycles can be bought from used-bike dealers mostly located in residential working class neighbourhoods - a used 50cc moped will be about ¥2000 whilst a 125cc will cost a lot more depending on condition and mileage. If you plan on riding a motorcycle, stick to automatic transmission scooters as they are much easier to ride in dense traffic than a manually-geared bike.
+
+Motorcycles are expected to use the bicycle lane and cross intersections via pedestrian traffic lights, which is often quicker when car traffic reaches a standstill. Be careful, particularly at night, of people riding with their headlights off or riding on the wrong side of the road - remember that e-bikes don't require any driving license and therefore drivers often flout traffic laws and take creative but dangerous paths through traffic. Parking is easy - most sidewalks serve as bike-parking, although in quiet streets you may risk getting your bike stolen so make sure you have a couple of good locks. At busy places there are attended bike parks that charge around ¥0.5-1 per day.
+
+===By sidecar===
+Vintage motorbikes with sidecars are used by mainly by expats and tourists.  Most expatriates and Shanghainese are too embarrassed to use what many consider a particularly "uncool" form of transport.
+Changjiang sidecars were used by the Chinese army until 1997. There are a few sidecar owners club in Shanghai (Black Bats, People's Riders Club), shops (Yiqi, Cao, Fan, Jack, Jonson, Leo) and a tour operator (Shanghai Sideways, http://www.shanghaisideways.com ) which are worth checking out.
+
+See also [[Driving_in_China#Sidecar_rigs]].
+
+===By sightseeing tunnel===
+A bit of a misnomer, as the entire journey is underground and doesn't reveal any real sights of the city.  This is the fastest way of crossing between the Bund in Puxi and the Pearl TV Tower in Pudong but also the most expensive (¥50 one way/¥70 return) and is essentially a tourist trap--but may also be a good bet for the directionally-challenged or those struggling to find a taxi during rush hour. Glass pods running on train tracks take a few minutes to run through a tunnel under the Huangpu River lined with a psychedelic light show and some bizarre commentary in English and Chinese. After arriving you'll be dropped off in a hall full of tourist-trap shops, which should come as no surprise since the entrance is a few meters from the TV Tower and is by no means a practical mode of transportation for locals. Avoid if possible - it's a very tacky experience - unless you're prepared to spend some cash to look at some flashing lights instead of walking 5 min to the south and taking the aforementioned ferry or walking 5 min west to Nanjing East Rd subway station and taking the Metro. On the other hand, it is also significantly less packed than either of those during peak hours.
+
+==Talk==
+The native language of locals, '''Shanghainese''', is part of the '''[[Wu phrasebook|Wu]]''' group of Chinese languages, which is not mutually intelligible with Mandarin, Cantonese, Minnan (Hokkien-Taiwanese) or any other forms of Chinese. However, Shanghai, being the biggest city and main commercial centre in China, is now home to many migrant workers from other parts of China who do not speak Shanghainese, and as with elsewhere in China, [[Chinese phrasebook|Mandarin]] is the ''lingua franca''. As Shanghai has been China's main commercial centre since the 1920's, almost all locals are bilingual in Shanghainese and Mandarin, so unless you approach someone really old, you will have no problems speaking Mandarin to locals. Nevertheless, attempts to speak Shanghainese are appreciated, and will help endear you to the locals.
+
+While you are more likely to encounter an '''English''' speaker in Shanghai than in any other mainland Chinese city, they are still not widespread so it would be wise to have your destinations and hotel address written in Chinese so that taxi drivers can take you to your intended destination. Though most younger people will have studied English in school, due to a lack of practice, few are conversant. Likewise, if you are planning to bargain at shops, a calculator would be useful. That being said, staff at the more expensive hotels, major tourist attractions and other establishments catering specifically to foreigners generally speak an acceptable level of English.
+
+==See==
+[[File:The Bund Shanghai.png|thumb|250px| The Bund]]
+[[Image:Jing'an Temple.jpg|thumb|250px|Jing'an Temple, Jing'an District (Air City Terminal found here)]]
+
+Where to go in Shanghai depends largely on your time period and interests.  See [[Shanghai for the first-timer]] for a sample itinerary.
+
+*<see name="Yuyuan Gardens" alt="豫园" address="" directions="in Old City" phone="" url="" hours="" price="¥40" lat="" long="" email="" fax="">For a feel of the China of yesteryear loaded with classical Chinese architecture (the countless vendors just outside the gardens may lead to some frustration, so don't come here thinking 'tranquility').</see> 
+
+*<see name="Classic (Western) architecture" alt="西方古典建筑" address="" directions="" phone="" url="" hours="" price="" lat="" long="" email="" fax="">For a taste of 1920s Shanghai, head for the stately old buildings of the The Bund or the French Concession--too many to list here!  Some of the best sections are along Hunan Rd (湖南路), Fuxing Rd (复兴路), Shaoxing Rd (绍兴路) and Hengshan Rd (衡山路). The area is fast becoming famous for boutique shopping along Xinle Rd, Changle Rd and Anfu Rd (安福路), all of which also have interesting restaurants.</see>
+
+*<see name="Modern architecture" alt="现代建筑" address="" directions="" phone="" url="" hours="" price="" lat="" long="" email="" fax="">Some of the tallest and most inspiring structures in Asia and the world can be found along the Huangpu River bank in Pudong's Lujiazui District.  Two of considerable mention are Oriental Pearl Tower, one of the tallest structures in Asia, providing visitors with city views (different tours available) or light shows (at night) from below (free), Jin Mao Tower, which is staggering 88-story behemoth, and the Shanghai World Financial Center, which has one of the world's highest observation decks, at 474 m (1555 ft). They still (August 2015) have signs there claiming to be the world's highest observation deck. This claim is no longer true, that honor belongs to the Burj Khalifa in Dubai: 148th floor at 555 m (1,821 ft). Admission for Shanghai World Financial Center (as of August 2015): Y180 for 94th, 97th, and 100th floor; Y120 for 94th floor only. Be aware that both the 94th floors and the 100th floors offer similar views and photography opportunities. Discount available for students under 16 and senior citizens, and free if it's your birthday.</see>
+
+*<see name="Shanghai Museum" alt="上海博物馆" address="S side of People's Square" directions="" phone="" url="" hours="9AM-5PM" price="Free" lat="" long="">The Ancient Bronze exhibit is particularly impressive.  Audio guides available.  Also, there are often volunteer guides providing free service.  Some of them speak English.</see>
+
+*<see name="Temples" alt="" address="" directions="" phone="" url="" hours="" price="" lat="" long="" email="" fax="">Some of the more popular ones include the Jade Buddha Temple, Jing'an Temple, Chenghuang and Longhua Temple. Seniors 70 and over get free admission at the Jade Buddha Temple and many museums. Passport ID is usually requested.</see>
+
+*<see name="Oriental Pearl Tower" alt="" address="" directions="" phone="" url="" hours="" price="" lat="" long="">Right in the middle of the skyline+ This is a must see! (120 RMB for going up, Oct 2012)</see>
+
+*<see name="Zhujiajiao Water Town" alt="朱家角镇" address="" directions="" phone="" url="" hours="" price="" lat="" long="" email="" fax="">The picturesque Zhu Jia Jiao is a classic water village, over 400 years old with a signature five-arch bridge spanning the Cao Gang River. Zhu Jia Jiao was an important town for local trade, shipping goods in and out of its man-made canals to the river. After about 40 minutes drive from the city,you will arrive at Zhujiajiao-the Ancient Water Town. Its main street is lined with quaint shops and restaurants serving local favorites. You can stroll the maze of paths and bridges, and take a boat ride to view the residences of this nicely-preserved water village. Zhu Jia Jiao is also home to two impressive temples, which add to the charm and historic significance of the village.</see>
+
+==Do==
+*<do name="Drink at a tea house" alt="" address="" directions="" phone="" url="" hours="" price="" lat="" long="" email="" fax="">Do visit Shanghai's many tea houses, but be beware of tea house scams, see Stay safe below.
+To sample some tea head to Yu Garden, but not at a dining establishment, rather at one of the many tea shops selling the product. In hopes to make a sale, the store owners will call out to you to sample some of their tea. You may enter - they will offer the best (or most expensive) to foreigners to taste. If you decide to do this, be courteous and purchase a small amount of tea - but be sure to ask the price before you try it. 
+**Note: Prices mentioned are always by 斤 jin1, which is equivalent to a pound or half-kilo.</do>
+
+*<do name="Enjoy a dinner with locals" alt="" address="" directions="" phone="" url="https://www.dinnerinshanghai.com/” hours="" price="" lat="" long="" email="" fax=""> Enjoy a traditional meal at the home of a Shanghai local. Learn first-hand about life in China and see how locals really live. "Dinner in Shanghai" specializes in this, while AirBnB may offer some options as well </do>
+
+*<do name="Take a boat on the river" alt="" address="" directions="" phone="" url="" hours="" price="" lat="" long="" email="" fax=""> There are many companies that run river tours. Look for one of the cheaper ones. This is a great way to see the striking Shanghai skyline and river banks and shoot some good photos. A cheaper but less scenic alternative is to take one of the many ferries that cross the river for a couple yuan.</do>
+
+*<do name="Shanghai Happy Valley" alt="" address="888 Linhu Rd, Songjiang (上海松江区林湖路888号)" directions="" phone="" url="http://sh.happyvalley.com.cn/flash/index2.shtml" hours="" price="¥200" lat="" long="">Theme park.</do>
+
+*<do name="Jinjiang Amusement Park" alt="" address="No. 201 Hongmei Rd" directions="in Xuhui District, Line 1 to Jinjiang Park" phone="" url="http://www.jjlysh.com/en/" hours="" price="" lat="" long="" email="" fax=""></do>
+
+*<do name="Shanghai City Beach" alt="" address="" directions="" phone="" url="http://www.jsbol.com" hours="" price="" lat="" long="">Beautiful Jinshan City Beach is on the north bank of Hangzhou Bay, at the southern end of Jinshan District. The area combines great scenery, points of interest and entertainment all in one strip, and is composed of 2 square kilometers of blue waters, 120,000 square meters of golden sands and a 1.7 kilometer silver walkway. Every spring, Jinshan beach hosts the national kite flying competition and the world beach volleyball tournament; in the summer thousands of visitors come for the Fengxia Music Festival. Sail boating, speed boating, bungee jumping and 4-wheeling activities makes this place a great spot for athletics as well. </do>
+
+*<do name="Jinshan Donglin temple" alt="" address="Shanghai Jin Shan Qu Dong Lin Jie" directions="Take the Metro to Line 1 to Lianhua Rd Station. Leave station from the north exit, to the left you will see a bus station. Find the bus 莲金专线空调, 莲花路地铁站-朱泾(lianjin zhuanxian kongtiao, lianhua lu ditiezhan-zhujing) (lianjin special purpose bus (AC), from Lianhua station to Zhujing Town, where the temple is). To confirm the bus is going there, ask, 'Zhe liang dao zhujing ma?'. The final stop is a few blocks from the temple. Ask someone to point the way. Take the same bus back, but towards Lianhua station. One way without traffic should take less than an hour." phone="" url="" hours="" price="&yen;30" lat="" long="">Jinshan Donglin temple (金山东林寺), located in Shanghai’s southern suburbs (Zhujing Town)  has over 700 years of history, the temple has been renovated, and is a magnificent sight to see. Donglin Temple has large-scale, high artistic value, and three Guinness World Records: The Goddess of Mercy and the world's tallest Buddha Cloisonné—Sudhana (5.4 m) the highest bronze door in the world-qian fo door (20.1 m), The world's tallest indoor statue-- the statue of Guanyin Bodhisattva with one thousand hands and several heads(34.1 m).</do>
+*<do name="Shanghai Propaganda Poster and Art Centre" alt="PPAC" address="RM. BOC 868 HUA SHAN RD SHANGHAI 上海华山路868号BOC室" directions="Take a taxi to 868 Huashan Road. The museum is inside the apartment complex here. With any luck, the complex guard will point you in the right direction. The museum is found in the basement of building B." phone="" url="http://www.shanghaipropagandaart.com/home.asp?class=beautifuf_book" hours="Daily10:00-17:00" price="¥20" lat="" long="">This private collection is one of the most relevant and uncensored exhibits available to visitors interested in a glimpse of the politics and art of Mao-era China.
+Posters, memorabilia, photos, and even "大字报" (dazibao: big character posters) can be found in this rotating exhibition.
+Due to the controversial nature of the historical items stored here, the museum is quite difficult to find, and unlabeled from the outside. Well worth the hunt, the museum boasts a wide array of art and political relics from 20th century China.</do>
+
+*<do name="Navy Shanghai Museum" alt="" address="68 Tanghou Rd., Wusong, Shanghai" directions="" phone="+86 21 56163295" url="" hours="" price="" lat="" long="">Not open to foreigners. Only Chinese citizens.  Easy to find on the north side of town where the Huangpu River meets the Yangtze.  Also good signs on the roads leading to the museum.  Nothing to see outside.  (Qingdao Navy museum can be visited without problem.)</do>
+
+*<do name="Madame Tussauds Shanghai" alt="" address="10/F, New World Building, No.2-68 Nanjing Xi Rd" directions="" phone="+86 21 6358 7878" url="http://www.madametussauds.com/Shanghai" hours="" price="" lat="" long="">Madame Tussauds Shanghai, a must go for leisure, near people park centre, From Nan Jing Road, take walk to West and go to People Park, you can see the building after take underground road</do>
+
+*<do name="Shanghai Disney Resort" alt="" address="Pudong Xinqu, Shanghai Shi" directions="" phone="+86 21 3158 0000" url="https://www.shanghaidisneyresort.com/en" hours="" price="$50/day park tickets; $120+/night hotel stays" lat="" long="">The newest Disneyland theme park to be built, opened in June of 2016 and featuring the world's largest Disney castle. The park is majority-owned by the Chinese government; "Authentically Disney, Distinctively Chinese."</do>
+
+*<do name="Open Mic Comedy" alt="Shanghai Comedy Club" address="1/F, Bldg A3, 800 Changde Lu, near Changping Lu" directions="" phone="8613524902461" url="" hours="" price="" lat="" long="">A stand-up comedy scene has grown in Shanghai over the last five years. Tuesday and Sunday nights go stop by Shanghai Comedy Club to catch local comics and touring international comedians.</do>
+*<do name="M2Adventure" alt="" address="Fahuazhen road 483, building 1" directions="" phone=" 138 1748 0832" url="https://www.meetup.com/adventure-Shanghai" hours="" price="" lat="" long="">Originally developed from a Meetup Group, now the biggest international outdoor trips/adventure community in shanghai/China, M2adventure is founded & operated by a international couple (Miller and Mariane) who love traveling and outdoor sports. This is a great way to meet same mind set people and get out of shanghai on a weekend for a outdoor adventure together. The activities includes: Weekend Getaway Hiking, Camping, Rockclimbing, Wakeboarding, Skiing, Windsurfing, Social picnic, Zhangjiajie hiking, Shaolin temple Hiking, Tibet long distance hiking. </do>
+*<do name="Do a language exchange" alt="" address="" directions="" phone="" url="https://www.meetup.com/Japanese-Language-Exchange-Group" hours="11:00" price="Free" lat="" long="">Every Saturday morning in Xujiahui there is a language exchange for English, Mandarin, and Japanese speakers. Usually 10-20 people from around the world will attend. This is a good way to meet and talk with locals!</do>
+
+==Learn==
+
+===Cooking===
+To see another side of Shanghai, you can learn cooking in one of the different cooking schools or restaurants offering classes.
+Some are more high-end , like  [http://www.thekitchenat.com/ "The kitchen at..."], offering experienced chefs. Others offer a more local and cultural experience, like [http://www.cookinshanghai.com/ "Cook in Shanghai"], with fresh market tours and a relaxed environment.
+
+===Talk===
+There are many options available to learn Mandarin Chinese in Shanghai. When looking for a school ensure it is registered by the local government as an educational institution, has accreditation and ask for a trial lesson which is often given for free. Some popular language schools include:
+
+* <listing name="Mandarin House" alt="美和汉语"  url="http://www.mandarinhouse.cn"> Established 2004 and China's most well known Chinese school. The Shanghai campus is in People's Square.</listing>
+*<listing name="Mandarin World" alt="育璀汉语" url="http://www.mandarinworld.com.cn"> A newer Chinese school with foreign management in Pudong District. </listing>
+*<listing name="Hutong School Shanghai" alt="胡同学校" url="http://www.hutong-school.com/learn-chinese-and-intern-shanghai"> Language School in Jing'an DIstrict. Also provides Internships and accommodation to international students. Organizes a lot of cultural activities as well.</listing>
+*<listing name="Mandarin Garden" alt="儒森汉语"  url="http://www.mandaringarden.org"> Established 2004 and can provide both Mandarin courses and student's visa. 3 centres in Shangha.</listing>
+*<listing name="Silk Mandarin" alt="丝合汉语"  url="http://silkmandarin.cn/"> Language school that can provide Chinese language courses for every needs. The innovative teaching method helps the students to learn Chinese easier and faster. The school also organizes a lot of outdoor and cultural activities. It is located in Shimen Second Road. </listing>
+*<listing name="LTL Mandarin School" alt="Live the Language"  url="https://www.ltl-shanghai.com"> Mandarin language school teaching Chinese to foreign students. Based near South Shaanxi Lu metro station,
+ LTL specialize in group classes, individual tailored courses and Chinese immersion programs.</listing>
+* <listing name="That's Mandarin" alt="思道睿"  url="https://www.thatsmandarin.com/learn-chinese-shanghai/"> Founded in 2005 with two campuses in downtown Jing'an District. Various mandarin courses tailor-made to students' needs.</listing>
+
+===Urbanism===
+Shanghai urban development is all about the 'five year plan'. Visit the '''Urban Planning Museum''' in People's Square for a fascinating look into Shanghai's colourful past, and learn about development strategies for the future. There is a heavy focus on eco-friendly satellite cities with spacious public centres and loads of greenery. The trip is worth it just for the scale model of Shanghai in ten years. All is on the fourth floor, including a virtual tour of up-and-coming large scale public projects, which encompass the World Expo 2010 site. It is located just across from the Shanghai Museum.
+
+==Work==
+
+===Teach===
+* <listing name="C3 Cafe (Creative Co-working Cafe)" alt="(Creative Co-working Cafe)"  url="http://www.c3shanghai.com/wp/"> Holds regular events for sharing language, knowledge, and culture. Monday TED Saloon, Tuesday Board Games, Wednesday Couch Surfing Meetup, Thursday Entrepreneurs, Friday Social Party, Saturday Language Exchange, Sunday Art Movie. All Tourist are invited and can easily walk in and join.Ph. 13916171091 Wechat: millergodbehere Address, 700 Huangpi S Rd, Ste A105 - 黄陂南路700号 A105室 - 11:00-01:00.</listing>
+
+*<listing name="Gold Star TEFL Recruitment " alt="(Gold Star Consulting)"  url="http://goldstarteachers.com/"> Teaching English is a popular way to be able to live and earn money in Shanghai. Jobs are available teaching a range of ages from kindergarten to elementary, middle and high school students as well as universities and private language centres. Schools usually require native speakers with a degree in any discipline and  ”TEFL” certificate. There are plenty of job boards online as well as recruiting agents.</listing>
+
+* <listing name="INativeSpeaker" alt="INativeSpeaker Teacher Student group" url="http://www.inativespeaker.com">Working in Conjunction with the Shanghai Foreign Teachers Network, INativeSpeaker is networked with a lot of schools of varied standards across Shanghai. Learning to teach, is available through emailing INS directly. See their website for contact info. </listing>
+
+* <listing name="Reach To Teach" alt="Reach To Teach Recruiting"> Reach To Teach works with several schools around the Shanghai metropolitan area including adult language schools, kindergartens and international schools. All schools are submitted to a rigorous pre-screening process prior to being added as a program.</listing>
+
+* <listing name="Shanghai Foreign Teachers Network" alt="Teachers Network" url="http://eepurl.com/POxWz"> A newsletter based database and WeChat group for all new Foreign teachers or those looking to pursue teaching in Shanghai and China. This network was started due to common problems new people face in China. Teaching/Tutoring even without qualifications is a easy option in China. Pay rates normally start from ¥120-300/hour. Teachers also meet regularly at C3 Cafe. For help contact WeChat: Adriannqld or call +86 1362 1908 402 </listing>
+
+* <listing name="Teaching Nomad" alt="" url="http://www.teachingnomad.com"> Teaching Nomad is the highest rated Teach in China program on the independent review website Go Overseas. They work with over 100 schools in China and carefully screen each employer before they agree to help them hire qualified foreign teachers. The seasoned staff at Teaching Nomad provides ongoing assistance even after candidates have found a teaching position in China and they're always happy to answer any questions you might have. Teaching Nomad has positions for ESL teachers as well as subject teachers. Their client schools hire beginner, experienced and professional educators. </listing>
+
+* <listing name="Teach Away" alt="" url="https://www.teachaway.com/teach-english-china"> Teach Away is currently seeking a high number of enthusiastic teachers for exciting opportunities to teach English in China. Home to the world’s number one economy, China has grown increasingly popular with ESL teachers and licensed teachers looking to experience firsthand the phenomenon of a society undergoing an exciting transformation.</listing>
+
+* <listing name="Teach English In China" alt="" url="https://teach-english-in-china.co.uk/"> Teach English In China works with state and private schools in cities across China, including kindergartens, primary, middle and high schools and universities. All schools are approved by the China Education Association for International Exchange.</listing>
+
+==Buy==
+Shop until you drop on China's premier shopping street '''[[Shanghai/Nanjing Road|Nanjing Road]] (南京东路),''' or head for the Yuyuan Bazaar for Chinese crafts and jewellery not far from the [[Shanghai/Bund|Bund]]. Nanjing Road is a long street. The more famous part lies in the east near the Bund (Nanjing Road East), with a 1-km long pedestrian boulevard (Metro line 2 at Nanjing Road East station, formerly called Henan Road station) lined with busy shops. The wide boulevard is often packed with people on weekends and holidays. The shops are often targeted to domestic tourists, so the prices are surprisingly reasonable. Local people often look down on Nanjing Road and shop at '''Huaihai Road''' (another busy shopping boulevard with more upscale stores) instead.
+
+For the high end boutiques, go to the west end of '''Nanjing Road West (南京西路)''' near '''Jing'an Temple.''' Several large shopping malls (Plaza 66 aka Henglong Plaza, Citic Plaza, Meilongzhen Plaza, and others being built) house boutiques bearing the most famous names in fashion. No. 3 on the Bund is another high-end shopping complex featuring Giorgio Armani's flagship store in China. 
+
+For those interested in boutique shopping, head to the French Concession Streets Xinle Lu (新乐路), Changle Lu (长乐路) and Anfu Lu (安福路) starting from east of Shaanxi Lu (陕西路) (nearest Metro station is South Shanxi Rd on line 1). This section of low rise building and tree-lined streets bustles with small boutiques of clothing and accessories, where young Shanghainese looking for the latest fashions shop.  The overhauled, cozy alleyways of '''Tianzifang''' is also extremely popular and is a bit more elbow-to-elbow than Xintiandi.
+
+Shanghai Foreign Languages Bookstore (Shanghai Book Traders) at 390 Fuzhou Rd (near People's Square) offers a lot of books in English and other major languages, especially for learning Chinese. Just around the corner at 36 South Shanxi Rd you will also find a small but well-stocked second-hand foreign-language bookshop. If you're searching for computer or business related books, head to the biggest store in Fuzhou Rd: Shanghai Book Town (上海书城). You'll find special editions targeted at the Chinese market. The only difference to the original version is the Chinese cover and the heavily reduced price. Fuzhou Road is also a good street to wander around and find stationery and Chinese calligraphy related shops.
+
+Those interested in DVDs of movies and television shows have a wide variety of options. Aside from the people selling DVDs out of boxes on street corners you can also find a good selection of movies at many local DVD shops in most neighborhoods. Perhaps the best way to score a deal with a shop is to be a regular. If you provide them repeat business they are usually quite happy to give you discounts for your loyal patronage. Typically DVDs can cost anywhere from ¥5 for standard disks to ¥10-12 for DVD-9 format disks.
+
+However, if you are short on time in Shanghai and don't have the means to form a relationship with a shop, many people recommend the Ka De Club. An expat favorite for years, they have two shops: one in 483, Zhenning Rd and the other one in 505, Dagu Rd (a small street between Weihai and Yan'an Rds). While the selection at the Ka De Club isn't bad the downside of this store's popularity is that with so many foreigners giving them business, you tend to get somewhat higher prices than at local shops and haggling and repeat customer bargains are pretty much non-existent.
+
+Antiques, jade and communist China memorabilia can be found in Dongtai Road Antiques Market, where you must bargain if you want to get a fair deal. [[Shanghai/Bund#See|Yuyuan Gardens]] is another good option for antiques as well as all manner of cheaply made and priced souvenirs (teapots, paintings, "silk" bags, etc.). There are two basement markets. You will have to hunt for them, but they are worth the effort. As with any market in China, don't be afraid to bargain to get a fair price.
+
+===Electronics===
+'''Xujiahui''' Metro station is the place to go if you're after game consoles (the Wii is available here in relative abundance), computers, computer accessories and many other electronics, but the mobile phone selection is a bit lacking.
+
+*<buy name="Bu Ye Cheng Communications Market" alt="不夜城" address="" directions="Shanghai Railway Station, exit 4 from line 1 side, turn left and it's the large gold building" phone="" url="" hours="10:00-18:00" price="" lat="" long="">This is the one of the best-known open-style market for mobile phone in Shanghai. 1F/2F for new phones (two-way radios too), 3F for various collectibles. Any reputable vendor that sets up shop here will allow you to try before you buy- if they don't then leave. Best way to get a good or unusual phone at low cost</buy>
+
+There is a giant electronics mart at the Baoshan Road line 3/4 station, which offers a huge range of miscellaneous electronics and mobile phones, however some are fake. Be sure to bargain hard. If you want to buy a mobile phone here, make sure you have a SIM card before you purchase, and test the SIM card in the phone by making a call, perhaps to the vendor, since some of the phones are non-functional but still turn on. It's best to negotiate as low as possible first, and then try out your SIM card. Note, some of the phones are stolen..
+
+===Clothing===
+Metro Line 2 at the '''Shanghai Science & Technology Museum''' (上海科技馆) station has vendors selling various wares. The most common name for the market is "A.P. New XinYang Fashion Market." There are a number of variations, and the name really doesn't even matter. The market shares the same underground area as the Metro station and there you can purchase all your knock-off products. The place is much more overrun by foreigners than Qipu Lu (below), and as such the prices for clothes is considerably higher. However, there is a wider selection here of other products: software, games, electronics, etc.
+
+The horrendously crowded '''Qipu Lu''' (七浦路) clothing market is a mass of stalls jammed into a warehouse sized building which would take the casual stroller most of a day to look through. You'll find the cheapest clothes in the city here, but even the trendiest styles are clearly Chinese. Bargain hard, in Chinese if you can and make friends with the shop owners. Many of them have secret stashes of knock-offs in hidden rooms behind the stall "walls." Avoid this place on weekends at all costs. Some of the touts here can be very, very annoying. Be prepared for people following you relentlessly through malls, even up and down escalators - if this gets to a point where it's uncomfortable, call the police (English speaking PSB line is 6357-6666). You can get the metro to Tiantong Road (天潼路)on line 10 - the stop is right outside. If you want to see some "old Shanghai" style buildings you can also get off at Qufu Road (曲阜路) on line 8 and walk about 10-15 minutes.
+
+Another option is the '''Pearl Plaza''' located on Yan'an Xi Lu and Hongmei Lu (Line 10, get off at Longxi Rd stop, go south on Hongmei Lu out of the station past Yan'an elevated road, on right) as well as the unassuming shopping complex located on the corner of Nanjing Xi Lu and Chongqing Lu. Haggling can be fun for those who are accustomed to it, but those sensitive to the pressure might want to steer clear. Not only can it be stressful to haggle, but just walking in to the buildings can bring a horde of people upon you trying to sell you bags, watches, DVDs and all assortment of goods.
+
+But rather than pursuing knock-offs of Western brands, one of the more interesting things to do in Shanghai is to check out the small boutiques in the [[Shanghai/French Concession|French Concession]] area. Some of these are run by individual designers of clothing, jewelry, etc and so the items on sale can truly be said to be unique. Visitors from overseas should expect the usual problem of finding larger sizes. 
+
+* Shanghai South Bund Material Market: 399 Lujiabang Rd (陆家浜路). 10:00-18:00. You can take bus #802 or #64 from the Shanghai Railroad Station and stop at the final stop: Nanpu Bridge Terminal or you can take the Metro Line 4 to the Nanpu Bridge (南浦大桥) Station (exit from gate #1, make a left from the exit and then left again on the light. You will see it to your right after walking about 200–250 m.  Three floors of tailors and their materials including silk, cashmere, merino wool. Have items measured, fitted and finished within two days or bring examples, samples or pictures. Bargain hard with the friendly tailors.
+
+* A smaller and less crowded tailor market can be found under the Shanghai Science and Technology Museum (Metro Line 2).
+
+===Supermarkets and Convenience Stores===
+Major supermarket chains such as Carrefour, Auchan, Tesco and Walmart are scattered around the city and have cheap groceries and household products, and are generally crowded at weekends. The most centrally located 'big chain' supermarket is Carrefour, located in floors B1 and B2 of Cloud 9 shopping mall (metro: Zhongshan Park Lines 2, 3 and 4). Tesco has a store in Zhabai district close to the main railway station and there is a huge Lotus supermarket in Top Brands mall in Liujiazui (Metro: Liujiazui, Line 2). Whilst there are many stores around the city selling imported products at fairly high prices, Metro Cash'n'Carry (Metro: Longyang Lu; Lines 2, 7 and Maglev; Puxi store located at intersection of Zhenbei Rd and Meichuan Rd, reachable by bus #827 from Line 2 Beixinjing station, Line 10 Shuicheng Rd station, and Line 10 Jiaotong University station or bus #947 from Line 2 Zhongshan Park station and Line 3/4 Jinshajiang Rd station) in Pudong is by far the cheapest place to buy imported goods. As it caters primarily to businesses, you will either need a Metro membership card or take a temporary guest pass from reception when entering the store (Puxi store offers no guest passes but most members are willing to lend their membership card at the check-out line).
+
+Ubiquitous FamilyMart and Lawson 24-hour convenience stores can be found around the main central districts and inside major metro stations - these stores sell magazines, snacks, drinks and Japanese-style hot bento-boxes. Chinese chains such as Kedi, Quik, All Days and C-Store can be found in residential districts and are marginally cheaper and also stock cigarettes. A bit less common is 7-Eleven.
+
+==Eat==
+Shanghai's cuisine, like its people and culture, is primarily a fusion of the forms of the surrounding Jiangnan region, with influences sprinkled in more recently from the farther reaches of China and elsewhere. Characterized by some as '''sweet and oily''', the method of preparation used in Shanghai, it emphasizes freshness and balance, with particular attention to the richness that sweet and sour characteristics can often bring to dishes that are otherwise generally savoury. 
+
+Shanghai local cuisine, or Shanghainese food is also known as Shanghainese cuisine, and authentic Shanghai cuisine, mainly features freshness, especially the fresh fish and shrimps, bright colours, and original flavours. Boiled eel(锅烧河鳗), three yellow chicken(三黄鸡), fried shrimp (油爆河虾), Shanghai drunk crab(上海醉蟹) etc. are the typical local cuisine. 
+[[File:Bird Sticks, Shanghai.png|thumb|300px|Birds on stick, street food in [[Qibao]] Town, [[Shanghai]]]]
+[[Image:Chinese-style flat bread (da bing).jpg|thumb|300px|Chinese-style flat bread (dà​bǐng)]]​
+
+The name "Shanghai" means "above the sea", but paradoxically, the local preference for fish often tends toward the freshwater variety due to the city's location at the mouth of China's longest river. Seafood, nonetheless, retains great popularity and is often braised (fish), steamed (fish and shellfish), or stir-fried (shellfish). Watch out for any seafood that is fried, as these dishes rely far less on freshness and are often the remains of weeks' old purchases.
+
+Shanghai's preference for meat is unquestionably pork. Pork is ubiquitous in the style of Chinese cooking, and in general if a mention refers to something as "meat" (肉) without any modifiers, the safe assumption is that it is pork. Minced pork is used for dumpling and bun fillings, whereas strips and slices of pork are promulgated in a variety of soups and stir-fries. The old standby of Shanghainese cooking is "red-cooked [braised/stewed] pork" (红烧肉), a traditional dish throughout Southern China with the added flair of anise and sweetness provided by the chefs of Shanghai.  
+
+Chicken takes the honorable mention in the meat category, and the only way to savour chicken in the Chinese way is to eat it whole (as opposed to smaller pieces in a stir-fry). Shanghai's chickens were once organic and grass-fed, yielding smaller birds offering more tender and flavourful meat than its hormone-injected Western counterparts. Unfortunately, these hormones have found their way to China, and today most chickens are little different from what can be found elsewhere. Still, the unforgettable preparations (drunken, salt-water, plain-boiled with dipping sauce, etc.) of whole chickens chopped up and brought to the table will serve as a reminder that while the industrialization of agriculture has arrived from the West, the preservation of flavour is still an essential element of the local cooking.
+
+Those looking for less cholesterol-laden options need not fret. Shanghai lies at the heart of a region of China that produces and consumes a disproportionately large amount of soy. Thinking tofu? There's the stinky version that when deep-fried, permeates entire blocks with its earthy, often offensive aroma. Of course there are also tofu skins, soy milk (both sweet and savory), firm tofu, soft tofu, tofu custard (generally sweet and served from a road-side cart), dried tofu, oiled tofu and every kind of tofu imaginable with the exception of tofurkey. There's also vegetarian duck, vegetarian chicken and vegetarian goose, each of which looks and tastes nothing like the fowl after which it is named but is rather just a soy-dish where the bean curd is expected to approximate the meat's texture. Look out also for gluten-based foods at vegetarian restaurants, which unlike tofu, do not come with the phyto-estrogens that have recently made soy controversial in some countries. If you are vegetarian, do be conscious that tofu in China is often regarded not as a substitute for meat (except by the vegetarian Buddhist monks) but rather as an accompaniment to it. As such, take extra care to ensure that your dish isn't served with peas and shrimp or stuffed with minced pork before you order it.  
+
+Some other Shanghainese dishes to look out for:
+
+* ''xiǎo​lóng​bāo​'' (小笼包, lit. buns from the little steaming cage; fig. steamed dumpling).  Probably the most famous Shanghai dish: small steamed buns - often confused for dumplings - come full of tasty (and boiling hot!) broth inside with a dab of meat to boot. The connoisseur bites a little hole into them first, sips the broth, then dips them in dark vinegar (醋 cù​) to season the meat inside.  Of special mention is '''Din Tai Fung''', an ever-popular Taiwanese restaurant boasting its designation as one of ''The New York Times'' 10 best restaurants in the world, with a handful of locations in Puxi and one in Pudong.
+* ''shēng​ jiān​ bāo​'' (生煎包, lit. freshly grilled buns). Unlike steamed dumplings, these larger buns come with dough from raised flour, are pan-fried until the bottoms reach a deliciously crispy brown, and have not made their way to Chinese menus around the world (or even around China). Still popular with Shanghainese for breakfast and best accompanied by vinegar, eat these with particular care, as the broth inside will squirt out just as easily as their steamed cousins.
+* ''Shàng​hǎi​ máo​ xiè​'' (上海毛蟹; Shanghai hairy crab). Best eaten in the winter months (Oct-Dec) and paired with Shaoxing wine to balance out your yin and yang.
+* ''xiè​fěn​ shī​zi​tóu​'' (蟹粉狮子头; lit. crab meat pork meatballs).
+
+For local eat outs, see below. Do not be too surprised by the cheap prices for the same dishes you may pay for in restaurants, these are where the local gems reside:
+*<eat name="Take a Shanghai Food Tour" alt="" address="" directions="" phone="15692109030" url="http://www.lostplate.com" hours="" price="450" lat="" long="">Join a local food tour to try authentic, local food while walking through Shanghai's old town. Multiple tours each day take you off the beaten path to try over a dozen local dishes and include a stop at a local brewery.</eat>
+*<eat name="UnTour Shanghai" alt="" address="" directions="" phone="" url="http://www.untourfoodtours.com" hours="" price="" lat="" long="">UnTour Shanghai helps tourists and new residents of the Shanghai get comfortable with the city's dynamic food scene fast. They offer culinary tours of the city, including street food breakfast and night market tours and dumpling-specific tours, as well as Chinese cooking classes. </eat>
+*<eat name="Jiajia Tang Bao 佳家汤包" alt="" address="黄浦区黄河路90号(近凤阳路)" directions="Metro: People's square " phone="+86 021-63276878" url="http://www.dianping.com/shop/573922" hours="" price="" lat="" long="">5 other outlets in Shanghai, the one listed is located near people's square i.e. in a very central location. Although very cheap, the xiǎo​lóng​bāo 小笼包 hold their own against the ones sold in restaurants in ding tai feng. Be prepared for modest no frill local dining settings. Price range from plain pork to crab meat ones, ¥12–25 per <i>long</i> of a dozen dumplings. Highly recommended for tourists who want a taste of where the locals go for their dumpling dose </eat>
+*<eat name="Xiao Yang Shengjian 小杨生煎" alt="" address="静安区吴江路269号2楼" directions="Metro: West Nanjing Rd" phone="+86 021-61361391" url="" hours="" price="" lat="" long=""> Numerous other outlets in Shanghai. A must try place for the above mentioned shēng​ jiān​ bāo 生煎包. ¥15.</eat>
+For a more upscale and cleaner market go to Cityshop or Ole.
+
+*<eat name="Yang's Dumpling" alt="" address="88号 Huanghe Rd, Huangpu District" directions="" phone="" url="" hours="" price="" lat="31.234500" long="121.470917">One of the best places to try the local bun specialties. Their menu is in English as well as Chinese, ironically except for the famous buns which are listed on the left of the menu in Chinese only. They're 4 for ¥6 and after ordering them you take a slip up to the counter across from the register and someone will give them to you scalding hot. All other things will be brought to your table.</eat>
+*<eat name="南翔馒头店 著名小笼包专卖店" alt="" address="Yuyuan Bazaar" directions="" phone="" url="" hours="" price="" lat="" long="">南翔馒头店 著名小笼包专卖店 （Nán xiáng mántou diàn zhùmíng xiǎo lóng bāo zhuānmài diàn） is a dumpling take-out window in the Yuyuan Bazaar which apparently serves food regardless of the customer’s dietary needs (you are warned!), so if you are delicate, to avoid.</eat>
+
+===Western Food===
+Shanghai, undoubtedly, has some incredible authentic traditional food available, but sometimes you just want some home comforts. Fortunately, Shanghai also comes with a plethora of options for Western food as well.
+
+*<eat name="Mex&Co." alt="" address="B/1, 1788 Eco City, No.1818 Nanjing West Road, Jing'an District, Shanghai, China" directions="Metro: West Nanjing Rd" phone="+86 131 2073 7719" url="" hours="" price="" lat="" long=""> Potentially the best Mexican restaurant in the city, with prices (as of 2015) at around ¥100 for a burrito, chips, dip, and can of soda.</eat>
+
+==Drink==
+
+Prices of drinks in cafes and bars vary like they would any major metropolis. They can be cheap or be real budget-busters, with a basic coffee or beer costing ¥10-40. In a high-end hotel bar, one basic beer may cost as much as ¥80. There are internationally-known chains, like Starbucks and Coffee Bean & Tea Leaf, as well as popular domestic and local java joints to satisfy those looking to relax. Tipping is not required, and while some will appreciate it, many will chase you down the street to return your money, thinking you've forgotten it! Visitors from tax & tip bar culture countries, once they figure in tax and tip that they'd have paid back home, will not find drinking to be expensive in the grand scheme of things, especially with reasonable taxi prices to get you to and fro! 
+
+Tsingtao, Snow, and Suntory beer are widely available cold in bottles in cans. Major foreign brands are produced domestically and smaller brands are typically imported. There is also a local brew known as REEB (''beer'' spelled backward). A large bottle (640 ml) of any of these costs anywhere from ¥2-6. 711 and Family Mart will also carry Heineken and Japanese beers like Kirin and Asahi. Taiwan Beer used to be readily available, but has died off since 2009. Cheers-In and other emerging shops carry a range of delicious imported Belgian ales and American craft beers, but you're better off going to one of three KAIBA in town to enjoy these in a proper environment with some tasty chow to boot. 
+
+Shanghai is filled with amazing nightlife, complete with both affordable bars and nightclubs that pulsate with city energy. A mix of locals and Westerns can be found in Bar Rouge [http://www.bar-rouge-shanghai.com/] (enter before 22:00 to save app. 200RMB entrance fee) or MINT [http://www.m1ntglobal.com/club-shanghai]. However, both clubs are posh, so expect Western prices! For a touch of down to earth drinking & rock'n'roll, head to Danish-owned INFERNO at 480 Yongjia Lu near Yueyang Lu in French Concession 上海市徐汇区永嘉路480号 (021-54666068). Walk down the alleyway once you hit the address, and friendly faces await to take your reasonable requests and serve you tasty booze until 5 or 6 am on the weekends, 2 AM on weekdays. 
+
+Warning: Shanghai is a safe place to be, but as in any foreign country, be mindful of drinking to excess and how you will be perceived. The one Chinese guy that you stumble into may not be able to take you down, but his 6 friends might assist. You are a visitor here, and while the feeling of 'anything is possible' pervades at night here, remember to behave yourself and you can have a great night out. Recreational drug use in clubs is not uncommon, but don't think you're immune to being stung for it if you so choose to participate. 
+
+There are many magazines for Expats that can be found at hotels and other ex-pat eateries that list events and the best bars, clubs, and restaurants in Shanghai. The most popular ones are Smart Shanghai, That's Shanghai, City Weekend, and Time Out: [http://www.cityweekend.com.cn/issues/], [http://www.thatsmags.com/shanghai/], [http://timeoutshanghai.com], [http://www.smartshanghai.com].
+
+==Sleep==
+{{SeeDistricts}}
+{{sleeppricerange|¥120-250|¥250-500|¥500-3000}}
+
+Accommodation in Shanghai can be rivaled by a few cities in China, in terms of both variety and services. There are establishments for all types of travelers, from backpacker options for the weary to top-of-the-line hotels and serviced apartments for those wishing to be spoiled.  Puxi has both new and old hotels with class architectural styles and charm, some of them described in stories when Shanghai may have been the only place in China known to much of the rest of the world, while modern amenities are commonly found in Pudong rival many hotels in Asia and beyond.
+
+For clean, safe, budget accommodations, three reliable options are the Jin Jiang Star, Motel 168, and Motel 268 chains, all of which have multiple locations in every district of Shanghai.
+*<sleep name="Hongqiao Jinjiang Hotel" alt="虹桥锦江大酒店" address="5 Zunyi Nan Road Shanghai 200336 China" directions="" phone="+ 86 21 6275 8888" url="http://www.hongqiaojinjiang.com/" checkin="14:00" checkout="12:00" price="800~2000CNY" lat="" long="">Conveniently located between downtown Shanghai and Hongqiao International Airport, with easy access to Pudong International Airport via the city-wide freeway system, Hongqiao Jin Jiang Hotel Formerly Sheraton Shanghai Hongqiao Hotel）provides a central location for travelers to meet and connect.</sleep>
+*<sleep name="Les Suites Orient, Bund Shanghai" alt="上海外滩东方商旅精品酒店" address="1 East Jinling Road Shanghai 200002 China" directions="" phone="+862163200088" url="http://www.lessuitesorient.com/" checkin="14:00" checkout="12:00" price="" lat="" long="">Les Suites Orient On the Bund is a life style boutique hotel with an unparalleled location on the city’s most famous boulevard.</sleep>
+*<sleep name="Xijiao State Guest Hotel" alt="上海西郊宾馆" address="1921 Hongqiao Road , Shanghai, Shanghai Area, 200336, China" directions="" phone="+86 2162198800 " url="http://www.hotelxijiao.com/" checkin="14:00" checkout="12:00" price="" lat="" long=""></sleep>
+
+
+*<sleep name="Xijiao State Guest Hotel" alt="上海西郊宾馆" address="1921 Hongqiao Road , Shanghai, Shanghai Area, 200336, China" directions="" phone="+86 2162198800 " url="http://www.hotelxijiao.com/" checkin="14:00" checkout="12:00" price="" lat="" long=""></sleep>
+
+*<sleep name="Citadines Hongqiao Center Shanghai" alt="" address="No. 3, Lane 1101, Hongquan Road, Minhang District, Shanghai" directions="" phone="+86 21 3432 2255" url="https://www.discoverasr.com/en/citadines/china/citadines-hongqiao-center-shanghai" checkin="15:00" checkout="12:00" price="" lat="" long="">Citadines Hongqiao Center Shanghai, China, provides a range of apartment types to suit your preferences. Explore modern serviced apartments, from cozy studios to spacious suites, offering a personalized and comfortable stay in this vibrant city.</sleep>
+
+*<sleep name="Citadines Jinxiu Shanghai" alt="" address="No.1539 Beiai Road, Pudong New Area, Shanghai, 200125, China" directions="" phone="+86 21 6039 3666" url="https://www.discoverasr.com/en/citadines/china/citadines-jinxiu-shanghai" checkin="15:00" checkout="12:00" price="" lat="" long="">Citadines Jinxiu Shanghai, China, provides contemporary serviced apartments in the vibrant city of Shanghai. Explore the city's culture and attractions while enjoying the comfort and convenience of your urban retreat.</sleep>
+
+==Contact==
+Shanghai's area code for landlines is '''21''', adding a "0" at the beginning if calling outside of the city. 
+China +86.
+
+==Stay safe==
+Shanghai is a fairly '''safe city''' and '''violent crime is rare''', and streets are quite safe to walk about at night (provided you're not looking for trouble). However, the ever-increasing divide between the haves and have-nots has created its fair share of problems. Petty crimes like pickpocketing and bike theft are common, and sexual harassment occasionally occurs on crowded public transport. Pay extra caution before the Chinese New Year (in Jan or Feb depending on lunar calendar), as thieves may be more active in looking for new year money.
+
+BEWARE pick-pockets groups on the main shopping streets. These groups are usually two or more gypsy-women carrying babies whose intention is for a couple extra Yuan, but make sure your bags are in view at all times. This site is extremely common on Nanjing West and East road during rush hours, or late nights outside bars and clubs. 
+
+Beware of taxi scams - ride inside illegal taxi to a distant direction. First, you agree on a price (e.g. &yen;300 for a taxi shared with someone else from Hongqiao Airport to Suzhou) then after some short taxi ride they ask to get out and a group of people says that you need to pay agreed money right now. Then you get transferred to a shared bus where other people cheated like yourself sitting and waiting when the bus will depart, then the bus finally gets to destination. Although taxi drivers are required to take you to the location mentioned, it's always better to check with the driver if he/she is ok to take you there, rather than getting in and finding out half way that you've been tricked. 
+
+The notorious tea house [[China#Stay_safe|scams]], long practiced in Beijing, is unfortunately spreading to Shanghai as well. Be cautious if over-friendly strangers, who probably dress well, speak fluent English, and look innocent like a student,  who invite you to a drink, art gallery, tea shop, or karaoke - you're unlikely to be physically harmed, but they will leave you to foot a large bill. In this case, you should call 110 (emergency hotline). The con artists may tell you that calling the police does not work and claim to have connections with police, but the police in China tend to be helpful in these cases, especially when innocent foreigners are involved. These scams can be found around East Nanjing Rd or People's Square near the entrances/exits of the museums and art galleries. A similar thing can happen if you go with one of the people advertising messages (or more). Don't follow them into any house unless you want to meet a bouncer on your way out who threatens you to pay a huge room fee. If you want a legit massage service, ask your hotel or another trustworthy source.
+
+Another trend is a temple scam which is happening in various big cities and also Tibet. Tour guides may ask you to make a wish and burn an incense which ends up costing a hundred to more than a thousand. Another trick is to ask you how much you want to "donate". After you said ¥10, they will tell you that ¥10 is for a 1-day blessing but the monk has already turned an incense to bless you for 1 year, so you need to pay 365 x 10 yuan. This scam has caused significant backlash because of blasphemy. No legitimate temples in China ever charge followers in this way. Most temples will also include small signage of how much joss sticks or offerings are charged.
+
+Male travellers may attract attention from female sex workers at nightspots. Around Old Town and Science Museum in Pudong, hawkers are sometimes also eager to sell. Saying ''bu4 yao4 le'' ("don't want") may help. Also be cautious of people who approach and offer to '''polish your shoes'''. Make sure both of you agree on the price before anything is put on your shoes. The same rule also applies to the commercial photographers at the Bund area. They will offer to take your picture with the scenic background (and sometimes with costumes) for ¥50, but once you have contracted their services, several cohorts will arrive to "assist" the photographer. They may force you to buy all the snapshots and try to gather crowds to increase pressure.
+
+Don't rush into or out of '''Shanghai metro''' trains in the last moment. Despite the safety barriers on the platform, the train doors sometimes close before all passengers have boarded; people squeezed between closing doors is a common sight. Apparently, the fail-safe that is supposed to block trains from running with open doors isn't stone-proof: Only recently (July 2010), a woman died after being smashed against the safety barriers as she was hanging half out of closed doors of a train of line 2 leaving Zhongshan Park Station. However, recently there have been more guards that are making sure that people are not in between the platform and the train. Be sure to lead children away from the edge of the platform, as there are no railings for some trains. Other trains have sliding glass doors that restrict this possibility. 
+
+By Chinese law, foreigners are required to show their passports when requested, but this is rarely enforced. Most hotels will help you keep the passport in the safe.
+
+Beware of fake note scams. After paying at a restaurant or shop with a legitimate note, the vendor will bring you back a fake note and claim that you just paid with it. Always note the serial number of the note you pay with, especially with larger notes.
+
+This can also happen at hotels. People will knock on your door and try to sell you something, but once you've paid, the seller will tell you that you've paid with a fake note.
+
+==Stay healthy==
+Do not drink Shanghai's '''tap water''' unless it is boiled or purified. Even when you are staying at a five-star hotel. Drinking the water is relatively safe when it has been boiled; however, tap water is also said to contain high amounts of heavy metals which are not removed by boiling.  When buying '''bottled water''', you will come across a whole range of mineral water brands. Cheaper brands cost ¥1-2.50 and are in all the convenience stores and street stands. If you're worried about the bottled water, check if the seal has been tampered with. For the very worried, imported bottled water is available in the basement supermarkets of Isetan, Jiuguang, and Takashimaya department stores (expect to pay ¥15-30 per 2L), as well as some other supermarkets specializing in imports. 
+
+Individuals with asthma or respiratory issues should be prepared when visiting due to the air pollution that pervades Shanghai. Smartphone users can find apps on relevant app stores by searching for "air quality". These apps will indicate levels of air pollution nationally through Chinese testing systems, as well as any US Consulate/Embassy data available. Simple mouth/nose covering masks are easily purchased at drugstores such as Watsons, as well as many convenience shops. 
+
+Should you find yourself in need of a doctor, there are a number of hospitals and medical clinics around the city that serve foreigners and expatriates exclusively.   Many of these medical services will take travel insurance if your insurance company is partnered with the hospital.  However, in most cases, you will likely have to pay ahead of time. Do NOT lose any of your documentation if you are required to pay on the spot, as your insurance provider will require specifics. Do not expect guaranteed English language printouts.  These facilities tend to be far superior in equipment and cleanliness to the ones that Chinese locals are forced to deal with. If you're worried about communicating at hospitals, just make clear (preferably in English) to the information counter that you would like to have someone who can speak English to assist you; some hospitals are known to have staff that can also speak languages like German, Spanish and French. If in the French Concession area, HUASHAN hospital has a foreigner wing and an excellent emergency room 24 hours a day. 
+
+Note that because these services are pay services, the more tests they conduct, the more they are paid.  Furthermore, Chinese doctors, even Western-trained ones tend to be overly thorough compared to Western doctors.  But also because you are the customer, they are not usually too insistent on unnecessary tests.  Use your common sense to determine if you need the ordered tests (e.g. blood tests, x-rays etc.).
+
+For a first-timer, the system in China may seem a little invasive - don't be alarmed. You'll encounter examination rooms shared by multiple doctors and patients, lack of privacy, etc., but think of it as the number of staff versus the population, trying to keep up with efficiency. Doctors tend to be direct, and might move you around the hospital. Do not be surprised when you are asked to transport your own test results around the facility - you're doing as the locals do. 
+
+The following clinic in Hangkou provides "VIP Service" for &yen;300.  And then you pay for whatever services on top of the basic examination.
+
+International Medical Care Center of Shanghai First People's Hospital (Songjiang) in Building 1, 585 Jiu Long Road, near Haining Lu, 九龙路585号，近海宁路 , 6324 3852, [http://www.firsthospital.cn]. Monday-Friday 8AM-5PM
+
+==Cope==
+
+===Newspapers===
+*<listing name="Shanghai Daily" alt="" address="" directions="" phone="" email="" fax="" url="http://www.shanghaidaily.com/" hours="" price="" lat="" long="">English-language newspaper and website.</listing>
+
+===Talk===
+For visitors unused to travel in China the '''language barrier''' is likely to be the biggest obstacle, as English ability tends to be very limited in all but the largest tourist draws and establishments that cater specifically to foreign visitors. Mandarin-learners need to be aware that '''Shanghainese''', a [[Wu phrasebook|Wu]] dialect, is the first language of locals and very different from [[Chinese phrasebook|Mandarin]], although most Shanghainese under the age of 50 speak Mandarin to one degree or another. The use of Shanghainese as the de facto 'first' language of the city has been discouraged by the government and its use is decreasing both due to the effect of the paramount use of Mandarin in mass media and by the large-scale influx of out-of-town Chinese moving to Shanghai to work in recent years. 
+
+In addition, Shanghainese speakers have a particular accent when speaking Mandarin. Mandarin is heavily tone-based and speakers from Beijing can easily be understood (most textbooks are based on their accent or an approximation). Shanghainese speakers, as second-language learners of Mandarin themselves, have appropriated some of the features of the Shanghainese language onto their Mandarin. While in other languages this would not be a problem, given the phonemic and tonal nature inherent to Mandarin, the slightest shift in pronunciation can make it much more difficult to understand. The best thing to do is say "说慢一点" (shuō màn yī diǎn) which means "speak a little slower".
+
+Also, many unskilled laborers from rural China, particularly Anhui and Jiangsu provinces, where local languages dominate ("dialect" in government jargon) and Mandarin level is sometimes adequate at best, have moved into Shanghai. They often suffer as do foreigners visiting Shanghai as these laborers ("country-side people," as the Shanghainese call them) have problems with Mandarin, speak little to absolutely no Shanghainese and English, and coincidentally, often are in the streets selling wares or cooking up street food. Do not show frustration when trying to communicate, as it will make them even less interested in understanding you. Do your best, use gestures or your smartphone. Many apps now can translate what you want into Chinese and speak it out audibly - important as many of these individuals do not read Chinese characters. Patience is always your best friend in Shanghai, and on a greater sense, everywhere in China. 
+
+Rudimentary Chinese and/or pattern matching ability for character recognition will help, as will getting your destination and some simple directions to it written in Chinese characters, particularly when traveling by taxi. Some taxi drivers know English, but not much. Make sure to not waste time with difficult grammatical constructions and pleasantries such as "Oh I was wondering if you could help me find..." It is too confusing. Just say "The Bund" (wai tan) or "Nanjing West" (nanjing xi lu). Though it may seem rude to an English speaker, this is EXACTLY how Chinese would say it in Mandarin and is much more effective. If you want to be more polite,basically anywhere in China, add "shifu" before where you would like to go, i.e."Shifu, The Bund". 
+
+However, with the opening-up policy, the situation has been improved. As English is compulsory in Chinese schools, an increasing number of younger people know some basic English. If you are lost, try approaching younger people, such as high school or university students and stick to basic phrases; they might be able to point you in the right direction. Speak slowly, enunciate your words, and if rejected, a polite smile and even an English language "Thank you" will be well received!
+
+===Operator assistance===
+An amazingly helpful resource for visitors and ex-pats alike is the Shanghai Call Center. Established prior to the Expo and maintained as a public service, the call centre is a free-of-charge phone number that provides information regarding bus, subway, and taxi directions, business hours, attractions, and can even be utilized as a free translation service. If you are having trouble communicating with your taxi driver or a vendor, don't hesitate to call the number and pass the phone back and forth, having the operator translate.
+
+The so-called "Magic Number" can be reached at 962288 from Shanghai cell phones. Chinese cell phones from other cities should dial 021 962288, and international phones should dial +86 021 962288. A short message in Mandarin will greet you, followed by a set of English instructions. Service is available in several European languages such as English and Spanish.
+
+Although service itself is free of charge, your service provider will most likely charge you for minutes used.
+
+===Etiquette=== 
+'''Pushing in the metro''' is normal, especially at the chaotic People's Square Station. Just dig in and push; don't feel sorry. However, compared to public transport in other Chinese cities, the Shanghainese are better at letting people alight first and the mad rush for empty seats is not quite so bad - your behavior should follow the situation: if the station is crowded then pushing is acceptable, but if not then you are more likely to be looked upon as an 'uncivilized foreigner'. Also, outside of busy times you should stand to the right on escalators to allow people to pass.
+
+Note that Shanghai Metro drivers will close the train doors and depart when the schedule says so, even if people are still boarding. When you hear the 'door closing' alarm (usually a series of beeps) stand back from the doors (particularly on the old Line 1 and 2 trains as the doors close very quickly and may not re-open if blocked).
+
+Crowding (aka no queue) is another problem you're likely to encounter. Whether at a ticket booth, at a busy fast-food counter, or even at the grocery store, everyone jockeys for position by crowding around a staff member (say, to recharge their Jiaotong card), and will do whatever possible to get in first, and get out. If at all possible, avoid the situation in the first place by finding a quiet ticket counter and recharging early (Alternatively, head over to one of the white terminals and recharge directly from a UnionPay card).
+
+===Shopping tips===
+If you're after a new '''cellphone''', go to the Shanghai Railway Station. You can find good deals on secondhand phones as well as new phones (the selection is a mixed bag; you'll find Chinese off-brands mixed with reliable big-name brands as well as cutting-edge Japanese phones; if you live in North or South America be careful about buying the off-brand phones as most do not support the necessary frequencies for use there. Also, in the secondhand section of the market some of the phones are of dubious origin; CDMA phones may have their ESNs blacklisted in their home countries, but for GSM/3G phones the only issue is an ethical one. Be careful about prices that are too good to be true.
+
+Also, for small discounts at various restaurants and hotels as well as 50% off tickets to certain attractions (Shanghai World Financial Center observation deck, Happy Valley, Science and Technology Museum, among others) try to find a branch of Woori Bank to sign up for the Shanghai Tourist Card. All Chinese banks issue this as a credit card, preventing non-Chinese visitors from signing up by virtue of requiring proof of income in China, but Woori is a Korean bank and caters to Koreans (including Korean tourists), and thus offers it as a debit card, allowing anyone to sign up for it with just a passport. Sign-up (including account creation) takes approximately half an hour and the card is immediately issued upon account creation. Branches are located near Metro Line 2 Century Ave. station (address is 1600 Century Ave. Pos-Plaza 1-2F) and Metro Line 9 Hechuan Rd. station (address is 188 South Huijin Rd: ask for directions to Bank of China; once you get there, turn right and keep walking until you see it). However, a hotel address may not be accepted and there may be a handling fee for accounts canceled within a month of opening. An incidental advantage of the Woori Bank Shanghai Tourist Card is that the account allows unlimited free withdrawals at any ATM in China. Thus it will be more convenient to put all your money in the card and withdraw from ATMs only as necessary. If planning to visit two or more of the attractions that half-price tickets are offered for, the time spent is well worth the discount (maximum two discounted tickets purchased per card, offer lasts until the end of World Expo).
+
+In addition, Travelex offers a Shanghai Tourist Card Cash Passport IN JAPAN ONLY. If transiting through there, getting the Cash Passport version is easier and quicker, and offers all the benefits of the Woori Bank version except for free ATM withdrawals.
+
+In Hong Kong, AEON Credit offers the Shanghai Travel Prepaid card instead. Same as the Travelex card except initial currency is Hong Kong dollars and a 1.1% fee is charged during the Hong Kong dollar->yuan conversion process.
+
+===Visa extensions===
+* <listing name="Entry-Exit Bureau" alt="" address="1500 Mingsheng Rd, Pudong District" directions="M Line 2, Science Museum" phone="" url="" hours="" price="" lat="" long="" email="" fax=""></listing>
+
+===Consulates and citizen services===
+* [[Image:as-flag.png|20px]] <listing name="Australia" alt="" address="Level 22, Citic Sq, 1168 Nanjing W Rd" directions="" phone="+86 021 22155200" url="" hours="" price="" lat="" long="" email="" fax="+86 021 22155252"></listing>
+
+* [[Image:be-flag.png|20px]] <listing name="Belgium" alt="比利时驻上海总领事馆" address="No. 127 Wuyi Rd 武夷路127号" directions="" phone="+86 021 64376579" url="http://www.diplomatie.be/shanghaifr/" hours="09:00-12:30, 14:00-16:30" price="" lat="" long="" email="Shanghai@diplobel.fed.be" fax="+86 021 64377041"></listing>
+
+* [[Image:Br-flag.png|20px]] <listing name="Brazil" alt="巴西驻上海总领事馆" address="Jiangning Rd 188, ASA Bldg, 7/F -703" directions="" phone="+8621 6437.0110" email="notarial.xangai@itamaraty.gov.br" fax="+8621 64370160" url="http://xangai.itamaraty.gov.br/pt-br/" hours="09:30-13:00" price="" lat="" long=""></listing>
+
+* [[Image:ca-flag.png|20px]] <listing name="Canada" alt="" address="604, West Tower, 1376 Nanjing Rd W" directions="" phone="+86 021 32792800" email="shngi@international.gc.ca" fax="+86 021 32792801" url="" hours="13:00-16:30" price="" lat="" long=""></listing>
+
+* [[Image:fr-flag.png|20px]] <listing name="France" alt="法国驻上海总领事馆" address="Haitong Securities Bldg, 2F, 689 Guangdong Rd 广东路689号海通证券大厦2层" directions="" phone="+86 021 61032200" email="info.shanghai-fslt@diplomatie.gouv.fr" fax="+86 6103 2218" url="" hours="09:00-12:00, 14:00-18:00" price="" lat="" long=""></listing>
+
+* [[Image:de-flag.png|20px]] <listing name="Germany" alt="" address="8/F SOHO Donghai Plaza, 299 Tongren Lu 中国上海市铜仁路299号SOHO东海广场8楼" directions="Turn from Beijing Road West to Tongren Road" url="http://www.china.diplo.de/Vertretung/china/de/202-shan/adresse/0-adresse.html"></listing>
+
+* [[Image:gr-flag.png|20px]] <listing name="Greece" alt="希腊驻上海总领事馆" address="989 Changle Rd, Ste 3501, The Center上海市长乐路989号世纪商贸广场3501室" directions="" phone="+86 021 54670505" url="http://www.mfa.gr/shanghai/" hours="" price="" lat="" long="" email="grgencon.sha@mfa.gr" fax="+86 021 54670202"></listing>
+
+* [[Image:hk-flag.png|20px]] <listing name="Hong Kong" alt="香港驻上海经济贸易办事处" address="21/F, The Headquarters Building, 168 Xizang Road (M)上海市黄浦区西藏中路168号都市总部大楼21楼" directions="" phone="+86 021 63512233" url="https://www.sheto.gov.hk/" hours="" price="" lat="" long="" email="enquiry@
+sheto.gov.hk" fax="+86 021 63519368"></listing>
+
+* [[Image:in-flag.png|20px]] <listing name="India" alt="" address="1008, Shanghai International Trade Centre, 2201 Yan'an Xi Lu" directions="" phone="+86 021 62758882 / 8885 / 8886" url="http://www.indianconsulate.org.cn/" hours="" price="" lat="" long="" email="cgoff@indianconsulate.org.cn" fax="+86 021 62758881"></listing>
+
+* [[Image:ei-flag.png|20px]] <listing name="Ireland" alt="" address="Ste 700A West Tower Shanghai Centre,
+1376 Nanjing Rd W" directions="" phone="+86 021 62798729" email="" fax="+86 021 62798739" url="http://www.irishconsulateshanghai.cn/home/index.aspx?id=40921" hours="M-F 09:30-12:30, 14:00-17:30" price="" lat="" long=""></listing>
+
+* [[Image:jm-flag.png|20px]] <listing name="Jamaica" alt="" address="989 Dong Fang Lu, Zhong Da Plaza, 16F" directions="" phone="+86 021 58313553" email="gs_intl@163.net" fax="+86 021 68763299" url="http://www.jamaicagov.cn/embassy.asp" hours="" price="" lat="" long=""></listing>
+
+* [[Image:nz-flag.png|20px]] <listing name="New Zealand" alt="" address="Room 1605-1607A, The Centre, 989 Changle Rd C" directions="" phone="+86 021 54075858" email="shanghai.enquiries@mft.net.nz" fax="+86 021 54075068" url="http://www.nzembassy.com/contact.cfm?c=19&l=61&CFID=6790&CFTOKEN=17165591" hours="08:30-17:00" price="" lat="" long=""></listing>
+
+* [[Image:pk-flag.png|20px]] <listing name="Pakistan" alt="" address="Room 1111, Tower A, SOHO Zhongshan Plaza, 1055 West Zhongshan Road, Changning District, Shanghai – Post code: 200051" directions="The nearest metro station is Song yuan road station (宋园路) on Line 10." phone="+86 021 62377000" email="pakrepshanghai@yahoo.com" fax="+86 021 62377066" url="http://www.pakconsulateshanghai.org.cn/en/about_consulate/" hours="08:30-17:30" price="" lat="" long=""></listing>
+
+* [[Image:rp-flag.png|20px]] <listing name="Philippines" alt="" address="Ste 368 Shanghai Centre, 1376 Nanjing W Rd" directions="" phone="+86 021 62798337" email="pcg@philcongenshanghai.org" fax="+86 021 62798332" url="http://www.philcongenshanghai.org/" hours="" price="" lat="" long=""></listing>
+
+* [[Image:sn-flag.png|20px]] <listing name="Singapore" alt="" address="89 Wan Shan Rd" directions="" phone="+86 021 62785566" email="singcg_sha@sgmfa.gov.sg " fax="+86 021 62956038" url="http://www.mfa.gov.sg/shanghai/" hours="M-F 08:30-12:00, 13:00-17:00" price="" lat="" long=""></listing>
+
+* [[Image:sf-flag.png|20px]] <listing name="South Africa" alt="" directions="" address="27F, Rm 2705/5, 222 Yan'an Rd E " phone="+86 021 53594977" email="shanghai@foreign.gov.za" fax="+86 021-63352980" url="" hours="" price=""></listing>
+
+* [[Image:ko-flag.png|20px]] <listing name="South Korea" alt="" directions="" address="60 Wanshan Rd" phone="+86 021 62955000" email="shanghai@mofa.go.kr " fax="+86 021 62952629" url="http://overseas.mofa.go.kr/cn-shanghai-ko/index.do" hours="M-F  09:00-17:30" price=""></listing>
+
+* [[Image:uk-flag.png|20px]] <listing name="United Kingdom" alt="" address="Ste 301, Shanghai Centre, 1376 Nan Jing Xi Lu" directions="" phone="+86 021 32792000" url="http://ukinchina.fco.gov.uk/" hours="M-Th 08:30-17:00, F 08:30-15:30" price="" lat="" long="" email="" fax="+86 021-62797651">Also for all other EU Citizens, as fixed in the EU Charter.</listing>
+
+* [[Image:us-flag.png|20px]] <listing name="United States" alt="" address="American Citizen Services, Westgate Mall, 1038 W Nanjing Rd, 8F" directions="" phone="+86 021 32174650 ext. ext. 2102,2103,2114" url="http://shanghai.usembassy-china.org.cn/contact.html" hours="M-F 08:30-11:30, 13:30-15:30, Closed Tu afternoons" price="" lat="" long="" email="ShanghaiACS@state.gov" fax="+86 21-62172071"></listing>
+
+==Get out==
+* '''[[Jiading]]''', a historic town about an hour NW of Shanghai by bus from Nanjing Xi Lu and Cheng Du Lu. The sights to see are Shanghai's F1 track, a Confucian garden, and a pagoda.
+
+* '''Shanghai F1 Circuit''', special buses run from Shanghai Stadium metro stop and a few others around the city. They cost ¥50 return and leave every few minutes when they fill up. On Friday and Saturday it takes an hour or so each way (so if you are staying somewhere in the center of Shanghai budget 2 hours door to door), on Sunday it is significantly quicker. They also drop you as far away from the main stand as it is possible to get, so budget on another 20-30 minutes to get to your seats depending on where your seats are. On the way back, you are better off just jumping on any bus as they all take you back to a metro station and your door-to-door travel time should be about the same.
+
+* '''[[Qibao]]''', a small ancient town about 15 km from Shanghai city - just in between the city and Minhang district - can be reached by Metro line 9. It is a smaller but just as a crowded version of the more famous water town, [[Zhouzhuang]].
+
+* '''[[Songjiang]]''' 松江, a county in Shanghai province, some 30 km southwest of Shanghai city. It is less crowded than Shanghai and is a good day trip. It is also now much more accessible with the opening of the new Metro line 9.
+
+* '''[[Xitang]]''', an historic town SW of Shanghai.  The final scene from Mission Impossible 3 was filmed here. A picturesque canal town with old bridges and houses lining the canal lit up at night with red lanterns. You can even stay a night in one of the old houses and sleep in an old bed.
+
+* '''[[Zhujiajiao]]''' <see name="" alt="" address="" directions="" phone="021-59240077, 021-59245559" email="" fax="" url="http://www.zhujiajiao.com" hours="">An historic town an hour by bus west of Shanghai. Another of those picturesque canal towns dating from the Ming dynasty (14th to 17th centuries). The first modern post office in China was established here. Some bars have opened recently, and the town is becoming increasingly bohemian. Worth a look in spite of the abundance of souvenir stores, although not overrun with tourists. </see>
+
+* '''Nantong''', north of Shanghai, a newly developing city. The city has a natural and open atmosphere. Nantong is a modern as well as historic city.
+
+===Nearby cities ===
+Several other major Chinese cities are near Shanghai and conveniently reachable on the new high-speed (over 200km/hr) trains. These are comfortable and reasonably priced and except at holidays, are not too crowded since other trains are cheaper. Look for the separate ticket windows with "CRH" on the signs.
+
+* '''[[Hangzhou]]''' 杭州, 45 minutes away by CRH bullet train, is one of China's top domestic tourist attractions, featuring the famous '''Xihu Lake''' and Buddhist caves. The popular times of year to go are Spring and Fall. The fast speed trains (starting with number G) cost app. 78 RMB (Oct 2012). There is an information booth at the train platform exit that provides a useful booklet with maps. Take the Y2 bus (¥3) into town, or even all the way around the lake - the second and fourth stops let you off at bicycle rental kiosks. Bicycling around the lake area is popular, and easily done by finding a red-bicycle kiosk along the city streets along the lake. Buy a rental card for ¥200 and put ¥100 credit on it (the minimum). The bicycles themselves rent at very low rates: first hour free, then ¥1, ¥2, and a maximum of ¥3 per hour after that. Bikes can be returned to any red-bike stand. The rental card can be returned for a full refund of the card's cost and all credit left. Be warned that the card-return kiosks close at 1700, and that not every automatic bike stand has a card kiosk.
+
+* '''[[Suzhou]]''' 苏州, a historic town half an hour away from Shanghai by bullet train. The city has long been lauded by emperors, ancient poets, and scholars alike for its beauty and vitality. Due to its many canals and bridges, Suzhou has also sometimes been referred to as the "Venice of the East". Suzhou has many gardens and pagodas worth visiting. The "Venice of the East" parts of Suzhou have all been overrun with aggressive beggars and panhandlers.  The city may be suitable for those wanting to mix the metropolitan feel of Shanghai and the small town-feel of Suzhou (even though the population is quite sizeable).  Reserve Suzhou if it can be combined with a tour of other historic areas.
+
+* '''[[Nanjing]]''' 南京, about 1.5 hours away by bullet train, is a great place to escape the pace of city life. It's also a great place to get a Chinese history lesson. From the city walls to the Presidential Palace, it's a walkable, friendly place with a variety of hotels for all budgets. Well worth the effort. It is also home to the tombs of three prominent figures in Chinese history.
+
+* '''[[Shaoxing]]''' 绍兴, about 1.5 hours away, is a traditional Chinese tourist attraction featuring the famous '''fish and rice hometown'''. The ancient quarry of Keyan is an incredible site. Be sure to take a trip on the local rowboat on the lake surrounding the rocky cliffs. The Jianhu Lake is another beautiful area. Lan Ting is a nice park with lots of stone monuments engraved with historical Chinese calligraphy. The Dayu Ling (Tomb of the Great Yu) is nice although it feels disappointingly unauthentic.
+
+* '''[[Wuzhen]]''' 乌镇 is one of the water towns close to Shanghai, easy to reach on a day trip. Buses depart e.g. from Shanghai Stadium. Go and see how daily life was/is - weaving and dyeing fabric, pottery, the Shadow Puppet Theatre is a great spectacle as well, with traditional Chinese stories and music played on traditional instruments. Well worth a visit, though it can be crowded at weekends. Wuzhen is on the Beijing-Hangzhou Grand Canal and also around a network of other smaller canals and rivers. The town has numerous bridges, ancient havens, and waterside pavilions, and makes an excellent complementary side-trip for visitors staying in nearby Hangzhou. Buses ply the route from Hangzhou to Wuzhen. 
+
+*'''[[Ningbo]]''' is two and a half to three hours away from Shanghai, across the 36km long Hangzhou Bay Bridge.
+
+{{routebox
+| image1=Jinghu Railway icon.png
+| imagesize1=100
+| directionl1=W
+| majorl1=[[Beijing]]
+| minorl1=[[Zhenjiang]]
+| directionr1=E
+| majorr1=END
+| minorr1=
+}}
+
+
+{{IsPartOf|East China}}
+{{usablecity}}
+{{cityguide}}
+
+[[de:Shanghai]]
+[[es:Shanghái]]
+[[fi:Shanghai]]
+[[fr:Shanghai]]
+[[it:Shanghai]]
+[[ja:上海]]
+[[nl:Shanghai]]
+[[pl:Szanghaj]]
+[[pt:Xangai]]
+[[ro:Shanghai]]
+[[sv:Shanghai]]
+[[zh:上海]]
+[[wts:Category:Shanghai (municipality)]]
+{{title-icons|dotm-icon}}
+
+[[WikiPedia:Shanghai]]

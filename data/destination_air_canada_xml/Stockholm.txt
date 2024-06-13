@@ -1,0 +1,960 @@
+{{pagebanner|Stockholm banner.jpg}}
+
+{{otheruses}}
+{{printDistricts}}
+: ''See [[Stockholm with children]] for a family-oriented guide.''
+
+[http://www.visitstockholm.com/ '''Stockholm'''] is the capital and largest city of [[Sweden]], with nearly 2 million inhabitants within its vicinities. 
+
+The inner city is made up of 14 islands connected by some 50 bridges on Lake Mälaren, which flows into the brackish Baltic Sea, and passes the [[Stockholm archipelago]] with some 24,000 islands and islets.
+
+Stockholm is a cosmopolitan place with both classical and modern architecture, and a captivating Old Town, ''Gamla Stan''. Over 30% of the city area is made up of waterways, and another 30% is made up of green spaces. Air quality is [http://sootfreecities.eu fourth best of the European capitals] - behind Zurich, Copenhagen and Vienna.
+
+==Districts==
+This article gives an overview of the Stockholm metropolitan area, ''Stor-Stockholm'', which includes '''Stockholm County''' except [[Norrtälje]] municipality, which is in [[Roslagen]].
+
+[[File:DistrictsOfStockholm.png|thumb|upright=2|Black: [[Stockholm/Gamla Stan|Old town]], Red: [[Stockholm/Norrmalm|Norrmalm]], Orange: [[Stockholm/Östermalm|Östermalm]], Yellow: [[Stockholm/Södermalm|Södermalm]], White: [[Stockholm/Kungsholmen|Kungsholmen]], Dark green: [[Ekerö]], Blue: [[Lidingö]], Pale blue: [[Stockholm archipelago]], Pink: [[Stockholm/Western Suburbs|Västerort]], Magenta:  [[Stockholm/Northern Suburbs|Norrort]], Green: [[Stockholm/Southern Suburbs|Söderort]], Dark red: [[Södertörn]].]]
+
+Most venues are found in the inner city, "''innerstaden''", historically the zone within the city tolls. The Municipality of Stockholm extends beyond the inner city, including the [[Stockholm/Western Suburbs|western]] and [[Stockholm/Southern Suburbs|southern suburbs]].
+
+===The inner city===
+{{Regionlist
+| region1name=[[Stockholm/Norrmalm|Norrmalm]]
+| region1color=#ff0000
+| region1items=
+| region1description=Norrmalm contains the central business district known as ''City'', with several department stores and shopping malls, museums, hotels and restaurants too many to mention, most of Stockholm's major theatres, and the central railway station. The pedestrian shopping street ''Drottninggatan'' runs in a north-south direction through the area, by the square ''Sergels Torg''. The islets '''Skeppsholmen''' and '''Kastellholmen''' can be reached on foot. '''Vasastan''' is a mainly residential area, where the ''Odenplan'' square offers shopping and nightlife.
+
+| region2name=[[Stockholm/Östermalm|Östermalm]]
+| region2color=#ff8000
+| region2items=
+| region2description= Östermalm is an affluent borough, including [http://www.nationalstadsparken.org/english.htm ''Nationalstadsparken''], "the National City Park". The '''Stureplan''' square is a hub for upmarket shopping and nightlife. ''Södra Djurgården'' or simply ''Djurgården'' is an island-park, with several major tourist venues - the '''Skansen''' open air museum, the '''Gröna Lund''' amusement park, and the '''Vasa Museum'''. The borough also contains a forest, a museum cluster with the '''Science and Technology Museum''' and '''Kaknästornet''', as well as Stockholm University and the Royal Institute of Technology.  The '''Frihamnen''' cruise port is on the eastern edge.
+
+| region3name=[[Stockholm/Gamla Stan|Gamla Stan]]
+| region3color=#000000
+| region3items=
+| region3description=An island with great waterfront views, the northern part of the Old Town is dominated by the '''Royal Palace''' and the '''Swedish Parliament'''. The rest of the island is a picturesque collection of old buildings and narrow cobblestone streets. The adjacent island '''Riddarholmen''' holds a church and several old government buildings.
+
+| region4name=[[Stockholm/Södermalm|Södermalm]]
+| region4color=#ffff00
+| region4items=
+| region4description= Södermalm is a rugged island with buildings of all ages. It is always commonly referred to as '''Söder''' (The South). ''Fjällgatan'' offers some of the best views of Stockholm and the Baltic Sea inlet. The major north-south street ''Götgatan'' and adjacent streets are littered with a variety of restaurants, bars and shops. It starts like a hump next to ''Slussen'' with the busy pedestrian zone called ''Götgatsbacken'' ("The slope of Götgatan"), and passes ''Medborgarplatsen'' ("Citizens' square"), which has plenty to offer in terms of shopping and night life. The "bohemian" area south of ''Folkungagatan'' is occasionally nicknamed "SoFo", with obvious inspiration from SoHo. Among its variety of restaurants, cafés, pubs, odd shops and trendy boutiques one will encounter the most liberal assembly of successful but also wannabe Swedes. Shopping and exposing their offspring at the idyllic square ''Nytorget'' or just basking in the lovely park ''Vita Bergen''. At ''Skeppargränd'' people still inhabit an entire block of remaining small wooden houses along cobbled streets from a bygone era. ''Långholmen'' is a lush island off Södermalm. This is where the notorious prison ''Långholmsfängelset'' is situated. The cells have since been converted into small hotel rooms, and the sometimes macabre history of this historical complex is displayed in cabinets. The waterfront has some of central Stockholm’s most popular beaches and there is also room for nudists on some of the cliffs.
+
+| region5name=[[Stockholm/Kungsholmen|Kungsholmen]]
+| region5color=#c0c0c0
+| region5items=
+| region5description=Kungsholmen is an island at the western inner city, with '''Stadshuset''' (Stockholm City Hall) at its eastern tip. Further west, a collection of relaxed neighbourhood bars and restaurants can be found. West of the ''Fridhemsplan'' transport hub and the ''Västermalmsgallerian'' shopping mall, the island is more suburban. '''Lilla Essingen''' and '''Stora Essingen''' are two smaller, mainly residential, islands that belong to the borough of Kungsholmen. Close to the park ''Rålambshovsparken'' is a nice natural beach, ''Smedsuddsbadet'', suitable for children.}}
+
+===Suburbs and bordering towns===
+{{regionlist
+| region6name=[[Stockholm/Western Suburbs|Western Suburbs]]
+| region6color=#ff8080
+| region6items=
+| region6description= The Western suburbs, ''Västerort'', were built up during the late 20th century.  '''Stockholm-Bromma Airport''' dominates the area. ''Vällingby'', founded in the 1950s, is one of Europe's first planned suburbs. ''Solvalla'' is a prominent horse-race stadium. ''Kista'' is an international centre of information technology, also known for the busy shopping mall ''Kista Galleria'' and the landmark skyscrapers ''Kista Science Tower'' and ''Victoria Tower''.
+
+| region7name=[[Stockholm/Northern Suburbs|Northern Suburbs]]
+| region7color=#ff00ff
+| region7items=
+| region7description= the Northern suburbs contain
+:*'''Solna''' and '''Sundbyberg''', just north of central Stockholm, are two separate cities within the Storstockholm (Greater Stockholm) area. Solna is the home of '''Friends Arena''', the region's largest stadium, the vast royal park and recreational area '''Hagaparken''', and the ''Karolinska Institute'', a leading institution of medical research. ''Haga slott'' (palace) in Hagaparken is currently the home of crown princess Victoria and her family. Sundbyberg is the smallest municipality in Sweden and sometimes referred to as "Sumpan".
+
+:*'''Danderyd''' and '''Täby''', to the north-east, are affluent municipality suburbs that can be reached by underground and bus or  ''Roslagsbanan'', a narrow-gauge railway. Danderyd used to have the lowest income tax In Sweden and the ''Djursholm'' area displays some of the most expensive private homes in the whole country. ''Täby centrum'' claims to be one of the biggest shopping malls in Scandinavia. The horse-race track '''Täby Galopp''' has now closed and weeds are now growing there 
+. '''Runriket''' at ''Jarlabankes bro'' in ''Täby kyrkby'' is the gateway to the world's largest collection of Viking Age standing stones with narrations carved in runic script. The museum trail is always open and stretches many miles along public roads and pathways into the municipality ''Vallentuna''. Nearby ''Täby kyrka'' (church) holds some of the most vivid medieval wall paintings in the country.
+
+| region8name=[[Stockholm archipelago]]
+| region8color=#8080ff
+| region8items=
+| region8description= The Archipelago, ''Stockholms skärgård'', contains
+:*'''Vaxholm''' is the gateway to the northern [[Stockholm archipelago]], and a ferry hub. The town has a great waterfront view and a quaint small-scale shopping area. It also sports ''Vaxholms fästning'', which is a fortress turned into a coastal defense museum.
+:* '''Värmdö''', the largest island, similar to the mainland.
+:* '''Sandhamn''', a resort-island in the outer archipelago.
+:* '''Utö''', a rural island with an abandoned silver-mine.
+
+| region9name=[[Lidingö]]
+| region9color=#0000ff
+| region9items=
+| region9description= '''Lidingö''' is a separate city within the Storstockholm (Greater Stockholm) area. Situated on a large island just east of central Stockholm it boasts affluent suburbs, small town centers and quaint rural areas. Points of interests are '''Millesgården''': an impressive open-air sculpture museum; '''Bosön''': a national sports facility; '''Ekholmsnäs''': a ski slope; and '''Elfvik''': a farmland with an array of conference hotels. Lidingö is reached by Lidingöbron (Lidingö bridge) and buses from ''Ropsten'' terminal station on the red underground line.
+
+| region10name=[[Ekerö]]
+| region10color=#008000
+| region10items=
+| region10description= '''Ekerö''' in Lake Mälaren is the only Swedish municipality with two UNESCO World Heritage sites: Royal residence '''Drottningholm''' and Viking Age settlements '''Birka''' on the island ''Björkö'' alongside '''Hovgården''' on the island ''Adelsö''. The islands also contain manors, farms, forests and beaches.
+
+| region11name=[[Stockholm/Southern Suburbs|Southern suburbs]]
+| region11color=#80ff00
+| region11items=
+| region11description= The southern parts of Stockholm municipality, ''Söderort'', is best known for the stadium cluster: ''Globen'' the [http://www.globearenas.se/ '''Globe Arena'''], clearly visible from most of Södermalm, host ice-hockey games as well as international artist performances, the smaller ''Hovet'' and the football arena ''Tele 2 Arena''. Nearby '''Skogskyrkogården''' (The Woodland Cemetery), [http://www.skogskyrkogarden.se/en/], is a UNESCO [http://whc.unesco.org/en/list/558] [[World Heritage site]]. To the south-west of the inner city, the borough '''Liljeholmen''' has a pleasant recreational area around lake Trekanten.
+
+| region12name=[[Södertörn]]
+| region12color=#800000
+| region12items=
+| region12description= '''Södertörn''' is the peninsula of eastern [[Södermanland]] (actually, Södertörn-Nacka is technically Sweden's third biggest island). Except [[Stockholm/Southern Suburbs|Stockholm's southern suburbs]], it contains:
+:*'''Nacka''' and '''Värmdö''', to the south-east, are suburban municipalities with large recreational areas and much of the southern part of the [[Stockholm Archipelago]].
+:*'''Huddinge''', '''Haninge''' and '''Tyresö''' to the south are residential suburban municipalities with large recreational areas, including the large '''Tyresta''' virgin forest, one of 28 national parks in Sweden, where the oldest pine trees are around 400 years old.
+:*'''[[Södertälje]]''', a city with a distinct history where the Baltic sea meets lake ''Mälaren'' in Sweden's biggest lock. Södertälje is the home of ''Tom tits'' - Stockholm's biggest science center for children, the ''Torekällberget'' outdoor museum, and ''Tvetagården'' - a well known hostel just by lake Måsnaren.
+:*'''Nynäshamn''', a coastal vacation town with the ferry to [[Gotland]].
+
+}}
+
+==Understand==
+[[Image:Stockholm_RoyalGuard_Flag.JPG|thumb|right|250px|The Royal Guard on parade at the Royal Palace]]
+Stockholm is not the oldest town in Sweden. As [[Sigtuna]], Sweden's first capital, was sacked by pirates in 1187, the Swedes built up fortresses along the inlet of Mälaren, and Birger Jarl (''Jarl'' is a title corresponding to British ''Earl'') had a fortress built on an island later known as Gamla Stan. The first records of Stockholm were written in 1252 by Birger. As the land raised, the Stockholm straits became the only waterway between Mälaren and the Baltic Sea during the 15th century, replacing [[Uppsala]] as the effective capital. Since King Gustavus Vasa liberated Stockholm in 1523, Stockholm has remained Sweden's most important centre of commerce, though [[Gothenburg]] later became the largest international port. During the 17th century, Stockholm was the base of the Swedish Empire, with a land area twice the country's current size, nearly encircling the Baltic Sea.
+
+The city contains buildings from all ages since the 13th century. Like the rest of Sweden it was untouched by the World Wars, but particularly between 1955 and 1975, hundreds of old buildings in ''Norrmalm'' were demolished in a large-scale modernization process, encouraged by similar projects in other European cities. Since then, only infills and a few areas have been developed with new architecture in central Stockholm.
+
+===Climate===
+
+{{Climate
+| units = Metric
+| janhigh =   -0.7
+| febhigh =   -0.6
+| marhigh =   3.0
+| aprhigh =   8.6
+| mayhigh =   15.7
+| junhigh =   20.7
+| julhigh =   21.9
+| aughigh =   20.4
+| sephigh =   15.1
+| octhigh =   9.9
+| novhigh =   4.5
+| dechigh =   1.1
+| janlow =   -5.0
+| feblow =   -5.3
+| marlow =   -2.7
+| aprlow =   1.1
+| maylow =   6.3
+| junlow =   11.3
+| jullow =   13.4
+| auglow =   12.7
+| seplow =   9.0
+| octlow =   5.3
+| novlow =   0.7
+| declow =   -3.2
+| janprecip =   39
+| febprecip =   27
+| marprecip =   26
+| aprprecip =   30
+| mayprecip =   30
+| junprecip =   45
+| julprecip =   72
+| augprecip =   66
+| sepprecip =   55
+| octprecip =   50
+| novprecip =   53
+| decprecip =   46
+| janh2o = 
+| febh2o = 
+| marh2o = 
+| aprh2o = 
+| mayh2o = 
+| junh2o = 
+| julh2o = 
+| augh2o = 
+| seph2o = 
+| octh2o = 
+| novh2o = 
+| dech2o = 
+| description = Average conditions for Stockholm
+}}
+
+Despite its northern location, Stockholm has fairly mild temperatures throughout the year. As a result of its northerly latitude, the city sees a dramatic seasonal variation in sunlight, from more than 18 hours of daylight around midsummer, to around 6 hours of daylight in late December. Stockholm enjoys an average of nearly 2,000 hours of sunshine a year. Average yearly precipitation is 539 mm (21.2"), with July and August slightly the wettest months. 
+
+[[Image:SwedenStockholmSergelsTorgNight.jpg|thumb|upright=1.8|Sergels Torg in the evening]]
+Throughout the summer, the average daily high temperatures reach 20-25°C (68-77°F), with lows of 12-15°C (54-59°F). However, summer heat waves are frequent and temperatures above 25°C+ (77°F+) are not uncommon. Autumn tends to be rather cool and often rainy; in October, average daily highs dip to approximately 10°C (50°F). In the winter months, from December through early March, average daily temperatures fall between -3 and 3°C (26-38°F). Milder periods occur, but so do cold spells with temperatures around -10°C (14°F). Snowfall can occur from late November to early April, but the amount of snowfall varies greatly from year to year and through the winter season. Deep snow cover throughout the winter is rather uncommon. Spring is the driest season, with average daily temperature reaching highs of 9°C (48°F) in April and 16°C (61°F) in May.
+
+===Tourist information===
+* '''Stockholm Tourist Center''', Kulturhuset, Sergels Torg 5 (''T T-Centralen''),  [http://www.visitstockholm.com/en/This-website/Stockholm-Visitor-Center/]. Open M-F 09:00-18:00, Sa 9:00-16:00, Su 10:00-16:00. The official tourist centre has a lot of information in English and helpful staff. They also sell tickets to museums and sightseeing tours.
+
+==Get in==
+===By plane===
+*'''[http://www.swedavia.com/arlanda/ Stockholm-Arlanda Airport]''', commonly referred to as '''Arlanda'''  ({{IATA|ARN}}; {{ICAO|ESSA}}) is the main international airport (served by SAS [http://www.flysas.com], BA [http://www.ba.com] and many others) and is located 40 km (25 mi) north of the city, in the '''[[Sigtuna]]''' municipality.
+* There are several methods for travelling between Stockholm and Arlanda, listed in order of popularity: 
+** '''Express Buses''' 
+***'''Flygbussarna''' [http://www.flygbussarna.se/en] runs buses frequently to and from the City Terminal, just next to the Central Station. The journey takes 45 minutes and the buses make a few stops in the northern suburbs, as well as Vasastaden, along the way. The bus has a display showing upcoming stops - make sure to press the button to request your stop. Tickets can be purchased at electronic kiosks in the airport (cards only), online, or from the driver (cards only).  Ticket costs one-way/return:
+****'''Online'''
+*****Adult 99/198 SEK
+*****Youth 89/178 SEK
+*****Family 349/698 SEK
+****'''At Airport'''
+*****Adult 119/215 SEK
+*****Youth 99/179 SEK
+*****Family 349/698 SEK
+***'''Swebus''' [http://www.swebus.se/SwebusExpress_com/Airport-transfer/] runs buses to and from the City Terminal, 1-4 times/hour Mon-Fri, 1-2 times/hour on Sat-Sun. The journey takes 35-45 minutes. Adult tickets cost 99 SEK/178 SEK return. Student and senior tickets cost 72 SEK each way. A ticket for youth under 20 costs 60 SEK each way. Four children up to age 16 travel free with full paying adult. You can't buy tickets with cash on board, but credit cards are accepted. There are multiple outlets at the airport to buy your ticket electronically. You can also buy your ticket e.g. on the Swebus site on the internet, by phone (0771-218 218), at 7-Eleven, Pressbyrån and Swebus ticket offices.
+**'''By express rail''': The '''Arlanda Express Train''' [http://www.arlandaexpress.com/], departs from the lower level of each airport terminal every 15 minutes and arrives at Stockholm Central Station in 20 minutes. Adult tickets normally cost 295 SEK one-way, 570 SEK return. Tickets for people under the age of 25 (ISIC discount no longer available) pay 165 SEK. Children under 17 travel free with a paying adult. Tickets can be bought from kiosks at the platform, online, or on the train for a 100 SEK surcharge. There are two primary ways to save money on tickets, which are available online only. Early-Bird tickets, bought online cost 195 SEK 7-days in advance. Second, during Thursday-Sunday, holidays and from everyday between June 18 and August 30, tickets cost 350 SEK for 2 adults traveling together one-way (+100 SEK for each additional adult up to 4). 
+**'''By regular rail''': Regular trains serve the airport through a third station, Arlanda Central, located under Sky City between terminal 4 and 5.
+***Line 40 of the '''Stockholm suburban rail''', ''pendeltåg'', runs from Uppsala via Stockholm Central Station to Södertälje, stopping in the northern suburbs along the way. The train runs twice an hour and takes 37 minutes to Stockholm, and local transport tickets can be used and bought at the entrance to the station, though everyone 18 of age has to pay a station access fee of 120 SEK (though young adults with a teenage appearance can easily ''claim'' to be under 18 and get through - the staff usually won't check your ID if you're confident about this). A one-way ticket to Stockholm city costs 158 SEK including the station access fee (145 SEK for students and pensioners). People under 18 pay no additional access fee at Arlanda, so the ticket price is the standard fare for a single ticket. In 2017, SL abandoned the zone system for fares, so a single ticket costs the same regardless of the length travelled, and is valid for 70 minutes (the exception being journeys to Arlanda, Knivsta, or Uppsala). Single journeys bought using the SL Access card (has to be pre-loaded with a minimum of 100 SEK) cost 32 SEK for adults aged 18 and over, compared to 45 SEK for physical or mobile tickets. Students, pensioners and people under 18 pay a discounted fare of 22 SEK (32 SEK for physical or mobile tickets). For 130 SEK (90 SEK for students, pensioners and people under 18) you can get a 24-hour travelcard. 3-day and weekly travelcards are also available. See [http://sl.se/en/fares--tickets/] for local transport tickets.
+***There are also faster regional trains on the Linköping – Stockholm – Gävle route, which cost 278 SEK (2nd class) to central Stockholm if bought on the spot, though if booked approx. 1–2 months in advance, they can be as cheap as 95 SEK. They run non-stop and take 20 minutes, like the Arlanda Express, but only operate hourly (with several strange gaps), but if you are on time the regional train can be much cheaper than Arlanda Express, though not quite as cheap as suburban rail or SL bus. Finally, long-distance trains from Stockholm operate to points in central Sweden, such as Umeå, Mora or Östersund. It is not, however, permitted to use these trains to travel from the airport to central Stockholm. See [http://www.sj.se/sj/jsp/polopoly.jsp?d=10&l=en] for regional/intercity rail tickets.
+**'''By local bus and rail combination''' [http://sl.se]: This is the cheapest way into the city center. If the station access fee for the direct suburban rail service bothers you, local bus 583 connects the airport to Märsta railway station, and from Märsta you can change to the suburban train (lines 41 and 42) to get you to Odenplan and Stockholm Central Station in 65 minutes. The departures of the suburban train (pendeltåg) are timed with bus arrivals from the airport, so you do not need to worry about planning ahead. This route costs 38 SEK if you have pre-loaded your SL Card (+20 SEK to buy Access Card), but if you are planning on buying a timed SL card anyway (24 hours, 72 hours, etc.) then this route becomes entirely free as it is included in your SL access. See the [[#Get Around]] section for more details on the SL services and ticketing system.
+**'''By taxi''': Major taxi companies operate on a fixed price basis between Arlanda and central Stockholm. Prices at the taxi stands currently range from 450 SEK (Transfer Taxi) to 520 SEK. Generally, you can freely choose among the waiting taxis or ask the operator for a specific company. There is free taxi pricing so beware of the smaller, expensive, taxi companies. A yellow and white sign with price comparison (per 10&nbsp;km and 15 minutes) is on every taxi window, and the price should not ever be more than 350 SEK. A taxi ride to central Stockholm takes approximately 40 minutes. With some companies, you can get a lower price if you pre-book your ride. With ''Airport Cab'' (+46 8 25 25 23 [http://www.airportcab.se/]) the cost is 430&nbsp;SEK from Arlanda to Stockholm, 390&nbsp;SEK from Stockholm to Arlanda. With ''Taxi Solna'' (+46 8 280 280 [http://www.taxisolna.se/]) the cost is 445 SEK from Arlanda to Stockholm, 350&nbsp;SEK from Stockholm to Arlanda. See the [[#Taxi|Taxi]] section below for some general advice on taxi travel in Stockholm.
+**'''By Car Sharing''': There are a few car sharing companies located at the Arlanda Airport parking area, where you will be able to drive yourself to and from Arlanda Airport at a cheaper rate than a taxi. 
+**'''By car''': See [[Sigtuna]] for [[car rental]] at Arlanda Airport.
+
+*'''Bromma Airport''', ({{IATA|BMA}}; {{ICAO|ESSB}}) is a smaller airport, located inside the city about 8 km west of the centre, mainly used for domestic flights, but also [[Copenhagen]] and Aarhus in Denmark, [[Oslo]] and Skien in Norway, [[Tallinn]] in Estonia and [[Brussels]] in Belgium.
+**'''Airport coaches''' [http://www.flygbussarna.se/Default.aspx?lang=EN] offer a more expensive connection to the City Terminal at 79&nbsp;SEK, taking 20 min. 
+**A cheaper option (36 SEK, 20 SEK for people under 20) is to take local bus 152 to Sundbyberg station, and from there a suburban train to Stockholm Central (taking 25 min in total). Another possibility is to take bus 110 or 112 to Alvik, and change to the metro which will take you directly to Stockholm Central. 
+
+*'''[[Nyköping|Skavsta Airport]]''' ({{IATA|NYO}}; {{ICAO|ESKN}}) mostly used by Ryanair and Wizzair, and offers flights from cities such as Berlin, Belgrade, Brussels, Budapest, Dublin, Edinburgh, London, Madrid, Prague, Rome, Skopje, Tallinn, Vilnius and Warsaw. Located 100 km (62 mi) southwest of Stockholm, near the town [[Nyköping]].
+**The easiest option is to take '''Airport coaches''' [https://www.flygbussarna.se/en/] go to/from the City Terminal in Stockholm. Adults 159 SEK app/online or 179&nbsp;SEK at the bus terminal one way; For a round trip it will cost 318 SEK app/online, 325 SEK at the bus terminal. The travel time is about 80 minutes.
+**A cheaper option if booked in advance is to take '''local bus 515''' (timetable [http://www.print4web.fskab.se/ltt/Landsortstrafik/141214_151212/Landsortstrafik_Nykopingkommun_515_141214_151212.pdf], M-F = Mo-Fr, L = Sa, SoH = Su + holidays) to Nyköping rail station (''get off at Nyköping Centralstation''), from where '''SJ regional trains''' (timetable [http://tidtabell.resplus.se/tidtabell/81_tag81.pdf]) on the Linköping - Stockholm - (Gävle) route connect to Stockholm (Gävle trains also serve Arlanda, thus providing a direct rail connection to Arlanda airport). The bus costs SEK 26 (SEK 13 for people below 20) and the train SEK 75-143 (SEK 67-127 for people below 26) depending on how early you book. Tickets can be bought the following two ways:
+***1. Buy a combined ticket from Skavsta to Stockholm on SJ:s website [http://www.sj.se/start/startpage/index.form?l=en] which is both valid on the local bus and the regional train.
+***2. Pay for the local bus onboard with your VISA or Mastercard (cash is NOT accepted) and buy the train ticket at Nyköping station.
+::Travel time from Skavsta is 80 min to Stockholm and 100 min to Arlanda airport.
+
+*'''Västerås Airport''' ({{IATA|VST}}; {{ICAO|ESOW}}) is situated 100 km west of Stockholm near [[Västerås]]. Serves Ryanair flights to/from London (Stansted). Like Skavsta, Västerås can be reached in two ways:
+**'''Airport coaches''' [http://www.flygbussarna.se/Default.aspx?lang=EN] go to/from the City Terminal in Stockholm. 139 SEK one way, 278SEK round trip, takes about 80 minutes.
+**'''Local bus 3''' runs between the airport and Västerås train station in 15 minutes, costing 26 SEK one way (12 SEK for people under 20 or above 65). From the station, '''regional trains''' on the Stockholm - Västerås - Örebro - (Göteborg) route (timetable [http://tidtabell.resplus.se/tidtabell/57_tag57h.pdf], M-F = Mo-Fr, L = Sa, SoH = Su + holidays) connect to Stockholm in 55 min, costing SEK 75-143 (SEK 71-136 for people below 26) depending on how early you book [http://www.sj.se/start/startpage/index.form?l=en]). Total travel time Västerås Airport - Stockholm this way is 75 min.
+
+===By train===
+
+[[File:Stockholm Main Train Station (main hall).jpg|thumb|Stockholm Main Train Station (main hall)]]
+The main station, '''Stockholm Central''', serves both commuter and long-distance routes. It is located in lower Norrmalm, connected to '''T-Centralen''', the central hub for the subway system, and '''Cityterminalen''', the long-distance bus station. The national rail company, SJ, has a store located inside the station, and a travel planner with ticket booking service on its web page [http://www.sj.se/].
+
+Internationally, there are services from [[Copenhagen]] (Denmark) (5 h) and [[Oslo]] (Norway) (6 h) with several direct connections daily. Daily overnight trains are available from [[Hamburg]] (12 h) and the northern Norwegian city of [[Narvik]] (14 h). From [[Trondheim]], a quick change in Östersund is needed.
+
+There are numerous direct domestic services to Stockholm from most major cities. The major ones being high-speed ''X2000'' services from [[Gothenburg]] (3 h), [[Malmö]] (4½ h), [[Sundsvall]] (3½ h) and [[Östersund]] (5 h). Conventional trains mostly follow the same routes, and run slightly slower, but can slash prices considerably. Most other mid-sized cities in Sweden have a train connection with Stockholm. Domestic night trains are available from Malmö, and from the northern cities of [[Luleå]], [[Kiruna]] and [[Umeå]].
+
+The rail line has some very scenic views just south of Stockholm, passing over several bridges.
+
+If looking for a bit of luxury, then a new train named ''Blå Tåget'' (Blue Train) [http://www.skandinaviskajernbanor.se] now travels the route Gothenburg-Stockholm-Uppsala daily except Fridays. It's slower than regular trains, taking a lengthy 4½ hours to reach Stockholm but has first class seatings and a real restaurant onboard. WiFi is included in the price.
+
+===By bus===
+The City Terminal ('''Cityterminalen''' [http://www.cityterminalen.com/]) is the main bus terminal, directly connected to Stockholm Central and the T Centralen subway station. There are multiple daily departures to most other cities in Sweden, as well as a few international routes. '''Swebus Express''' [http://www.swebusexpress.se/default.aspx] operates routes to [[Copenhagen]] and [[Oslo]] with several daily departures, and a twice-weekly service to [[Berlin]]. '''Eurolines''' [http://www.eurolines-travel.com/] has some departures to Copenhagen. Smaller operators offer connections with [[Prague]], [[Budapest]], [[Zagreb]], [[Banja Luka]][http://www.autoprevoz.org/engleski/redvoznje.php] among other cities.
+
+===By boat===
+[[Image:SwedenStockholmOldTown2.jpg|thumb|250px|Kornhamnstorg, a waterfront square in the Old Town]]
+[http://www.portsofstockholm.com/stockholm/ The port of Stockholm] consists of several port areas.  In the summer Stadsgården, Skeppsbron and Frihamnen are the ports favoured by the international cruise liners (see [[cruising the Baltic Sea]]).  Year round Värtahamnen, Frihamnen and Stadsgården have extensive ferry services, including the local '''[[Baltic Sea ferries]]'''.
+
+The Baltic Sea ferries, locally known as ''finlandsbåtar'' ("Finland boat"), link Stockholm to [[Helsinki]], [[Mariehamn]] and [[Turku]] in [[Finland]], [[Riga]] in [[Latvia]] and [[Tallinn]] in [[Estonia]] every day. Stockholm is the main Swedish terminal for the Baltic Sea cruises. They are by far the cheapest way to get to and from these cities from Stockholm.
+
+Note carefully that cities and places are written and pronounced differently in Finnish and Swedish. For instance: Suomi-Finland, Ruotsi-Sverige (Sweden), Tukholma-Stockholm, Helsinki-Helsingfors, Turku-Åbo, Ahvenanmaa-Åland, Maarianhamina-Mariehamn. This is a lesser case with other Baltic Sea countries. 
+
+If you intend to use the boats to travel to- or from- Stockholm, it is almost always cheaper to book a cruise ('''kryssning'''), or even two head-to-head cruises and discard the returns, rather than buy one-way tickets. Tickets can be had for as low as 80&nbsp;SEK for a full 4-person cabin, making it practically the cheapest accommodation one can find in a high-income country - at 10&nbsp;SEK/night/person for a two-night Stockholm-Helsinki return cruise (provided you book early or last minute during the weekdays), and rarely (even for a weekend cruise in high season) exceeds 400&nbsp;SEK for the cheapest 4-bed cabin. A one-way ticket, for a shared berth, in comparison, usually exceeds 1000&nbsp;SEK.
+
+*'''Tallink''' [http://www.tallink.se/] ferries to [[Mariehamn]] and [[Tallinn]] in [[Estonia]] depart from '''Värtahamnen''' port, and ferries to [[Riga]] in [[Latvia]] from '''Frihamnen''' port. For Värtahamnen, take the red underground line to Gärdet, exit at the front, and walk 400 metres to the terminal ('''the route is signposted'''). [[File:Stockholms frihamn 2011b Magasin 2.jpg|thumb|Frihamnen Magasin 2, go up escalator for ATM]]  For '''Frihamnen''', take the red underground line Gärdet, exit at the front and take bus 1 towards Frihamnen just outside the station. Go across the street in Magasin 2 for an ATM. From the Frihamnen terminal, bus 1 goes to the center of Stockholm (going along Kungsgatan, which is north of the central bus station and a block north of the central railway station). Alternatively, bus 76 towards Norra Hammarbyhamnen serves Södermalm via Kungsträdgården and Gamla stan. When leaving the Frihamnen terminal and heading inland, the bus stop is on the road around to the left across from the banana warehouse; it has a ticket machine that only accepts credit cards (i.e. does not take cash).
+
+* '''Silja Line''' [http://www.silja.fi], owned by Tallink, has ferries to [[Mariehamn]], [[Helsinki]] and [[Turku]] departing from '''Värtahamnen''' port. See directions above.
+
+* '''Viking Line''' [http://www.vikingline.fi/] ferries to [[Mariehamn]], [[Helsinki]] and [[Turku]] depart from the eastern part of '''Stadsgårdsterminalen''' in northeastern Södermalm. To get there from the city centre, take the green or red underground lines to Slussen, and take the exit for Slussenterminalen. From there take the 401 - 422, 442 - 449 or 471 bus ''one single stop'' to Londonviadukten and the port will be on your left. Alternatively normal town buses 53 and 71 link Slussen and the Viking Line terminal, albeit via the backstreets. Yet another convenient but more expensive alternative is the shuttle buses operated by Flygbussarna that go directly from the terminal to the central bus station (Cityterminalen) in the city center. The price for a ticket on these are 45&nbsp;SEK (single) and 70&nbsp;SEK (return) and tickets are sold on board, at Flygbussarna's and Viking Line's booths in the bus station, and if you want to buy the ticket on the bus you can do it but only pay with a credit card. There are multiple departures from the port 15-60 min after the ferry arrives and from the station 1-3 hours before the ferry departs.  If you are driving to the boat, follow the signs to ''Slussen'', then ''Stadsgårdsterminalen'' (note that Slussen is confusing for even locals, so don't feel embarrassed if you end up spinning in the intersection a few times) and then ''Finland/Viking Line''. There are big lockers at the ferry terminal for 5 euros or 50 kr.
+
+* '''Birka Cruises''' [http://www.birka.se/] ferries to [[Mariehamn]] in [[Åland]] depart from Western Stadsgårdsterminalen, about 700 meters from Slussen (right in front of Viking's terminal). See above for instructions.
+[[File:Stockholm 2009 PD 022.JPG|thumb|Stockholm Cruise Center in Frihamnen 638, 2009]]
+* '''Holland America Cruises''' use '''Stadsgårdsterminalen''' in northeastern Södermalm for one-day port calls and '''Frihamnen''' for turnarounds (start and end of cruises). See above for instruction.
+
+==Get around==
+===Public transport===
+'''Storstockholms Lokaltrafik, SL''' (Stockholm Public Transport) [http://www.sl.se/en] runs an extensive subway, commuter train and bus system as well as some light rail and ferry services, all using an integrated ticket system called "SL Access".  The SL Access RFID card costs 20&nbsp;SEK (good for six years) and can load all tickets available in the SL fare scheme. The paper strip coupon ticket system was discontinued as of 2013.
+
+There are SL Travel Cards or passes on the SL network available for 24 hours (160&nbsp;SEK, 105&nbsp;SEK for for children/seniors), 72 hours (315&nbsp;SEK, 210&nbsp;SEK for for children/seniors), 7 days (415&nbsp;SEK, 280&nbsp;SEK for for children/seniors) plus 20 SEK card fee. If you are going to be in Stockholm for a while, go ahead and purchase a 30-day card, which allows unrestricted&nbsp; access to all of the buses, trams, subways, and commuter trains, as well as the Djurgården ferry, for 950&nbsp;SEK, 640&nbsp;SEK for children/seniors.  When you purchase the 72-hour Travel Card, you also receive free admission to Gröna Lund (see "See" below).  Suburban ferries, airport buses, the Arlanda Express and regional trains are not part of the SL network, and thus not included in any of these tickets.
+
+Travel cards and discount travel tickets may be bought in advance at SL Centres, “Pressbyrån” kiosks, or tourist information offices.  Tickets cannot be bought from bus drivers. Instead, there are cash and credit card machines at most bus stops and metro entrances.
+
+The SL website has detailed ticket and price information, and a journey planner. A better trip planner for Stockholm and Sweden is ResRobot[http://reseplanerare.resrobot.se/bin/query.exe/en?L=vs_resrobot&] and best is its App for smartphones (iOS and Android). 
+
+Kindly note that SL doesn't have visible information before journey that there is no travel card reader aboard to pay journey.  That is especially seen on the light rail/tram traffic Tvärbanan. In contrast to light rail & trams in Europe there is no reader in wagon and no visible information about that. 
+
+For more general info, see 
+[http://www.visitsweden.com/sweden/travel-guide/getting-around-in-sweden/public-transportation/stockholm/ Public Public Transportation in Stockholm].
+
+====Metro====
+[[Image:Tekhogtunnelbana.JPG|thumb|250px|Artwork at the Tekniska Högskolan metro station.]]
+[[File:3798873658 8526c19ffd o.jpg|250px|thumb| Stockholm Metro]]
+Stockholm has a metro system called the '''Tunnelbana''', commonly abbreviated '''T-bana''', and symbolised with a blue '''T''' on a round white sign. With exactly 100 stations, it is extensive for a city of this size, and will get you around almost all the downtown places as well as many inner suburbs. Trains run from 05:00 to 01:00 on weekdays and around the clock on weekends. Night buses replace the trains on weekdays. The metro is probably the fastest way to travel to many inner suburbs not served by suburban rail, as well as offering a scenic view from the bridge between Gamla stan and Slussen.
+
+The [http://sl.se/sv/Om-SL/Det-har-ar-SL/Konsten-i-trafiken/ SL website] offers a guide to the artwork that is featured in many subway stations, with nearly all stations offering some form of permanent artwork on display. The artwork on the '''blue line''' in particular is of note.
+
+Directions in Stockholm are often accompanied by the name of the closest subway stop, using '''T''' as an abbreviation for "Tunnelbana", e.g. "''T-Gamla stan''". This practice is followed below when appropriate.
+
+====Suburban rail====
+Stockholm also has a suburban commuter rail network called '''Pendeltåg'''. Reaching 53 stations, including ''Uppsala'', ''Knivsta'' and ''Bålsta'' in Uppsala län (county), plus ''Gnesta'' in Södermanlands län (county). There are six lines:
+
+*40: Uppsala – Arlanda Airport – Stockholm C – Södertälje C
+*41: Märsta – Stockholm C – Södertälje C
+*42X: Märsta – Stockholm C – Nynäshamn (skip-stop train)
+*43/43X: Bålsta – Stockholm C – Tungelsta – (Nynäshamn)
+*44: (Bro) – Kallhäll – Älvsjö (peak hours only)
+*48: Södertälje C – Gnesta (connects with lines 40 and 41 at Södertälje hamn)
+
+Off-peak generally sees 4 tph (trains per hour) across the network, with the exception of Bålsta, Bro, and stations south of Tungelsta on lines 42, 43 and 43X, which see 2 tph. On line 48, trains run hourly during the off-peak. Additional services run during peak hours.
+
+In the north-east, the '''Roslagsbanan''' narrow-gauge rail network connects the central ''Östermalm'' district with suburbs in the ''Danderyd'', ''Täby'', ''Vallentuna'' and ''Österåker'' municipalities. 
+
+*27: Stockholms östra - Roslags Näsby - Ormsta - (Lindholmen - Kårsta)
+*28: Stockholms östra - Roslags Näsby - Åkersberga - (Österskär)
+*29: Stockholms östra - Djursholms Ösby - Näsbypark
+
+Off-peak sees 4 tph (1–2 tph in the bracketed section) on lines 27 and 28, 2 tph on line 29. The station ''Stockholms östra'' is directly adjacent to ''T-Tekniska högskolan'' on the red line towards ''Mörby centrum''.
+
+'''Saltsjöbanan''' starts adjacent to ''T-Slussen'' and reaches the suburbs ''Saltsjöbaden'' and ''Solsidan'', south-east of the city. With Slussen being closed for renovation until 2025, Saltsjöbanan trains run from Henriksdal, with replacement buses connecting to Slussen.
+
+Suburban trains are included in Stockholm's transport ticket system, with the exception of Knivsta and Uppsala on line 40, which employ Uppsala's local transport fares. It costs 96&nbsp;SEK (60&nbsp;SEK for youth) to get there if you already have an SL travelcard.
+
+====Light rail, tram, bus and ferry====
+[[File:MAN NL 263 Lion's City Stockholm.jpg|thumb|A bus on line 69 in Stockholm]]
+
+* '''Tvärbanan''' is a light rail line connecting the western and southern suburbs with a new section forming a 3/4 loop around Stockholm.
+
+* '''Lidingöbanan''' connects '''Ropsten''' on [[Stockholm/Östermalm|Östermalm]] to '''[[Lidingö]]'''. This line provides a scenic view at the end of Lidingö across the archipelago. Several ferry services also call at ''Gåshaga brygga'' at the end of the line.
+
+* '''Nockebybanan''' in the [[Stockholm/Western suburbs|western suburbs]] connects the district of '''Nockeby''' to '''Alvik''' on the '''green line''' of the Tunnelbana. The buses heading to '''Drottningholm Palace''' call at Nockeby (although in practice, taking the bus from Brommaplan on the green line of the Tunnelbana is more efficient) as well as passing through the quaint garden-city of '''Bromma'''.
+
+* '''Spårväg City''' is a city tram connecting '''Norrmalmstorg''' to '''Waldemarsudde''' on the '''Djurgården''' island, as serving the '''Nordiska Museet''', '''Gröna Lund''' and '''Skansen'''.
+
+* '''Buses''' serve most populated areas where rail does not reach. Four inner city main lines numbered from 1 to 6 are operated by large blue buses (weekdays every 3-10 minutes), the other, generally less frequent lines (weekdays 7-20 minutes), by red buses. 
+
+There are also ferries going to '''Djurgården''' and '''Skeppsholmen'''. Bus and light rail is included in any SL ticket or pass, and travel with the Djurgården ferry is included with any 24- or 72-hour pass, 7-day pass as well as the monthly pass. Suburban ferries, airport buses, the Arlanda Express and regional trains are ''not'' part of the SL network, and thus not included in any of these tickets.
+
+There's an SL ferry called '''Sjövägen''' that runs between Nybroplan and Frihamnen with stops at Allmänna gränd ('''Djurgården'''), Saltsjöqvarn, Finnboda and Kvarnholmen in Nacka, Blockshusudden ('''Djurgården'''), Nacka strand and Dalénum ('''[[Lidingö]]'''). A second SL ferry line opened in 2016 connecting Kungsholms torg ('''Kungsholmen'''), Söder Mälarstrand ('''Södermalm''') and Klara Mälarstrand, located between the City Hall and the Central Station. Apart from the fact that it's free (with a valid SL card), the boats also have free wifi (and electrical sockets), and even free tea and coffee. Some boats sell alcohol. At Blockhusudden and Nacka Strand, there are nice restaurants just by the water.
+
+===Bike===
+[[Image:Stockholm-bikes.jpg|thumb|Stockholm City Bike stand.]]
+Cycling is an attractive option during warm seasons, and there are many bikepaths. On a bike, a journey across the inner city takes no longer than 30 minutes, and can be faster than travelling by subway or car. There are cycle paths along most major streets and drivers are generally considerate towards cyclists. In winter, when paths can be covered by ice, extra care should be taken. Bikepaths have a bicycle painted on the ground and/or round blue signs with a white bike. Make sure you bike on the right hand side of the street, just as the cars. 
+
+*'''Bike Sweden''' ([http://www.bikesweden.se]) BikeSweden offers a variety of high quality bikes in the center of the city. From mountainbikes to childrens bikes and city bikes. Child carriers and child seats are available. Helmets and locks are included in the rental price. The bikes have at least 7 gears and are maximum of two seasons old. Very competitive pricing. Located at Narvavägen 13-17, in the front courtyard of the Historical Museum (Historiska Museet). Open 10:00-18:00 April-October. Call or email to rent bikes off season +46(0)8-52 52 7000, info@bikesweden.se 
+
+* '''Cykel- & Mopeduthyrningen''', Strandvägen, Kajplats 24 (''T Östermalmtorg or T Karlaplan''). Only open in the summer months.
+
+* '''Djurgårdsbrons Sjöcafé''', Galärvarvsvägen 2 (''on Djurgården, just to the right as you cross Djurgårdsbron'') [http://info.aos.se/E/V/STOSE/0000/35/50/6.html]. Only open in the summer months. Rents bikes for 250&nbsp;SEK per day. Also rents roller blades and kayaks.
+
+* '''Gamla Stans Cykel''', Stora Nygatan 44 (''T Gamla Stan'') [http://www.gamlastanscykel.se/index.php?p=140]. Open all year. Rents three speed city bikes for 220&nbsp;SEK per day or 500&nbsp;SEK for 3 days. 
+
+* '''Servicedepån - Cykelstallet''', Scheelegatan 15 (''T Rådhuset'') [http://cykelstallet.se/]. Open all year. Rents 3 speed city bikes, 21 speed mountain/hybrids (200&nbsp;SEK/day), and racers. They have metal-stud snow tyres for winter ice use, but you will have to ask in advance. Helmets are free with the bike, other accessories like panniers can also be rented. Rental period is from 10:00-18:00, full 24 hours, or several days.
+
+===Taxi===
+[[Image:Stockholm taxi pricey vs cheap.jpg|thumb|upright=1.3|'''Warning:''' NEVER step into a taxi without checking the yellow price sign on the rear passenger window first! Taxi drivers are legally allowed to charge rip-off prices as long as they are stated clearly on the sign. The taxi to the left is twice as expensive as the one to the right. The price tag should say around SEK300 for a Stockholm cab.]]
+Taxis are on the expensive side. Even worse is the fact that some small dodgy operators charge outrageous prices: unsuspecting visitors have been charged thousands of SEK for a trip from the airport. The antidote is to always check the '''black and yellow price sticker''' on the rear passenger window. The price shown in large digits is the maximum (for instance during night hours) fare for a 10km, 15 minute journey and reputable companies charge around SEK300 for this. If the sticker shows a much higher price, stay away or be ripped off. The taxi market was deregulated several years ago which made it considerably easier to find a taxi but the downside is that the rip-offs aren't even illegal, just "supply and demand"!
+
+As long as you check the sticker you'll be fine, but if you're still nervous choose the major companies '''TopCab''', +46 8 33 33 33; [http://www.taxikurir.se/ '''Taxi Kurir'''] ☎ +46 8 30 00 00; '''Sverigetaxi''', 020 20 20 20 (free calls from Swedish phones); and [http://www.taxistockholm.se/en/ '''Taxi Stockholm'''] ☎ +46 8 15 00 00. Note that many minor companies use "Stockholm" in their names to mimic their competitor, so look for the phone number 15 00 00 which appears below the logo on all Taxi Stockholm cars. Among the companies to avoid is '''Taxi 08''' that operates at the limit of the legal rate.
+
+Most taxi firms operate a fixed price regime between central Stockholm and Arlanda airport, mirroring the rates for the journey into town of around SEK450-500. It's a good idea to check with the driver that you will get the fixed price before you set off - the meter price for the same ride may cost twice as much. Note that the taxis often have big stickers advertising their airport price: do not confuse them with the black and yellow price sticker pictured in this article.
+
+Authorized taxis have yellow license plates. Late at night in the city centre, you may be offered a ride with an unauthorized taxi, ''svarttaxi'' (literally "black taxi"), usually by discrete whispering of "taxi". Most of the time this will get you home for roughly the same cost as ordinary taxis, just don't ask for a receipt. Rumours say that these cabs are usually controlled by organized crime, and some unpleasant episodes have been known to happen to passengers, so try this at your own risk, and preferably not alone.
+
+===Car===
+[[Image:Congestion fee Stockholm-new.jpg|thumb|Congestion fee sign]]
+Cars driving into or out of central Stockholm between 06:30 and 18:29 on weekdays are charged a congestion tax [http://www.transportstyrelsen.se/sv/Vag/Trangselskatt/] of 11 to 35&nbsp;SEK. Some car rental companies charge their customers separately for the cost of toll passages, while others don't. Foreign-registered cars are NOT exempt from the tax; see [https://www.epass24.com/]. Driving in Stockholm is easy compared to many larger capitals in the world. Just make sure to use your indicators when changing lanes. Fees are not charged at all in July, on holidays (such as Sundays) or on the day before a holiday (such as Saturdays).
+
+===Private Car===
+An alternative to taxis, bus, train & any public transport, car services are useful for getting to the airport from the outer boroughs where taxis are harder to find, or if you prefer to have transportation reserved in advance. Some options to hire a private car service in Sotkcholm: [http://www.rent-a-wreck.no/eng/?car-rental=stockholmnorr Rent a Wreck] (Rent a Car) & [http://www.dottransfers.com/sweden/stockholm/ DotTransfers] (Private Car Service with chauffeur).
+
+Parking is restricted and expensive in the centre of the city, and free parking is scarce even in the suburbs, except at external shopping centres. It is recommended for peace of mind to make use of SL services to avoid parking and congestion charges.
+
+===Boat===
+There are two hop-on/hop-off boat tours that run loops between various sites in Stockholm.  Both cost approximately 100&nbsp;SEK for a day long pass and have approximately 8 stops, including the cruise terminal, Gamla Stan, the Vasa Museum, Skansen, and Skeppsholmen.
+
+The [[Stockholm archipelago]] is served by two major shipping companies.
+
+'''Waxholmsbolaget''' runs inexpensive public transit ferries, slowed down by stops at several different docks. Waxholmsbolaget also runs two steamboats, that offer even slower, but genuine, round-trips with classical Swedish cuisine. [http://www.waxholmsbolaget.se/visitor/archipelago-traffic/plan-trip/]
+
+'''Strömma''' is a private company, aimed at international tourists, with fast boats and audioguides. [http://www.stromma.se/en/Skargard/Stromma-Kanalbolaget/]
+
+==See==
+: ''See [[#Districts]] for listings.''
+Stockholm has many spectacular tourist attractions, ranging from the interesting architecture of the '''City Hall''' to the stunning natural beauty of the '''archipelago'''. In the several Royal Palaces (''Stockholm Palace'', ''Drottningholm'', ''Haga'' and several others) visitors can get in close contact with traditions of the Swedish monarchy. Among the wide range of museums, the '''Vasa museum''' with its 17th century warship and the '''Skansen''' open air museum are unique experiences.
+[[Image:Stockholm Castle and crown.jpg|thumb|The Royal Palace in Gamla Stan.]]
+
+[[File:Stockholm Riddarholmskyrkan (general view).jpg|thumb|Stockholm Riddarholmskyrkan]]
+* Stockholm's [[Stockholm/Gamla stan|'''Old Town''' ('''''Gamla Stan''''')]], is the beautifully preserved historical heart of Stockholm. ''T Gamla Stan'' station is on the west side of the compact quarter, which is best covered on foot. '''Riddarholmskyrkan''' is a beautifully preserved medieval church.
+[[Image:Stockholm-old_town.jpg|thumb|Stockholm's Old Town with Tyska Kyrkan (German church)]]
+
+* '''The [[Stockholm archipelago]]''' (''skärgården'') is one of the world's most spectacular. Stretching 80 kilometres east of the city centre, the archipelago comprises 24,000 islands, islets and rocks. Regular ferries are operated by '''Waxholmsbolaget''' [http://www.waxholmsbolaget.com/] and from April through September also by '''Cinderellabåtarna''' [http://www.stromma.se/en/Skargard/Cinderellabatarna/].
+
+===Buildings and structures===
+==== Religious buildings ====
+Stockholm has a large number of interesting [[churches]], some of them dating back to medieval times. Most of them are in active use by the Lutheran Church of Sweden. There is also a synagogue and a mosque in the city center. The Skogskyrkogården cemetery, in the southern suburbs, is one of the very few UNESCO World Heritage sites from the 20th century.
+
+==== Other buildings ====
+* The [http://www.globearenas.se/en/ '''Avicii Arena'''] is a white spherical building. Occasionally, at least at game-nights, it is lit by coloured light.
+** ''The Sweden Solar System'' [http://www.swedensolarsystem.se/en/] is the world's largest scale model of any kind. With the Globe as the Sun, models of the planets are displayed at Slussen (Mercury), the Royal Institute of Technology (Venus), the Natural History Museum (Earth & Moon), Mörby Centrum (Mars), Arlanda Airport (Jupiter) and Uppsala (Saturn).
+
+* '''Kungliga biblioteket''' (The RoyalLibrary) is the national library of Sweden. It was designed by Gustaf Dahl and is located at Humlegården T Östermalmstorg.
+
+* The '''Stadsbiblioteket''' (The City Library) by architect Gunnar Asplund is a beautiful building in the short gap between the styles of classisism and modernism, close to T Odenplan or T Rådmansgatan.
+
+===Viewpoints===
+* The heights of northern [[Södermalm]] give a great view of central Stockholm. Get off the underground at ''Zinkensdamm'', walk up the street ''Ringvägen'' and then the old and partly cobbled ''Yttersta tvärgränd'' until it terminates just next to an abandoned stone quarry on the right. Climb the quarry on either side and enjoy this somewhat steep and unprepared location, which has a tendency of attracting a pretty lively crowd on new year's eve and summer nights. 
+* Get off the underground at ''Slussen'' and walk up ''Katarinavägen'' and then on to the lovely ''Fjällgatan'', where tourist coaches make a stop to let everyone enjoy the most popular vantage point.
+* '''Hammarbybacken''', a semi-artificial ski slope, walkable around the year, great during summer. ''(L Sickla kaj)''
+* '''Högdalstoppen''', a man-made hill south of the city. See [[Stockholm/Southern Suburbs]].
+* '''Kaknästornet''' [http://www.kaknastornet.se/] contains Stockholm's highest observatory floor and restaurant, giving a good view of the central town, and the inner archipelago. Entrance fee 45&nbsp;SEK.
+* '''Skyview''' [http://www.globearenas.se/en/skyview/about-skyview] is an elevator to the top of the Avicii Arena (Ericsson Globe). Rides cost 160&nbsp;SEK a person.
+* Bars and restaurants with a good view: '''Gondolen''', '''Herman's''', '''Och himlen därtill''', or the penthouse lounge of '''Sjöfartshotellet''' on Södermalm, or the SAS Radisson Hotel '''Skybar''' on Norrmalm.
+
+===Museums===
+
+[[File:Stockholm Vasamuseet and Nordiska museet.jpg|thumb|Stockholm Vasamuseet and Nordiska museet]]
+[[File:Stockholm Moderna Museet (interior).jpg|thumb|Stockholm Moderna Museet]]
+[[File:Stockholm Nationalmuseum (entry hall).jpg|thumb|Stockholm Nationalmuseum]]
+Stockholm has more than 70 museums [http://stockholmsmuseer.se], ranging from those large in size and scope to the very specialized, including '''Fjärilshuset''' (The Butterfly House), '''Spritmuseet''' (where it is possible to get English speaking guides informing about Swedes and their rather complicated relationship with spirits and alcohol in general) and '''Dansmuseet''' (a.k.a ''Rolf de Maré's museum of dance, theatre, art and photography''), to name but a few. Tickets are typically 80 to 100&nbsp;SEK for adults, less or zero for children. The list below is a selection of widely acclaimed museums.
+
+* '''Nobelmuseet''' [http://www.nobelmuseum.se/] At the Nobel Museum you will learn more about the Nobel Prize and its founder, as well as the Nobel Laureates and their creative endeavors.
+
+* '''Naturhistoriska riksmuseet''' [http://www.nrm.se/] ([[Stockholm/Östermalm|Östermalm]]) This museum of natural history has permanent and temporary exhibitions popular with both young and old, including an Omnimax cinema. Easily reached from ''T-Universitetet'', it is situated on the edge of an area which has lot to offer in terms of nature and recreation.
+
+* '''Moderna museet''' [http://www.modernamuseet.se/en/Stockholm/] ([[Stockholm/Norrmalm|Norrmalm]]) on the island Skeppsholmen, has one of the world’s finest collections of 20th and 21st century art.
+
+* '''[http://www.nationalmuseum.se/ Nationalmuseum]''' ([[Stockholm/Norrmalm|Norrmalm]]) has its regular building closed for renovation until 2017. Connoisseurs of classical art and design are requested to look up '''Konstakademien''' at ''Fredsgatan 12'' in the central ''City'' area for current exhibitions and more information.
+
+* '''Armémuseum''' ([[Stockholm/Östermalm|Östermalm]]) [http://www.sfhm.se/english/] displays Sweden's military history, with frequent wars from the Middle Ages until 1814, followed by two centuries of peace.
+
+* '''Historiska museet''' ([[Stockholm/Östermalm|Östermalm]]) The Swedish History Museum includes Scandinavian prehistory, the notorious Vikings as well as an impressive treasure vault called ''The Gold Room'' and also stunning medieval church art.
+
+* '''Djurgården''' is the vast royal park within the borough of [[Stockholm/Östermalm|Östermalm]], and it holds museums such as:
+** '''Vasamuseet''' [http://www.vasamuseet.se/] has been built around the spectacular but ill fated warship 'Vasa'. It sank in the Stockholm harbour shortly after its launch in 1628 and was salvaged 333 years later. The Vasa Museum provides an unsurpassed insight into marine and every day life almost 400 years ago.
+**'''Waldemarsudde, Prince Eugen's Mansion'''
+** '''Skansen''' [http://www.skansen.se/] is a large open air museum, which has a zoo showcasing Swedish fauna (moose, bear, wolf, lynx, reindeer, seal etc.) as well as hands on displays of Sweden's cultural heritage.
+** '''[http://www.nordiskamuseet.se/en Nordiska Museet]''' has a variety of permanent and temporary exhibitions presenting Swedish history and cultural heritage.
+
+* '''Millesgården''' [http://www.millesgarden.se/] ([[Lidingö]]) is an impressive open-air sculpture museum, focusing on the works by Carl Milles
+
+* '''Fotografiska''' [http://fotografiska.eu/en/] ([[Stockholm/Södermalm|Södermalm]]), a photo gallery opened in 2010.
+
+=== Art ===
+Beyond the art museums mentioned above, Stockholm has a vivid art scene and offers plenty of opportunities to enjoy contemporary art in galleries, exhibition halls and public places. The Stockholm official visitors guide has a list of galleries [http://www.stockholmtown.com/templates/CategoryList____2919.aspx].
+
+==== Art galleries ====
+* '''[http://www.gallerimagnuskarlsson.com/ Galleri Magnus Karlsson]''' is a small, local gallery showcasing local artworks. It can be found at Fredsgatan 12, a short walk from both ''T-Centralen'' or ''T Gamla Stan''. Mon-Fri 12:00-17:00, Sat-Sun 12:00-16:00.
+* '''[http://www.larsbohmangallery.com/ Lars Bohman Gallery]''' is another small gallery located on Karlavägen 9 within walking distance from ''T Rådmansgatan'' or   ''T-Tekniska högskolan''. Mon-Fri 12:00-18:00, Sat-Sun 12:00-16:00.
+* '''[http://www.nordenhake.com/ Galerie Nordenhake]''' is located at Hudiksvallsgatan 8. The gallery can be reached by walking from ''T Odenplan'' or by bus 65. Tues-Fri 11:00-18:00, Sat-Sun 12:00-16:00.
+* '''[http://www.magasin3.com/se/ Magasin3]''' is located at Frihamnen and can be reached by walking from Radiohuset on bus 4 or by taking bus 76 to Frihamnen which stops right outside the gallery. Thurs 11:00-19:00, Fri-Sun 11:00-17:00, Closed Mon-Wed.
+* '''[http://www.artipelag.se/ Artipelag]''' is an international venue for art, good food, events and activities – beautifully set on Värmdö in the Stockholm Archipelago, just 20 minutes from the city centre of Stockholm. Getting there is easy; whether by bus, car or boat. There are 350 parking spaces, a pier for passenger boats from Stockholm city and a long guest marina for visiting private boats. The visiting address is Artipelagstigen 1, Gustavsberg.
+* '''[https://www.liljevalchs.se/ Liljevalchs]''' is located on the Djurgården island close to for example Skansen and Vasamuseet. It can be reached with tram 7 from the central railroad station, stop "Liljevalchs/Gröna lund". It has a spring salon each spring featuring a wide spectre of artists but also other exhibitions throughout the year.
+* '''[https://www.thielskagalleriet.se/ Thielska galleriet]''' is located on the southeastern corner of the Djurgården island. It's located in the former home of a wealthy businessman. Bus 67 from the city center, stop Thielska galleriet. The same bus stops next to Liljevalchs, Skansen, Gröna lund, Vasamuseet, Nordiska museet and many other places of interest on Djurgården.
+
+==== Exhibition spaces ====
+==== Art colleges ====
+
+[[File:Stockholm University College of Film, Radio, Television and Theatre.jpg|thumb|Stockholm University College of Film, Radio, Television and Theatre]]
+* The two major art university colleges in Stockholm hold regular exhibitions where the Swedish artists of tomorrow show off their talent. Information about upcoming events are available in English on their web sites:
+
+==== Public art ====
+* The '''Stockholm Metro''' has plenty of artistic decoration in its stations, and promotes itself as "the world’s longest art exhibition". Some of the most interesting features include the moody dark blue cave of '''Kungsträdgården''' with details from the former palace Makalös, the giant black and white "drawings" by Siri Derkert at '''Östermalmstorg''' and the celebration of science and technology at '''Tekniska Högskolan'''. In the suburbs, '''Rissne''' has a fascinating timeline of human history on its walls. A free guide in English to the art in the Stockholm Metro can be downloaded from the SL website [http://www.sl.se/templates/Page.aspx?id=4665].
+
+==Do==
+[[Image:SwedenStockholmKatrinahissen.JPG|thumb|Restaurant Gondolen at Katarinahissen]]
+
+===Outdoor Tours and activities===
+There are many companies involved in outdoor tourism in and around Stockholm county.
+
+====During winter====
+*<do name="Cross country skiing" alt="" address="" directions="" phone="" url="" hours="" price="" lat="" long="">Stockholm offers great opportunity for cross country skiing. There are lots of skiing tracks that are well taken care off. Most of them are made of natural snow, but some tracks are prepared throughout the winter (if the temperature allows it) with artificial snow. Cross country skiing is usually possible during the later days of December, January, February and the early days of March.</do>
+*<do name="Ice skating" alt="" address="" directions="" phone="" url="" hours="" price="" lat="" long="">Skating on natural ice is a popular way in Stockholm to enjoy the winter. Inland lakes freeze up and sometimes there can even be skated out in the archipelago. The skates used are long distance skates rather than ice hockey skates, with poles to assist. Ice skating can usually be done between January and March.</do>
+*<do name="Winter hiking" alt="" address="" directions="" phone="" url="" hours="" price="" lat="" long="">There are lots of nature reserves in and around Stockholm where hiking is possible and allowed. Some places become more accessible during winter when the lakes are frozen. In some area's the use of snowshoes can be recommended during heavy snowfall.</do>
+
+====During summer====
+*<do name="Mountain Biking" alt="" address="" directions="" phone="" url="" hours="" price="" lat="" long="">Stockholm has become a very popular destination for mountain biking. There are a lot of tracks in forests and nature reserves where mountain biking is allowed. The routes are usually marked by color by mountain bikers them selves. But since there is no company or employees involved in keeping track of the trails, the quality of the marking can be from poor to quite good.</do>
+*<do name="Kayaking" alt="" address="" directions="" phone="" url="" hours="" price="" lat="" long="">The archipelago in Stockholm is an important tourist attraction, and kayaking is a popular way to experience the archipelago. Th archipelago exists of approximately 30.000 islands. Seals and eagles can be seen. </do>
+*<do name="Stand Up Paddle Boarding (SUP)" alt="SUP Stockholm, Stand Up Paddleboarding Stockholm" address="Kungsholms Strand 181" directions="" phone="+468213333" url="https://www.surfbussen.nu/paddla-sup-stockholm" hours="2" price="250SEK" lat="59.20.19.7" long="18.01.22.8">The inner city waters are clean and placid. There is not much boat traffic and the protected channels are calm and accessible. The latest sports crave in the city is to paddle standing up on SUP:s (Stand Up Paddleboards) on these waters. Rent them in the middle of the city. You get all equipment you need and a complete introduction before heading of. This is an amazing way to se Stockholm. 
+[[File:SUP Paddleboarding in down town Stockholm.jpg|thumb|right|Experience Stockholm standing on water with a SUP. Easy to rent and available for everyone in summer]]
+</do>
+*<do name="Kitesurfing" alt="" address="" directions="" phone="+468213333 url="https://www.surfbussen.nu/kiteskola-kitekurs/stockholm" hours="" price="" lat="59.20.19.7" long="18.01.22.8"> Taking lessons for kiteboarding / Kitesurfing may seem strange for Stockholms rocky archipelago. But there are plenty of spots to practice and watch kitesurfing during Spring, Summer & fall. Some of the popular places to practice and watch are Torö, Askfatshamnen, Dalarö & Sandarna, Ingarö. In Stockholm you can enroll a kitesurfing course with several kite schools who teach in english and Swedish, [http://www.kitesurfers.se/en/ Kitesurfers - Stockholm Kite school] and [https://www.surfbussen.nu/kiteskola-kitekurs/stockholm Kitekurs Stockholm - Surfbussen] offer courses everyday with wind. </do>
+*<do name="Hiking" alt="" address="" directions="" phone="" url="" hours="" price="" lat="" long="">Hiking during summer time is very popular among Swedes. There are lots of good hiking trails and off the beaten track areas which allow hiking. There are also long hiking trails running past Stockholm such as Sörmlandsleden.</do>
+*<do name="Camping" alt="" address="" directions="" phone="" url="" hours="" price="" lat="" long="">Camping in nature is allowed in many places in Sweden because of the 'every man's right'. Although in nature reserves this is only allowed at certain places.</do>
+
+===Guided tours===
+There is a wide selection of guided tours available, by boat, by bus and on foot.
+
+====By boat====
+'''Stockholm Sightseeing''' (part of the Strömma group) has several different guided boat tours.
+
+* '''Under the bridges of Stockholm''' is one of the most popular. Departing from Strömkajen by Grand Hôtel and opposite the Royal Castle (''T Kungsträdgården''), this tour on both the sea and on lake Mälaren passes under 15 bridges and through two locks. Several departures every day, depending on the time of year. 1 hour 50 min, 200&nbsp;SEK.
+
+* '''Royal Canal Tour''' departs from Strömkajen and takes you around the eastern parts of the city, passing through the lush Djurgården canal. 50 min, 150&nbsp;SEK.
+
+* '''Historical Canal Tour''' departs from Stadshusbron next to the City Hall (''T T-Centralen''), and passes Kungsholmen and other western islands of the city. 50 min, 150&nbsp;SEK.
+
+* '''Stockholm Grand Tour''' combines a boat and a bus tour. 3 hours 30 min, 400&nbsp;SEK.
+
+Alternatively, and cheaply, there is the eight-stop "Hop On-Hop Off" boat service of Stockholm Sightseeing ('''not''' promoted as one of the Strömma carriers). Two of the most frequented stops are at the Palace, and at the Gamla Stan, right across the canal from ''T Slussen''. The recordings on this loop service are reasonably informative. 
+
+The competing Aphrodite boat service offers a similar hop on-hop off service for a modest fee for 24 hours. (In other sections of this article, a price of 10&nbsp;SEK is quoted, but this is lower than any prices we heard quoted by a factor of 10 or more.)
+
+====By bus====
+'''City Tours''' and '''Open Top Tours''' (also divisions of the Strömma group) offers bus tours:
+
+*'''Stockholm Panorama'''is a tour of some major tourist sights that departs from Gustaf Adolf Torg (''T T-Centralen''). 1 hour 30 min, 240&nbsp;SEK.
+
+* The '''Hop-on Hop-off Bus''' is a tour with open top double decker buses that allows you to get on and off the bus as often as you want at bus stops along the route. The tour passes some major sights, but only in the central and eastern part of the city. 24 hour travel pass 220&nbsp;SEK.
+
+'''Stockholm Excursions''' has a few specialized bus tours:
+
+* The '''Nobel Tour''' visits several sights connected to Alfred Nobel and the Nobel Prize. 3 hours, 400&nbsp;SEK.
+
+* The '''Royal Tour''' takes you out of the city center to Ulriksdals Palace and Drottningholm Palace. 4 hours, 500&nbsp;SEK.
+
+====By taxi====
+'''Taxi Stockholm''', +46 8 15 00 00, offers a personal guide service, allowing up to 4 people to travel in their own taxi. 1 hour 30 min M-F 09:00-15:00 825&nbsp;, other hours 900&nbsp;SEK. 2 hours M-F 09:00-15:00 1100&nbsp;SEK, other hours 1200&nbsp;SEK.
+
+====On foot====
+'''Free Tour Stockholm''' offers zero-charge guided tours in English year round -- find out when through the webpage. It runs completely on tips and you don't have to book in advance, just show up. Highlights include finding out which Nobel Prize is a kind of fake, why Queen Christina had to sleep under her dead dad's heart and how not to rob a bank. Since it's free, check it out! Starting points vary; takes 1 hour 30 min.
+
+'''Talk of the town''' offers self-guided walking tours in six languages all year round. 
+
+*'''Talk of the town''' download your own audioguide to your mobile phone or mp3-player. Audioguide at 56 of the best sights in all Stockholm. The 56 sights ar spread over the old town Gamla Stan, City, Södermalm, the island of Djurgården, at Skansen open-air museum and the Drottningholm Palace. More than 2 hour listening time, 100-150&nbsp;SEK.
+
+'''City Tours''' offers a walking tour in the summer months:
+
+*'''City Photo Tour'''  finds the best photo views and panorama of the main sights. Explore the nature at djurgården at first light with swedish breakfast. 
+
+*'''Old Town Walkabout''' takes you through the Old Town. 1 hour 15 min, 150&nbsp;SEK.
+For sightseeing on a higher level, '''Upplev mer''' has a special tour:
+
+*The '''Rooftop Tour''' lets you look at Stockholm from the roofs of Riddarholmen island. An exciting experience if you're not afraid of heights. April-September. 1 hour 30 min, 350&nbsp;SEK.
+
+'''Gallivant Productions''' offers year round walking tours including the Viking Tour: '''Sweden: From the Ice Age to IKEA''', which is a performance walk, and runs on weekends throughout the year and daily between May and September. 135&nbsp;SEK.  New this year is and 'Stockholm Syndrome:  The City Tour' which runs on Saturday mornings 200&nbsp;SEK (3 hour tour).
+
+* The '''Millennium Tour''' is hosted by the Stockholm City Museum, and gives a view of the locations of Stieg Larsson's ''Millennium'' series.
+
+There are several other agencies that offer occasional guided walking tours in English during the summer months. Check with the Stockholm Tourist Centre for information.
+
+====By bike ====
+'''Talk of the town''' offers self-guided bike tours in six languages. 
+*'''Talk of the town''' memory card for your mobile phone can be rented at several bike rentals in Stockholm. Load your mobile phone with audioguides at 56 of the best sights in Stockholm. Rent by hour, 30&nbsp;SEK or day 125&nbsp;SEK.
+
+===Swimming===
+There are several '''beaches''' in inner Stockholm, as well as the suburbs. They might be crowded when Swedish people have time. The water in central Stockholm is so clean you can drink it, even though it looks dark. The quality of the water is controlled by Miljöförvaltningen (the municipal authorities) and the reports for all the beaches in the city is available online. Would there be a problem with the water, signs would be posted at the beach.
+If the water in Lake Mälaren is too cold for your tastes, you can opt for one of the '''outdoor swimming pools''':
+Stockholm also has several '''indoor swimming pools and spas''' in very special settings, for instance '''Centralbadet''', '''Sturebadet''' and '''Yasuragi spa'''.
+
+===Watching sports===
+Stockholm is home to several elite sports teams, and if you're a sports fan you might want to watch a game. The most popular spectator sports are '''football (soccer)''' and '''ice hockey'''. Also, '''bandy''' has something of a cult following. 
+'''Speedway''' is another big spectator sport in Sweden, and it can be experienced only 16 minutes from the Central station by subway, station "Gubbängen". '''Handball''' and '''basketball''' is also available. 
+
+====Football (soccer)====
+The Swedish National football team plays international games on '''Friends Arena''' in [[Solna]].
+The Swedish top football league, ''Allsvenskan'', is considerably weaker than most of its Western European sister leagues, and Swedish teams generally struggle in the European cups. Instead the clubs are famous for their passionate supporters. Therefore, going to a game is an exciting experience – especially the Stockholm derbies where the rivalry is intense. Unlike in continental Europe, the football season starts in the end of March and ends in the beginning of November. There are currently three teams from Stockholm in Allsvenskan: Djurgården, playing at Tele2 Arena; Hammarby, playing at Tele2 Arena and AIK, playing at Friends Arena in Solna (northern suburbs).
+
+====Ice hockey====
+The Swedish top ice hockey league, ''SHL'', is one of the top leagues in the world, after North-American NHL and the Russian KHL. The season starts at the end of September and ends with finals in April. Stockholm currently has one team in SHL: Djurgården, playing their home games at Hovet.
+
+====Bandy====
+Bandy Bandy is a sport popular mainly in Sweden, Finland and Russia, and slowly gaining popularity in North America, played outdoors on ice with sticks and a small ball. The field is roughly as large as a football (soccer) field, and the rules show some similarities. If you visit Stockholm sometime between November and March, and want an exotic experience, this is for you. Remember to dress warm, the game is played in two 45-minute halves. Stockholm currently has one team in the top men's bandy league: [http://hammarbybandy.se/  Hammarby]. The games are played at Zinkensdamm arena on Södermalm. (''T Zinkensdamm'')
+
+===Doing sports===
+There are many opportunities to do sports in the Stockholm area. '''Hellasgården''' is a good spot close to the city center, see [[Södertörn]].
+
+====Skiing====
+The Stockholm area contains several semi-artificial ski slopes. The height is modest, but the view is usually great, well worth a hike anytime during the year. Tracks for cross-country skiing are available throughout Stockholm.
+
+====Riding====
+There are few stables close to the city where you can ride ponies and horses. Both available for adults and children with various riding-experience.
+
+====Golf====
+There are many golf courses in the Stockholm region, several of them open for green-fee.
+
+====Outdoor games====
+There are many open fields in Stockholm. Gärdet (''T Karlaplan'' or ''T Gärdet'') is a good one for outdoor sports. Just bring a ball of your choice. 
+
+====Running races====
+*One of the most visible sporting events is the '''Stockholm Marathon''' [http://www.stockholmmarathon.se/Start/index.cfm?Lan_ID=3], held annually on a Saturday in late May or early June, when some 18,000 participants run two laps around the inner city, while the Stockholmers gather on the sidewalks to cheer.
+** ''Lidingöloppet'' [http://www.lidingoloppet.se/en-GB/], branded as the world's largest cross-country race, and a part of the Swedish Classic Circuit, on [[Lidingö]] in the last weekend of September.
+
+===Performances===
+Stockholm has several national stages, such as the '''Royal Swedish Opera''' (''Kungliga Operan''), and several playhouses staging international musicals.
+* '''Stockholm Culture Festival''',[http://kulturfestivalen.stockholm.se/EN/index.php]
+
+There is also a growing scene for stand-up comedy in Swedish and English. ''The Big Ben Bar'', Folkungagatan 97, has a free-entrance comedy club in English each Thursday at 20:00. ''Skrattstock'' is an annual free-entrance comedy festival on Långholmen, always in May/June on the same day as the Stockholm Marathon, with at least one hour of English-language comedy.
+
+* '''Live Music''',[http://kulturfestivalen.stockholm.se/EN/index.php]
+
+The live music stage in Stockholm is something else. There are never any signs of anyone playing but a few posters in specific areas. Although a lot of the cities bar's have live music, the most common place to find it is around Södermalm. There you will find places like Debaser[http://debaser.se/], Hornshuset[http://www.hornhuset.se/] and Trädgården[http://www.tradgarden.com/]. Besides Södermalm both Norrmalm[http://www.harrybjames.com/] and Vasastan[http://caplive.se/] have a few interesting venues.
+
+The city hosts annual '''Ink Bash Tatoo convention''' in the end of August, different artists and vendors [https://stockholminkbash.com/program.php].
+
+===Cinemas===
+There are many cinemas in Stockholm. With the exception of children's movies, films aren't dubbed but subtitled, so if your English is good enough this is a good leisure activity. Many cinemas are THX certified. A ticket is around 145&nbsp;SEK. 
+
+Many of Stockholm's most charming classic cinemas have been closed in recent years, victims of the competition from modern multiplex screens. The elegant Röda Kvarn on Biblioteksgatan was recently transformed into an Urban Outfitters store, and Astoria Nybrogatan was closed in 2007. A few splendid venues are especially worth a visit: ''Park'', ''Rigoletto'', ''Grand Sveavägen'', ''Saga'', ''Victoria'' and ''Skandia''.
+
+===== Stockholm International Film Festival =====
+
+[[File:Stockholm Filmhuset (exterior general view).jpg|thumb|Stockholm Filmhuset]]
+In November, Stockholm hosts an annual international film festival [http://www.stockholmfilmfestival.se/en/] that draws large crowds.
+
+The Stockholm International Film Festival also hosts an open air cinema in the ''Tantolunden'' park during one week in August.
+
+
+[[Image:SwedenStockholmGrönaLund.jpg|thumb|Gröna Lund seen from the water]]
+
+===Photography===
+Stockholm has a range of architectural backdrops and natural settings that appeal to travelling photographers.
+
+===Amusement park and children's activities===
+*'''Gröna Lund''' [http://www.gronalund.com/en/] is the main amusement park in Stockholm, on Djurgården island. It can be reached by ''Spårväg City''. The ferry to '''Djurgården''' also stops right outside Gröna Lund. Adults 95&nbsp;SEK with a surcharge on concert nights of 95&nbsp;SEK, Children 0-6 free, Seniors 65+ free. Opening times vary across the year. Check the website before visiting.
+
+===Gambling===
+* Casino Cosmopol [http://www.casinocosmopol.se/english-stockholm.htm] on Kungsgatan 65, at the Central Station.
+
+===LGBT events===
+Attitudes towards homosexuality are generally tolerant. In the summer (generally late July/early August), there is an annual LGBT pride festival, '''Stockholm Pride''' [http://www.stockholmpride.org/en/], which is the largest in Scandinavia. The national LGBT organization, '''RFSL''' [http://www.rfsl.se/?p=3298], can provide information on other events and venues.
+* '''Stockholm Pride''', 27 Jul-5 Aug 2015.
+* '''Eurogames''', 5 Aug-9 Aug 2015.
+
+==Learn==
+
+[[File:Stockholm Kungliga Tekniska Högskolan (The Royal Institute of Technology).jpg|thumb|Stockholm Kungliga Tekniska Högskolan (The Royal Institute of Technology)]]
+With about 80,000 university students at more than twenty universities and university colleges, Stockholm is the largest university city in the Nordic countries. The largest institutions of higher education are '''Stockholm University''' (Stockholms universitet), the '''Royal Institute of Technology''' (Kungliga tekniska högskolan), and '''Södertörn University College''' (Södertörns högskola). Two more specialized universities are '''Karolinska institutet''', a world-class medical university, and '''Stockholm School of Economics''', one of the most prominent business schools in Europe. There are also several fine arts university colleges. Study in Stockholm [http://www.studyinstockholm.se/] has information about university studies in Stockholm. Studying in Sweden is free for EU-citizens.
+
+==Work==
+As the capital of Sweden, Stockholm is the heart of Nordic countries, and economically beneficial to live and work there. In Stockholm located such worldwide known companies like '''Assa Abloy''', '''Electrolux''', '''Ericsson''', '''IKEA’''etc. And being the biggest city in Sweden, Stockholm also attracts other worldwide companies to open their offices in the capital of Sweden. Stockholm region includes such large and economically influential districts as Solna, Sollentuna, Upplands Väsby, and Lidingö. Stockholm is called the entrepreneurs' paradise and is a perfect environment for entrepreneurs. The reason is that Stockholm offers several opportunities to run companies. This includes ultra-fast internet connection, professional colleagues, and innovative employees. Stockholm also attracts Start-Ups not only from Sweden but from other Nordic countries. Coworking Stockholm is the most popular choice for companies that are planning to move to the capital of Sweden. The reason is that such coworking spaces offer flexibility, a whole package of benefits, like fast and free WiFi connection, 24/7 access, parking, gym, conference rooms, IT support, and others. Such conditions are also beneficial for people who have a working trip to Stockholm.
+
+==Buy==
+: ''See [[#Districts]] for listings.''
+As in the rest of Sweden, VISA and Mastercard are accepted by nearly all stores, and ATMs are readily available. There are even ATMs inside some bars and nightclubs (which might accept payment in cash only). Only a few places accept foreign currencies, such as Euros or US Dollars.
+
+Sweden is internationally known for its design, and Stockholm has many stores where you can find Swedish-designed clothes, textiles and interior decoration items. Hand-made and hand-painted glassware is also a famous Swedish speciality.
+
+Popular Swedish clothing brands that you can find in several major stores include Acne Jeans, WESC, Cheap Monday, J Lindeberg, Whyred, Tiger and Filippa K. Recent years have seen an explosion of young designers starting their own small labels. Many of these can be found in the small shops in the SoFo area (see below). Examples are ''Nakkna'', ''Jenny Hellström'', ''Fifth Avenue Shoe Repair'' and ''The Stray Boys''.
+
+===Shopping areas===
+[[Image:Drottninggatanshopping.JPG|thumb|Drottninggatan commercial area.]]
+'''Drottninggatan''' in Norrmalm is dominated by major brands down at the '''Sergels Torg''' end before giving way to smaller and more specialised shops further north.
+
+Also connected to Drottninggatan is the square of '''Hötorget''' (''T-Hötorget''). Here is a daily fresh food market outside as well as [http://www.hotorgshallen.se/ Hötorgshallen], an indoor food market.
+
+'''Mood Stockholm''' [http://moodstockholm.se/] on Norrlandsgatan opened in 2012. This mall contains a lot of interesting boutiques not represented elsewhere in the city. ''(Mon-Fri 10:00-20:00, Sat 10:00-18:00, Sun 11:00-18:00)''.
+
+From '''Norrmalmstorg''' on Hamngatan which is accessible from ''T-Kungsträdgården'' station or ''Spårväg City'' from Sergels Torg up to '''Stureplan''' in Östermalm is a collection of high end shops including Gucci, Ralph Lauren, Louis Vuitton amongst others.
+
+In '''Östermalm''' is the main square '''Östermalmstorg''', a square which possesses Stockholm's best food hall, [http://www.ostermalmshallen.se/ '''Östermalms Saluhall'''] ''Östermalmshallen'' at ''T-Östermalmstorg''. ''(Mon-Thurs 09:30-18:00, Fri 09:30-19:00, Sat 09:30-16:00)''.
+
+* '''Sturegallerian''' [http://www.sturegallerian.se/ Sturegallerian] is an upmarket shopping mall at the famous nightlife district, '''Stureplan'''. Shopping and food are contained within this upmarket mall with some unique eateries available in the rear of the mall. Stureplan can also be reached by '''blue bus''' line number '''2'''. ''(Mon-Fri 10:00-19:00, Sat 10:00-17:00, Sun 12:00-17:00)''.
+
+===Selected stores===
+====Department stores====
+'''Nordiska Kompaniet''', ''NK'' [http://www.nk.se/sv/nk-stockholm/], is a classical department store on '''Hamngatan''' near ''T-Centralen''. ''(Mon-Fri 10:00-20:00, Sat 10:00-18:00, Sun 12:00-17:00)''.
+
+Another famous department store is '''[http://www.pub.se/ PUB]''' at '''Hötorget''', ''T-Hötorget''. ''(Mon-Fri 10:00-19:00, Sat 10:00-18:00, Sun 11:00-17:00)''.
+
+====Shopping centers====
+=====Suburban shopping centers and malls=====
+There are a number of shopping centers and malls in the major suburban centers. While different in size, they all have a similar profile, with cheap restaurants, supermarkets and major fashion, electronics and interior design chain stores, as well as some smaller shops. There is no obvious reason to venture outside the city centre, except perhaps for the possibility of Sunday evening shopping at Kista Galleria when inner-city shops all have closed.  
+
+====Fashion====
+'''Brand stores of Swedish fashion labels:'''
+
+* '''Store Stockholm''' [http://www.storestockholm.com] - at Tjärhovsgatan 3 ''(T Medborgarplatsen)'' specializes in small Swedish fashion designers. In the store you can find brand such as Noir&Blank, Odeur, Diana Orving, Nakkna and Göran Kling.
+
+====Books====
+* '''Science Fiction Bokhandeln''' [http://www.sfbok.se/] at Västerlånggatan 48 sells science fiction and fantasy books and toys.
+
+* '''Serieboden''' [http://www.serieboden.com/Home] is Stockholm's oldest comic book store. Located at Sven Vintappares gränd 2 in Gamla Stan.
+
+* '''The English Bookshop''' [http://bookshop.se] Only books english, also Scandinavian literature in english. Located in The Old Town (Gamla Stan) at the corner of Lila Nygatan and Kåkbrinken.
+
+====Music and media====
+On Sunday evenings from September to May at Skeppsholmen near the city center there is live Swedish folk music at '''Folkmusikhuset'''[http://folkmusikhuset.se/]. Just go there and listen or why not dance some Swedish folk dances. It is free entrance.
+
+====Glassware====
+* The large department stores '''Åhléns''', '''NK''' and '''PUB''' (see above) all have a wide selection of glassware.
+
+* '''Duka''', several locations: Västerlånggatan 78, +46 8 22 88 07, Sveavägen 24-26, +46 8 10 45 30, Konserthuset, Kungsgatan 41, +46 8 20 60 41. Duka is a Swedish chain selling both cheaper household items and a limited selection of glassware in several stores in central Stockholm.
+
+* '''Nordiska Kristall''', several locations: Kungsgatan 9 (''T Östermalmstorg''), +46 8 10 43 72, Österlånggatan 1 (''T Gamla Stan''), +46 8 10 77 18, also in Strand Hotel, Grand Hotel and City Hotel [http://www.nordiskakristall.com/]. Nordiska Kristall is an exclusive shop for crystal design glass. The Kungsgatan store has an art-glass gallery.
+
+====Furniture and design====
+* '''DesignTorget''', several locations, including: Kulturhuset/Sergels Torg, +46 8 21 91 50, and Götgatan 31 (''T Slussen''), +46 8 462 35 20 [http://www.designtorget.se]. Open M-F 10:00-19:00, Sa 10:00-17:00, Su 12:00-18:00. A design store specialising in smaller items, ranging from the beautiful to the useful to the downright eccentric.
+
+* '''Asplund''' furniture store, is an upscale store with world-class design. T Östermalmstorg.
+
+* '''R.O.O.M.''' is another great furniture and design store locaded in the PUB mall, T Hötorget.
+
+Many antiquties shops are located close to ''T Odenplan''. Good place to stroll around.
+
+If second hand is an option many Stadsmissionen and '''Myrorna''' (the Salvation Army shop) have fun and unique products that also contributes to a good cause. Especially Stadsmissionen Stortorget (''T Gamla stan'') has handpicked design and classical furiture.
+
+====Speciality Stores====
+* '''Garderoben''' [http://www.garderoben.se/] at Tegnérgatan 20 is a store which sells clothes and equipment for military, security and outdoors people. Open M-F 10:00-18:00, Sa 11:00-15:00.
+
+==Eat==
+: ''See [[#Districts]] for listings.''
+Stockholm features a large variety of restaurants. However, dining in Stockholm can be expensive, if you aim for something else than the fast food bars, the run-of-the-mill British-style pubs or the ethnic restaurants that dominate the budget bracket. Be prepared to pay around 175-250&nbsp;SEK or more for most main courses at quality restaurants. If you are on a tight budget, self-catering is probably the best option.
+
+Most hotels and hostels have a good breakfast buffet, in many cases included with the room.
+
+Most restaurants have "dagens rätt" - a lunch offer, normally including a non-alcoholic beverage, bread, butter, salad and coffee M-F, usually 11:00-14:00. Expect to pay between 65-100&nbsp;SEK. Generally more expensive downtown and cheaper in the suburbs. Many Asian, Pakistani, Indian, Mexican and fast food restaurants offer rather cheap "all you can eat" lunch buffets. Office workers usually go for lunch at noon, so try to show up just before, or past 13:00.
+
+Most restaurants' kitchens close at 22:00 even on weekends, so don't get out too late. Alcohol in restaurants is expensive. A glass of house wine can cost more than 100&nbsp;SEK, or 450&nbsp;SEK for a bottle. Sweden has enforced non-smoking in all bars, pubs, restaurants and enclosed areas. Smoking is usually permitted outdoors, or in designated smoking rooms/outdoor seating.
+
+Many Stockholm restaurants are closed for vacation for a few weeks in July and/or early August. In December, many restaurants offer a "''julbord''" ("Christmas buffet"), a variation of the classic Swedish ''smörgåsbord'' with traditional seasonal dishes such as ham, pickled herring, "lutfisk" (stockfish from cod or ling, prepared with lye) and much more, which might require advance booking, costing around 400-600&nbsp;SEK, beverages not included.
+
+In this cosmopolitan city, traditional Swedish cuisine, known as ''husmanskost'' or ''husman'' can be hard to get by. Many fine diners have a not-too-expensive ''husman'' course: some other places to eat Swedish are the ''Nystekt strömming'' wagon (meaning "freshly fried herring") at Slussen, ''Ät gott'' (S:t Göransgatan 74, Kungsholmen) and ''Tennstopet'' (Dalagatan 50, Norrmalm).
+
+''Guide Michelin'' recognizes six Stockholm restaurants: Two-star ''Frantzén/Lindeberg'' [http://www.frantzen-lindeberg.com/en/] and ''Mathias Dahlgren Matsalen'' (including one-star ''Mathias Dahlgren Matbaren'') [http://www.mathiasdahlgren.com/index.php?lang=En], and one-star ''Esperanto'' [http://www.esperantorestaurant.se/en/esperanto-en/], ''Fredsgatan 12'' [http://f12.se/en/] and ''Lux'' [http://luxstockholm.com/en/].
+
+* '''Sandys''' [http://www.sandys.se/], several locations throughout the city: Sergelarkaden 6 (''T T-Centralen''), Klarabergsgatan 31 (''T T-Centralen''), Stureplan 2 (''T Östermalmstorg'') and Götgatan 28 (''T Slussen''). A large Stockholm-based fast food chain focusing on submarine sandwiches, wraps and salads, Sandys offer a wide selection, reliable quality and acceptable prices, although not by any means a bargain. Sandwiches 49&nbsp;SEK (excluding drinks), XL sandwiches 59&nbsp;SEK, salads 65&nbsp;SEK.
+
+===Cafés===
+Taking a break for coffee and a pastry is an important Swedish tradition, called '''''fika''''', and there are many coffee-bars around the city. 
+
+Swedes are among the world's most avid consumers of coffee. Espresso-based drinks (cappuccino, latte, etc.) are popular, but the most traditional type of coffee is a strong brewed/drip coffee known as ''bryggkaffe''. 
+
+Order some baked goods like cinnamon rolls to go with the coffee. The traditional Swedish cinnamon roll is known as ''kanelbulle''. If you prefer tea, note that many cafés only offer a few flavours, but generally some black, red, and green teas. In spring, cafés will serve a traditional seasonal pastry known as ''semla'', which consists of a wheat bun with the top cut off, stuffed with almond paste and whipped cream. 
+
+Look at the district listings for local cafés, which offer a more personal experience, and better coffee than big chains. Expect to pay anything from 20&nbsp;SEK and upwards for a cup of regular black coffee.
+
+Don't hesitate to ask for a coffee refill (''påtår'' [paw-tawr] in Swedish) at cafés. The second cup of coffee is traditionally free of charge, although this is rarely the case at modern chains and franchises.
+
+Classic Stockholm cafés include, among many others: Vete-Katten and Systrarna Andersson (both in Norrmalm), Gunnarssons (Södermalm), Thelins (Kungsholmen), and Sture-Katten and Tössebageriet (both in Östermalm).
+
+==Drink==
+: ''See [[#Districts]] for listings.''
+
+===Retail drinks===
+: ''Further information: [[Sweden#Systembolaget]]''
+Drinking alcohol is generally allowed in public areas, with some obvious exceptions, such as schools, playgrounds, indoor malls and public transport areas. In some parks, drinking is prohibited from midnight. [http://www.stockholm.se/-/Karta/?lager=163931#lager=163931&centerposition=6580761%2C1626947&zoom=25 Map of dry areas]
+
+* '''Systembolaget''' [http://www.systembolaget.se/english/]. Generally open M-W 10:00-18:00, Th-F 10:00-19:00, Sa 10:00-15:00, all stores closed Su, is the government monopoly chain for selling alcohol. The stores have a wide assortment and very helpful, knowledgeable staff. Swedish alcohol taxation makes beer and hard liquor expensive. Surprisingly, more exclusive wines can be a bargain. Ask the staff for advice. You need to be able to prove that you are over 20 years old, so be sure to bring photo ID. They could occasionally ask people that are well above 30 for photo ID. For more information, see the section on Systembolaget in the ''[[Sweden#Systembolaget|Sweden]]'' article. Central locations include: 
+**Lilla Nygatan 18 (''T Gamla Stan''). 
+**Klarabergsgatan 62 (''T T-Centralen''). Extra late hours: Closes 20:00 all weekdays.
+**Norrlandsgatan 3 (''T T-Centralen or Kungsträdgården''). The largest Systembolaget store in Stockholm, with a special selection of exclusive wines.
+**Vasagatan 25 (''T T-Centralen'')
+**Nybrogatan 47 (''T Östermalmstorg'')
+**Folkungagatan 56 (''T Medborgarplatsen'')
+
+===Bars and nightclubs===
+The cost for drinking out in Stockholm can vary a lot. Expect to pay around 30&nbsp;SEK in the cheapest pub (55-75&nbsp;SEK in a trendier club or pub) for a beer or cider, and at least 95-150&nbsp;SEK for a long-drink or cocktail in a club. Bars usually have no cover charge, but may have an arbitrarily set (and arbitrarily enforced) minimum age limit (usually 21 or 23, sometimes as low as 18, other times as high as 27), while clubs usually charge 50-200&nbsp;SEK at the door (or more at special performances). Long, and very slow moving lines tend to form outside most popular clubs - expect having to wait as much as 1 hour or more if going to a trendy place after midnight, even if raining or snowing. Don't forget to '''bring an ID''', as bouncers could at anytime ask for identification at the door in both pubs and clubs.
+
+As in many other Swedish cities, clubs are quite often arranged illegally and underground outside of the city center. During the summer months, many open air parties are arranged. During fall and winter, there are underground parties in abandoned factories and other industrial buildings, like in many other cities. Some parties are only held once, while others are recurring. These are, naturally, not listed and are often informed of on a word of mouth or online community basis. Generally, such clubs play techno, house and other electronic music, and so, ask locals for advice in legal clubs that play the same genre. The Swedish word for clubs arranged illegally is '''svartklubb''' (literally black club). Due to the nature of such events, undercover police presence may be apparent and individuals could be searched for illegal substances at any moment.
+ 
+'''''Stureplan''''' is a district dominated by posh dancefloor nightclubs, at the crossing of ''Birger Jarlsgatan'', ''Kungsgatan'' and ''Sturegatan'', (''T Östermalmstorg''). The mushroom-shaped rain shelter is a common meeting point. High entrance fees (200&nbsp;SEK or more) and long lines. Can be difficult to get in to the clubs here if you are considered not fit in.
+
+'''''Södermalm''''' is a district which have many smaller bars and nightclubs focusing on art and electronic or alternative music. Look in nightlife magazines for places around Hornstull (such as Strand), Mariatorget (such as ''Sidetrack'', ''Marie Laveau'' and the Wednesday pop-club ''Baba Sonic'') and Skanstull (such as ''Trädgården'', ''Under Bron''). 
+
+Major bar streets are '''Götgatan''' (where most places are rather cheap pubs) and '''Bondegatan''' (with a younger and more trendy crowd), both on Södermalm, '''Rörstrandsgatan''' in western Vasastan (also rather trendy, but drawing a slightly older crowd) and the area around the '''Rådhuset''' and '''Fridhemsplan''' subway stations on '''Kungsholmen''' (with many small, cheaper and relaxed places). There are also many local pubs outside of the city centre, where many locals go and the beer is cheaper. Ask any swedes for directions and they will be happy to help you.
+
+''''' LGBTQ Parties'''''
+For gay and lesbian parties, visit the gay bars and ask for advice about where to go that night, since there might be limited options, and they vary from week to week. For men there are usually parties at Candy, Kingkong, Tank. Girls, ask around.  
+Gay bars: Sidetrack, Secret garden (mixed)
+Lesbian bars: Bitter Pills, Whippet Lab, Secret garden (mixed) Mbargo (not a lesbian bar but many lesbians hang out there)  
+
+Most restaurants and bars close at 01:00, larger clubs usually at 03:00. There are an exclusive few open till 05:00.
+
+More trendy clubs might have a long queue from midnight till closing time. Get out early (at least before midnight). A few posh and expensive clubs in the Stureplan district have an informal or outspoken dress code, ''vårdad klädsel''. Do not behave drunk in queues, as the guards may not be willing to let you in. Arguing aggressively with bouncers and security staff will certainly lead to serious consequences and is not recommended.
+
+If you can read Swedish, you can get more information about Stockholm's nightlife in the free monthly magazine Nöjesguiden, the newspaper Dagens Nyheter on Thursdays, the free QX gay magazine for LGBT events and the free Metro on Fridays.
+
+==Sleep==
+: ''See [[#Districts]] for listings.''
+As of 2016, Stockholm has fairly typical hotel prices for Nordic regions. You can expect to pay around 2000-2500 SEK (~€220-€270) for a double room in a 4* hotel, and anywhere from 800-1200 SEK for the cheapest 2* private double rooms. Hotels located far from city center are generally cheaper, as are hostels and private rooms without en suite bathrooms. Try to find one close to public transport. As throughout other major European cities, apartment rental services such as AirBNB provide competitive options as compared to traditional hotels. 
+
+The cheap bunks are in short supply. Look for hostels at Svenska Turistföreningen, [http://www.svenskaturistforeningen.se/en/] and SVIF [http://www.svif.se/en/] Advance booking is recommended, especially during summer, and for those in the inner city. Stockholm has some spectacular hostels, such as '''af Chapman''' at Skeppsholmen, [http://www.svenskaturistforeningen.se/en/Discover-Sweden/Facilities-and-activities/Stockholm/Vandrarhem/STF-Hostel-af-Chapman--Skeppsholmen/], '''Långholmen''' [http://www.langholmen.com/En/Hostel/AboutHostel.aspx], '''Jumbostay'''  [http://www.jumbostay.com/] at Arlanda, and '''Best Hostel''' at the Old Town waterfront [http://www.besthostel.se/en].
+
+The lowest cost per bed can be found on the [[Baltic Sea cruiseferries]].
+
+==Contact==
+===Phone=== 
+Phone booths are very rare as are public phones in general as most people have switched to cell phones. Prepaid cards are available and usually also include Internet access at a reasonable price. Coverage is excellent in Stockholm, even in the subway and road tunnels. 
+
+===Internet access===
+There are a number of places where you can access the Internet in central Stockholm.
+
+An alternative for any visitor to Sweden is to buy a pre-paid USB 3G/4G modem. These can be had cheaply (down to 150&nbsp;SEK) and the 3G/4G coverage in Stockholm is excellent. Expect to pay around 100&nbsp;SEK/week or 300&nbsp;SEK/month to use the 3G modem. Data limits are typically high (5 GB/Month but up to 20&nbsp;GB or more is also available)
+
+
+===WiFi===
+Many cafés, hotels, libraries offer free wi-fi access. McDonalds and the local version Max also offers good free Wifi in their restaurants. The site [http://www.wifikartan.se/Stockholm/ Wifikartan] show most of the free wi-fi access points in Stockholm and most of Sweden as well. 
+
+* '''Skype''' offers wi-fi access in some areas called Skype Zones [http://www.skype.com/allfeatures/skypezones/]. This service used to be offered for free as a test, but now seems to be subject to a fee.
+
+* '''Telia HomeRun''' [http://www.homerun.telia.com/eng/start/default.asp] is a commercial wi-fi service that covers many points in central Stockholm with wi-fi.
+
+===Internet terminals===
+* The company '''Sidewalk Express''' operates internet terminals in a number of convenience stores (most '''7 Eleven''' and many '''Pressbyrån''' stores) and some other shops and public locations, including the main hall in the Stockholm Central railway station. Check their website [http://www.sidewalkexpress.se/locations.aspx?country=14&city=12] for a full list of locations. Most terminals are however quite uncomfortable to use (metallic keyboards, stand-up only access etc.) and fairly expensive. Unused time from one Sidewalk Express location can be reused at any other terminal in Sweden within 5 days.
+
+* You can often use the internet for free at the public libraries (but you may have to ask first). Big libraries can be found at Medborgarplatsen (''T Medborgarplatsen'') and Sveavägen 73 (''T Odenplan'').
+
+* The Central Station has '''Stockholmspanelen''', information terminals with keyboards and web browsers that have full internet access but no address bar to type in the URL of the site you want to visit. But if you are clever there's a way to get to Google, you can then type in the URL you want to visit and hit "Search".
+
+* There are also a number of more gaming-oriented internet points. These are often open late nights.
+** '''Matrix''' &mdash; The underground hall in the Kungsgatan exit of the metro station Hötorget. Open Su-Th 10:00-24:00, F-Sa 10:00-03:00. A centrally located 80-terminal gamer den with generous opening hours.
+** '''Inferno Online''', situated at Odenplan (metro station). The largest gaming/internet-cafe in the world. If you are a new user you need to create an account (free) and then pay for the amount of hours you want on your account (the prices are low compared to other internet terminals). Their website: http://www.infernoonline.com/
+
+==Stay safe==
+<!--Remark: Before adding warnings to this section, propose them in [[Talk:Stockholm]] for discussion. Unsupported claims will be deleted.-->
+Stockholm is a safe city by international standards. As in other cities, however, you should avoid late-night walks through deserted areas of the city or through unlit parks. 
+
+Stockholm has an exciting night-life. As in most countries, being overly intoxicated is not accepted in most bars and clubs, and could lead to the security staff forcibly ejecting the trouble-maker. Swedish people tend to binge-drink, and as usual, alcohol might fuel violence. 
+
+Most crimes against tourists are crimes of opportunity, such as '''pick-pocketing, bicycle theft, auto theft, and auto vandalism'''. As always, do not leave valuable items in your car, and watch your bag in crowded places. Most shops and all major taxi companies accept credit and debit cards, so there is no need to carry a lot of cash. Be more aware of your belongings in crowded areas such as festivals, nightclubs, markets, airports, and public transport areas. 
+
+Prefer the major cab companies ('''Taxi Stockholm, Taxi Kurir''', '''Sverigetaxi''' and '''Topcab''') to avoid overcharging, and have a better chance of having belongings lost in the car returned to you.
+
+During summer, groups of street gamblers try to scam their audience on Drottninggatan and in other touristed areas. They use a variety of tricks one of them being planting a few of their own in the crowd. Don't play, you will lose.
+
+Though Sweden has an extensive welfare system, impoverished people can be seen begging all over town. Most of these people are Romani who travel from Eastern Europe to Stockholm just to beg for money. It is not recommended to give them money but rather a responsible way to address their situation is to buy the street paper, ''Situation Stockholm'', for 50&nbsp;SEK. You may also come upon beggars feigning disabilities, or handing out laminated begging cards on the subway. Buying food or water for someone begging is also a good way of helping, without risking that your money goes in the wrong hands.
+
+Stockholm is a very friendly to sexual minorities. Homophobic and transphobic attitudes will be met with outright hostility from many swedes. All parties in the Swedish parliament take a radical standpoint against harassment and violence towards sexual minorities. Same-sex couples will have no trouble living openly in Stockholm, which includes holding hands or kissing in public around the city. Despite this fact, common sense should be used late at night in some areas. The openness towards sexual minorities is not shared by the communities living in many of the cities poorer suburbs and being openly gay there might be right out dangerous.
+
+==Respect==
+* When using '''escalators''', the rule is to stand on the right and to use the left side for walking up the stairs. On '''train and subway platforms''', wait at the side of the door to allow all passengers leave the car before attempting to board. Failure to respect these rules can annoy locals considerably, especially during rush hour.
+
+* Avoid walking in the cycle lane. Dedicated cycle paths are clearly marked, but sometimes run directly next to the pavement (sidewalk). Stockholm cyclists are subject to a comparatively hilly landscape and are unwilling to slow down and lose momentum. Usually, however, they are careful, signal clearly and use their bells, meaning that straying tourists most often are just cursed at.
+
+* When waiting in lines, be patient and polite. Swedes seldom jump queues - but make sure you actually stand in the line. If unsure, ask. 
+
+* Personal space is important to Swedes, and it tends to be more expansive than in other cultures. Avoid standing very close to another person or taking a seat immediately next to another passenger, unless necessary.
+
+* Many Swedes are annoyed by attention-seeking or intrusive behavior. Speaking very loudly and playing music in public spaces/on public transport, or using telephones on speaker mode, are generally frowned upon.
+
+* Swedes tend to silently expect others to be mindful of local norms, including personal space and queuing, but many will also avoid direct interventions or criticism. Irritation over perceived transgressions may instead be expressed through small, subtle signs that can be difficult to pick up on, or not articulated at all. However, most are happy to assist or explain if asked.
+
+==Cope==
+Some things to pack:
+: ''See also [[Sweden#Bring]].''
+* Comfortable shoes. Stockholm is best experienced on foot.
+* An umbrella or a raincoat for wet weather.
+* Warm clothes in good materials (Long johns/stockings under your pants/skirt will keep you warm without looking like you wear your ski-outfit). 
+
+===Getting cash===
+There are many ATMs in the city, but some foreign card-holders, such as a Canadian, have reported trouble in using them, even when they purport to be connected to international networks their banks are part of, so consider doing some research before you arrive.
+
+There are many locations of a currency exchange called Forex, but they charge a whopping 50&nbsp;SEK (4.7&nbsp;€) commission on top of their buy-sell spread.
+
+Credit/debit cards are widely accepted even for small amounts. Most places accept identification and a signature, but PIN-transactions are preferred.
+
+===Toilets===
+Finding a good toilet in Stockholm can be tricky. Many department stores and fast-food restaurants have clean toilets, often for the charge of 5&nbsp;SEK. That is also the cost of public toilet booths found in most city squares (though these might be messy) so be sure to carry some 5 and 10 SEK coins. Restaurants' toilets are often reserved for customers, and might be messy depending on the establishment. Some good, clean toilets are found in ''Max'' at Norrmalmstorg, and in the bar Sturehof (at Stureplan - the establishment is too big for crew to keep track of people borrowing the toilet). Urinating in town is illegal, but urinals are often free even if you have to pay for a WC. The libraries, museums, and government buildings often have free, clean toilets.
+
+Most major hotels have clean lobby toilets. Some of them might be reserved for house guests and require an access code, but travellers can often get access to them on request.
+
+===Laundry===
+Since all Swedish apartments either have a washing machine or access to a communal laundry room, there are virtually no self-service laundries to be found in Stockholm, with one exception:
+* '''Tvättomaten''', Västmannagatan 61 (''T Odenplan''), + 46 8 34 64 80, [http://www.tvattomaten.se]. Open M-F 08:30-18:30, Sa 09:30-15:00 (closed Sa from end of June to mid-August, closed one week at the end of July). Self service price: 50&nbsp;SEK without drying, 100&nbsp;SEK with drying (per machine, up to 5&nbsp;kg). 
+Most youth hostels have washing machines. Some dry cleaners offer to wash shirts and bed linen as well, but this tends to be quite expensive.
+
+===Health===
+Swedish healthcare is generally of high quality, although you may have to face a long wait in emergency rooms. How fast you get to see the doctor is dependent on how ill you are and if others are sicker. If you have a small wound that needs stitches you will wait if there are victims of a car-accident. But if you are in a bad car-accident you know you will get help first. Money, name or title won't help pass the queue.
+
+EU/EES citizens with a European Health Insurance card pay the same (rather low) fee for emergency and necessary care as a local citizen. Others must pay the whole health care cost (which can be between 1,700 and 2,200SEK for a doctor’s visit at an emergency care unit at a hospital). More information on hospital fees can be found on the Stockholm County information site [http://www.vardguiden.se/Article.asp?c=3372].
+
+In an '''emergency''', always '''call 112''' for SOS Alarm, for ambulance, police, fire service, air and sea rescue, mountain patrol, or priest on call. English-speaking operators are available.
+
+There are two hospitals with 24-hour emergency care units in the inner city:
+* '''S:t Görans Sjukhus''', S:t Göransplan 1 (''T Fridhemsplan or T Stadshagen''), +46 8 58 70 10 00, [http://capiostgoran.se/english/].
+* '''Södersjukhuset''', Sjukhusbacken 10 (''Bus 3, 74 or 164 from T Skanstull, bus 74 from T Mariatorget or commuter train to Stockholm Södra''), +46 8 616 10 00, [http://www.sodersjukhuset.se/Functions/InEnglish/].
+
+For less serious illnesses and ailments, getting in touch with a local clinic, ''vårdcentral'', is a much better option than the hospital emergency rooms. The Stockholm County healthcare hotline '''Vårdguiden''' (+46 8 320 100, [http://www.vardguiden.se/Article.asp?c=3519]) can give medical advice and help you find a doctor. While information is officially given in Swedish only, the doctors can often speak some English.
+
+====Pharmacies====
+The pharmacy market has recently been de-regulated, giving some competition to the state-operated monopoly chain '''Apoteket'''. Certified pharmacies have a green cross sign. You can buy over-the-counter medicine (such as paracetamol, ibuprofen, throat and cough relief tablets or nose-sprays) in almost any supermarket or convenience store.
+
+* '''Apoteket C W Scheele''', Klarabergsgatan 64 (''T T-Centralen''), +46 8 454 81 30. This pharmacy is centrally located and open 24 hours, all days of the week, including holidays. Service is limited late at night, and can be slow, but they have a very large inventory of specialized drugs. 
+* '''Apotek Hjärtat''', Krukmakargatan 13 (''T Mariatorget''). Located on Södermalm, with extra long operating hours: 08:00-22:00 all days of the week.
+
+===Tap water===
+The tap water in Stockholm is of very high quality. There is no reason for buying bottled water, which often is of lower quality than, or actually is, tap water. It is also completely accepted to ask for tap water in restaurants. Many places have a tap and glasses for self-service.
+
+===Embassies===
+* [[Image:as-flag.png|20px]]  <listing name="Australia" alt="" address="Klarabergsviadukten 63, 8th Floor, Stockholm" directions="" phone="+46 8-613 2900" url="http://www.sweden.embassy.gov.au/" hours="" price="" lat="" long="" fax="+46 8-248505"></listing>
+
+* [[Image:au-flag.png|20px]]  <listing name="Austria" alt="" address="Kommendörsgatan 35/V, 114 58 Stockholm" directions="3 minute walk from T-Bana station Karlaplan" phone="+46 8-665 1770" email="stockholm-ob@bmeia.gv.at" url="http://www.bmeia.gv.at/botschaft/stockholm.html"></listing>
+
+* [[Image:bu-flag.png|20px]]  <listing name="Bulgaria" address="Karlavägen 29, 114 31 Stockholm" phone="+46 8 723 09 38" url="http://www.mfa.bg/index.php?page=15&staticpage=findanembassy&posolstvo=172"></listing>
+
+* [[Image:br-flag.png|20px]]  <listing name="Brazil" address="Odengatan 3, 114 24 Stockholm" phone="+46 8-5451 6320" fax="+46 8-5451 6315" url="http://www.brazilianembassy.se/english"></listing>
+
+* [[Image:ca-flag.png|20px]]  <listing name="Canada" alt="" address="Klarabergsgatan 23, 6th Floor, PO Box 16129 S - 103 23 Stockholm" directions="" phone="+46 8-453 3000" url="http://www.canadaemb.se/" hours="M-Th: 08:30-12:25 and 13:00-17:00 F: 08:30-12:25 and 13:00-15:00" price="" lat="" long="" fax="+46 8 453 30 16" email="stkhm-cs@international.gc.ca"></listing>
+
+* [[Image:ch-flag.png|20px]]  <listing name="China" address="Lidovägen 8，115 25 Stockholm"
+phone="+46 8-5793 6429" fax="+46 8-5793 6452" email="info@cnedu.nu" url="http://www.fmprc.gov.cn/ce/cese/eng/"> </listing>
+
+* [[Image:eg-flag.png|20px]]  <listing name="Egypt" alt="" address="Strandvägen 35, 114 56 Stockholm" directions="" phone="+46 8 459 9860" url="http://www.mfa.gov.eg/english/embassies/Egyptian_Embassy_Sweden/Pages/default.aspx" hours="9:00 AM - 17:00 PM" price="" lat="" long="" fax="" email=""> </listing>
+
+* [[Image:et-flag.png‎|20px]]  <listing name="Ethiopia" alt="" address="Löjtnantsgatan 17, 115 50 Stockholm" directions="" phone="+46 8-661 6311" url="http://www.ethemb.se/" hours="" price="" lat="" long="" fax="+46 8-660 9561" email=""> </listing>
+
+* [[Image:fr-flag.png‎|20px]]  <listing name="France" alt="" address="Kommendörsgatan 13, box 5135, 102 43 Stockholm" directions="" phone="+46 8 45 95 300" url="http://www.ambafrance-se.org/" hours="Consulate open M-F: 9:00-12:30" price="" lat="" long="" fax="+46 8 45 95 341" email="info.stockholm-amba@diplomatie.gouv.fr"> </listing>
+
+* [[Image:de-flag.png‎|20px]]  <listing name="Germany" alt="" address="Skarpögatan 9, 115 27 Stockholm" directions="" phone="+46-8-670 15 00" url="http://www.stockholm.diplo.de/" hours="M-F: 9:00-12:00 and S: 9:00-12:00 / 13:30-15:30" price="" lat="" long="" fax="+46-8-670 15 72" email=""> </listing>
+
+* [[Image:gr-flag.png|20px]]  <listing name="Greece" address="Kommendorsgatan 16, 114 48 Stockholm"
+phone="+46 8-5456 6010, Emergencies: +46 7-6580 0952" fax="+46 8-660 5470" email="grembstockholm@greekembassy.se" url="http://www.greekembassy.se" hours="M-F: 09:00-16:00"> </listing>
+
+* [[Image:in-flag.png|20px]] <listing name="India" alt="" address="Kyrkogata 12, Bov 1340, 111 83 Stockholm" directions="" phone="+46 8-107 008, 411 3212, 411 3213" url="http://www.indianembassy.se/" hours="" price="" lat="" long="" fax="+46 (0)8 248505"></listing>
+
+* [[Image:id-flag.png|20px]] <listing name="Indonesia" alt="" address="Kungsbroplan 1, 4 fl, (P.O.BOX 130 62) 112 27 Stockholm" directions="" phone="+46 8 5455-5880" url="http://www.kemlu.go.id/stockholm/id/default.aspx" email="stockholm.kbri@kemlu.go.id" hours="" price="" lat="" long="" fax="+46 8 650-8750"></listing>
+
+*  [[Image:ei-flag.png|20px]] <listing name="Ireland" address="Hovslagargatan 5, P.O. Box 10326, 111 48 Stockholm" phone="+46 8-5450 4040" fax="+46 8-660 1353
+" email="stockholmembassy@dfa.ie" url="http://www.embassyofireland.se"></listing>
+
+* [[Image:is-flag.png|20px]] <listing name="Israel" alt="" directions="" address="Storgatan 31" phone="+46 8 5280 6500" email="INFO@STOCKHOLM.MFA.GOV.IL" fax="+46 8 5280 6555" url="http://stockholm.mfa.gov.il/" hours="" price=""></listing>
+
+*[[Image:my-flag.png|20px]] <listing name="Malaysia" address="Karlavägen 37, P.O.Box 26053, Stockholm" phone="+46 8-440 8400" fax="+46 8-791 8760 " url="http://http://www.kln.gov.my/web/swe_stockholm/home"></listing>
+
+*  [[Image:Nz-flag.png|20px]] <listing name="New Zealand" address=""Nybrogatan 11, 3rd Floor, 114 39 Stockholm" phone=+46 8-459 6940 After hours (emergency) phone=+46 8-459 6940 (gives Duty Officer contact details)" Fax="+46 8-4596 9591" Email="nzemb.skm@mft.net.nz"></listing>
+
+* [[Image:ru-flag.png|20px]]  <listing name="Russia" alt="" address="Gjörwellsgatan 31, 112 60 Stockholm" directions="" phone="+46 813 04 41" url="http://www.ryssland.se/" hours="" price="" lat="" long="" 8-13="8-13" 04="04" 8-619="8-619" 70="70" on="on" consular="consular" issues="issues" 9-12="9-12" fax="+46 8-618 27 03" email="rusembassy@telia.com"></listing>
+
+* [[Image:sp-flag.png|20px]]  <listing name="Spain" alt="" directions="" address="Djurgårdsvägen, 21 SE - 115 21 Stockholm"
+phone="+46 8-5228 0800" email="Emb.Estocolmo@maec.es" fax="+46 8-660 3034" url="" hours=""></listing>
+
+*  [[Image:tr-flag.png|20px]] <listing name="Turkey" address="Dag Hammarskjölds Vag 20, 115 27 Stockholm" phone="+46 8-2308 4045" fax="+46 8-663 5514" url="http://stokholm.be.fscnet.net/"></listing>
+
+* [[Image:uk-flag.png|20px]]  <listing name="United Kingdom of Great Britain and Northern Ireland" address="Skarpögatan 6-8, Box 27819, 115 93 Stockholm" phone="+46 (0)8 671 3000" fax="+46 8-662 9989" url="http://ukinsweden.fco.gov.uk/en/"></listing>
+
+* [[Image:us-flag.png|20px]]  <listing name="United States of America" alt="" directions="" address="Dag Hammarskjölds Väg 31, 115 89 Stockholm"
+phone="+46 8-783 5300" email="" fax="+46 8-660 5879" url="http://stockholm.usembassy.gov/" hours=""></listing>
+
+==Get out==
+[[File:Sandhamn February 2013 04.jpg|thumb|300px|Sandhamn, Stockholm archipelago.]]
+* '''[[Stockholm archipelago]]''', with places such as Vaxholm, Grinda, Sandhamn and Utö.
+
+* '''[[Ekerö|Drottningholm]]'''&mdash;The Royal family lives at the 18th century World Heritage '''Drottningholm Palace''' on the Lovö island, 30 minutes from central Stockholm public transport. The 18th century palace is beautiful, and much of it is open to the public. The surroundings are well worth a walk as well. In the summertime, there is a regular boat service from Stadshuskajen (the City Hall Quay) to Drottningholm: [http://www.strommakanalbolaget.com/index-EN.htm]
+
+* '''[[Ekerö|Birka]]'''&mdash; For the real Viking buff, there's '''Birka''' [http://www.raa.se/birka_eng/index.asp], the site of a former Viking city of about 1,000 inhabitants situated on Björkö, an island in Lake Mälaren. In recent years, a replica of the old city has been built up. Boats to Björkö are operated by Strömma Kanalbolaget [http://www.strommakanalbolaget.com/index-EN.htm]. Birka can also be reached by public transport to Rastaholm, and boarding a boat (see timetable [http://www.stromma.se/en/Stockholm/The-Archipelago/Day-trips/Birka---The-Viking-City/]).
+
+* '''[[Uppsala]]'''&mdash; The fourth largest city in Sweden, 40 minutes away by trains departing several times every hour. Highlights include the largest cathedral in Scandinavia, Sweden's oldest university, a rich collection of botanical gardens including those by world-famous botanist Carl Linnaeus, and a pre-Viking heritage site with the famous royal burial mounds.
+
+* '''[[Sigtuna]]''' [http://www.sigtunaturism.se/]&mdash; Oldest surviving Swedish town, effectively Sweden's capital during the Middle Ages. Streets are small here and dotted with low built wooden houses. Lies north of Stockholm and makes a good daytrip. Take the commuter train to Märsta and change to bus 570, 572 and 575 for Sigtuna. All operated by SL.
+
+* '''[[Södertörn|Bornsjön]]'''&mdash;  For a real wild animal safari close to Stockholm, Bornsjön is the best spot. It is a nature reserve 30 minutes drive south of Stockholm. The natural environment is perfect here for watching mammals like moose, roe deer and wild boar. Stockholm Outback offers tours down to the reserve every evening during the summer. For further information call +46 73-6578708 or visit their homepage [http://www.sthlmoutback.se/].
+
+* '''[[Roslagen]]''', the coastal area of ''Uppland'', north-east of Stockholm. '''Norrtälje''' is the major city, conveniently reached by buses leaving from ''Tekniska högskolan''. The area offers an almost endless variety of public lakes, beaches, coves, cliffs, islands, forests, farmland, wild animals, fishing, trekking, free camping and just about everything for nature lovers and independent travelers. Also a perfect location to see Swedes in their recluse summer homes, enjoying all concievable outdoor activities and marine sports. 
+
+{{routebox
+| image1=E4.png
+| imagesize1=22
+| directionl1=S
+| majorl1=[[Norrköping]]
+| minorl1=[[Nyköping]]
+| directionr1=N
+| majorr1=[[Sundsvall]]
+| minorr1=[[Märsta]]
+| image2=E18.png
+| imagesize2=22
+| directionl2=W
+| majorl2=[[Oslo]]
+| minorl2=[[Västerås]]
+| directionr2=E
+| majorr2=[[Turku]] ([[Image:Ferry.png|18px]])
+| minorr2=[[Norrtälje]]
+| image3=E20.png
+| imagesize3=22
+| directionl3=W
+| majorl3=[[Göteborg]]
+| minorl3=[[Örebro]]
+| directionr3=E
+| majorr3=[[Tallinn]]
+| minorr3=[[Image:Ferry.png|18px]]
+}}
+
+{{isPartOf|Svealand}}
+{{guidecity}}
+{{cityguide}}
+
+[[de:Stockholm]]
+[[eo:Stokholmo]]
+[[es:Estocolmo]]
+[[fi:Tukholma]]
+[[fr:Stockholm]]
+[[hu:Stockholm]]
+[[it:Stoccolma]]
+[[ja:ストックホルム]]
+[[nl:Stockholm]]
+[[pl:Sztokholm]]
+[[pt:Estocolmo]]
+[[ro:Stockholm]]
+[[sv:Stockholm]]
+[[wts:Category:Stockholm]]
+
+
+[[WikiPedia:Stockholm]]
+[[World66:europe/sweden/stockholm]]

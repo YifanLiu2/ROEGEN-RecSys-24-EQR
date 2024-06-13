@@ -1,4 +1,4 @@
-from aspect import *
+from .aspect import *
 
 class Query:
     """
@@ -9,22 +9,42 @@ class Query:
     :param preferences (list[Preference]): A list of user preferences.
     :param constraints (list[Constraint]): A list of conditions that the query must satisfy.
     """
-    def __init__(self, description: str, preferences: list[Preference], constraints: list[Constraint]):
+    def __init__(self, description: str, preferences=None, constraints=None, hybrids=None):
         self.description = description
-        self.preferences = preferences
-        self.constraints = constraints
+        self.preferences = preferences if preferences is not None else []
+        self.constraints = constraints if constraints is not None else []
+        self.hybrids = hybrids if hybrids is not None else []
+
+    def get_all_aspects(self) -> list[Aspect]:
+        """
+        Return a list of aspects in user query.
+        """
+        # otherwise, return all aspects
+        return self.get_preferences() + self.get_constraints() + self.get_hybrids()
+        
+    def get_description(self) -> str:
+        """
+        Return the description of the query.
+        """
+        return self.description
     
     def get_preferences(self) -> list[Preference]:
         """
-        Return the list of user preferences.
+        Return a list of user preferences.
         """
         return self.preferences
     
     def get_constraints(self) -> list[Constraint]:
         """
-        Return the list of constraints.
+        Return a list of user constraints.
         """
         return self.constraints
+        
+    def get_hybrids(self) -> list[Hybrid]:
+        """
+        Return a list of hybrids.
+        """
+        return self.hybrids
     
     def add_preference(self, preference: Preference):
         """
@@ -41,3 +61,11 @@ class Query:
         :param constraint (Constraint): The constraint to be added.
         """
         self.constraints.append(constraint)
+
+    def add_hybrid(self, hybrid: Hybrid):
+        """
+        Adds a hybrid aspect to the query.
+
+        :param hybrid (Hybrid): The hybrid to be added.
+        """
+        self.hybrids.append(hybrid)
