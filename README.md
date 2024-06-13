@@ -4,7 +4,7 @@ This is an LLM-based recommender for travel destinations.
 ## Set-up
 Run the following command line to set up enviroment:
 ```bash
-conda create -n PyTravel python=3.9
+conda env create -f environment.yml
 ```
 
 ## Embedder 
