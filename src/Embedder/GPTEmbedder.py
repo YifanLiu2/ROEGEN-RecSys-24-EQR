@@ -1,9 +1,6 @@
-import argparse
 import torch
 from openai import OpenAI
 from src.Embedder.LMEmbedder import LMEmbedder
-from config import API_KEY
-
 
 class GPTEmbedder(LMEmbedder):
     """
@@ -23,22 +20,5 @@ class GPTEmbedder(LMEmbedder):
 
         return torch.Tensor([s.embedding for s in response.data])
 
-def main():
-    parser = argparse.ArgumentParser(description="Generate embeddings for text files using a GPT model.")
-    parser.add_argument("-d", "--data_path", type=str, required=True, help="Path to the directory containing text files.")
-    parser.add_argument("-o", "--output_dir", type=str, required=True, help="Path where embeddings should be saved.")
-    parser.add_argument("--split_type", type=str, default="section", choices=["sentence", "section"],
-                        help="The type of text splitting to apply before embedding.")
-    parser.add_argument("-m", "--model_name", type=str, default="text-embedding-3-small",
-                        help="The name of the GPT model to use for generating embeddings.")
-
-    args = parser.parse_args()
-
-    embedder = GPTEmbedder(api_key=API_KEY, model_name=args.model_name, split_type=args.split_type)
-    embedder.create_embeddings(args.data_path, args.output_dir)
-
-if __name__ == "__main__":
-    main()
-    
     
 
