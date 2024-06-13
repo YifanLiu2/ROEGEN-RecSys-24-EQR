@@ -5,7 +5,6 @@ from src.LLM.GPTChatCompletion import *
 from src.Entity.query import *
 from src.Entity.aspect import *
 
-MODE = {"expand", "reformulate", "elaborate"}
 ANSWER_FORMAT = """{{"answer": {answer}}}"""
 
 class queryProcessor:
@@ -21,15 +20,6 @@ class queryProcessor:
         :param output_dir:
         """ 
         self.llm = llm
-
-        if mode_name is not None and mode_name not in MODE:
-            raise ValueError(f"Invalid mode name: {mode_name}, could only be {MODE}")
-
-        if not input_path.endswith('.txt'):
-            raise ValueError(f"Invalid file type: {input_path} is not a .txt file")
-        
-        os.makedirs(output_dir, exist_ok=True)
-
         self.mode_name = mode_name
         self.output_dir = output_dir
         self.query_list = self._load_queries(input_path)
@@ -45,6 +35,10 @@ class queryProcessor:
 
             # extract preferences and constraints
             preferences, constraints, hybrids = self._extract_aspects(query=query)
+            print(query)
+            print(preferences)
+            print(hybrids)
+            print(constraints)
 
             # preferences
             for p in preferences:
@@ -76,23 +70,49 @@ class queryProcessor:
                     aspect.set_new_description(new_description=new_desc)
             
             result_queries.append(curr_query)
-        
+
         self._save_results(result=result_queries)
         return result_queries
     
-    def _load_queries(self) -> list[str]:
+    def _load_queries(self, input_path: str) -> list[str]:
         """
         """
-        with open(self.input_path, "r") as f:
+        with open(input_path, "r") as f:
             queries = [line.strip().lower() for line in f]
         return queries
     
     def _save_results(self, result: list[Query]):
         """
         """
-        file_path = os.path.join(self.output_dir, f"processed_query_{self.mode_name}.pkl")
-        with open(file_path, "wb") as f:
+        pkl_path = os.path.join(self.output_dir, f"processed_query_{self.mode_name}.pkl")
+        with open(pkl_path, "wb") as f:
             pickle.dump(result, f)
+
+        query_data = []
+        for query in result:
+            query_info = {
+                "Query": query.get_description(),
+                "Preferences": [
+                    {
+                        preference.get_original_description(): preference.get_new_description()
+                    } for preference in query.get_preferences()
+                ],
+                "Constraints": [
+                    {
+                        constraint.get_original_description(): constraint.get_new_description()
+                    } for constraint in query.get_constraints()
+                ],
+                "Hybrids": [
+                    {
+                        hybrid.get_original_description(): hybrid.get_new_description()
+                    } for hybrid in query.get_hybrids()
+                ]
+            }
+            query_data.append(query_info)
+            json_path = os.path.join(self.output_dir, f"processed_query_{self.mode_name}.json")
+
+            with open(json_path, 'w') as f:
+                json.dump(query_data, f, indent=4)
         
     def _extract_aspects(self, query: str) -> tuple[list[str], list[str], list[str]]:
         """

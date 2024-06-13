@@ -100,6 +100,7 @@ class AbstractRetriever(abc.ABC):
         :return: dict[str, tuple[float, list[str]]], fused results from all destinations.
         """
         # return format: (dest_score, {"aspect": top_chunk})
+        
         fused_results = tuple()
         dest_score = 0
         top_chunks = dict()
