@@ -14,16 +14,8 @@ class AbstractRetriever(abc.ABC):
     def __init__(self, model: LMEmbedder, query_path: str, dense_embedding_dir: str, output_path: str, percentile: float = 10):
         self.model = model
         self.query_path = query_path
-        
-        # check embedding dir
-        if not os.path.exists(dense_embedding_dir):
-            raise ValueError(f"Invalid directory path for destination embeddings: {dense_embedding_dir}")
         self.dense_embedding_dir = dense_embedding_dir
-
-        # check output path
-
         self.output_path = output_path
-
         self.percentile = percentile
     
     def load_queries(self) -> list[str] | list[Query]:

@@ -2,23 +2,29 @@
 This is an LLM-based recommender for travel destinations. 
 
 ## Set-up
-Run the following command line to set up enviroment:
-```bash
-conda env create -f environment.yml
-```
+1. Run the following command to set up your OpenAI API key:
+    ```bash
+    cp config_template.py config.py
+    ```
+    Open `config.py` and replace `"YOUR_API_API_KEY"` with your actual API key.
+
+2. Run the following command to set up enviroment:
+    ```bash
+    conda env create -f environment.yml
+    ```
 
 ## Embedder 
 The embedder encodes destination text data scraped from Wiki-travel into high-dimensional vector representations, using either a GPT-based model or a Sentence-Transformer based model.
 
 ### Usage 
-Run the following command line:
+Run the following command:
 ```bash
 python -m src.Embedder.embedderRunner -d data/clean_destination_air_canada_xml -o output --split_type <sentence_or_section> --emb_type <gpt_or_st>
 ```
 - `-d, --data_path`: Path to the directory containing text files.
 - `-o, --output_type`: Path where embeddings should be saved.
-- `--split_type`: The type of text splitting to apply before embedding. Choices are 'sentence' or 'section'.
-- `--emb_type`: Specify the type of the embedder. Available types are 'gpt' or 'st'.
+- `--split_type`: The type of text splitting to apply before embedding. Available types: 'sentence' or 'section'.
+- `--emb_type`: Specify the type of the embedder. Available types: 'gpt' or 'st'.
 
 ## Query Processor
 The query processor analyzes a given user query by breaking it down into a list of aspects and then applies different processing strategies to each aspect to better capture and reflect the user's intent:
@@ -49,8 +55,8 @@ Run the following command line:
 python -m src.Retriever.retrieverRunner -q query/path -e embeddings/path -o output/path --emb_type <gpt_or_st>
 ```
 
-- `-q, --query_path`: Path to the input file containing processed queries. This should be a pickle file that holds the prepared and structured query data.
+- `-q, --query_path`: Path to the input file containing processed queries. This should be a pickle file that holds the processed query from `QueryProcessor` module.
 - `-e, --embedding_dir`: Directory containing the embeddings that represent the textual data of the destination texts.
-- `-o, --output_path`: Path where the retrieval results will be stored. The output should be a JSON file. The format of the output is `{"query": {"city": (aggregate_score, {"aspect": (aspect_score, [top_chunks])})}}`, which provides scores and relevant text chunks for each city and query aspect.
-- `--emb_type`: Specifies the type of embedder used to generate the embeddings. Available types are 'gpt' (GPT-based) or 'st' (Sentence Transformer-based). 
+- `-o, --output_path`: Path where the retrieval results will be stored. The output should be a JSON file that provides scores and relevant text chunks for each city and query aspect.
+- `--emb_type`: Specify the type of the embedder. Available types: 'gpt' or 'st'.
 
