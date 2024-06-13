@@ -1,6 +1,6 @@
 import json
 # preview test results
-with open("output/dense_results_total_ela_top3_ST.json", "r") as file:
+with open("output/dense_results_gpt_elaborate.json", "r") as file:
     results = json.load(file)
 
 # preview the queries
@@ -16,9 +16,9 @@ for query in results:
     for dest, (score, aspects) in sorted_dests[:50]:
         print(f"Destination: {dest}")
         print(f"Score: {score}")
-        for aspect, top_chunk in aspects.items():
-            print(f"Aspect: {aspect}")
-            print(f"Top chunk: {top_chunk}")
+        # for aspect, top_chunk in aspects.items():
+        #     print(f"Aspect: {aspect}")
+        #     print(f"Top chunk: {top_chunk}")
         print("\n")
     print("\n")
 
