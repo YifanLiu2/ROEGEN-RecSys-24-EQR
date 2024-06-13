@@ -1,29 +1,32 @@
-import os
-# set the working directory to the root of the project
 from src.Retriever.denseRetriever import *
 from src.Retriever.hybridRetriever import *
 
 from src.Embedder.GPTEmbedder import *
 from src.Embedder.STEmbedder import *
 
-import numpy as np
-import os
+import argparse, os
 from config import API_KEY
+
+TYPE = {"gpt", "st"}
 
 def main(args):
     # Select the model to use
-    modle_name = args.modle_name
-    if modle_name == "GPT":
+    model_name = args.emb_type
+    if model_name == "gpt":
         model = GPTEmbedder(api_key=API_KEY)
-    elif modle_name == "ST":
+    elif model_name == "st":
         model = STEmbedder()
-    else:
-        raise ValueError("Invalid model name, should be either 'GPT' or 'ST'")
     
     query_path = args.query_path
     embedding_dir = args.embedding_dir
-    output_dir = args.output_dir
+    output_path = args.output_path
 
+    output_dir = os.path.dirname(output_path)
+    os.makedirs(output_dir, exist_ok=True)
+
+    if not os.path.exists(embedding_dir):
+        raise ValueError(f"Invalid directory path for destination embeddings: {embedding_dir}")
+    
     retriever = DenseRetriever(model=model, query_path=query_path, embedding_dir=embedding_dir, output_path=output_dir)
     retriever.run_retrieval()
 
@@ -31,8 +34,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Process the dense retriever.")
     parser.add_argument("-q", "--query_path", required=True, default="output/processed_query_elaborate.pkl", help="Path to the input file containing queries")
     parser.add_argument("-e", "--embedding_dir", required=True, help="Directory containing embeddings")
-    parser.add_argument("-m", "--modle_name", required=True, help="Embedding model to use for processing queries")
-    parser.add_argument("-o", "--output_dir", help="Directory to store processed queries", default="output")
+    parser.add_argument("--emb_type", type=str, choices=TYPE, default="gpt", help="Specify the type of the embedder. Available types are: {}".format(", ".join(sorted(TYPE))))
+    parser.add_argument("-o", "--output_path", help="Path to store retrieval results")
     args = parser.parse_args()
     main(args=args)
 

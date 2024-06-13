@@ -21,8 +21,7 @@ class AbstractRetriever(abc.ABC):
         self.dense_embedding_dir = dense_embedding_dir
 
         # check output path
-        output_dir = os.path.dirname(output_path)
-        os.makedirs(output_dir, exist_ok=True)
+
         self.output_path = output_path
 
         self.percentile = percentile
