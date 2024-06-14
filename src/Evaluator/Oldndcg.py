@@ -1,4 +1,4 @@
-from BaseEvaluator import Evaluator
+from src.Evaluator.BaseEvaluator import Evaluator
 from fuzzywuzzy import fuzz
 from sklearn.metrics import ndcg_score
 import numpy as np

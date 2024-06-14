@@ -104,17 +104,21 @@ class AbstractRetriever(abc.ABC):
         return fused_results
         
 
-    def retrieval_for_query(self, query: Query, dests_embs: dict[str, np.ndarray], dests_chunks: dict[str, list[str]]) -> dict[str, tuple[float, dict[str, list[str]]]]: 
+    def retrieval_for_query(self, query: Query | str, dests_embs: dict[str, np.ndarray], dests_chunks: dict[str, list[str]]) -> dict[str, tuple[float, dict[str, list[str]]]]: 
         """
         Loads necessary data and runs the dense retrieval process, then saves the results to the specified output path.
         """
         # return format: {dest: (dest_score, {"aspect": top_chunk})}
 
         query_results = dict()
+        if isinstance(query, str):
+            aspects = [Aspect(query)]
+        else:
+            aspects = query.get_all_aspects()
+        
 
         # retrieve results for each destination
         for dest_name, dest_emb in tqdm(dests_embs.items(), desc="Processing destinations"):
-            aspects = query.get_all_aspects()
             dest_result = self.retrieval_for_dest(aspects, dest_emb, dests_chunks[dest_name], self.percentile)
             # fuse results from multiple aspects
             dest_result = self.fusion(dest_result)

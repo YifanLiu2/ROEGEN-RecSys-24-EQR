@@ -36,6 +36,8 @@ class queryProcessor:
             aspect_processing_func = self._expand_aspect
         elif self.mode_name == "elaborate":
             aspect_processing_func = self._elaborate_aspect
+        elif self.mode_name == "answer":
+            aspect_processing_func = self._answer_aspect
 
         result_queries = []
         for query in tqdm(self.query_list, desc="Processing queries", unit="query"):
@@ -73,7 +75,7 @@ class queryProcessor:
         """
         """
         with open(input_path, "r") as f:
-            queries = [line.strip().lower() for line in f]
+            queries = [line.strip() for line in f]
         return queries
     
     def _save_results(self, result: list[Query]):
@@ -173,7 +175,7 @@ class queryProcessor:
         Reformulate one aspect of the query
         """
         prompt = """
-        Given the specified aspect of a user's travel cities recommendation query, generate one sentence reformulation of the aspect to better reflect the user's intent. 
+        Given the specified aspect of a user's travel cities recommendation query, generate one sentence reformulation of the aspect with reasonable user intent to better reflect the user's intent. 
         Provide your answers in valid JSON format with double quote: {{"answer": "YOUR ANSWER"}}.
         
         Aspect: {aspect}
@@ -226,14 +228,59 @@ class queryProcessor:
         response = self.llm.generate(message)
 
          # parse response
-        return correct_and_extract(response)
+         
+         # find the answer part
+        start = response.find("{")
+        end = response.rfind("}") + 1
+        response = response[start:end]
+        expansion_list = json.loads(response)["answer"]
+        expansion_list.append(query_aspect)
+
+        # join the list into a string
+        expansions = ' '.join(expansion_list)
+        
+        return expansions
+
+        
+
+        # remove the [ and ] from the string
 
     def _elaborate_aspect(self, query_aspect: str) -> str:
         """
         Elaborate one aspect of the query
         """
         prompt = """
-        Given the specified aspect of a user's travel cities recommendation query, generate one paragraph specific definition of the aspect. 
+        Given the specified aspect of a user's travel cities recommendation query, generate one paragraph with specific definition of the aspect. 
+        Provide your answers in valid JSON format with double quote: {{"answer": "YOUR ANSWER"}}.
+        
+        Aspect: {aspect}
+        """
+
+        # define answer format
+        answer = ANSWER_FORMAT
+
+        message = [
+            {"role": "system", "content": "You are a travel expert."},
+            {"role": "user", "content": prompt.format(aspect="suitable for adventure seekers")},
+            {"role": "assistant", "content": answer.format(answer="Cities that are suitable for adventure seekers are those that offer a variety of thrilling and exciting activities tailored to those who crave physical challenges and adrenaline-pumping experiences. These cities often feature natural landscapes that allow for activities like hiking, climbing, white-water rafting, and skydiving. Additionally, they might host adventure parks or offer unique local experiences such as jungle expeditions or desert safaris. Such destinations are designed to cater to the adventurous spirit, providing not just activities but also the necessary safety measures and facilities to ensure a memorable and exhilarating visit.")},
+            {"role": "user", "content": prompt.format(aspect="has historical sites")},
+            {"role": "assistant", "content": answer.format(answer="Cities that are noted for having historical sites are rich in monuments, ruins, and museums that chronicle significant past events and cultures. These cities serve as gate-banners of history, often featuring well-preserved architecture, ancient artifacts, and UNESCO World Heritage sites that attract scholars, history enthusiasts, and tourists alike. The presence of these historical sites adds a deep cultural layer to the city, offering visitors a tangible connection to the past and an opportunity to learn about the historical narratives that shaped the modern world. Such cities often provide guided tours, educational programs, and interactive exhibits to enhance the visitor experience.")},          
+            {"role": "user", "content": prompt.format(aspect="has Disney")},
+            {"role": "assistant", "content": answer.format(answer= "Cities with Disney theme parks are renowned destinations that promise magical experiences for visitors of all ages. Anaheim, California, is home to Disneyland Resort, the original Disney theme park, offering classic attractions and the newer Star Wars: Galaxy’s Edge. Orlando, Florida, hosts Walt Disney World Resort, the largest Disney park globally, featuring four theme parks and two water parks. Tokyo, Japan, provides a unique twist with Tokyo Disney Resort, including Tokyo Disneyland and Tokyo DisneySea, known for its high attention to detail and cultural adaptations. Paris, France, offers Disneyland Paris, blending Disney magic with European flair. These cities not only draw Disney enthusiasts but also offer comprehensive family entertainment, making them top choices for Disney-themed vacations.")},  
+            {"role": "user", "content": prompt.format(aspect=query_aspect)},
+        ]
+
+        response = self.llm.generate(message)
+
+        # parse response
+        return correct_and_extract(response)
+    
+    def _answer_aspect(self, query_aspect: str) -> str:
+        """
+        Elaborate one aspect of the query with exposed answer
+        """
+        prompt = """
+        Given the specified aspect of a user's travel cities recommendation query, generate one paragraph with specific definition of the aspect with 5 to 10 supporting example of cities. 
         Provide your answers in valid JSON format with double quote: {{"answer": "YOUR ANSWER"}}.
         
         Aspect: {aspect}
