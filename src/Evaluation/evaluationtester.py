@@ -39,17 +39,17 @@ newground = {"Can you recommend cities with Disney attractions for my next vacat
 
 g1 = {"Seeking cities in tropical region suitable for a family vacation with kids.":list5, "Cities in tropical regions that are ideal for family vacations with kids often offer a blend of outdoor activities, child-friendly attractions, and relaxed environments. Singapore stands out as a prime destination with its clean, safe, and green spaces like Gardens by the Bay, along with family-centric attractions such as the Singapore Zoo and Universal Studios. San Juan, Puerto Rico, offers a mix of beach activities, historic sites like El Morro, and the interactive Museo del Ni帽o for younger travelers. Lastly, Cairns in Australia is another excellent choice, acting as a gateway to the Great Barrier Reef and providing educational yet fun experiences like the Kuranda Scenic Railway and Rainforestation Nature Park. These cities provide not only enjoyable but also enriching experiences for the whole family.":list5}
 
-# sys = RecallK(k=50, json_path='output/hybrid_results.json', ground_truths=newground)
-# perquery, total = sys.recall_at_k()
-# print(perquery)
-# print(total)
-
-# sys2 = PrecisionR(json_path='output/hybrid_results.json', ground_truths=newground)
-# perquery, total = sys2.precision_at_r()
-# print(perquery)
-# print(total)
-
-s1 = RecallK(k=50, json_path='output/dense_results_total_ela_top3_Tropical_family.json', ground_truths=g1)
-perquery, total = s1.recall_at_k()
+sys = RecallK(k=50, json_path='output/hybrid_results_with_qe_v2.json', ground_truths=newground)
+perquery, total = sys.recall_at_k()
 print(perquery)
 print(total)
+
+sys2 = PrecisionR(json_path='output/hybrid_results_with_qe_v2.json', ground_truths=newground)
+perquery, total = sys2.precision_at_r()
+print(perquery)
+print(total)
+
+# s1 = RecallK(k=50, json_path='output/dense_results_total_ela_top3_Tropical_family.json', ground_truths=g1)
+# perquery, total = s1.recall_at_k()
+# print(perquery)
+# print(total)
