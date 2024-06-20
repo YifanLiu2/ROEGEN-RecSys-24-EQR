@@ -113,6 +113,7 @@ class AbstractRetriever(abc.ABC):
         :return: dict[str, tuple[float, list[str]]], fused results from all destinations.
         """
         # return format: (dest_score, {"aspect": top_chunk})
+        
         fused_results = tuple()
         dest_score = 1
         top_chunks = dict()
@@ -123,7 +124,7 @@ class AbstractRetriever(abc.ABC):
         # geometrical avg
         fused_results = (dest_score, top_chunks)
         return fused_results
-
+      
     def hfusion(self, dest_results: dict[str, tuple[float, list[str]]]) -> tuple[float, dict[str, list[str]]]:
         """
         Fuse results from multiple aspects using harmonic mean.
@@ -132,7 +133,7 @@ class AbstractRetriever(abc.ABC):
         :return: dict[str, tuple[float, list[str]]], fused results from all destinations.
         """
         # return format: (dest_score, {"aspect": top_chunk})
-
+        
         fused_results = tuple()
         dest_score = 0
         top_chunks = dict()
@@ -143,7 +144,6 @@ class AbstractRetriever(abc.ABC):
         # harmonic avg
         fused_results = (dest_score, top_chunks)
         return fused_results
-        
 
     def retrieval_for_query(self, query: Query | str, dests_embs: dict[str, np.ndarray], dests_chunks: dict[str, list[str]]) -> dict[str, tuple[float, dict[str, list[str]]]]: 
         """
