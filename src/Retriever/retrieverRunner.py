@@ -27,7 +27,7 @@ def main(args):
     if not os.path.exists(embedding_dir):
         raise ValueError(f"Invalid directory path for destination embeddings: {embedding_dir}")
     
-    retriever = DenseRetriever(model=model, query_path=query_path, embedding_dir=embedding_dir, output_path=output_dir)
+    retriever = DenseRetriever(model=model, query_path=query_path, embedding_dir=embedding_dir, output_path=output_path)
     retriever.run_retrieval()
 
 if __name__ == "__main__":
