@@ -18,7 +18,6 @@ class Evaluator(abc.ABC):
         """
         results = {}
         for query, ranked_list in tqdm(self.ranked_result.items(), desc="Evaluating queries"):
-            query = query.lower()
             # check if query exist
             if query not in self.ground_truth:
                 print(f"Ground truth not exist for the query: {query}")

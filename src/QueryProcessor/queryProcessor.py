@@ -38,6 +38,7 @@ class queryProcessor:
             aspect_processing_func = self._elaborate_aspect
         elif self.mode_name == "answer":
             aspect_processing_func = self._answer_aspect
+        
 
         result_queries = []
         for query in tqdm(self.query_list, desc="Processing queries", unit="query"):
@@ -61,10 +62,25 @@ class queryProcessor:
                 hybrid = Hybrid(description=h)
                 curr_query.add_hybrid(hybrid)
 
-            if aspect_processing_func is not None:
-                for aspect in curr_query.get_all_aspects():
-                    new_desc = aspect_processing_func(query_aspect=aspect.description)
-                    aspect.set_new_description(new_description=new_desc)
+            if self.mode_name == "v2":
+                # v2 mode: 
+                # constraint：keyword expansion + direct answer
+                # preference：elaborate without answer
+                # hybrid：answer with explain
+                for constraint in curr_query.get_constraints():
+                    new_desc = self._answer_constraints(query_constraint=constraint.description)
+                    constraint.set_new_description(new_description=new_desc)
+                for preference in curr_query.get_preferences():
+                    new_desc = self._elaborate_aspect(query_aspect=preference.description)
+                    preference.set_new_description(new_description=new_desc)
+                for hybrid in curr_query.get_hybrids():
+                    new_desc = self._answer_aspect(query_aspect=hybrid.description)
+                    hybrid.set_new_description(new_description=new_desc)
+            else:
+                if aspect_processing_func is not None:
+                    for aspect in curr_query.get_all_aspects():
+                        new_desc = aspect_processing_func(query_aspect=aspect.description)
+                        aspect.set_new_description(new_description=new_desc)
             
             result_queries.append(curr_query)
 
@@ -118,20 +134,25 @@ class queryProcessor:
         # actual prompt
         # Corrected prompt string
         prompt = """
-        Given a user's query about travel destination city recommendation, please categorize each aspect in the query to the following types:
+        Given a user's query about travel destination city recommendation, please categorize each aspect of the query into the following types:
 
-        1. “constraints” - This category requires using a Checker to confirm the presence of highly specific and rare attributes in a city, suitable for binary (yes/no) decisions. For instance, attributes like being located in a specific continent (e.g., Europe) or having a Disney attraction are considered valid constraints because only a limited number of cities possess these qualities. Conversely, attributes such as the presence of museums, historical sites, or cultural festivals in June are not considered constraints due to their commonality or ambiguity in numerous cities. Only attributes that clearly distinguish a small subset of cities are categorized under constraints.
+        1. "Constraint" - This category includes highly specific aspects that target unique entities or activities. Only those aspects that are clearly defined and rare fit into this category.
 
-        2. “preferences” - This category requires a Reasoner tool to assess city attributes that are inherently subjective and cannot be reduced to binary, objective statements. For example, evaluating whether a city is "suitable for romantic activities" fits this category because it depends heavily on personal interpretation and cannot be objectively measured. In contrast, the attribute "known for historical sites" does not qualify, even though it might appear subjective. This is because it can be simplistically converted into a binary form such as "has historical sites," which involves a straightforward verification, thus excluding it from this category. 
+        2. "Activities" - This category includes all other broader entities or activities. broader aspects that describe general types of activities or entities. It includes anything not specific enough to be a constraint.
 
-        3. "hybrids” - This category requires both a Checker and a Reasoner and addresses city attributes that can readily convert between objective and subjective forms. For instance, "has museums" is an objective fact that can easily transition into a subjective assessment as "known for museums," reflecting the city’s cultural stature based on its museums. The conversion also works in reverse; the subjective reputation of being "known for museums" can be substantiated by objectively verifying that the city indeed has museums. However, an attribute like "safety" does not fit this category. It cannot be effectively converted into objective metrics.
+        3. "Preferences" - This category includes subjective preferences that are not directly related to specific entities or activities.
+
+        Chain of Thought Process:
+        - Determine if the aspect pertains to specific entities, activities, or is a subjective preference.
+        - If the aspect is not related to specific entities or activities, it is a preference. If it is a very specific and rare entity or activity, it is a constraint. Otherwise, it is an activity.
 
         Requirements:
-        - Each aspect should be expressed in its minimal form and should not be further divisible to ensure clarity and precision in the recommendation process.
-        - provide your answer strictly in JSON format: {{\"answer\": {{\”constraints\”: [], \”preferences\”: [], \"hybrids\”: []}}}}
-        
+        - Each aspect should be expressed succinctly to ensure clarity and precision in the recommendation process.
+        - Provide your answers strictly in JSON format: {{"answer": {{"constraint": [], "preferences": [], "activities": []}}}}
+
         Query: {query}
         """
+
         # define answer format
         answer = ANSWER_FORMAT
 
@@ -139,13 +160,13 @@ class queryProcessor:
         message = [
             {"role": "system", "content": "You are a travel expert."},
             {"role": "user", "content": prompt.format(query="Recommend me cities with historical sites and museums to explore during my travels?")},
-            {"role": "assistant", "content": answer.format(answer=json.dumps({"answer": {"constraints": [],"preferences": [],"hybrids": ["historical sites", "museums"]}}))},
-            {"role": "user", "content": prompt.format(query="Looking for cities with for a romantic honeymoon. Any suggestions?")},
-            {"role": "assistant", "content": answer.format(answer=json.dumps({"answer": {"constraints": [],"preferences": ["suitable for romantic honeymoon"],"hybrids": []}}))},
+            {"role": "assistant", "content": answer.format(answer=json.dumps({"answer": {"constraint": [],"preferences": [],"activities": ["historical sites", "museums"]}}))},
+            {"role": "user", "content": prompt.format(query="I am plannning on a trip to cities with good restaurants. ")},
+            {"role": "assistant", "content": answer.format(answer=json.dumps({"answer": {"constraint": [],"preferences": [],"activities": ["good restaurants"]}}))},
             {"role": "user", "content": prompt.format(query="I'm planning a trip to Asia on a budget. Any recommendations for budget-friendly cities there? ")},
-            {"role": "assistant", "content": answer.format(answer=json.dumps({"answer": {"constraints": ["in Asia"], "preferences": ["on a budget"], "hybrids": []}}))},
+            {"role": "assistant", "content": answer.format(answer=json.dumps({"answer": {"constraint": ["in Asia"], "preferences": ["on a budget"], "activities": []}}))},
             {"role": "user", "content": prompt.format(query="I want a city with a major film festival in June and good seafood restaurants.")},
-            {"role": "assistant", "content": answer.format(answer=json.dumps({"answer": {"constraints": [], "preferences": ["good seafood restaurants"], "hybrids": ["major film festival in June"]}}))},
+            {"role": "assistant", "content": answer.format(answer=json.dumps({"answer": {"constraint": [], "preferences": [], "activities": ["good seafood restaurants", "major film festival in June"]}}))},
             {"role": "user", "content": prompt.format(query=query)},
         ]
 
@@ -155,8 +176,8 @@ class queryProcessor:
             start, end = response.find("{"), response.rfind("}") + 1
             answer = json.loads(response[start:end])["answer"]
             preferences = answer["preferences"]
-            constraints = answer["constraints"]
-            hybrids = answer["hybrids"]
+            constraints = answer["constraint"]
+            hybrids = answer["activities"]
             return preferences, constraints, hybrids
 
         except json.JSONDecodeError as e:
@@ -168,6 +189,35 @@ class queryProcessor:
             print(f"Failed to extract constraints")
             print("GPT response: ", response)
             raise e
+        
+
+    def _answer_constraints(self, query_constraint: str) -> str:
+        """
+        Answer the constraints
+        """
+        prompt = """
+        Given the specified constraints of a user's travel cities recommendation query, generate a list of all cities that meet the constraint.
+        Provide your answers in valid JSON format with double quote: {{"answer": "Cities"}}.
+
+        Constraints: {constraint}
+        """
+
+        # define answer format
+        answer = ANSWER_FORMAT
+
+        message = [
+            {"role": "system", "content": "You are a travel expert."},
+            {"role": "user", "content": prompt.format(constraint="Universal Studios")},
+            {"role": "assistant", "content": answer.format(answer="Los Angeles, Orlando, Singapore, Osaka, Beijing")},  
+            {"role": "user", "content": prompt.format(constraint="Disney")},
+            {"role": "assistant", "content": answer.format(answer="Anaheim, Orlando, Tokyo, Paris, Shanghai, Hong Kong")},  
+            {"role": "user", "content": prompt.format(constraint=query_constraint)},
+        ]
+
+        response = self.llm.generate(message)
+
+        # parse response
+        return correct_and_extract(response) + f", {query_constraint}" * 5
 
 
     def _reformulate_aspect(self, query_aspect: str) -> str:
@@ -250,7 +300,7 @@ class queryProcessor:
         Elaborate one aspect of the query
         """
         prompt = """
-        Given the specified aspect of a user's travel cities recommendation query, generate one paragraph with specific definition of the aspect. 
+        Given the specified aspect of a user's travel cities recommendation query, generate one paragraph with specific definition of the aspect. You could focus on taxonomizing the different sub-aspects or providing in-depth information about the aspect. 
         Provide your answers in valid JSON format with double quote: {{"answer": "YOUR ANSWER"}}.
         
         Aspect: {aspect}
@@ -280,7 +330,7 @@ class queryProcessor:
         Elaborate one aspect of the query with exposed answer
         """
         prompt = """
-        Given the specified aspect of a user's travel cities recommendation query, generate one paragraph with specific definition of the aspect with 5 to 10 supporting example of cities. 
+        Given the specified constraints of a user's travel cities recommendation query, generate a comprehensive list of cities that meet the constraint and round small cities into the nearest large cities. Also, please provide a short justification for each city.
         Provide your answers in valid JSON format with double quote: {{"answer": "YOUR ANSWER"}}.
         
         Aspect: {aspect}

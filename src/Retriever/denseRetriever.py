@@ -3,6 +3,8 @@ import numpy as np
 from tqdm import tqdm
 from sklearn.metrics.pairwise import cosine_similarity
 
+
+
 from src.Embedder.GPTEmbedder import *
 from src.Embedder.STEmbedder import *
 from src.Entity.query import *
@@ -83,9 +85,9 @@ class AbstractRetriever(abc.ABC):
             json.dump(results, file, indent=4)
 
     
-    def fusion(self, dest_results: dict[str, tuple[float, list[str]]]) -> tuple[float, dict[str, list[str]]]:
+    def avg_fusion(self, dest_results: dict[str, tuple[float, list[str]]]) -> tuple[float, dict[str, list[str]]]:
         """
-        Fusion method to combine results from multiple aspects of a destination.
+        Fuse results from multiple aspects using average score.
 
         :param dest_results: dict[str, tuple[float, list[str]]], results from each destination.
         :return: dict[str, tuple[float, list[str]]], fused results from all destinations.
@@ -100,6 +102,45 @@ class AbstractRetriever(abc.ABC):
             top_chunks[aspect] = chunks
         # count the average score
         dest_score /= len(dest_results)
+        fused_results = (dest_score, top_chunks)
+        return fused_results
+    
+    def gfusion(self, dest_results: dict[str, tuple[float, list[str]]]) -> tuple[float, dict[str, list[str]]]:
+        """
+        Fuse results from multiple aspects using geometric mean.
+
+        :param dest_results: dict[str, tuple[float, list[str]]], results from each destination.
+        :return: dict[str, tuple[float, list[str]]], fused results from all destinations.
+        """
+        # return format: (dest_score, {"aspect": top_chunk})
+        fused_results = tuple()
+        dest_score = 1
+        top_chunks = dict()
+        for aspect, (score, chunks) in dest_results.items():
+            dest_score *= score
+            top_chunks[aspect] = chunks
+        dest_score = dest_score**(1/len(dest_results))
+        # geometrical avg
+        fused_results = (dest_score, top_chunks)
+        return fused_results
+
+    def hfusion(self, dest_results: dict[str, tuple[float, list[str]]]) -> tuple[float, dict[str, list[str]]]:
+        """
+        Fuse results from multiple aspects using harmonic mean.
+
+        :param dest_results: dict[str, tuple[float, list[str]]], results from each destination.
+        :return: dict[str, tuple[float, list[str]]], fused results from all destinations.
+        """
+        # return format: (dest_score, {"aspect": top_chunk})
+
+        fused_results = tuple()
+        dest_score = 0
+        top_chunks = dict()
+        for aspect, (score, chunks) in dest_results.items():
+            dest_score += (1/score)
+            top_chunks[aspect] = chunks
+        dest_score = len(dest_results)/dest_score
+        # harmonic avg
         fused_results = (dest_score, top_chunks)
         return fused_results
         
@@ -121,7 +162,7 @@ class AbstractRetriever(abc.ABC):
         for dest_name, dest_emb in tqdm(dests_embs.items(), desc="Processing destinations"):
             dest_result = self.retrieval_for_dest(aspects, dest_emb, dests_chunks[dest_name], self.percentile)
             # fuse results from multiple aspects
-            dest_result = self.fusion(dest_result)
+            dest_result = self.avg_fusion(dest_result)
             query_results[dest_name] = dest_result
 
         return query_results 
