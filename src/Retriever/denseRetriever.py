@@ -13,7 +13,7 @@ class AbstractRetriever(abc.ABC):
     """
     Abstract base dense retriever class.
     """
-    def __init__(self, model: LMEmbedder, query_path: str, dense_embedding_dir: str, output_path: str, percentile: float = 10):
+    def __init__(self, query_path: str, output_path: str, percentile: float = 10, model: LMEmbedder = None, dense_embedding_dir: str = None):
         self.model = model
         self.query_path = query_path
         self.dense_embedding_dir = dense_embedding_dir
@@ -40,29 +40,41 @@ class AbstractRetriever(abc.ABC):
         """
         dests_chunks = dict()
         dests_embs = dict()
-        pkls = sorted([f for f in os.listdir(self.dense_embedding_dir)])
+        if self.dense_embedding_dir is None:
+            # for sparse retrieval
+            pkls = sorted([f for f in os.listdir("embeddings/paraphrase-minilm-l6-v2/section")])
+        else:
+            pkls = sorted([f for f in os.listdir(self.dense_embedding_dir)])
         for i in range(0, len(pkls)):
-            # if the file's name ends with chunks.pkl, then it is a chunks file
-            if pkls[i].endswith("chunks.pkl"):
-                city_name = pkls[i].split("_")[0]
-                dests_chunks[city_name] = pickle.load(open(f"{self.dense_embedding_dir}/{pkls[i]}", "rb"))
-            # if the file's name ends with emb.pkl, then it is an embeddings file
-            elif pkls[i].endswith("emb.pkl"):
-                city_name = pkls[i].split("_")[0]
-                dests_embs[city_name] = pickle.load(open(f"{self.dense_embedding_dir}/{pkls[i]}", "rb"))
-
+            if self.dense_embedding_dir is not None:
+                # if the file's name ends with chunks.pkl, then it is a chunks file
+                if pkls[i].endswith("chunks.pkl"):
+                    city_name = pkls[i].split("_")[0]
+                    dests_chunks[city_name] = pickle.load(open(f"{self.dense_embedding_dir}/{pkls[i]}", "rb"))
+                # if the file's name ends with emb.pkl, then it is an embeddings file
+                elif pkls[i].endswith("emb.pkl"):
+                    city_name = pkls[i].split("_")[0]
+                    dests_embs[city_name] = pickle.load(open(f"{self.dense_embedding_dir}/{pkls[i]}", "rb"))
+            else:
+                # for sparse retrieval
+                if pkls[i].endswith("chunks.pkl"):
+                    city_name = pkls[i].split("_")[0]
+                    dests_chunks[city_name] = pickle.load(open(f"embeddings/paraphrase-minilm-l6-v2/section/{pkls[i]}", "rb"))
+        # for sparse retrieval, return only the chunks
+        if self.dense_embedding_dir is None:
+            return dests_chunks, None
         return dests_chunks, dests_embs
 
     @abc.abstractmethod
-    def retrieval_for_dest(self, queries: list, dests_emb: dict[str, np.ndarray], dests_chunks: dict[str, list[str]], percentile: float) -> dict:
+    def retrieval_for_dest(self, aspects: list, dests_chunks: dict[str, list[str]], percentile: float, dests_emb: dict[str, np.ndarray]=None) -> dict:
         """
         Abstract method to be implemented for dense retrieval.
 
-        :param queries: list, the list of queries to process.
-        :param dests_emb: dict[str, np.ndarray], dictionary mapping destination names to their embeddings.
-        :param dests_chunks: dict[str, list[str]], dictionary mapping destination names to their textual chunks.
-        :param percentile: float, the percentile value to determine the threshold for filtering top results.
-        :return: dict, the structured results of retrieval formatted by queries and destinations.
+        :param aspects: list[Aspect], list of aspects to retrieve for.
+        :param dests_chunks: dict[str, list[str]], dictionary of destination names to lists of associated text chunks.
+        :param percentile: float, percentile to determine the similarity threshold for filtering results.
+        :param dests_emb: dict[str, np.ndarray], dictionary of destination names to their embeddings.
+        :return: dict, structured results with scores and top matching chunks.
         """
         pass
 
@@ -157,13 +169,22 @@ class AbstractRetriever(abc.ABC):
         else:
             aspects = query.get_all_aspects()
         
+        if dests_embs is None:
+            # sparse retrieval
+            for dest_name, dest_chunks in tqdm(dests_chunks.items(), desc="Processing destinations"):
+                dest_result = self.retrieval_for_dest(aspects, dest_chunks, self.percentile)
+                # fuse results from multiple aspects
+                dest_result = self.avg_fusion(dest_result)
+                query_results[dest_name] = dest_result
+        else:   
+            # dense retrieval     
 
-        # retrieve results for each destination
-        for dest_name, dest_emb in tqdm(dests_embs.items(), desc="Processing destinations"):
-            dest_result = self.retrieval_for_dest(aspects, dest_emb, dests_chunks[dest_name], self.percentile)
-            # fuse results from multiple aspects
-            dest_result = self.avg_fusion(dest_result)
-            query_results[dest_name] = dest_result
+            # retrieve results for each destination
+            for dest_name, dest_emb in tqdm(dests_embs.items(), desc="Processing destinations"):
+                dest_result = self.retrieval_for_dest(aspects, dests_chunks[dest_name], self.percentile, dests_emb=dest_emb)
+                # fuse results from multiple aspects
+                dest_result = self.avg_fusion(dest_result)
+                query_results[dest_name] = dest_result
 
         return query_results 
 
@@ -173,7 +194,7 @@ class DenseRetriever(AbstractRetriever):
     Concrete DenseRetriever class.
     """
     def __init__(self, model: LMEmbedder, query_path: str, embedding_dir: str, output_path: str, percentile: float = 10):
-        super().__init__(model, query_path, embedding_dir, output_path, percentile)
+        super().__init__(model=model, query_path=query_path, dense_embedding_dir=embedding_dir, output_path=output_path, percentile=percentile)
     
 
     def retrieval_for_dest(self, aspects: list[Aspect], dest_emb: np.ndarray, dest_chunks: list[str], percentile: float) -> dict[str, tuple[float, list[str]]]:

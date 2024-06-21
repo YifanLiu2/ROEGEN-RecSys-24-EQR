@@ -6,13 +6,14 @@ echo "1. Original Query Input Path"
 echo "2. Processed Query Output Directory"
 echo "3. Embedding Type"
 echo "4. Document Embeddings Directory"
-echo "5. Retriever Output Directory"
-echo "6. Ground Truth Path"
+echo "5. Retriever type"
+echo "6. Retriever Output Directory"
+echo "7. Ground Truth Path"
 echo "Please ensure you have provided all inputs in the correct order."
 
 # Check if exactly 5 or 6 arguments are provided
-if [ "$#" -ne 5 ] && [ "$#" -ne 6 ]; then
-    echo "Illegal number of parameters. Please provide 5 or 6 parameters."
+if [ "$#" -ne 6 ] && [ "$#" -ne 7 ]; then
+    echo "Illegal number of parameters. Please provide 6 or 7 parameters."
     exit 1
 fi
 
@@ -24,8 +25,9 @@ original_query_input_path=$1
 processed_query_output_dir=$2
 emb_type=$3
 doc_embeddings_dir=$4
-retriever_output_dir=$5
-ground_truth_path=$6
+retriever_type=$5
+retriever_output_dir=$6
+ground_truth_path=$7
 
 
 modes=("expand" "reformulate" "elaborate" "answer")
