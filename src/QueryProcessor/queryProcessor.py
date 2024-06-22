@@ -6,12 +6,13 @@ from src.Entity.query import *
 from src.Entity.aspect import *
 
 ANSWER_FORMAT = """{{"answer": {answer}}}"""
+RETRIEVER_TYPE = {"dense", "sparse"}
 
 class queryProcessor:
     """
     Query Processor class
     """
-    def __init__(self, input_path: str, llm: LLM, mode_name: str = None, output_dir: str = "output"):
+    def __init__(self, input_path: str, llm: LLM, mode_name: str = None, retriever_type: str = None, output_dir: str = "output"):
         """
         Initialize the query processor
         :param query:
@@ -23,6 +24,7 @@ class queryProcessor:
         self.mode_name = mode_name
         self.output_dir = output_dir
         self.query_list = self._load_queries(input_path)
+        self.retriever_type = retriever_type
     
     def process_query(self) -> list[Query]:
         """
@@ -191,109 +193,106 @@ class queryProcessor:
             raise e
         
 
-    def _answer_constraints(self, query_constraint: str) -> str:
-        """
-        Answer the constraints
-        """
-        prompt = """
-        Given the specified constraints of a user's travel cities recommendation query, generate a list of all cities that meet the constraint.
-        Provide your answers in valid JSON format with double quote: {{"answer": "Cities"}}.
+    # def _answer_constraints(self, query_constraint: str) -> str:
+    #     """
+    #     Answer the constraints
+    #     """
+    #     prompt = """
+    #     Given the specified constraints of a user's travel cities recommendation query, generate a list of all cities that meet the constraint.
+    #     Provide your answers in valid JSON format with double quote: {{"answer": "Cities"}}.
 
-        Constraints: {constraint}
-        """
+    #     Constraints: {constraint}
+    #     """
 
-        # define answer format
-        answer = ANSWER_FORMAT
+    #     # define answer format
+    #     answer = ANSWER_FORMAT
 
-        message = [
-            {"role": "system", "content": "You are a travel expert."},
-            {"role": "user", "content": prompt.format(constraint="Universal Studios")},
-            {"role": "assistant", "content": answer.format(answer="Los Angeles, Orlando, Singapore, Osaka, Beijing")},  
-            {"role": "user", "content": prompt.format(constraint="Disney")},
-            {"role": "assistant", "content": answer.format(answer="Anaheim, Orlando, Tokyo, Paris, Shanghai, Hong Kong")},  
-            {"role": "user", "content": prompt.format(constraint=query_constraint)},
-        ]
+    #     message = [
+    #         {"role": "system", "content": "You are a travel expert."},
+    #         {"role": "user", "content": prompt.format(constraint="Universal Studios")},
+    #         {"role": "assistant", "content": answer.format(answer="Los Angeles, Orlando, Singapore, Osaka, Beijing")},  
+    #         {"role": "user", "content": prompt.format(constraint="Disney")},
+    #         {"role": "assistant", "content": answer.format(answer="Anaheim, Orlando, Tokyo, Paris, Shanghai, Hong Kong")},  
+    #         {"role": "user", "content": prompt.format(constraint=query_constraint)},
+    #     ]
 
-        response = self.llm.generate(message)
+    #     response = self.llm.generate(message)
 
-        # parse response
-        return correct_and_extract(response) + f", {query_constraint}" * 5
+    #     # parse response
+    #     return correct_and_extract(response) + f", {query_constraint}" * 5
 
 
-    def _reformulate_aspect(self, query_aspect: str) -> str:
-        """
-        Reformulate one aspect of the query
-        """
-        prompt = """
-        Given the specified aspect of a user's travel cities recommendation query, generate one sentence reformulation of the aspect with reasonable user intent to better reflect the user's intent. 
-        Provide your answers in valid JSON format with double quote: {{"answer": "YOUR ANSWER"}}.
+    # def _reformulate_aspect(self, query_aspect: str) -> str:
+    #     """
+    #     Reformulate one aspect of the query
+    #     """
+    #     prompt = """
+    #     Given the specified aspect of a user's travel cities recommendation query, generate one sentence reformulation of the aspect with reasonable user intent to better reflect the user's intent. 
+    #     Provide your answers in valid JSON format with double quote: {{"answer": "YOUR ANSWER"}}.
         
-        Aspect: {aspect}
-        """
+    #     Aspect: {aspect}
+    #     """
 
-        # define answer format
-        answer = ANSWER_FORMAT
+    #     # define answer format
+    #     answer = ANSWER_FORMAT
 
-        message = [
-            {"role": "system", "content": "You are a travel expert."},
-            {"role": "user", "content": prompt.format(aspect="suitable for adventure seekers")},
-            {"role": "assistant", "content": answer.format(answer="Which cities are best suited for adventure seekers looking for thrilling activities?")},
-            {"role": "user", "content": prompt.format(aspect="has historical sites")},
-            {"role": "assistant", "content": answer.format(answer="Which cities are rich in historical sites and cultural heritage?")},          
-            {"role": "user", "content": prompt.format(aspect="on Asia")},
-            {"role": "assistant", "content": answer.format(answer="Which cities in Asia are recommended for travelers?")},  
-            {"role": "user", "content": prompt.format(aspect=query_aspect)},
-        ]
+    #     message = [
+    #         {"role": "system", "content": "You are a travel expert."},
+    #         {"role": "user", "content": prompt.format(aspect="suitable for adventure seekers")},
+    #         {"role": "assistant", "content": answer.format(answer="Which cities are best suited for adventure seekers looking for thrilling activities?")},
+    #         {"role": "user", "content": prompt.format(aspect="has historical sites")},
+    #         {"role": "assistant", "content": answer.format(answer="Which cities are rich in historical sites and cultural heritage?")},          
+    #         {"role": "user", "content": prompt.format(aspect="on Asia")},
+    #         {"role": "assistant", "content": answer.format(answer="Which cities in Asia are recommended for travelers?")},  
+    #         {"role": "user", "content": prompt.format(aspect=query_aspect)},
+    #     ]
         
-        response = self.llm.generate(message)
+    #     response = self.llm.generate(message)
 
-        # parse response
-        return correct_and_extract(response)
+    #     # parse response
+    #     return correct_and_extract(response)
         
 
-    def _expand_aspect(self, query_aspect: str) -> str:
-        """
-        Expand one aspect of the query
-        """
-        prompt = """
-        Given the specified aspect of a user's travel cities recommendation query, generate a list of three similar but improved descriptions of the aspect to better reflect the user's intent. 
-        Provide your answers in valid JSON format with double quote: {{"answer": []}}.
+    # def _expand_aspect(self, query_aspect: str) -> str:
+    #     """
+    #     Expand one aspect of the query
+    #     """
+    #     prompt = """
+    #     Given the specified aspect of a user's travel cities recommendation query, generate a list of three similar but improved descriptions of the aspect to better reflect the user's intent. 
+    #     Provide your answers in valid JSON format with double quote: {{"answer": []}}.
 
-        Aspect: {aspect}
-        """
-        # define answer format
-        answer = ANSWER_FORMAT
+    #     Aspect: {aspect}
+    #     """
+    #     # define answer format
+    #     answer = ANSWER_FORMAT
 
-        message = [
-            {"role": "system", "content": "You are a travel expert."},
-            {"role": "user", "content": prompt.format(aspect="suitable for adventure seekers")},
-            {"role": "assistant", "content": answer.format(answer=["Ideal for outdoor adventure enthusiasts.", "Great for those seeking thrilling adventure activities.", "Perfect for adventure seekers looking for excitement and challenges."])},
-            {"role": "user", "content": prompt.format(aspect="has historical sites")},
-            {"role": "assistant", "content": answer.format(answer=["Rich in historical landmarks and museums.", "Offers a wealth of cultural and historical sites.", "Filled with historical attractions and heritage sites."])},          
-            {"role": "user", "content": prompt.format(aspect="on Asia")},
-            {"role": "assistant", "content": answer.format(answer=["Located in Asia.", "Situated in Asia.", "In Asia."])},  
-            {"role": "user", "content": prompt.format(aspect=query_aspect)},
-        ]
+    #     message = [
+    #         {"role": "system", "content": "You are a travel expert."},
+    #         {"role": "user", "content": prompt.format(aspect="suitable for adventure seekers")},
+    #         {"role": "assistant", "content": answer.format(answer=["Ideal for outdoor adventure enthusiasts.", "Great for those seeking thrilling adventure activities.", "Perfect for adventure seekers looking for excitement and challenges."])},
+    #         {"role": "user", "content": prompt.format(aspect="has historical sites")},
+    #         {"role": "assistant", "content": answer.format(answer=["Rich in historical landmarks and museums.", "Offers a wealth of cultural and historical sites.", "Filled with historical attractions and heritage sites."])},          
+    #         {"role": "user", "content": prompt.format(aspect="on Asia")},
+    #         {"role": "assistant", "content": answer.format(answer=["Located in Asia.", "Situated in Asia.", "In Asia."])},  
+    #         {"role": "user", "content": prompt.format(aspect=query_aspect)},
+    #     ]
 
-        response = self.llm.generate(message)
+    #     response = self.llm.generate(message)
 
-         # parse response
+    #      # parse response
          
-         # find the answer part
-        start = response.find("{")
-        end = response.rfind("}") + 1
-        response = response[start:end]
-        expansion_list = json.loads(response)["answer"]
-        expansion_list.append(query_aspect)
+    #      # find the answer part
+    #     start = response.find("{")
+    #     end = response.rfind("}") + 1
+    #     response = response[start:end]
+    #     expansion_list = json.loads(response)["answer"]
+    #     expansion_list.append(query_aspect)
 
-        # join the list into a string
-        expansions = ' '.join(expansion_list)
+    #     # join the list into a string
+    #     expansions = ' '.join(expansion_list)
         
-        return expansions
+    #     return expansions
 
-        
-
-        # remove the [ and ] from the string
 
     def _elaborate_aspect(self, query_aspect: str) -> str:
         """
@@ -354,7 +353,138 @@ class queryProcessor:
 
         # parse response
         return correct_and_extract(response)
+    
+
+    def _Q2D(self, query_aspect: str) -> str:
+        """
+        Q2D @ https://arxiv.org/pdf/2305.03653
+        query2doc @ https://arxiv.org/pdf/2303.07678
+        GQE @ https://dl.acm.org/doi/pdf/10.1145/3589335.3651945
+        """
+        prompt = """
+        Given the specified constraints of a user's travel cities recommendation query, write a passage that answer the following query by providing some cities recommendation.
+        Give the rational before answering.
+        Provide your answers in valid JSON format with double quote: {{"answer": "YOUR ANSWER"}}.
         
+        Aspect: {aspect}
+        """
+
+        # define answer format
+        answer = ANSWER_FORMAT
+
+        message = [
+            {"role": "system", "content": "You are a travel expert."},
+            {"role": "user", "content": prompt.format(aspect="suitable for adventure seekers")},
+            {"role": "assistant", "content": answer.format(answer="For travelers seeking thrilling adventures, several cities around the world stand out as prime destinations: 1. Queenstown, New Zealand: Often hailed as the 'Adventure Capital of the World,' Queenstown offers a stunning array of activities ranging from bungee jumping and skydiving to jet boating and mountain biking, all set against the dramatic backdrop of the Southern Alps. 2. Interlaken, Switzerland: Nestled between two lakes and surrounded by the Swiss Alps, Interlaken is a haven for adventure enthusiasts. Here, you can indulge in paragliding, canyoning, and white-water rafting, or take a more scenic approach with hiking and mountain climbing. 3. Moab, Utah, USA: Moab is the gateway to the rugged beauty of the red rock landscapes of Arches and Canyonlands National Parks. It's a top destination for rock climbing, mountain biking, and off-roading—perfect for those who seek adrenaline-fueled escapades. Each of these cities not only caters to thrill-seekers but also offers breathtaking natural beauty, providing a perfect blend of adventure and awe-inspiring vistas.")},
+            {"role": "user", "content": prompt.format(aspect="has historical sites")},
+            {"role": "assistant", "content": answer.format(answer="For those interested in exploring historical sites, several cities around the world are renowned for their rich history and cultural heritage: 1. Rome, Italy: Known as the 'Eternal City,' Rome is a treasure trove of antiquity, featuring iconic landmarks such as the Colosseum, Roman Forum, and the Pantheon, each telling tales of a bygone era. 2. Athens, Greece: The cradle of Western civilization, Athens is home to ancient marvels like the Acropolis and the Temple of Olympian Zeus, offering a deep dive into ancient Greek history. 3. Cairo, Egypt: Cairo provides a gateway to the past, where visitors can marvel at the wonders of Ancient Egypt, including the Great Pyramids of Giza and the Sphinx, alongside a rich tapestry of medieval architecture. Each of these cities not only preserves its historical legacy but also offers an immersive experience into the history that shaped our world today.")},          
+            {"role": "user", "content": prompt.format(aspect="has Disney")},
+            {"role": "assistant", "content": answer.format(answer= "For those who cherish the magical experience of Disney, certain cities around the world host Disney theme parks that promise fun-filled adventures for all ages: 1. Orlando, Florida, USA: Home to Walt Disney World Resort, Orlando offers a massive expanse of theme parks including Magic Kingdom, Epcot, Disney’s Hollywood Studios, and Disney’s Animal Kingdom. 2. Anaheim, California, USA: Anaheim is the site of Disneyland Park, the very first of the Disney parks, along with Disney California Adventure Park. It provides a historic look at the legacy of Disney while offering modern attractions. 3. Tokyo, Japan: Tokyo Disney Resort includes Tokyo Disneyland and Tokyo DisneySea, each offering unique attractions and shows with distinct themes that are beloved by visitors from all over the world. These cities not only bring the wonder of Disney to life but also offer a wide range of other entertainment options to ensure a memorable vacation for families, Disney enthusiasts, and casual visitors alike.")},  
+            {"role": "user", "content": prompt.format(aspect=query_aspect)},
+        ]
+
+        response = self.llm.generate(message)
+
+        # parse response
+        pseudo_doc = correct_and_extract(response)
+
+        if self.retriever_type == "sparse":
+            expansion_list = [query_aspect] * 5 + [pseudo_doc]
+            expansions = ' '.join(expansion_list)
+        
+        else:
+            expansion_list = [query_aspect] + [pseudo_doc]
+            expansions = '\n'.join(expansion_list)
+        
+        return expansions
+
+
+    def _Q2E(self, query_aspect: str) -> str:
+        """
+        Q2E @ https://arxiv.org/pdf/2305.03653
+        """
+        prompt = """
+        Given the specified aspect of a user's travel cities recommendation query, generate a list of keywords related to the given user query aspect. 
+        Provide your answers in valid JSON format with double quote: {{"answer": []}}.
+
+        Aspect: {aspect}
+        """
+        # define answer format
+        answer = ANSWER_FORMAT
+
+        message = [
+            {"role": "system", "content": "You are a travel expert."},
+            {"role": "user", "content": prompt.format(aspect="suitable for adventure seekers")},
+            {"role": "assistant", "content": answer.format(answer=["adventure sports", "extreme sports", "hiking trails", "national parks", "outdoor activities", "rock climbing", "white-water rafting", "zip-lining", "surfing spots", "biking trails"])},
+            {"role": "user", "content": prompt.format(aspect="has historical sites")},
+            {"role": "assistant", "content": answer.format(answer=['historical landmarks', 'ancient ruins', 'UNESCO World Heritage Sites', 'archaeological sites', 'old towns', 'monuments', 'museums', 'castles', 'palaces', 'heritage tours'])},          
+            {"role": "user", "content": prompt.format(aspect=query_aspect)},
+        ]
+
+        response = self.llm.generate(message)
+        
+        # parse the answer
+        start = response.find("{")
+        end = response.rfind("}") + 1
+        response = response[start:end]
+        expansion_list = json.loads(response)["answer"]
+        
+        if self.retriever_type == "sparse":
+            # append original aspect description
+            aspect_list = [query_aspect] * 5
+            expansion_list = aspect_list + expansion_list
+            expansions = ' '.join(expansion_list)
+        
+        else: # for dense retriever
+            expansion_list = [query_aspect] + expansion_list
+            expansions = '\n'.join(expansion_list)
+
+        return expansions
+
+
+    def _GQR(self, query_aspect: str) -> str:
+        """
+        GQR @ https://dl.acm.org/doi/pdf/10.1145/3589335.3651945
+        """
+        prompt = """
+        Given the specified aspect of a user's travel cities recommendation query, generate a list of three one sentence paraphrase of the aspect. 
+        Provide your answers in valid JSON format with double quote: {{"answer": []}}.
+        
+        Aspect: {aspect}
+        """
+
+        # define answer format
+        answer = ANSWER_FORMAT
+
+        message = [
+            {"role": "system", "content": "You are a travel expert."},
+            {"role": "user", "content": prompt.format(aspect="suitable for adventure seekers")},
+            {"role": "assistant", "content": answer.format(answer= ["ideal for those seeking adventurous experiences.", "perfect for adventure enthusiasts.", "a great choice for thrill-seekers."])},
+            {"role": "user", "content": prompt.format(aspect="has historical sites")},
+            {"role": "assistant", "content": answer.format(answer=["features notable historical landmarks.", "boasts a rich array of ancient sites.", "home to significant historical attractions."])},          
+            {"role": "user", "content": prompt.format(aspect=query_aspect)},
+        ]
+        
+        response = self.llm.generate(message)
+
+        # parse the answer
+        start = response.find("{")
+        end = response.rfind("}") + 1
+        response = response[start:end]
+        paraphrase_list = json.loads(response)["answer"]
+        
+        if self.retriever_type == "sparse":
+            # append original aspect description
+            aspect_list = [query_aspect] * 3
+            paraphrase_list = aspect_list + paraphrase_list
+            paraphrases = ' '.join(paraphrase_list)
+        
+        else: # for dense retriever
+            paraphrase_list = [query_aspect] + paraphrase_list
+            paraphrases = '\n'.join(paraphrase_list)
+
+        return paraphrases
+
 
 def correct_and_extract(input_string) -> str:
     """
