@@ -16,10 +16,14 @@ def main():
 
     if args.emb_type == "gpt":
         embedder = GPTEmbedder(api_key=API_KEY, split_type=args.split_type)
+        embedder.create_embeddings(args.data_path, args.output_dir)
         
     elif args.emb_type == "st":
         embedder = STEmbedder(split_type=args.split_type)
-    embedder.create_embeddings(args.data_path, args.output_dir)
+        embedder.create_embeddings(args.data_path, args.output_dir)
+
+    else:
+        raise ValueError("Invalid embedder type. Available types are: {}".format(", ".join(sorted(TYPE))))
 
 if __name__ == "__main__":
     main()

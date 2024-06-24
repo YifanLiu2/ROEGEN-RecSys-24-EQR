@@ -1,180 +1,39 @@
-import os, pickle, json, abc
+import os, pickle
 import numpy as np
-from tqdm import tqdm
 from sklearn.metrics.pairwise import cosine_similarity
-
-
-
-from src.Embedder.GPTEmbedder import *
-from src.Embedder.STEmbedder import *
-from src.Entity.query import *
-
-class AbstractRetriever(abc.ABC):
-    """
-    Abstract base dense retriever class.
-    """
-    def __init__(self, model: LMEmbedder, query_path: str, dense_embedding_dir: str, output_path: str, percentile: float = 10):
-        self.model = model
-        self.query_path = query_path
-        self.dense_embedding_dir = dense_embedding_dir
-        self.output_path = output_path
-        self.percentile = percentile
-    
-    def load_queries(self) -> list[str] | list[Query]:
-        """
-        Loads queries from the specified file path. Queries can be in plain text format or serialized objects.
-        :return: list[str] | list[Query], a list of queries, either as strings or Query objects depending on the file format.
-        """
-        if self.query_path.endswith("txt"):
-            with open(self.query_path, "r") as file:
-                queries = [line.strip() for line in file]
-        else: # pickle file
-            with open(self.query_path, "rb") as file:
-                queries = pickle.load(file)
-        return queries
-
-    def load_dest_embeddings(self) -> tuple[dict[str, list[str]], dict[str, np.ndarray]]:
-        """
-        Loads destination text chunks and associated embeddings from the specified directory.
-        :return: tuple(dict[str, list[str]], dict[str, np.ndarray], dict[str, np.ndarray] | None), a tuple containing dictionaries for destination chunks and embeddings.
-        """
-        dests_chunks = dict()
-        dests_embs = dict()
-        pkls = sorted([f for f in os.listdir(self.dense_embedding_dir)])
-        for i in range(0, len(pkls)):
-            # if the file's name ends with chunks.pkl, then it is a chunks file
-            if pkls[i].endswith("chunks.pkl"):
-                city_name = pkls[i].split("_")[0]
-                dests_chunks[city_name] = pickle.load(open(f"{self.dense_embedding_dir}/{pkls[i]}", "rb"))
-            # if the file's name ends with emb.pkl, then it is an embeddings file
-            elif pkls[i].endswith("emb.pkl"):
-                city_name = pkls[i].split("_")[0]
-                dests_embs[city_name] = pickle.load(open(f"{self.dense_embedding_dir}/{pkls[i]}", "rb"))
-
-        return dests_chunks, dests_embs
-
-    @abc.abstractmethod
-    def retrieval_for_dest(self, queries: list, dests_emb: dict[str, np.ndarray], dests_chunks: dict[str, list[str]], percentile: float) -> dict:
-        """
-        Abstract method to be implemented for dense retrieval.
-
-        :param queries: list, the list of queries to process.
-        :param dests_emb: dict[str, np.ndarray], dictionary mapping destination names to their embeddings.
-        :param dests_chunks: dict[str, list[str]], dictionary mapping destination names to their textual chunks.
-        :param percentile: float, the percentile value to determine the threshold for filtering top results.
-        :return: dict, the structured results of retrieval formatted by queries and destinations.
-        """
-        pass
-
-    def run_retrieval(self):
-        """
-        Loads necessary data and runs the dense retrieval process, then saves the results to the specified output path.
-        """
-        queries = self.load_queries()
-        dests_chunks, dests_embs = self.load_dest_embeddings()
-
-        results = dict()
-        for query in queries:
-            query_results = self.retrieval_for_query(query, dests_embs, dests_chunks)
-            if isinstance(query, Query):
-                query = query.get_description()
-
-            results[query] = query_results
-
-        with open(self.output_path, "w") as file:
-            json.dump(results, file, indent=4)
-
-    
-    def avg_fusion(self, dest_results: dict[str, tuple[float, list[str]]]) -> tuple[float, dict[str, list[str]]]:
-        """
-        Fuse results from multiple aspects using average score.
-
-        :param dest_results: dict[str, tuple[float, list[str]]], results from each destination.
-        :return: dict[str, tuple[float, list[str]]], fused results from all destinations.
-        """
-        # return format: (dest_score, {"aspect": top_chunk})
-        
-        fused_results = tuple()
-        dest_score = 0
-        top_chunks = dict()
-        for aspect, (score, chunks) in dest_results.items():
-            dest_score += score
-            top_chunks[aspect] = chunks
-        # count the average score
-        dest_score /= len(dest_results)
-        fused_results = (dest_score, top_chunks)
-        return fused_results
-    
-    def gfusion(self, dest_results: dict[str, tuple[float, list[str]]]) -> tuple[float, dict[str, list[str]]]:
-        """
-        Fuse results from multiple aspects using geometric mean.
-
-        :param dest_results: dict[str, tuple[float, list[str]]], results from each destination.
-        :return: dict[str, tuple[float, list[str]]], fused results from all destinations.
-        """
-        # return format: (dest_score, {"aspect": top_chunk})
-        
-        fused_results = tuple()
-        dest_score = 1
-        top_chunks = dict()
-        for aspect, (score, chunks) in dest_results.items():
-            dest_score *= score
-            top_chunks[aspect] = chunks
-        dest_score = dest_score**(1/len(dest_results))
-        # geometrical avg
-        fused_results = (dest_score, top_chunks)
-        return fused_results
-      
-    def hfusion(self, dest_results: dict[str, tuple[float, list[str]]]) -> tuple[float, dict[str, list[str]]]:
-        """
-        Fuse results from multiple aspects using harmonic mean.
-
-        :param dest_results: dict[str, tuple[float, list[str]]], results from each destination.
-        :return: dict[str, tuple[float, list[str]]], fused results from all destinations.
-        """
-        # return format: (dest_score, {"aspect": top_chunk})
-        
-        fused_results = tuple()
-        dest_score = 0
-        top_chunks = dict()
-        for aspect, (score, chunks) in dest_results.items():
-            dest_score += (1/score)
-            top_chunks[aspect] = chunks
-        dest_score = len(dest_results)/dest_score
-        # harmonic avg
-        fused_results = (dest_score, top_chunks)
-        return fused_results
-
-    def retrieval_for_query(self, query: Query | str, dests_embs: dict[str, np.ndarray], dests_chunks: dict[str, list[str]]) -> dict[str, tuple[float, dict[str, list[str]]]]: 
-        """
-        Loads necessary data and runs the dense retrieval process, then saves the results to the specified output path.
-        """
-        # return format: {dest: (dest_score, {"aspect": top_chunk})}
-
-        query_results = dict()
-        if isinstance(query, str):
-            aspects = [Aspect(query)]
-        else:
-            aspects = query.get_all_aspects()
-        
-
-        # retrieve results for each destination
-        for dest_name, dest_emb in tqdm(dests_embs.items(), desc="Processing destinations"):
-            dest_result = self.retrieval_for_dest(aspects, dest_emb, dests_chunks[dest_name], self.percentile)
-            # fuse results from multiple aspects
-            dest_result = self.avg_fusion(dest_result)
-            query_results[dest_name] = dest_result
-
-        return query_results 
+from src.Retriever.abstractRetriever import AbstractRetriever
+from src.Embedder.LMEmbedder import LMEmbedder
+from src.Entity.aspect import Aspect
+from src.Entity.query import Query
 
 
 class DenseRetriever(AbstractRetriever):
     """
     Concrete DenseRetriever class.
     """
-    def __init__(self, model: LMEmbedder, query_path: str, embedding_dir: str, output_path: str, percentile: float = 10):
-        super().__init__(model, query_path, embedding_dir, output_path, percentile)
+    cls_type = "dense"
+    def __init__(self, model: LMEmbedder, query_path: str, embedding_dir: str, chunks_dir: str, output_path: str, percentile: float = 10):
+        super().__init__(model=model, query_path=query_path, output_path=output_path, chunks_dir=chunks_dir, percentile=percentile)
+        self.dense_embedding_dir = embedding_dir
     
+    def load_dest_embeddings(self) ->  dict[str, np.ndarray]:
+        dests_embs = dict()
+        pkls = [f for f in os.listdir(self.dense_embedding_dir)]
+
+        for i in range(0, len(pkls)):
+                # if the file's name ends with .pkl, then it is an embeddings file
+            if pkls[i].endswith(".pkl"):
+                city_name = pkls[i].split("_")[0]
+                dests_embs[city_name] = pickle.load(open(f"{self.dense_embedding_dir}/{pkls[i]}", "rb"))
+        
+        return dests_embs
+
+    def load_data(self) -> tuple[dict[str, list[str]], dict[str, np.ndarray]]:
+        """
+        """
+        dest_chunks, _ = super().load_data()
+        dest_embs = self.load_dest_embeddings()
+        return dest_chunks, dest_embs
 
     def retrieval_for_dest(self, aspects: list[Aspect], dest_emb: np.ndarray, dest_chunks: list[str], percentile: float) -> dict[str, tuple[float, list[str]]]:
         """
