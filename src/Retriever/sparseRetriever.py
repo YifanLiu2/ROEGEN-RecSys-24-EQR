@@ -1,13 +1,25 @@
 from src.Retriever.denseRetriever import *
 from rank_bm25 import BM25Okapi
-from fastembed import SparseTextEmbedding
+from sparsembed import model, retrieve
+import torch
+from transformers import AutoModelForMaskedLM, AutoTokenizer
+from src.Entity.aspect import Aspect
 
 class SparseRetriever(AbstractRetriever):
     """
+    Concrete SparseRetriever class.
+    """
+    cls_type = "sparse"
+    def __init__(self, query_path: str, chunks_dir: str, output_path: str, percentile: float = 10):
+        super().__init__(query_path=query_path, output_path=output_path, chunks_dir=chunks_dir, percentile=percentile)
+
+
+class BM25Retriever(SparseRetriever):
+    """
     Concrete DenseRetriever class.
     """
-    def __init__(self, query_path: str, output_path: str, percentile: float = 10):
-        super().__init__(model=None, query_path=query_path, output_path=output_path, percentile=percentile)
+    def __init__(self, query_path: str, chunks_dir:str, output_path: str, percentile: float = 10):
+        super().__init__(model=None, query_path=query_path, output_path=output_path, chunks_dir=chunks_dir, percentile=percentile)
     
 
     def retrieval_for_dest(self, aspects: list[Aspect], dest_chunks: list[str], percentile: float) -> dict[str, tuple[float, list[str]]]:
@@ -41,14 +53,22 @@ class SparseRetriever(AbstractRetriever):
             dest_result[a_text] = (avg_score, top_chunks)
         return dest_result
     
+
 class SpladeRetriever(SparseRetriever):
     """
     Concrete SparseRetriever class.
     """
 
-    def __init__(self, query_path: str, output_path: str, percentile: float = 10):
-        super().__init__(query_path=query_path, output_path=output_path, percentile=percentile)
-        self.model = SparseTextEmbedding(model_name="prithivida/Splade_PP_en_v1")
+    def __init__(self, query_path: str, chunks_dir: str, output_path: str, percentile: float = 10, batchsize: int = 8):
+        super().__init__(query_path=query_path, output_path=output_path, chunks_dir=chunks_dir, percentile=percentile)
+        self.device = "cuda" if torch.cuda.is_available() else "cpu"
+        print(f"Using device: {self.device}")
+        self.model = model.Splade(
+            model=AutoModelForMaskedLM.from_pretrained("naver/splade_v2_max").to(self.device),
+            tokenizer=AutoTokenizer.from_pretrained("naver/splade_v2_max"),
+            device=self.device
+        )
+        self.batch_size = batchsize
     
     def retrieval_for_dest(self, aspects: list[Aspect], dest_chunks: list[str], percentile: float) -> dict[str, tuple[float, list[str]]]:
         """
@@ -60,38 +80,37 @@ class SpladeRetriever(SparseRetriever):
         :return: dict[str, dict[str, tuple[float, list[str]]]], structured results with scores and top matching chunks.
         """
         dest_result = dict()
-        for a in aspects:
-            a_text = a.get_new_description()
-            # compute embeddings for a_text and dest_chunks
-            total_text = [a_text] + dest_chunks
-            embeddings = list(self.model.embed(total_text))
-            a_embedding = np.array(embeddings[0].values)
-            print(a_embedding.shape)
-            
-            dest_embeddings = [emb.values for emb in embeddings[1:]]
-            print(dest_embeddings[0].shape)
-                            
+        aspects_text = [a.get_new_description() for a in aspects]
+        docs = [{"id": chunk, "chunks": chunk} for chunk in dest_chunks]
+        retriever = retrieve.SpladeRetriever(
+            key="id", # Key identifier of each document.
+            on="chunks", # Fields to search.
+            model=self.model # Splade retriever.
+        )
 
-            # compute cosine similarity between a_embedding and dest_embeddings
-            score = cosine_similarity(dest_embeddings, a_embedding).flatten() # shape [chunk_size]
-            # threshold = np.percentile(score, percentile) # determine the threshold
+        retriever = retriever.add(
+            documents=docs,
+            batch_size=self.batch_size,
+            k_tokens=256, # Number of activated tokens.
+        )
 
-            # extract top idx and top score with threshold
-            # top_idx = np.where(score >= threshold)[0]
-            # top_score = score[score >= threshold]
-
-            # extract top 3 idx and top 3 score
-            top_idx = np.argsort(score)[-3:]
-            top_score = score[top_idx]
-            avg_score = np.sum(top_score) / top_score.shape[0] # a scalar score
-
-            # retrieve top chunks
-            chunks = np.array(dest_chunks) # [chunk_size]
-            top_chunks = chunks[top_idx].tolist()
-
-            # store results
-            dest_result[a_text] = (avg_score, top_chunks)
-
+        splade_results = retriever(
+            aspects_text, # Aspect
+            k_tokens=20, # Maximum number of activated tokens.
+            k = 3, # Number of top-k documents to retrieve.
+            batch_size=self.batch_size
+        )
+        
+        count = 0
+        for result in splade_results:
+            top_chunks = []
+            score =[]
+            for r in result:
+                top_chunks.append(r["id"])
+                score.append(r["similarity"])
+            avg_score = sum(score) / len(score)
+            dest_result[aspects_text[count]] = (avg_score, top_chunks)
+            count += 1
         return dest_result
 
     

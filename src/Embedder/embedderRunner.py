@@ -2,9 +2,8 @@ from config import API_KEY
 import argparse
 from .GPTEmbedder import *
 from .STEmbedder import *
-from .Splade import *
 
-TYPE = {"gpt", "st", "splade"}
+TYPE = {"gpt", "st"}
 
 def main():
     parser = argparse.ArgumentParser(description="Generate embeddings for text files using a GPT model.")
@@ -17,13 +16,10 @@ def main():
 
     if args.emb_type == "gpt":
         embedder = GPTEmbedder(api_key=API_KEY, split_type=args.split_type)
+        embedder.create_embeddings(args.data_path, args.output_dir)
         
     elif args.emb_type == "st":
         embedder = STEmbedder(split_type=args.split_type)
-        embedder.create_embeddings(args.data_path, args.output_dir)
-
-    elif args.emb_type == "splade":
-        embedder = Splade_doc(split_type=args.split_type)
         embedder.create_embeddings(args.data_path, args.output_dir)
 
     else:

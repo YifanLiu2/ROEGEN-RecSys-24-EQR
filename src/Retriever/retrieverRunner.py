@@ -19,6 +19,7 @@ def main(args):
     
     query_path = args.query_path
     embedding_dir = args.embedding_dir
+    chunks_dir = args.chunks_dir
     output_path = args.output_path
 
     output_dir = os.path.dirname(output_path)
@@ -28,19 +29,24 @@ def main(args):
         if not os.path.exists(embedding_dir):
             raise ValueError(f"Invalid directory path for destination embeddings: {embedding_dir}")
     
+    if chunks_dir is not None:
+        if not os.path.exists(chunks_dir):
+            raise ValueError(f"Invalid directory path for destination chunks: {chunks_dir}")
+    
     if args.retrieve_type == "dense":
-        retriever = DenseRetriever(model=model, query_path=query_path, embedding_dir=embedding_dir, output_path=output_path)
+        retriever = DenseRetriever(model=model, query_path=query_path, chunks_dir=chunks_dir, embedding_dir=embedding_dir, output_path=output_path)
         retriever.run_retrieval()
     elif args.retrieve_type == "BM25":
-        retriever = SparseRetriever(query_path=query_path, output_path=output_path)
+        retriever = BM25Retriever(query_path=query_path, chunks_dir=chunks_dir,output_path=output_path)
         retriever.run_retrieval()
     elif args.retrieve_type == "splade":
-        retriever = SpladeRetriever(query_path=query_path, output_path=output_path)
+        retriever = SpladeRetriever(query_path=query_path, chunks_dir=chunks_dir, output_path=output_path)
         retriever.run_retrieval()
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Process the dense retriever.")
     parser.add_argument("-q", "--query_path", required=True, default="output/processed_query_elaborate.pkl", help="Path to the input file containing queries")
+    parser.add_argument("-c", "--chunks_dir", required=True,help="Directory containing destination chunks")
     parser.add_argument("-e", "--embedding_dir", help="Directory containing embeddings")
     parser.add_argument("-x", "--retrieve_type", default="dense", help="Type of retrieval to perform")
     parser.add_argument("--emb_type", type=str, choices=TYPE, default="gpt", help="Specify the type of the embedder. Available types are: {}".format(", ".join(sorted(TYPE))))
