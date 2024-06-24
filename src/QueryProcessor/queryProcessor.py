@@ -484,6 +484,63 @@ class queryProcessor:
             paraphrases = '\n'.join(paraphrase_list)
 
         return paraphrases
+    
+    def _GenQREnsemble(self, query_aspect: str, n: int = 5):
+        """
+        GenQREnsemble @ https://arxiv.org/pdf/2404.03746
+        """
+        def rewrite_instruction(instruction: str, n: int):
+            """
+            """
+            prompt = f"""
+            Given the specified user instruction, paraphrase it to a list of {n} instructions. 
+            Provide your answers in valid JSON format with double quote: {{"answer": []}}.
+
+            Aspect: {{instruction}}
+            """
+            message = [
+                {"role": "system", "content": prompt},
+                {"role": "user", "content": prompt.format(instruction=instruction)},
+            ]
+
+            response = self.llm.generate(message)
+
+            # parse the answer
+            start = response.find("{")
+            end = response.rfind("}") + 1
+            response = response[start:end]
+            paraphrase_list = json.loads(response)["answer"]
+            paraphrase_list = [instruction] + paraphrase_list
+            
+            return paraphrase_list
+
+        instruction = "Optimize search results by suggesting meaningful expansion terms to enhance the query."
+        instruction_list = rewrite_instruction(instruction=instruction)
+
+        expansion_list = [query_aspect]
+        for i in instruction_list:
+            prompt = f"""
+            {i}
+            Provide your answers in valid JSON format with double quote: {{"answer": []}}.
+
+            Aspect: {{aspect}}
+            """
+            message = [
+                {"role": "system", "content": "You are a travel expert."},
+                {"role": "user", "content": prompt.format(aspect=query_aspect)},
+            ]
+
+            response = self.llm.generate(message)
+
+            start = response.find("{")
+            end = response.rfind("}") + 1
+            response = response[start:end]
+            results = json.loads(response)["answer"]
+
+            expansion_list += results
+        
+        expansions = '\n'.join(expansion_list)
+        return expansions
 
 
 def correct_and_extract(input_string) -> str:
