@@ -510,19 +510,16 @@ class queryProcessor:
             end = response.rfind("}") + 1
             response = response[start:end]
             paraphrase_list = json.loads(response)["answer"]
-            paraphrase_list = [instruction] + paraphrase_list
-            
             return paraphrase_list
 
-        instruction = "Optimize search results by suggesting meaningful expansion terms to enhance the query."
-        instruction_list = rewrite_instruction(instruction=instruction)
+        instruction = "Optimize search results by suggesting meaningful expansion terms to enhance the following query aspect."
+        instruction_list = rewrite_instruction(instruction=instruction, n=n)
 
         expansion_list = [query_aspect]
         for i in instruction_list:
             prompt = f"""
-            {i}
-            Provide your answers in valid JSON format with double quote: {{"answer": []}}.
-
+            {i}.
+            Provide your answers in valid JSON format with double quote: {{\"answer\": []}}. 
             Aspect: {{aspect}}
             """
             message = [
@@ -539,7 +536,13 @@ class queryProcessor:
 
             expansion_list += results
         
-        expansions = '\n'.join(expansion_list)
+        if self.retriever_type == "sparse":
+            expansion_list = [query_aspect] * 5 + expansion_list 
+            ' '.join(paraphrase_list)
+        else:
+            expansion_list = list(set([e.lower() for e in expansion_list]))
+            expansion_list = [query_aspect] + expansion_list
+            expansions = '\n'.join(expansion_list)
         return expansions
 
 

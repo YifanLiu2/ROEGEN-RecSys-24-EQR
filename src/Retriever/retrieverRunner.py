@@ -1,5 +1,6 @@
 from src.Retriever.denseRetriever import *
 from src.Retriever.sparseRetriever import *
+from src.Retriever.proQERetriever import *
 
 from src.Embedder.GPTEmbedder import *
 from src.Embedder.STEmbedder import *
@@ -41,6 +42,12 @@ def main(args):
         retriever.run_retrieval()
     elif args.retrieve_type == "splade":
         retriever = SpladeRetriever(query_path=query_path, chunks_dir=chunks_dir, output_path=output_path)
+        retriever.run_retrieval()
+    elif args.retrieve_type == "proQEsparse":
+        retriever = SparseProQERetriever(query_path=query_path, chunks_dir=chunks_dir, output_path=output_path)
+        retriever.run_retrieval()
+    elif args.retrieve_type == "proQEdense":
+        retriever = DenseProQERetriever(model=model, query_path=query_path, chunks_dir=chunks_dir, output_path=output_path, embedding_dir=embedding_dir)
         retriever.run_retrieval()
 
 if __name__ == "__main__":

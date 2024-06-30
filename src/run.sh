@@ -44,6 +44,8 @@ for query_processor_mode in "${modes[@]}"; do
         "python -m src.QueryProcessor.queryProcessorRunner -i $original_query_input_path -o $processed_query_output_dir --mode $query_processor_mode"
         "echo 'Run dense retriever'"
         "python -m src.Retriever.retrieverRunner -q $processed_query_output_path -e $doc_embeddings_dir --emb_type $emb_type -o $retriever_output_path"
+        "echo 'Run sparse retriever'"
+        "python -m"
         "echo 'Saving ranked list'"
         "python -m src.Retriever.saveRankList -r $retriever_output_path -o $retriever_output_dir"
     )

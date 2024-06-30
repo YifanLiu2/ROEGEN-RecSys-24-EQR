@@ -4,27 +4,30 @@ from sparsembed import model, retrieve
 import torch
 from transformers import AutoModelForMaskedLM, AutoTokenizer
 from src.Entity.aspect import Aspect
+from tqdm import tqdm
+from src.LLM.GPTChatCompletion import GPTChatCompletion
+
 
 class SparseRetriever(AbstractRetriever):
     """
     Concrete SparseRetriever class.
     """
     cls_type = "sparse"
-    def __init__(self, query_path: str, chunks_dir: str, output_path: str, percentile: float = 10):
-        super().__init__(query_path=query_path, output_path=output_path, chunks_dir=chunks_dir, percentile=percentile)
+    def __init__(self, query_path: str, chunks_dir: str, output_path: str, num_chunks: int = 3):
+        super().__init__(query_path=query_path, output_path=output_path, chunks_dir=chunks_dir, num_chunks=num_chunks)
 
 
 class BM25Retriever(SparseRetriever):
     """
-    Concrete DenseRetriever class.
+    Concrete SparseRetriever class.
     """
-    def __init__(self, query_path: str, chunks_dir:str, output_path: str, percentile: float = 10):
-        super().__init__(model=None, query_path=query_path, output_path=output_path, chunks_dir=chunks_dir, percentile=percentile)
+    def __init__(self, query_path: str, chunks_dir:str, output_path: str, num_chunks: int = 3):
+        super().__init__(query_path=query_path, output_path=output_path, chunks_dir=chunks_dir, num_chunks=num_chunks)
     
 
-    def retrieval_for_dest(self, aspects: list[Aspect], dest_chunks: list[str], percentile: float) -> dict[str, tuple[float, list[str]]]:
+    def retrieval_for_dest(self, aspects: list[Aspect], dest_chunks: list[str], num_chunks: int = 3) -> dict[str, tuple[float, list[str]]]:
         """
-        Perform dense retrieval for each query.
+        Perform sparse retrieval for each query.
 
         :param queries: list[str], list of query strings.
         :param dests_chunks: dict[str, list[str]], dictionary of destination names to lists of associated text chunks.
@@ -40,14 +43,14 @@ class BM25Retriever(SparseRetriever):
         for a in aspects:
             a_text = a.get_new_description()
             # compute bm25 scores for a_text and dest_chunks
-            tokenized_a = a_text.split(" ")
+            tokenized_a = a_text.split(" ") #TODO: modify tokenization method
 
-            top_chunks = bm25.get_top_n(tokenized_a, corpus, n=3)
+            top_chunks = bm25.get_top_n(tokenized_a, corpus, n=num_chunks)
             # get the score for the top chunks
             scores = bm25.get_scores(tokenized_a)
-            scores.sort()
+            scores.sort(reversed=True)
 
-            avg_score = sum(scores[-3:]) / 3
+            avg_score = sum(scores[: num_chunks]) / num_chunks
 
             # store results
             dest_result[a_text] = (avg_score, top_chunks)
@@ -59,8 +62,8 @@ class SpladeRetriever(SparseRetriever):
     Concrete SparseRetriever class.
     """
 
-    def __init__(self, query_path: str, chunks_dir: str, output_path: str, percentile: float = 10, batchsize: int = 8):
-        super().__init__(query_path=query_path, output_path=output_path, chunks_dir=chunks_dir, percentile=percentile)
+    def __init__(self, query_path: str, chunks_dir: str, output_path: str, num_chunks: int = 3, batchsize: int = 8):
+        super().__init__(query_path=query_path, output_path=output_path, chunks_dir=chunks_dir, num_chunks=num_chunks)
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
         print(f"Using device: {self.device}")
         self.model = model.Splade(
@@ -70,9 +73,9 @@ class SpladeRetriever(SparseRetriever):
         )
         self.batch_size = batchsize
     
-    def retrieval_for_dest(self, aspects: list[Aspect], dest_chunks: list[str], percentile: float) -> dict[str, tuple[float, list[str]]]:
+    def retrieval_for_dest(self, aspects: list[Aspect], dest_chunks: list[str], num_chunks: int = 3) -> dict[str, tuple[float, list[str]]]:
         """
-        Perform dense retrieval for each query.
+        Perform sparse retrieval for each query.
 
         :param queries: list[str], list of query strings.
         :param dests_chunks: dict[str, list[str]], dictionary of destination names to lists of associated text chunks.
@@ -81,7 +84,7 @@ class SpladeRetriever(SparseRetriever):
         """
         dest_result = dict()
         aspects_text = [a.get_new_description() for a in aspects]
-        docs = [{"id": chunk, "chunks": chunk} for chunk in dest_chunks]
+        docs = [{"id": i, "chunks": chunk} for i, chunk in enumerate(dest_chunks)]
         retriever = retrieve.SpladeRetriever(
             key="id", # Key identifier of each document.
             on="chunks", # Fields to search.
@@ -97,7 +100,7 @@ class SpladeRetriever(SparseRetriever):
         splade_results = retriever(
             aspects_text, # Aspect
             k_tokens=20, # Maximum number of activated tokens.
-            k = 3, # Number of top-k documents to retrieve.
+            k = num_chunks, # Number of top-k documents to retrieve.
             batch_size=self.batch_size
         )
         
@@ -106,11 +109,14 @@ class SpladeRetriever(SparseRetriever):
             top_chunks = []
             score =[]
             for r in result:
-                top_chunks.append(r["id"])
-                score.append(r["similarity"])
+                top = next((doc["chunks"] for doc in docs if doc["id"] == r["id"]), None)
+                if top is not None:
+                    top_chunks.append(top)
+                    score.append(r["similarity"])
+                    
             avg_score = sum(score) / len(score)
             dest_result[aspects_text[count]] = (avg_score, top_chunks)
             count += 1
         return dest_result
 
-    
+       
