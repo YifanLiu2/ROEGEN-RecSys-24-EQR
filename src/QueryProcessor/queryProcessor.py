@@ -34,12 +34,14 @@ class queryProcessor:
         aspect_processing_func = None
         if self.mode_name == "reformulate":
             aspect_processing_func = self._reformulate_aspect
-        elif self.mode_name == "expand":
-            aspect_processing_func = self._expand_aspect
+        elif self.mode_name == "q2e":
+            aspect_processing_func = self._Q2E
         elif self.mode_name == "elaborate":
             aspect_processing_func = self._elaborate_aspect
         elif self.mode_name == "answer":
             aspect_processing_func = self._answer_aspect
+        elif self.mode_name == "tree":
+            aspect_processing_func = self.elaborate_tree
         
 
         result_queries = []
@@ -162,13 +164,13 @@ class queryProcessor:
         message = [
             {"role": "system", "content": "You are a travel expert."},
             {"role": "user", "content": prompt.format(query="Recommend me cities with historical sites and museums to explore during my travels?")},
-            {"role": "assistant", "content": answer.format(answer=json.dumps({"answer": {"constraint": [],"preferences": [],"activities": ["historical sites", "museums"]}}))},
+            {"role": "assistant", "content": answer.format(answer=json.dumps({"answer": {"constraint": [],"preferences": [],"activities": ["cities with historical sites", "cities with museums"]}}))},
             {"role": "user", "content": prompt.format(query="I am plannning on a trip to cities with good restaurants. ")},
-            {"role": "assistant", "content": answer.format(answer=json.dumps({"answer": {"constraint": [],"preferences": [],"activities": ["good restaurants"]}}))},
+            {"role": "assistant", "content": answer.format(answer=json.dumps({"answer": {"constraint": [],"preferences": [],"activities": ["cities with good restaurants"]}}))},
             {"role": "user", "content": prompt.format(query="I'm planning a trip to Asia on a budget. Any recommendations for budget-friendly cities there? ")},
-            {"role": "assistant", "content": answer.format(answer=json.dumps({"answer": {"constraint": ["in Asia"], "preferences": ["on a budget"], "activities": []}}))},
+            {"role": "assistant", "content": answer.format(answer=json.dumps({"answer": {"constraint": ["in Asia"], "preferences": ["cities on a budget"], "activities": []}}))},
             {"role": "user", "content": prompt.format(query="I want a city with a major film festival in June and good seafood restaurants.")},
-            {"role": "assistant", "content": answer.format(answer=json.dumps({"answer": {"constraint": [], "preferences": [], "activities": ["good seafood restaurants", "major film festival in June"]}}))},
+            {"role": "assistant", "content": answer.format(answer=json.dumps({"answer": {"constraint": [], "preferences": [], "activities": ["cities with good seafood restaurants", "cities with major film festival in June"]}}))},
             {"role": "user", "content": prompt.format(query=query)},
         ]
 
@@ -292,6 +294,95 @@ class queryProcessor:
     #     expansions = ' '.join(expansion_list)
         
     #     return expansions
+
+    def elaborate_tree(self, query_aspect: str, max_subtopics: int = 5, depth_limit: int = 3) -> str:
+        """
+        """
+        expandable = self.is_expandable(query_aspect=query_aspect)
+        print(f"{query_aspect}: {expandable}")
+        if (not expandable) and depth_limit <= 0: # base case
+            return query_aspect
+        
+        else: # recursive case
+            subtopics = self.expand_subtopics(query_aspect=query_aspect, max_subtopics=max_subtopics)
+            print(f"Aspect: {query_aspect}")
+            print(f"Subtopics: {subtopics}")
+            subtopics_expansion = [self.elaborate_tree(query_aspect=sub, max_subtopics=max_subtopics, depth_limit=depth_limit - 1) for sub in subtopics]
+            return '\n'.join(subtopics_expansion)
+
+
+    def expand_subtopics(self, query_aspect: str, max_subtopics: int) -> list[str]:
+        """
+        """
+        prompt = """
+        Given the provided query about travel destination cities recommendation, expand the query to up to {max_subtopics} highly related subtopics from different aspects that represent certain attributes a city might have. These subtopics will form new queries about travel destination cities recommendation.
+
+        Note that you do not need to exhaust the maximum number of subtopics; {max_subtopics} is merely an upper limit. Focus on providing mutually exclusive aspects that are most relevant and selective. 
+        For example, for a query asking about family-friendly cities recommendation, you might discuss:
+        1. Cities with child-friendly museums and educational attractions.
+        2. Cities with parks and outdoor activities.
+        3. Cities with family-friendly festivals and events.
+
+        For a more specific query asking about good food locations, you might consider:
+        1. Cities with street food.
+        2. Cities with Michelin-starred restaurants.
+        3. Cities known for specific cuisines (e.g., Naples for pizza, Tokyo for sushi).
+
+        Provide your answers in valid JSON format with double quotes: {{"answer": [SUBTOPICS LIST]}}.
+
+        Aspect: {aspect}
+        """
+        # answer = ANSWER_FORMAT
+
+        message = [
+            {"role": "system", "content": "You are a travel expert."},
+            {"role": "user", "content": prompt.format(aspect=query_aspect, max_subtopics=max_subtopics)},
+        ]
+
+        response = self.llm.generate(message)
+
+        # parse the answer
+        start = response.find("{")
+        end = response.rfind("}") + 1
+        response = response[start:end]
+        subtopics = json.loads(response)["answer"]
+        return subtopics
+    
+
+    def is_expandable(self, query_aspect: str) -> bool:
+        """
+        """
+        prompt = """
+        Given the provided query aspect about travel destination cities recommendation, determine whether the query is specific to provide example answers that most people would agree with for a query. Return "yes" if the query is specific enough and "no" otherwise.
+        For example, 
+        A query asking about family-friendly cities recommendation is quite broad and lacks universally agreed-upon answers due to varying preferences and definitions of 'family-friendly.' Therefore, you should return "no".
+        A query about good street food cities can often lead to common answers like Bangkok, Ho Chi Minh City, or Mexico City, known for their street food culture, so the answer should be "yes".
+
+        Provide your answers in valid JSON format with double quote: {{"answer": ["yes" | no"]}}.
+
+        Aspect: {aspect}
+        """
+        answer = ANSWER_FORMAT
+
+        message = [
+            {"role": "system", "content": "You are a travel expert."},
+            {"role": "user", "content": prompt.format(aspect="Family-friendly cities.")},
+            {"role": "assistant", "content": answer.format(answer="no")},
+            {"role": "user", "content": prompt.format(aspect="Cities with good street food")},
+            {"role": "assistant", "content": answer.format(answer="yes")},          
+            {"role": "user", "content": prompt.format(aspect="Cities with Disneyland")},
+            {"role": "assistant", "content": answer.format(answer= "yes")}, 
+            {"role": "user", "content": prompt.format(aspect=query_aspect)},
+        ]
+
+        response = self.llm.generate(message)
+        response = correct_and_extract(response).lower()
+        if "no" in response:
+            return True
+        elif "yes" in response:
+            return False
+        else:
+            raise ValueError("")
 
 
     def _elaborate_aspect(self, query_aspect: str) -> str:
