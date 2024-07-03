@@ -315,27 +315,25 @@ class queryProcessor:
         """
         """
         prompt = """
-        Given the provided query about travel destination cities recommendation, expand the query to up to {max_subtopics} highly related subtopics from different aspects that represent certain attributes a city might have. These subtopics will form new queries about travel destination cities recommendation.
-
-        Note that you do not need to exhaust the maximum number of subtopics; {max_subtopics} is merely an upper limit. Focus on providing mutually exclusive aspects that are most relevant and selective. 
-        For example, for a query asking about family-friendly cities recommendation, you might discuss:
-        1. Cities with child-friendly museums and educational attractions.
-        2. Cities with parks and outdoor activities.
-        3. Cities with family-friendly festivals and events.
-
-        For a more specific query asking about good food locations, you might consider:
-        1. Cities with street food.
-        2. Cities with Michelin-starred restaurants.
-        3. Cities known for specific cuisines (e.g., Naples for pizza, Tokyo for sushi).
+        Given the provided query about travel destination cities recommendation, expand the query to up to {max_subtopics} subtopics from different aspects that represent certain attributes a city might have.
+            1. Each subtopic should represent a more detailed granularity of the travel concept than the original topic.
+            2. Each subtopic should be mutually exclusive and focus on a different travel-related concept.
+            3. These subtopics will form new queries about travel destination cities recommendation, so provide them in a way that can be answered by a list of cities. Write them concisely in very short sentences.
+            4. You do not need to, and not expected to, exhaust the maximum number of subtopics; {max_subtopics} is merely an upper limit.
+            5. Provide your answers in valid JSON format with double quotes: {{"answer": [SUBTOPICS LIST]}}.
 
         Provide your answers in valid JSON format with double quotes: {{"answer": [SUBTOPICS LIST]}}.
 
         Aspect: {aspect}
         """
-        # answer = ANSWER_FORMAT
+        answer = ANSWER_FORMAT
 
         message = [
             {"role": "system", "content": "You are a travel expert."},
+            {"role": "user", "content": prompt.format(aspect="Family-friendly cities.")},
+            {"role": "assistant", "content": answer.format(answer=["Cities with educational museums.", "Cities with best-amusement parks.", "Cities with top-rated family hotels."])},
+            {"role": "user", "content": prompt.format(aspect="Good food cities.")},
+            {"role": "assistant", "content": answer.format(answer=["Cities with street food.", "Cities with Michelin-starred restaurants.", "Cities famous for specific local cuisines."])},
             {"role": "user", "content": prompt.format(aspect=query_aspect, max_subtopics=max_subtopics)},
         ]
 
@@ -353,33 +351,48 @@ class queryProcessor:
         """
         """
         prompt = """
-        Given the provided query aspect about travel destination cities recommendation, determine whether the query is specific to provide example answers that most people would agree with for a query. Return "yes" if the query is specific enough and "no" otherwise.
-        For example, 
-        A query asking about family-friendly cities recommendation is quite broad and lacks universally agreed-upon answers due to varying preferences and definitions of 'family-friendly.' Therefore, you should return "no".
-        A query about good street food cities can often lead to common answers like Bangkok, Ho Chi Minh City, or Mexico City, known for their street food culture, so the answer should be "yes".
+        Subtopics mining is a strategy used in information retrieval systems to identify related, more specific subtopics under a given broad query, which helps uncover additional topics that may interest users. Each subtopic should be significantly more specific in terminology and coverage than the original query topics and should be very distinct from one another.
 
-        Provide your answers in valid JSON format with double quote: {{"answer": ["yes" | no"]}}.
+        Consider a travel destination recommender system where the goal is to suggest a list of cities based on user queries. We employ subtopics mining to better interpret and respond to these queries. Our primary data source is Wiki-Travel, which often lacks detailed information about specific cities. Therefore, it is crucial to maintain a balance in the level of granularity when mining subtopics.
 
-        Aspect: {aspect}
+        Conversely, here are some additional examples where the query might point to an activity that is too specific to mine meaningful subtopics and/or find relevant information from Wiki-Travel (please see the above examples without further brackets as additional negative cases):
+
+        * Cities famous for food [Cities known for special local cuisines [Cities famous for Thai-style cuisine; Cities famous for Pizza …]; Cities with numerous high-end Michelin star restaurants; Cities known for vibrant street food cultures.]
+        * Cities rich in entertainment [Cities with famous music scenes; Cities known for Broadway-style productions; Cities with bustling nightclubs and bars; Cities with good amusement park [Cities with good theme park …]].
+        * Family-friendly cities [Cities with kid-focused museums and zoos [Cities with fun art galleries; Cities with educational natural history museum …]; Cities with large recreational parks and fun zones [Cities with good theme park; Cities with fun water parks …]].
+        * Cities for sports lovers [Cities with major league teams and stadiums; Cities ideal for outdoor advantures [Cities famous for mountain climbing …]; Cities for winter sports lover [Cities famous for skiing …]; Football cities].
+        * Budget-friendly cities [Cities with budget lodging options; Cities with numerous free tourist attractions; Cities offering great food at low prices; Cities with cheap transportation and local facilities].
+        * Cities with a romantic atmosphere [Cities with cozy, romantic restaurants; Cities offering romantic activities [ Cities offering hot air balloon rides …]].
+        * Luxury cities [Cities with high-end shopping districts; Cities with exclusive, gourmet restaurants; Cities featuring luxury hotels and resorts].
+
+        Conversely, here are some additional examples where the query might point to a activity that is too specific to mine meaningful subtopics and/or finding relevant information from Wiki-Travel (please see the above example without further bracket as additional negative cases):
+
+        * Cities famous for street food or any kind of specific food genre [too specific to find relevant info from wiki for further mining].
+        * Cities with good theme park [too specific to find relevant info from wiki for further mining].
+        * Cities famous for their educational natural science museums [too specific for further mining].
+        * Best cities to watch NBA games [too specific for further mining].
+        * Cities with budget lodging options [too specific to find relevant info from wiki for further mining].
+        * Cities with cozy, romantic restaurants [too specific to find relevant info from wiki for further mining].
+        * Cities with luxury hotels [too specific to find relevant info from wiki for further mining].
+
+        Given the following information and the broadness of the Wiki-Travel data source (be cautious, as many details cannot be found in Wiki-Travel), decide whether the given query is suitable for further subtopics mining (i.e., further expanding it into subtopics).
+
+        Provide your answers in valid JSON format with double quotes: {{"answer": "yes" | "no"}}. 
+
+        Query: {aspect}
         """
-        answer = ANSWER_FORMAT
+        # answer = ANSWER_FORMAT
 
         message = [
             {"role": "system", "content": "You are a travel expert."},
-            {"role": "user", "content": prompt.format(aspect="Family-friendly cities.")},
-            {"role": "assistant", "content": answer.format(answer="no")},
-            {"role": "user", "content": prompt.format(aspect="Cities with good street food")},
-            {"role": "assistant", "content": answer.format(answer="yes")},          
-            {"role": "user", "content": prompt.format(aspect="Cities with Disneyland")},
-            {"role": "assistant", "content": answer.format(answer= "yes")}, 
             {"role": "user", "content": prompt.format(aspect=query_aspect)},
         ]
 
         response = self.llm.generate(message)
         response = correct_and_extract(response).lower()
-        if "no" in response:
+        if "yes" in response:
             return True
-        elif "yes" in response:
+        elif "no" in response:
             return False
         else:
             raise ValueError("")
