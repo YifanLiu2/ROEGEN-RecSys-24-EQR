@@ -509,12 +509,11 @@ class queryProcessor:
             {"role": "user", "content": prompt.format(aspect="suitable for adventure seekers")},
             {"role": "assistant", "content": answer.format(answer=["adventure sports", "extreme sports", "hiking trails", "national parks", "outdoor activities", "rock climbing", "white-water rafting", "zip-lining", "surfing spots", "biking trails"])},
             {"role": "user", "content": prompt.format(aspect="has historical sites")},
-            {"role": "assistant", "content": answer.format(answer=['historical landmarks', 'ancient ruins', 'UNESCO World Heritage Sites', 'archaeological sites', 'old towns', 'monuments', 'museums', 'castles', 'palaces', 'heritage tours'])},          
+            {"role": "assistant", "content": answer.format(answer=["historical landmarks", "ancient ruins", "UNESCO World Heritage Sites", "archaeological sites", "old towns", "monuments", "museums", "castles", "palaces", "heritage tours"])},          
             {"role": "user", "content": prompt.format(aspect=query_aspect)},
         ]
 
         response = self.llm.generate(message)
-        
         # parse the answer
         start = response.find("{")
         end = response.rfind("}") + 1
@@ -584,15 +583,15 @@ class queryProcessor:
         def rewrite_instruction(instruction: str, n: int):
             """
             """
-            prompt = f"""
+            prompt = """
             Given the specified user instruction, paraphrase it to a list of {n} instructions. 
             Provide your answers in valid JSON format with double quote: {{"answer": []}}.
 
-            Aspect: {{instruction}}
+            Aspect: {instruction}
             """
             message = [
-                {"role": "system", "content": prompt},
-                {"role": "user", "content": prompt.format(instruction=instruction)},
+                {"role": "system", "content": "You are a travel expert."},
+                {"role": "user", "content": prompt.format(instruction=instruction, n=n)},
             ]
 
             response = self.llm.generate(message)
@@ -609,14 +608,14 @@ class queryProcessor:
 
         expansion_list = [query_aspect]
         for i in instruction_list:
-            prompt = f"""
+            prompt = """
             {i}.
-            Provide your answers in valid JSON format with double quote: {{\"answer\": []}}. 
-            Aspect: {{aspect}}
+            Provide your answers in valid JSON format with double quote: {{"answer": []}}. 
+            Aspect: {aspect}
             """
             message = [
                 {"role": "system", "content": "You are a travel expert."},
-                {"role": "user", "content": prompt.format(aspect=query_aspect)},
+                {"role": "user", "content": prompt.format(aspect=query_aspect, i=i)},
             ]
 
             response = self.llm.generate(message)

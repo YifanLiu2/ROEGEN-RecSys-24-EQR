@@ -5,14 +5,15 @@ echo "This script requires 5 inputs in the following order:"
 echo "1. Original Query Input Path"
 echo "2. Processed Query Output Directory"
 echo "3. Embedding Type"
-echo "4. Document Embeddings Directory"
-echo "5. Retriever type"
-echo "6. Retriever Output Directory"
-echo "7. Ground Truth Path"
+echo "4. Document Chunks Directory"
+echo "5. Document Embeddings Directory"
+echo "6. Retriever type"
+echo "7. Retriever Output Directory"
+echo "8. Ground Truth Path"
 echo "Please ensure you have provided all inputs in the correct order."
 
 # Check if exactly 5 or 6 arguments are provided
-if [ "$#" -ne 6 ] && [ "$#" -ne 7 ]; then
+if [ "$#" -ne 7 ] && [ "$#" -ne 8 ]; then
     echo "Illegal number of parameters. Please provide 6 or 7 parameters."
     exit 1
 fi
@@ -24,13 +25,14 @@ project_root=$(dirname $(dirname $(realpath $0)))
 original_query_input_path=$1
 processed_query_output_dir=$2
 emb_type=$3
-doc_embeddings_dir=$4
-retriever_type=$5
-retriever_output_dir=$6
-ground_truth_path=$7
+doc_chunks_dir=$4
+doc_embeddings_dir=$5
+retriever_type=$6
+retriever_output_dir=$7
+ground_truth_path=$8
 
 
-modes=("gqr" "q2e" "q2d" "genqr" "elaborate" "answer")
+modes=("none" "gqr" "q2e" "q2d" "genqr" "elaborate" "answer")
 
 for query_processor_mode in "${modes[@]}"; do
     # Extend processed_query_output_dir to include mode-specific subdirectory and filename
@@ -43,7 +45,7 @@ for query_processor_mode in "${modes[@]}"; do
         "echo 'Run Query Processor'"
         "python -m src.QueryProcessor.queryProcessorRunner -i $original_query_input_path -o $processed_query_output_dir --mode $query_processor_mode"
         "echo 'Run dense retriever'"
-        "python -m src.Retriever.retrieverRunner -q $processed_query_output_path -e $doc_embeddings_dir --emb_type $emb_type -o $retriever_output_path"
+        "python -m src.Retriever.retrieverRunner -q $processed_query_output_path -c $doc_chunks_dir -e $doc_embeddings_dir -x "dense" --emb_type $emb_type -o $retriever_output_path"
         "echo 'Saving ranked list'"
         "python -m src.Retriever.saveRankList -r $retriever_output_path -o $retriever_output_dir"
     )

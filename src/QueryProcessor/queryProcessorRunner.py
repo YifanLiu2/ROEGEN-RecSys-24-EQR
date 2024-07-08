@@ -3,12 +3,14 @@ from config import API_KEY
 from src.QueryProcessor.queryProcessor import *
 from src.LLM.GPTChatCompletion import *
 
-MODE = {"gqr","q2d", "q2e", "genqr", "elaborate", "answer"}
+MODE = {"gqr","q2d", "q2e", "genqr", "elaborate", "answer", "none"}
 
 def main(args):
     llm = GPTChatCompletion(api_key=API_KEY)
     input_path = args.input_path
     mode_name = args.mode
+    if mode_name == "none":
+        mode_name = None
     output_dir = args.output_dir
 
     if not input_path.endswith('.txt'):

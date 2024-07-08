@@ -99,7 +99,7 @@ class AbstractRetriever(abc.ABC):
         else: # dense retrieval
             # retrieve results for each destination
             for dest_name, dest_emb in tqdm(dests_embs.items(), desc="Processing destinations"):
-                dest_result = self.retrieval_for_dest(aspects=aspects, dest_chunks=dests_chunks[dest_name], num_chunks=self.num_chunks, dests_emb=dest_emb)
+                dest_result = self.retrieval_for_dest(aspects=aspects, dest_chunks=dests_chunks[dest_name], num_chunks=self.num_chunks, dest_emb=dest_emb)
                 # fuse results from multiple aspects
                 dest_result = self.avg_fusion(dest_result)
                 query_results[dest_name] = dest_result
