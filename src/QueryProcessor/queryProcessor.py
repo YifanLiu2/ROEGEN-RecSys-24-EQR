@@ -17,7 +17,7 @@ class queryProcessor:
         Initialize the query processor
         :param query:
         :param llm:
-        :param mode_name: can only be "expand", "reformulate", "elaborate"
+        :param mode_name: can only be "gqr", "q2e", "q2d", "genqr", "elaborate", "answer",
         :param output_dir:
         """ 
         self.llm = llm
@@ -32,16 +32,19 @@ class queryProcessor:
         """
         # fetch aspect processing function
         aspect_processing_func = None
-        if self.mode_name == "reformulate":
-            aspect_processing_func = self._reformulate_aspect
+        if self.mode_name == "gqr":
+            aspect_processing_func = self._GQR
         elif self.mode_name == "q2e":
             aspect_processing_func = self._Q2E
+        elif self.mode_name == "q2d":
+            aspect_processing_func = self._Q2D
+        elif self.mode_name == "genqr":
+            aspect_processing_func = self._GenQREnsemble
         elif self.mode_name == "elaborate":
             aspect_processing_func = self._elaborate_aspect
         elif self.mode_name == "answer":
             aspect_processing_func = self._answer_aspect
-        elif self.mode_name == "tree":
-            aspect_processing_func = self.elaborate_tree
+        
         
 
         result_queries = []
@@ -66,25 +69,10 @@ class queryProcessor:
                 hybrid = Hybrid(description=h)
                 curr_query.add_hybrid(hybrid)
 
-            if self.mode_name == "v2":
-                # v2 mode: 
-                # constraint：keyword expansion + direct answer
-                # preference：elaborate without answer
-                # hybrid：answer with explain
-                for constraint in curr_query.get_constraints():
-                    new_desc = self._answer_constraints(query_constraint=constraint.description)
-                    constraint.set_new_description(new_description=new_desc)
-                for preference in curr_query.get_preferences():
-                    new_desc = self._elaborate_aspect(query_aspect=preference.description)
-                    preference.set_new_description(new_description=new_desc)
-                for hybrid in curr_query.get_hybrids():
-                    new_desc = self._answer_aspect(query_aspect=hybrid.description)
-                    hybrid.set_new_description(new_description=new_desc)
-            else:
-                if aspect_processing_func is not None:
-                    for aspect in curr_query.get_all_aspects():
-                        new_desc = aspect_processing_func(query_aspect=aspect.description)
-                        aspect.set_new_description(new_description=new_desc)
+            if aspect_processing_func is not None:
+                for aspect in curr_query.get_all_aspects():
+                    new_desc = aspect_processing_func(query_aspect=aspect.description)
+                    aspect.set_new_description(new_description=new_desc)
             
             result_queries.append(curr_query)
 
@@ -642,7 +630,7 @@ class queryProcessor:
         
         if self.retriever_type == "sparse":
             expansion_list = [query_aspect] * 5 + expansion_list 
-            ' '.join(paraphrase_list)
+            ' '.join(expansion_list)
         else:
             expansion_list = list(set([e.lower() for e in expansion_list]))
             expansion_list = [query_aspect] + expansion_list
