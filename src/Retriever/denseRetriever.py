@@ -12,8 +12,8 @@ class DenseRetriever(AbstractRetriever):
     Concrete DenseRetriever class.
     """
     cls_type = "dense"
-    def __init__(self, model: LMEmbedder, query_path: str, embedding_dir: str, chunks_dir: str, output_path: str, percentile: float = 10):
-        super().__init__(model=model, query_path=query_path, output_path=output_path, chunks_dir=chunks_dir, percentile=percentile)
+    def __init__(self, model: LMEmbedder, query_path: str, embedding_dir: str, chunks_dir: str, output_path: str):
+        super().__init__(model=model, query_path=query_path, output_path=output_path, chunks_dir=chunks_dir)
         self.dense_embedding_dir = embedding_dir
     
     def load_dest_embeddings(self) ->  dict[str, np.ndarray]:
@@ -35,7 +35,7 @@ class DenseRetriever(AbstractRetriever):
         dest_embs = self.load_dest_embeddings()
         return dest_chunks, dest_embs
 
-    def retrieval_for_dest(self, aspects: list[Aspect], dest_emb: np.ndarray, dest_chunks: list[str], percentile: float) -> dict[str, tuple[float, list[str]]]:
+    def retrieval_for_dest(self, aspects: list[Aspect], dest_emb: np.ndarray, dest_chunks: list[str], num_chunks: int, percentile: float = None) -> dict[str, tuple[float, list[str]]]:
         """
         Perform dense retrieval for each query.
 
@@ -57,8 +57,7 @@ class DenseRetriever(AbstractRetriever):
             # top_idx = np.where(score >= threshold)[0]
             # top_score = score[score >= threshold]
 
-            # extract top 3 idx and top 3 score
-            top_idx = np.argsort(score)[-3:]
+            top_idx = np.argsort(score)[-num_chunks:]
             top_score = score[top_idx]
             avg_score = np.sum(top_score) / top_score.shape[0] # a scalar score
 

@@ -17,7 +17,7 @@ class queryProcessor:
         Initialize the query processor
         :param query:
         :param llm:
-        :param mode_name: can only be "expand", "reformulate", "elaborate"
+        :param mode_name: can only be "gqr", "q2e", "q2d", "genqr", "elaborate", "answer",
         :param output_dir:
         """ 
         self.llm = llm
@@ -32,14 +32,19 @@ class queryProcessor:
         """
         # fetch aspect processing function
         aspect_processing_func = None
-        if self.mode_name == "reformulate":
-            aspect_processing_func = self._reformulate_aspect
-        elif self.mode_name == "expand":
-            aspect_processing_func = self._expand_aspect
+        if self.mode_name == "gqr":
+            aspect_processing_func = self._GQR
+        elif self.mode_name == "q2e":
+            aspect_processing_func = self._Q2E
+        elif self.mode_name == "q2d":
+            aspect_processing_func = self._Q2D
+        elif self.mode_name == "genqr":
+            aspect_processing_func = self._GenQREnsemble
         elif self.mode_name == "elaborate":
             aspect_processing_func = self._elaborate_aspect
         elif self.mode_name == "answer":
             aspect_processing_func = self._answer_aspect
+        
         
 
         result_queries = []
@@ -64,25 +69,10 @@ class queryProcessor:
                 hybrid = Hybrid(description=h)
                 curr_query.add_hybrid(hybrid)
 
-            if self.mode_name == "v2":
-                # v2 mode: 
-                # constraint：keyword expansion + direct answer
-                # preference：elaborate without answer
-                # hybrid：answer with explain
-                for constraint in curr_query.get_constraints():
-                    new_desc = self._answer_constraints(query_constraint=constraint.description)
-                    constraint.set_new_description(new_description=new_desc)
-                for preference in curr_query.get_preferences():
-                    new_desc = self._elaborate_aspect(query_aspect=preference.description)
-                    preference.set_new_description(new_description=new_desc)
-                for hybrid in curr_query.get_hybrids():
-                    new_desc = self._answer_aspect(query_aspect=hybrid.description)
-                    hybrid.set_new_description(new_description=new_desc)
-            else:
-                if aspect_processing_func is not None:
-                    for aspect in curr_query.get_all_aspects():
-                        new_desc = aspect_processing_func(query_aspect=aspect.description)
-                        aspect.set_new_description(new_description=new_desc)
+            if aspect_processing_func is not None:
+                for aspect in curr_query.get_all_aspects():
+                    new_desc = aspect_processing_func(query_aspect=aspect.description)
+                    aspect.set_new_description(new_description=new_desc)
             
             result_queries.append(curr_query)
 
@@ -162,13 +152,13 @@ class queryProcessor:
         message = [
             {"role": "system", "content": "You are a travel expert."},
             {"role": "user", "content": prompt.format(query="Recommend me cities with historical sites and museums to explore during my travels?")},
-            {"role": "assistant", "content": answer.format(answer=json.dumps({"answer": {"constraint": [],"preferences": [],"activities": ["historical sites", "museums"]}}))},
+            {"role": "assistant", "content": answer.format(answer=json.dumps({"answer": {"constraint": [],"preferences": [],"activities": ["cities with historical sites", "cities with museums"]}}))},
             {"role": "user", "content": prompt.format(query="I am plannning on a trip to cities with good restaurants. ")},
-            {"role": "assistant", "content": answer.format(answer=json.dumps({"answer": {"constraint": [],"preferences": [],"activities": ["good restaurants"]}}))},
+            {"role": "assistant", "content": answer.format(answer=json.dumps({"answer": {"constraint": [],"preferences": [],"activities": ["cities with good restaurants"]}}))},
             {"role": "user", "content": prompt.format(query="I'm planning a trip to Asia on a budget. Any recommendations for budget-friendly cities there? ")},
-            {"role": "assistant", "content": answer.format(answer=json.dumps({"answer": {"constraint": ["in Asia"], "preferences": ["on a budget"], "activities": []}}))},
+            {"role": "assistant", "content": answer.format(answer=json.dumps({"answer": {"constraint": ["in Asia"], "preferences": ["cities on a budget"], "activities": []}}))},
             {"role": "user", "content": prompt.format(query="I want a city with a major film festival in June and good seafood restaurants.")},
-            {"role": "assistant", "content": answer.format(answer=json.dumps({"answer": {"constraint": [], "preferences": [], "activities": ["good seafood restaurants", "major film festival in June"]}}))},
+            {"role": "assistant", "content": answer.format(answer=json.dumps({"answer": {"constraint": [], "preferences": [], "activities": ["cities with good seafood restaurants", "cities with major film festival in June"]}}))},
             {"role": "user", "content": prompt.format(query=query)},
         ]
 
@@ -292,6 +282,108 @@ class queryProcessor:
     #     expansions = ' '.join(expansion_list)
         
     #     return expansions
+
+    def elaborate_tree(self, query_aspect: str, max_subtopics: int = 5, depth_limit: int = 3) -> str:
+        """
+        """
+        expandable = self.is_expandable(query_aspect=query_aspect)
+        print(f"{query_aspect}: {expandable}")
+        if (not expandable) and depth_limit <= 0: # base case
+            return query_aspect
+        
+        else: # recursive case
+            subtopics = self.expand_subtopics(query_aspect=query_aspect, max_subtopics=max_subtopics)
+            print(f"Aspect: {query_aspect}")
+            print(f"Subtopics: {subtopics}")
+            subtopics_expansion = [self.elaborate_tree(query_aspect=sub, max_subtopics=max_subtopics, depth_limit=depth_limit - 1) for sub in subtopics]
+            return '\n'.join(subtopics_expansion)
+
+
+    def expand_subtopics(self, query_aspect: str, max_subtopics: int) -> list[str]:
+        """
+        """
+        prompt = """
+        Given the provided query about travel destination cities recommendation, expand the query to up to {max_subtopics} subtopics from different aspects that represent certain attributes a city might have.
+            1. Each subtopic should represent a more detailed granularity of the travel concept than the original topic.
+            2. Each subtopic should be mutually exclusive and focus on a different travel-related concept.
+            3. These subtopics will form new queries about travel destination cities recommendation, so provide them in a way that can be answered by a list of cities. Write them concisely in very short sentences.
+            4. You do not need to, and not expected to, exhaust the maximum number of subtopics; {max_subtopics} is merely an upper limit.
+            5. Provide your answers in valid JSON format with double quotes: {{"answer": [SUBTOPICS LIST]}}.
+
+        Provide your answers in valid JSON format with double quotes: {{"answer": [SUBTOPICS LIST]}}.
+
+        Aspect: {aspect}
+        """
+        answer = ANSWER_FORMAT
+
+        message = [
+            {"role": "system", "content": "You are a travel expert."},
+            {"role": "user", "content": prompt.format(aspect="Family-friendly cities.")},
+            {"role": "assistant", "content": answer.format(answer=["Cities with educational museums.", "Cities with best-amusement parks.", "Cities with top-rated family hotels."])},
+            {"role": "user", "content": prompt.format(aspect="Good food cities.")},
+            {"role": "assistant", "content": answer.format(answer=["Cities with street food.", "Cities with Michelin-starred restaurants.", "Cities famous for specific local cuisines."])},
+            {"role": "user", "content": prompt.format(aspect=query_aspect, max_subtopics=max_subtopics)},
+        ]
+
+        response = self.llm.generate(message)
+
+        # parse the answer
+        start = response.find("{")
+        end = response.rfind("}") + 1
+        response = response[start:end]
+        subtopics = json.loads(response)["answer"]
+        return subtopics
+    
+
+    def is_expandable(self, query_aspect: str) -> bool:
+        """
+        """
+        prompt = """
+        Subtopics mining is a strategy used in information retrieval systems to identify related, more specific subtopics under a given broad query, which helps uncover additional topics that may interest users. Each subtopic should be significantly more specific in terminology and coverage than the original query topics and should be very distinct from one another.
+
+        Consider a travel destination recommender system where the goal is to suggest a list of cities based on user queries. We employ subtopics mining to better interpret and respond to these queries. Our primary data source is Wiki-Travel, which often lacks detailed information about specific cities. Therefore, it is crucial to maintain a balance in the level of granularity when mining subtopics.
+
+        Conversely, here are some additional examples where the query might point to an activity that is too specific to mine meaningful subtopics and/or find relevant information from Wiki-Travel (please see the above examples without further brackets as additional negative cases):
+
+        * Cities famous for food [Cities known for special local cuisines [Cities famous for Thai-style cuisine; Cities famous for Pizza …]; Cities with numerous high-end Michelin star restaurants; Cities known for vibrant street food cultures.]
+        * Cities rich in entertainment [Cities with famous music scenes; Cities known for Broadway-style productions; Cities with bustling nightclubs and bars; Cities with good amusement park [Cities with good theme park …]].
+        * Family-friendly cities [Cities with kid-focused museums and zoos [Cities with fun art galleries; Cities with educational natural history museum …]; Cities with large recreational parks and fun zones [Cities with good theme park; Cities with fun water parks …]].
+        * Cities for sports lovers [Cities with major league teams and stadiums; Cities ideal for outdoor advantures [Cities famous for mountain climbing …]; Cities for winter sports lover [Cities famous for skiing …]; Football cities].
+        * Budget-friendly cities [Cities with budget lodging options; Cities with numerous free tourist attractions; Cities offering great food at low prices; Cities with cheap transportation and local facilities].
+        * Cities with a romantic atmosphere [Cities with cozy, romantic restaurants; Cities offering romantic activities [ Cities offering hot air balloon rides …]].
+        * Luxury cities [Cities with high-end shopping districts; Cities with exclusive, gourmet restaurants; Cities featuring luxury hotels and resorts].
+
+        Conversely, here are some additional examples where the query might point to a activity that is too specific to mine meaningful subtopics and/or finding relevant information from Wiki-Travel (please see the above example without further bracket as additional negative cases):
+
+        * Cities famous for street food or any kind of specific food genre [too specific to find relevant info from wiki for further mining].
+        * Cities with good theme park [too specific to find relevant info from wiki for further mining].
+        * Cities famous for their educational natural science museums [too specific for further mining].
+        * Best cities to watch NBA games [too specific for further mining].
+        * Cities with budget lodging options [too specific to find relevant info from wiki for further mining].
+        * Cities with cozy, romantic restaurants [too specific to find relevant info from wiki for further mining].
+        * Cities with luxury hotels [too specific to find relevant info from wiki for further mining].
+
+        Given the following information and the broadness of the Wiki-Travel data source (be cautious, as many details cannot be found in Wiki-Travel), decide whether the given query is suitable for further subtopics mining (i.e., further expanding it into subtopics).
+
+        Provide your answers in valid JSON format with double quotes: {{"answer": "yes" | "no"}}. 
+
+        Query: {aspect}
+        """
+        # answer = ANSWER_FORMAT
+
+        message = [
+            {"role": "system", "content": "You are a travel expert."},
+            {"role": "user", "content": prompt.format(aspect=query_aspect)},
+        ]
+
+        response = self.llm.generate(message)
+        response = correct_and_extract(response).lower()
+        if "yes" in response:
+            return True
+        elif "no" in response:
+            return False
+        else:
+            raise ValueError("")
 
 
     def _elaborate_aspect(self, query_aspect: str) -> str:
@@ -417,12 +509,11 @@ class queryProcessor:
             {"role": "user", "content": prompt.format(aspect="suitable for adventure seekers")},
             {"role": "assistant", "content": answer.format(answer=["adventure sports", "extreme sports", "hiking trails", "national parks", "outdoor activities", "rock climbing", "white-water rafting", "zip-lining", "surfing spots", "biking trails"])},
             {"role": "user", "content": prompt.format(aspect="has historical sites")},
-            {"role": "assistant", "content": answer.format(answer=['historical landmarks', 'ancient ruins', 'UNESCO World Heritage Sites', 'archaeological sites', 'old towns', 'monuments', 'museums', 'castles', 'palaces', 'heritage tours'])},          
+            {"role": "assistant", "content": answer.format(answer=["historical landmarks", "ancient ruins", "UNESCO World Heritage Sites", "archaeological sites", "old towns", "monuments", "museums", "castles", "palaces", "heritage tours"])},          
             {"role": "user", "content": prompt.format(aspect=query_aspect)},
         ]
 
         response = self.llm.generate(message)
-        
         # parse the answer
         start = response.find("{")
         end = response.rfind("}") + 1
@@ -492,15 +583,15 @@ class queryProcessor:
         def rewrite_instruction(instruction: str, n: int):
             """
             """
-            prompt = f"""
+            prompt = """
             Given the specified user instruction, paraphrase it to a list of {n} instructions. 
             Provide your answers in valid JSON format with double quote: {{"answer": []}}.
 
-            Aspect: {{instruction}}
+            Aspect: {instruction}
             """
             message = [
-                {"role": "system", "content": prompt},
-                {"role": "user", "content": prompt.format(instruction=instruction)},
+                {"role": "system", "content": "You are a travel expert."},
+                {"role": "user", "content": prompt.format(instruction=instruction, n=n)},
             ]
 
             response = self.llm.generate(message)
@@ -510,24 +601,21 @@ class queryProcessor:
             end = response.rfind("}") + 1
             response = response[start:end]
             paraphrase_list = json.loads(response)["answer"]
-            paraphrase_list = [instruction] + paraphrase_list
-            
             return paraphrase_list
 
-        instruction = "Optimize search results by suggesting meaningful expansion terms to enhance the query."
-        instruction_list = rewrite_instruction(instruction=instruction)
+        instruction = "Optimize search results by suggesting meaningful expansion terms to enhance the following query aspect."
+        instruction_list = rewrite_instruction(instruction=instruction, n=n)
 
         expansion_list = [query_aspect]
         for i in instruction_list:
-            prompt = f"""
-            {i}
-            Provide your answers in valid JSON format with double quote: {{"answer": []}}.
-
-            Aspect: {{aspect}}
+            prompt = """
+            {i}.
+            Provide your answers in valid JSON format with double quote: {{"answer": []}}. 
+            Aspect: {aspect}
             """
             message = [
                 {"role": "system", "content": "You are a travel expert."},
-                {"role": "user", "content": prompt.format(aspect=query_aspect)},
+                {"role": "user", "content": prompt.format(aspect=query_aspect, i=i)},
             ]
 
             response = self.llm.generate(message)
@@ -539,7 +627,13 @@ class queryProcessor:
 
             expansion_list += results
         
-        expansions = '\n'.join(expansion_list)
+        if self.retriever_type == "sparse":
+            expansion_list = [query_aspect] * 5 + expansion_list 
+            ' '.join(expansion_list)
+        else:
+            expansion_list = list(set([e.lower() for e in expansion_list]))
+            expansion_list = [query_aspect] + expansion_list
+            expansions = '\n'.join(expansion_list)
         return expansions
 
 

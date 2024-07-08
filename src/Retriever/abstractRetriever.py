@@ -9,11 +9,11 @@ class AbstractRetriever(abc.ABC):
     """
     Abstract base dense retriever class.
     """
-    def __init__(self, query_path: str, output_path: str, chunks_dir: str, percentile: float = 10, model: LMEmbedder = None):
+    def __init__(self, query_path: str, output_path: str, chunks_dir: str, num_chunks: int = 3, model: LMEmbedder = None):
         self.model = model
         self.query_path = query_path
         self.output_path = output_path
-        self.percentile = percentile
+        self.num_chunks = num_chunks
         self.chunks_dir = chunks_dir
     
     def load_queries(self) -> list[str] | list[Query]:
@@ -47,7 +47,7 @@ class AbstractRetriever(abc.ABC):
         return self.load_chunks(), None
 
     @abc.abstractmethod
-    def retrieval_for_dest(self, aspects: list, dests_chunks: dict[str, list[str]], percentile: float, dests_emb: dict[str, np.ndarray] = None) -> dict:
+    def retrieval_for_dest(self, aspects: list, dest_chunks: dict[str, list[str]], num_chunks: int = 3, dest_emb: dict[str, np.ndarray] = None) -> dict:
         """
         Abstract method to be implemented for dense retrieval.
 
@@ -68,7 +68,7 @@ class AbstractRetriever(abc.ABC):
 
         results = dict()
         for query in queries:
-            query_results = self.retrieval_for_query(query, dests_embs, dests_chunks)
+            query_results = self.retrieval_for_query(query=query, dests_embs=dests_embs, dests_chunks=dests_chunks)
             if isinstance(query, Query):
                 query = query.get_description()
 
@@ -76,7 +76,35 @@ class AbstractRetriever(abc.ABC):
 
         with open(self.output_path, "w") as file:
             json.dump(results, file, indent=4)
+    
+    def retrieval_for_query(self, query: Query | str, dests_embs: dict[str, np.ndarray], dests_chunks: dict[str, list[str]] = None) -> dict[str, tuple[float, dict[str, list[str]]]]: 
+        """
+        Loads necessary data and runs the dense retrieval process, then saves the results to the specified output path.
+        """
+        # return format: {dest: (dest_score, {"aspect": top_chunk})}
 
+        query_results = dict()
+        if isinstance(query, str):
+            aspects = [Aspect(query)]
+        else:
+            aspects = query.get_all_aspects()
+        
+        if self.cls_type == "sparse": # sparse retrieval
+            for dest_name, dest_chunks in tqdm(dests_chunks.items(), desc="Processing destinations"):
+                dest_result = self.retrieval_for_dest(aspects=aspects,dest_chunks=dest_chunks, num_chunks=self.num_chunks)
+                # fuse results from multiple aspects
+                dest_result = self.avg_fusion(dest_result)
+                query_results[dest_name] = dest_result
+
+        else: # dense retrieval
+            # retrieve results for each destination
+            for dest_name, dest_emb in tqdm(dests_embs.items(), desc="Processing destinations"):
+                dest_result = self.retrieval_for_dest(aspects=aspects, dest_chunks=dests_chunks[dest_name], num_chunks=self.num_chunks, dest_emb=dest_emb)
+                # fuse results from multiple aspects
+                dest_result = self.avg_fusion(dest_result)
+                query_results[dest_name] = dest_result
+
+        return query_results 
     
 
 
@@ -142,34 +170,3 @@ class AbstractRetriever(abc.ABC):
         # harmonic avg
         fused_results = (dest_score, top_chunks)
         return fused_results
-
-    def retrieval_for_query(self, query: Query | str, dests_embs: dict[str, np.ndarray], dests_chunks: dict[str, list[str]]) -> dict[str, tuple[float, dict[str, list[str]]]]: 
-        """
-        Loads necessary data and runs the dense retrieval process, then saves the results to the specified output path.
-        """
-        # return format: {dest: (dest_score, {"aspect": top_chunk})}
-
-        query_results = dict()
-        if isinstance(query, str):
-            aspects = [Aspect(query)]
-        else:
-            aspects = query.get_all_aspects()
-        
-        if self.cls_type == "sparse":
-            # sparse retrieval
-            for dest_name, dest_chunks in tqdm(dests_chunks.items(), desc="Processing destinations"):
-                dest_result = self.retrieval_for_dest(aspects, dest_chunks, self.percentile)
-                # fuse results from multiple aspects
-                dest_result = self.avg_fusion(dest_result)
-                query_results[dest_name] = dest_result
-        else:   
-            # dense retrieval     
-
-            # retrieve results for each destination
-            for dest_name, dest_emb in tqdm(dests_embs.items(), desc="Processing destinations"):
-                dest_result = self.retrieval_for_dest(aspects, dests_chunks[dest_name], self.percentile, dests_emb=dest_emb)
-                # fuse results from multiple aspects
-                dest_result = self.avg_fusion(dest_result)
-                query_results[dest_name] = dest_result
-
-        return query_results 
