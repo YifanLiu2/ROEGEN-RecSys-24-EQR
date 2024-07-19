@@ -272,7 +272,13 @@ class DenseProQERetriever(ProQERetriever):
             # extract top 3 idx and top 3 score
             top_idx = chunk_method(score)
             top_score = score[top_idx]
-            avg_score = np.sum(top_score) / top_score.shape[0] # a scalar score
+            
+            # Check if top_score is not empty and does not contain NaN values
+            if top_score.size > 0 and not np.isnan(top_score).any():
+                avg_score = np.sum(top_score) / top_score.shape[0]  # a scalar score
+            else:
+                avg_score = 0  # or some default value, depending on your use case
+
 
             # retrieve top chunks
             chunks = np.array(dest_chunks) # [chunk_size]

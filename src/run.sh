@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Prompt user for inputs
-echo "This script requires 5 inputs in the following order:"
+echo "This script requires 7 or 8 inputs in the following order:"
 echo "1. Original Query Input Path"
 echo "2. Processed Query Output Directory"
 echo "3. Embedding Type"
@@ -32,7 +32,8 @@ retriever_output_dir=$7
 ground_truth_path=$8
 
 
-modes=("none" "gqr" "q2e" "q2d" "genqr" "elaborate" "answer")
+# modes=("none" "gqr" "q2e" "q2d" "genqr" "elaborate" "answer")
+modes=("elaborate")
 
 for query_processor_mode in "${modes[@]}"; do
     # Extend processed_query_output_dir to include mode-specific subdirectory and filename
@@ -42,8 +43,8 @@ for query_processor_mode in "${modes[@]}"; do
 
     # Define an array of commands or script paths for each mode
     tasks=(
-        "echo 'Run Query Processor'"
-        "python -m src.QueryProcessor.queryProcessorRunner -i $original_query_input_path -o $processed_query_output_dir --mode $query_processor_mode"
+        # "echo 'Run Query Processor'"
+        # "python -m src.QueryProcessor.queryProcessorRunner -i $original_query_input_path -o $processed_query_output_dir --mode $query_processor_mode"
         "echo 'Run dense retriever'"
         "python -m src.Retriever.retrieverRunner -q $processed_query_output_path -c $doc_chunks_dir -e $doc_embeddings_dir -x "dense" --emb_type $emb_type -o $retriever_output_path"
         "echo 'Saving ranked list'"
@@ -73,7 +74,7 @@ for query_processor_mode in "${modes[@]}"; do
                 echo "Evaluating: $eval"
                 python -m src.Evaluator.evaluatorRunner -e $eval -j $ranked_list_path -g $ground_truth_path -o ${retriever_output_dir}/evaluator_results/${query_processor_mode}_${eval}.json
             else
-                for k in 10 30 50 100; do
+                for k in 10 30 50; do
                     echo "Evaluating: $eval @ $k"
                     python -m src.Evaluator.evaluatorRunner -e $eval -k $k -j $ranked_list_path -g $ground_truth_path -o ${retriever_output_dir}/evaluator_results/${query_processor_mode}_${eval}_at${k}.json
                 done
