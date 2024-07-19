@@ -83,5 +83,5 @@ class LMEmbedder(abc.ABC):
         if self.split_type == "sentence":
             return sent_tokenize(doc)
         elif self.split_type == "section":
-            return [section.strip() for section in doc.split('\n\n') if section.strip()]
+            return [section.strip() for section in doc.split('\n') if section.strip()]
         

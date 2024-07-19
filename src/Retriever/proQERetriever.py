@@ -14,8 +14,8 @@ from config import API_KEY
 class ProQERetriever(AbstractRetriever):
     """
     """
-    def __init__(self, query_path: str, output_path: str, chunks_dir: str, llm: LLM = GPTChatCompletion(api_key=API_KEY), model: LMEmbedder = None, num_chunks: int = 3, num_iter: int = 5, beta: int = 1, gemma: int = 0):
-        super().__init__(query_path, output_path, chunks_dir, num_chunks, model)
+    def __init__(self, query_path: str, output_path: str, chunks_dir: str, llm: LLM = GPTChatCompletion(api_key=API_KEY), model: LMEmbedder = None, num_chunks: Optional[int] = None, percentile: Optional[float] = None, threshold: Optional[float] = None, num_iter: int = 5, beta: int = 1, gemma: int = 0):
+        super().__init__(query_path=query_path, output_path=output_path, chunks_dir=chunks_dir, model=model, num_chunks=num_chunks, percentile=percentile, threshold=threshold)
         self.llm = llm
         self.num_iter = num_iter
         self.beta = beta
@@ -32,11 +32,19 @@ class ProQERetriever(AbstractRetriever):
 
         visited = set()
 
+        # fetch the chunking method
+        if self.threshold:
+            chunk_method = self.threshold_method
+
+        elif self.num_chunks:
+            chunk_method = self.top_chunk_method
+        
+        elif self.percentile:
+            chunk_method = self.percentile_method
+
         # iterative PRF over num_iter
         for i in range(self.num_iter): 
             if i == self.num_iter - 1:
-                num_chunks = self.num_chunks
-            else:
                 num_chunks = 1
             # retrieve the pseudo document for all apsects 
             query_results = dict()
@@ -48,12 +56,12 @@ class ProQERetriever(AbstractRetriever):
 
             if self.cls_type == "sparse":
                 for dest_name, dest_chunks in tqdm(dests_chunks.items(), desc="Processing destinations"):
-                    dest_result = self.retrieval_for_dest(aspects=aspects, dest_chunks=dest_chunks, num_chunks=num_chunks)
+                    dest_result = self.retrieval_for_dest(aspects=aspects, dest_chunks=dest_chunks, chunk_method=chunk_method)
                     query_results[dest_name] = dest_result
                 
             elif self.cls_type == "dense":
                 for dest_name, dest_emb in tqdm(dests_embs.items(), desc="Processing destinations"):
-                    dest_result = self.retrieval_for_dest(aspects=aspects, dest_chunks=dests_chunks[dest_name], num_chunks=num_chunks, dest_emb=dest_emb)
+                    dest_result = self.retrieval_for_dest(aspects=aspects, dest_chunks=dests_chunks[dest_name], chunk_method=chunk_method, dest_emb=dest_emb)
                     query_results[dest_name] = dest_result
 
             # rank the score for each aspect
@@ -169,8 +177,8 @@ class SparseProQERetriever(ProQERetriever):
     """
     cls_type = "sparse"
     
-    def __init__(self, query_path: str, output_path: str, chunks_dir: str, llm: LLM = GPTChatCompletion(api_key=API_KEY), model: LMEmbedder = None, num_chunks: int = 3, num_iter: int = 5, beta: int = 1, gemma: int = 0):
-        super().__init__(query_path, output_path, chunks_dir, llm, model, num_chunks, num_iter, beta, gemma)
+    def __init__(self, query_path: str, output_path: str, chunks_dir: str, llm: LLM = GPTChatCompletion(api_key=API_KEY), model: LMEmbedder = None, num_iter: int = 5, beta: int = 1, gemma: int = 0, num_chunks: Optional[int] = None, percentile: Optional[float] = None, threshold: Optional[float] = None):
+        super().__init__(query_path=query_path, output_path=output_path, chunks_dir=chunks_dir, llm=llm, model=model, num_chunks=num_chunks, percentile=percentile, threshold=threshold, num_iter=num_iter, beta=beta, gemma=gemma)
 
     def update_aspect(self, aspect_text: str, keywords_map: dict[str, list[int]]) -> str:
         for key in keywords_map:
@@ -180,7 +188,7 @@ class SparseProQERetriever(ProQERetriever):
         
         return aspect_text
     
-    def retrieval_for_dest(self, aspects: list[Aspect], dest_chunks: list[str], num_chunks: int = 3) -> dict[str, tuple[float, list[str]]]:
+    def retrieval_for_dest(self, aspects: list[Aspect], dest_chunks: list[str], chunk_method: Callable) -> dict[str, tuple[float, list[str]]]:
         """
         Perform sparse retrieval for each query.
 
@@ -198,19 +206,21 @@ class SparseProQERetriever(ProQERetriever):
         for a in aspects:
             a_text = a.get_new_description()
             # compute bm25 scores for a_text and dest_chunks
-            tokenized_a = a_text.split(" ") #TODO: modify tokenization method
+            tokenized_a = word_tokenize(a_text)
 
-            top_chunks = bm25.get_top_n(tokenized_a, corpus, n=num_chunks)
             # get the score for the top chunks
-            scores = bm25.get_scores(tokenized_a)
-            scores.sort(reversed=True)
+            score = bm25.get_scores(tokenized_a)
+            top_idx = chunk_method(score)
+            top_score = score[top_idx]
+            avg_score = np.sum(top_score) / top_score.shape[0]
 
-            avg_score = sum(scores[: num_chunks]) / num_chunks
+            # retrieve top chunks
+            chunks = np.array(dest_chunks) # [chunk_size]
+            top_chunks = chunks[top_idx].tolist()
 
             # store results
             dest_result[a_text] = (avg_score, top_chunks)
         return dest_result
-    
 
 class DenseProQERetriever(ProQERetriever):
     """
@@ -218,8 +228,8 @@ class DenseProQERetriever(ProQERetriever):
     """
     cls_type = "dense"
 
-    def __init__(self, model: LMEmbedder, query_path: str, output_path: str, embedding_dir: str, chunks_dir: str, llm: LLM = GPTChatCompletion(api_key=API_KEY), num_chunks: int = 3, num_iter: int = 5, beta: int = 1, gemma: int = 0):
-        super().__init__(query_path, output_path, chunks_dir, llm, model, num_chunks, num_iter, beta, gemma)
+    def __init__(self, model: LMEmbedder, query_path: str, output_path: str, embedding_dir: str, chunks_dir: str, llm: LLM = GPTChatCompletion(api_key=API_KEY), num_iter: int = 5, beta: int = 1, gemma: int = 0, num_chunks: Optional[int] = None, percentile: Optional[float] = None, threshold: Optional[float] = None):
+        super().__init__(query_path=query_path, output_path=output_path, chunks_dir=chunks_dir, llm=llm, model=model, num_iter=num_iter, beta=beta, gemma=gemma, num_chunks=num_chunks, percentile=percentile, threshold=threshold)
         self.dense_embedding_dir = embedding_dir
         self.model = model
     
@@ -242,7 +252,7 @@ class DenseProQERetriever(ProQERetriever):
         dest_embs = self.load_dest_embeddings()
         return dest_chunks, dest_embs
 
-    def retrieval_for_dest(self, aspects: list[Aspect], dest_emb: np.ndarray, dest_chunks: list[str], num_chunks: int = 3) -> dict[str, tuple[float, list[str]]]:
+    def retrieval_for_dest(self, aspects: list[Aspect], dest_emb: np.ndarray, dest_chunks: list[str], chunk_method: Callable) -> dict[str, tuple[float, list[str]]]:
         """
         Perform dense retrieval for each query.
 
@@ -260,7 +270,7 @@ class DenseProQERetriever(ProQERetriever):
             score = cosine_similarity(dest_emb, description_emb).flatten() # shape [chunk_size]
 
             # extract top 3 idx and top 3 score
-            top_idx = np.argsort(score)[-num_chunks:]
+            top_idx = chunk_method(score)
             top_score = score[top_idx]
             avg_score = np.sum(top_score) / top_score.shape[0] # a scalar score
 

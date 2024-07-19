@@ -1,4 +1,5 @@
 import os, pickle, json, abc
+from typing import Optional, Callable
 import numpy as np
 from tqdm import tqdm
 from src.Entity.query import Query
@@ -9,11 +10,13 @@ class AbstractRetriever(abc.ABC):
     """
     Abstract base dense retriever class.
     """
-    def __init__(self, query_path: str, output_path: str, chunks_dir: str, num_chunks: int = 3, model: LMEmbedder = None):
+    def __init__(self, query_path: str, output_path: str, chunks_dir: str, num_chunks: Optional[int] = None, percentile: Optional[float] = None, threshold: Optional[float] = None, model: Optional[LMEmbedder] = None):
         self.model = model
         self.query_path = query_path
         self.output_path = output_path
         self.num_chunks = num_chunks
+        self.percentile = percentile
+        self.threshold = threshold
         self.chunks_dir = chunks_dir
     
     def load_queries(self) -> list[str] | list[Query]:
@@ -47,13 +50,12 @@ class AbstractRetriever(abc.ABC):
         return self.load_chunks(), None
 
     @abc.abstractmethod
-    def retrieval_for_dest(self, aspects: list, dest_chunks: dict[str, list[str]], num_chunks: int = 3, dest_emb: dict[str, np.ndarray] = None) -> dict:
+    def retrieval_for_dest(self, aspects: list, dest_chunks: dict[str, list[str]], chunk_method: Callable, dest_emb: dict[str, np.ndarray] = None) -> dict:
         """
         Abstract method to be implemented for dense retrieval.
 
         :param aspects: list[Aspect], list of aspects to retrieve for.
         :param dests_chunks: dict[str, list[str]], dictionary of destination names to lists of associated text chunks.
-        :param percentile: float, percentile to determine the similarity threshold for filtering results.
         :param dests_emb: dict[str, np.ndarray], dictionary of destination names to their embeddings.
         :return: dict, structured results with scores and top matching chunks.
         """
@@ -89,9 +91,20 @@ class AbstractRetriever(abc.ABC):
         else:
             aspects = query.get_all_aspects()
         
+        # fetch the chunking method
+        if self.threshold:
+            chunk_method = self.threshold_method
+
+        elif self.num_chunks:
+            chunk_method = self.top_chunk_method
+        
+        elif self.percentile:
+            chunk_method = self.percentile_method
+        
+        
         if self.cls_type == "sparse": # sparse retrieval
             for dest_name, dest_chunks in tqdm(dests_chunks.items(), desc="Processing destinations"):
-                dest_result = self.retrieval_for_dest(aspects=aspects,dest_chunks=dest_chunks, num_chunks=self.num_chunks)
+                dest_result = self.retrieval_for_dest(aspects=aspects, dest_chunks=dest_chunks, chunk_method=chunk_method)
                 # fuse results from multiple aspects
                 dest_result = self.avg_fusion(dest_result)
                 query_results[dest_name] = dest_result
@@ -99,7 +112,7 @@ class AbstractRetriever(abc.ABC):
         else: # dense retrieval
             # retrieve results for each destination
             for dest_name, dest_emb in tqdm(dests_embs.items(), desc="Processing destinations"):
-                dest_result = self.retrieval_for_dest(aspects=aspects, dest_chunks=dests_chunks[dest_name], num_chunks=self.num_chunks, dest_emb=dest_emb)
+                dest_result = self.retrieval_for_dest(aspects=aspects, dest_chunks=dests_chunks[dest_name], dest_emb=dest_emb, chunk_method=chunk_method)
                 # fuse results from multiple aspects
                 dest_result = self.avg_fusion(dest_result)
                 query_results[dest_name] = dest_result
@@ -107,7 +120,25 @@ class AbstractRetriever(abc.ABC):
         return query_results 
     
 
+    ############## TOP CHUNK ################
+    def percentile_method(self, score: np.array) -> np.array:
+        percentile = self.percentile
+        threshold = np.percentile(score, percentile) # determine the threshold
+        top_idx = np.where(score >= threshold)[0]
 
+        return top_idx
+
+    def top_chunk_method(self, score: np.array) -> np.array:
+        num_chunks = self.num_chunks
+        top_idx = np.argsort(score)[-num_chunks:]
+
+        return top_idx
+    
+    def threshold_method(self, score: np.array) -> np.array:
+        threshold = self.threshold
+        top_idx = np.where(score >= threshold)[0]
+
+        return top_idx
 
 
     ############## FUSION ################

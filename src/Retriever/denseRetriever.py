@@ -1,4 +1,5 @@
 import os, pickle
+from typing import Optional, Callable
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 from src.Retriever.abstractRetriever import AbstractRetriever
@@ -12,8 +13,8 @@ class DenseRetriever(AbstractRetriever):
     Concrete DenseRetriever class.
     """
     cls_type = "dense"
-    def __init__(self, model: LMEmbedder, query_path: str, embedding_dir: str, chunks_dir: str, output_path: str):
-        super().__init__(model=model, query_path=query_path, output_path=output_path, chunks_dir=chunks_dir)
+    def __init__(self, model: LMEmbedder, query_path: str, embedding_dir: str, chunks_dir: str, output_path: str, num_chunks: Optional[int] = None, percentile: Optional[float] = None, threshold: Optional[float] = None):
+        super().__init__(model=model, query_path=query_path, output_path=output_path, chunks_dir=chunks_dir, num_chunks=num_chunks, percentile=percentile, threshold=threshold)
         self.dense_embedding_dir = embedding_dir
     
     def load_dest_embeddings(self) ->  dict[str, np.ndarray]:
@@ -35,7 +36,7 @@ class DenseRetriever(AbstractRetriever):
         dest_embs = self.load_dest_embeddings()
         return dest_chunks, dest_embs
 
-    def retrieval_for_dest(self, aspects: list[Aspect], dest_emb: np.ndarray, dest_chunks: list[str], num_chunks: int, percentile: float = None) -> dict[str, tuple[float, list[str]]]:
+    def retrieval_for_dest(self, aspects: list[Aspect], dest_emb: np.ndarray, dest_chunks: list[str], chunk_method: Callable) -> dict[str, tuple[float, list[str]]]:
         """
         Perform dense retrieval for each query.
 
@@ -51,13 +52,7 @@ class DenseRetriever(AbstractRetriever):
             a_text = a.get_new_description()
             description_emb = self.model.encode(a_text) # shape [1, emb_size]
             score = cosine_similarity(dest_emb, description_emb).flatten() # shape [chunk_size]
-            # threshold = np.percentile(score, percentile) # determine the threshold
-
-            # extract top idx and top score with threshold
-            # top_idx = np.where(score >= threshold)[0]
-            # top_score = score[score >= threshold]
-
-            top_idx = np.argsort(score)[-num_chunks:]
+            top_idx = chunk_method(score)
             top_score = score[top_idx]
             avg_score = np.sum(top_score) / top_score.shape[0] # a scalar score
 
