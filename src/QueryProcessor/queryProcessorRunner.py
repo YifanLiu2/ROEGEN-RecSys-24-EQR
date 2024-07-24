@@ -3,7 +3,7 @@ from config import API_KEY
 from src.QueryProcessor.queryProcessor import *
 from src.LLM.GPTChatCompletion import *
 
-MODE = {"gqr","q2d", "q2e", "genqr", "elaborate", "answer", "none"}
+MODE = {"geqe", "gqr","q2d", "q2e", "genqr", "elaborate", "answer", "none"}
 
 def main(args):
     llm = GPTChatCompletion(api_key=API_KEY)

@@ -116,15 +116,21 @@ class ProQERetriever(AbstractRetriever):
 
 
     def get_llm_relevance(self, curr_passage: str, original_aspect: str) -> bool:
-        prompt = f"""Is the following passage related to the query?
+        prompt = """Is the following passage related to the query?
         passage: {curr_passage}
         query: {original_aspect}
         Answer only in "yes" or "no".
+        Provide your answers in valid JSON format with double quote: {{"answer": "YOUR ANSWER"}}.
         """
         message = [
             {"role": "user", "content": prompt},
         ]
         response = self.llm.generate(message)
+        # parse the answer
+        start = response.find("{")
+        end = response.rfind("}") + 1
+        response = response[start:end]
+        response = json.loads(response)["answer"]
 
         if 'yes' in response.lower():
             return True

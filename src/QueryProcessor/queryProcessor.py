@@ -17,7 +17,7 @@ class queryProcessor:
         Initialize the query processor
         :param query:
         :param llm:
-        :param mode_name: can only be "gqr", "q2e", "q2d", "genqr", "elaborate", "answer",
+        :param mode_name: can only be "gqr", "q2e", "q2d", "genqr", "elaborate", "answer", "geqe"
         :param output_dir:
         """ 
         self.llm = llm
@@ -32,6 +32,7 @@ class queryProcessor:
         """
         # fetch aspect processing function
         aspect_processing_func = None
+        geqe = False
         if self.mode_name == "gqr":
             aspect_processing_func = self._GQR
         elif self.mode_name == "q2e":
@@ -44,6 +45,9 @@ class queryProcessor:
             aspect_processing_func = self._elaborate_aspect
         elif self.mode_name == "answer":
             aspect_processing_func = self._answer_aspect
+        elif self.mode_name == "geqe":
+            aspect_processing_func = self._geqe
+            geqe = True
         
         
 
@@ -51,28 +55,25 @@ class queryProcessor:
         for query in tqdm(self.query_list, desc="Processing queries", unit="query"):
             curr_query = Query(description=query)
 
-            # extract preferences and constraints
-            preferences, constraints, hybrids = self._extract_aspects(query=query)
+            # extract broad and constraints
+            broad, activities = self._extract_aspects(query=query)
 
-            # preferences
-            for p in preferences:
-                preference = Preference(description=p)
-                curr_query.add_preference(preference)
+            # broad
+            for p in broad:
+                preference = Broad(description=p)
+                curr_query.add_broad(preference)
 
-            # constraints
-            for c in constraints:
-                constraint = Constraint(description=c)
-                curr_query.add_constraint(constraint)
+            # activities
+            for h in activities:
+                hybrid = Activity(description=h)
+                curr_query.add_activity(hybrid)
 
-            # hybrids
-            for h in hybrids:
-                hybrid = Hybrid(description=h)
-                curr_query.add_hybrid(hybrid)
-
-            if aspect_processing_func is not None:
+            if aspect_processing_func is not None and geqe is False:
                 for aspect in curr_query.get_all_aspects():
                     new_desc = aspect_processing_func(query_aspect=aspect.description)
                     aspect.set_new_description(new_description=new_desc)
+            if aspect_processing_func is not None and geqe is True:
+                curr_query = self._geqe(curr_query)
             
             result_queries.append(curr_query)
 
@@ -82,7 +83,7 @@ class queryProcessor:
     def _load_queries(self, input_path: str) -> list[str]:
         """
         """
-        with open(input_path, "r") as f:
+        with open(input_path, "r", encoding="utf-8") as f:
             queries = [line.strip() for line in f]
         return queries
     
@@ -97,20 +98,15 @@ class queryProcessor:
         for query in result:
             query_info = {
                 "Query": query.get_description(),
-                "Preferences": [
+                "broad": [
                     {
                         preference.get_original_description(): preference.get_new_description()
-                    } for preference in query.get_preferences()
+                    } for preference in query.get_broad()
                 ],
-                "Constraints": [
-                    {
-                        constraint.get_original_description(): constraint.get_new_description()
-                    } for constraint in query.get_constraints()
-                ],
-                "Hybrids": [
+                "activities": [
                     {
                         hybrid.get_original_description(): hybrid.get_new_description()
-                    } for hybrid in query.get_hybrids()
+                    } for hybrid in query.get_activities()
                 ]
             }
             query_data.append(query_info)
@@ -121,44 +117,49 @@ class queryProcessor:
         
     def _extract_aspects(self, query: str) -> tuple[list[str], list[str], list[str]]:
         """
-        Extract preferences and constraints from the query
+        Extract broad and constraints from the query
         """
-        # actual prompt
-        # Corrected prompt string
+        # # actual prompt
+        # # Corrected prompt string
+        # prompt = """
+        # Given a user's query about travel destination city recommendation, please categorize each aspect of the query into the following types:
+
+        # 1. "Constraint" - This category includes highly specific aspects that target unique entities or activities. Only those aspects that are clearly defined and rare fit into this category.
+
+        # 2. "Activities" - This category includes all other broader entities or activities. broader aspects that describe general types of activities or entities. It includes anything not specific enough to be a constraint.
+
+        # 3. "broad" - This category includes subjective broad that are not directly related to specific entities or activities.
+
+        # Chain of Thought Process:
+        # - Determine if the aspect pertains to specific entities, activities, or is a subjective preference.
+        # - If the aspect is not related to specific entities or activities, it is a preference. If it is a very specific and rare entity or activity, it is a constraint. Otherwise, it is an activity.
+
+        # Requirements:
+        # - Each aspect should be expressed succinctly to ensure clarity and precision in the recommendation process.
+        # - Provide your answers strictly in JSON format: {{"answer": {{"constraint": [], "broad": [], "activities": []}}}}
+
+        # Query: {query}
+        # """
         prompt = """
-        Given a user's query about travel destination city recommendation, please categorize each aspect of the query into the following types:
-
-        1. "Constraint" - This category includes highly specific aspects that target unique entities or activities. Only those aspects that are clearly defined and rare fit into this category.
-
-        2. "Activities" - This category includes all other broader entities or activities. broader aspects that describe general types of activities or entities. It includes anything not specific enough to be a constraint.
-
-        3. "Preferences" - This category includes subjective preferences that are not directly related to specific entities or activities.
-
-        Chain of Thought Process:
-        - Determine if the aspect pertains to specific entities, activities, or is a subjective preference.
-        - If the aspect is not related to specific entities or activities, it is a preference. If it is a very specific and rare entity or activity, it is a constraint. Otherwise, it is an activity.
+        Here's a classification problem for a travel recommendation system:
+        Given a query, please classify it into two classification, and inform the answer directly:
+            1. Broad: These queries are very subjective and contains words that are very broad and wide. Examples: cities famous for [big and broad nouns], cities with [a sense of feeling], cities for [broad purpose], cities for [certain kind of people], etc.
+            2. Activities: These queries are objective, and has very specific activities which could be . Examples: Cities with [specific entities], Cities for [specific activities], etc.
 
         Requirements:
-        - Each aspect should be expressed succinctly to ensure clarity and precision in the recommendation process.
-        - Provide your answers strictly in JSON format: {{"answer": {{"constraint": [], "preferences": [], "activities": []}}}}
+        - Your answer can only be "broad" or "activities"
+        - Provide your answers strictly in JSON format: {{"answer": "YOUR ANSWER"}}
 
-        Query: {query}
+
+        Query:{query}
         """
 
-        # define answer format
+        # # define answer format
         answer = ANSWER_FORMAT
 
-        # few-shots
+        # # few-shots
         message = [
-            {"role": "system", "content": "You are a travel expert."},
-            {"role": "user", "content": prompt.format(query="Recommend me cities with historical sites and museums to explore during my travels?")},
-            {"role": "assistant", "content": answer.format(answer=json.dumps({"answer": {"constraint": [],"preferences": [],"activities": ["cities with historical sites", "cities with museums"]}}))},
-            {"role": "user", "content": prompt.format(query="I am plannning on a trip to cities with good restaurants. ")},
-            {"role": "assistant", "content": answer.format(answer=json.dumps({"answer": {"constraint": [],"preferences": [],"activities": ["cities with good restaurants"]}}))},
-            {"role": "user", "content": prompt.format(query="I'm planning a trip to Asia on a budget. Any recommendations for budget-friendly cities there? ")},
-            {"role": "assistant", "content": answer.format(answer=json.dumps({"answer": {"constraint": ["in Asia"], "preferences": ["cities on a budget"], "activities": []}}))},
-            {"role": "user", "content": prompt.format(query="I want a city with a major film festival in June and good seafood restaurants.")},
-            {"role": "assistant", "content": answer.format(answer=json.dumps({"answer": {"constraint": [], "preferences": [], "activities": ["cities with good seafood restaurants", "cities with major film festival in June"]}}))},
+            {"role": "system", "content": "You are an expert in classification."},
             {"role": "user", "content": prompt.format(query=query)},
         ]
 
@@ -167,10 +168,13 @@ class queryProcessor:
         try:
             start, end = response.find("{"), response.rfind("}") + 1
             answer = json.loads(response[start:end])["answer"]
-            preferences = answer["preferences"]
-            constraints = answer["constraint"]
-            hybrids = answer["activities"]
-            return preferences, constraints, hybrids
+            broad = []
+            activities = []
+            if answer == 'broad':
+                broad = [query]
+            elif answer == 'activities':
+                activities = [query]
+            return broad, activities
 
         except json.JSONDecodeError as e:
             print(f"Failed to parse JSON from response")
@@ -181,6 +185,11 @@ class queryProcessor:
             print(f"Failed to extract constraints")
             print("GPT response: ", response)
             raise e
+        
+        # broad = [query]
+        # constraints = []
+
+        # return broad, constraints
         
 
     # def _answer_constraints(self, query_constraint: str) -> str:
@@ -635,6 +644,119 @@ class queryProcessor:
             expansion_list = [query_aspect] + expansion_list
             expansions = '\n'.join(expansion_list)
         return expansions
+    
+
+    def _geqe(self, query: Query) -> Query:
+        """
+
+        """
+        for aspect in query.get_all_aspects():
+            if isinstance(aspect, Broad):
+                new_desc = self.process_broad_query(query=aspect.description)
+                aspect.set_new_description(new_description=new_desc)
+            else:
+                new_desc = self.process_activity_query(query=aspect.description)
+                aspect.set_new_description(new_description=new_desc)
+        return query
+
+
+    def process_broad_query(self, query: str) -> str:
+        """
+        """
+        prompt = """
+        {query}
+
+        Given a user's travel cities recommendation query, do the following steps:
+            1. Break down the query into 5 distinct subtopics keyword, each covering different facets of the query.
+            2. For each subtopic, provide a one-sentence description that clearly elaborates on its specific focus and relevance.
+            3. For each subtopic, choose 1 or 2 example cities and concatenate them at the end of your one sentence description. 
+            4. Provide your answers in valid JSON format with double quotes: {{"answer": [SUBTOPICS LIST]}}, where subtopics list is a list of string with description and example answers concatenate together.
+        
+        This is your choice of cities:
+        {cities}
+
+        EXAMPLE QUERY: Family-Friendly Cities for Vacations
+        EXAMPLE LIST: ["Theme Parks - Cities with expansive theme parks offering thrilling rides and attractions suitable for all ages such as Orlando and Los Angeles.", "Zoos and Aquariums - Feature diverse collections of animals and underwater displays such as Chicago and San Diego.", "Children Museums - Tailored for younger visitors with hands-on learning exhibits such as Indianapolis and New York City.", "Beaches - Safe, clean beaches with gentle waves and family amenities such as Honolulu and Miami.", "Parks - Large parks with playgrounds, picnic areas, and public events such as London and Vancouver."]
+        """
+        answer = ANSWER_FORMAT
+
+        # TODO: hard coded
+        with open("data/total_cities.txt", encoding="utf-8") as f:
+            city_list = f.readlines()
+        cities = ",".join(city_list)
+
+        message = [
+            {"role": "system", "content": "You are a travel expert."},
+            {"role": "user", "content": prompt.format(query="Family-Friendly Cities for Vacations", cities=cities)},
+            {"role": "assistant", "content": answer.format(answer=["Theme Parks - Cities with expansive theme parks offering thrilling rides and attractions suitable for all ages such as Orlando and Los Angeles.", "Zoos and Aquariums - Feature diverse collections of animals and underwater displays such as Chicago and San Diego.", "Children Museums - Tailored for younger visitors with hands-on learning exhibits such as Indianapolis and New York City.", "Beaches - Safe, clean beaches with gentle waves and family amenities such as Honolulu and Miami.", "Parks - Large parks with playgrounds, picnic areas, and public events such as London and Vancouver."])},         
+            {"role": "user", "content": prompt.format(query=query, cities=cities)},
+        ]
+
+        response = self.llm.generate(message)
+        # parse the answer
+        start = response.find("{")
+        end = response.rfind("}") + 1
+        response = response[start:end]
+        expansion_list = json.loads(response)["answer"]
+        
+        if self.retriever_type == "sparse":
+            # append original aspect description
+            aspect_list = [query] * 5
+            expansion_list = aspect_list + expansion_list
+            expansions = ' '.join(expansion_list)
+        
+        else: # for dense retriever
+            expansion_list = [query] + expansion_list
+            expansions = '[SEP]'.join(expansion_list)
+
+        return expansions
+    
+
+    def process_activity_query(self, query: str) -> str:
+        """
+        """
+        prompt = """
+        {query}
+
+        Given a user's travel cities recommendation query, do the following steps:
+            1. Provide a one or two sentence description with various keywords related to the query.
+            2. Choose 10 best cities that satisfy the query and concatenate them at the end of your one sentence description. 
+            3. Provide your answers in valid JSON format with double quotes: {{"answer": RESULT}}, where RESULT is the concatenated description and example answers.
+
+        EXAMPLE QUERY: Cities popular for horseback riding
+        EXAMPLE RESULT: Cities renowned for excellent horseback riding opportunities often feature stunning natural landscapes suitable for horse riding such as mountain, forest, or beaches, well-maintained horse riding trails, and a rich cultural heritage related to horse riding. Some of the best cities for this activity include Lexington (Kentucky), Mendoza, Queenstown (New Zealand), Mont-Tremblant, Cape Town, Cabo San Lucas, Santa Fe, Victoria Falls, and Asheville.
+
+        This is your choice of cities:
+        {cities}
+        """
+        answer = ANSWER_FORMAT
+
+        # TODO: hard coded
+        with open("data/total_cities.txt", encoding="utf-8") as f:
+            city_list = f.readlines()
+        cities = ",".join(city_list)
+
+        message = [
+            {"role": "system", "content": "You are a travel expert."},
+            {"role": "user", "content": prompt.format(query="Cities popular for horseback riding", cities=cities)},
+            {"role": "assistant", "content": answer.format(answer="Cities renowned for excellent horseback riding opportunities often feature stunning natural landscapes in mountain or forest, well-maintained horse riding trails, beautiful beach and coastlines, and a rich cultural heritage related to horse riding. Some of the best cities for this activity include Lexington (Kentucky), Mendoza, Queenstown (New Zealand), Mont-Tremblant, Cape Town, Cabo San Lucas, Santa Fe, Victoria Falls, and Asheville.")},        
+            {"role": "user", "content": prompt.format(query=query, cities=cities)},
+        ]
+
+        response = self.llm.generate(message)
+
+        # parse response
+        response = correct_and_extract(response)
+
+        if self.retriever_type == "sparse":
+            expansion_list = [query] * 5 + [response]
+            expansions = ' '.join(expansion_list)
+        
+        else:
+            expansions = f"{query}: {response}"
+        
+        return expansions
+    
 
 
 def correct_and_extract(input_string) -> str:

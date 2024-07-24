@@ -32,8 +32,8 @@ retriever_output_dir=$7
 ground_truth_path=$8
 
 
-# modes=("none" "gqr" "q2e" "q2d" "genqr" "elaborate" "answer")
-modes=("elaborate")
+# modes=("none" "gqr" "q2e" "q2d" "geqe", "genqr")
+modes=("q2d" "geqe")
 
 for query_processor_mode in "${modes[@]}"; do
     # Extend processed_query_output_dir to include mode-specific subdirectory and filename
@@ -43,8 +43,8 @@ for query_processor_mode in "${modes[@]}"; do
 
     # Define an array of commands or script paths for each mode
     tasks=(
-        # "echo 'Run Query Processor'"
-        # "python -m src.QueryProcessor.queryProcessorRunner -i $original_query_input_path -o $processed_query_output_dir --mode $query_processor_mode"
+        "echo 'Run Query Processor'"
+        "python -m src.QueryProcessor.queryProcessorRunner -i $original_query_input_path -o $processed_query_output_dir --mode $query_processor_mode"
         "echo 'Run dense retriever'"
         "python -m src.Retriever.retrieverRunner -q $processed_query_output_path -c $doc_chunks_dir -e $doc_embeddings_dir -x "dense" --emb_type $emb_type -o $retriever_output_path"
         "echo 'Saving ranked list'"

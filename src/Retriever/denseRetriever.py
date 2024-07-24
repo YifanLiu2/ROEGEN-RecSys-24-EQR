@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 from src.Retriever.abstractRetriever import AbstractRetriever
 from src.Embedder.LMEmbedder import LMEmbedder
-from src.Entity.aspect import Aspect
+from src.Entity.aspect import *
 from src.Entity.query import Query
 
 
@@ -52,8 +52,17 @@ class DenseRetriever(AbstractRetriever):
             a_text = a.get_new_description()
             description_emb = self.model.encode(a_text)  # shape [1, emb_size]
             score = cosine_similarity(dest_emb, description_emb).flatten()  # shape [chunk_size]
-            top_idx = chunk_method(score)
+            # TODO: hard code
+            if isinstance(a, Broad):
+                top_idx = np.argsort(score)[-10:]
+            else: # hybrid
+                top_idx = np.argsort(score)[-3:]
+            # top_idx = chunk_method(score)
             top_score = score[top_idx]
+            
+            for i in range(len(top_score)):
+                top_score[i] = (top_score[i] + 1) ** 5
+
 
             # Check if top_score is not empty and does not contain NaN values
             if top_score.size > 0 and not np.isnan(top_score).any():

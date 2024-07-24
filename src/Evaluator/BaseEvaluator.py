@@ -3,10 +3,10 @@ from tqdm import tqdm
 
 class Evaluator(abc.ABC):
     def __init__(self, ground_truth_path: str, ranked_result_path: str, output_path: str):
-        with open(ground_truth_path) as f:
+        with open(ground_truth_path, encoding="utf-8") as f:
             ground_truth = json.load(f)
         
-        with open(ranked_result_path) as f:
+        with open(ranked_result_path, encoding="utf-8") as f:
             ranked_result = json.load(f)
         
         self.ground_truth = ground_truth
@@ -28,7 +28,7 @@ class Evaluator(abc.ABC):
             score = self.evaluate(ground_truth, ranked_list)
             results[query] = score
 
-        with open(self.output_path, 'w') as f:
+        with open(self.output_path, 'w', encoding="utf-8") as f:
             json.dump(results, f, indent=4)
 
 

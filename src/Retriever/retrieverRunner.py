@@ -35,19 +35,19 @@ def main(args):
             raise ValueError(f"Invalid directory path for destination chunks: {chunks_dir}")
     
     if args.retrieve_type == "dense":
-        retriever = DenseRetriever(model=model, query_path=query_path, chunks_dir=chunks_dir, embedding_dir=embedding_dir, output_path=output_path, threshold=0.4)
+        retriever = DenseRetriever(model=model, query_path=query_path, chunks_dir=chunks_dir, embedding_dir=embedding_dir, output_path=output_path, num_chunks=10)
         retriever.run_retrieval()
     elif args.retrieve_type == "BM25":
         retriever = BM25Retriever(query_path=query_path, chunks_dir=chunks_dir,output_path=output_path)
         retriever.run_retrieval()
-    elif args.retrieve_type == "splade":
-        retriever = SpladeRetriever(query_path=query_path, chunks_dir=chunks_dir, output_path=output_path)
+    # elif args.retrieve_type == "splade":
+    #     retriever = SpladeRetriever(query_path=query_path, chunks_dir=chunks_dir, output_path=output_path)
         retriever.run_retrieval()
     elif args.retrieve_type == "proQEsparse":
         retriever = SparseProQERetriever(query_path=query_path, chunks_dir=chunks_dir, output_path=output_path)
         retriever.run_retrieval()
     elif args.retrieve_type == "proQEdense":
-        retriever = DenseProQERetriever(model=model, query_path=query_path, chunks_dir=chunks_dir, output_path=output_path, embedding_dir=embedding_dir)
+        retriever = DenseProQERetriever(model=model, query_path=query_path, chunks_dir=chunks_dir, output_path=output_path, embedding_dir=embedding_dir, num_chunks=10)
         retriever.run_retrieval()
 
 if __name__ == "__main__":
