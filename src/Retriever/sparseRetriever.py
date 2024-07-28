@@ -2,11 +2,7 @@ from src.Retriever.denseRetriever import *
 from rank_bm25 import BM25Okapi
 from sparsembed import model, retrieve
 from nltk.tokenize import word_tokenize
-import torch
-from transformers import AutoModelForMaskedLM, AutoTokenizer
 from src.Entity.aspect import Aspect
-from tqdm import tqdm
-from src.LLM.GPTChatCompletion import GPTChatCompletion
 
 
 class SparseRetriever(AbstractRetriever):
@@ -14,19 +10,19 @@ class SparseRetriever(AbstractRetriever):
     Concrete SparseRetriever class.
     """
     cls_type = "sparse"
-    def __init__(self, query_path: str, chunks_dir: str, output_path: str, num_chunks: Optional[int] = None, percentile: Optional[float] = None, threshold: Optional[float] = None):
-        super().__init__(query_path=query_path, output_path=output_path, chunks_dir=chunks_dir, num_chunks=num_chunks, percentile=percentile, threshold=threshold)
+    def __init__(self, query_path: str, chunks_dir: str, output_dir: str, num_chunks: tuple[int] = (10, 3), power: int = 5):
+        super().__init__(query_path=query_path, output_dir=output_dir, chunks_dir=chunks_dir, num_chunks=num_chunks, power=power)
 
 
 class BM25Retriever(SparseRetriever):
     """
     Concrete SparseRetriever class.
     """
-    def __init__(self, query_path: str, chunks_dir:str, output_path: str, num_chunks: Optional[int] = None, percentile: Optional[float] = None, threshold: Optional[float] = None):
-        super().__init__(query_path=query_path, output_path=output_path, chunks_dir=chunks_dir, num_chunks=num_chunks, percentile=percentile, threshold=threshold)
+    def __init__(self, query_path: str, chunks_dir:str, output_dir: str, num_chunks: tuple[int] = (10, 3), power: int = 5):
+        super().__init__(query_path=query_path, output_dir=output_dir, chunks_dir=chunks_dir, num_chunks=num_chunks, power=power)
     
 
-    def retrieval_for_dest(self, aspects: list[Aspect], dest_chunks: list[str], chunk_method: Callable) -> dict[str, tuple[float, list[str]]]:
+    def retrieval_for_dest(self, query: Query, dest_chunks: list[str]) -> dict[str, tuple[float, list[str]]]:
         """
         Perform sparse retrieval for each query.
 
@@ -38,27 +34,37 @@ class BM25Retriever(SparseRetriever):
         # return format: {"aspect": (score, top_chunk)}
         dest_result = dict()
         corpus = dest_chunks
-        tokenized_corpus = [doc.split(" ") for doc in corpus]
+        tokenized_corpus = [word_tokenize(doc) for doc in corpus]
+        
+        num_chunks_broad = self.num_chunks[0]
+        num_chunks_activity = self.num_chunks[1]
 
+        # compute bm25 scores for a_text and dest_chunks      
+        reformulation = query.get_reformulation()
         bm25 = BM25Okapi(tokenized_corpus)
-        for a in aspects:
-            a_text = a.get_new_description()
-            # compute bm25 scores for a_text and dest_chunks
-            tokenized_a = word_tokenize(a_text)
+        tokenized_r = word_tokenize(reformulation)
 
-            # get the score for the top chunks
-            score = bm25.get_scores(tokenized_a)
-            top_idx = chunk_method(score)
-            top_score = score[top_idx]
-            avg_score = np.sum(top_score) / top_score.shape[0]
+        # get the score 
+        score = bm25.get_scores(tokenized_r)
 
-            # retrieve top chunks
-            chunks = np.array(dest_chunks) # [chunk_size]
-            top_chunks = chunks[top_idx].tolist()
+        if isinstance(query, Broad):
+            top_idx = np.argsort(score)[-num_chunks_broad:]
+        else: # activity
+            top_idx = np.argsort(score)[-num_chunks_activity:]
 
-            # store results
-            dest_result[a_text] = (avg_score, top_chunks)
-        return dest_result
+        top_score = score[top_idx]
+        avg_score = self.aggregate_city_score(top_score)
+
+        # retrieve top chunks
+        chunks = np.array(dest_chunks) # [chunk_size]
+        top_chunks = chunks[top_idx].tolist()
+
+        # retrieve top chunks
+        chunks = np.array(dest_chunks)  # [chunk_size]
+        top_chunks = chunks[top_idx].tolist()
+
+        return avg_score, top_chunks
+
     
 
 # class SpladeRetriever(SparseRetriever):
@@ -66,8 +72,8 @@ class BM25Retriever(SparseRetriever):
 #     Concrete SparseRetriever class.
 #     """
 
-#     def __init__(self, query_path: str, chunks_dir: str, output_path: str, num_chunks: int = 3, batchsize: int = 8):
-#         super().__init__(query_path=query_path, output_path=output_path, chunks_dir=chunks_dir, num_chunks=num_chunks)
+#     def __init__(self, query_path: str, chunks_dir: str, output_dir: str, num_chunks: int = 3, batchsize: int = 8):
+#         super().__init__(query_path=query_path, output_dir=output_dir, chunks_dir=chunks_dir, num_chunks=num_chunks)
 #         self.device = "cuda" if torch.cuda.is_available() else "cpu"
 #         print(f"Using device: {self.device}")
 #         self.model = model.Splade(
