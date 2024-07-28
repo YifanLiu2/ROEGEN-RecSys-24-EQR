@@ -13,8 +13,8 @@ class DenseRetriever(AbstractRetriever):
     Concrete DenseRetriever class.
     """
     cls_type = "dense"
-    def __init__(self, model: LMEmbedder, query_path: str, embedding_dir: str, chunks_dir: str, output_path: str, num_chunks: Optional[int] = None, percentile: Optional[float] = None, threshold: Optional[float] = None):
-        super().__init__(model=model, query_path=query_path, output_path=output_path, chunks_dir=chunks_dir, num_chunks=num_chunks, percentile=percentile, threshold=threshold)
+    def __init__(self, model: LMEmbedder, query_path: str, embedding_dir: str, chunks_dir: str, output_dir: str, num_chunks: tuple[int] = (10, 3), power: int = 5):
+        super().__init__(model=model, query_path=query_path, output_dir=output_dir, chunks_dir=chunks_dir, num_chunks=num_chunks, power=power)
         self.dense_embedding_dir = embedding_dir
     
     def load_dest_embeddings(self) ->  dict[str, np.ndarray]:
@@ -36,7 +36,7 @@ class DenseRetriever(AbstractRetriever):
         dest_embs = self.load_dest_embeddings()
         return dest_chunks, dest_embs
 
-    def retrieval_for_dest(self, aspects: list[Aspect], dest_emb: np.ndarray, dest_chunks: list[str], chunk_method: Callable) -> dict[str, tuple[float, list[str]]]:
+    def retrieval_for_dest(self, query: str, dest_emb: np.ndarray, dest_chunks: list[str], num_chunks: Optional[int] = None) -> tuple[float, list[str]]:
         """
         Perform dense retrieval for each query.
 
@@ -46,33 +46,24 @@ class DenseRetriever(AbstractRetriever):
         :param percentile: float, percentile to determine the similarity threshold for filtering results.
         :return: dict[str, dict[str, tuple[float, list[str]]]], structured results with scores and top matching chunks.
         """
-        # return format: {"aspect": (score, top_chunk)}
-        dest_result = dict()
-        for a in aspects:
-            a_text = a.get_new_description()
-            description_emb = self.model.encode(a_text)  # shape [1, emb_size]
-            score = cosine_similarity(dest_emb, description_emb).flatten()  # shape [chunk_size]
-            # TODO: hard code
-            if isinstance(a, Broad):
-                top_idx = np.argsort(score)[-3:]
-            else: # hybrid
-                top_idx = np.argsort(score)[-10:]
-            # top_idx = chunk_method(score)
-            top_score = score[top_idx]
-            
-            for i in range(len(top_score)):
-                top_score[i] = (top_score[i] + 1) ** 5
+        num_chunks_broad = num_chunks if num_chunks else self.num_chunks[0]
+        num_chunks_activity = num_chunks if num_chunks else self.num_chunks[1]
 
-            # Check if top_score is not empty and does not contain NaN values
-            if top_score.size > 0 and not np.isnan(top_score).any():
-                avg_score = np.sum(top_score) / top_score.shape[0]  # a scalar score
-            else:
-                avg_score = 0  # or some default value, depending on your use case
+        # embed query reformulation
+        description_emb = self.model.encode(query.get_reformulation())  # shape [1, emb_size]
+        score = cosine_similarity(dest_emb, description_emb).flatten()  # shape [chunk_size]
 
-            # retrieve top chunks
-            chunks = np.array(dest_chunks)  # [chunk_size]
-            top_chunks = chunks[top_idx].tolist()
+        if isinstance(query, Broad):
+            top_idx = np.argsort(score)[-num_chunks_broad:]
+        else: # activity
+            top_idx = np.argsort(score)[-num_chunks_activity:]
 
-            # store results
-            dest_result[a_text] = (avg_score, top_chunks)
-        return dest_result
+        # calculate city score
+        top_score = score[top_idx]
+        avg_score = self.aggregate_city_score(top_score)
+
+        # retrieve top chunks
+        chunks = np.array(dest_chunks)  # [chunk_size]
+        top_chunks = chunks[top_idx].tolist()
+
+        return avg_score, top_chunks
