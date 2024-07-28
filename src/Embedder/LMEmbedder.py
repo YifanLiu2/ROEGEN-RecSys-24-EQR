@@ -9,12 +9,13 @@ class LMEmbedder(abc.ABC):
     """
     Abstract class for Language Model Embedder (LM) Embedder
     """
-    def __init__(self, model_name: str, split_type: str = "section"):
+    def __init__(self, model_name: str, split_type: str = "section", concate_city_name: bool = False):
         self.model_name = model_name
         # check the split type
         if split_type not in SPLIT_TYPE:
             raise ValueError(f"Invalid split_type: {split_type}. Valid options are {SPLIT_TYPE}")
         self.split_type = split_type
+        self.concate = concate_city_name
 
     @abc.abstractmethod
     def encode(self, text: str | list[str]) -> torch.Tensor:
@@ -55,6 +56,9 @@ class LMEmbedder(abc.ABC):
                     with open(file_path, "r", encoding='utf-8') as f:
                         text = f.read()
                     chunks = self.split_chunk(text) # split chunks
+                    if self.concate:
+                        print("Concating city name")
+                        chunks = [f"{file_prefix}: {chunk}" for chunk in chunks]
                     truncated_chunks = [chunk[:18000] if len(chunk) > 18000 else chunk for chunk in chunks] # only keep 18000 tokens
                     
                     with open(chunks_path, "wb") as chunks_file: # save

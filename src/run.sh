@@ -33,7 +33,7 @@ ground_truth_path=$8
 
 
 # modes=("none" "gqr" "q2e" "q2d" "geqe", "genqr")
-modes=("q2d" "geqe")
+modes=("geqe")
 
 for query_processor_mode in "${modes[@]}"; do
     # Extend processed_query_output_dir to include mode-specific subdirectory and filename

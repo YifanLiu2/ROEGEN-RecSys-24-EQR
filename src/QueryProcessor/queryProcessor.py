@@ -660,20 +660,39 @@ class queryProcessor:
         return query
 
 
-    def process_broad_query(self, query: str) -> str:
+    def process_broad_query(self, query: str, k: int = 5) -> str:
         """
         """
+        # prompt = """
+        # {query}
+
+        # Given a user's travel cities recommendation query, do the following steps:
+        #     1. Break down the query into {k} distinct subtopics keyword, each covering different facets of the query.
+        #     2. For each subtopic, provide a one-sentence description that clearly elaborates on its specific focus and relevance.
+        #     3. For each subtopic, choose 1 or 2 example cities and concatenate them at the end of your one sentence description. 
+        #     4. Provide your answers in valid JSON format with double quotes: {{"answer": [SUBTOPICS LIST]}}, where subtopics list is a list of string with description and example answers concatenate together.
+        
+        # This is your choice of cities:
+        # {cities}
+
+        # EXAMPLE QUERY: Family-Friendly Cities for Vacations
+        # EXAMPLE LIST: ["Theme Parks - Cities with expansive theme parks offering thrilling rides and attractions suitable for all ages such as Orlando and Los Angeles.", "Zoos and Aquariums - Feature diverse collections of animals and underwater displays such as Chicago and San Diego.", "Children Museums - Tailored for younger visitors with hands-on learning exhibits such as Indianapolis and New York City.", "Beaches - Safe, clean beaches with gentle waves and family amenities such as Honolulu and Miami.", "Parks - Large parks with playgrounds, picnic areas, and public events such as London and Vancouver."]
+        # """
         prompt = """
         {query}
 
         Given a user's travel cities recommendation query, do the following steps:
-            1. Break down the query into 5 distinct subtopics keyword, each covering different facets of the query.
-            2. For each subtopic, provide a one-sentence description that clearly elaborates on its specific focus and relevance.
-            3. For each subtopic, choose 1 or 2 example cities and concatenate them at the end of your one sentence description. 
-            4. Provide your answers in valid JSON format with double quotes: {{"answer": [SUBTOPICS LIST]}}, where subtopics list is a list of string with description and example answers concatenate together.
+            1. Break down the query into {k} distinct keywords related to the given user query aspect.
+            2. For each keywords, provide a one-sentence description that clearly elaborates on its specific focus and relevance.
+            3. For each keywords, choose 3 example cities and concatenate them at the end of your one sentence description. 
+            4. Manually check whether your example cities come from the choice of cities, if not, replace with a new one in the list.
+            4. Provide your answers in valid JSON format with double quotes: {{"answer": [LIST]}}, where keyword list is a list of string with description and example answers concatenate together.
         
         This is your choice of cities:
         {cities}
+
+        EXAMPLE QUERY: Picturesque cities for photography enthusiasts
+        EXAMPLE LIST: ["Coastal Views - Captures the dynamic interface where the sea meets the land, offering picturesque views of beaches, cliffs, and marine life, such as Cape Town, Santorini”, "Natural Landscape Photography - Dedicated to capturing the untouched beauty of natural environments, focusing on the authenticity and raw elements of scenes, such as Queenstown, Faroe Islands, Fiji.", "Exotic Island Views - Highlights the distinctive beauty of island landscapes, featuring tropical beaches, lush vegetation, and serene tranquility, such as Phuket, Maldives, Galapagos Islands.", "Architectural Photography - Focuses on the artistic capture of buildings and architectural elements, emphasizing design, structure, and contextual interaction, such as Florence, Barcelona, Prague.", "Skyline Photography - Concentrates on capturing the iconic cityscapes and urban profiles from strategic vantage points, showcasing the layout and vibrancy of metropolitan areas, such as New York City, Hong Kong, Dubai.”]
 
         EXAMPLE QUERY: Family-Friendly Cities for Vacations
         EXAMPLE LIST: ["Theme Parks - Cities with expansive theme parks offering thrilling rides and attractions suitable for all ages such as Orlando and Los Angeles.", "Zoos and Aquariums - Feature diverse collections of animals and underwater displays such as Chicago and San Diego.", "Children Museums - Tailored for younger visitors with hands-on learning exhibits such as Indianapolis and New York City.", "Beaches - Safe, clean beaches with gentle waves and family amenities such as Honolulu and Miami.", "Parks - Large parks with playgrounds, picnic areas, and public events such as London and Vancouver."]
@@ -687,9 +706,11 @@ class queryProcessor:
 
         message = [
             {"role": "system", "content": "You are a travel expert."},
-            {"role": "user", "content": prompt.format(query="Family-Friendly Cities for Vacations", cities=cities)},
-            {"role": "assistant", "content": answer.format(answer=["Theme Parks - Cities with expansive theme parks offering thrilling rides and attractions suitable for all ages such as Orlando and Los Angeles.", "Zoos and Aquariums - Feature diverse collections of animals and underwater displays such as Chicago and San Diego.", "Children Museums - Tailored for younger visitors with hands-on learning exhibits such as Indianapolis and New York City.", "Beaches - Safe, clean beaches with gentle waves and family amenities such as Honolulu and Miami.", "Parks - Large parks with playgrounds, picnic areas, and public events such as London and Vancouver."])},         
-            {"role": "user", "content": prompt.format(query=query, cities=cities)},
+            {"role": "user", "content": prompt.format(query="Family-Friendly Cities for Vacations", k=k, cities=cities)},
+            {"role": "assistant", "content": answer.format(answer=["Theme Parks - Cities with expansive theme parks offering thrilling rides and attractions suitable for all ages such as Orlando and Los Angeles.", "Zoos and Aquariums - Feature diverse collections of animals and underwater displays such as Chicago and San Diego.", "Children Museums - Tailored for younger visitors with hands-on learning exhibits such as Indianapolis and New York City.", "Beaches - Safe, clean beaches with gentle waves and family amenities such as Honolulu and Miami.", "Parks - Large parks with playgrounds, picnic areas, and public events such as London and Vancouver."])},
+            {"role": "user", "content": prompt.format(query="Picturesque cities for photography enthusiasts", k=k, cities=cities)},
+            {"role": "assistant", "content": answer.format(answer=["Coastal Views - Captures the dynamic interface where the sea meets the land, offering picturesque views of beaches, cliffs, and marine life, such as Cape Town, Santorini", "Natural Landscape Photography - Dedicated to capturing the untouched beauty of natural environments, focusing on the authenticity and raw elements of scenes, such as Queenstown, Faroe Islands, Fiji.", "Exotic Island Views - Highlights the distinctive beauty of island landscapes, featuring tropical beaches, lush vegetation, and serene tranquility, such as Phuket, Maldives, Galapagos Islands.", "Architectural Photography - Focuses on the artistic capture of buildings and architectural elements, emphasizing design, structure, and contextual interaction, such as Florence, Barcelona, Prague.", "Skyline Photography - Concentrates on capturing the iconic cityscapes and urban profiles from strategic vantage points, showcasing the layout and vibrancy of metropolitan areas, such as New York City, Hong Kong, Dubai."])},
+            {"role": "user", "content": prompt.format(query=query, k=k, cities=cities)},
         ]
 
         response = self.llm.generate(message)
@@ -710,7 +731,6 @@ class queryProcessor:
             expansions = '[SEP]'.join(expansion_list)
 
         return expansions
-    
 
     def process_activity_query(self, query: str) -> str:
         """
