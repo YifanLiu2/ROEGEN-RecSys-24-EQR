@@ -246,6 +246,68 @@ class Q2E(QueryProcessor):
             expansions = '[SEP]'.join(expansion_list)
 
         return expansions
+    
+
+
+class Q2A(QueryProcessor):
+    cls_type = "q2a"
+    def __init__(self, input_path: str, llm: LLM, output_dir: str):
+        """
+        Initialize the query processor
+        :param query:
+        :param llm:
+        :param output_dir:
+        """ 
+        super().__init__(input_path=input_path, llm=llm, output_dir=output_dir)
+    
+    def reformulate_query(self, query: AbstractQuery) -> str:
+        if isinstance(query, Broad):
+            new_desc = self.process_query(query=query.get_description(), k=10)
+        else: # activity
+            new_desc = self.process_query(query=query.get_description(), k=3)
+        return new_desc
+
+    def process_query(self, query: str, k: int) -> str:
+        """
+        """
+        prompt = """
+        Given a user's travel cities recommendation query, give a list of {k} activities for the given travel query.
+        Provide your answers in valid JSON format with double quote: {{"answer": [LIST]}}, where keyword list is a list of string.
+
+        query: {query}
+        """
+        answer = ANSWER_FORMAT
+
+        message = [
+            {"role": "system", "content": "You are a travel expert."},
+            {"role": "user", "content": prompt.format(query="Family-Friendly Cities for Vacations", k=10)},
+            {"role": "assistant", "content": answer.format(answer=["Visit interactive science museums", "Explore family-friendly parks", "Join city tours for families", "Attend family concerts", "Enjoy kid-friendly restaurants", "Visit zoos and aquariums", "Participate in art workshops", "Explore libraries for storytime", "Take family bike tours", "Visit amusement parks"])},
+            {"role": "user", "content": prompt.format(query="Picturesque cities for photography enthusiasts", k=10)},
+            {"role": "assistant", "content": answer.format(answer=["Photograph sunsets and sunrises over landscapes", "Capture reflections in city lakes and rivers", "Explore botanical gardens for floral photography", "Shoot panoramic views from city outskirts", "Capture wildlife in urban nature reserves", "Photograph natural landmarks within the city", "Explore scenic trails for nature shots", "Capture seasonal changes in city parks", "Attend outdoor photography retreats", "Photograph starry nights from accessible city points"])},          
+            {"role": "user", "content": prompt.format(query="Cities popular for horseback riding", k=3)},
+            {"role": "assistant", "content": answer.format(answer=["Explore guided trail rides in scenic areas", "Explore horseback mountain tours", "Join horseback riding beach tours"])},          
+            {"role": "user", "content": prompt.format(query=query.get_description(), k=k)},
+        ]
+
+        response = self.llm.generate(message)
+        # parse the answer
+        start = response.find("{")
+        end = response.rfind("}") + 1
+        response = response[start:end]
+        expansion_list = json.loads(response)["answer"]
+
+        if self.retriever_type == "sparse":
+            # append original query description
+            query_list = [query] * 5
+            expansion_list = query_list + expansion_list
+            expansions = ' '.join(expansion_list)
+        
+        else: # for dense retriever
+            expansion_list = [query] + expansion_list
+            expansions = '[SEP]'.join(expansion_list)
+
+        return expansions
+
 
 
 class GenQREnsemble(QueryProcessor):
@@ -471,8 +533,8 @@ class EQR(QueryProcessor):
         Query: {query}
 
         Given a user's travel cities recommendation query, do the following steps:
-            1. Provide a one or two sentence description with various keywords related to the query.
-            2. Choose 5 best cities that satisfy the query, provide one-sentence rationale and attractions for each recommendation, and concatenate them at the end of your one sentence description. 
+            - Provide a one or two sentence description with various keywords related to the query.
+            - Choose 10 best cities that satisfy the query and concatenate them at the end of your one sentence description.  
             3. Provide your answers in valid JSON format with double quotes: {{"answer": RESULT}}, where RESULT is the concatenated description and example answers.
 
         EXAMPLE QUERY: Cities popular for horseback riding
@@ -487,7 +549,7 @@ class EQR(QueryProcessor):
         message = [
             {"role": "system", "content": "You are a travel expert."},
             {"role": "user", "content": prompt.format(query="Cities popular for horseback riding", cities=cities)},
-            {"role": "assistant", "content": answer.format(answer="Cities renowned for excellent horseback riding opportunities often feature stunning natural landscapes suitable for horse riding such as mountain, forest, or beaches, well-maintained horse riding trails, and a rich cultural heritage related to horse riding. Some of the best cities for this activity include Lexington (Kentucky), known for its scenic trails and horse farms; Mendoza, with its unique horseback wine tours; Queenstown (New Zealand), offering adventurous rides through dramatic landscapes; Mont-Tremblant, famous for its picturesque mountain rides; and Asheville, celebrated for its vibrant equestrian community and scenic trails.")},        
+            {"role": "assistant", "content": answer.format(answer="Cities renowned for excellent horseback riding opportunities often feature stunning natural landscapes in mountain or forest, well-maintained horse riding trails, beautiful beach and coastlines, and a rich cultural heritage related to horse riding. Some of the best cities for this activity include Lexington (Kentucky), Mendoza, Queenstown (New Zealand), Mont-Tremblant, Cape Town, Cabo San Lucas, Santa Fe, Victoria Falls, and Asheville.")},        
             {"role": "user", "content": prompt.format(query=query, cities=cities)},
         ]
 
