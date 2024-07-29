@@ -12,8 +12,8 @@ class DenseRetriever(AbstractRetriever):
     Concrete DenseRetriever class.
     """
     cls_type = "dense"
-    def __init__(self, model: LMEmbedder, query_path: str, embedding_dir: str, chunks_dir: str, output_dir: str, num_chunks: tuple[int] = (10, 3), power: int = 5):
-        super().__init__(model=model, query_path=query_path, output_dir=output_dir, chunks_dir=chunks_dir, num_chunks=num_chunks, power=power)
+    def __init__(self, model: LMEmbedder, query_path: str, embedding_dir: str, chunks_dir: str, output_dir: str, num_chunks: int = 10):
+        super().__init__(model=model, query_path=query_path, output_dir=output_dir, chunks_dir=chunks_dir, num_chunks=num_chunks)
         self.dense_embedding_dir = embedding_dir
     
     def load_dest_embeddings(self) ->  dict[str, np.ndarray]:
@@ -35,7 +35,7 @@ class DenseRetriever(AbstractRetriever):
         dest_embs = self.load_dest_embeddings()
         return dest_chunks, dest_embs
 
-    def retrieval_for_dest(self, query: AbstractQuery, dest_emb: np.ndarray, dest_chunks: list[str], num_chunks: Optional[int] = None) -> tuple[float, list[str]]:
+    def retrieval_for_dest(self, query: AbstractQuery, dest_emb: np.ndarray, dest_chunks: list[str]) -> tuple[float, list[str]]:
         """
         Perform dense retrieval for each query.
 
@@ -45,19 +45,12 @@ class DenseRetriever(AbstractRetriever):
         :param percentile: float, percentile to determine the similarity threshold for filtering results.
         :return: dict[str, dict[str, tuple[float, list[str]]]], structured results with scores and top matching chunks.
         """
-        num_chunks_broad = num_chunks if num_chunks else self.num_chunks[0]
-        num_chunks_activity = num_chunks if num_chunks else self.num_chunks[1]
-
         # embed query reformulation
         description_emb = self.model.encode(query.get_reformulation())  # shape [1, emb_size]
         score = cosine_similarity(dest_emb, description_emb).flatten()  # shape [chunk_size]
 
-        if isinstance(query, Broad):
-            top_idx = np.argsort(score)[-num_chunks_broad:]
-        else: # activity
-            top_idx = np.argsort(score)[-num_chunks_activity:]
-
         # calculate city score
+        top_idx = np.argsort(score)[-self.num_chunks:]
         top_score = score[top_idx]
         avg_score = self.calculate_city_score(top_score)
 
@@ -66,3 +59,4 @@ class DenseRetriever(AbstractRetriever):
         top_chunks = chunks[top_idx].tolist()
 
         return avg_score, top_chunks
+    

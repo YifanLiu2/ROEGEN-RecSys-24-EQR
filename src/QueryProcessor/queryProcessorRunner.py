@@ -38,9 +38,6 @@ def main(args):
             raise ValueError("Must specify k for {mode_name} method")
         query_processor = Q2E(input_path=input_path, llm=llm, output_dir=output_dir, k=k)
     
-    elif mode_name == "q2a":
-        query_processor = Q2A(input_path=input_path, llm=llm, output_dir=output_dir)
-    
     elif mode_name == "genqr":
         if not k:
             raise ValueError("Must specify k for {mode_name} method")

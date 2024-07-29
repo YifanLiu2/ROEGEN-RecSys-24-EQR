@@ -9,7 +9,7 @@ class AbstractRetriever(abc.ABC):
     """
     Abstract base dense retriever class.
     """
-    def __init__(self, query_path: str, output_dir: str, chunks_dir: str,  model: Optional[LMEmbedder] = None, num_chunks: tuple[int] = (10, 3), power: int = 5):
+    def __init__(self, query_path: str, output_dir: str, chunks_dir: str,  model: Optional[LMEmbedder] = None, num_chunks: int = 10):
         self.model = model
         self.query_path = query_path
         self.output_dir = output_dir
@@ -17,8 +17,7 @@ class AbstractRetriever(abc.ABC):
 
         # set up hyper param
         self.num_chunks = num_chunks
-        self.power = power
-        
+            
     
     def load_queries(self) -> list[str] | list[AbstractQuery]:
         """
@@ -33,6 +32,7 @@ class AbstractRetriever(abc.ABC):
                 queries = pickle.load(file)
         return queries
     
+
     def load_chunks(self) -> dict[str, list[str]]:
         """
         """
@@ -45,10 +45,12 @@ class AbstractRetriever(abc.ABC):
                 dests_chunks[city_name] = pickle.load(open(f"{self.chunks_dir}/{pkls[i]}", "rb"))
         return dests_chunks
 
+
     def load_data(self) -> tuple[dict[str, list[str]], dict[str, np.ndarray]]:
         """
         """
         return self.load_chunks(), None
+
 
     @abc.abstractmethod
     def retrieval_for_dest(self, query: AbstractQuery, dest_chunks: dict[str, list[str]], dest_emb: dict[str, np.ndarray] = None) -> tuple[float, list[str]]:
@@ -60,6 +62,7 @@ class AbstractRetriever(abc.ABC):
         :return: dict, structured results with scores and top matching chunks.
         """
         pass
+
 
     def run_retrieval(self):
         """
@@ -117,7 +120,6 @@ class AbstractRetriever(abc.ABC):
 
         scores = (top_score + 1) ** self.power
         return float(np.mean(scores))
-
 
 
     ############# FUSION ################

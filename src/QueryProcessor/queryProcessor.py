@@ -35,14 +35,15 @@ class QueryProcessor:
         """
         result_queries = []
         for query in tqdm(self.query_list, desc="Processing queries", unit="query"):
+            # # determine whether the query is a broad query
+            # is_broad = self._classify_query(query=query)
 
-            # determine whether the query is a broad query
-            is_broad = self._classify_query(query=query)
+            # if is_broad:
+            #     curr_query = Broad(description=query)
+            # else: # activity
+            #     curr_query = Activity(description=query)
 
-            if is_broad:
-                curr_query = Broad(description=query)
-            else: # activity
-                curr_query = Activity(description=query)
+            curr_query = AbstractQuery(description=query)
             
             new_desc = self.reformulate_query(query=curr_query)
             curr_query.set_reformuation(reformulation=new_desc)
@@ -73,7 +74,6 @@ class QueryProcessor:
             query_info = {
                 "Query": query.get_description(),
                 "Reformulation": query.get_reformulation(),
-                "Category": "Broad Interest" if isinstance(query, Broad) else "Specific Activity"
             }
             query_data.append(query_info)
 
@@ -82,55 +82,55 @@ class QueryProcessor:
             json.dump(query_data, f, indent=4)
         
 
-    def _classify_query(self, query: str) -> bool:
-        """
-        Determine the given query is a broad interest query.
-        """
-        prompt = """
-        Here's a classification problem for a travel recommendation system:
-        Given a query, please classify it into two classification, and inform the answer directly:
-            1. Broad: These queries are very subjective and contains words that are very broad and wide. Examples: cities famous for [big and broad nouns], cities with [a sense of feeling], cities for [broad purpose], cities for [certain kind of people], etc.
-            2. Activity: These queries are objective, and has very specific activities. Examples: Cities with [specific entities], Cities for [specific activities], etc.
-
-        Requirements:
-        - Your answer can only be "broad" or "activity"
-        - Provide your answers strictly in JSON format: {{"answer": "YOUR ANSWER"}}
-
-
-        Query:{query}
-        """
-        answer = ANSWER_FORMAT
-
-        message = [
-            {"role": "system", "content": "You are an expert in classification."},
-            {"role": "user", "content": prompt.format(query=query)},
-        ]
-
-        response = self.llm.generate(message)
-        
-        try:
-            start, end = response.find("{"), response.rfind("}") + 1
-            answer = json.loads(response[start:end])["answer"]
-
-
-            if answer == 'activity':
-                return False
-            return True
-
-        except json.JSONDecodeError as e:
-            print(f"Failed to parse JSON from response")
-            print("GPT response: ", response)
-            raise e
-
-        except Exception as e:
-            print(f"Failed to extract")
-            print("GPT response: ", response)
-            raise e
-    
-
     def reformulate_query(self, query: AbstractQuery) -> str:
         return query.get_description()
+    
+    
+    # def _classify_query(self, query: str) -> bool:
+    #     """
+    #     Determine the given query is a broad interest query.
+    #     """
+    #     prompt = """
+    #     Here's a classification problem for a travel recommendation system:
+    #     Given a query, please classify it into two classification, and inform the answer directly:
+    #         1. Broad: These queries are very subjective and contains words that are very broad and wide. Examples: cities famous for [big and broad nouns], cities with [a sense of feeling], cities for [broad purpose], cities for [certain kind of people], etc.
+    #         2. Activity: These queries are objective, and has very specific activities. Examples: Cities with [specific entities], Cities for [specific activities], etc.
 
+    #     Requirements:
+    #     - Your answer can only be "broad" or "activity"
+    #     - Provide your answers strictly in JSON format: {{"answer": "YOUR ANSWER"}}
+
+
+    #     Query:{query}
+    #     """
+    #     answer = ANSWER_FORMAT
+
+    #     message = [
+    #         {"role": "system", "content": "You are an expert in classification."},
+    #         {"role": "user", "content": prompt.format(query=query)},
+    #     ]
+
+    #     response = self.llm.generate(message)
+        
+    #     try:
+    #         start, end = response.find("{"), response.rfind("}") + 1
+    #         answer = json.loads(response[start:end])["answer"]
+
+
+    #         if answer == 'activity':
+    #             return False
+    #         return True
+
+    #     except json.JSONDecodeError as e:
+    #         print(f"Failed to parse JSON from response")
+    #         print("GPT response: ", response)
+    #         raise e
+
+    #     except Exception as e:
+    #         print(f"Failed to extract")
+    #         print("GPT response: ", response)
+    #         raise e
+    
 
 class GQR(QueryProcessor):
     cls_type = "gqr"
@@ -246,68 +246,6 @@ class Q2E(QueryProcessor):
             expansions = '[SEP]'.join(expansion_list)
 
         return expansions
-    
-
-
-class Q2A(QueryProcessor):
-    cls_type = "q2a"
-    def __init__(self, input_path: str, llm: LLM, output_dir: str):
-        """
-        Initialize the query processor
-        :param query:
-        :param llm:
-        :param output_dir:
-        """ 
-        super().__init__(input_path=input_path, llm=llm, output_dir=output_dir)
-    
-    def reformulate_query(self, query: AbstractQuery) -> str:
-        if isinstance(query, Broad):
-            new_desc = self.process_query(query=query.get_description(), k=10)
-        else: # activity
-            new_desc = self.process_query(query=query.get_description(), k=3)
-        return new_desc
-
-    def process_query(self, query: str, k: int) -> str:
-        """
-        """
-        prompt = """
-        Given a user's travel cities recommendation query, give a list of {k} activities for the given travel query.
-        Provide your answers in valid JSON format with double quote: {{"answer": [LIST]}}, where keyword list is a list of string.
-
-        query: {query}
-        """
-        answer = ANSWER_FORMAT
-
-        message = [
-            {"role": "system", "content": "You are a travel expert."},
-            {"role": "user", "content": prompt.format(query="Family-Friendly Cities for Vacations", k=10)},
-            {"role": "assistant", "content": answer.format(answer=["Visit interactive science museums", "Explore family-friendly parks", "Join city tours for families", "Attend family concerts", "Enjoy kid-friendly restaurants", "Visit zoos and aquariums", "Participate in art workshops", "Explore libraries for storytime", "Take family bike tours", "Visit amusement parks"])},
-            {"role": "user", "content": prompt.format(query="Picturesque cities for photography enthusiasts", k=10)},
-            {"role": "assistant", "content": answer.format(answer=["Photograph sunsets and sunrises over landscapes", "Capture reflections in city lakes and rivers", "Explore botanical gardens for floral photography", "Shoot panoramic views from city outskirts", "Capture wildlife in urban nature reserves", "Photograph natural landmarks within the city", "Explore scenic trails for nature shots", "Capture seasonal changes in city parks", "Attend outdoor photography retreats", "Photograph starry nights from accessible city points"])},          
-            {"role": "user", "content": prompt.format(query="Cities popular for horseback riding", k=3)},
-            {"role": "assistant", "content": answer.format(answer=["Explore guided trail rides in scenic areas", "Explore horseback mountain tours", "Join horseback riding beach tours"])},          
-            {"role": "user", "content": prompt.format(query=query.get_description(), k=k)},
-        ]
-
-        response = self.llm.generate(message)
-        # parse the answer
-        start = response.find("{")
-        end = response.rfind("}") + 1
-        response = response[start:end]
-        expansion_list = json.loads(response)["answer"]
-
-        if self.retriever_type == "sparse":
-            # append original query description
-            query_list = [query] * 5
-            expansion_list = query_list + expansion_list
-            expansions = ' '.join(expansion_list)
-        
-        else: # for dense retriever
-            expansion_list = [query] + expansion_list
-            expansions = '[SEP]'.join(expansion_list)
-
-        return expansions
-
 
 
 class GenQREnsemble(QueryProcessor):
@@ -462,17 +400,9 @@ class EQR(QueryProcessor):
         """ 
         super().__init__(input_path=input_path, llm=llm, output_dir=output_dir)
         self.k = k
-    
+
 
     def reformulate_query(self, query: AbstractQuery) -> str:
-        if isinstance(query, Broad):
-            new_desc = self.process_broad_query(query=query.get_description(), k=self.k)
-        else: # activity
-            new_desc = self.process_activity_query(query=query.get_description())
-        return new_desc
-
-
-    def process_broad_query(self, query: str, k: int) -> str:
         """
         """
         prompt = """
@@ -497,13 +427,14 @@ class EQR(QueryProcessor):
         answer = ANSWER_FORMAT
         cities = ",".join(CITY_LIST)
 
+        query_str = query.get_description()
         message = [
             {"role": "system", "content": "You are a travel expert."},
             {"role": "user", "content": prompt.format(query="Family-Friendly Cities for Vacations", k=5, cities=cities)},
             {"role": "assistant", "content": answer.format(answer=["Theme Parks - Cities with expansive theme parks offering thrilling rides and attractions suitable for all ages such as Orlando and Los Angeles.", "Zoos and Aquariums - Feature diverse collections of animals and underwater displays such as Chicago and San Diego.", "Children Museums - Tailored for younger visitors with hands-on learning exhibits such as Indianapolis and New York City.", "Beaches - Safe, clean beaches with gentle waves and family amenities such as Honolulu and Miami.", "Parks - Large parks with playgrounds, picnic areas, and public events such as London and Vancouver."])},
             {"role": "user", "content": prompt.format(query="Picturesque cities for photography enthusiasts", k=5, cities=cities)},
             {"role": "assistant", "content": answer.format(answer=["Coastal Views - Captures the dynamic interface where the sea meets the land, offering picturesque views of beaches, cliffs, and marine life, such as Cape Town, Santorini", "Natural Landscape Photography - Dedicated to capturing the untouched beauty of natural environments, focusing on the authenticity and raw elements of scenes, such as Queenstown, Faroe Islands, Fiji.", "Exotic Island Views - Highlights the distinctive beauty of island landscapes, featuring tropical beaches, lush vegetation, and serene tranquility, such as Phuket, Maldives, Galapagos Islands.", "Architectural Photography - Focuses on the artistic capture of buildings and architectural elements, emphasizing design, structure, and contextual interaction, such as Florence, Barcelona, Prague.", "Skyline Photography - Concentrates on capturing the iconic cityscapes and urban profiles from strategic vantage points, showcasing the layout and vibrancy of metropolitan areas, such as New York City, Hong Kong, Dubai."])},
-            {"role": "user", "content": prompt.format(query=query, k=k, cities=cities)},
+            {"role": "user", "content": prompt.format(query=query_str, k=self.k, cities=cities)},
         ]
 
         response = self.llm.generate(message)
@@ -515,167 +446,167 @@ class EQR(QueryProcessor):
         
         if self.retriever_type == "sparse":
             # append original aspect description
-            query_list = [query] * 5
+            query_list = [query_str] * 5
             expansion_list = query_list + expansion_list
             expansions = ' '.join(expansion_list)
         
         else: # for dense retriever
-            expansion_list = [query] + expansion_list
+            expansion_list = [query_str] + expansion_list
             expansions = '[SEP]'.join(expansion_list)
 
         return expansions
 
 
-    def process_activity_query(self, query: str) -> str:
-        """
-        """
-        prompt = """
-        Query: {query}
+    # def process_activity_query(self, query: str) -> str:
+    #     """
+    #     """
+    #     prompt = """
+    #     Query: {query}
 
-        Given a user's travel cities recommendation query, do the following steps:
-            - Provide a one or two sentence description with various keywords related to the query.
-            - Choose 10 best cities that satisfy the query and concatenate them at the end of your one sentence description.  
-            3. Provide your answers in valid JSON format with double quotes: {{"answer": RESULT}}, where RESULT is the concatenated description and example answers.
+    #     Given a user's travel cities recommendation query, do the following steps:
+    #         - Provide a one or two sentence description with various keywords related to the query.
+    #         - Choose 10 best cities that satisfy the query and concatenate them at the end of your one sentence description.  
+    #         3. Provide your answers in valid JSON format with double quotes: {{"answer": RESULT}}, where RESULT is the concatenated description and example answers.
 
-        EXAMPLE QUERY: Cities popular for horseback riding
-        EXAMPLE RESULT: Cities renowned for excellent horseback riding opportunities often feature stunning natural landscapes suitable for horse riding such as mountain, forest, or beaches, well-maintained horse riding trails, and a rich cultural heritage related to horse riding. Some of the best cities for this activity include Lexington (Kentucky), Mendoza, Queenstown (New Zealand), Mont-Tremblant, Cape Town, Cabo San Lucas, Santa Fe, Victoria Falls, and Asheville.
+    #     EXAMPLE QUERY: Cities popular for horseback riding
+    #     EXAMPLE RESULT: Cities renowned for excellent horseback riding opportunities often feature stunning natural landscapes suitable for horse riding such as mountain, forest, or beaches, well-maintained horse riding trails, and a rich cultural heritage related to horse riding. Some of the best cities for this activity include Lexington (Kentucky), Mendoza, Queenstown (New Zealand), Mont-Tremblant, Cape Town, Cabo San Lucas, Santa Fe, Victoria Falls, and Asheville.
 
-        This is your choice of cities:
-        {cities}
-        """
-        answer = ANSWER_FORMAT
-        cities = ",".join(CITY_LIST)
+    #     This is your choice of cities:
+    #     {cities}
+    #     """
+    #     answer = ANSWER_FORMAT
+    #     cities = ",".join(CITY_LIST)
 
-        message = [
-            {"role": "system", "content": "You are a travel expert."},
-            {"role": "user", "content": prompt.format(query="Cities popular for horseback riding", cities=cities)},
-            {"role": "assistant", "content": answer.format(answer="Cities renowned for excellent horseback riding opportunities often feature stunning natural landscapes in mountain or forest, well-maintained horse riding trails, beautiful beach and coastlines, and a rich cultural heritage related to horse riding. Some of the best cities for this activity include Lexington (Kentucky), Mendoza, Queenstown (New Zealand), Mont-Tremblant, Cape Town, Cabo San Lucas, Santa Fe, Victoria Falls, and Asheville.")},        
-            {"role": "user", "content": prompt.format(query=query, cities=cities)},
-        ]
+    #     message = [
+    #         {"role": "system", "content": "You are a travel expert."},
+    #         {"role": "user", "content": prompt.format(query="Cities popular for horseback riding", cities=cities)},
+    #         {"role": "assistant", "content": answer.format(answer="Cities renowned for excellent horseback riding opportunities often feature stunning natural landscapes in mountain or forest, well-maintained horse riding trails, beautiful beach and coastlines, and a rich cultural heritage related to horse riding. Some of the best cities for this activity include Lexington (Kentucky), Mendoza, Queenstown (New Zealand), Mont-Tremblant, Cape Town, Cabo San Lucas, Santa Fe, Victoria Falls, and Asheville.")},        
+    #         {"role": "user", "content": prompt.format(query=query, cities=cities)},
+    #     ]
 
-        response = self.llm.generate(message)
+    #     response = self.llm.generate(message)
 
-        if self.retriever_type == "sparse":
-            expansion_list = [query] * 5 + [response]
-            expansions = ' '.join(expansion_list)
+    #     if self.retriever_type == "sparse":
+    #         expansion_list = [query] * 5 + [response]
+    #         expansions = ' '.join(expansion_list)
         
-        else:
-            expansions = f"{query}: {response}"
+    #     else:
+    #         expansions = f"{query}: {response}"
         
-        return expansions
+    #     return expansions
 
 
 
 ############################################
 ############# Tree method ##################
-class Tree(QueryProcessor):
-    def __init__(self, input_path: str, llm: LLM, retriever_type: str, output_dir: str, max_subtopics: int = 5, depth_limit: int = 3):
-        """
-        Initialize the query processor
-        :param query:
-        :param llm:
-        :param output_dir:
-        """ 
-        super().__init__(input_path=input_path, llm=llm, retriever_type=retriever_type, output_dir=output_dir)
-        self.max_subtopics = max_subtopics
-        self.depth_limit = depth_limit
+# class Tree(QueryProcessor):
+#     def __init__(self, input_path: str, llm: LLM, retriever_type: str, output_dir: str, max_subtopics: int = 5, depth_limit: int = 3):
+#         """
+#         Initialize the query processor
+#         :param query:
+#         :param llm:
+#         :param output_dir:
+#         """ 
+#         super().__init__(input_path=input_path, llm=llm, retriever_type=retriever_type, output_dir=output_dir)
+#         self.max_subtopics = max_subtopics
+#         self.depth_limit = depth_limit
 
 
-    def elaborate_tree(self, query: str) -> str:
-        """
-        """
-        expandable = self.is_expandable(query=query)
-        print(f"{query}: {expandable}")
-        if (not expandable) and self.max_subtopics <= 0: # base case
-            return query
+#     def elaborate_tree(self, query: str) -> str:
+#         """
+#         """
+#         expandable = self.is_expandable(query=query)
+#         print(f"{query}: {expandable}")
+#         if (not expandable) and self.max_subtopics <= 0: # base case
+#             return query
         
-        else: # recursive case
-            subtopics = self.expand_subtopics(query=query, max_subtopics=self.max_subtopics)
-            subtopics_expansion = [self.elaborate_tree(query=sub, max_subtopics=self.max_subtopics, depth_limit=self.depth_limit - 1) for sub in subtopics]
-            return '\n'.join(subtopics_expansion)
+#         else: # recursive case
+#             subtopics = self.expand_subtopics(query=query, max_subtopics=self.max_subtopics)
+#             subtopics_expansion = [self.elaborate_tree(query=sub, max_subtopics=self.max_subtopics, depth_limit=self.depth_limit - 1) for sub in subtopics]
+#             return '\n'.join(subtopics_expansion)
 
 
-    def expand_subtopics(self, query: str, max_subtopics: int) -> list[str]:
-        """
-        """
-        prompt = """
-        Given the provided query about travel destination cities recommendation, expand the query to up to {max_subtopics} subtopics from different aspects that represent certain attributes a city might have.
-            1. Each subtopic should represent a more detailed granularity of the travel concept than the original topic.
-            2. Each subtopic should be mutually exclusive and focus on a different travel-related concept.
-            3. These subtopics will form new queries about travel destination cities recommendation, so provide them in a way that can be answered by a list of cities. Write them concisely in very short sentences.
-            4. You do not need to, and not expected to, exhaust the maximum number of subtopics; {max_subtopics} is merely an upper limit.
-            5. Provide your answers in valid JSON format with double quotes: {{"answer": [SUBTOPICS LIST]}}.
+#     def expand_subtopics(self, query: str, max_subtopics: int) -> list[str]:
+#         """
+#         """
+#         prompt = """
+#         Given the provided query about travel destination cities recommendation, expand the query to up to {max_subtopics} subtopics from different aspects that represent certain attributes a city might have.
+#             1. Each subtopic should represent a more detailed granularity of the travel concept than the original topic.
+#             2. Each subtopic should be mutually exclusive and focus on a different travel-related concept.
+#             3. These subtopics will form new queries about travel destination cities recommendation, so provide them in a way that can be answered by a list of cities. Write them concisely in very short sentences.
+#             4. You do not need to, and not expected to, exhaust the maximum number of subtopics; {max_subtopics} is merely an upper limit.
+#             5. Provide your answers in valid JSON format with double quotes: {{"answer": [SUBTOPICS LIST]}}.
 
-        Provide your answers in valid JSON format with double quotes: {{"answer": [SUBTOPICS LIST]}}.
+#         Provide your answers in valid JSON format with double quotes: {{"answer": [SUBTOPICS LIST]}}.
 
-        query: {query}
-        """
-        answer = ANSWER_FORMAT
+#         query: {query}
+#         """
+#         answer = ANSWER_FORMAT
 
-        message = [
-            {"role": "system", "content": "You are a travel expert."},
-            {"role": "user", "content": prompt.format(query="Family-friendly cities.")},
-            {"role": "assistant", "content": answer.format(answer=["Cities with educational museums.", "Cities with best-amusement parks.", "Cities with top-rated family hotels."])},
-            {"role": "user", "content": prompt.format(query="Good food cities.")},
-            {"role": "assistant", "content": answer.format(answer=["Cities with street food.", "Cities with Michelin-starred restaurants.", "Cities famous for specific local cuisines."])},
-            {"role": "user", "content": prompt.format(query=query, max_subtopics=max_subtopics)},
-        ]
+#         message = [
+#             {"role": "system", "content": "You are a travel expert."},
+#             {"role": "user", "content": prompt.format(query="Family-friendly cities.")},
+#             {"role": "assistant", "content": answer.format(answer=["Cities with educational museums.", "Cities with best-amusement parks.", "Cities with top-rated family hotels."])},
+#             {"role": "user", "content": prompt.format(query="Good food cities.")},
+#             {"role": "assistant", "content": answer.format(answer=["Cities with street food.", "Cities with Michelin-starred restaurants.", "Cities famous for specific local cuisines."])},
+#             {"role": "user", "content": prompt.format(query=query, max_subtopics=max_subtopics)},
+#         ]
 
-        response = self.llm.generate(message)
+#         response = self.llm.generate(message)
 
-        # parse the answer
-        start = response.find("{")
-        end = response.rfind("}") + 1
-        response = response[start:end]
-        subtopics = json.loads(response)["answer"]
-        return subtopics
+#         # parse the answer
+#         start = response.find("{")
+#         end = response.rfind("}") + 1
+#         response = response[start:end]
+#         subtopics = json.loads(response)["answer"]
+#         return subtopics
     
 
-    def is_expandable(self, query: str) -> bool:
-        """
-        """
-        prompt = """
-        Subtopics mining is a strategy used in information retrieval systems to identify related, more specific subtopics under a given broad query, which helps uncover additional topics that may interest users. Each subtopic should be significantly more specific in terminology and coverage than the original query topics and should be very distinct from one another.
+#     def is_expandable(self, query: str) -> bool:
+#         """
+#         """
+#         prompt = """
+#         Subtopics mining is a strategy used in information retrieval systems to identify related, more specific subtopics under a given broad query, which helps uncover additional topics that may interest users. Each subtopic should be significantly more specific in terminology and coverage than the original query topics and should be very distinct from one another.
 
-        Consider a travel destination recommender system where the goal is to suggest a list of cities based on user queries. We employ subtopics mining to better interpret and respond to these queries. Our primary data source is Wiki-Travel, which often lacks detailed information about specific cities. Therefore, it is crucial to maintain a balance in the level of granularity when mining subtopics.
+#         Consider a travel destination recommender system where the goal is to suggest a list of cities based on user queries. We employ subtopics mining to better interpret and respond to these queries. Our primary data source is Wiki-Travel, which often lacks detailed information about specific cities. Therefore, it is crucial to maintain a balance in the level of granularity when mining subtopics.
 
-        Conversely, here are some additional examples where the query might point to an activity that is too specific to mine meaningful subtopics and/or find relevant information from Wiki-Travel (please see the above examples without further brackets as additional negative cases):
+#         Conversely, here are some additional examples where the query might point to an activity that is too specific to mine meaningful subtopics and/or find relevant information from Wiki-Travel (please see the above examples without further brackets as additional negative cases):
 
-        * Cities famous for food [Cities known for special local cuisines [Cities famous for Thai-style cuisine; Cities famous for Pizza …]; Cities with numerous high-end Michelin star restaurants; Cities known for vibrant street food cultures.]
-        * Cities rich in entertainment [Cities with famous music scenes; Cities known for Broadway-style productions; Cities with bustling nightclubs and bars; Cities with good amusement park [Cities with good theme park …]].
-        * Family-friendly cities [Cities with kid-focused museums and zoos [Cities with fun art galleries; Cities with educational natural history museum …]; Cities with large recreational parks and fun zones [Cities with good theme park; Cities with fun water parks …]].
-        * Cities for sports lovers [Cities with major league teams and stadiums; Cities ideal for outdoor advantures [Cities famous for mountain climbing …]; Cities for winter sports lover [Cities famous for skiing …]; Football cities].
-        * Budget-friendly cities [Cities with budget lodging options; Cities with numerous free tourist attractions; Cities offering great food at low prices; Cities with cheap transportation and local facilities].
-        * Cities with a romantic atmosphere [Cities with cozy, romantic restaurants; Cities offering romantic activities [ Cities offering hot air balloon rides …]].
-        * Luxury cities [Cities with high-end shopping districts; Cities with exclusive, gourmet restaurants; Cities featuring luxury hotels and resorts].
+#         * Cities famous for food [Cities known for special local cuisines [Cities famous for Thai-style cuisine; Cities famous for Pizza …]; Cities with numerous high-end Michelin star restaurants; Cities known for vibrant street food cultures.]
+#         * Cities rich in entertainment [Cities with famous music scenes; Cities known for Broadway-style productions; Cities with bustling nightclubs and bars; Cities with good amusement park [Cities with good theme park …]].
+#         * Family-friendly cities [Cities with kid-focused museums and zoos [Cities with fun art galleries; Cities with educational natural history museum …]; Cities with large recreational parks and fun zones [Cities with good theme park; Cities with fun water parks …]].
+#         * Cities for sports lovers [Cities with major league teams and stadiums; Cities ideal for outdoor advantures [Cities famous for mountain climbing …]; Cities for winter sports lover [Cities famous for skiing …]; Football cities].
+#         * Budget-friendly cities [Cities with budget lodging options; Cities with numerous free tourist attractions; Cities offering great food at low prices; Cities with cheap transportation and local facilities].
+#         * Cities with a romantic atmosphere [Cities with cozy, romantic restaurants; Cities offering romantic activities [ Cities offering hot air balloon rides …]].
+#         * Luxury cities [Cities with high-end shopping districts; Cities with exclusive, gourmet restaurants; Cities featuring luxury hotels and resorts].
 
-        Conversely, here are some additional examples where the query might point to a activity that is too specific to mine meaningful subtopics and/or finding relevant information from Wiki-Travel (please see the above example without further bracket as additional negative cases):
+#         Conversely, here are some additional examples where the query might point to a activity that is too specific to mine meaningful subtopics and/or finding relevant information from Wiki-Travel (please see the above example without further bracket as additional negative cases):
 
-        * Cities famous for street food or any kind of specific food genre [too specific to find relevant info from wiki for further mining].
-        * Cities with good theme park [too specific to find relevant info from wiki for further mining].
-        * Cities famous for their educational natural science museums [too specific for further mining].
-        * Best cities to watch NBA games [too specific for further mining].
-        * Cities with budget lodging options [too specific to find relevant info from wiki for further mining].
-        * Cities with cozy, romantic restaurants [too specific to find relevant info from wiki for further mining].
-        * Cities with luxury hotels [too specific to find relevant info from wiki for further mining].
+#         * Cities famous for street food or any kind of specific food genre [too specific to find relevant info from wiki for further mining].
+#         * Cities with good theme park [too specific to find relevant info from wiki for further mining].
+#         * Cities famous for their educational natural science museums [too specific for further mining].
+#         * Best cities to watch NBA games [too specific for further mining].
+#         * Cities with budget lodging options [too specific to find relevant info from wiki for further mining].
+#         * Cities with cozy, romantic restaurants [too specific to find relevant info from wiki for further mining].
+#         * Cities with luxury hotels [too specific to find relevant info from wiki for further mining].
 
-        Given the following information and the broadness of the Wiki-Travel data source (be cautious, as many details cannot be found in Wiki-Travel), decide whether the given query is suitable for further subtopics mining (i.e., further expanding it into subtopics).
+#         Given the following information and the broadness of the Wiki-Travel data source (be cautious, as many details cannot be found in Wiki-Travel), decide whether the given query is suitable for further subtopics mining (i.e., further expanding it into subtopics).
 
-        Provide your answers in valid JSON format with double quotes: {{"answer": "yes" | "no"}}. 
+#         Provide your answers in valid JSON format with double quotes: {{"answer": "yes" | "no"}}. 
 
-        Query: {query}
-        """
-        # answer = ANSWER_FORMAT
+#         Query: {query}
+#         """
+#         # answer = ANSWER_FORMAT
 
-        message = [
-            {"role": "system", "content": "You are a travel expert."},
-            {"role": "user", "content": prompt.format(query=query)},
-        ]
+#         message = [
+#             {"role": "system", "content": "You are a travel expert."},
+#             {"role": "user", "content": prompt.format(query=query)},
+#         ]
 
-        response = self.llm.generate(message).lower()
-        if "yes" in response:
-            return True
-        elif "no" in response:
-            return False
-        else:
-            raise ValueError("")
+#         response = self.llm.generate(message).lower()
+#         if "yes" in response:
+#             return True
+#         elif "no" in response:
+#             return False
+#         else:
+#             raise ValueError("")
