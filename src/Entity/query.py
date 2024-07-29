@@ -1,4 +1,3 @@
-from .aspect import *
 import abc
 
 class AbstractQuery(abc.ABC):

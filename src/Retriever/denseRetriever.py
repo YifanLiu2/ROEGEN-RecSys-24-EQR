@@ -4,8 +4,7 @@ import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 from src.Retriever.abstractRetriever import AbstractRetriever
 from src.Embedder.LMEmbedder import LMEmbedder
-from src.Entity.aspect import *
-from src.Entity.query import Query
+from src.Entity.query import *
 
 
 class DenseRetriever(AbstractRetriever):
@@ -36,7 +35,7 @@ class DenseRetriever(AbstractRetriever):
         dest_embs = self.load_dest_embeddings()
         return dest_chunks, dest_embs
 
-    def retrieval_for_dest(self, query: str, dest_emb: np.ndarray, dest_chunks: list[str], num_chunks: Optional[int] = None) -> tuple[float, list[str]]:
+    def retrieval_for_dest(self, query: AbstractQuery, dest_emb: np.ndarray, dest_chunks: list[str], num_chunks: Optional[int] = None) -> tuple[float, list[str]]:
         """
         Perform dense retrieval for each query.
 
@@ -60,7 +59,7 @@ class DenseRetriever(AbstractRetriever):
 
         # calculate city score
         top_score = score[top_idx]
-        avg_score = self.aggregate_city_score(top_score)
+        avg_score = self.calculate_city_score(top_score)
 
         # retrieve top chunks
         chunks = np.array(dest_chunks)  # [chunk_size]

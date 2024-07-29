@@ -2,7 +2,7 @@ import os, pickle, json, abc
 from typing import Optional, Callable
 import numpy as np
 from tqdm import tqdm
-from src.Entity.query import Query
+from src.Entity.query import AbstractQuery
 from src.Embedder.LMEmbedder import LMEmbedder
 
 class AbstractRetriever(abc.ABC):
@@ -20,10 +20,10 @@ class AbstractRetriever(abc.ABC):
         self.power = power
         
     
-    def load_queries(self) -> list[str] | list[Query]:
+    def load_queries(self) -> list[str] | list[AbstractQuery]:
         """
         Loads queries from the specified file path. Queries can be in plain text format or serialized objects.
-        :return: list[str] | list[Query], a list of queries, either as strings or Query objects depending on the file format.
+        :return: list[str] | list[AbstractQuery], a list of queries, either as strings or Query objects depending on the file format.
         """
         if self.query_path.endswith("txt"):
             with open(self.query_path, "r") as file:
@@ -51,7 +51,7 @@ class AbstractRetriever(abc.ABC):
         return self.load_chunks(), None
 
     @abc.abstractmethod
-    def retrieval_for_dest(self, query: Query, dest_chunks: dict[str, list[str]], dest_emb: dict[str, np.ndarray] = None) -> tuple[float, list[str]]:
+    def retrieval_for_dest(self, query: AbstractQuery, dest_chunks: dict[str, list[str]], dest_emb: dict[str, np.ndarray] = None) -> tuple[float, list[str]]:
         """
         Abstract method to be implemented for dense retrieval.
 
@@ -74,23 +74,22 @@ class AbstractRetriever(abc.ABC):
             query_str = query.get_description()
             results[query_str] = query_results
 
-        suffix = f"num_chunks_{self.num_chunks}__power_{self.power}"
-        dense_result_path = os.path.join(self.output_dir, f"dense_result__{suffix}.json")
-        ranked_list = os.path.join(self.output_dir, f"ranked_list__{suffix}.json")
+        dense_result_path = os.path.join(self.output_dir, "dense_result.json")
+        ranked_list_path = os.path.join(self.output_dir, "ranked_list.json")
         
         # save dense result
         with open(dense_result_path, "w") as file_dense:
             json.dump(results, file_dense, indent=4)
         
-        with open(dense_result_path, "w") as file_ranked:
+        with open(ranked_list_path, "w") as file_ranked:
             ranked_list = {
-                query: [dest for dest, _ in results[query]]
+                query: [dest for dest in results[query]] 
                 for query in results
             }
             json.dump(ranked_list, file_ranked, indent=4)
 
     
-    def retrieval_for_query(self, query: Query, dests_embs: dict[str, np.ndarray], dests_chunks: dict[str, list[str]] = None) -> dict[str, tuple[float, list[str]]]: 
+    def retrieval_for_query(self, query: AbstractQuery, dests_embs: dict[str, np.ndarray], dests_chunks: dict[str, list[str]] = None) -> dict[str, tuple[float, list[str]]]: 
         """
         Loads necessary data and runs the dense retrieval process, then saves the results to the specified output path.
         """
@@ -117,7 +116,7 @@ class AbstractRetriever(abc.ABC):
             return 0  
 
         scores = (top_score + 1) ** self.power
-        return np.mean(scores)
+        return float(np.mean(scores))
 
 
 

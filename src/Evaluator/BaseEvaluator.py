@@ -22,7 +22,10 @@ class Evaluator(abc.ABC):
             if query not in self.ground_truth:
                 print(f"Ground truth not exist for the query: {query}")
 
-            ground_truth = self.ground_truth[query]
+            try:
+                ground_truth = self.ground_truth[query]
+            except KeyError:
+                continue
             
             # run evaluation
             score = self.evaluate(ground_truth, ranked_list)

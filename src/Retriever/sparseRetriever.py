@@ -2,7 +2,7 @@ from src.Retriever.denseRetriever import *
 from rank_bm25 import BM25Okapi
 from sparsembed import model, retrieve
 from nltk.tokenize import word_tokenize
-from src.Entity.aspect import Aspect
+from src.Entity.query import AbstractQuery
 
 
 class SparseRetriever(AbstractRetriever):
@@ -22,7 +22,7 @@ class BM25Retriever(SparseRetriever):
         super().__init__(query_path=query_path, output_dir=output_dir, chunks_dir=chunks_dir, num_chunks=num_chunks, power=power)
     
 
-    def retrieval_for_dest(self, query: Query, dest_chunks: list[str]) -> dict[str, tuple[float, list[str]]]:
+    def retrieval_for_dest(self, query: AbstractQuery, dest_chunks: list[str]) -> dict[str, tuple[float, list[str]]]:
         """
         Perform sparse retrieval for each query.
 
@@ -31,8 +31,6 @@ class BM25Retriever(SparseRetriever):
         :param percentile: float, percentile to determine the similarity threshold for filtering results.
         :return: dict[str, dict[str, tuple[float, list[str]]]], structured results with scores and top matching chunks.
         """
-        # return format: {"aspect": (score, top_chunk)}
-        dest_result = dict()
         corpus = dest_chunks
         tokenized_corpus = [word_tokenize(doc) for doc in corpus]
         
@@ -83,7 +81,7 @@ class BM25Retriever(SparseRetriever):
 #         )
 #         self.batch_size = batchsize
     
-#     def retrieval_for_dest(self, aspects: list[Aspect], dest_chunks: list[str], num_chunks: int = 3) -> dict[str, tuple[float, list[str]]]:
+#     def retrieval_for_dest(self, aspects: list[AbstractQuery], dest_chunks: list[str], num_chunks: int = 3) -> dict[str, tuple[float, list[str]]]:
 #         """
 #         Perform sparse retrieval for each query.
 
@@ -108,7 +106,7 @@ class BM25Retriever(SparseRetriever):
 #         )
 
 #         splade_results = retriever(
-#             aspects_text, # Aspect
+#             aspects_text, # AbstractQuery
 #             k_tokens=20, # Maximum number of activated tokens.
 #             k = num_chunks, # Number of top-k documents to retrieve.
 #             batch_size=self.batch_size

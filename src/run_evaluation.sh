@@ -1,9 +1,9 @@
 # ranked_list_path="output\new_test\results\rank_list_geqe.json"
 # ground_truth_path="data\ground_truth\ground_truth.json"
 # retriever_output_dir="output\new_test\results\geqe"
-ranked_list_path="output\best_results\results\v_2\rank_list_geqe.json"
+ranked_list_path="output\best_results\results\rank_list_q2e.json"
 ground_truth_path="data\ground_truth\ground_truth.json"
-retriever_output_dir="output\best_results\results\v_2\geqe"
+retriever_output_dir="output\best_results\results\q2e"
 echo "Evaluating the retriever output"
 evaluator=("precision" "rprecision" "recall" "map")
 for eval in "${evaluator[@]}"; do

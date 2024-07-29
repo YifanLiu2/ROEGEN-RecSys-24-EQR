@@ -28,7 +28,7 @@ class QueryProcessor:
         self.retriever_type = retriever_type
     
 
-    def process_query(self) -> list[Query]:
+    def process_query(self) -> list[AbstractQuery]:
         """
         Process the queries
         """
@@ -60,7 +60,7 @@ class QueryProcessor:
         return queries
     
 
-    def _save_results(self, result: list[Query]):
+    def _save_results(self, result: list[AbstractQuery]):
         """
         """
         pkl_path = os.path.join(self.output_dir, f"processed_query.pkl")
@@ -127,7 +127,7 @@ class QueryProcessor:
             raise e
     
 
-    def reformulate_query(self, query: Query) -> str:
+    def reformulate_query(self, query: AbstractQuery) -> str:
         return query.get_description()
 
 
@@ -142,7 +142,7 @@ class GQR(QueryProcessor):
         super().__init__(input_path=input_path, llm=llm, retriever_type=retriever_type, output_dir=output_dir)
         self.k = k
 
-    def reformulate_query(self, query: Query) -> str:
+    def reformulate_query(self, query: AbstractQuery) -> str:
         """
         GQR @ https://dl.acm.org/doi/pdf/10.1145/3589335.3651945
         """
@@ -198,7 +198,7 @@ class Q2E(QueryProcessor):
         super().__init__(input_path=input_path, llm=llm, retriever_type=retriever_type, output_dir=output_dir)
         self.k = k
 
-    def reformulate_query(self, query: Query) -> str:
+    def reformulate_query(self, query: AbstractQuery) -> str:
         """
         Q2E @ https://arxiv.org/pdf/2305.03653
         """
@@ -253,7 +253,7 @@ class GenQREnsemble(QueryProcessor):
         self.n = n
         self.k = k
 
-    def reformulate_query(self, query: Query):
+    def reformulate_query(self, query: AbstractQuery):
         """
         GenQREnsemble @ https://arxiv.org/pdf/2404.03746
         """
@@ -332,7 +332,7 @@ class Q2D(QueryProcessor):
         super().__init__(input_path=input_path, llm=llm, retriever_type=retriever_type, output_dir=output_dir)
         self.k = k
 
-    def reformulate_query(self, query: Query) -> str:
+    def reformulate_query(self, query: AbstractQuery) -> str:
         """
         Q2D @ https://arxiv.org/pdf/2305.03653
         query2doc @ https://arxiv.org/pdf/2303.07678
@@ -388,14 +388,12 @@ class EQR(QueryProcessor):
         self.k = k
     
 
-    def reformulate_query(self, query: Query) -> Query:
+    def reformulate_query(self, query: AbstractQuery) -> str:
         if isinstance(query, Broad):
             new_desc = self.process_broad_query(query=query.get_description(), k=self.k)
-            query.set_reformuation(reformulation=new_desc)
         else: # activity
             new_desc = self.process_activity_query(query=query.get_description())
-            query.set_reformuation(reformulation=new_desc)
-        return query
+        return new_desc
 
 
     def process_broad_query(self, query: str, k: int) -> str:
