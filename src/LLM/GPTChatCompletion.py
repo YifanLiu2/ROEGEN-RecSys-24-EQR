@@ -10,7 +10,7 @@ class GPTChatCompletion(LLM):
     GPT Chat Completion using OpenAI API
     """
 
-    def __init__(self, model_name: str = "gpt-4-turbo", api_key: str = "API_KEY"):
+    def __init__(self, model_name: str = "gpt-4o", api_key: str = "API_KEY"):
         super().__init__(model_name)
         self.client = OpenAI(api_key=api_key)
 
