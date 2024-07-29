@@ -1,5 +1,5 @@
 import os, pickle, json, abc
-from typing import Optional, Callable
+from typing import Optional
 import numpy as np
 from tqdm import tqdm
 from src.Entity.query import AbstractQuery
