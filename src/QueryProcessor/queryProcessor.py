@@ -472,7 +472,7 @@ class EQR(QueryProcessor):
 
         Given a user's travel cities recommendation query, do the following steps:
             1. Provide a one or two sentence description with various keywords related to the query.
-            2. Choose 10 best cities that satisfy the query and concatenate them at the end of your one sentence description. 
+            2. Choose 5 best cities that satisfy the query, provide one-sentence rationale and attractions for each recommendation, and concatenate them at the end of your one sentence description. 
             3. Provide your answers in valid JSON format with double quotes: {{"answer": RESULT}}, where RESULT is the concatenated description and example answers.
 
         EXAMPLE QUERY: Cities popular for horseback riding
@@ -487,7 +487,7 @@ class EQR(QueryProcessor):
         message = [
             {"role": "system", "content": "You are a travel expert."},
             {"role": "user", "content": prompt.format(query="Cities popular for horseback riding", cities=cities)},
-            {"role": "assistant", "content": answer.format(answer="Cities renowned for excellent horseback riding opportunities often feature stunning natural landscapes in mountain or forest, well-maintained horse riding trails, beautiful beach and coastlines, and a rich cultural heritage related to horse riding. Some of the best cities for this activity include Lexington (Kentucky), Mendoza, Queenstown (New Zealand), Mont-Tremblant, Cape Town, Cabo San Lucas, Santa Fe, Victoria Falls, and Asheville.")},        
+            {"role": "assistant", "content": answer.format(answer="Cities renowned for excellent horseback riding opportunities often feature stunning natural landscapes suitable for horse riding such as mountain, forest, or beaches, well-maintained horse riding trails, and a rich cultural heritage related to horse riding. Some of the best cities for this activity include Lexington (Kentucky), known for its scenic trails and horse farms; Mendoza, with its unique horseback wine tours; Queenstown (New Zealand), offering adventurous rides through dramatic landscapes; Mont-Tremblant, famous for its picturesque mountain rides; and Asheville, celebrated for its vibrant equestrian community and scenic trails.")},        
             {"role": "user", "content": prompt.format(query=query, cities=cities)},
         ]
 
