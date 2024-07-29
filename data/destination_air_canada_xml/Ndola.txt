@@ -1,0 +1,36 @@
+'''Ndola''' is in the Copperbelt in [[Zambia]]
+
+==Get in==
+The largest town in the copperbelt, '''Ndola''' has an airstrip serviced by Air Zambia from [[Lusaka]]. Ndola is about a 4 to 5 hour drive from Lusaka on a well paved road. Buses run from Lusaka to Ndola. The most reliable company is Mazhandu Family Bus Services [[http://travelmazhandu.com]] which runs several buses a day for 65,000 kwacha (about $13 USD).
+
+==Get around==
+
+==See==
+
+==Do==
+*<do name="Dag Hammarskjöld Crash Site Memorial" alt="" address="" directions="" phone="" url="http://whc.unesco.org/en/tentativelists/867/" hours="" price="" lat="" long="">Visit the Dag Hammarskjöld Crash Site Memorial and Museum, about 10km southwest of Ndola.</do>
+*<do name="Nsobe Game Camp" alt="" address="" directions="" phone="(+260) (212) 671 008/671 097" url="http://www.nsobegamecamp.com/" hours="" price="" lat="" long=""></do>
+
+
+==Buy==
+
+==Eat==
+*<eat name="Bei Tempi" alt="" address="" directions="" phone="" url="" hours="" price="" lat="" long="">Pizza and pasta</eat>
+*<eat name="Michelangelo's" alt="" address="126 Broadway Road, Ndola" directions="" phone="" url="" hours="" price="" lat="" long="">Wash the food down with a cold beer or some matured wine.</eat>
+*<eat name="Deja Vu" alt="" address="" directions="" phone="" url="" hours="" price="" lat="" long="">Uptown modern restaurant offering a wide variety of succulent cuisines. </eat>
+*<eat name="Vanilla Bread" alt="" address="126 Broadway Road, Ndola" directions="" phone="" url="" hours="" price="" lat="" long="">Coffeeshop next door to Michaelangelo's (run by the same owners)</eat>
+
+==Drink==
+
+==Sleep==
+*<sleep name="Kinsa Lodge" alt="" address="24 Petauke Crescent, Kansenshi, Ndola" directions="" phone="" url="http://www.kinsalodge.com/" checkin="" checkout="" price="" lat="" long="">This hotel is popular with business travelers and NGO workers. Rooms have TVs, mini fridges, and electric kettles. Breakfast and dinner are available. The hotel bar shows football (soccer) games, so it can get loud on game nights. </sleep>
+*<sleep name="Michelangelo Lodge" alt="" address="126 Broadway Road, Ndola" directions="" phone="" url="http://www.michelangelocafe.com/index.php" checkin="" checkout="" price="" lat="" long=""></sleep>
+
+==Stay safe==
+
+==Get out==
+
+
+{{isPartOf|Copperbelt}}
+{{outline}}
+[[World66:africa/zambia/ndola]]

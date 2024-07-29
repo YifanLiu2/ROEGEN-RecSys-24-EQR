@@ -1,0 +1,61 @@
+{{pagebanner|Londrina Banner.jpg}}
+
+'''Londrina''' is a large city in [[Paraná]], southern [[Brazil]]. It is a wealthy center of a coffee-producing region. It could be a stopover to or from [[Foz do Iguaçu]].
+
+==Get in==
+* Airport with daily flights to [[Curitiba]], [[Sao Paulo]], [[Campinas]], and others.
+* Good long distance bus connections.
+
+==Get around==
+'''City buses''' can be a challenge. They are more frequent during office hours, specially close to the University hours, so it's very likely that they will be crowded with students. Any other time, you'll probably wait very long for your bus, as sometimes they can take longer than an hour to come. Transporte Coletivo Grande Londrina (TCGL)'s website (http://www.tcgrandelondrina.com.br/) has bus lines and time tables, though it's not easy to find your way around it, either.
+
+'''Taxis''' are frequent and to be found everywhere. However, Londrina's traffic sometimes won't help you, and you'll find red light after red light. Be prepared to pay R$ 15 to R$ 20 for short distances.
+
+==See==
+
+==Do==
+*<do name="Calçadão: The Huge Sidewalk" alt="" address="" directions="" phone="" url="" hours="" price="" lat="" long="">Connecting the core of downtown Londrina with a street that is a dedicated pedestrian walkway has proven to be a huge success here, and along the sidewalk you will find a number of shops (both large and small), various restaurants, a number of banks, and various other businesses of interest to those visiting the city.</do>
+*<do name="Lake Igapo Park" alt="" address="" directions="" phone="" url="" hours="" price="" lat="" long="">There are actually several lakes called "Lake Igapo". They are called, naturally, Igapó 1, 2, 3, and 4.There are several parks along the several lakes, but Lake Igapó 1 has the most well known. This park runs alongside the northeastern side of the lake, between Rua Herodoto and Avenida Amithas de Barros. Crossing to the north side of Avenida Amithas de Barros you come to what is called the "zerão" (big zero), which is another park that has a number of sports facilities.</do>
+*<do name="Historical Museum of Londrina" alt="" address="" directions="" phone="" url="http://www.uel.br/museu/" hours="" price="Free" lat="" long="">The museum is a project of the State University of Londrina (Universidade Estadual de Londrina - UEL) and is located in the old train station - which no longer has any track going to it. The location is just north of downtown. The museum survives entirely on donations and the university, as there is no admissions charge.</do>
+*<do name="Parque Estadual Mata dos Godoy" alt="" address="" directions="" phone="" url="" hours="" price="" lat="" long="">Located far to the southwest of the city, and in fact located in the countryside quite far outisde the urban limits, Parque Estadual Mata dos Godoy preserves a small section of the original forest of the state of Paranã. Surrounding the state park is what you find has replaced the forest in most areas: corn and other monoculture farmland as far as the eye can see.</do>
+* <do name="Parque do Ingá " alt="" address="" directions="" lat="" long="" phone="" tollfree="" email="" fax="" url="" hours="" price="">Located in the center of the city, Parque do Ingá is a green and wooded park, ideal for walking, having picnics and enjoying nature. It also houses the Londrina Zoo, with several species of animals.</do>
+
+==Buy==
+*<buy name="Catuaí Shopping" alt="" address="" directions="" phone="" url="www.catuaishopping.com.br" hours="" price="" lat="" long="">Open to public in 1990, Catuaí Shopping is the largest shopping center in the southern region of Brazil. It has numerous stores, restaurants, amusement squares (including bowling), and a movie theater with 7 projection rooms, includind 3D. Parking is paid.</buy>
+
+
+==Eat==
+
+==Drink==
+
+==Sleep==
+* <sleep name="Hotel Fenix" alt="" address="Av. Duque de Caxias and R. Maranhão" directions="A few blocks from the main square" phone="+55 43 3323 0526" email="" fax="" url="" checkin="" checkout="" price="Single, shared bath, R$ 15">Very basic, fair breakfast.</sleep>
+
+==Contact==
+
+==Get out==
+
+[[pt:Londrina]]
+{{IsPartOf|Paraná}}
+{{outline}}
+{{cityguide}}
+<!--[[ca:{{subst:PAGENAME}}]]-->
+<!--[[de:{{subst:PAGENAME}}]]-->
+<!--[[eo:{{subst:PAGENAME}}]]-->
+<!--[[es:{{subst:PAGENAME}}]]-->
+<!--[[fr:{{subst:PAGENAME}}]]-->
+<!--[[fi:{{subst:PAGENAME}}]]-->
+<!--[[he:{{subst:PAGENAME}}]]-->
+<!--[[hi:{{subst:PAGENAME}}]]-->
+<!--[[hu:{{subst:PAGENAME}}]]-->
+<!--[[it:{{subst:PAGENAME}}]]-->
+<!--[[ja:{{subst:PAGENAME}}]]-->
+<!--[[nl:{{subst:PAGENAME}}]]-->
+<!--[[pl:{{subst:PAGENAME}}]]-->
+<!--[[pt:{{subst:PAGENAME}}]]-->
+<!--[[ro:{{subst:PAGENAME}}]]-->
+<!--[[ru:{{subst:PAGENAME}}]]-->
+<!--[[sv:{{subst:PAGENAME}}]]-->
+<!--[[zh:{{subst:PAGENAME}}]]-->
+<!--[[Wikipedia:{{subst:PAGENAME}}]]-->
+<!--[[Dmoz:{{subst:PAGENAME}}]]-->
