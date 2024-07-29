@@ -1,5 +1,4 @@
 #!/bin/bash
-echo "Current directory: $(pwd)"
 original_query_input_path="data/final_queries.txt"
 
 embedder_type="st"
@@ -14,7 +13,7 @@ for i in 1; do
     modes=("genqr")
     for query_processor_mode in "${modes[@]}"; do
         echo "Running query processor: "$query_processor_mode
-        python -m src.QueryProcessor.quesryProcessorRunner --input_path $original_query_input_path --o $output_root_folder --mode $query_processor_mode
+        python -m src.QueryProcessor.queryProcessorRunner --input_path $original_query_input_path --o $output_root_folder --mode $query_processor_mode
         processed_query_output_path="${output_root_folder}/processed_query_${query_processor_mode}.pkl"
         retriever_output_dir="${output_root_folder}/${embedder_type}_${query_processor_mode}_${i}"
         # run dense retriever
