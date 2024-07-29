@@ -15,6 +15,7 @@ class QueryProcessor:
     """
     Query Processor class
     """
+    cls_type = "none"
     def __init__(self, input_path: str, llm: LLM, retriever_type: str = "dense", output_dir: str = "output"):
         """
         Initialize the query processor
@@ -63,7 +64,7 @@ class QueryProcessor:
     def _save_results(self, result: list[AbstractQuery]):
         """
         """
-        pkl_path = os.path.join(self.output_dir, f"processed_query.pkl")
+        pkl_path = os.path.join(self.output_dir, f"processed_query_{self.cls_type}.pkl")
         with open(pkl_path, "wb") as f:
             pickle.dump(result, f)
 
@@ -76,7 +77,7 @@ class QueryProcessor:
             }
             query_data.append(query_info)
 
-        json_path = os.path.join(self.output_dir, f"processed_query.json")
+        json_path = os.path.join(self.output_dir, f"processed_query_{self.cls_type}.json")
         with open(json_path, 'w') as f:
             json.dump(query_data, f, indent=4)
         
@@ -132,14 +133,15 @@ class QueryProcessor:
 
 
 class GQR(QueryProcessor):
-    def __init__(self, input_path: str, llm: LLM, retriever_type: str, output_dir: str, k: int = 1):
+    cls_type = "gqr"
+    def __init__(self, input_path: str, llm: LLM, output_dir: str, k: int = 1):
         """
         Initialize the query processor
         :param query:
         :param llm:
         :param output_dir:
         """ 
-        super().__init__(input_path=input_path, llm=llm, retriever_type=retriever_type, output_dir=output_dir)
+        super().__init__(input_path=input_path, llm=llm, output_dir=output_dir)
         self.k = k
 
     def reformulate_query(self, query: AbstractQuery) -> str:
@@ -174,28 +176,31 @@ class GQR(QueryProcessor):
         response = response[start:end]
         paraphrase_list = json.loads(response)["answer"]
         
+        query_str = query.get_description()
+
         if self.retriever_type == "sparse":
             # append original query description
-            query_list = [query] * 3
+            query_list = [query_str] * 3
             paraphrase_list = query_list + paraphrase_list
             paraphrases = ' '.join(paraphrase_list)
         
         else: # for dense retriever
-            paraphrase_list = [query] + paraphrase_list
+            paraphrase_list = [query_str] + paraphrase_list
             paraphrases = '[SEP]'.join(paraphrase_list)
 
         return paraphrases
 
 
 class Q2E(QueryProcessor):
-    def __init__(self, input_path: str, llm: LLM, retriever_type: str, output_dir: str, k: int = 5):
+    cls_type = "q2e"
+    def __init__(self, input_path: str, llm: LLM, output_dir: str, k: int = 5):
         """
         Initialize the query processor
         :param query:
         :param llm:
         :param output_dir:
         """ 
-        super().__init__(input_path=input_path, llm=llm, retriever_type=retriever_type, output_dir=output_dir)
+        super().__init__(input_path=input_path, llm=llm, output_dir=output_dir)
         self.k = k
 
     def reformulate_query(self, query: AbstractQuery) -> str:
@@ -227,29 +232,32 @@ class Q2E(QueryProcessor):
         end = response.rfind("}") + 1
         response = response[start:end]
         expansion_list = json.loads(response)["answer"]
-        
+
+        query_str = query.get_description()
+
         if self.retriever_type == "sparse":
             # append original query description
-            query_list = [query] * 5
+            query_list = [query_str] * 5
             expansion_list = query_list + expansion_list
             expansions = ' '.join(expansion_list)
         
         else: # for dense retriever
-            expansion_list = [query] + expansion_list
+            expansion_list = [query_str] + expansion_list
             expansions = '[SEP]'.join(expansion_list)
 
         return expansions
 
 
 class GenQREnsemble(QueryProcessor):
-    def __init__(self, input_path: str, llm: LLM, retriever_type: str, output_dir: str, n: int = 5, k: int = 5):
+    cls_type = "genqr"
+    def __init__(self, input_path: str, llm: LLM, output_dir: str, n: int = 5, k: int = 5):
         """
         Initialize the query processor
         :param query:
         :param llm:
         :param output_dir:
         """ 
-        super().__init__(input_path=input_path, llm=llm, retriever_type=retriever_type, output_dir=output_dir)
+        super().__init__(input_path=input_path, llm=llm, output_dir=output_dir)
         self.n = n
         self.k = k
 
@@ -284,7 +292,7 @@ class GenQREnsemble(QueryProcessor):
         instruction_list = rewrite_instruction(instruction=instruction, n=self.n)
 
         answer = ANSWER_FORMAT
-        expansion_list = [query]
+        expansion_list = []
         for instruct in instruction_list:
             prompt = """
             {instruct}
@@ -311,25 +319,28 @@ class GenQREnsemble(QueryProcessor):
 
             expansion_list += results
         
+        query_str = query.get_description()
+
         if self.retriever_type == "sparse":
-            expansion_list = [query] * 5 + expansion_list 
+            expansion_list = [query_str] * 5 + expansion_list 
             ' '.join(expansion_list)
         else:
             expansion_list = list(set([e.lower() for e in expansion_list]))
-            expansion_list = [query] + expansion_list
+            expansion_list = [query_str] + expansion_list
             expansions = '[SEP]'.join(expansion_list)
         return expansions
 
 
 class Q2D(QueryProcessor):
-    def __init__(self, input_path: str, llm: LLM, retriever_type: str, output_dir: str, k: int = 5):
+    cls_type = "q2d"
+    def __init__(self, input_path: str, llm: LLM, output_dir: str, k: int = 5):
         """
         Initialize the query processor
         :param query:
         :param llm:
         :param output_dir:
         """ 
-        super().__init__(input_path=input_path, llm=llm, retriever_type=retriever_type, output_dir=output_dir)
+        super().__init__(input_path=input_path, llm=llm, output_dir=output_dir)
         self.k = k
 
     def reformulate_query(self, query: AbstractQuery) -> str:
@@ -365,26 +376,29 @@ class Q2D(QueryProcessor):
         response = self.llm.generate(message)
         pseudo_doc = response
 
+        query_str = query.get_description()
+
         if self.retriever_type == "sparse":
-            expansion_list = [query] * 5 + [pseudo_doc]
+            expansion_list = [query_str] * 5 + [pseudo_doc]
             expansions = ' '.join(expansion_list)
         
         else:
-            expansion_list = [query] + [pseudo_doc]
+            expansion_list = [query_str] + [pseudo_doc]
             expansions = '[SEP]'.join(expansion_list)
         
         return expansions
 
 
 class EQR(QueryProcessor):
-    def __init__(self, input_path: str, llm: LLM, retriever_type: str, output_dir: str, k: int = 5):
+    cls_type = "eqr"
+    def __init__(self, input_path: str, llm: LLM,output_dir: str, k: int = 5):
         """
         Initialize the query processor
         :param query:
         :param llm:
         :param output_dir:
         """ 
-        super().__init__(input_path=input_path, llm=llm, retriever_type=retriever_type, output_dir=output_dir)
+        super().__init__(input_path=input_path, llm=llm, output_dir=output_dir)
         self.k = k
     
 

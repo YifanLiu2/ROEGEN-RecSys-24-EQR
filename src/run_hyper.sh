@@ -20,11 +20,11 @@ python -m src.QueryProcessor.queryProcessorRunner --input_path $original_query_i
 # power: 1 to 5
 
 echo "Running retriever for none"
-for num_chunks_broad in 6 8 10; do
+for num_chunks_broad in 12 15; do
 # for num_chunks_broad in 3; do
-    for num_chunks_activity in 1 3 5; do
+    for num_chunks_activity in 7 10; do
     # for num_chunks_activity in 1; do
-        for power in 1 3 5; do
+        for power in 1; do
         # for power in 1 2; do
             output_save_folder="$output_root_folder/b${num_chunks_broad}_a${num_chunks_activity}_p${power}"
             python -m src.Retriever.retrieverRunner --q $output_root_folder/processed_query.pkl --chunks_dir $doc_chunks_dir --embedding_dir $doc_embeddings_dir --output_dir $output_save_folder --emb_type $embedder_type -nb $num_chunks_broad -na $num_chunks_activity --power $power

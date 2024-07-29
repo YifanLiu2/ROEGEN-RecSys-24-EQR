@@ -53,7 +53,7 @@ def main(args):
     elif mode_name == "eqr":
         if not k:
             raise ValueError("Must specify k for {mode_name} method")
-        query_processor = Q2E(input_path=input_path, llm=llm, output_dir=output_dir, k=k)
+        query_processor = EQR(input_path=input_path, llm=llm, output_dir=output_dir, k=k)
 
     query_processor.process_query()
 
