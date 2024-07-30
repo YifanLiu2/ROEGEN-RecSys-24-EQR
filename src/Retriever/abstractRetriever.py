@@ -26,7 +26,7 @@ class AbstractRetriever(abc.ABC):
         """
         if self.query_path.endswith("txt"):
             with open(self.query_path, "r") as file:
-                queries = [line.strip() for line in file]
+                queries = [AbstractQuery(description=line.strip()) for line in file]
         else: # pickle file
             with open(self.query_path, "rb") as file:
                 queries = pickle.load(file)
@@ -114,7 +114,7 @@ class AbstractRetriever(abc.ABC):
         return sorted_query_results 
     
 
-    def calculate_city_score(self, top_score: np.array) -> float:
+    def calculate_city_score(self, top_score: np.ndarray) -> float:
         if top_score.size == 0:
             return 0  
 

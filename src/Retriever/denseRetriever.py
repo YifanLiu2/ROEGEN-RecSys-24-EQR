@@ -35,7 +35,7 @@ class DenseRetriever(AbstractRetriever):
         dest_embs = self.load_dest_embeddings()
         return dest_chunks, dest_embs
 
-    def retrieval_for_dest(self, query: AbstractQuery, dest_emb: np.ndarray, dest_chunks: list[str]) -> tuple[float, list[str]]:
+    def retrieval_for_dest(self, query: AbstractQuery | np.ndarray, dest_emb: np.ndarray, dest_chunks: list[str]) -> tuple[float, list[str]]:
         """
         Perform dense retrieval for each query.
 
@@ -46,10 +46,13 @@ class DenseRetriever(AbstractRetriever):
         :return: dict[str, dict[str, tuple[float, list[str]]]], structured results with scores and top matching chunks.
         """
         # embed query reformulation
-        description_emb = self.model.encode(query.get_reformulation())  # shape [1, emb_size]
-        score = cosine_similarity(dest_emb, description_emb).flatten()  # shape [chunk_size]
+        if isinstance(query, AbstractQuery):
+            description_emb = self.model.encode(query.get_reformulation())  # shape [1, emb_size]
+        else:
+            description_emb = query
 
         # calculate city score
+        score = cosine_similarity(dest_emb, description_emb).flatten()  # shape [chunk_size]
         top_idx = np.argsort(score)[-self.num_chunks:]
         top_score = score[top_idx]
         avg_score = self.calculate_city_score(top_score)
