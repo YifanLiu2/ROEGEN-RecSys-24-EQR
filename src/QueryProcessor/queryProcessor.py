@@ -246,6 +246,68 @@ class Q2E(QueryProcessor):
             expansions = '[SEP]'.join(expansion_list)
 
         return expansions
+    
+
+
+class Q2A(QueryProcessor):
+    cls_type = "q2a"
+    def __init__(self, input_path: str, llm: LLM, output_dir: str):
+        """
+        Initialize the query processor
+        :param query:
+        :param llm:
+        :param output_dir:
+        """ 
+        super().__init__(input_path=input_path, llm=llm, output_dir=output_dir)
+    
+    def reformulate_query(self, query: AbstractQuery) -> str:
+        if isinstance(query, Broad):
+            new_desc = self.q2a(query=query.get_description(), k=10)
+        else: # activity
+            new_desc = self.q2a(query=query.get_description(), k=3)
+        return new_desc
+
+    def q2a(self, query: str, k: int) -> str:
+        """
+        """
+        prompt = """
+        Given a user's travel cities recommendation query, give a list of {k} activities for the given travel query.
+        Provide your answers in valid JSON format with double quote: {{"answer": [LIST]}}, where keyword list is a list of string.
+
+        query: {query}
+        """
+        answer = ANSWER_FORMAT
+
+        message = [
+            {"role": "system", "content": "You are a travel expert."},
+            {"role": "user", "content": prompt.format(query="Family-Friendly Cities for Vacations", k=10)},
+            {"role": "assistant", "content": answer.format(answer=["Visit interactive science museums", "Explore family-friendly parks", "Join city tours for families", "Attend family concerts", "Enjoy kid-friendly restaurants", "Visit zoos and aquariums", "Participate in art workshops", "Explore libraries for storytime", "Take family bike tours", "Visit amusement parks"])},
+            {"role": "user", "content": prompt.format(query="Picturesque cities for photography enthusiasts", k=10)},
+            {"role": "assistant", "content": answer.format(answer=["Photograph sunsets and sunrises over landscapes", "Capture reflections in city lakes and rivers", "Explore botanical gardens for floral photography", "Shoot panoramic views from city outskirts", "Capture wildlife in urban nature reserves", "Photograph natural landmarks within the city", "Explore scenic trails for nature shots", "Capture seasonal changes in city parks", "Attend outdoor photography retreats", "Photograph starry nights from accessible city points"])},          
+            {"role": "user", "content": prompt.format(query="Cities popular for horseback riding", k=3)},
+            {"role": "assistant", "content": answer.format(answer=["Explore guided trail rides in scenic areas", "Explore horseback mountain tours", "Join horseback riding beach tours"])},          
+            {"role": "user", "content": prompt.format(query=query, k=k)},
+        ]
+
+        response = self.llm.generate(message)
+        # parse the answer
+        start = response.find("{")
+        end = response.rfind("}") + 1
+        response = response[start:end]
+        expansion_list = json.loads(response)["answer"]
+
+        if self.retriever_type == "sparse":
+            # append original query description
+            query_list = [query] * 5
+            expansion_list = query_list + expansion_list
+            expansions = ' '.join(expansion_list)
+        
+        else: # for dense retriever
+            expansion_list = [query] + expansion_list
+            expansions = '[SEP]'.join(expansion_list)
+
+        return expansions
+
 
 
 class GenQREnsemble(QueryProcessor):
@@ -309,18 +371,19 @@ class GenQREnsemble(QueryProcessor):
                 {"role": "assistant", "content": answer.format(answer=["equestrian", "trail riding", "dressage", "rodeo events", "pony treks"])}, 
                 {"role": "user", "content": prompt.format(query=query.get_description(), instruct=instruct)},
             ]
-
+            
             response = self.llm.generate(message)
 
             start = response.find("{")
             end = response.rfind("}") + 1
             response = response[start:end]
             results = json.loads(response)["answer"]
+            if not all(isinstance(item, str) for item in results):
+                continue
 
             expansion_list += results
         
         query_str = query.get_description()
-
         if self.retriever_type == "sparse":
             expansion_list = [query_str] * 5 + expansion_list 
             ' '.join(expansion_list)

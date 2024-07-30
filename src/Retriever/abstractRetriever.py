@@ -118,7 +118,7 @@ class AbstractRetriever(abc.ABC):
         if top_score.size == 0:
             return 0  
 
-        scores = (top_score + 1) ** self.power
+        scores = top_score + 1
         return float(np.mean(scores))
 
 

@@ -22,14 +22,7 @@ def main(args):
     embedding_dir = args.embedding_dir
     chunks_dir = args.chunks_dir
     output_dir = args.output_dir
-    num_chunks = (args.num_chunks_broad, args.num_chunks_activity)
-    power = args.power
-
-    if num_chunks[0] <= 0 or num_chunks[1] <= 0:
-        raise ValueError(f"Invalid number of chunks, should be positive integer: {num_chunks}")
-    
-    if power <= 0:
-        raise ValueError(f"Invalid power, should be positive integer: {power}")
+    num_chunks = args.num_chunks
     
     os.makedirs(output_dir, exist_ok=True)
 
@@ -42,10 +35,10 @@ def main(args):
             raise ValueError(f"Invalid directory path for destination chunks: {chunks_dir}")
     
     if args.retrieve_type == "dense":
-        retriever = DenseRetriever(model=model, query_path=query_path, chunks_dir=chunks_dir, embedding_dir=embedding_dir, output_dir=output_dir, num_chunks=num_chunks, power=power)
+        retriever = DenseRetriever(model=model, query_path=query_path, chunks_dir=chunks_dir, embedding_dir=embedding_dir, output_dir=output_dir, num_chunks=num_chunks)
         retriever.run_retrieval()
     elif args.retrieve_type == "BM25":
-        retriever = BM25Retriever(query_path=query_path, chunks_dir=chunks_dir,output_dir=output_dir, num_chunks=num_chunks, power=power)
+        retriever = BM25Retriever(query_path=query_path, chunks_dir=chunks_dir,output_dir=output_dir, num_chunks=num_chunks)
         retriever.run_retrieval()
 
 if __name__ == "__main__":
@@ -56,9 +49,7 @@ if __name__ == "__main__":
     parser.add_argument("--retrieve_type", default="dense", help="Type of retrieval to perform")
     parser.add_argument("--emb_type", type=str, choices=TYPE, default="gpt", help="Specify the type of the embedder. Available types are: {}".format(", ".join(sorted(TYPE))))
     parser.add_argument("--output_dir", help="Directory to store retrieval results")
-    parser.add_argument("-nb", "--num_chunks_broad", type=int, default=10, help="")
-    parser.add_argument("-na", "--num_chunks_activity", type=int, default=3, help="")
-    parser.add_argument("--power", type=int, default=5, help="")
+    parser.add_argument("--num_chunks", type=int, default=10, help="")
     args = parser.parse_args()
     main(args=args)
 
