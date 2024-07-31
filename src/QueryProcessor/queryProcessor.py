@@ -396,7 +396,7 @@ class GenQREnsemble(QueryProcessor):
 
 class Q2D(QueryProcessor):
     cls_type = "q2d"
-    def __init__(self, input_path: str, llm: LLM, output_dir: str, k: int = 5):
+    def __init__(self, input_path: str, llm: LLM, output_dir: str):
         """
         Initialize the query processor
         :param query:
@@ -404,7 +404,6 @@ class Q2D(QueryProcessor):
         :param output_dir:
         """ 
         super().__init__(input_path=input_path, llm=llm, output_dir=output_dir)
-        self.k = k
 
     def reformulate_query(self, query: AbstractQuery) -> str:
         """
@@ -414,7 +413,7 @@ class Q2D(QueryProcessor):
         """
         prompt = """
         Query: {query}
-        Given a user's travel cities recommendation query, write a passage that answer the query by providing {k} cities recommendation from city list.
+        Given a user's travel cities recommendation query, write a passage that answer the query by providing cities recommendation from city list.
             - Provide one-sentence rationale and attractions for each recommendation.
             - Manually check whether your example cities come from the choice of cities, if not, replace with a new one in the list.
             - Provide your answers in valid JSON format with double quotes: {{"answer": "YOUR ANSWER"}}.
@@ -427,13 +426,13 @@ class Q2D(QueryProcessor):
 
         message = [
             {"role": "system", "content": "You are a travel expert."},
-            {"role": "user", "content": prompt.format(query="Family-Friendly Cities for Vacations", k=5, cities=cities)},
+            {"role": "user", "content": prompt.format(query="Family-Friendly Cities for Vacations", cities=cities)},
             {"role": "assistant", "content": answer.format(answer="Orlando, Florida is a prime destination for families, boasting world-renowned theme parks like Disney World and Universal Studios. San Diego, California offers a relaxed vibe with family-friendly attractions such as the San Diego Zoo and beautiful beaches. Kyoto, Japan provides a culturally enriching experience with its historic sites and child-friendly museums. Copenhagen, Denmark is perfect for families, featuring the enchanting Tivoli Gardens and numerous other kid-friendly activities. Queenstown, New Zealand caters to adventure-loving families with its stunning landscapes and outdoor activities suitable for all ages.")},
-            {"role": "user", "content": prompt.format(query="Picturesque cities for photography enthusiasts", k=5, cities=cities)},
+            {"role": "user", "content": prompt.format(query="Picturesque cities for photography enthusiasts", cities=cities)},
             {"role": "assistant", "content": answer.format(answer="Venice, Italy captivates photography enthusiasts with its iconic waterways and historic architecture. Kyoto, Japan offers stunning photo opportunities with its well-preserved temples and beautiful cherry blossoms in spring. New York City, USA is a photographer's playground with its vibrant street life, towering skyscrapers, and iconic landmarks like Times Square and Central Park. Cape Town, South Africa boasts breathtaking landscapes from Table Mountain to picturesque beaches. Reykjavik, Iceland provides unique photographic scenes with its dramatic volcanic landscapes and opportunities to capture the Northern Lights.")},          
-            {"role": "user", "content": prompt.format(query="Cities popular for horseback riding", k=3, cities=cities)},
+            {"role": "user", "content": prompt.format(query="Cities popular for horseback riding", cities=cities)},
             {"role": "assistant", "content": answer.format(answer="Calgary, Canada is renowned for its annual Calgary Stampede, offering abundant horseback riding opportunities in scenic Alberta. Lexington, Kentucky, known as the 'Horse Capital of the World', features vast horse farms and equestrian events. Cordoba, Argentina offers a rich history of horseback riding with traditional estancias where visitors can experience gaucho culture. ")},          
-            {"role": "user", "content": prompt.format(query=query.get_description(), k=self.k, cities=cities)},
+            {"role": "user", "content": prompt.format(query=query.get_description(), cities=cities)},
         ]
 
         response = self.llm.generate(message)

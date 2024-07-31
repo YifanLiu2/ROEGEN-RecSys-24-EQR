@@ -46,9 +46,7 @@ def main(args):
         query_processor = GenQREnsemble(input_path=input_path, llm=llm, output_dir=output_dir, n=n, k=k)
     
     elif mode_name == "q2d":
-        if not k:
-            raise ValueError("Must specify k for {mode_name} method")
-        query_processor = Q2D(input_path=input_path, llm=llm, output_dir=output_dir, k=k)
+        query_processor = Q2D(input_path=input_path, llm=llm, output_dir=output_dir)
     
     elif mode_name == "eqr":
         if not k:
