@@ -20,7 +20,7 @@ output_root_folder="output/hyper_test"
 echo "Running retriever for none"
 for num_chunks_broad in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20; do
     output_save_folder="$output_root_folder/b${num_chunks_broad}"
-    python -m src.Retriever.retrieverRunner --q $output_root_folder/processed_query_none.pkl --chunks_dir $doc_chunks_dir --embedding_dir $doc_embeddings_dir --output_dir $output_save_folder --emb_type $embedder_type --n $num_chunks_broad
+    # python -m src.Retriever.retrieverRunner --q $output_root_folder/processed_query_none.pkl --chunks_dir $doc_chunks_dir --embedding_dir $doc_embeddings_dir --output_dir $output_save_folder --emb_type $embedder_type --n $num_chunks_broad
     ranked_list_path="${output_save_folder}/ranked_list.json"
     echo "Running evaluation"
     evaluator=("rprecision" "recall" "map")

@@ -24,13 +24,13 @@ class BM25Retriever(SparseRetriever):
         :return: dict[str, dict[str, tuple[float, list[str]]]], structured results with scores and top matching chunks.
         """
         corpus = dest_chunks
-        tokenized_corpus = [word_tokenize(doc) for doc in corpus]
+        tokenized_corpus = [doc.split(" ") for doc in corpus]
         num_chunks = self.num_chunks
 
         # compute bm25 scores for a_text and dest_chunks      
         reformulation = query.get_reformulation()
         bm25 = BM25Okapi(tokenized_corpus)
-        tokenized_r = word_tokenize(reformulation)
+        tokenized_r = reformulation.split(" ")
 
         # get the score 
         score = bm25.get_scores(tokenized_r)
@@ -40,10 +40,6 @@ class BM25Retriever(SparseRetriever):
 
         # retrieve top chunks
         chunks = np.array(dest_chunks) # [chunk_size]
-        top_chunks = chunks[top_idx].tolist()
-
-        # retrieve top chunks
-        chunks = np.array(dest_chunks)  # [chunk_size]
         top_chunks = chunks[top_idx].tolist()
 
         return avg_score, top_chunks
