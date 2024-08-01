@@ -9,18 +9,11 @@ class SparseRetriever(AbstractRetriever):
     Concrete SparseRetriever class.
     """
     cls_type = "sparse"
-    def __init__(self, query_path: str, chunks_dir: str, output_dir: str, num_chunks: tuple[int] = (10, 3), power: int = 5):
-        super().__init__(query_path=query_path, output_dir=output_dir, chunks_dir=chunks_dir, num_chunks=num_chunks, power=power)
-
 
 class BM25Retriever(SparseRetriever):
     """
     Concrete SparseRetriever class.
     """
-    def __init__(self, query_path: str, chunks_dir:str, output_dir: str, num_chunks: tuple[int] = (10, 3), power: int = 5):
-        super().__init__(query_path=query_path, output_dir=output_dir, chunks_dir=chunks_dir, num_chunks=num_chunks, power=power)
-    
-
     def retrieval_for_dest(self, query: AbstractQuery, dest_chunks: list[str]) -> dict[str, tuple[float, list[str]]]:
         """
         Perform sparse retrieval for each query.
@@ -32,9 +25,7 @@ class BM25Retriever(SparseRetriever):
         """
         corpus = dest_chunks
         tokenized_corpus = [word_tokenize(doc) for doc in corpus]
-        
-        num_chunks_broad = self.num_chunks[0]
-        num_chunks_activity = self.num_chunks[1]
+        num_chunks = self.num_chunks
 
         # compute bm25 scores for a_text and dest_chunks      
         reformulation = query.get_reformulation()
@@ -43,14 +34,9 @@ class BM25Retriever(SparseRetriever):
 
         # get the score 
         score = bm25.get_scores(tokenized_r)
-
-        if isinstance(query, Broad):
-            top_idx = np.argsort(score)[-num_chunks_broad:]
-        else: # activity
-            top_idx = np.argsort(score)[-num_chunks_activity:]
-
+        top_idx = np.argsort(score)[-num_chunks:]
         top_score = score[top_idx]
-        avg_score = self.aggregate_city_score(top_score)
+        avg_score = self.calculate_city_score(top_score)
 
         # retrieve top chunks
         chunks = np.array(dest_chunks) # [chunk_size]
@@ -63,7 +49,6 @@ class BM25Retriever(SparseRetriever):
         return avg_score, top_chunks
 
     
-
 # class SpladeRetriever(SparseRetriever):
 #     """
 #     Concrete SparseRetriever class.
