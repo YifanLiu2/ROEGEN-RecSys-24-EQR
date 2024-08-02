@@ -8,12 +8,12 @@ ground_truth_path="data/ground_truth/ground_truth.json"
 
 output_root_folder="output/general_queries"
 # run 10 times
-for i in 1; do
+for i in 1 2 3 4 5 6 7 8 9 10; do
     # query processor for none
-    modes=("none")
+    modes=("eqr")
     for query_processor_mode in "${modes[@]}"; do
         echo "Running query processor: "$query_processor_mode
-        python -m src.QueryProcessor.queryProcessorRunner --input_path $original_query_input_path --o $output_root_folder --mode $query_processor_mode
+        # python -m src.QueryProcessor.queryProcessorRunner --input_path $original_query_input_path --o $output_root_folder --mode $query_processor_mode
         processed_query_output_path="${output_root_folder}/processed_query_${query_processor_mode}.pkl"
         retriever_output_dir="${output_root_folder}/sparse_${embedder_type}_${query_processor_mode}_${i}"
         # run dense retriever

@@ -1,6 +1,5 @@
 from src.Retriever.denseRetriever import *
 from rank_bm25 import BM25Okapi
-from nltk.tokenize import word_tokenize
 from src.Entity.query import AbstractQuery
 
 

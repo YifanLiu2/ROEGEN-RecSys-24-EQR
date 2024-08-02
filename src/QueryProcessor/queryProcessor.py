@@ -134,14 +134,14 @@ class QueryProcessor:
 
 class GQR(QueryProcessor):
     cls_type = "gqr"
-    def __init__(self, input_path: str, llm: LLM, output_dir: str, k: int = 1):
+    def __init__(self, input_path: str, llm: LLM, output_dir: str, retriever_type: str = "dense", k: int = 1):
         """
         Initialize the query processor
         :param query:
         :param llm:
         :param output_dir:
         """ 
-        super().__init__(input_path=input_path, llm=llm, output_dir=output_dir)
+        super().__init__(input_path=input_path, llm=llm, output_dir=output_dir, retriever_type=retriever_type)
         self.k = k
 
     def reformulate_query(self, query: AbstractQuery) -> str:
@@ -180,7 +180,7 @@ class GQR(QueryProcessor):
 
         if self.retriever_type == "sparse":
             # append original query description
-            query_list = [query_str] * 3
+            query_list = [query_str] * 5
             paraphrase_list = query_list + paraphrase_list
             paraphrases = ' '.join(paraphrase_list)
         
@@ -193,14 +193,14 @@ class GQR(QueryProcessor):
 
 class Q2E(QueryProcessor):
     cls_type = "q2e"
-    def __init__(self, input_path: str, llm: LLM, output_dir: str, k: int = 5):
+    def __init__(self, input_path: str, llm: LLM, output_dir: str, retriever_type: str = "dense", k: int = 5):
         """
         Initialize the query processor
         :param query:
         :param llm:
         :param output_dir:
         """ 
-        super().__init__(input_path=input_path, llm=llm, output_dir=output_dir)
+        super().__init__(input_path=input_path, llm=llm, output_dir=output_dir, retriever_type=retriever_type)
         self.k = k
 
     def reformulate_query(self, query: AbstractQuery) -> str:
@@ -248,78 +248,16 @@ class Q2E(QueryProcessor):
         return expansions
     
 
-
-class Q2A(QueryProcessor):
-    cls_type = "q2a"
-    def __init__(self, input_path: str, llm: LLM, output_dir: str):
-        """
-        Initialize the query processor
-        :param query:
-        :param llm:
-        :param output_dir:
-        """ 
-        super().__init__(input_path=input_path, llm=llm, output_dir=output_dir)
-    
-    def reformulate_query(self, query: AbstractQuery) -> str:
-        if isinstance(query, Broad):
-            new_desc = self.q2a(query=query.get_description(), k=10)
-        else: # activity
-            new_desc = self.q2a(query=query.get_description(), k=3)
-        return new_desc
-
-    def q2a(self, query: str, k: int) -> str:
-        """
-        """
-        prompt = """
-        Given a user's travel cities recommendation query, give a list of {k} activities for the given travel query.
-        Provide your answers in valid JSON format with double quote: {{"answer": [LIST]}}, where keyword list is a list of string.
-
-        query: {query}
-        """
-        answer = ANSWER_FORMAT
-
-        message = [
-            {"role": "system", "content": "You are a travel expert."},
-            {"role": "user", "content": prompt.format(query="Family-Friendly Cities for Vacations", k=10)},
-            {"role": "assistant", "content": answer.format(answer=["Visit interactive science museums", "Explore family-friendly parks", "Join city tours for families", "Attend family concerts", "Enjoy kid-friendly restaurants", "Visit zoos and aquariums", "Participate in art workshops", "Explore libraries for storytime", "Take family bike tours", "Visit amusement parks"])},
-            {"role": "user", "content": prompt.format(query="Picturesque cities for photography enthusiasts", k=10)},
-            {"role": "assistant", "content": answer.format(answer=["Photograph sunsets and sunrises over landscapes", "Capture reflections in city lakes and rivers", "Explore botanical gardens for floral photography", "Shoot panoramic views from city outskirts", "Capture wildlife in urban nature reserves", "Photograph natural landmarks within the city", "Explore scenic trails for nature shots", "Capture seasonal changes in city parks", "Attend outdoor photography retreats", "Photograph starry nights from accessible city points"])},          
-            {"role": "user", "content": prompt.format(query="Cities popular for horseback riding", k=3)},
-            {"role": "assistant", "content": answer.format(answer=["Explore guided trail rides in scenic areas", "Explore horseback mountain tours", "Join horseback riding beach tours"])},          
-            {"role": "user", "content": prompt.format(query=query, k=k)},
-        ]
-
-        response = self.llm.generate(message)
-        # parse the answer
-        start = response.find("{")
-        end = response.rfind("}") + 1
-        response = response[start:end]
-        expansion_list = json.loads(response)["answer"]
-
-        if self.retriever_type == "sparse":
-            # append original query description
-            query_list = [query] * 5
-            expansion_list = query_list + expansion_list
-            expansions = ' '.join(expansion_list)
-        
-        else: # for dense retriever
-            expansion_list = [query] + expansion_list
-            expansions = '[SEP]'.join(expansion_list)
-
-        return expansions
-
-
-
 class GenQREnsemble(QueryProcessor):
     cls_type = "genqr"
-    def __init__(self, input_path: str, llm: LLM, output_dir: str, n: int = 5, k: int = 5):
+    def __init__(self, input_path: str, llm: LLM, output_dir: str, retriever_type: str = "dense", n: int = 5, k: int = 5):
         """
         Initialize the query processor
         :param query:
         :param llm:
         :param output_dir:
         """ 
-        super().__init__(input_path=input_path, llm=llm, output_dir=output_dir)
+        super().__init__(input_path=input_path, llm=llm, output_dir=output_dir, retriever_type=retriever_type)
         self.n = n
         self.k = k
 
@@ -396,14 +334,14 @@ class GenQREnsemble(QueryProcessor):
 
 class Q2D(QueryProcessor):
     cls_type = "q2d"
-    def __init__(self, input_path: str, llm: LLM, output_dir: str):
+    def __init__(self, input_path: str, llm: LLM, output_dir: str, retriever_type: str = "dense"):
         """
         Initialize the query processor
         :param query:
         :param llm:
         :param output_dir:
         """ 
-        super().__init__(input_path=input_path, llm=llm, output_dir=output_dir)
+        super().__init__(input_path=input_path, llm=llm, output_dir=output_dir, retriever_type=retriever_type)
 
     def reformulate_query(self, query: AbstractQuery) -> str:
         """
@@ -453,16 +391,15 @@ class Q2D(QueryProcessor):
 
 class EQR(QueryProcessor):
     cls_type = "eqr"
-    def __init__(self, input_path: str, llm: LLM,output_dir: str, k: int = 5):
+    def __init__(self, input_path: str, llm: LLM, output_dir: str, retriever_type: str = "dense", k: int = 5):
         """
         Initialize the query processor
         :param query:
         :param llm:
         :param output_dir:
         """ 
-        super().__init__(input_path=input_path, llm=llm, output_dir=output_dir)
+        super().__init__(input_path=input_path, llm=llm, output_dir=output_dir, retriever_type=retriever_type)
         self.k = k
-
 
     def reformulate_query(self, query: AbstractQuery) -> str:
         """
