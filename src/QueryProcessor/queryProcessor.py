@@ -349,28 +349,32 @@ class Q2D(QueryProcessor):
         query2doc @ https://arxiv.org/pdf/2303.07678
         GQE @ https://dl.acm.org/doi/pdf/10.1145/3589335.3651945
         """
+        # prompt = """
+        # Query: {query}
+        # Given a user's travel cities recommendation query, write a passage that answer the query by providing cities recommendation from city list.
+        #     - Manually check whether your example cities come from the choice of cities, if not, replace with a new one in the list.
+        #     - Provide your answers in valid JSON format with double quotes: {{"answer": "YOUR ANSWER"}}.
+        
+        # This is your choice of cities:
+        # {cities}
+        # """
+
         prompt = """
         Query: {query}
-        Given a user's travel cities recommendation query, write a passage that answer the query by providing cities recommendation from city list.
-            - Provide one-sentence rationale and attractions for each recommendation.
-            - Manually check whether your example cities come from the choice of cities, if not, replace with a new one in the list.
+        Given a user's travel cities recommendation query, write a passage that answer the query.
             - Provide your answers in valid JSON format with double quotes: {{"answer": "YOUR ANSWER"}}.
-        
-        This is your choice of cities:
-        {cities}
         """
         answer = ANSWER_FORMAT
-        cities = ",".join(CITY_LIST)
 
         message = [
             {"role": "system", "content": "You are a travel expert."},
-            {"role": "user", "content": prompt.format(query="Family-Friendly Cities for Vacations", cities=cities)},
-            {"role": "assistant", "content": answer.format(answer="Orlando, Florida is a prime destination for families, boasting world-renowned theme parks like Disney World and Universal Studios. San Diego, California offers a relaxed vibe with family-friendly attractions such as the San Diego Zoo and beautiful beaches. Kyoto, Japan provides a culturally enriching experience with its historic sites and child-friendly museums. Copenhagen, Denmark is perfect for families, featuring the enchanting Tivoli Gardens and numerous other kid-friendly activities. Queenstown, New Zealand caters to adventure-loving families with its stunning landscapes and outdoor activities suitable for all ages.")},
-            {"role": "user", "content": prompt.format(query="Picturesque cities for photography enthusiasts", cities=cities)},
-            {"role": "assistant", "content": answer.format(answer="Venice, Italy captivates photography enthusiasts with its iconic waterways and historic architecture. Kyoto, Japan offers stunning photo opportunities with its well-preserved temples and beautiful cherry blossoms in spring. New York City, USA is a photographer's playground with its vibrant street life, towering skyscrapers, and iconic landmarks like Times Square and Central Park. Cape Town, South Africa boasts breathtaking landscapes from Table Mountain to picturesque beaches. Reykjavik, Iceland provides unique photographic scenes with its dramatic volcanic landscapes and opportunities to capture the Northern Lights.")},          
-            {"role": "user", "content": prompt.format(query="Cities popular for horseback riding", cities=cities)},
-            {"role": "assistant", "content": answer.format(answer="Calgary, Canada is renowned for its annual Calgary Stampede, offering abundant horseback riding opportunities in scenic Alberta. Lexington, Kentucky, known as the 'Horse Capital of the World', features vast horse farms and equestrian events. Cordoba, Argentina offers a rich history of horseback riding with traditional estancias where visitors can experience gaucho culture. ")},          
-            {"role": "user", "content": prompt.format(query=query.get_description(), cities=cities)},
+            # {"role": "user", "content": prompt.format(query="Family-Friendly Cities for Vacations")},
+            # {"role": "assistant", "content": answer.format(answer="Orlando, Florida is a prime destination for families, boasting world-renowned theme parks like Disney World and Universal Studios. San Diego, California offers a relaxed vibe with family-friendly attractions such as the San Diego Zoo and beautiful beaches. Kyoto, Japan provides a culturally enriching experience with its historic sites and child-friendly museums. Copenhagen, Denmark is perfect for families, featuring the enchanting Tivoli Gardens and numerous other kid-friendly activities. Queenstown, New Zealand caters to adventure-loving families with its stunning landscapes and outdoor activities suitable for all ages.")},
+            # {"role": "user", "content": prompt.format(query="Picturesque cities for photography enthusiasts")},
+            # {"role": "assistant", "content": answer.format(answer="Venice, Italy captivates photography enthusiasts with its iconic waterways and historic architecture. Kyoto, Japan offers stunning photo opportunities with its well-preserved temples and beautiful cherry blossoms in spring. New York City, USA is a photographer's playground with its vibrant street life, towering skyscrapers, and iconic landmarks like Times Square and Central Park. Cape Town, South Africa boasts breathtaking landscapes from Table Mountain to picturesque beaches. Reykjavik, Iceland provides unique photographic scenes with its dramatic volcanic landscapes and opportunities to capture the Northern Lights.")},          
+            # {"role": "user", "content": prompt.format(query="Cities popular for horseback riding")},
+            # {"role": "assistant", "content": answer.format(answer="Calgary, Canada is renowned for its annual Calgary Stampede, offering abundant horseback riding opportunities in scenic Alberta. Lexington, Kentucky, known as the 'Horse Capital of the World', features vast horse farms and equestrian events. Cordoba, Argentina offers a rich history of horseback riding with traditional estancias where visitors can experience gaucho culture. ")},          
+            {"role": "user", "content": prompt.format(query=query.get_description())},
         ]
 
         response = self.llm.generate(message)
@@ -404,18 +408,33 @@ class EQR(QueryProcessor):
     def reformulate_query(self, query: AbstractQuery) -> str:
         """
         """
+        # prompt = """
+        # Query: {query}
+
+        # Given a user's travel cities recommendation query, do the following steps:
+        #     - Break down the query into {k} distinct keywords related to the given user query aspect.
+        #     - For each keywords, provide a one-sentence description that clearly elaborates on its specific focus and relevance.
+        #     - For each keywords, choose 3 example cities and concatenate them at the end of your one sentence description. 
+        #     - Manually check whether your example cities come from the choice of cities, if not, replace with a new one in the list.
+        #     - Provide your answers in valid JSON format with double quotes: {{"answer": [LIST]}}, where keyword list is a list of string with description and example answers concatenate together.
+        
+        # This is your choice of cities:
+        # {cities}
+
+        # EXAMPLE QUERY: Picturesque cities for photography enthusiasts
+        # EXAMPLE LIST: ["Coastal Views - Captures the dynamic interface where the sea meets the land, offering picturesque views of beaches, cliffs, and marine life, such as Cape Town, Santorini”, "Natural Landscape Photography - Dedicated to capturing the untouched beauty of natural environments, focusing on the authenticity and raw elements of scenes, such as Queenstown, Faroe Islands, Fiji.", "Exotic Island Views - Highlights the distinctive beauty of island landscapes, featuring tropical beaches, lush vegetation, and serene tranquility, such as Phuket, Maldives, Galapagos Islands.", "Architectural Photography - Focuses on the artistic capture of buildings and architectural elements, emphasizing design, structure, and contextual interaction, such as Florence, Barcelona, Prague.", "Skyline Photography - Concentrates on capturing the iconic cityscapes and urban profiles from strategic vantage points, showcasing the layout and vibrancy of metropolitan areas, such as New York City, Hong Kong, Dubai.”]
+
+        # EXAMPLE QUERY: Family-Friendly Cities for Vacations
+        # EXAMPLE LIST: ["Theme Parks - Cities with expansive theme parks offering thrilling rides and attractions suitable for all ages such as Orlando and Los Angeles.", "Zoos and Aquariums - Feature diverse collections of animals and underwater displays such as Chicago and San Diego.", "Children Museums - Tailored for younger visitors with hands-on learning exhibits such as Indianapolis and New York City.", "Beaches - Safe, clean beaches with gentle waves and family amenities such as Honolulu and Miami.", "Parks - Large parks with playgrounds, picnic areas, and public events such as London and Vancouver."]
+        # """
         prompt = """
         Query: {query}
 
         Given a user's travel cities recommendation query, do the following steps:
             - Break down the query into {k} distinct keywords related to the given user query aspect.
             - For each keywords, provide a one-sentence description that clearly elaborates on its specific focus and relevance.
-            - For each keywords, choose 3 example cities and concatenate them at the end of your one sentence description. 
-            - Manually check whether your example cities come from the choice of cities, if not, replace with a new one in the list.
+            - For each keywords, choose reonable example cities and concatenate them at the end of your one sentence description. 
             - Provide your answers in valid JSON format with double quotes: {{"answer": [LIST]}}, where keyword list is a list of string with description and example answers concatenate together.
-        
-        This is your choice of cities:
-        {cities}
 
         EXAMPLE QUERY: Picturesque cities for photography enthusiasts
         EXAMPLE LIST: ["Coastal Views - Captures the dynamic interface where the sea meets the land, offering picturesque views of beaches, cliffs, and marine life, such as Cape Town, Santorini”, "Natural Landscape Photography - Dedicated to capturing the untouched beauty of natural environments, focusing on the authenticity and raw elements of scenes, such as Queenstown, Faroe Islands, Fiji.", "Exotic Island Views - Highlights the distinctive beauty of island landscapes, featuring tropical beaches, lush vegetation, and serene tranquility, such as Phuket, Maldives, Galapagos Islands.", "Architectural Photography - Focuses on the artistic capture of buildings and architectural elements, emphasizing design, structure, and contextual interaction, such as Florence, Barcelona, Prague.", "Skyline Photography - Concentrates on capturing the iconic cityscapes and urban profiles from strategic vantage points, showcasing the layout and vibrancy of metropolitan areas, such as New York City, Hong Kong, Dubai.”]

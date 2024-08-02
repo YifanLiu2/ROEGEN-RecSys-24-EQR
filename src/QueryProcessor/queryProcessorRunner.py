@@ -3,7 +3,7 @@ from config import API_KEY
 from src.QueryProcessor.queryProcessor import *
 from src.LLM.GPTChatCompletion import *
 
-MODE = {"eqr", "gqr", "q2d", "q2e", "genqr", "q2a"}
+MODE = {"eqr", "gqr", "q2d", "q2e", "genqr", "none"}
 
 def main(args):
     llm = GPTChatCompletion(api_key=API_KEY)
@@ -26,15 +26,17 @@ def main(args):
     
     os.makedirs(output_dir, exist_ok=True)
 
-    if not mode_name:
+    if not mode_name or mode_name == "none":
         query_processor = QueryProcessor(input_path=input_path, llm=llm, output_dir=output_dir, retriever_type=retriever_type)
     
     elif mode_name == "gqr":
+        k = 1
         if not k:
             raise ValueError("Must specify k for {mode_name} method")
         query_processor = GQR(input_path=input_path, llm=llm, output_dir=output_dir, k=k, retriever_type=retriever_type)
     
     elif mode_name == "q2e":
+        k = 15
         if not k:
             raise ValueError("Must specify k for {mode_name} method")
         query_processor = Q2E(input_path=input_path, llm=llm, output_dir=output_dir, k=k, retriever_type=retriever_type)
@@ -50,6 +52,7 @@ def main(args):
         query_processor = Q2D(input_path=input_path, llm=llm, output_dir=output_dir, retriever_type=retriever_type)
     
     elif mode_name == "eqr":
+        k = 12
         if not k:
             raise ValueError("Must specify k for {mode_name} method")
         query_processor = EQR(input_path=input_path, llm=llm, output_dir=output_dir, k=k, retriever_type=retriever_type)
