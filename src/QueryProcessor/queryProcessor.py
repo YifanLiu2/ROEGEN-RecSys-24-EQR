@@ -180,7 +180,7 @@ class GQR(QueryProcessor):
 
         if self.retriever_type == "sparse":
             # append original query description
-            query_list = [query_str] * 5
+            query_list = [query_str]
             paraphrase_list = query_list + paraphrase_list
             paraphrases = ' '.join(paraphrase_list)
         
@@ -237,7 +237,7 @@ class Q2E(QueryProcessor):
 
         if self.retriever_type == "sparse":
             # append original query description
-            query_list = [query_str] * 5
+            query_list = [query_str]
             expansion_list = query_list + expansion_list
             expansions = ' '.join(expansion_list)
         
@@ -323,7 +323,7 @@ class GenQREnsemble(QueryProcessor):
         
         query_str = query.get_description()
         if self.retriever_type == "sparse":
-            expansion_list = [query_str] * 5 + expansion_list 
+            expansion_list = [query_str] + expansion_list 
             ' '.join(expansion_list)
         else:
             expansion_list = list(set([e.lower() for e in expansion_list]))
@@ -349,32 +349,34 @@ class Q2D(QueryProcessor):
         query2doc @ https://arxiv.org/pdf/2303.07678
         GQE @ https://dl.acm.org/doi/pdf/10.1145/3589335.3651945
         """
-        # prompt = """
-        # Query: {query}
-        # Given a user's travel cities recommendation query, write a passage that answer the query by providing cities recommendation from city list.
-        #     - Manually check whether your example cities come from the choice of cities, if not, replace with a new one in the list.
-        #     - Provide your answers in valid JSON format with double quotes: {{"answer": "YOUR ANSWER"}}.
-        
-        # This is your choice of cities:
-        # {cities}
-        # """
-
         prompt = """
         Query: {query}
-        Given a user's travel cities recommendation query, write a passage that answer the query.
+        Given a user's travel cities recommendation query, write a passage that answer the query by providing cities recommendation from city list.
+            - Manually check whether your example cities come from the choice of cities, if not, replace with a new one in the list.
             - Provide your answers in valid JSON format with double quotes: {{"answer": "YOUR ANSWER"}}.
+        
+        This is your choice of cities:
+        {cities}
         """
+
+        # prompt = """
+        # Query: {query}
+        # Given a user's travel cities recommendation query, write a passage that answer the query.
+        #     - Provide your answers in valid JSON format with double quotes: {{"answer": "YOUR ANSWER"}}.
+        # """
+
+        cities = "\n".join(CITY_LIST)
         answer = ANSWER_FORMAT
 
         message = [
             {"role": "system", "content": "You are a travel expert."},
-            # {"role": "user", "content": prompt.format(query="Family-Friendly Cities for Vacations")},
-            # {"role": "assistant", "content": answer.format(answer="Orlando, Florida is a prime destination for families, boasting world-renowned theme parks like Disney World and Universal Studios. San Diego, California offers a relaxed vibe with family-friendly attractions such as the San Diego Zoo and beautiful beaches. Kyoto, Japan provides a culturally enriching experience with its historic sites and child-friendly museums. Copenhagen, Denmark is perfect for families, featuring the enchanting Tivoli Gardens and numerous other kid-friendly activities. Queenstown, New Zealand caters to adventure-loving families with its stunning landscapes and outdoor activities suitable for all ages.")},
-            # {"role": "user", "content": prompt.format(query="Picturesque cities for photography enthusiasts")},
-            # {"role": "assistant", "content": answer.format(answer="Venice, Italy captivates photography enthusiasts with its iconic waterways and historic architecture. Kyoto, Japan offers stunning photo opportunities with its well-preserved temples and beautiful cherry blossoms in spring. New York City, USA is a photographer's playground with its vibrant street life, towering skyscrapers, and iconic landmarks like Times Square and Central Park. Cape Town, South Africa boasts breathtaking landscapes from Table Mountain to picturesque beaches. Reykjavik, Iceland provides unique photographic scenes with its dramatic volcanic landscapes and opportunities to capture the Northern Lights.")},          
-            # {"role": "user", "content": prompt.format(query="Cities popular for horseback riding")},
-            # {"role": "assistant", "content": answer.format(answer="Calgary, Canada is renowned for its annual Calgary Stampede, offering abundant horseback riding opportunities in scenic Alberta. Lexington, Kentucky, known as the 'Horse Capital of the World', features vast horse farms and equestrian events. Cordoba, Argentina offers a rich history of horseback riding with traditional estancias where visitors can experience gaucho culture. ")},          
-            {"role": "user", "content": prompt.format(query=query.get_description())},
+            {"role": "user", "content": prompt.format(query="Family-Friendly Cities for Vacations", cities=cities)},
+            {"role": "assistant", "content": answer.format(answer="When planning a family-friendly vacation, choosing the right city can make all the difference in ensuring a memorable and enjoyable experience for everyone. Orlando, Florida, USA, known as the theme park capital of the world, offers attractions like Walt Disney World Resort, Universal Studios, and the Kennedy Space Center. San Diego, California, USA, is home to beautiful beaches, the world-famous San Diego Zoo, and Legoland California. Tokyo, Japan, offers Tokyo Disneyland and DisneySea, along with historic temples and delicious Japanese cuisine. These cities provide a range of attractions and activities designed to entertain and educate family members of all ages, ensuring a vacation filled with fun, learning, and unforgettable memories.", cities=cities)},
+            {"role": "user", "content": prompt.format(query="Picturesque cities for photography enthusiasts", cities=cities)},
+            {"role": "assistant", "content": answer.format(answer="For photography enthusiasts seeking picturesque cities, there are several destinations around the world that offer breathtaking scenery and iconic landmarks. Paris, France, is a must-visit with its iconic Eiffel Tower, charming Montmartre district, and the historic Notre-Dame Cathedral. Venice, Italy, enchants photographers with its romantic canals, St. Mark's Basilica, and the vibrant colors of Burano Island. Kyoto, Japan, offers a serene setting with its traditional temples, Arashiyama Bamboo Grove, and the stunning Fushimi Inari Shrine. These cities provide an array of photogenic scenes that inspire creativity and capture the essence of each unique location, making them ideal destinations for photography enthusiasts.", cities=cities)},          
+            {"role": "user", "content": prompt.format(query="Cities popular for horseback riding", cities=cities)},
+            {"role": "assistant", "content": answer.format(answer="For those who love horseback riding, certain cities around the world offer unique and scenic opportunities to explore their surroundings on horseback. Jackson, Wyoming, USA, is renowned for its breathtaking views of the Teton Range and offers horseback rides through Yellowstone and Grand Teton National Parks. Mendoza, Argentina, provides riders with the chance to explore the Andes Mountains and lush vineyards, offering stunning views and adventurous trails.  Lastly, the Scottish Highlands in the United Kingdom provide riders with rugged, dramatic landscapes, offering trails that pass through ancient forests, along lochs, and up mountainous terrain. These cities offer diverse and scenic riding experiences that allow enthusiasts to connect with nature while enjoying the thrill of horseback exploration.", cities=cities)},          
+            {"role": "user", "content": prompt.format(query=query.get_description(), cities=cities)},
         ]
 
         response = self.llm.generate(message)
@@ -383,7 +385,7 @@ class Q2D(QueryProcessor):
         query_str = query.get_description()
 
         if self.retriever_type == "sparse":
-            expansion_list = [query_str] * 5 + [pseudo_doc]
+            expansion_list = [query_str] + [pseudo_doc]
             expansions = ' '.join(expansion_list)
         
         else:
@@ -427,6 +429,9 @@ class EQR(QueryProcessor):
         # EXAMPLE QUERY: Family-Friendly Cities for Vacations
         # EXAMPLE LIST: ["Theme Parks - Cities with expansive theme parks offering thrilling rides and attractions suitable for all ages such as Orlando and Los Angeles.", "Zoos and Aquariums - Feature diverse collections of animals and underwater displays such as Chicago and San Diego.", "Children Museums - Tailored for younger visitors with hands-on learning exhibits such as Indianapolis and New York City.", "Beaches - Safe, clean beaches with gentle waves and family amenities such as Honolulu and Miami.", "Parks - Large parks with playgrounds, picnic areas, and public events such as London and Vancouver."]
         # """
+        cities = "\n".join(CITY_LIST)
+        answer = ANSWER_FORMAT
+
         prompt = """
         Query: {query}
 
@@ -464,7 +469,7 @@ class EQR(QueryProcessor):
         
         if self.retriever_type == "sparse":
             # append original aspect description
-            query_list = [query_str] * 5
+            query_list = [query_str]
             expansion_list = query_list + expansion_list
             expansions = ' '.join(expansion_list)
         
