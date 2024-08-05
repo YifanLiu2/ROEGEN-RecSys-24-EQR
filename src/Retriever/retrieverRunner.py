@@ -1,6 +1,5 @@
 from src.Retriever.denseRetriever import *
 from src.Retriever.sparseRetriever import *
-from src.Retriever.proQERetriever import *
 
 from src.Embedder.GPTEmbedder import *
 from src.Embedder.STEmbedder import *
