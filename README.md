@@ -19,6 +19,6 @@ Our **TravelDest dataset** is stored in the `data/` folder. The `data/ground_tru
 
 ## Execution
 To run the default query, use the following command in your terminal:
-    ```bash
-    bash run.sh
-    ```
+```bash
+bash run.sh
+```
