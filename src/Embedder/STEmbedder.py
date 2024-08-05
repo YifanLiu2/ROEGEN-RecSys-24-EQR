@@ -6,7 +6,7 @@ class STEmbedder(LMEmbedder):
     """
     Embedder using sentence transformers
     """
-    def __init__(self, model_name: str = "paraphrase-MiniLM-L6-v2", split_type: str = "section"):
+    def __init__(self, model_name: str = "msmarco-distilbert-base-tas-b", split_type: str = "section"):
         super().__init__(model_name=model_name, split_type=split_type)
         self.model = SentenceTransformer(model_name)
 

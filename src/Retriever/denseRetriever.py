@@ -1,10 +1,10 @@
 import os, pickle
+from typing import Optional, Callable
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 from src.Retriever.abstractRetriever import AbstractRetriever
 from src.Embedder.LMEmbedder import LMEmbedder
-from src.Entity.aspect import Aspect
-from src.Entity.query import Query
+from src.Entity.query import *
 
 
 class DenseRetriever(AbstractRetriever):
@@ -12,8 +12,8 @@ class DenseRetriever(AbstractRetriever):
     Concrete DenseRetriever class.
     """
     cls_type = "dense"
-    def __init__(self, model: LMEmbedder, query_path: str, embedding_dir: str, chunks_dir: str, output_path: str):
-        super().__init__(model=model, query_path=query_path, output_path=output_path, chunks_dir=chunks_dir)
+    def __init__(self, model: LMEmbedder, query_path: str, embedding_dir: str, chunks_dir: str, output_dir: str, num_chunks: int = 10):
+        super().__init__(model=model, query_path=query_path, output_dir=output_dir, chunks_dir=chunks_dir, num_chunks=num_chunks)
         self.dense_embedding_dir = embedding_dir
     
     def load_dest_embeddings(self) ->  dict[str, np.ndarray]:
@@ -35,7 +35,7 @@ class DenseRetriever(AbstractRetriever):
         dest_embs = self.load_dest_embeddings()
         return dest_chunks, dest_embs
 
-    def retrieval_for_dest(self, aspects: list[Aspect], dest_emb: np.ndarray, dest_chunks: list[str], num_chunks: int, percentile: float = None) -> dict[str, tuple[float, list[str]]]:
+    def retrieval_for_dest(self, query: AbstractQuery | np.ndarray, dest_emb: np.ndarray, dest_chunks: list[str]) -> tuple[float, list[str]]:
         """
         Perform dense retrieval for each query.
 
@@ -45,26 +45,21 @@ class DenseRetriever(AbstractRetriever):
         :param percentile: float, percentile to determine the similarity threshold for filtering results.
         :return: dict[str, dict[str, tuple[float, list[str]]]], structured results with scores and top matching chunks.
         """
-        # return format: {"aspect": (score, top_chunk)}
-        dest_result = dict()
-        for a in aspects:
-            a_text = a.get_new_description()
-            description_emb = self.model.encode(a_text) # shape [1, emb_size]
-            score = cosine_similarity(dest_emb, description_emb).flatten() # shape [chunk_size]
-            # threshold = np.percentile(score, percentile) # determine the threshold
+        # embed query reformulation
+        if isinstance(query, AbstractQuery):
+            description_emb = self.model.encode(query.get_reformulation())  # shape [1, emb_size]
+        else:
+            description_emb = query
 
-            # extract top idx and top score with threshold
-            # top_idx = np.where(score >= threshold)[0]
-            # top_score = score[score >= threshold]
+        # calculate city score
+        score = cosine_similarity(dest_emb, description_emb).flatten()  # shape [chunk_size]
+        top_idx = np.argsort(score)[-self.num_chunks:]
+        top_score = score[top_idx]
+        avg_score = self.calculate_city_score(top_score)
 
-            top_idx = np.argsort(score)[-num_chunks:]
-            top_score = score[top_idx]
-            avg_score = np.sum(top_score) / top_score.shape[0] # a scalar score
+        # retrieve top chunks
+        chunks = np.array(dest_chunks)  # [chunk_size]
+        top_chunks = chunks[top_idx].tolist()
 
-            # retrieve top chunks
-            chunks = np.array(dest_chunks) # [chunk_size]
-            top_chunks = chunks[top_idx].tolist()
-
-            # store results
-            dest_result[a_text] = (avg_score, top_chunks)
-        return dest_result
+        return avg_score, top_chunks
+    

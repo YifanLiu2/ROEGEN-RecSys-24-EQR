@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Prompt user for inputs
-echo "This script requires 5 inputs in the following order:"
+echo "This script requires 7 or 8 inputs in the following order:"
 echo "1. Original Query Input Path"
 echo "2. Processed Query Output Directory"
 echo "3. Embedding Type"
@@ -32,7 +32,8 @@ retriever_output_dir=$7
 ground_truth_path=$8
 
 
-modes=("none" "gqr" "q2e" "q2d" "genqr" "elaborate" "answer")
+# modes=("none" "gqr" "q2e" "q2d" "geqe", "genqr")
+modes=("geqe")
 
 for query_processor_mode in "${modes[@]}"; do
     # Extend processed_query_output_dir to include mode-specific subdirectory and filename
@@ -73,7 +74,7 @@ for query_processor_mode in "${modes[@]}"; do
                 echo "Evaluating: $eval"
                 python -m src.Evaluator.evaluatorRunner -e $eval -j $ranked_list_path -g $ground_truth_path -o ${retriever_output_dir}/evaluator_results/${query_processor_mode}_${eval}.json
             else
-                for k in 10 30 50 100; do
+                for k in 10 30 50; do
                     echo "Evaluating: $eval @ $k"
                     python -m src.Evaluator.evaluatorRunner -e $eval -k $k -j $ranked_list_path -g $ground_truth_path -o ${retriever_output_dir}/evaluator_results/${query_processor_mode}_${eval}_at${k}.json
                 done
