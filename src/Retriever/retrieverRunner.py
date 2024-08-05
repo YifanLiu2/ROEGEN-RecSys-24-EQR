@@ -48,9 +48,6 @@ def main(args):
     elif args.retrieve_type == "BM25":
         retriever = BM25Retriever(query_path=query_path, chunks_dir=chunks_dir, output_dir=output_dir, num_chunks=num_chunks)
         retriever.run_retrieval()
-    elif args.retrieve_type == "proqe":
-        retriever = ProQERetriever(model=model, query_path=query_path, chunks_dir=chunks_dir, embedding_dir=embedding_dir, output_dir=output_dir, num_chunks=num_chunks, num_iter=num_iter, beta=beta, gemma=gemma)
-        retriever.run_retrieval()
     
 
 if __name__ == "__main__":
@@ -62,9 +59,6 @@ if __name__ == "__main__":
     parser.add_argument("--emb_type", type=str, choices=TYPE, default="gpt", help="Specify the type of the embedder. Available types are: {}".format(", ".join(sorted(TYPE))))
     parser.add_argument("--output_dir", help="Directory to store retrieval results")
     parser.add_argument("--num_chunks", type=int, default=10, help="")
-    parser.add_argument("--iter", type=int, default=10, help="")
-    parser.add_argument("--beta", type=float, default=0.1, help="")
-    parser.add_argument("--gemma", type=float, default=0, help="")
 
     args = parser.parse_args()
     main(args=args)
