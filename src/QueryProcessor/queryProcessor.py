@@ -349,21 +349,21 @@ class Q2D(QueryProcessor):
         query2doc @ https://arxiv.org/pdf/2303.07678
         GQE @ https://dl.acm.org/doi/pdf/10.1145/3589335.3651945
         """
-        prompt = """
-        Query: {query}
-        Given a user's travel cities recommendation query, write a passage that answer the query by providing cities recommendation from city list.
-            - Manually check whether your example cities come from the choice of cities, if not, replace with a new one in the list.
-            - Provide your answers in valid JSON format with double quotes: {{"answer": "YOUR ANSWER"}}.
-        
-        This is your choice of cities:
-        {cities}
-        """
-
         # prompt = """
         # Query: {query}
-        # Given a user's travel cities recommendation query, write a passage that answer the query.
+        # Given a user's travel cities recommendation query, write a passage that answer the query by providing cities recommendation from city list.
+        #     - Manually check whether your example cities come from the choice of cities, if not, replace with a new one in the list.
         #     - Provide your answers in valid JSON format with double quotes: {{"answer": "YOUR ANSWER"}}.
+        
+        # This is your choice of cities:
+        # {cities}
         # """
+
+        prompt = """
+        Query: {query}
+        Given a user's travel cities recommendation query, write a passage that answer the query.
+            - Provide your answers in valid JSON format with double quotes: {{"answer": "YOUR ANSWER"}}.
+        """
 
         cities = "\n".join(CITY_LIST)
         answer = ANSWER_FORMAT
@@ -431,6 +431,8 @@ class EQR(QueryProcessor):
         # """
         cities = "\n".join(CITY_LIST)
         answer = ANSWER_FORMAT
+        
+        # origin 
 
         prompt = """
         Query: {query}
@@ -447,6 +449,34 @@ class EQR(QueryProcessor):
         EXAMPLE QUERY: Family-Friendly Cities for Vacations
         EXAMPLE LIST: ["Theme Parks - Cities with expansive theme parks offering thrilling rides and attractions suitable for all ages such as Orlando and Los Angeles.", "Zoos and Aquariums - Feature diverse collections of animals and underwater displays such as Chicago and San Diego.", "Children Museums - Tailored for younger visitors with hands-on learning exhibits such as Indianapolis and New York City.", "Beaches - Safe, clean beaches with gentle waves and family amenities such as Honolulu and Miami.", "Parks - Large parks with playgrounds, picnic areas, and public events such as London and Vancouver."]
         """
+
+        # ablation 1: remove example cities
+        # prompt = """
+        # Query: {query}
+
+        # Given a user's travel cities recommendation query, do the following steps:
+        #     - Break down the query into {k} distinct keywords related to the given user query aspect.
+        #     - For each keywords, provide a one-sentence description that clearly elaborates on its specific focus and relevance.
+        #     - For each keywords, choose reonable example cities and concatenate them at the end of your one sentence description. 
+        #     - Provide your answers in valid JSON format with double quotes: {{"answer": [LIST]}}, where keyword list is a list of string with description and example answers concatenate together.
+        # """
+
+        # ablation 2: remove example cities and description
+        # prompt = """
+        #         Query: {query}
+
+        #         Given a user's travel cities recommendation query, do the following steps:
+        #             - Break down the query into {k} distinct keywords related to the given user query aspect.
+        #             - For each keywords, provide a one-sentence description that clearly elaborates on its specific focus and relevance.
+        #             - Provide your answers in valid JSON format with double quotes: {{"answer": [LIST]}}, where keyword list is a list of string with description and example answers concatenate together.
+
+        #         EXAMPLE QUERY: Picturesque cities for photography enthusiasts
+        #         EXAMPLE LIST: ["Coastal Views - Captures the dynamic interface where the sea meets the land, offering picturesque views of beaches, cliffs, and marine life, such as Cape Town, Santorini”, "Natural Landscape Photography - Dedicated to capturing the untouched beauty of natural environments, focusing on the authenticity and raw elements of scenes, such as Queenstown, Faroe Islands, Fiji.", "Exotic Island Views - Highlights the distinctive beauty of island landscapes, featuring tropical beaches, lush vegetation, and serene tranquility, such as Phuket, Maldives, Galapagos Islands.", "Architectural Photography - Focuses on the artistic capture of buildings and architectural elements, emphasizing design, structure, and contextual interaction, such as Florence, Barcelona, Prague.", "Skyline Photography - Concentrates on capturing the iconic cityscapes and urban profiles from strategic vantage points, showcasing the layout and vibrancy of metropolitan areas, such as New York City, Hong Kong, Dubai.”]
+
+        #         EXAMPLE QUERY: Family-Friendly Cities for Vacations
+        #         EXAMPLE LIST: ["Theme Parks - Cities with expansive theme parks offering thrilling rides and attractions suitable for all ages such as Orlando and Los Angeles.", "Zoos and Aquariums - Feature diverse collections of animals and underwater displays such as Chicago and San Diego.", "Children Museums - Tailored for younger visitors with hands-on learning exhibits such as Indianapolis and New York City.", "Beaches - Safe, clean beaches with gentle waves and family amenities such as Honolulu and Miami.", "Parks - Large parks with playgrounds, picnic areas, and public events such as London and Vancouver."]
+        #         """
+        
         answer = ANSWER_FORMAT
         cities = ",".join(CITY_LIST)
 
