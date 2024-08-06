@@ -6,8 +6,6 @@ class RecallK(Evaluator):
         self.k = k
 
     def evaluate(self, ground_truth: list[str], ranked_list: list[str]) -> float:
-        """
-        """
         k = min(self.k, len(ranked_list))
         top_k_items = set(ranked_list[:k])
         relevant_in_top_k = len(top_k_items.intersection(set(ground_truth)))

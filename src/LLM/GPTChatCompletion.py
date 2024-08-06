@@ -1,9 +1,5 @@
-from typing import Any
-
 from openai import OpenAI
-
 from src.LLM.LLM import LLM
-
 
 class GPTChatCompletion(LLM):
     """

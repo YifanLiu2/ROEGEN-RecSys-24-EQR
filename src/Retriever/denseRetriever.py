@@ -1,5 +1,4 @@
 import os, pickle
-from typing import Optional, Callable
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 from src.Retriever.abstractRetriever import AbstractRetriever
@@ -29,22 +28,11 @@ class DenseRetriever(AbstractRetriever):
         return dests_embs
 
     def load_data(self) -> tuple[dict[str, list[str]], dict[str, np.ndarray]]:
-        """
-        """
         dest_chunks, _ = super().load_data()
         dest_embs = self.load_dest_embeddings()
         return dest_chunks, dest_embs
 
     def retrieval_for_dest(self, query: AbstractQuery | np.ndarray, dest_emb: np.ndarray, dest_chunks: list[str]) -> tuple[float, list[str]]:
-        """
-        Perform dense retrieval for each query.
-
-        :param queries: list[str], list of query strings.
-        :param dests_emb: dict[str, np.ndarray], dictionary of destination names to their embeddings.
-        :param dests_chunks: dict[str, list[str]], dictionary of destination names to lists of associated text chunks.
-        :param percentile: float, percentile to determine the similarity threshold for filtering results.
-        :return: dict[str, dict[str, tuple[float, list[str]]]], structured results with scores and top matching chunks.
-        """
         # embed query reformulation
         if isinstance(query, AbstractQuery):
             description_emb = self.model.encode(query.get_reformulation())  # shape [1, emb_size]

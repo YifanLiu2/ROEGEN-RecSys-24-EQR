@@ -6,8 +6,6 @@ class mAPK(Evaluator):
         self.k = k
 
     def evaluate(self, ground_truth: list[str], ranked_list: list[str]) -> float:
-        """
-        """
         if not ground_truth:
             return 0  
 

@@ -1,17 +1,18 @@
 from config import API_KEY
 import argparse
-from .GPTEmbedder import *
-from .STEmbedder import *
+from .GPTEmbedder import GPTEmbedder
+from .STEmbedder import STEmbedder
 
-TYPE = {"gpt", "st"}
+EMBEDDER_TYPES = {"gpt", "st"}
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate embeddings for text files using a GPT model.")
-    parser.add_argument("-d", "--data_path", type=str, required=True, help="Path to the directory containing text files.")
-    parser.add_argument("-o", "--output_dir", type=str, required=True, help="Path where embeddings should be saved.")
+    parser = argparse.ArgumentParser(description="Generate embeddings for text files using either a GPT model or a sentence transformer.")
+    parser.add_argument("-d", "--data_path", type=str, required=True, help="Path to the directory containing the input text files.")
+    parser.add_argument("-o", "--output_dir", type=str, required=True, help="Path where the generated embeddings should be saved.")
     parser.add_argument("--split_type", type=str, default="section", choices=["sentence", "section"],
-                        help="The type of text splitting to apply before embedding.")
-    parser.add_argument("--emb_type", type=str, choices=TYPE, default="gpt", help="Specify the type of the embedder. Available types are: {}".format(", ".join(sorted(TYPE))))
+                        help="Method for splitting text before embedding. Available options: 'sentence' or 'section'.")
+    parser.add_argument("--emb_type", type=str, choices=EMBEDDER_TYPES, default="gpt", 
+                        help="Type of embedder to use. Available options: {}".format(", ".join(sorted(EMBEDDER_TYPES))))
     args = parser.parse_args()
 
     if args.emb_type == "gpt":
@@ -23,7 +24,7 @@ def main():
         embedder.create_embeddings(args.data_path, args.output_dir)
 
     else:
-        raise ValueError("Invalid embedder type. Available types are: {}".format(", ".join(sorted(TYPE))))
+        raise ValueError("Invalid embedder type. Available types are: {}".format(", ".join(sorted(EMBEDDER_TYPES))))
 
 if __name__ == "__main__":
     main()
