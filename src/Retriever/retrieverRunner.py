@@ -33,10 +33,10 @@ def main(args):
         if not os.path.exists(chunks_dir):
             raise ValueError(f"Invalid directory path for destination chunks: {chunks_dir}")
     
-    if args.retrieve_type == "dense":
+    if args.retriever_type == "dense":
         retriever = DenseRetriever(model=model, query_path=query_path, chunks_dir=chunks_dir, embedding_dir=embedding_dir, output_dir=output_dir, num_chunks=num_chunks)
         retriever.run_retrieval()
-    elif args.retrieve_type == "BM25":
+    elif args.retriever_type == "BM25":
         retriever = BM25Retriever(query_path=query_path, chunks_dir=chunks_dir, output_dir=output_dir, num_chunks=num_chunks)
         retriever.run_retrieval()
     
@@ -63,7 +63,7 @@ if __name__ == "__main__":
     )
     
     parser.add_argument(
-        "--retrieve_type", 
+        "--retriever_type", 
         default="dense", 
         help="Type of retrieval to perform. Options include 'dense' for dense retrieval and 'sparse' for sparse retrieval."
     )

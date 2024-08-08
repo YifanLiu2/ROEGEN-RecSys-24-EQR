@@ -4,7 +4,49 @@ from src.LLM.GPTChatCompletion import *
 from src.Entity.query import *
 
 ANSWER_FORMAT = """{{"answer": {answer}}}"""
+
 RETRIEVER_TYPE = {"dense", "sparse"}
+
+LIST_RESPONSE = {
+    "type": "json_schema",
+    "json_schema": {
+    "name": "answers",
+    "strict": True,
+    "schema": {
+        "type": "object",
+        "properties": {
+        "answer": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+        },
+        "required": ["answer"],
+        "additionalProperties": False
+    }
+    }
+}
+
+STRING_RESPONSE = {
+    "type": "json_schema",
+    "json_schema": {
+    "name": "answers",
+    "strict": True,
+    "schema": {
+        "type": "object",
+        "properties": {
+        "answer": {
+            "type": "string",
+        }
+        },
+        "required": ["answer"],
+        "additionalProperties": False
+    }
+    }
+}
+
+
 
 class QueryProcessor:
     """
@@ -28,7 +70,7 @@ class QueryProcessor:
             curr_query = AbstractQuery(description=query)
             
             new_desc = self.reformulate_query(query=curr_query)
-            curr_query.set_reformuation(reformulation=new_desc)
+            curr_query.set_reformulation(reformulation=new_desc)
             
             result_queries.append(curr_query)
 
@@ -106,12 +148,7 @@ class GQR(QueryProcessor):
             {"role": "assistant", "content": answer.format(answer="Destinations celebrated for their extensive horseback riding trails across beaches, mountains, and countrysides, complemented by vibrant cultural events like rodeos, offering a holistic equestrian experience.")},          
             {"role": "user", "content": prompt.format(query=query.get_description())},
         ]
-        response = self.llm.generate(message)
-
-        # parse the answer
-        start = response.find("{")
-        end = response.rfind("}") + 1
-        response = response[start:end]
+        response = self.llm.generate(message, response_format=STRING_RESPONSE)
         paraphrase = json.loads(response)["answer"]
         
         query_str = query.get_description()
@@ -154,12 +191,7 @@ class Q2E(QueryProcessor):
             {"role": "user", "content": prompt.format(query=query.get_description())},
         ]
 
-        response = self.llm.generate(message)
-
-        # parse the answer
-        start = response.find("{")
-        end = response.rfind("}") + 1
-        response = response[start:end]
+        response = self.llm.generate(message, response_format=LIST_RESPONSE)
         expansion_list = json.loads(response)["answer"]
 
         query_str = query.get_description()
@@ -193,19 +225,16 @@ class Q2D(QueryProcessor):
         message = [
             {"role": "system", "content": "You are a travel expert."},
             {"role": "user", "content": prompt.format(query="Family-Friendly Cities for Vacations")},
-            {"role": "assistant", "content": answer.format(answer="When planning a family-friendly vacation, choosing the right city can make all the difference in ensuring a memorable and enjoyable experience for everyone. Orlando, Florida, USA, known as the theme park capital of the world, offers attractions like Walt Disney World Resort, Universal Studios, and the Kennedy Space Center. San Diego, California, USA, is home to beautiful beaches, the world-famous San Diego Zoo, and Legoland California. Tokyo, Japan, offers Tokyo Disneyland and DisneySea, along with historic temples and delicious Japanese cuisine. These cities provide a range of attractions and activities designed to entertain and educate family members of all ages, ensuring a vacation filled with fun, learning, and unforgettable memories.", cities=cities)},
+            {"role": "assistant", "content": answer.format(answer="When planning a family-friendly vacation, choosing the right city can make all the difference in ensuring a memorable and enjoyable experience for everyone. Orlando, Florida, USA, known as the theme park capital of the world, offers attractions like Walt Disney World Resort, Universal Studios, and the Kennedy Space Center. San Diego, California, USA, is home to beautiful beaches, the world-famous San Diego Zoo, and Legoland California. Tokyo, Japan, offers Tokyo Disneyland and DisneySea, along with historic temples and delicious Japanese cuisine. These cities provide a range of attractions and activities designed to entertain and educate family members of all ages, ensuring a vacation filled with fun, learning, and unforgettable memories.")},
             {"role": "user", "content": prompt.format(query="Picturesque cities for photography enthusiasts")},
-            {"role": "assistant", "content": answer.format(answer="For photography enthusiasts seeking picturesque cities, there are several destinations around the world that offer breathtaking scenery and iconic landmarks. Paris, France, is a must-visit with its iconic Eiffel Tower, charming Montmartre district, and the historic Notre-Dame Cathedral. Venice, Italy, enchants photographers with its romantic canals, St. Mark's Basilica, and the vibrant colors of Burano Island. Kyoto, Japan, offers a serene setting with its traditional temples, Arashiyama Bamboo Grove, and the stunning Fushimi Inari Shrine. These cities provide an array of photogenic scenes that inspire creativity and capture the essence of each unique location, making them ideal destinations for photography enthusiasts.", cities=cities)},          
+            {"role": "assistant", "content": answer.format(answer="For photography enthusiasts seeking picturesque cities, there are several destinations around the world that offer breathtaking scenery and iconic landmarks. Paris, France, is a must-visit with its iconic Eiffel Tower, charming Montmartre district, and the historic Notre-Dame Cathedral. Venice, Italy, enchants photographers with its romantic canals, St. Mark's Basilica, and the vibrant colors of Burano Island. Kyoto, Japan, offers a serene setting with its traditional temples, Arashiyama Bamboo Grove, and the stunning Fushimi Inari Shrine. These cities provide an array of photogenic scenes that inspire creativity and capture the essence of each unique location, making them ideal destinations for photography enthusiasts.")},          
             {"role": "user", "content": prompt.format(query="Cities popular for horseback riding")},
-            {"role": "assistant", "content": answer.format(answer="For those who love horseback riding, certain cities around the world offer unique and scenic opportunities to explore their surroundings on horseback. Jackson, Wyoming, USA, is renowned for its breathtaking views of the Teton Range and offers horseback rides through Yellowstone and Grand Teton National Parks. Mendoza, Argentina, provides riders with the chance to explore the Andes Mountains and lush vineyards, offering stunning views and adventurous trails.  Lastly, the Scottish Highlands in the United Kingdom provide riders with rugged, dramatic landscapes, offering trails that pass through ancient forests, along lochs, and up mountainous terrain. These cities offer diverse and scenic riding experiences that allow enthusiasts to connect with nature while enjoying the thrill of horseback exploration.", cities=cities)},          
+            {"role": "assistant", "content": answer.format(answer="For those who love horseback riding, certain cities around the world offer unique and scenic opportunities to explore their surroundings on horseback. Jackson, Wyoming, USA, is renowned for its breathtaking views of the Teton Range and offers horseback rides through Yellowstone and Grand Teton National Parks. Mendoza, Argentina, provides riders with the chance to explore the Andes Mountains and lush vineyards, offering stunning views and adventurous trails.  Lastly, the Scottish Highlands in the United Kingdom provide riders with rugged, dramatic landscapes, offering trails that pass through ancient forests, along lochs, and up mountainous terrain. These cities offer diverse and scenic riding experiences that allow enthusiasts to connect with nature while enjoying the thrill of horseback exploration.")},          
             {"role": "user", "content": prompt.format(query=query.get_description())},
         ]
 
         # parse the answer
-        response = self.llm.generate(message)
-        start = response.find("{")
-        end = response.rfind("}") + 1
-        response = response[start:end]
+        response = self.llm.generate(message, response_format=STRING_RESPONSE)
         pseudo_doc = json.loads(response)["answer"]
 
         query_str = query.get_description()
@@ -254,13 +283,9 @@ class EQR(QueryProcessor):
             {"role": "user", "content": prompt.format(query=query.get_description(), k=self.k)},
         ]
 
-        response = self.llm.generate(message)
-        # parse the answer
-        start = response.find("{")
-        end = response.rfind("}") + 1
-        response = response[start:end]
+        response = self.llm.generate(message, response_format=LIST_RESPONSE)
         expansion_list = json.loads(response)["answer"]
-
+        
         query_str = query.get_description()
         expansion_list = [query_str] + expansion_list
         
