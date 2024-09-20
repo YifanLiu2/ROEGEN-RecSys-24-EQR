@@ -1,6 +1,6 @@
 # Elaborative Subtopic Query Reformulation for Broad and Indirect Queries in Travel Destination Recommendation
 
-This repository accompanies the paper titled "Elaborative Subtopic Query Reformulation for Broad and Indirect Queries in Travel Destination Recommendation," submitted to the Late-Breaking Result track at RecSys 2024.
+This repository accompanies the paper titled "Elaborative Subtopic Query Reformulation for Broad and Indirect Queries in Travel Destination Recommendation".
 
 ## Dataset and Ground Truth
 Our **TravelDest dataset** is meticulously curated to support this study, housed within the `data/` directory. Specific details include:
