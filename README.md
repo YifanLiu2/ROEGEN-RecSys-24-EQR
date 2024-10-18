@@ -1,26 +1,37 @@
 # Elaborative Subtopic Query Reformulation for Broad and Indirect Queries in Travel Destination Recommendation
 
-This repository accompanies the paper titled "Elaborative Subtopic Query Reformulation for Broad and Indirect Queries in Travel Destination Recommendation".
+This repository provides the code and data accompanying our paper titled **"Elaborative Subtopic Query Reformulation for Broad and Indirect Queries in Travel Destination Recommendation"**.
+
+## News
+Our paper has been accepted to **The 1st Workshop on Risks, Opportunities, and Evaluation of Generative Models in Recommender Systems (ROEGEN@RecSys 2024)**. You can read the paper on [arXiv](https://arxiv.org/abs/2410.01598).
 
 ## Dataset and Ground Truth
-Our **TravelDest dataset** is meticulously curated to support this study, housed within the `data/` directory. Specific details include:
-- `data/ground_truth`: This directory houses a JSON file containing the ground truth answers for each query listed in `data/general_queries.txt`.
-- `data/wikivoyage_data_clean`: Contains cleaned metadata files sourced from Wikivoyage, useful for reference and further analysis.
+We introduce the **TravelDest dataset**, curated specifically to support our study. It is located in the `data/` directory, which contains:
+- **`data/ground_truth`**: A JSON file with the ground truth answers for each query listed in `data/general_queries.txt`.
+- **`data/wikivoyage_data_clean`**: Cleaned metadata files sourced from Wikivoyage for reference and further analysis.
 
 ## Setup
 To get started, follow these steps:
-1. **Configure API Key**: Copy the template configuration file and insert your OpenAI API key.
+1. **Configure API Key**: Copy the template configuration file and insert your OpenAI API key:
     ```bash
     cp config_template.py config.py
-    # Open `config.py` and replace `"YOUR_API_KEY"` with your actual API key.
+    # Open `config.py` and replace "YOUR_API_KEY" with your actual API key.
     ```
-2. **Environment Setup**: Install necessary Python packages using pip.
+2. **Environment Setup**: Install the required Python packages:
     ```bash
     pip install -r requirements.txt
     ```
 
-## Execution
-Run the project with ease using the script below. This script executes on `data/general_queries.txt` and outputs the results.
+## Running the Project
+Execute the main script using the command below. The script processes `data/general_queries.txt` and saves the results in the `output` directory:
 ```bash
 bash run.sh
-# Results will be stored in the `output` folder.
+```
+
+## Citation
+@article{wen2024elaborative,
+  title={Elaborative Subtopic Query Reformulation for Broad and Indirect Queries in Travel Destination Recommendation},
+  author={Wen, Qianfeng and Liu, Yifan and Zhang, Joshua and Saad, George and Korikov, Anton and Sambale, Yury and Sanner, Scott},
+  journal={arXiv preprint arXiv:2410.01598},
+  year={2024}
+}
