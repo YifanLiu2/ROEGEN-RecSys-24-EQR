@@ -29,9 +29,11 @@ bash run.sh
 ```
 
 ## Citation
+```
 @article{wen2024elaborative,
   title={Elaborative Subtopic Query Reformulation for Broad and Indirect Queries in Travel Destination Recommendation},
   author={Wen, Qianfeng and Liu, Yifan and Zhang, Joshua and Saad, George and Korikov, Anton and Sambale, Yury and Sanner, Scott},
   journal={arXiv preprint arXiv:2410.01598},
   year={2024}
 }
+```
