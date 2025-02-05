@@ -22,9 +22,9 @@ class DenseRetriever(AbstractRetriever):
         for i in range(0, len(pkls)):
                 # if the file's name ends with .pkl, then it is an embeddings file
             if pkls[i].endswith(".pkl"):
-                city_name = pkls[i].split("_")[0]
+                city_name = pkls[i].rsplit("_emb", 1)[0]
                 dests_embs[city_name] = pickle.load(open(f"{self.dense_embedding_dir}/{pkls[i]}", "rb"))
-        
+
         return dests_embs
 
     def load_data(self) -> tuple[dict[str, list[str]], dict[str, np.ndarray]]:

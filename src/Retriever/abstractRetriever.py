@@ -41,7 +41,7 @@ class AbstractRetriever(abc.ABC):
         for i in range(0, len(pkls)):
             # if the file's name ends with .pkl, then it is a chunks file
             if pkls[i].endswith(".pkl"):
-                city_name = pkls[i].split("_")[0]
+                city_name = pkls[i].rsplit("_chunks", 1)[0]
                 dests_chunks[city_name] = pickle.load(open(f"{self.chunks_dir}/{pkls[i]}", "rb"))
         return dests_chunks
 

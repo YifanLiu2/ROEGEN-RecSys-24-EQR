@@ -34,48 +34,47 @@ class LMEmbedder(abc.ABC):
         output_dir (str): Path to the directory where embeddings should be saved.
         """
         for file in tqdm(os.listdir(data_path)):
-            if file.endswith(".txt"):
-                file_prefix = os.path.splitext(file)[0]
+            file_prefix = os.path.splitext(file)[0]
 
-                chunk_prefix = os.path.join(output_dir, "chunks", self.split_type)
-                output_prefix = os.path.join(output_dir, self.model_name.replace('/', '_').lower(), self.split_type)
+            chunk_prefix = os.path.join(output_dir, "chunks", self.split_type)
+            output_prefix = os.path.join(output_dir, self.model_name.replace('/', '_').lower(), self.split_type)
+            
+            os.makedirs(chunk_prefix, exist_ok=True)
+            os.makedirs(output_prefix, exist_ok=True)
+
+            chunk_prefix = os.path.join(chunk_prefix, file_prefix)
+            output_prefix = os.path.join(output_prefix, file_prefix)
+
+            emb_path = f"{output_prefix}_emb.pkl"
+            chunks_path = f"{chunk_prefix}_chunks.pkl"
+
+            if os.path.exists(chunks_path):
+                with open(chunks_path, "rb") as f:
+                    truncated_chunks = pickle.load(f)
+            else:
+                file_path = os.path.join(data_path, file)
+                with open(file_path, "r", encoding='utf-8', errors="ignore") as f:
+                    text = f.read()
+                chunks = self.split_chunk(text)
+                if self.concate:
+                    print("Concatenating city name")
+                    chunks = [f"{file_prefix}: {chunk}" for chunk in chunks]
+                truncated_chunks = [chunk[:18000] if len(chunk) > 18000 else chunk for chunk in chunks]
                 
-                os.makedirs(chunk_prefix, exist_ok=True)
-                os.makedirs(output_prefix, exist_ok=True)
+                with open(chunks_path, "wb") as chunks_file:
+                    pickle.dump(truncated_chunks, chunks_file)
 
-                chunk_prefix = os.path.join(chunk_prefix, file_prefix)
-                output_prefix = os.path.join(output_prefix, file_prefix)
+            if os.path.exists(emb_path):
+                continue
+                
+            try:
+                embeds = self.encode(truncated_chunks)
+                
+                with open(emb_path, "wb") as emb_file:
+                    pickle.dump(embeds, emb_file)
 
-                emb_path = f"{output_prefix}_emb.pkl"
-                chunks_path = f"{chunk_prefix}_chunks.pkl"
-
-                if os.path.exists(chunks_path):
-                    with open(chunks_path, "rb") as f:
-                        truncated_chunks = pickle.load(f)
-                else:
-                    file_path = os.path.join(data_path, file)
-                    with open(file_path, "r", encoding='utf-8') as f:
-                        text = f.read()
-                    chunks = self.split_chunk(text)
-                    if self.concate:
-                        print("Concatenating city name")
-                        chunks = [f"{file_prefix}: {chunk}" for chunk in chunks]
-                    truncated_chunks = [chunk[:18000] if len(chunk) > 18000 else chunk for chunk in chunks]
-                    
-                    with open(chunks_path, "wb") as chunks_file:
-                        pickle.dump(truncated_chunks, chunks_file)
-
-                if os.path.exists(emb_path):
-                    continue
-                    
-                try:
-                    embeds = self.encode(truncated_chunks)
-                    
-                    with open(emb_path, "wb") as emb_file:
-                        pickle.dump(embeds, emb_file)
-
-                except Exception as e:
-                    print(f"Failed to embed {file_prefix}: {e}")
+            except Exception as e:
+                print(f"Failed to embed {file_prefix}: {e}")
 
     def split_chunk(self, doc: str) -> list[str]:
         """
