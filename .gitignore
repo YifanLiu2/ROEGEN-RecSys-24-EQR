@@ -2,4 +2,11 @@
 config.py
 embeddings
 output
+output_hotel
+output_restaurant
 PyTravel
+EQR
+data
+embeddings
+embeddings_hotel
+embeddings_restaurant
