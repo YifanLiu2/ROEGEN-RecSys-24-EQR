@@ -131,21 +131,19 @@ class GQR(QueryProcessor):
 
     def reformulate_query(self, query: AbstractQuery) -> str:
         prompt = """
-        Given a query related to travel destinations, generate a sentence-level paraphrase of the query that captures user intent.
+        Paraphrase the following query: {query} Paraphrase:
         Provide your answers in JSON format: {{"answer": "YOUR ANSWER"}}.
-        
-        query: {query}
         """
         answer = ANSWER_FORMAT
 
         message = [
-            {"role": "system", "content": "You are a travel expert."},
+            {"role": "system", "content": "You are a recommendation expert."},
             {"role": "user", "content": prompt.format(query="Family-Friendly Cities for Vacations")},
-            {"role": "assistant", "content": answer.format(answer="Cities equipped with an array of child-friendly attractions such as theme parks, interactive museums, and safe, welcoming parks, perfect for family getaways.")},
-            {"role": "user", "content": prompt.format(query="Picturesque cities for photography enthusiasts")},
-            {"role": "assistant", "content": answer.format(answer="Cities that provide diverse photographic opportunities, from dramatic urban skylines and historical architecture to vibrant street scenes and serene natural landscapes.")},
-            {"role": "user", "content": prompt.format(query="Cities popular for horseback riding")},
-            {"role": "assistant", "content": answer.format(answer="Destinations celebrated for their extensive horseback riding trails across beaches, mountains, and countrysides, complemented by vibrant cultural events like rodeos, offering a holistic equestrian experience.")},          
+            {"role": "assistant", "content": answer.format(answer="Best Cities for a Family Vacation")},
+            {"role": "user", "content": prompt.format(query="Which hotels are popular with repeat visitors?")},
+            {"role": "assistant", "content": answer.format(answer="Which hotels are frequently chosen by returning guests?")},
+            {"role": "user", "content": prompt.format(query="Eateries featuring seasonal menus, locally sourced ingredients, and farm-to-table philosophies.")},
+            {"role": "assistant", "content": answer.format(answer="Restaurants that highlight seasonal dishes, use locally sourced ingredients, and embrace farm-to-table dining.")},          
             {"role": "user", "content": prompt.format(query=query.get_description())},
         ]
         response = self.llm.generate(message, response_format=STRING_RESPONSE)
@@ -173,21 +171,20 @@ class Q2E(QueryProcessor):
 
     def reformulate_query(self, query: AbstractQuery) -> str:
         prompt = """
-        Given a query related to travel destinations, break it down into distinct keywords related to the given query’s aspects.
+        Write a list of keywords for the given query: Query: {query} Keywords:
         Provide your answers in JSON format: {{"answer": [LIST]}}.
-
-        query: {query}
         """
         answer = ANSWER_FORMAT
 
+        # Few-shot examples
         message = [
-            {"role": "system", "content": "You are a travel expert."},
+            {"role": "system", "content": "You are a recommendation expert."},
             {"role": "user", "content": prompt.format(query="Family-Friendly Cities for Vacations")},
             {"role": "assistant", "content": answer.format(answer=["theme parks", "child-friendly museums", "beach resorts", "educational tours", "outdoor adventures"])},
-            {"role": "user", "content": prompt.format(query="Picturesque cities for photography enthusiasts")},
-            {"role": "assistant", "content": answer.format(answer=["coastal views", "natural landscape photography", "exotic island views", "architectural photography", "skyline photography"])},          
-            {"role": "user", "content": prompt.format(query="Cities popular for horseback riding")},
-            {"role": "assistant", "content": answer.format(answer=["equestrian", "trail riding", "dressage", "rodeo events", "pony treks"])},          
+            {"role": "user", "content": prompt.format(query="Which hotels are popular with repeat visitors?")},
+            {"role": "assistant", "content": answer.format(answer=["guest loyalty programs", "high customer ratings", "frequent traveler perks", "boutique hotels", "chain hotels", "business traveler amenities", "luxury resorts", "all-inclusive stays", "personalized service", "long-term stay discounts"])},          
+            {"role": "user", "content": prompt.format(query="Eateries featuring seasonal menus, locally sourced ingredients, and farm-to-table philosophies.")},
+            {"role": "assistant", "content": answer.format(answer=["farm-to-table restaurants", "seasonal menus", "locally sourced ingredients", "organic dining", "sustainable cuisine", "chef-driven menus", "artisanal food", "slow food movement", "regional specialties", "farmers market restaurants"])},          
             {"role": "user", "content": prompt.format(query=query.get_description())},
         ]
 
@@ -216,20 +213,20 @@ class Q2D(QueryProcessor):
 
     def reformulate_query(self, query: AbstractQuery) -> str:
         prompt = """
-        Query: {query}
-        Given a query related to travel destinations, write a passage that answers the query and provide rationale.
+        Write a passage that answers the given query: Query: {query} Passage:
         Provide your answers in JSON format: {{"answer": "YOUR ANSWER"}}.
         """
         answer = ANSWER_FORMAT
 
+        # Few-shot examples
         message = [
-            {"role": "system", "content": "You are a travel expert."},
+            {"role": "system", "content": "You are a recommendation expert."},
             {"role": "user", "content": prompt.format(query="Family-Friendly Cities for Vacations")},
             {"role": "assistant", "content": answer.format(answer="When planning a family-friendly vacation, choosing the right city can make all the difference in ensuring a memorable and enjoyable experience for everyone. Orlando, Florida, USA, known as the theme park capital of the world, offers attractions like Walt Disney World Resort, Universal Studios, and the Kennedy Space Center. San Diego, California, USA, is home to beautiful beaches, the world-famous San Diego Zoo, and Legoland California. Tokyo, Japan, offers Tokyo Disneyland and DisneySea, along with historic temples and delicious Japanese cuisine. These cities provide a range of attractions and activities designed to entertain and educate family members of all ages, ensuring a vacation filled with fun, learning, and unforgettable memories.")},
-            {"role": "user", "content": prompt.format(query="Picturesque cities for photography enthusiasts")},
-            {"role": "assistant", "content": answer.format(answer="For photography enthusiasts seeking picturesque cities, there are several destinations around the world that offer breathtaking scenery and iconic landmarks. Paris, France, is a must-visit with its iconic Eiffel Tower, charming Montmartre district, and the historic Notre-Dame Cathedral. Venice, Italy, enchants photographers with its romantic canals, St. Mark's Basilica, and the vibrant colors of Burano Island. Kyoto, Japan, offers a serene setting with its traditional temples, Arashiyama Bamboo Grove, and the stunning Fushimi Inari Shrine. These cities provide an array of photogenic scenes that inspire creativity and capture the essence of each unique location, making them ideal destinations for photography enthusiasts.")},          
-            {"role": "user", "content": prompt.format(query="Cities popular for horseback riding")},
-            {"role": "assistant", "content": answer.format(answer="For those who love horseback riding, certain cities around the world offer unique and scenic opportunities to explore their surroundings on horseback. Jackson, Wyoming, USA, is renowned for its breathtaking views of the Teton Range and offers horseback rides through Yellowstone and Grand Teton National Parks. Mendoza, Argentina, provides riders with the chance to explore the Andes Mountains and lush vineyards, offering stunning views and adventurous trails.  Lastly, the Scottish Highlands in the United Kingdom provide riders with rugged, dramatic landscapes, offering trails that pass through ancient forests, along lochs, and up mountainous terrain. These cities offer diverse and scenic riding experiences that allow enthusiasts to connect with nature while enjoying the thrill of horseback exploration.")},          
+            {"role": "user", "content": prompt.format(query="Which hotels are popular with repeat visitors?")},
+            {"role": "assistant", "content": answer.format(answer="When looking for hotels that are popular with repeat visitors, certain accommodations stand out due to their exceptional service, comfort, and amenities that keep guests coming back. The Ritz-Carlton in Tokyo, Japan, is renowned for its luxurious rooms, breathtaking city views, and outstanding hospitality. The Waldorf Astoria in New York City, USA, is a historic hotel known for its elegant design and world-class service. In Paris, France, Le Meurice attracts repeat guests with its blend of classic charm and modern luxury, located near the Louvre Museum. Additionally, family-friendly resorts like the Grand Floridian Resort & Spa at Walt Disney World in Florida offer immersive experiences and top-tier service that encourage return visits. These hotels consistently receive high ratings from travelers who appreciate their attention to detail, premium amenities, and welcoming atmosphere.")},          
+            {"role": "user", "content": prompt.format(query="Eateries featuring seasonal menus, locally sourced ingredients, and farm-to-table philosophies.")},
+            {"role": "assistant", "content": answer.format(answer="Eateries that focus on seasonal menus, locally sourced ingredients, and farm-to-table philosophies offer a dining experience that highlights freshness, sustainability, and regional flavors. In California’s Napa Valley, restaurants like The French Laundry showcase farm-fresh produce and artisanal ingredients, creating exquisite seasonal dishes. In Portland, Oregon, Farm Spirit offers a plant-based menu sourced entirely from the Pacific Northwest, ensuring a deep connection to local agriculture. Copenhagen, Denmark, home to Noma, revolutionized the concept of seasonal dining by emphasizing foraged ingredients and Nordic culinary traditions. These eateries provide an ever-changing menu that reflects the best of each season, offering diners a unique and flavorful experience rooted in local terroir and sustainable practices.")},          
             {"role": "user", "content": prompt.format(query=query.get_description())},
         ]
 
@@ -266,20 +263,38 @@ class EQR(QueryProcessor):
         prompt = """
         Query: {query}
 
-        Given a query related to travel destinations:
-            - Break down the query into {k} distinct subtopics.
-            - For each subtopic, provide a one sentence elaboration and example cities.
-            - Provide your answers in JSON format: {{"answer": [LIST]}}.
+        This query requests recommendations from our multi-domain system (e.g., hotels, restaurants, cities, etc.). First, clearly specify which type(s) of recommendations you are addressing based on the query without any explanation in your response.
+
+        Then, please do the following:
+        1. Break down the query into {k} distinct subtopics or aspects.
+        2. For each subtopic, provide:
+            - A one-sentence explanation that clarifies the subtopic.
+            - Example items or recommendations relevant to that subtopic.
+        3. Provide your answers in JSON format: {{"answer": [LIST]}}.
         """
         
         answer = ANSWER_FORMAT
 
         message = [
-            {"role": "system", "content": "You are a travel expert."},
+            {"role": "system", "content": "You are a recommendation expert."},
             {"role": "user", "content": prompt.format(query="Family-Friendly Cities for Vacations", k=5)},
             {"role": "assistant", "content": answer.format(answer=["Theme Parks - Cities with expansive theme parks offering thrilling rides and attractions suitable for all ages such as Orlando and Los Angeles.", "Zoos and Aquariums - Feature diverse collections of animals and underwater displays such as Chicago and San Diego.", "Children Museums - Tailored for younger visitors with hands-on learning exhibits such as Indianapolis and New York City.", "Beaches - Safe, clean beaches with gentle waves and family amenities such as Honolulu and Miami.", "Parks - Large parks with playgrounds, picnic areas, and public events such as London and Vancouver."])},
-            {"role": "user", "content": prompt.format(query="Picturesque cities for photography enthusiasts", k=5)},
-            {"role": "assistant", "content": answer.format(answer=["Coastal Views - Captures the dynamic interface where the sea meets the land, offering picturesque views of beaches, cliffs, and marine life, such as Cape Town, Santorini", "Natural Landscape Photography - Dedicated to capturing the untouched beauty of natural environments, focusing on the authenticity and raw elements of scenes, such as Queenstown, Faroe Islands, Fiji.", "Exotic Island Views - Highlights the distinctive beauty of island landscapes, featuring tropical beaches, lush vegetation, and serene tranquility, such as Phuket, Maldives, Galapagos Islands.", "Architectural Photography - Focuses on the artistic capture of buildings and architectural elements, emphasizing design, structure, and contextual interaction, such as Florence, Barcelona, Prague.", "Skyline Photography - Concentrates on capturing the iconic cityscapes and urban profiles from strategic vantage points, showcasing the layout and vibrancy of metropolitan areas, such as New York City, Hong Kong, Dubai."])},
+            {"role": "user", "content": prompt.format(query="Which hotels are popular with repeat visitors?", k=5)},
+            {"role": "assistant", "content": answer.format(answer=[
+                "Customer Loyalty and Repeat Stays - Hotels with a high percentage of returning guests due to exceptional service and strong loyalty programs, such as Marriott Bonvoy Hotels and Hilton Honors Hotels.",
+                "Service Quality and Guest Satisfaction - Hotels known for high ratings in cleanliness, customer service, and overall experience, such as Ritz-Carlton and Four Seasons.",
+                "Value for Money - Hotels that provide excellent amenities and comfort at reasonable prices, attracting repeat visitors, such as Hampton Inn and Holiday Inn Express.",
+                "Location Convenience - Hotels situated near business districts, attractions, or transport hubs, making them appealing for repeat stays, such as Park Hyatt Tokyo and The Peninsula Chicago.",
+                "Exclusive Membership and Rewards - Hotels with robust loyalty programs offering perks like free stays, upgrades, and discounts, such as IHG One Rewards and Accor Live Limitless."
+            ])},
+            {"role": "user", "content": prompt.format(query="Eateries featuring seasonal menus, locally sourced ingredients, and farm-to-table philosophies.", k=5)},
+            {"role": "assistant", "content": answer.format(answer=[
+                "Seasonal Menus - Restaurants that adapt their menus based on seasonal availability, offering fresh and unique dishes throughout the year, such as Chez Panisse in Berkeley and Blue Hill at Stone Barns in New York.",
+                "Locally Sourced Ingredients - Eateries that prioritize ingredients from nearby farms and producers, ensuring freshness and supporting local agriculture, such as Husk in Charleston and Noma in Copenhagen.",
+                "Farm-to-Table Dining - Restaurants that maintain a direct relationship with farms, focusing on transparency and sustainability in their food sourcing, such as The French Laundry in Napa Valley and Farmstead at Long Meadow Ranch in St. Helena.",
+                "Sustainable and Ethical Practices - Establishments committed to ethical sourcing, organic produce, and environmentally friendly dining, such as Eleven Madison Park in New York and SingleThread in Healdsburg.",
+                "Community-Driven Culinary Experiences - Restaurants deeply integrated with local food movements and regional culinary traditions, emphasizing community engagement, such as Dandelion Market in Charlotte and The Willows Inn on Lummi Island."
+            ])},
             {"role": "user", "content": prompt.format(query=query.get_description(), k=self.k)},
         ]
 
