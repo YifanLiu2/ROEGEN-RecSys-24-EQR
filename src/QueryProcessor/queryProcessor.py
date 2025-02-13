@@ -52,13 +52,12 @@ class QueryProcessor:
     """
     A class to reformulate queries using a specified LLM for a retrieval method. 
     """
-    cls_type = "none"
-    def __init__(self, input_path: str, llm: LLM, retriever_type: str = "dense", output_dir: str = "output"):
+    def __init__(self, input_path: str, llm: LLM, mode: str = "none", retriever_type: str = "dense", output_dir: str = "output"):
         self.llm = llm
         self.output_dir = output_dir
         self.query_list = self._load_queries(input_path)
         self.retriever_type = retriever_type
-    
+        self.cls_type = mode
 
     def process_query(self) -> list[AbstractQuery]:
         """
@@ -125,9 +124,8 @@ class GQR(QueryProcessor):
     """
     GQR
     """
-    cls_type = "gqr"
-    def __init__(self, input_path: str, llm: LLM, output_dir: str, retriever_type: str = "dense"):
-        super().__init__(input_path=input_path, llm=llm, output_dir=output_dir, retriever_type=retriever_type)
+    def __init__(self, input_path: str, llm: LLM, output_dir: str, mode: str, retriever_type: str = "dense"):
+        super().__init__(input_path=input_path, llm=llm, output_dir=output_dir, retriever_type=retriever_type, mode=mode)
 
     def reformulate_query(self, query: AbstractQuery) -> str:
         prompt = """
@@ -165,9 +163,8 @@ class Q2E(QueryProcessor):
     """
     Q2E
     """
-    cls_type = "q2e"
-    def __init__(self, input_path: str, llm: LLM, output_dir: str, retriever_type: str = "dense"):
-        super().__init__(input_path=input_path, llm=llm, output_dir=output_dir, retriever_type=retriever_type)
+    def __init__(self, input_path: str, llm: LLM, output_dir: str, mode: str, retriever_type: str = "dense"):
+        super().__init__(input_path=input_path, llm=llm, output_dir=output_dir, retriever_type=retriever_type, mode=mode)
 
     def reformulate_query(self, query: AbstractQuery) -> str:
         prompt = """
@@ -207,9 +204,8 @@ class Q2D(QueryProcessor):
     """
     Q2D
     """
-    cls_type = "q2d"
-    def __init__(self, input_path: str, llm: LLM, output_dir: str, retriever_type: str = "dense"):
-        super().__init__(input_path=input_path, llm=llm, output_dir=output_dir, retriever_type=retriever_type)
+    def __init__(self, input_path: str, llm: LLM, output_dir: str, mode: str, retriever_type: str = "dense"):
+        super().__init__(input_path=input_path, llm=llm, output_dir=output_dir, retriever_type=retriever_type, mode=mode)
 
     def reformulate_query(self, query: AbstractQuery) -> str:
         prompt = """
@@ -252,9 +248,8 @@ class EQR(QueryProcessor):
     """
     EQR
     """
-    cls_type = "eqr"
-    def __init__(self, input_path: str, llm: LLM, output_dir: str, retriever_type: str = "dense", k: int = 5):
-        super().__init__(input_path=input_path, llm=llm, output_dir=output_dir, retriever_type=retriever_type)
+    def __init__(self, input_path: str, llm: LLM, output_dir: str, mode: str, retriever_type: str = "dense", k: int = 5):
+        super().__init__(input_path=input_path, llm=llm, output_dir=output_dir, retriever_type=retriever_type, mode=mode)
         self.k = k
 
     def reformulate_query(self, query: AbstractQuery) -> str:
@@ -263,9 +258,8 @@ class EQR(QueryProcessor):
         prompt = """
         Query: {query}
 
-        This query requests recommendations from our multi-domain system (e.g., hotels, restaurants, cities, etc.). First, clearly specify which type(s) of recommendations you are addressing based on the query without any explanation in your response.
+        Given a query requesting recommendations for items such as hotels, restaurants, or travel cities, do the following:
 
-        Then, please do the following:
         1. Break down the query into {k} distinct subtopics or aspects.
         2. For each subtopic, provide:
             - A one-sentence explanation that clarifies the subtopic.
@@ -278,8 +272,7 @@ class EQR(QueryProcessor):
         message = [
             {"role": "system", "content": "You are a recommendation expert."},
             {"role": "user", "content": prompt.format(query="Family-Friendly Cities for Vacations", k=5)},
-            {"role": "assistant", "content": answer.format(answer=["Theme Parks - Cities with expansive theme parks offering thrilling rides and attractions suitable for all ages such as Orlando and Los Angeles.", "Zoos and Aquariums - Feature diverse collections of animals and underwater displays such as Chicago and San Diego.", "Children Museums - Tailored for younger visitors with hands-on learning exhibits such as Indianapolis and New York City.", "Beaches - Safe, clean beaches with gentle waves and family amenities such as Honolulu and Miami.", "Parks - Large parks with playgrounds, picnic areas, and public events such as London and Vancouver."])},
-            {"role": "user", "content": prompt.format(query="Which hotels are popular with repeat visitors?", k=5)},
+            {"role": "assistant", "content": answer.format(answer=["Theme Parks - Cities with expansive theme parks offering thrilling rides and attractions suitable for all ages.", "Zoos and Aquariums - Feature diverse collections of animals and underwater displays.", "Children Museums - Tailored for younger visitors with hands-on learning exhibits.", "Beaches - Safe, clean beaches with gentle waves and family amenities.", "Parks - Large parks with playgrounds, picnic areas, and public events."])},            {"role": "user", "content": prompt.format(query="Which hotels are popular with repeat visitors?", k=5)},
             {"role": "assistant", "content": answer.format(answer=[
                 "Customer Loyalty and Repeat Stays - Hotels with a high percentage of returning guests due to exceptional service and strong loyalty programs, such as Marriott Bonvoy Hotels and Hilton Honors Hotels.",
                 "Service Quality and Guest Satisfaction - Hotels known for high ratings in cleanliness, customer service, and overall experience, such as Ritz-Carlton and Four Seasons.",
