@@ -15,7 +15,13 @@ def main(args):
     if model_name == "gpt":
         model = GPTEmbedder(api_key=API_KEY)
     elif model_name == "st":
-        model = STEmbedder()
+        if not args.emb_name:
+            raise ValueError("Please specify the name of the sentence-transformers model to use.")
+
+        try:
+            model = STEmbedder(model_name=args.emb_name)
+        except Exception as e:
+            print("Error loading sentence-transformers model: ", e)
     
     query_path = args.query_path
     embedding_dir = args.embedding_dir
@@ -74,6 +80,12 @@ if __name__ == "__main__":
         choices=TYPE, 
         default="gpt", 
         help="Specify the type of the embedder. Available types are: {}.".format(", ".join(sorted(TYPE)))
+    )
+
+    parser.add_argument(
+        "--emb_name", 
+        type=str, 
+        help="Name of the sentence-transformers model to use. Required if using sentence-transformers embedder."
     )
     
     parser.add_argument(

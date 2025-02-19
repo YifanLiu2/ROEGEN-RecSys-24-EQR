@@ -37,7 +37,7 @@ class LMEmbedder(abc.ABC):
             file_prefix = os.path.splitext(file)[0]
 
             chunk_prefix = os.path.join(output_dir, "chunks", self.split_type)
-            output_prefix = os.path.join(output_dir, self.model_name.replace('/', '_').lower(), self.split_type)
+            output_prefix = os.path.join(output_dir, self.split_type)
             
             os.makedirs(chunk_prefix, exist_ok=True)
             os.makedirs(output_prefix, exist_ok=True)

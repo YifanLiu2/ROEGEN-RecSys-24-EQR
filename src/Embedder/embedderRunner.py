@@ -13,6 +13,7 @@ def main():
                         help="Method for splitting text before embedding. Available options: 'sentence' or 'section'.")
     parser.add_argument("--emb_type", type=str, choices=EMBEDDER_TYPES, default="gpt", 
                         help="Type of embedder to use. Available options: {}".format(", ".join(sorted(EMBEDDER_TYPES))))
+    parser.add_argument("--emb_name", type=str, help="Name of the sentence transfomer embedder to use.")
     args = parser.parse_args()
 
     if args.emb_type == "gpt":
@@ -20,7 +21,9 @@ def main():
         embedder.create_embeddings(args.data_path, args.output_dir)
         
     elif args.emb_type == "st":
-        embedder = STEmbedder(split_type=args.split_type)
+        if not args.emb_name:
+            raise ValueError("Please provide the name of the sentence transformer embedder to use.")
+        embedder = STEmbedder(split_type=args.split_type, model_name=args.emb_name)
         embedder.create_embeddings(args.data_path, args.output_dir)
 
     else:

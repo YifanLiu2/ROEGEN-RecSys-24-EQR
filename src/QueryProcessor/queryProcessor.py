@@ -248,9 +248,10 @@ class EQR(QueryProcessor):
     """
     EQR
     """
-    def __init__(self, input_path: str, llm: LLM, output_dir: str, mode: str, retriever_type: str = "dense", k: int = 5):
+    def __init__(self, input_path: str, llm: LLM, output_dir: str, mode: str, retriever_type: str = "dense", k: int = 5, passage_type: str = "short sentence"):
         super().__init__(input_path=input_path, llm=llm, output_dir=output_dir, retriever_type=retriever_type, mode=mode)
         self.k = k
+        self.passage_type = passage_type
 
     def reformulate_query(self, query: AbstractQuery) -> str:
         answer = ANSWER_FORMAT
@@ -262,7 +263,7 @@ class EQR(QueryProcessor):
 
         1. Break down the query into {k} distinct subtopics or aspects.
         2. For each subtopic, provide:
-            - A one-sentence explanation that clarifies the subtopic.
+            - A concise {passage_type}-level explanation that clarifies its subtopic.
             - Example items or recommendations relevant to that subtopic.
         3. Provide your answers in JSON format: {{"answer": [LIST]}}.
         """
@@ -271,8 +272,9 @@ class EQR(QueryProcessor):
 
         message = [
             {"role": "system", "content": "You are a recommendation expert."},
-            {"role": "user", "content": prompt.format(query="Family-Friendly Cities for Vacations", k=5)},
-            {"role": "assistant", "content": answer.format(answer=["Theme Parks - Cities with expansive theme parks offering thrilling rides and attractions suitable for all ages.", "Zoos and Aquariums - Feature diverse collections of animals and underwater displays.", "Children Museums - Tailored for younger visitors with hands-on learning exhibits.", "Beaches - Safe, clean beaches with gentle waves and family amenities.", "Parks - Large parks with playgrounds, picnic areas, and public events."])},            {"role": "user", "content": prompt.format(query="Which hotels are popular with repeat visitors?", k=5)},
+            {"role": "user", "content": prompt.format(query="Family-Friendly Cities for Vacations", k=5, passage_type="short sentence")},
+            {"role": "assistant", "content": answer.format(answer=["Theme Parks - Cities with expansive theme parks offering thrilling rides and attractions suitable for all ages.", "Zoos and Aquariums - Feature diverse collections of animals and underwater displays.", "Children Museums - Tailored for younger visitors with hands-on learning exhibits.", "Beaches - Safe, clean beaches with gentle waves and family amenities.", "Parks - Large parks with playgrounds, picnic areas, and public events."])},            
+            {"role": "user", "content": prompt.format(query="Which hotels are popular with repeat visitors?", k=5, passage_type="short sentence")},
             {"role": "assistant", "content": answer.format(answer=[
                 "Customer Loyalty and Repeat Stays - Hotels with a high percentage of returning guests due to exceptional service and strong loyalty programs, such as Marriott Bonvoy Hotels and Hilton Honors Hotels.",
                 "Service Quality and Guest Satisfaction - Hotels known for high ratings in cleanliness, customer service, and overall experience, such as Ritz-Carlton and Four Seasons.",
@@ -280,7 +282,7 @@ class EQR(QueryProcessor):
                 "Location Convenience - Hotels situated near business districts, attractions, or transport hubs, making them appealing for repeat stays, such as Park Hyatt Tokyo and The Peninsula Chicago.",
                 "Exclusive Membership and Rewards - Hotels with robust loyalty programs offering perks like free stays, upgrades, and discounts, such as IHG One Rewards and Accor Live Limitless."
             ])},
-            {"role": "user", "content": prompt.format(query="Eateries featuring seasonal menus, locally sourced ingredients, and farm-to-table philosophies.", k=5)},
+            {"role": "user", "content": prompt.format(query="Eateries featuring seasonal menus, locally sourced ingredients, and farm-to-table philosophies.", k=5, passage_type="short sentence")},
             {"role": "assistant", "content": answer.format(answer=[
                 "Seasonal Menus - Restaurants that adapt their menus based on seasonal availability, offering fresh and unique dishes throughout the year, such as Chez Panisse in Berkeley and Blue Hill at Stone Barns in New York.",
                 "Locally Sourced Ingredients - Eateries that prioritize ingredients from nearby farms and producers, ensuring freshness and supporting local agriculture, such as Husk in Charleston and Noma in Copenhagen.",
@@ -288,7 +290,7 @@ class EQR(QueryProcessor):
                 "Sustainable and Ethical Practices - Establishments committed to ethical sourcing, organic produce, and environmentally friendly dining, such as Eleven Madison Park in New York and SingleThread in Healdsburg.",
                 "Community-Driven Culinary Experiences - Restaurants deeply integrated with local food movements and regional culinary traditions, emphasizing community engagement, such as Dandelion Market in Charlotte and The Willows Inn on Lummi Island."
             ])},
-            {"role": "user", "content": prompt.format(query=query.get_description(), k=self.k)},
+            {"role": "user", "content": prompt.format(query=query.get_description(), k=self.k, passage_type=self.passage_type)},
         ]
 
         response = self.llm.generate(message, response_format=LIST_RESPONSE)
