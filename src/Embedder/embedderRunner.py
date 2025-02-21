@@ -1,4 +1,5 @@
-from config import API_KEY
+import os
+API_KEY = os.getenv("OPENAI_API_KEY")
 import argparse
 from .GPTEmbedder import GPTEmbedder
 from .STEmbedder import STEmbedder
