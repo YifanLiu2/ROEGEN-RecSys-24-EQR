@@ -5,7 +5,7 @@ from src.Embedder.GPTEmbedder import *
 from src.Embedder.STEmbedder import *
 
 import argparse, os
-from config import API_KEY
+API_KEY = os.getenv("OPENAI_API_KEY")
 
 TYPE = {"gpt", "st"}
 
