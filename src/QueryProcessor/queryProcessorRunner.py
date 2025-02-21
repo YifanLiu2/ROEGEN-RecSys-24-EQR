@@ -1,5 +1,8 @@
 import argparse, os
-from config import API_KEY
+# from config import API_KEY
+
+API_KEY = os.getenv("OPENAI_API_KEY")
+
 from src.QueryProcessor.queryProcessor import *
 from src.LLM.GPTChatCompletion import *
 
