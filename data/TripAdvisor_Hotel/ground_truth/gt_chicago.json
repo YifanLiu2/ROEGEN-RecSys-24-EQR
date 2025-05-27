@@ -1,0 +1,908 @@
+{
+  "What hotels come alive at night with rooftop bars or live music?": [
+    "usa_illinois_chicago_w_chicago_lakeshore",
+    "usa_illinois_chicago_hotel_sax_chicago",
+    "usa_illinois_chicago_affinia_chicago",
+    "usa_illinois_chicago_dana_hotel_spa",
+    "usa_illinois_chicago_the_drake"
+  ],
+  "Where do artists and creative types usually stay when traveling?": [
+    "usa_illinois_chicago_hotel_allegro_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_hotel_indigo_chicago_downtown_gold_coast",
+    "usa_illinois_chicago_james_chicago",
+    "usa_illinois_chicago_hotel_monaco_chicago_a_kimpton_hotel"
+  ],
+  "Where can I get proper pour-over coffee in my hotel lobby?": [
+    "usa_illinois_chicago_hilton_garden_inn_chicago_downtown_magnificent_mile",
+    "usa_illinois_chicago_omni_chicago_hotel",
+    "usa_illinois_chicago_marriott_chicago_downtown_magnificent_mile",
+    "usa_illinois_chicago_hotel_monaco_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_intercontinental_chicago",
+    "usa_illinois_chicago_courtyard_by_marriott_chicago_downtown_magnificent_mile"
+  ],
+  "What accommodations spark inspiration for artists and writers?": [
+    "usa_illinois_chicago_hotel_burnham_a_kimpton_hotel",
+    "usa_illinois_chicago_the_blackstone_a_renaissance_hotel",
+    "usa_illinois_chicago_hotel_sax_chicago"
+  ],
+  "Where can I stay that seems integrated with the local community?": [
+    "usa_illinois_chicago_ambassador_east_hotel",
+    "usa_illinois_chicago_hotel_indigo_chicago_downtown_gold_coast"
+  ],
+  "Which places have the coziest lounges for meeting fellow travelers?": [
+    "usa_illinois_chicago_the_whitehall_hotel"
+  ],
+  "Any hotels with really wild, unconventional architecture?": [
+    "usa_illinois_chicago_intercontinental_chicago",
+    "usa_illinois_chicago_hotel_indigo_chicago_downtown_gold_coast",
+    "usa_illinois_chicago_hotel_burnham_a_kimpton_hotel",
+    "usa_illinois_chicago_trump_international_hotel_tower_chicago",
+    "usa_illinois_chicago_hotel_sax_chicago"
+  ],
+  "What places feature unique water elements like pools or fountains as highlights?": [
+    "usa_illinois_chicago_intercontinental_chicago",
+    "usa_illinois_chicago_swissotel_chicago",
+    "usa_illinois_chicago_chicago_s_essex_inn",
+    "usa_illinois_chicago_hilton_chicago",
+    "usa_illinois_chicago_hilton_suites_chicago_magnificent_mile",
+    "usa_illinois_chicago_the_peninsula_chicago",
+    "usa_illinois_chicago_trump_international_hotel_tower_chicago",
+    "usa_illinois_chicago_best_western_river_north_chicago_downtown_hotel",
+    "usa_illinois_chicago_four_points_by_sheraton_chicago_downtown_magnificent_mile",
+    "usa_illinois_chicago_the_ritz_carlton_chicago_a_four_seasons_hotel",
+    "usa_illinois_chicago_avenue_hotel_chicago"
+  ],
+  "Where can I stay to feel like part of a tight-knit community?": [
+    "usa_illinois_chicago_james_chicago",
+    "usa_illinois_chicago_the_talbott_hotel"
+  ],
+  "What’s the best hotel for a tranquil escape from city noise?": [
+    "usa_illinois_chicago_sofitel_chicago_water_tower",
+    "usa_illinois_chicago_ambassador_east_hotel",
+    "usa_illinois_chicago_swissotel_chicago",
+    "usa_illinois_chicago_the_talbott_hotel",
+    "usa_illinois_chicago_the_peninsula_chicago"
+  ],
+  "Where can budget-conscious travelers find stylish yet affordable stays?": [
+    "usa_illinois_chicago_homewood_suites_by_hilton_chicago_downtown",
+    "usa_illinois_chicago_inn_of_chicago_magnificent_mile",
+    "usa_illinois_chicago_chicago_s_essex_inn",
+    "usa_illinois_chicago_hotel_cass_holiday_inn_express",
+    "usa_illinois_chicago_congress_plaza_hotel",
+    "usa_illinois_chicago_comfort_inn_suites_downtown",
+    "usa_illinois_chicago_fairfield_inn_suites_chicago_downtown",
+    "usa_illinois_chicago_hampton_inn_and_suites_chicago_downtown",
+    "usa_illinois_chicago_red_roof_inn",
+    "usa_illinois_chicago_days_inn_chicago",
+    "usa_illinois_chicago_hampton_inn_majestic_chicago",
+    "usa_illinois_chicago_the_whitehall_hotel",
+    "usa_illinois_chicago_best_western_river_north_chicago_downtown_hotel",
+    "usa_illinois_chicago_travelodge_chicago_downtown"
+  ],
+  "Where can I discover a hotel for economy-minded travelers?": [
+    "usa_illinois_chicago_club_quarters_chicago_central_loop",
+    "usa_illinois_chicago_homewood_suites_by_hilton_chicago_downtown",
+    "usa_illinois_chicago_hampton_inn_and_suites_chicago_downtown",
+    "usa_illinois_chicago_hotel_cass_holiday_inn_express",
+    "usa_illinois_chicago_inn_of_chicago_magnificent_mile",
+    "usa_illinois_chicago_seneca_hotel",
+    "usa_illinois_chicago_chicago_s_essex_inn",
+    "usa_illinois_chicago_hampton_inn_majestic_chicago",
+    "usa_illinois_chicago_days_inn_chicago",
+    "usa_illinois_chicago_fairfield_inn_suites_chicago_downtown",
+    "usa_illinois_chicago_red_roof_inn",
+    "usa_illinois_chicago_travelodge_chicago_downtown"
+  ],
+  "Where’s the ideal place to stay for someone traveling alone?": [
+    "usa_illinois_chicago_hilton_garden_inn_chicago_downtown_magnificent_mile",
+    "usa_illinois_chicago_james_chicago",
+    "usa_illinois_chicago_affinia_chicago",
+    "usa_illinois_chicago_river_hotel",
+    "usa_illinois_chicago_inn_of_chicago_magnificent_mile",
+    "usa_illinois_chicago_hampton_inn_majestic_chicago",
+    "usa_illinois_chicago_park_hyatt_chicago",
+    "usa_illinois_chicago_courtyard_by_marriott_chicago_downtown_magnificent_mile",
+    "usa_illinois_chicago_the_westin_chicago_river_north",
+    "usa_illinois_chicago_hotel_burnham_a_kimpton_hotel",
+    "usa_illinois_chicago_hotel_blake",
+    "usa_illinois_chicago_the_talbott_hotel",
+    "usa_illinois_chicago_the_sutton_place_hotel",
+    "usa_illinois_chicago_hotel_cass_holiday_inn_express",
+    "usa_illinois_chicago_the_blackstone_a_renaissance_hotel",
+    "usa_illinois_chicago_the_peninsula_chicago",
+    "usa_illinois_chicago_four_seasons_hotel_chicago",
+    "usa_illinois_chicago_the_ritz_carlton_chicago_a_four_seasons_hotel"
+  ],
+  "Where can I stay to avoid the typical tourist traps?": [
+    "usa_illinois_chicago_the_talbott_hotel",
+    "usa_illinois_chicago_hotel_indigo_chicago_downtown_gold_coast",
+    "usa_illinois_chicago_dana_hotel_spa"
+  ],
+  "Are there accommodations that blend urban convenience with nature immersion?": [
+    "usa_illinois_chicago_w_chicago_lakeshore",
+    "usa_illinois_chicago_river_hotel"
+  ],
+  "Which accommodations have the most eye-catching modern or futuristic designs?": [
+    "usa_illinois_chicago_w_chicago_lakeshore",
+    "usa_illinois_chicago_w_chicago_city_center",
+    "usa_illinois_chicago_sofitel_chicago_water_tower",
+    "usa_illinois_chicago_hotel_indigo_chicago_downtown_gold_coast",
+    "usa_illinois_chicago_james_chicago",
+    "usa_illinois_chicago_hotel_burnham_a_kimpton_hotel",
+    "usa_illinois_chicago_trump_international_hotel_tower_chicago",
+    "usa_illinois_chicago_dana_hotel_spa"
+  ],
+  "I'm a music lover – where should I stay with great in-room sound?": [
+    "usa_illinois_chicago_hotel_sax_chicago",
+    "usa_illinois_chicago_hard_rock_hotel_chicago",
+    "usa_illinois_chicago_james_chicago",
+    "usa_illinois_chicago_conrad_chicago"
+  ],
+  "Which accommodations are known for their standout architectural flair?": [
+    "usa_illinois_chicago_sofitel_chicago_water_tower",
+    "usa_illinois_chicago_hotel_burnham_a_kimpton_hotel",
+    "usa_illinois_chicago_the_palmer_house_hilton",
+    "usa_illinois_chicago_james_chicago",
+    "usa_illinois_chicago_hilton_chicago",
+    "usa_illinois_chicago_dana_hotel_spa",
+    "usa_illinois_chicago_hotel_monaco_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_intercontinental_chicago",
+    "usa_illinois_chicago_the_blackstone_a_renaissance_hotel",
+    "usa_illinois_chicago_hotel_sax_chicago",
+    "usa_illinois_chicago_the_drake",
+    "usa_illinois_chicago_trump_international_hotel_tower_chicago",
+    "usa_illinois_chicago_the_peninsula_chicago"
+  ],
+  "Any hotels that feel like walking through an art museum?": [
+    "usa_illinois_chicago_hotel_burnham_a_kimpton_hotel",
+    "usa_illinois_chicago_the_palmer_house_hilton",
+    "usa_illinois_chicago_intercontinental_chicago",
+    "usa_illinois_chicago_the_drake"
+  ],
+  "Where can I find a hotel that offers an authentic local vibe?": [
+    "usa_illinois_chicago_hotel_allegro_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_hotel_monaco_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_ambassador_east_hotel",
+    "usa_illinois_chicago_hotel_burnham_a_kimpton_hotel",
+    "usa_illinois_chicago_hotel_indigo_chicago_downtown_gold_coast",
+    "usa_illinois_chicago_the_drake"
+  ],
+  "What’s the ideal hotel for someone who needs to work remotely with great Wi-Fi?": [
+    "usa_illinois_chicago_club_quarters_chicago_central_loop",
+    "usa_illinois_chicago_sofitel_chicago_water_tower",
+    "usa_illinois_chicago_hilton_garden_inn_chicago_downtown_magnificent_mile",
+    "usa_illinois_chicago_conrad_chicago",
+    "usa_illinois_chicago_omni_chicago_hotel",
+    "usa_illinois_chicago_four_points_by_sheraton_chicago_downtown_magnificent_mile",
+    "usa_illinois_chicago_the_talbott_hotel",
+    "usa_illinois_chicago_courtyard_by_marriott_chicago_downtown_magnificent_mile",
+    "usa_illinois_chicago_the_silversmith_hotel_suites",
+    "usa_illinois_chicago_hampton_inn_majestic_chicago",
+    "usa_illinois_chicago_holiday_inn_chicago_mart_plaza",
+    "usa_illinois_chicago_days_inn_chicago",
+    "usa_illinois_chicago_hotel_blake",
+    "usa_illinois_chicago_the_peninsula_chicago",
+    "usa_illinois_chicago_avenue_hotel_chicago",
+    "usa_illinois_chicago_park_hyatt_chicago",
+    "usa_illinois_chicago_trump_international_hotel_tower_chicago",
+    "usa_illinois_chicago_fairfield_inn_suites_chicago_downtown",
+    "usa_illinois_chicago_the_ritz_carlton_chicago_a_four_seasons_hotel"
+  ],
+  "Where should I stay to avoid the typical tourist experience?": [
+    "usa_illinois_chicago_ambassador_east_hotel",
+    "usa_illinois_chicago_the_talbott_hotel",
+    "usa_illinois_chicago_the_peninsula_chicago"
+  ],
+  "What’s the best basecamp for urban adventurers who love street art and hidden alleys?": [
+    "usa_illinois_chicago_james_chicago",
+    "usa_illinois_chicago_renaissance_chicago_hotel",
+    "usa_illinois_chicago_the_westin_chicago_river_north"
+  ],
+  "Recommend a hotel for visitors who just want to observe passersby.": [
+    "usa_illinois_chicago_renaissance_chicago_hotel",
+    "usa_illinois_chicago_swissotel_chicago",
+    "usa_illinois_chicago_hotel_monaco_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_holiday_inn_chicago_mart_plaza",
+    "usa_illinois_chicago_marriott_chicago_downtown_magnificent_mile",
+    "usa_illinois_chicago_river_hotel",
+    "usa_illinois_chicago_the_westin_michigan_avenue_chicago",
+    "usa_illinois_chicago_the_sutton_place_hotel",
+    "usa_illinois_chicago_the_peninsula_chicago"
+  ],
+  "What’s the most family-friendly hotel with activities for all ages?": [
+    "usa_illinois_chicago_homewood_suites_by_hilton_chicago_downtown",
+    "usa_illinois_chicago_embassy_suites_hotel_chicago_downtown_lakefront",
+    "usa_illinois_chicago_hampton_inn_and_suites_chicago_downtown",
+    "usa_illinois_chicago_embassy_suites_hotel_chicago_downtown",
+    "usa_illinois_chicago_hotel_monaco_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_omni_chicago_hotel",
+    "usa_illinois_chicago_trump_international_hotel_tower_chicago",
+    "usa_illinois_chicago_four_seasons_hotel_chicago",
+    "usa_illinois_chicago_the_ritz_carlton_chicago_a_four_seasons_hotel"
+  ],
+  "Can you suggest a peaceful retreat for a quiet getaway?": [
+    "usa_illinois_chicago_hotel_indigo_chicago_downtown_gold_coast",
+    "usa_illinois_chicago_dana_hotel_spa",
+    "usa_illinois_chicago_ambassador_east_hotel",
+    "usa_illinois_chicago_park_hyatt_chicago",
+    "usa_illinois_chicago_four_seasons_hotel_chicago"
+  ],
+  "Which places serve artisanal coffee or rare teas in their lobby?": [
+    "usa_illinois_chicago_the_peninsula_chicago"
+  ],
+  "What's a good hotel for someone who likes watching street life?": [
+    "usa_illinois_chicago_hotel_burnham_a_kimpton_hotel",
+    "usa_illinois_chicago_renaissance_chicago_hotel",
+    "usa_illinois_chicago_ambassador_east_hotel",
+    "usa_illinois_chicago_hotel_monaco_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_hard_rock_hotel_chicago",
+    "usa_illinois_chicago_hilton_garden_inn_chicago_downtown_magnificent_mile",
+    "usa_illinois_chicago_swissotel_chicago",
+    "usa_illinois_chicago_amalfi_hotel_chicago",
+    "usa_illinois_chicago_holiday_inn_chicago_mart_plaza",
+    "usa_illinois_chicago_inn_of_chicago_magnificent_mile",
+    "usa_illinois_chicago_millennium_knickerbocker_hotel_chicago",
+    "usa_illinois_chicago_intercontinental_chicago",
+    "usa_illinois_chicago_four_points_by_sheraton_chicago_downtown_magnificent_mile",
+    "usa_illinois_chicago_sheraton_chicago_hotel_and_towers",
+    "usa_illinois_chicago_river_hotel",
+    "usa_illinois_chicago_the_westin_michigan_avenue_chicago",
+    "usa_illinois_chicago_comfort_inn_suites_downtown",
+    "usa_illinois_chicago_courtyard_by_marriott_chicago_downtown_magnificent_mile",
+    "usa_illinois_chicago_the_silversmith_hotel_suites",
+    "usa_illinois_chicago_dana_hotel_spa",
+    "usa_illinois_chicago_the_sutton_place_hotel",
+    "usa_illinois_chicago_wyndham_chicago",
+    "usa_illinois_chicago_park_hyatt_chicago",
+    "usa_illinois_chicago_hilton_suites_chicago_magnificent_mile"
+  ],
+  "Where should wellness-focused travelers stay for a rejuvenating experience?": [
+    "usa_illinois_chicago_dana_hotel_spa",
+    "usa_illinois_chicago_park_hyatt_chicago",
+    "usa_illinois_chicago_the_peninsula_chicago",
+    "usa_illinois_chicago_four_seasons_hotel_chicago",
+    "usa_illinois_chicago_trump_international_hotel_tower_chicago"
+  ],
+  "Which accommodations attract a young, dynamic crowd?": [
+    "usa_illinois_chicago_w_chicago_lakeshore",
+    "usa_illinois_chicago_w_chicago_city_center",
+    "usa_illinois_chicago_james_chicago",
+    "usa_illinois_chicago_hotel_sax_chicago",
+    "usa_illinois_chicago_dana_hotel_spa"
+  ],
+  "Recommend a hotel for extended family gatherings.": [
+    "usa_illinois_chicago_homewood_suites_by_hilton_chicago_downtown",
+    "usa_illinois_chicago_embassy_suites_hotel_chicago_downtown_lakefront",
+    "usa_illinois_chicago_hampton_inn_and_suites_chicago_downtown",
+    "usa_illinois_chicago_embassy_suites_hotel_chicago_downtown",
+    "usa_illinois_chicago_omni_chicago_hotel",
+    "usa_illinois_chicago_hilton_suites_chicago_magnificent_mile",
+    "usa_illinois_chicago_trump_international_hotel_tower_chicago",
+    "usa_illinois_chicago_the_talbott_hotel",
+    "usa_illinois_chicago_seneca_hotel",
+    "usa_illinois_chicago_the_peninsula_chicago",
+    "usa_illinois_chicago_four_seasons_hotel_chicago",
+    "usa_illinois_chicago_the_ritz_carlton_chicago_a_four_seasons_hotel"
+  ],
+  "I love history – any hotels with interesting historical connections?": [
+    "usa_illinois_chicago_ambassador_east_hotel",
+    "usa_illinois_chicago_hotel_burnham_a_kimpton_hotel",
+    "usa_illinois_chicago_intercontinental_chicago",
+    "usa_illinois_chicago_the_drake",
+    "usa_illinois_chicago_hilton_chicago",
+    "usa_illinois_chicago_congress_plaza_hotel",
+    "usa_illinois_chicago_the_blackstone_a_renaissance_hotel",
+    "usa_illinois_chicago_the_palmer_house_hilton",
+    "usa_illinois_chicago_millennium_knickerbocker_hotel_chicago"
+  ],
+  "Which places should I stay during an artistic slump?": [
+    "usa_illinois_chicago_hotel_burnham_a_kimpton_hotel"
+  ],
+  "Where can I stay for unobstructed mountain or skyline views?": [
+    "usa_illinois_chicago_swissotel_chicago",
+    "usa_illinois_chicago_w_chicago_lakeshore",
+    "usa_illinois_chicago_sheraton_chicago_hotel_and_towers",
+    "usa_illinois_chicago_renaissance_chicago_hotel",
+    "usa_illinois_chicago_sofitel_chicago_water_tower",
+    "usa_illinois_chicago_park_hyatt_chicago",
+    "usa_illinois_chicago_dana_hotel_spa",
+    "usa_illinois_chicago_holiday_inn_chicago_mart_plaza",
+    "usa_illinois_chicago_hotel_monaco_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_the_drake",
+    "usa_illinois_chicago_marriott_chicago_downtown_magnificent_mile",
+    "usa_illinois_chicago_the_blackstone_a_renaissance_hotel",
+    "usa_illinois_chicago_trump_international_hotel_tower_chicago",
+    "usa_illinois_chicago_four_seasons_hotel_chicago",
+    "usa_illinois_chicago_the_ritz_carlton_chicago_a_four_seasons_hotel"
+  ],
+  "Can you recommend a hotel with a great coffee or tea scene?": [
+    "usa_illinois_chicago_amalfi_hotel_chicago",
+    "usa_illinois_chicago_hotel_burnham_a_kimpton_hotel",
+    "usa_illinois_chicago_the_peninsula_chicago",
+    "usa_illinois_chicago_hilton_garden_inn_chicago_downtown_magnificent_mile",
+    "usa_illinois_chicago_marriott_chicago_downtown_magnificent_mile",
+    "usa_illinois_chicago_the_drake",
+    "usa_illinois_chicago_intercontinental_chicago"
+  ],
+  "What’s the best place to stay to live like a local for a week?": [
+    "usa_illinois_chicago_james_chicago"
+  ],
+  "Where's the best place to stay if I want to experience nightlife?": [
+    "usa_illinois_chicago_w_chicago_lakeshore",
+    "usa_illinois_chicago_hard_rock_hotel_chicago",
+    "usa_illinois_chicago_hotel_sax_chicago",
+    "usa_illinois_chicago_james_chicago",
+    "usa_illinois_chicago_hotel_indigo_chicago_downtown_gold_coast",
+    "usa_illinois_chicago_the_sutton_place_hotel",
+    "usa_illinois_chicago_affinia_chicago",
+    "usa_illinois_chicago_the_westin_michigan_avenue_chicago",
+    "usa_illinois_chicago_dana_hotel_spa"
+  ],
+  "Which hotels have the coolest architecture or design?": [
+    "usa_illinois_chicago_sofitel_chicago_water_tower",
+    "usa_illinois_chicago_w_chicago_city_center",
+    "usa_illinois_chicago_w_chicago_lakeshore",
+    "usa_illinois_chicago_hotel_burnham_a_kimpton_hotel",
+    "usa_illinois_chicago_hotel_allegro_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_hard_rock_hotel_chicago",
+    "usa_illinois_chicago_hotel_indigo_chicago_downtown_gold_coast",
+    "usa_illinois_chicago_the_palmer_house_hilton",
+    "usa_illinois_chicago_james_chicago",
+    "usa_illinois_chicago_dana_hotel_spa",
+    "usa_illinois_chicago_intercontinental_chicago",
+    "usa_illinois_chicago_the_blackstone_a_renaissance_hotel",
+    "usa_illinois_chicago_park_hyatt_chicago",
+    "usa_illinois_chicago_trump_international_hotel_tower_chicago",
+    "usa_illinois_chicago_the_drake",
+    "usa_illinois_chicago_the_peninsula_chicago"
+  ],
+  "Recommend a hotel with excellent inclement weather alternatives.": [
+    "usa_illinois_chicago_the_peninsula_chicago",
+    "usa_illinois_chicago_hilton_chicago_o_hare_airport"
+  ],
+  "Suggest a hotel that's ideal for traveling with adolescents.": [
+    "usa_illinois_chicago_homewood_suites_by_hilton_chicago_downtown",
+    "usa_illinois_chicago_embassy_suites_hotel_chicago_downtown_lakefront",
+    "usa_illinois_chicago_hampton_inn_and_suites_chicago_downtown",
+    "usa_illinois_chicago_hilton_garden_inn_chicago_downtown_magnificent_mile",
+    "usa_illinois_chicago_embassy_suites_hotel_chicago_downtown",
+    "usa_illinois_chicago_courtyard_by_marriott_chicago_downtown_magnificent_mile",
+    "usa_illinois_chicago_omni_chicago_hotel",
+    "usa_illinois_chicago_hampton_inn_majestic_chicago",
+    "usa_illinois_chicago_hilton_suites_chicago_magnificent_mile",
+    "usa_illinois_chicago_hotel_monaco_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_millennium_knickerbocker_hotel_chicago",
+    "usa_illinois_chicago_trump_international_hotel_tower_chicago",
+    "usa_illinois_chicago_seneca_hotel",
+    "usa_illinois_chicago_four_seasons_hotel_chicago",
+    "usa_illinois_chicago_the_ritz_carlton_chicago_a_four_seasons_hotel"
+  ],
+  "Where can I stay to feel like part of a community?": [
+    "usa_illinois_chicago_the_talbott_hotel"
+  ],
+  "Are there affordable hotels that still feel special?": [
+    "usa_illinois_chicago_sofitel_chicago_water_tower",
+    "usa_illinois_chicago_hilton_garden_inn_chicago_downtown_magnificent_mile",
+    "usa_illinois_chicago_hotel_burnham_a_kimpton_hotel",
+    "usa_illinois_chicago_hotel_monaco_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_homewood_suites_by_hilton_chicago_downtown",
+    "usa_illinois_chicago_the_talbott_hotel",
+    "usa_illinois_chicago_dana_hotel_spa",
+    "usa_illinois_chicago_conrad_chicago",
+    "usa_illinois_chicago_hampton_inn_majestic_chicago",
+    "usa_illinois_chicago_hampton_inn_and_suites_chicago_downtown",
+    "usa_illinois_chicago_inn_of_chicago_magnificent_mile",
+    "usa_illinois_chicago_comfort_inn_suites_downtown",
+    "usa_illinois_chicago_embassy_suites_hotel_chicago_downtown_lakefront",
+    "usa_illinois_chicago_red_roof_inn"
+  ],
+  "Suggest a hotel with special aquatic features.": [
+    "usa_illinois_chicago_intercontinental_chicago",
+    "usa_illinois_chicago_hilton_chicago",
+    "usa_illinois_chicago_chicago_s_essex_inn",
+    "usa_illinois_chicago_hilton_garden_inn_chicago_downtown_magnificent_mile",
+    "usa_illinois_chicago_homewood_suites_by_hilton_chicago_downtown",
+    "usa_illinois_chicago_the_peninsula_chicago",
+    "usa_illinois_chicago_renaissance_chicago_o_hare_suites_hotel",
+    "usa_illinois_chicago_wyndham_chicago",
+    "usa_illinois_chicago_four_seasons_hotel_chicago"
+  ],
+  "Are there hotels with truly unique architecture?": [
+    "usa_illinois_chicago_w_chicago_lakeshore",
+    "usa_illinois_chicago_intercontinental_chicago",
+    "usa_illinois_chicago_sofitel_chicago_water_tower",
+    "usa_illinois_chicago_congress_plaza_hotel",
+    "usa_illinois_chicago_hilton_chicago",
+    "usa_illinois_chicago_hotel_burnham_a_kimpton_hotel",
+    "usa_illinois_chicago_hotel_indigo_chicago_downtown_gold_coast",
+    "usa_illinois_chicago_the_blackstone_a_renaissance_hotel",
+    "usa_illinois_chicago_the_palmer_house_hilton",
+    "usa_illinois_chicago_trump_international_hotel_tower_chicago",
+    "usa_illinois_chicago_hotel_sax_chicago"
+  ],
+  "Which accommodations are most welcoming to pet owners?": [
+    "usa_illinois_chicago_hotel_allegro_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_hotel_monaco_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_hotel_burnham_a_kimpton_hotel",
+    "usa_illinois_chicago_hilton_chicago",
+    "usa_illinois_chicago_james_chicago",
+    "usa_illinois_chicago_the_sutton_place_hotel",
+    "usa_illinois_chicago_sofitel_chicago_water_tower",
+    "usa_illinois_chicago_avenue_hotel_chicago",
+    "usa_illinois_chicago_w_chicago_city_center",
+    "usa_illinois_chicago_trump_international_hotel_tower_chicago",
+    "usa_illinois_chicago_fairmont_chicago_millennium_park",
+    "usa_illinois_chicago_park_hyatt_chicago",
+    "usa_illinois_chicago_holiday_inn_chicago_mart_plaza",
+    "usa_illinois_chicago_crowne_plaza_chicago_the_metro"
+  ],
+  "Suggest a hotel that's appropriate for collective festivities.": [
+    "usa_illinois_chicago_hotel_allegro_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_w_chicago_lakeshore",
+    "usa_illinois_chicago_homewood_suites_by_hilton_chicago_downtown",
+    "usa_illinois_chicago_intercontinental_chicago",
+    "usa_illinois_chicago_james_chicago",
+    "usa_illinois_chicago_embassy_suites_hotel_chicago_downtown_lakefront",
+    "usa_illinois_chicago_trump_international_hotel_tower_chicago",
+    "usa_illinois_chicago_embassy_suites_hotel_chicago_downtown",
+    "usa_illinois_chicago_the_drake"
+  ],
+  "Which stays offer a serene environment for mindfulness and reflection?": [
+    "usa_illinois_chicago_park_hyatt_chicago"
+  ],
+  "What are the best accommodations for history buffs?": [
+    "usa_illinois_chicago_the_blackstone_a_renaissance_hotel",
+    "usa_illinois_chicago_intercontinental_chicago",
+    "usa_illinois_chicago_the_palmer_house_hilton",
+    "usa_illinois_chicago_hotel_burnham_a_kimpton_hotel",
+    "usa_illinois_chicago_the_drake"
+  ],
+  "I love history – where should I stay to feel immersed in the past?": [
+    "usa_illinois_chicago_ambassador_east_hotel",
+    "usa_illinois_chicago_hilton_chicago",
+    "usa_illinois_chicago_hotel_burnham_a_kimpton_hotel",
+    "usa_illinois_chicago_the_palmer_house_hilton",
+    "usa_illinois_chicago_the_drake",
+    "usa_illinois_chicago_congress_plaza_hotel",
+    "usa_illinois_chicago_millennium_knickerbocker_hotel_chicago",
+    "usa_illinois_chicago_the_blackstone_a_renaissance_hotel",
+    "usa_illinois_chicago_intercontinental_chicago"
+  ],
+  "Where's the best place to stay for a relaxing, screen-free weekend?": [
+    "usa_illinois_chicago_dana_hotel_spa",
+    "usa_illinois_chicago_the_peninsula_chicago"
+  ],
+  "Suggest a hotel with inviting shared spaces.": [
+    "usa_illinois_chicago_hotel_allegro_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_hilton_chicago",
+    "usa_illinois_chicago_the_palmer_house_hilton",
+    "usa_illinois_chicago_hotel_monaco_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_amalfi_hotel_chicago",
+    "usa_illinois_chicago_the_westin_chicago_river_north",
+    "usa_illinois_chicago_park_hyatt_chicago",
+    "usa_illinois_chicago_the_peninsula_chicago",
+    "usa_illinois_chicago_the_drake",
+    "usa_illinois_chicago_the_talbott_hotel"
+  ],
+  "What’s the best hotel for experiencing a city after dark?": [
+    "usa_illinois_chicago_w_chicago_city_center",
+    "usa_illinois_chicago_w_chicago_lakeshore",
+    "usa_illinois_chicago_hotel_sax_chicago",
+    "usa_illinois_chicago_james_chicago",
+    "usa_illinois_chicago_renaissance_chicago_hotel",
+    "usa_illinois_chicago_hotel_indigo_chicago_downtown_gold_coast",
+    "usa_illinois_chicago_affinia_chicago",
+    "usa_illinois_chicago_marriott_chicago_downtown_magnificent_mile",
+    "usa_illinois_chicago_swissotel_chicago",
+    "usa_illinois_chicago_the_sutton_place_hotel",
+    "usa_illinois_chicago_holiday_inn_chicago_mart_plaza",
+    "usa_illinois_chicago_dana_hotel_spa",
+    "usa_illinois_chicago_the_peninsula_chicago",
+    "usa_illinois_chicago_trump_international_hotel_tower_chicago"
+  ],
+  "Can you recommend accommodations with a clean, Scandinavian-inspired aesthetic?": [
+    "usa_illinois_chicago_sofitel_chicago_water_tower"
+  ],
+  "What’s the best hotel to fully immerse in a city’s nightlife?": [
+    "usa_illinois_chicago_w_chicago_lakeshore",
+    "usa_illinois_chicago_w_chicago_city_center",
+    "usa_illinois_chicago_hard_rock_hotel_chicago",
+    "usa_illinois_chicago_hotel_sax_chicago",
+    "usa_illinois_chicago_james_chicago",
+    "usa_illinois_chicago_hotel_indigo_chicago_downtown_gold_coast",
+    "usa_illinois_chicago_the_sutton_place_hotel",
+    "usa_illinois_chicago_dana_hotel_spa"
+  ],
+  "Recommend a hotel with exceptional sound insulation for light sleepers.": [
+    "usa_illinois_chicago_sofitel_chicago_water_tower",
+    "usa_illinois_chicago_hampton_inn_majestic_chicago",
+    "usa_illinois_chicago_renaissance_chicago_o_hare_suites_hotel",
+    "usa_illinois_chicago_the_peninsula_chicago"
+  ],
+  "What hotel has the most stunning panoramic views?": [
+    "usa_illinois_chicago_swissotel_chicago",
+    "usa_illinois_chicago_w_chicago_lakeshore",
+    "usa_illinois_chicago_hyatt_regency_chicago",
+    "usa_illinois_chicago_sofitel_chicago_water_tower",
+    "usa_illinois_chicago_intercontinental_chicago",
+    "usa_illinois_chicago_park_hyatt_chicago",
+    "usa_illinois_chicago_affinia_chicago",
+    "usa_illinois_chicago_sheraton_chicago_hotel_and_towers",
+    "usa_illinois_chicago_holiday_inn_chicago_mart_plaza",
+    "usa_illinois_chicago_renaissance_chicago_hotel",
+    "usa_illinois_chicago_hilton_chicago",
+    "usa_illinois_chicago_dana_hotel_spa",
+    "usa_illinois_chicago_the_drake",
+    "usa_illinois_chicago_trump_international_hotel_tower_chicago",
+    "usa_illinois_chicago_hilton_suites_chicago_magnificent_mile",
+    "usa_illinois_chicago_the_peninsula_chicago",
+    "usa_illinois_chicago_hyatt_regency_mccormick_place",
+    "usa_illinois_chicago_the_ritz_carlton_chicago_a_four_seasons_hotel",
+    "usa_illinois_chicago_four_seasons_hotel_chicago"
+  ],
+  "Recommend a hotel with unique architectural features I won't find elsewhere.": [
+    "usa_illinois_chicago_sofitel_chicago_water_tower",
+    "usa_illinois_chicago_w_chicago_lakeshore",
+    "usa_illinois_chicago_hotel_allegro_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_hotel_burnham_a_kimpton_hotel",
+    "usa_illinois_chicago_hilton_chicago",
+    "usa_illinois_chicago_james_chicago",
+    "usa_illinois_chicago_congress_plaza_hotel",
+    "usa_illinois_chicago_dana_hotel_spa",
+    "usa_illinois_chicago_the_palmer_house_hilton",
+    "usa_illinois_chicago_the_blackstone_a_renaissance_hotel",
+    "usa_illinois_chicago_hotel_monaco_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_swissotel_chicago",
+    "usa_illinois_chicago_the_drake",
+    "usa_illinois_chicago_hotel_sax_chicago",
+    "usa_illinois_chicago_intercontinental_chicago",
+    "usa_illinois_chicago_park_hyatt_chicago",
+    "usa_illinois_chicago_trump_international_hotel_tower_chicago"
+  ],
+  "Recommend a hotel with exceptional nighttime ambiance.": [
+    "usa_illinois_chicago_w_chicago_lakeshore",
+    "usa_illinois_chicago_hotel_monaco_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_dana_hotel_spa",
+    "usa_illinois_chicago_park_hyatt_chicago",
+    "usa_illinois_chicago_trump_international_hotel_tower_chicago",
+    "usa_illinois_chicago_the_peninsula_chicago",
+    "usa_illinois_chicago_holiday_inn_chicago_mart_plaza"
+  ],
+  "Recommend a hotel that works well for reconnecting with old friends.": [
+    "usa_illinois_chicago_james_chicago",
+    "usa_illinois_chicago_hotel_sax_chicago",
+    "usa_illinois_chicago_the_peninsula_chicago"
+  ],
+  "Recommend a hotel that feels like a community, not just a place to sleep.": [
+    "usa_illinois_chicago_amalfi_hotel_chicago",
+    "usa_illinois_chicago_james_chicago",
+    "usa_illinois_chicago_homewood_suites_by_hilton_chicago_downtown",
+    "usa_illinois_chicago_the_talbott_hotel",
+    "usa_illinois_chicago_courtyard_by_marriott_chicago_downtown_magnificent_mile"
+  ],
+  "Where should I stay that balances privacy and community?": [
+    "usa_illinois_chicago_the_peninsula_chicago"
+  ],
+  "What are the best hotels for history buffs?": [
+    "usa_illinois_chicago_ambassador_east_hotel",
+    "usa_illinois_chicago_the_drake",
+    "usa_illinois_chicago_the_blackstone_a_renaissance_hotel",
+    "usa_illinois_chicago_the_palmer_house_hilton",
+    "usa_illinois_chicago_hotel_burnham_a_kimpton_hotel"
+  ],
+  "Suggest a hotel with distinctive fragrance throughout.": [
+    "usa_illinois_chicago_sofitel_chicago_water_tower",
+    "usa_illinois_chicago_hotel_indigo_chicago_downtown_gold_coast"
+  ],
+  "Where can I find a hotel for tea lovers?": [
+    "usa_illinois_chicago_the_peninsula_chicago",
+    "usa_illinois_chicago_the_drake",
+    "usa_illinois_chicago_four_seasons_hotel_chicago"
+  ],
+  "Recommend a hotel for pet owners.": [
+    "usa_illinois_chicago_hotel_allegro_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_hotel_monaco_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_hotel_burnham_a_kimpton_hotel",
+    "usa_illinois_chicago_affinia_chicago",
+    "usa_illinois_chicago_sofitel_chicago_water_tower",
+    "usa_illinois_chicago_hilton_chicago",
+    "usa_illinois_chicago_james_chicago",
+    "usa_illinois_chicago_ambassador_east_hotel",
+    "usa_illinois_chicago_amalfi_hotel_chicago",
+    "usa_illinois_chicago_the_palmer_house_hilton",
+    "usa_illinois_chicago_w_chicago_city_center",
+    "usa_illinois_chicago_the_sutton_place_hotel",
+    "usa_illinois_chicago_trump_international_hotel_tower_chicago",
+    "usa_illinois_chicago_allerton_hotel",
+    "usa_illinois_chicago_fairmont_chicago_millennium_park",
+    "usa_illinois_chicago_avenue_hotel_chicago",
+    "usa_illinois_chicago_holiday_inn_chicago_mart_plaza"
+  ],
+  "Recommend a hotel for solo travelers.": [
+    "usa_illinois_chicago_sofitel_chicago_water_tower",
+    "usa_illinois_chicago_hilton_garden_inn_chicago_downtown_magnificent_mile",
+    "usa_illinois_chicago_affinia_chicago",
+    "usa_illinois_chicago_amalfi_hotel_chicago",
+    "usa_illinois_chicago_james_chicago",
+    "usa_illinois_chicago_the_talbott_hotel",
+    "usa_illinois_chicago_park_hyatt_chicago",
+    "usa_illinois_chicago_hampton_inn_majestic_chicago",
+    "usa_illinois_chicago_river_hotel",
+    "usa_illinois_chicago_fairfield_inn_suites_chicago_downtown",
+    "usa_illinois_chicago_hotel_blake",
+    "usa_illinois_chicago_dana_hotel_spa"
+  ],
+  "Where can I find hotels with authentic local experiences?": [
+    "usa_illinois_chicago_the_drake",
+    "usa_illinois_chicago_the_palmer_house_hilton",
+    "usa_illinois_chicago_the_peninsula_chicago",
+    "usa_illinois_chicago_days_inn_chicago"
+  ],
+  "Where can I find a hotel for wellness seekers?": [
+    "usa_illinois_chicago_dana_hotel_spa",
+    "usa_illinois_chicago_the_peninsula_chicago",
+    "usa_illinois_chicago_trump_international_hotel_tower_chicago",
+    "usa_illinois_chicago_four_seasons_hotel_chicago"
+  ],
+  "Recommend a hotel with inviting communal spaces.": [
+    "usa_illinois_chicago_hotel_allegro_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_w_chicago_lakeshore",
+    "usa_illinois_chicago_the_palmer_house_hilton",
+    "usa_illinois_chicago_hotel_monaco_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_hotel_sax_chicago",
+    "usa_illinois_chicago_the_peninsula_chicago",
+    "usa_illinois_chicago_the_blackstone_a_renaissance_hotel",
+    "usa_illinois_chicago_the_ritz_carlton_chicago_a_four_seasons_hotel"
+  ],
+  "Where can I stay that feels like a creative laboratory?": [
+    "usa_illinois_chicago_hotel_allegro_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_w_chicago_city_center",
+    "usa_illinois_chicago_hotel_indigo_chicago_downtown_gold_coast",
+    "usa_illinois_chicago_hotel_monaco_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_james_chicago"
+  ],
+  "What hotels cater best for tech-savvy travelers?": [
+    "usa_illinois_chicago_conrad_chicago"
+  ],
+  "Suggest a hotel perfect for solo travelers.": [
+    "usa_illinois_chicago_homewood_suites_by_hilton_chicago_downtown",
+    "usa_illinois_chicago_james_chicago",
+    "usa_illinois_chicago_hilton_garden_inn_chicago_downtown_magnificent_mile",
+    "usa_illinois_chicago_hotel_monaco_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_park_hyatt_chicago",
+    "usa_illinois_chicago_river_hotel",
+    "usa_illinois_chicago_allerton_hotel",
+    "usa_illinois_chicago_the_raffaello_hotel",
+    "usa_illinois_chicago_dana_hotel_spa",
+    "usa_illinois_chicago_hotel_blake",
+    "usa_illinois_chicago_four_seasons_hotel_chicago"
+  ],
+  "Recommend a hotel with unique water features.": [
+    "usa_illinois_chicago_intercontinental_chicago"
+  ],
+  "Where can I stay that honors historical narratives?": [
+    "usa_illinois_chicago_ambassador_east_hotel",
+    "usa_illinois_chicago_hilton_chicago",
+    "usa_illinois_chicago_hotel_burnham_a_kimpton_hotel",
+    "usa_illinois_chicago_intercontinental_chicago",
+    "usa_illinois_chicago_the_palmer_house_hilton",
+    "usa_illinois_chicago_the_blackstone_a_renaissance_hotel",
+    "usa_illinois_chicago_the_drake",
+    "usa_illinois_chicago_congress_plaza_hotel",
+    "usa_illinois_chicago_millennium_knickerbocker_hotel_chicago"
+  ],
+  "Suggest a hotel for family reunions.": [
+    "usa_illinois_chicago_homewood_suites_by_hilton_chicago_downtown",
+    "usa_illinois_chicago_embassy_suites_hotel_chicago_downtown_lakefront",
+    "usa_illinois_chicago_embassy_suites_hotel_chicago_downtown",
+    "usa_illinois_chicago_hampton_inn_and_suites_chicago_downtown",
+    "usa_illinois_chicago_omni_chicago_hotel",
+    "usa_illinois_chicago_hilton_suites_chicago_magnificent_mile",
+    "usa_illinois_chicago_park_hyatt_chicago",
+    "usa_illinois_chicago_best_western_river_north_chicago_downtown_hotel",
+    "usa_illinois_chicago_four_seasons_hotel_chicago",
+    "usa_illinois_chicago_the_ritz_carlton_chicago_a_four_seasons_hotel"
+  ],
+  "Where can I find a hotel for budget travelers?": [
+    "usa_illinois_chicago_homewood_suites_by_hilton_chicago_downtown",
+    "usa_illinois_chicago_inn_of_chicago_magnificent_mile",
+    "usa_illinois_chicago_best_western_river_north_chicago_downtown_hotel",
+    "usa_illinois_chicago_comfort_inn_suites_downtown",
+    "usa_illinois_chicago_hotel_cass_holiday_inn_express",
+    "usa_illinois_chicago_hampton_inn_majestic_chicago",
+    "usa_illinois_chicago_hotel_blake",
+    "usa_illinois_chicago_days_inn_chicago",
+    "usa_illinois_chicago_fairfield_inn_suites_chicago_downtown",
+    "usa_illinois_chicago_red_roof_inn",
+    "usa_illinois_chicago_travelodge_chicago_downtown"
+  ],
+  "Where can I stay that feels connected to the local community?": [
+    "usa_illinois_chicago_hotel_indigo_chicago_downtown_gold_coast"
+  ],
+  "What hotels offer the best handcrafted experiences?": [
+    "usa_illinois_chicago_the_peninsula_chicago"
+  ],
+  "What hotels offer the best balance of comfort and adventure?": [
+    "usa_illinois_chicago_james_chicago",
+    "usa_illinois_chicago_park_hyatt_chicago",
+    "usa_illinois_chicago_the_peninsula_chicago"
+  ],
+  "Recommend a hotel with exceptional literary connections.": [
+    "usa_illinois_chicago_ambassador_east_hotel",
+    "usa_illinois_chicago_the_blackstone_a_renaissance_hotel"
+  ],
+  "Recommend a hotel for urban explorers.": [
+    "usa_illinois_chicago_renaissance_chicago_hotel",
+    "usa_illinois_chicago_hotel_burnham_a_kimpton_hotel",
+    "usa_illinois_chicago_hilton_garden_inn_chicago_downtown_magnificent_mile",
+    "usa_illinois_chicago_james_chicago",
+    "usa_illinois_chicago_hampton_inn_majestic_chicago",
+    "usa_illinois_chicago_fairmont_chicago_millennium_park",
+    "usa_illinois_chicago_embassy_suites_hotel_chicago_downtown_lakefront"
+  ],
+  "Recommend a hotel with exceptional tea or coffee culture.": [
+    "usa_illinois_chicago_james_chicago",
+    "usa_illinois_chicago_the_peninsula_chicago",
+    "usa_illinois_chicago_homewood_suites_by_hilton_chicago_downtown"
+  ],
+  "Where can I stay to get the best of both city and nature?": [
+    "usa_illinois_chicago_hilton_chicago",
+    "usa_illinois_chicago_fairmont_chicago_millennium_park",
+    "usa_illinois_chicago_w_chicago_lakeshore",
+    "usa_illinois_chicago_park_hyatt_chicago"
+  ],
+  "What are the best hotels for wellness and relaxation?": [
+    "usa_illinois_chicago_park_hyatt_chicago",
+    "usa_illinois_chicago_dana_hotel_spa",
+    "usa_illinois_chicago_the_peninsula_chicago",
+    "usa_illinois_chicago_four_seasons_hotel_chicago"
+  ],
+  "Where can I stay that feels youthful and energetic?": [
+    "usa_illinois_chicago_hard_rock_hotel_chicago",
+    "usa_illinois_chicago_hotel_allegro_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_w_chicago_city_center",
+    "usa_illinois_chicago_sofitel_chicago_water_tower",
+    "usa_illinois_chicago_w_chicago_lakeshore",
+    "usa_illinois_chicago_hotel_monaco_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_hotel_sax_chicago",
+    "usa_illinois_chicago_james_chicago",
+    "usa_illinois_chicago_hotel_indigo_chicago_downtown_gold_coast",
+    "usa_illinois_chicago_dana_hotel_spa",
+    "usa_illinois_chicago_park_hyatt_chicago",
+    "usa_illinois_chicago_the_blackstone_a_renaissance_hotel"
+  ],
+  "Where can I find hotels with a unique architectural design?": [
+    "usa_illinois_chicago_sofitel_chicago_water_tower",
+    "usa_illinois_chicago_intercontinental_chicago",
+    "usa_illinois_chicago_hotel_burnham_a_kimpton_hotel",
+    "usa_illinois_chicago_hotel_monaco_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_hotel_indigo_chicago_downtown_gold_coast",
+    "usa_illinois_chicago_hotel_allegro_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_the_palmer_house_hilton",
+    "usa_illinois_chicago_the_blackstone_a_renaissance_hotel",
+    "usa_illinois_chicago_the_drake",
+    "usa_illinois_chicago_trump_international_hotel_tower_chicago",
+    "usa_illinois_chicago_hotel_sax_chicago"
+  ],
+  "Suggest a hotel that works well for working remotely.": [
+    "usa_illinois_chicago_club_quarters_chicago_central_loop",
+    "usa_illinois_chicago_homewood_suites_by_hilton_chicago_downtown",
+    "usa_illinois_chicago_hotel_monaco_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_james_chicago",
+    "usa_illinois_chicago_river_hotel",
+    "usa_illinois_chicago_omni_chicago_hotel",
+    "usa_illinois_chicago_the_peninsula_chicago",
+    "usa_illinois_chicago_dana_hotel_spa",
+    "usa_illinois_chicago_four_seasons_hotel_chicago"
+  ],
+  "What are some hotels that are great for slow mornings?": [
+    "usa_illinois_chicago_park_hyatt_chicago",
+    "usa_illinois_chicago_the_peninsula_chicago",
+    "usa_illinois_chicago_the_ritz_carlton_chicago_a_four_seasons_hotel"
+  ],
+  "Recommend a place where I won't feel like a tourist.": [
+    "usa_illinois_chicago_ambassador_east_hotel"
+  ],
+  "Recommend a hotel that works well for group celebrations.": [
+    "usa_illinois_chicago_hotel_monaco_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_embassy_suites_hotel_chicago_downtown_lakefront",
+    "usa_illinois_chicago_hard_rock_hotel_chicago",
+    "usa_illinois_chicago_trump_international_hotel_tower_chicago",
+    "usa_illinois_chicago_four_seasons_hotel_chicago"
+  ],
+  "Suggest a hotel that doesn't feel too polished.": [
+    "usa_illinois_chicago_seneca_hotel",
+    "usa_illinois_chicago_hampton_inn_and_suites_chicago_downtown",
+    "usa_illinois_chicago_hotel_indigo_chicago_downtown_gold_coast",
+    "usa_illinois_chicago_congress_plaza_hotel",
+    "usa_illinois_chicago_travelodge_chicago_downtown"
+  ],
+  "Where can I stay that fits a minimalist travel style?": [
+    "usa_illinois_chicago_dana_hotel_spa"
+  ],
+  "Where should I stay during a creative block?": [
+    "usa_illinois_chicago_the_peninsula_chicago"
+  ],
+  "Where can I stay that works well with young kids and no fuss?": [
+    "usa_illinois_chicago_homewood_suites_by_hilton_chicago_downtown",
+    "usa_illinois_chicago_embassy_suites_hotel_chicago_downtown_lakefront",
+    "usa_illinois_chicago_hampton_inn_and_suites_chicago_downtown",
+    "usa_illinois_chicago_omni_chicago_hotel",
+    "usa_illinois_chicago_hilton_garden_inn_chicago_downtown_magnificent_mile",
+    "usa_illinois_chicago_four_points_by_sheraton_chicago_downtown_magnificent_mile",
+    "usa_illinois_chicago_embassy_suites_hotel_chicago_downtown",
+    "usa_illinois_chicago_hilton_suites_chicago_magnificent_mile",
+    "usa_illinois_chicago_hotel_monaco_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_trump_international_hotel_tower_chicago",
+    "usa_illinois_chicago_four_seasons_hotel_chicago",
+    "usa_illinois_chicago_the_ritz_carlton_chicago_a_four_seasons_hotel",
+    "usa_illinois_chicago_the_silversmith_hotel_suites"
+  ],
+  "Where should I stay that matches a high-energy trip?": [
+    "usa_illinois_chicago_w_chicago_lakeshore",
+    "usa_illinois_chicago_intercontinental_chicago",
+    "usa_illinois_chicago_w_chicago_city_center",
+    "usa_illinois_chicago_james_chicago",
+    "usa_illinois_chicago_conrad_chicago",
+    "usa_illinois_chicago_hilton_garden_inn_chicago_downtown_magnificent_mile",
+    "usa_illinois_chicago_marriott_chicago_downtown_magnificent_mile",
+    "usa_illinois_chicago_hard_rock_hotel_chicago",
+    "usa_illinois_chicago_hampton_inn_majestic_chicago",
+    "usa_illinois_chicago_hotel_sax_chicago",
+    "usa_illinois_chicago_the_sutton_place_hotel"
+  ],
+  "Recommend a place for a solo birthday trip.": [
+    "usa_illinois_chicago_hilton_garden_inn_chicago_downtown_magnificent_mile",
+    "usa_illinois_chicago_hotel_monaco_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_hotel_burnham_a_kimpton_hotel",
+    "usa_illinois_chicago_hotel_indigo_chicago_downtown_gold_coast",
+    "usa_illinois_chicago_the_peninsula_chicago",
+    "usa_illinois_chicago_park_hyatt_chicago",
+    "usa_illinois_chicago_the_drake",
+    "usa_illinois_chicago_hampton_inn_majestic_chicago",
+    "usa_illinois_chicago_hotel_blake"
+  ],
+  "Where can I stay that fits well with a photography-heavy trip?": [
+    "usa_illinois_chicago_holiday_inn_chicago_mart_plaza",
+    "usa_illinois_chicago_trump_international_hotel_tower_chicago"
+  ],
+  "Recommend a hotel for travellers who just want to people-watch.": [
+    "usa_illinois_chicago_hotel_monaco_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_the_palmer_house_hilton",
+    "usa_illinois_chicago_intercontinental_chicago",
+    "usa_illinois_chicago_park_hyatt_chicago",
+    "usa_illinois_chicago_the_westin_michigan_avenue_chicago",
+    "usa_illinois_chicago_courtyard_by_marriott_chicago_downtown_magnificent_mile",
+    "usa_illinois_chicago_the_peninsula_chicago",
+    "usa_illinois_chicago_the_sutton_place_hotel"
+  ],
+  "Recommend a hotel that works well for traveling with teenagers.": [
+    "usa_illinois_chicago_homewood_suites_by_hilton_chicago_downtown",
+    "usa_illinois_chicago_hotel_monaco_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_embassy_suites_hotel_chicago_downtown_lakefront",
+    "usa_illinois_chicago_hilton_suites_chicago_magnificent_mile",
+    "usa_illinois_chicago_hampton_inn_and_suites_chicago_downtown",
+    "usa_illinois_chicago_embassy_suites_hotel_chicago_downtown",
+    "usa_illinois_chicago_chicago_s_essex_inn",
+    "usa_illinois_chicago_hampton_inn_majestic_chicago",
+    "usa_illinois_chicago_trump_international_hotel_tower_chicago",
+    "usa_illinois_chicago_seneca_hotel",
+    "usa_illinois_chicago_four_seasons_hotel_chicago",
+    "usa_illinois_chicago_the_ritz_carlton_chicago_a_four_seasons_hotel"
+  ],
+  "What hotels are affordable but don't feel basic?": [
+    "usa_illinois_chicago_hotel_monaco_chicago_a_kimpton_hotel",
+    "usa_illinois_chicago_hotel_burnham_a_kimpton_hotel",
+    "usa_illinois_chicago_hilton_garden_inn_chicago_downtown_magnificent_mile",
+    "usa_illinois_chicago_sofitel_chicago_water_tower",
+    "usa_illinois_chicago_james_chicago",
+    "usa_illinois_chicago_homewood_suites_by_hilton_chicago_downtown",
+    "usa_illinois_chicago_club_quarters_chicago_central_loop",
+    "usa_illinois_chicago_days_inn_chicago",
+    "usa_illinois_chicago_hampton_inn_majestic_chicago",
+    "usa_illinois_chicago_hotel_cass_holiday_inn_express",
+    "usa_illinois_chicago_dana_hotel_spa",
+    "usa_illinois_chicago_seneca_hotel",
+    "usa_illinois_chicago_renaissance_chicago_o_hare_suites_hotel"
+  ]
+}
