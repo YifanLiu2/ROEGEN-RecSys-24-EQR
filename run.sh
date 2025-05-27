@@ -3,7 +3,8 @@ embedder_type="st"
 retrieve_type="dense"
 mode="none"
 k=5
-domain="hotel_beijing"
+domain="TripAdvisor_Hotel"
+city="chicago"
 
 # for mode in "none" "q2e" "gqr" "q2d" "eqr_5" "eqr_8" "eqr_10" "eqr_12" "eqr_15"; do
 # for mode in "q2e"; do
@@ -13,13 +14,13 @@ for mode in "none"; do
 
         # path
         data_root_folder="data/${domain}"
-        query_path="${data_root_folder}/queries_final.txt"
-        ground_truth_path="${data_root_folder}/ground_truth_100_r8.json"
-        passage_dir="${data_root_folder}/corpus"
-        embedding_dir="${data_root_folder}/embeddings"
+        query_path="${data_root_folder}/queries.txt"
+        ground_truth_path="${data_root_folder}/ground_truth/gt_${city}.json"
+        passage_dir="${data_root_folder}/corpus/${city}"
+        embedding_dir="${data_root_folder}/embeddings/${city}"
 
         # path to save results
-        output_root_folder="output/${domain}/${mode}"
+        output_root_folder="output/${domain}/${mode}/${city}"
 
         doc_chunks_dir="${embedding_dir}/chunks/section"
         doc_embeddings_dir="${embedding_dir}/all-minilm-l6-v2/section"
